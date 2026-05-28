@@ -1,0 +1,15 @@
+.env
+logs/
+*.log
+__pycache__/
+*.pyc
+
+# raw/private data
+data/raw/
+data/pdf/
+data/private/
+*.sqlite
+*.db
+
+# local config
+config.local.yml
