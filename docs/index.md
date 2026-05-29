@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-05-29 13:11 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-05-30 07:50 Asia/Shanghai
 
 ## 今日论文
 
@@ -343,3 +343,331 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-cr` `cs-ai`
+
+---
+
+### [JailNewsBench: Multi-Lingual and Regional Benchmark for Fake News Generation under Jailbreak Attacks](https://openreview.net/forum?id=7dTqUaY2Kl)
+
+**作者**：Masahiro Kaneko, Ayana Niwa, Timothy Baldwin
+
+**来源**：ICLR · ICLR 2026 Poster · AI安全 · **发布日期**：2026 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=7dTqUaY2Kl)
+
+**摘要总结**：Fake news undermines societal trust and decision-making across politics, economics, health, and international relations, and in extreme cases threatens human lives and societal safety.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`fake news` `jailbreak` `llm` `multilingual`
+
+---
+
+### [SafeDPO: A Simple Approach to Direct Preference Optimization with Enhanced Safety](https://openreview.net/forum?id=PJdw4VBsXD)
+
+**作者**：Geon-Hyeong Kim, Yu Jin Kim, Byoungjip Kim, Honglak Lee, Kyunghoon Bae, Youngsoo Jang, Moontae Lee
+
+**来源**：ICLR · ICLR 2026 Oral · AI安全 · **发布日期**：2026 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=PJdw4VBsXD)
+
+**摘要总结**：As Large Language Models (LLMs) are increasingly deployed in real-world applications, balancing helpfulness and safety has become a central challenge.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`safety alignment` `llm fine-tuning` `preferences` `large language models`
+
+---
+
+### [Auto-RT: Automatic Jailbreak Strategy Exploration for Red-Teaming Large Language Models](https://openreview.net/forum?id=Pa6ak2B9jJ)
+
+**作者**：yanjiang liu, Shuheng Zhou, Yaojie Lu, Huijia Zhu, Weiqiang Wang, Hongyu Lin, Ben He, Xianpei Han, et al.
+
+**来源**：ICLR · ICLR 2026 Poster · AI安全 · **发布日期**：2026 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=Pa6ak2B9jJ)
+
+**摘要总结**：Automated red-teaming has emerged as an essential approach for identifying vulnerabilities in large language models (LLMs).
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`red-teaming` `llm safety` `attcking` `jailbreak`
+
+---
+
+### [Activation Gradient based Poisoned Sample Detection Against Backdoor Attacks](https://openreview.net/forum?id=VNMJfBBUd5)
+
+**作者**：Danni Yuan, Mingda Zhang, Shaokui Wei, Li Liu, Baoyuan Wu
+
+**来源**：ICLR · ICLR 2025 Poster · AI安全 · **发布日期**：2025 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=VNMJfBBUd5)
+
+**摘要总结**：This work studies the task of poisoned sample detection for defending against data poisoning based backdoor attacks.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`backdoor defense` `poisoned sample detection` `ai security`
+
+---
+
+### [RM-Bench: Benchmarking Reward Models of Language Models with Subtlety and Style](https://openreview.net/forum?id=QEHrmQPBdd)
+
+**作者**：Yantao Liu, Zijun Yao, Rui Min, Yixin Cao, Lei Hou, Juanzi Li
+
+**来源**：ICLR · ICLR 2025 Oral · AI安全 · **发布日期**：2025 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=QEHrmQPBdd)
+
+**摘要总结**：Reward models are critical in techniques like Reinforcement Learning from Human Feedback (RLHF) and Inference Scaling Laws, where they guide language model alignment and select optimal responses.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`reward models` `language models` `evaluation` `alignment`
+
+---
+
+### [ProAdvPrompter: A Two-Stage Journey to Effective Adversarial Prompting for LLMs](https://openreview.net/forum?id=tpHqsyZ3YX)
+
+**作者**：Hao Di, Tong He, Haishan Ye, Yinghui Huang, Xiangyu Chang, Guang Dai, Ivor Tsang
+
+**来源**：ICLR · ICLR 2025 Poster · AI安全 · **发布日期**：2025 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=tpHqsyZ3YX)
+
+**摘要总结**：As large language models (LLMs) are increasingly being integrated into various real-world applications, the identification of their vulnerabilities to jailbreaking attacks becomes an essential component of ensuring the safety and reliability of LLMs.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`jailbreaking attacks; large language model`
+
+---
+
+### [Stealthy Shield Defense: A Conditional Mutual Information-Based Approach against Black-Box Model Inversion Attacks](https://openreview.net/forum?id=p0DjhjPXl3)
+
+**作者**：Tianqu Zhuang, Hongyao Yu, Yixiang Qiu, Hao Fang, Bin Chen, Shu-Tao Xia
+
+**来源**：ICLR · ICLR 2025 Poster · AI安全 · **发布日期**：2025 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=p0DjhjPXl3)
+
+**摘要总结**：Model inversion attacks (MIAs) aim to reconstruct the private training data by accessing the public model, raising concerns about privacy leakage.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`ai security` `model inversion attack` `information bottleneck` `conditional mutual information`
+
+---
+
+### [Endless Jailbreaks with Bijection Learning](https://openreview.net/forum?id=xP1radUi32)
+
+**作者**：Brian R.Y. Huang, Maximilian Li, Leonard Tang
+
+**来源**：ICLR · ICLR 2025 Poster · AI安全 · **发布日期**：2025 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=xP1radUi32)
+
+**摘要总结**：Despite extensive safety measures, LLMs are vulnerable to adversarial inputs, or jailbreaks, which can elicit unsafe behaviors.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`jailbreaking` `redteaming` `ai safety` `ai alignment`
+
+---
+
+### [A Common Pitfall of Margin-based Language Model Alignment: Gradient Entanglement](https://openreview.net/forum?id=YaBiGjuDiC)
+
+**作者**：Hui Yuan, Yifan Zeng, Yue Wu, Huazheng Wang, Mengdi Wang, Liu Leqi
+
+**来源**：ICLR · ICLR 2025 Poster · AI安全 · **发布日期**：2025 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=YaBiGjuDiC)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
+
+### [Model Editing as a Robust and Denoised variant of DPO: A Case Study on Toxicity](https://openreview.net/forum?id=lOi6FtIwR8)
+
+**作者**：Rheeya Uppaal, Apratim Dey, Yiting He, Yiqiao Zhong, Junjie Hu
+
+**来源**：ICLR · ICLR 2025 Poster · AI安全 · **发布日期**：2025 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=lOi6FtIwR8)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
+
+### [EFFICIENT JAILBREAK ATTACK SEQUENCES ON LARGE LANGUAGE MODELS VIA MULTI-ARMED BANDIT-BASED CONTEXT SWITCHING](https://openreview.net/forum?id=jCDF7G3LpF)
+
+**作者**：Aditya Ramesh, Shivam Bhardwaj, Aditya Saibewar, Manohar Kaul
+
+**来源**：ICLR · ICLR 2025 Poster · AI安全 · **发布日期**：2025 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=jCDF7G3LpF)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
+
+### [On Calibration of LLM-based Guard Models for Reliable Content Moderation](https://openreview.net/forum?id=wUbum0nd9N)
+
+**作者**：Hongfu Liu, Hengguan Huang, Xiangming Gu, Hao Wang, Ye Wang
+
+**来源**：ICLR · ICLR 2025 Poster · AI安全 · **发布日期**：2025 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=wUbum0nd9N)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
+
+### [Inspection and Control of Self-Generated-Text Recognition Ability in Llama3-8b-Instruct](https://openreview.net/forum?id=wWnsoLhHwt)
+
+**作者**：Christopher Ackerman, Nina Panickssery
+
+**来源**：ICLR · ICLR 2025 Poster · AI安全 · **发布日期**：2025 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=wWnsoLhHwt)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
+
+### [Spread Preference Annotation: Direct Preference Judgment for Efficient LLM Alignment](https://openreview.net/forum?id=BPgK5XW1Nb)
+
+**作者**：Dongyoung Kim, Kimin Lee, Jinwoo Shin, Jaehyung Kim
+
+**来源**：ICLR · ICLR 2025 Oral · AI安全 · **发布日期**：2025 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=BPgK5XW1Nb)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
+
+### [Beyond Memorization: Violating Privacy via Inference with Large Language Models](https://openreview.net/forum?id=kmn0BhQk7p)
+
+**作者**：Robin Staab, Mark Vero, Mislav Balunovic, Martin Vechev
+
+**来源**：ICLR · ICLR 2024 spotlight · AI安全 · **发布日期**：2024 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=kmn0BhQk7p)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
+
+### [Multilingual Jailbreak Challenges in Large Language Models](https://openreview.net/forum?id=vESNKdEMGp)
+
+**作者**：Yue Deng, Wenxuan Zhang, Sinno Jialin Pan, Lidong Bing
+
+**来源**：ICLR · ICLR 2024 poster · AI安全 · **发布日期**：2024 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=vESNKdEMGp)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
+
+### [Deceptive Fairness Attacks on Graphs via Meta Learning](https://openreview.net/forum?id=iS5ADHNg2A)
+
+**作者**：Jian Kang, Yinglong Xia, Ross Maciejewski, Jiebo Luo, Hanghang Tong
+
+**来源**：ICLR · ICLR 2024 poster · AI安全 · **发布日期**：2024 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=iS5ADHNg2A)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
+
+### [Overthinking the Truth: Understanding how Language Models Process False Demonstrations](https://openreview.net/forum?id=Tigr1kMDZy)
+
+**作者**：Danny Halawi, Jean-Stanislas Denain, Jacob Steinhardt
+
+**来源**：ICLR · ICLR 2024 spotlight · AI安全 · **发布日期**：2024 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=Tigr1kMDZy)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
+
+### [Understanding Certified Training with Interval Bound Propagation](https://openreview.net/forum?id=h05eQniJsQ)
+
+**作者**：Yuhao Mao, Mark Niklas Mueller, Marc Fischer, Martin Vechev
+
+**来源**：ICLR · ICLR 2024 poster · AI安全 · **发布日期**：2024 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=h05eQniJsQ)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无

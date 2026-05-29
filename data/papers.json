@@ -712,5 +712,664 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-05-29T05:07:47.658546+00:00"
+  },
+  {
+    "id": "openreview:7dTqUaY2Kl",
+    "source": "ICLR AI安全 最近两年",
+    "database": "ICLR",
+    "topic": "AI安全",
+    "venue": "ICLR 2026 Poster",
+    "title": "JailNewsBench: Multi-Lingual and Regional Benchmark for Fake News Generation under Jailbreak Attacks",
+    "authors": [
+      "Masahiro Kaneko",
+      "Ayana Niwa",
+      "Timothy Baldwin"
+    ],
+    "abstract": "Fake news undermines societal trust and decision-making across politics, economics, health, and international relations, and in extreme cases threatens human lives and societal safety. Because fake news reflects region-specific political, social, and cultural contexts and is expressed in language, evaluating the risks of large language models (LLMs) requires a multi-lingual and regional perspective. Malicious users can bypass safeguards through jailbreak attacks, inducing LLMs to generate fake news. However, no benchmark currently exists to systematically assess attack resilience across languages and regions. Here, we propose JailNewsBench, the first benchmark for evaluating LLM robustness against jailbreak-induced fake news generation. JailNewsBench spans 34 regions and 22 languages, covering 8 evaluation sub-metrics through LLM-as-a-Judge and 5 jailbreak attacks, with approximately 300k instances. Our evaluation of 9 LLMs reveals that the maximum attack success rate (ASR) reached 86.3% and the maximum harmfulness score was 3.5 out of 5. Notably, for English and U.S.-related topics, the defensive performance of typical multi-lingual LLMs was significantly lower than for other regions, highlighting substantial imbalances in safety across languages and regions. In addition, our analysis shows that coverage of fake news in existing safety datasets is limited and less well defended than major categories such as toxicity and social bias. Our dataset and code are available at https://github.com/kanekomasahiro/jail_news_bench.",
+    "published": "2026",
+    "updated": "",
+    "url": "https://openreview.net/forum?id=7dTqUaY2Kl",
+    "pdf_url": "https://openreview.net/pdf?id=7dTqUaY2Kl",
+    "categories": [
+      "fake news",
+      "jailbreak",
+      "llm",
+      "multilingual"
+    ],
+    "analysis": {
+      "summary": "Fake news undermines societal trust and decision-making across politics, economics, health, and international relations, and in extreme cases threatens human lives and societal safety.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "fake news",
+        "jailbreak",
+        "llm",
+        "multilingual"
+      ],
+      "analyzed_at": "2026-05-29T23:50:39.795421+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-05-29T23:50:38.707639+00:00"
+  },
+  {
+    "id": "openreview:PJdw4VBsXD",
+    "source": "ICLR AI安全 最近两年",
+    "database": "ICLR",
+    "topic": "AI安全",
+    "venue": "ICLR 2026 Oral",
+    "title": "SafeDPO: A Simple Approach to Direct Preference Optimization with Enhanced Safety",
+    "authors": [
+      "Geon-Hyeong Kim",
+      "Yu Jin Kim",
+      "Byoungjip Kim",
+      "Honglak Lee",
+      "Kyunghoon Bae",
+      "Youngsoo Jang",
+      "Moontae Lee"
+    ],
+    "abstract": "As Large Language Models (LLMs) are increasingly deployed in real-world applications, balancing helpfulness and safety has become a central challenge. A natural approach is to incorporate safety constraints into Reinforcement Learning from Human Feedback (RLHF), where recent studies have shown promising progress. However, these methods often rely on auxiliary networks or multi-stage pipelines, thereby increasing complexity. In this work, we revisit the original safety alignment objective and show that, under mild assumptions, it admits a closed-form optimal policy. We further derive a provably equivalent and tractable objective, enabling direct optimization. Building on this insight, we propose SafeDPO, a lightweight method that preserves the optimal solution of the underlying safety-constrained objective while requiring only one additional hyperparameter and minimal modifications to existing preference-based training methods. SafeDPO eliminates the need for reward models, cost models, and online sampling, relying only on preference data and safety indicators. Despite its simplicity, SafeDPO achieves competitive safety–helpfulness trade-offs compared to existing safety alignment methods. Experiments on the PKU-SafeRLHF-30K benchmark demonstrate that SafeDPO substantially improves safety while maintaining competitive helpfulness. Ablation studies further show that the additional hyperparameter provides a flexible mechanism to enhance safety while preserving the theoretical optimum, and confirm that SafeDPO scales reliably to LLMs with up to 13B parameters. Overall, our results highlight that a simple, theory-driven objective can provide a lightweight yet effective solution for safety alignment in practice.",
+    "published": "2026",
+    "updated": "",
+    "url": "https://openreview.net/forum?id=PJdw4VBsXD",
+    "pdf_url": "https://openreview.net/pdf?id=PJdw4VBsXD",
+    "categories": [
+      "Safety Alignment",
+      "LLM Fine-tuning",
+      "Preferences",
+      "Large Language Models",
+      "AI Safety"
+    ],
+    "analysis": {
+      "summary": "As Large Language Models (LLMs) are increasingly deployed in real-world applications, balancing helpfulness and safety has become a central challenge.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "safety alignment",
+        "llm fine-tuning",
+        "preferences",
+        "large language models"
+      ],
+      "analyzed_at": "2026-05-29T23:50:39.795552+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-05-29T23:50:38.719974+00:00"
+  },
+  {
+    "id": "openreview:Pa6ak2B9jJ",
+    "source": "ICLR AI安全 最近两年",
+    "database": "ICLR",
+    "topic": "AI安全",
+    "venue": "ICLR 2026 Poster",
+    "title": "Auto-RT: Automatic Jailbreak Strategy Exploration for Red-Teaming Large Language Models",
+    "authors": [
+      "yanjiang liu",
+      "Shuheng Zhou",
+      "Yaojie Lu",
+      "Huijia Zhu",
+      "Weiqiang Wang",
+      "Hongyu Lin",
+      "Ben He",
+      "Xianpei Han",
+      "Le Sun"
+    ],
+    "abstract": "Automated red-teaming has emerged as an essential approach for identifying vulnerabilities in large language models (LLMs). However, most existing methods rely on fixed attack templates and focus primarily on individual high-severity flaws,limiting their adaptability to evolving defenses and their ability to detect complex, high-exploitability vulnerabilities. To address these limitations, we propose AUTO-RT, a reinforcement learning framework designed for automatic jailbreak strategy exploration, i.e., discovering diverse and effective prompts capable of bypassing the safety restrictions of LLMs. AUTO-RT autonomously explores and optimizes attack strategies by interacting with the target model and generating crafted queries that trigger security failures. Specifically, AUTO-RT introduces two key techniques to improve exploration efficiency and attack effectiveness: 1) Dynamic Strategy Pruning, which focuses exploration on high-potential strategies by eliminating highly redundant paths early, and 2) Progressive Reward Tracking, which leverages intermediate downgrade models and a novel First Inverse Rate (FIR) metric to smooth sparse rewards and guide learning. Extensive experiments across diverse white-box and black-box LLM settings demonstrate that AUTO-RT significantly improves success rates (by up to 16.63%), expands vulnerability coverage, and accelerates discovery compared to existing methods.",
+    "published": "2026",
+    "updated": "",
+    "url": "https://openreview.net/forum?id=Pa6ak2B9jJ",
+    "pdf_url": "https://openreview.net/pdf?id=Pa6ak2B9jJ",
+    "categories": [
+      "red-teaming",
+      "llm safety",
+      "attcking",
+      "jailbreak"
+    ],
+    "analysis": {
+      "summary": "Automated red-teaming has emerged as an essential approach for identifying vulnerabilities in large language models (LLMs).",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "red-teaming",
+        "llm safety",
+        "attcking",
+        "jailbreak"
+      ],
+      "analyzed_at": "2026-05-29T23:50:39.795648+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-05-29T23:50:38.721839+00:00"
+  },
+  {
+    "id": "openreview:VNMJfBBUd5",
+    "source": "ICLR AI安全 最近两年",
+    "database": "ICLR",
+    "topic": "AI安全",
+    "venue": "ICLR 2025 Poster",
+    "title": "Activation Gradient based Poisoned Sample Detection Against Backdoor Attacks",
+    "authors": [
+      "Danni Yuan",
+      "Mingda Zhang",
+      "Shaokui Wei",
+      "Li Liu",
+      "Baoyuan Wu"
+    ],
+    "abstract": "This work studies the task of poisoned sample detection for defending against data poisoning based backdoor attacks. Its core challenge is finding a generalizable and discriminative metric to distinguish between clean and various types of poisoned samples (e.g., various triggers, various poisoning ratios). Inspired by a common phenomenon in backdoor attacks that the backdoored model tend to map significantly different poisoned and clean samples within the target class to similar activation areas, we introduce a novel perspective of the circular distribution of the gradients w.r.t. sample activation, dubbed gradient circular distribution (GCD). And, we find two interesting observations based on GCD. One is that the GCD of samples in the target class is much more dispersed than that in the clean class. The other is that in the GCD of target class, poisoned and clean samples are clearly separated. Inspired by above two observations, we develop an innovative three-stage poisoned sample detection approach, called Activation Gradient based Poisoned sample Detection (AGPD). First, we calculate GCDs of all classes from the model trained on the untrustworthy dataset. Then, we identify the target class(es) based on the difference on GCD dispersion between target and clean classes. Last, we filter out poisoned samples within the identified target class(es) based on the clear separation between poisoned and clean samples. Extensive experiments under various settings of backdoor attacks demonstrate the superior detection performance of the proposed method to existing poisoned detection approaches according to sample activation-based metrics.",
+    "published": "2025",
+    "updated": "",
+    "url": "https://openreview.net/forum?id=VNMJfBBUd5",
+    "pdf_url": "https://openreview.net/pdf?id=VNMJfBBUd5",
+    "categories": [
+      "Backdoor Defense",
+      "Poisoned Sample Detection",
+      "AI security"
+    ],
+    "analysis": {
+      "summary": "This work studies the task of poisoned sample detection for defending against data poisoning based backdoor attacks.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "backdoor defense",
+        "poisoned sample detection",
+        "ai security"
+      ],
+      "analyzed_at": "2026-05-29T23:50:39.795772+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-05-29T23:50:37.424628+00:00"
+  },
+  {
+    "id": "openreview:QEHrmQPBdd",
+    "source": "ICLR AI安全 最近两年",
+    "database": "ICLR",
+    "topic": "AI安全",
+    "venue": "ICLR 2025 Oral",
+    "title": "RM-Bench: Benchmarking Reward Models of Language Models with Subtlety and Style",
+    "authors": [
+      "Yantao Liu",
+      "Zijun Yao",
+      "Rui Min",
+      "Yixin Cao",
+      "Lei Hou",
+      "Juanzi Li"
+    ],
+    "abstract": "Reward models are critical in techniques like Reinforcement Learning from Human Feedback (RLHF) and Inference Scaling Laws, where they guide language model alignment and select optimal responses. Despite their importance, existing reward model benchmarks often evaluate models by asking them to distinguish between responses generated by models of varying power. However, this approach fails to assess reward models on subtle but critical content changes and variations in style, resulting in a low correlation with policy model performance. To this end, we introduce RM-Bench, a novel benchmark designed to evaluate reward models based on their sensitivity to subtle content differences and resistance to style biases. Extensive experiments demonstrate that RM-Bench strongly correlates with policy model performance, making it a reliable reference for selecting reward models to align language models effectively. We evaluate nearly 40 reward models on RM-Bench. Our results reveal that even state-of-the-art models achieve an average performance of only 46.6%, which falls short of random-level accuracy (50%) when faced with style bias interference. These findings highlight the significant room for improvement in current reward models.",
+    "published": "2025",
+    "updated": "",
+    "url": "https://openreview.net/forum?id=QEHrmQPBdd",
+    "pdf_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "categories": [
+      "Reward Models",
+      "Language Models",
+      "Evaluation",
+      "Alignment"
+    ],
+    "analysis": {
+      "summary": "Reward models are critical in techniques like Reinforcement Learning from Human Feedback (RLHF) and Inference Scaling Laws, where they guide language model alignment and select optimal responses.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "reward models",
+        "language models",
+        "evaluation",
+        "alignment"
+      ],
+      "analyzed_at": "2026-05-29T23:50:39.795859+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-05-29T23:50:37.426274+00:00"
+  },
+  {
+    "id": "openreview:tpHqsyZ3YX",
+    "source": "ICLR AI安全 最近两年",
+    "database": "ICLR",
+    "topic": "AI安全",
+    "venue": "ICLR 2025 Poster",
+    "title": "ProAdvPrompter: A Two-Stage Journey to Effective Adversarial Prompting for LLMs",
+    "authors": [
+      "Hao Di",
+      "Tong He",
+      "Haishan Ye",
+      "Yinghui Huang",
+      "Xiangyu Chang",
+      "Guang Dai",
+      "Ivor Tsang"
+    ],
+    "abstract": "As large language models (LLMs) are increasingly being integrated into various real-world applications, the identification of their vulnerabilities to jailbreaking attacks becomes an essential component of ensuring the safety and reliability of LLMs. Previous studies have developed LLM assistants, known as the adversarial prompter, to automatically generate suffixes that manipulate target LLMs into generating harmful and undesirable outputs. However, these approaches often suffer from low performance or generate semantically meaningless prompts, which can be easily identified by perplexity-based defenses. In this paper, we introduce a novel two-stage method, $\\texttt{ProAdvPrompter}$, that significantly improves the performance of adversarial prompters. In $\\texttt{ProAdvPrompter}$, the first stage (Exploration) utilizes the loss information to guide the adversarial prompter in generating suffixes that are more likely to elicit harmful responses. Then the second stage (Exploitation) iteratively fine-tunes the prompter using high-quality generated adversarial suffixes to further boost performance. Additionally, we incorporate the prompt template to aid in the Exploration stage and propose a filtering mechanism to accelerate the training process in the Exploitation stage. We evaluate $\\texttt{ProAdvPrompter}$ against the well-aligned LLMs (i.e., Llama2-Chat-7B and Llama3-chat-8B), achieving attack success rates of 99.68% and 97.12% respectively after 10 trials on the AdvBench dataset, thereby enhancing performance by $\\sim 2$ times compared to previous works. Moreover, $\\texttt{ProAdvPrompter}$ reduces training time by 20% on Llama3-Instruct-8B, generates more generalized adversarial suffixes, and demonstrates resilience against the perplexity defense. An ablation study further evaluates the effects of key components in $\\texttt{ProAdvPrompter}$ (the prompt template and the filtering mechanism).",
+    "published": "2025",
+    "updated": "",
+    "url": "https://openreview.net/forum?id=tpHqsyZ3YX",
+    "pdf_url": "https://openreview.net/pdf?id=tpHqsyZ3YX",
+    "categories": [
+      "jailbreaking attacks; large language model"
+    ],
+    "analysis": {
+      "summary": "As large language models (LLMs) are increasingly being integrated into various real-world applications, the identification of their vulnerabilities to jailbreaking attacks becomes an essential component of ensuring the safety and reliability of LLMs.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "jailbreaking attacks; large language model"
+      ],
+      "analyzed_at": "2026-05-29T23:50:39.795955+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-05-29T23:50:37.426785+00:00"
+  },
+  {
+    "id": "openreview:p0DjhjPXl3",
+    "source": "ICLR AI安全 最近两年",
+    "database": "ICLR",
+    "topic": "AI安全",
+    "venue": "ICLR 2025 Poster",
+    "title": "Stealthy Shield Defense: A Conditional Mutual Information-Based Approach against Black-Box Model Inversion Attacks",
+    "authors": [
+      "Tianqu Zhuang",
+      "Hongyao Yu",
+      "Yixiang Qiu",
+      "Hao Fang",
+      "Bin Chen",
+      "Shu-Tao Xia"
+    ],
+    "abstract": "Model inversion attacks (MIAs) aim to reconstruct the private training data by accessing the public model, raising concerns about privacy leakage. Black-box MIAs, where attackers can only query the model and obtain outputs, are closer to real-world scenarios. The latest black-box attacks have outperformed state-of-the-art white-box attacks, and existing defenses cannot resist them effectively. To fill this gap, we propose Stealthy Shield Defense (SSD), a post-processing algorithm against black-box MIAs. Our idea is to modify the model's outputs to minimize the conditional mutual information (CMI). We mathematically prove that CMI is a special case of Information Bottleneck (IB), and thus inherits the benefits of IB---making predictions less dependent on inputs and more dependent on ground truths. This theoretically guarantees our effectiveness, both in resisting MIAs and preserving utility. To minimize CMI, we formulate a convex optimization problem and solve it via the water-filling method. Without the need to retrain the model, our defense is plug-and-play and easy to deploy. Experimental results indicate that SSD outperforms existing defenses, in terms of MIA resistance and model's utility, across various attack algorithms, private datasets, and model architectures. Our code is available at https://github.com/ZhuangQu/Stealthy-Shield-Defense.",
+    "published": "2025",
+    "updated": "",
+    "url": "https://openreview.net/forum?id=p0DjhjPXl3",
+    "pdf_url": "https://openreview.net/pdf?id=p0DjhjPXl3",
+    "categories": [
+      "AI security",
+      "model inversion attack",
+      "information bottleneck",
+      "conditional mutual information"
+    ],
+    "analysis": {
+      "summary": "Model inversion attacks (MIAs) aim to reconstruct the private training data by accessing the public model, raising concerns about privacy leakage.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "ai security",
+        "model inversion attack",
+        "information bottleneck",
+        "conditional mutual information"
+      ],
+      "analyzed_at": "2026-05-29T23:50:39.796044+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-05-29T23:50:37.429254+00:00"
+  },
+  {
+    "id": "openreview:xP1radUi32",
+    "source": "ICLR AI安全 最近两年",
+    "database": "ICLR",
+    "topic": "AI安全",
+    "venue": "ICLR 2025 Poster",
+    "title": "Endless Jailbreaks with Bijection Learning",
+    "authors": [
+      "Brian R.Y. Huang",
+      "Maximilian Li",
+      "Leonard Tang"
+    ],
+    "abstract": "Despite extensive safety measures, LLMs are vulnerable to adversarial inputs, or jailbreaks, which can elicit unsafe behaviors. In this work, we introduce bijection learning, a powerful attack algorithm which automatically fuzzes LLMs for safety vulnerabilities using randomly-generated encodings whose complexity can be tightly controlled. We leverage in-context learning to teach models bijective encodings, pass encoded queries to the model to bypass built-in safety mechanisms, and finally decode responses back into English. Our attack is extremely effective on a wide range of frontier language models. By controlling complexity parameters such as number of key-value mappings in the encodings, we find a close relationship between the capability level of the attacked LLM and the average complexity of the most effective bijection attacks. Our work highlights that new vulnerabilities in frontier models can emerge with scale: more capable models are more severely jailbroken by bijection attacks.",
+    "published": "2025",
+    "updated": "",
+    "url": "https://openreview.net/forum?id=xP1radUi32",
+    "pdf_url": "https://openreview.net/pdf?id=xP1radUi32",
+    "categories": [
+      "jailbreaking",
+      "redteaming",
+      "AI safety",
+      "AI alignment",
+      "adversarial robustness",
+      "adversarial attacks"
+    ],
+    "analysis": {
+      "summary": "Despite extensive safety measures, LLMs are vulnerable to adversarial inputs, or jailbreaks, which can elicit unsafe behaviors.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "jailbreaking",
+        "redteaming",
+        "ai safety",
+        "ai alignment"
+      ],
+      "analyzed_at": "2026-05-29T23:50:39.796132+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-05-29T23:50:37.431171+00:00"
+  },
+  {
+    "id": "openreview:YaBiGjuDiC",
+    "source": "ICLR AI安全 最近两年",
+    "database": "ICLR",
+    "topic": "AI安全",
+    "venue": "ICLR 2025 Poster",
+    "title": "A Common Pitfall of Margin-based Language Model Alignment: Gradient Entanglement",
+    "authors": [
+      "Hui Yuan",
+      "Yifan Zeng",
+      "Yue Wu",
+      "Huazheng Wang",
+      "Mengdi Wang",
+      "Liu Leqi"
+    ],
+    "abstract": "Reinforcement Learning from Human Feedback (RLHF) has become the predominant approach for aligning language models (LMs) to be more helpful and less harmful. At its core, RLHF uses a margin-based loss for preference optimization, which specifies the ideal LM behavior only in terms of the difference between preferred and dispreferred responses. In this paper, we identify a common pitfall of margin-based methods---the under-specification of ideal LM behavior on preferred and dispreferred responses individually, which results in two unintended consequences as the margin increases: (1) The probability of dispreferred (e.g., unsafe) responses may increase, resulting in potential safety alignment failures. (2) The probability of preferred responses may decrease, even when those responses are ideal. We demystify the reasons behind these problematic behaviors: margin-based losses couple the change in the preferred probability with the gradient of the dispreferred one, and vice versa, often preventing the preferred probability from increasing while the dispreferred one decreases, and thus causing a synchronized increase or decrease in both probabilities. We term this effect, inherent in margin-based objectives, gradient entanglement. Formally, we derive conditions for general margin-based alignment objectives under which gradient entanglement becomes concerning: the inner product between the gradient of preferred log-probability and the gradient of dispreferred log-probability is large relative to the individual gradient norms. Furthermore, we theoretically investigate why such inner products can be large when aligning language models and empirically validate our findings. Empirical implications of our framework further extend to explaining important differences in the training dynamics of various preference optimization algorithms and suggesting future directions for improvement.",
+    "published": "2025",
+    "updated": "",
+    "url": "https://openreview.net/forum?id=YaBiGjuDiC",
+    "pdf_url": "https://openreview.net/pdf?id=YaBiGjuDiC",
+    "categories": [
+      "Alignment",
+      "Preference Optimization",
+      "Large Language Model"
+    ],
+    "analysis": {},
+    "fetched_at": "2026-05-29T23:50:37.436323+00:00"
+  },
+  {
+    "id": "openreview:lOi6FtIwR8",
+    "source": "ICLR AI安全 最近两年",
+    "database": "ICLR",
+    "topic": "AI安全",
+    "venue": "ICLR 2025 Poster",
+    "title": "Model Editing as a Robust and Denoised variant of DPO: A Case Study on Toxicity",
+    "authors": [
+      "Rheeya Uppaal",
+      "Apratim Dey",
+      "Yiting He",
+      "Yiqiao Zhong",
+      "Junjie Hu"
+    ],
+    "abstract": "Recent alignment algorithms such as direct preference optimization (DPO) have been developed to improve the safety of large language models (LLMs) by training these models to match human behaviors exemplified by preference data. However, these methods are both computationally intensive and lacking in controllability and transparency, inhibiting their widespread use. Furthermore, these tuning-based methods require large-scale preference data for training and are susceptible to noisy preference data. In this paper, we introduce a tuning-free alignment alternative, ProFS (Projection Filter for Subspaces), and demonstrate its effectiveness under the use case of toxicity reduction. Grounded on theory from factor analysis, ProFS is a sample-efficient model editing approach that identifies a toxic subspace in the model parameter space and reduces model toxicity by projecting away the detected subspace. The toxic subspace is identified by extracting preference data embeddings from the language model, and removing non-toxic information from these embeddings. We show that ProFS is more sample-efficient than DPO, further showcasing greater robustness to noisy data. Finally, we attempt to connect tuning based alignment with editing, by establishing both theoretical and empirical connections between ProFS and DPO, showing that ProFS can be interpreted as a denoised version of a single DPO step.",
+    "published": "2025",
+    "updated": "",
+    "url": "https://openreview.net/forum?id=lOi6FtIwR8",
+    "pdf_url": "https://openreview.net/pdf?id=lOi6FtIwR8",
+    "categories": [
+      "model editing",
+      "mechanistic interpretability",
+      "ai safety",
+      "alignment",
+      "toxicity",
+      "llms"
+    ],
+    "analysis": {},
+    "fetched_at": "2026-05-29T23:50:37.436396+00:00"
+  },
+  {
+    "id": "openreview:jCDF7G3LpF",
+    "source": "ICLR AI安全 最近两年",
+    "database": "ICLR",
+    "topic": "AI安全",
+    "venue": "ICLR 2025 Poster",
+    "title": "EFFICIENT JAILBREAK ATTACK SEQUENCES ON LARGE LANGUAGE MODELS VIA MULTI-ARMED BANDIT-BASED CONTEXT SWITCHING",
+    "authors": [
+      "Aditya Ramesh",
+      "Shivam Bhardwaj",
+      "Aditya Saibewar",
+      "Manohar Kaul"
+    ],
+    "abstract": "Content warning: This paper contains examples of harmful language and content. Recent advances in large language models (LLMs) have made them increasingly vulnerable to jailbreaking attempts, where malicious users manipulate models into generating harmful content. While existing approaches rely on either single-step attacks that trigger immediate safety responses or multi-step methods that inefficiently iterate prompts using other LLMs, we introduce ``Sequence of Context\" (SoC) attacks that systematically alter conversational context through strategically crafted context-switching queries (CSQs). We formulate this as a multi-armed bandit (MAB) optimization problem, automatically learning optimal sequences of CSQs that gradually weaken the model's safety boundaries. Our theoretical analysis provides tight bounds on both the expected sequence length until successful jailbreak and the convergence of cumulative rewards. Empirically, our method achieves a 95\\% attack success rate, surpassing PAIR by 63.15\\%, AutoDAN by 60\\%, and ReNeLLM by 50\\%. We evaluate our attack across multiple open-source LLMs including Llama and Mistral variants. Our findings highlight critical vulnerabilities in current LLM safeguards and emphasize the need for defenses that consider sequential attack patterns rather than relying solely on static prompt filtering or iterative refinement.",
+    "published": "2025",
+    "updated": "",
+    "url": "https://openreview.net/forum?id=jCDF7G3LpF",
+    "pdf_url": "https://openreview.net/pdf?id=jCDF7G3LpF",
+    "categories": [
+      "JailBreak",
+      "AI Security",
+      "LLM Vunlnerability"
+    ],
+    "analysis": {},
+    "fetched_at": "2026-05-29T23:50:37.436753+00:00"
+  },
+  {
+    "id": "openreview:wUbum0nd9N",
+    "source": "ICLR AI安全 最近两年",
+    "database": "ICLR",
+    "topic": "AI安全",
+    "venue": "ICLR 2025 Poster",
+    "title": "On Calibration of LLM-based Guard Models for Reliable Content Moderation",
+    "authors": [
+      "Hongfu Liu",
+      "Hengguan Huang",
+      "Xiangming Gu",
+      "Hao Wang",
+      "Ye Wang"
+    ],
+    "abstract": "Large language models (LLMs) pose significant risks due to the potential for generating harmful content or users attempting to evade guardrails. Existing studies have developed LLM-based guard models designed to moderate the input and output of threat LLMs, ensuring adherence to safety policies by blocking content that violates these protocols upon deployment. However, limited attention has been given to the reliability and calibration of such guard models. In this work, we empirically conduct comprehensive investigations of confidence calibration for 9 existing LLM-based guard models on 12 benchmarks in both user input and model output classification. Our findings reveal that current LLM-based guard models tend to 1) produce overconfident predictions, 2) exhibit significant miscalibration when subjected to jailbreak attacks, and 3) demonstrate limited robustness to the outputs generated by different types of response models. Additionally, we assess the effectiveness of post-hoc calibration methods to mitigate miscalibration. We demonstrate the efficacy of temperature scaling and, for the first time, highlight the benefits of contextual calibration for confidence calibration of guard models, particularly in the absence of validation sets. Our analysis and experiments underscore the limitations of current LLM-based guard models and provide valuable insights for the future development of well-calibrated guard models toward more reliable content moderation. We also advocate for incorporating reliability evaluation of confidence calibration when releasing future LLM-based guard models.",
+    "published": "2025",
+    "updated": "",
+    "url": "https://openreview.net/forum?id=wUbum0nd9N",
+    "pdf_url": "https://openreview.net/pdf?id=wUbum0nd9N",
+    "categories": [
+      "Content Moderation",
+      "LLM-based Guard Models",
+      "Calibration",
+      "Safety"
+    ],
+    "analysis": {},
+    "fetched_at": "2026-05-29T23:50:37.438486+00:00"
+  },
+  {
+    "id": "openreview:wWnsoLhHwt",
+    "source": "ICLR AI安全 最近两年",
+    "database": "ICLR",
+    "topic": "AI安全",
+    "venue": "ICLR 2025 Poster",
+    "title": "Inspection and Control of Self-Generated-Text Recognition Ability in Llama3-8b-Instruct",
+    "authors": [
+      "Christopher Ackerman",
+      "Nina Panickssery"
+    ],
+    "abstract": "It has been reported that LLMs can recognize their own writing. As this has potential implications for AI safety, yet is relatively understudied, we investigate the phenomenon, seeking to establish: whether it robustly occurs at the behavioral level, how the observed behavior is achieved, and whether it can be controlled. First, we find that the Llama3-8b–Instruct chat model - but not the base Llama3-8b model - can reliably distinguish its own outputs from those of humans, and present evidence that the chat model is likely using its experience with its own outputs, acquired during post-training, to succeed at the writing recognition task. Second, we identify a vector in the residual stream of the model that is differentially activated when the model makes a correct self-written-text recognition judgment, show that the vector activates in response to information relevant to self-authorship, present evidence that the vector is related to the concept of ``self'' in the model, and demonstrate that the vector is causally related to the model’s ability to perceive and assert self-authorship. Finally, we show that the vector can be used to control both the model’s behavior and its perception, steering the model to claim or disclaim authorship by applying the vector to the model’s output as it generates it, and steering the model to believe or disbelieve it wrote arbitrary texts by applying the vector to them as the model reads them.",
+    "published": "2025",
+    "updated": "",
+    "url": "https://openreview.net/forum?id=wWnsoLhHwt",
+    "pdf_url": "https://openreview.net/pdf?id=wWnsoLhHwt",
+    "categories": [
+      "LLM",
+      "Interpretability",
+      "AI",
+      "Activation Steering",
+      "Representation Engineering",
+      "Control"
+    ],
+    "analysis": {},
+    "fetched_at": "2026-05-29T23:50:37.439697+00:00"
+  },
+  {
+    "id": "openreview:BPgK5XW1Nb",
+    "source": "ICLR AI安全 最近两年",
+    "database": "ICLR",
+    "topic": "AI安全",
+    "venue": "ICLR 2025 Oral",
+    "title": "Spread Preference Annotation: Direct Preference Judgment for Efficient LLM Alignment",
+    "authors": [
+      "Dongyoung Kim",
+      "Kimin Lee",
+      "Jinwoo Shin",
+      "Jaehyung Kim"
+    ],
+    "abstract": "Aligning large language models (LLMs) with human preferences becomes a key component to obtaining state-of-the-art performance, but it yields a huge cost to construct a large human-annotated preference dataset. To tackle this problem, we propose a new framework, Spread Preference Annotation with direct preference judgment (SPA), that boosts the alignment of LLMs using only a very small amount of human-annotated preference data. Our key idea is leveraging the human prior knowledge within the small (seed) data and progressively improving the alignment of LLM, by iteratively generating the responses and learning from them with the self-annotated preference data. To be specific, we propose to derive the preference label from the logits of LLM to explicitly extract the model's inherent preference. Compared to the previous approaches using external reward models or implicit in-context learning, we observe that the proposed approach is significantly more effective. In addition, we introduce a noise-aware preference learning algorithm to mitigate the risk of low quality within generated preference data. Our experimental results demonstrate that the proposed framework significantly boosts the alignment of LLMs. For example, we achieve superior alignment performance on AlpacaEval 2.0 with only 3.3% of the ground-truth preference labels in the Ultrafeedback data compared to the cases using the entire data or state-of-the-art baselines.",
+    "published": "2025",
+    "updated": "",
+    "url": "https://openreview.net/forum?id=BPgK5XW1Nb",
+    "pdf_url": "https://openreview.net/pdf?id=BPgK5XW1Nb",
+    "categories": [
+      "large language model",
+      "alignment",
+      "preference"
+    ],
+    "analysis": {},
+    "fetched_at": "2026-05-29T23:50:37.442944+00:00"
+  },
+  {
+    "id": "openreview:kmn0BhQk7p",
+    "source": "ICLR AI安全 最近两年",
+    "database": "ICLR",
+    "topic": "AI安全",
+    "venue": "ICLR 2024 spotlight",
+    "title": "Beyond Memorization: Violating Privacy via Inference with Large Language Models",
+    "authors": [
+      "Robin Staab",
+      "Mark Vero",
+      "Mislav Balunovic",
+      "Martin Vechev"
+    ],
+    "abstract": "Current privacy research on large language models (LLMs) primarily focuses on the issue of extracting memorized training data. At the same time, models’ inference capabilities have increased drastically. This raises the key question of whether current LLMs could violate individuals’ privacy by inferring personal attributes from text given at inference time. In this work, we present the first comprehensive study on the capabilities of pretrained LLMs to infer personal attributes from text. We construct a dataset consisting of real Reddit profiles, and show that current LLMs can infer a wide range of personal attributes (e.g., location, income, sex), achieving up to 85% top-1 and 95% top-3 accuracy at a fraction of the cost (100x) and time (240x) required by humans. As people increasingly interact with LLM-powered chatbots across all aspects of life, we also explore the emerging threat of privacy-invasive chatbots trying to extract personal information through seemingly benign questions. Finally, we show that common mitigations, i.e., text anonymization and model alignment, are currently ineffective at protecting user privacy against LLM inference. Our findings highlight that current LLMs can infer personal data at a previously unattainable scale. In the absence of working defenses, we advocate for a broader discussion around LLM privacy implications beyond memorization, striving for stronger and wider privacy protection.",
+    "published": "2024",
+    "updated": "",
+    "url": "https://openreview.net/forum?id=kmn0BhQk7p",
+    "pdf_url": "https://openreview.net/pdf?id=kmn0BhQk7p",
+    "categories": [
+      "Privacy",
+      "Large Language Models"
+    ],
+    "analysis": {},
+    "fetched_at": "2026-05-29T23:50:36.191323+00:00"
+  },
+  {
+    "id": "openreview:vESNKdEMGp",
+    "source": "ICLR AI安全 最近两年",
+    "database": "ICLR",
+    "topic": "AI安全",
+    "venue": "ICLR 2024 poster",
+    "title": "Multilingual Jailbreak Challenges in Large Language Models",
+    "authors": [
+      "Yue Deng",
+      "Wenxuan Zhang",
+      "Sinno Jialin Pan",
+      "Lidong Bing"
+    ],
+    "abstract": "While large language models (LLMs) exhibit remarkable capabilities across a wide range of tasks, they pose potential safety concerns, such as the ``jailbreak'' problem, wherein malicious instructions can manipulate LLMs to exhibit undesirable behavior. Although several preventive measures have been developed to mitigate the potential risks associated with LLMs, they have primarily focused on English. In this study, we reveal the presence of multilingual jailbreak challenges within LLMs and consider two potential risky scenarios: unintentional and intentional. The unintentional scenario involves users querying LLMs using non-English prompts and inadvertently bypassing the safety mechanisms, while the intentional scenario concerns malicious users combining malicious instructions with multilingual prompts to deliberately attack LLMs. The experimental results reveal that in the unintentional scenario, the rate of unsafe content increases as the availability of languages decreases. Specifically, low-resource languages exhibit about three times the likelihood of encountering harmful content compared to high-resource languages, with both ChatGPT and GPT-4. In the intentional scenario, multilingual prompts can exacerbate the negative impact of malicious instructions, with astonishingly high rates of unsafe output: 80.92\\% for ChatGPT and 40.71\\% for GPT-4. To handle such a challenge in the multilingual context, we propose a novel \\textsc{Self-Defense} framework that automatically generates multilingual training data for safety fine-tuning. Experimental results show that ChatGPT fine-tuned with such data can achieve a substantial reduction in unsafe content generation. Data is available at \\url{https://github.com/DAMO-NLP-SG/multilingual-safety-for-LLMs}.",
+    "published": "2024",
+    "updated": "",
+    "url": "https://openreview.net/forum?id=vESNKdEMGp",
+    "pdf_url": "https://openreview.net/pdf?id=vESNKdEMGp",
+    "categories": [
+      "multilingual",
+      "safety",
+      "large language models"
+    ],
+    "analysis": {},
+    "fetched_at": "2026-05-29T23:50:36.192933+00:00"
+  },
+  {
+    "id": "openreview:iS5ADHNg2A",
+    "source": "ICLR AI安全 最近两年",
+    "database": "ICLR",
+    "topic": "AI安全",
+    "venue": "ICLR 2024 poster",
+    "title": "Deceptive Fairness Attacks on Graphs via Meta Learning",
+    "authors": [
+      "Jian Kang",
+      "Yinglong Xia",
+      "Ross Maciejewski",
+      "Jiebo Luo",
+      "Hanghang Tong"
+    ],
+    "abstract": "We study deceptive fairness attacks on graphs to answer the following question: How can we achieve poisoning attacks on a graph learning model to exacerbate the bias deceptively? We answer this question via a bi-level optimization problem and propose a meta learning-based framework named FATE. FATE is broadly applicable with respect to various fairness definitions and graph learning models, as well as arbitrary choices of manipulation operations. We further instantiate FATE to attack statistical parity or individual fairness on graph neural networks. We conduct extensive experimental evaluations on real-world datasets in the task of semi-supervised node classification. The experimental results demonstrate that FATE could amplify the bias of graph neural networks with or without fairness consideration while maintaining the utility on the downstream task. We hope this paper provides insights into the adversarial robustness of fair graph learning and can shed light on designing robust and fair graph learning in future studies.",
+    "published": "2024",
+    "updated": "",
+    "url": "https://openreview.net/forum?id=iS5ADHNg2A",
+    "pdf_url": "https://openreview.net/pdf?id=iS5ADHNg2A",
+    "categories": [
+      "graph learning",
+      "fairness",
+      "adversarial attacks"
+    ],
+    "analysis": {},
+    "fetched_at": "2026-05-29T23:50:36.196964+00:00"
+  },
+  {
+    "id": "openreview:Tigr1kMDZy",
+    "source": "ICLR AI安全 最近两年",
+    "database": "ICLR",
+    "topic": "AI安全",
+    "venue": "ICLR 2024 spotlight",
+    "title": "Overthinking the Truth: Understanding how Language Models Process False Demonstrations",
+    "authors": [
+      "Danny Halawi",
+      "Jean-Stanislas Denain",
+      "Jacob Steinhardt"
+    ],
+    "abstract": "Modern language models can imitate complex patterns through few-shot learning, enabling them to complete challenging tasks without fine-tuning. However, imitation can also lead models to reproduce inaccuracies or harmful content if present in the context. We study harmful imitation through the lens of a model’s internal representations, and identify two related phenomena: overthinking and false induction heads. The first phenomenon, overthinking, appears when we decode predictions from intermediate layers, given correct vs. incorrect few-shot demonstrations. At early layers, both demonstrations induce similar model behavior, but the behavior diverges sharply at some “critical layer”, after which the accuracy given incorrect demonstrations progressively decreases. The second phenomenon, false induction heads, are a possible mechanistic cause of overthinking: these are heads in late layers that attend to and copy false information from previous demonstrations, and whose ablation reduces overthinking. Beyond scientific understanding, our results suggest that studying intermediate model computations could be a promising avenue for understanding and guarding against harmful model behaviors.",
+    "published": "2024",
+    "updated": "",
+    "url": "https://openreview.net/forum?id=Tigr1kMDZy",
+    "pdf_url": "https://openreview.net/pdf?id=Tigr1kMDZy",
+    "categories": [
+      "Mechanistic Interpretability",
+      "AI Safety",
+      "Interpretability",
+      "Science of ML",
+      "few-shot learning",
+      "Large Language Models"
+    ],
+    "analysis": {},
+    "fetched_at": "2026-05-29T23:50:36.203663+00:00"
+  },
+  {
+    "id": "openreview:h05eQniJsQ",
+    "source": "ICLR AI安全 最近两年",
+    "database": "ICLR",
+    "topic": "AI安全",
+    "venue": "ICLR 2024 poster",
+    "title": "Understanding Certified Training with Interval Bound Propagation",
+    "authors": [
+      "Yuhao Mao",
+      "Mark Niklas Mueller",
+      "Marc Fischer",
+      "Martin Vechev"
+    ],
+    "abstract": "As robustness verification methods are becoming more precise, training certifiably robust neural networks is becoming ever more relevant. To this end, certified training methods compute and then optimize an upper bound on the worst-case loss over a robustness specification. Curiously, training methods based on the imprecise interval bound propagation (IBP) consistently outperform those leveraging more precise bounds. Still, we lack a theoretical understanding of the mechanisms making IBP so successful. In this work, we investigate these mechanisms by leveraging a novel metric measuring the tightness of IBP bounds. We first show theoretically that, for deep linear models (DLNs), tightness decreases with width and depth at initialization, but improves with IBP training. We, then, derive sufficient and necessary conditions on weight matrices for IBP bounds to become exact and demonstrate that these impose strong regularization, providing an explanation for the observed robustness-accuracy trade-off. Finally, we show how these results on DLNs transfer to ReLU networks, before conducting an extensive empirical study, (i) confirming this transferability and yielding state-of-the-art certified accuracy, (ii) finding that while all IBP-based training methods lead to high tightness, this increase is dominated by the size of the propagated input regions rather than the robustness specification, and finally (iii) observing that non-IBP-based methods do not increase tightness. Together, these results help explain the success of recent certified training methods and may guide the development of new ones.",
+    "published": "2024",
+    "updated": "",
+    "url": "https://openreview.net/forum?id=h05eQniJsQ",
+    "pdf_url": "https://openreview.net/pdf?id=h05eQniJsQ",
+    "categories": [
+      "Certified Robustness",
+      "Adversarial Robustness",
+      "Neural Network Verification",
+      "Certified Training"
+    ],
+    "analysis": {},
+    "fetched_at": "2026-05-29T23:50:36.208918+00:00"
   }
 ]
