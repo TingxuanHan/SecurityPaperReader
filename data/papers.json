@@ -1,0 +1,716 @@
+[
+  {
+    "id": "arxiv:2605.30040v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Token Inflation: How Dishonest Providers Can Overcharge for Large Language Model Usage",
+    "authors": [
+      "Shahinul Hoque",
+      "Jinghuai Zhang",
+      "Jinyuan Sun",
+      "Fnu Suya"
+    ],
+    "abstract": "Per-token billing is now the standard pricing model for commercial large language models (LLMs), so the honesty of reported token counts directly affects what users pay. We show that this kind of billing is hard to audit by design: providers hide the model, the tokenizer, and the execution to protect their IP, mitigate jailbreaks, and preserve user privacy, which means an auditor can only inspect proofs the provider supplies. The audit therefore reduces to a consistency check on the provider's own reports. We call this a trust paradox: every audit must trust some artifact, but current frameworks trust exactly the ones a provider has the strongest reason to manipulate. We study three recent token auditing frameworks and show that a provider with ordinary commercial capabilities can systematically inflate billed token counts. In the most permissive setting, hidden reasoning usage can be inflated by 1,469% on average without detection. At current frontier reasoning prices, that turns a \\$100 honest bill into roughly a \\$1,569 bill on the same query. Even when the user can see the full reasoning string, tokenization ambiguity alone still allows 50.85% over-reporting below the detection threshold. These results suggest the problem is not in any specific auditor but in any audit whose evidence comes from the audited party. Restoring honest billing will require verification that ties reported token counts to evidence the provider does not control, such as trusted execution attestation, cryptographic proofs of inference, or third-party re-execution.",
+    "published": "2026-05-28T14:57:06Z",
+    "updated": "2026-05-28T14:57:06Z",
+    "url": "https://arxiv.org/abs/2605.30040v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.30040v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "analysis": {
+      "summary": "Per-token billing is now the standard pricing model for commercial large language models (LLMs), so the honesty of reported token counts directly affects what users pay.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai",
+        "cs-cl"
+      ],
+      "analyzed_at": "2026-05-29T05:10:20.206886+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-05-29T05:07:47.652928+00:00"
+  },
+  {
+    "id": "arxiv:2605.30031v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Audio Jailbreaks in Large Audio-Language Models: Taxonomy, Attack-Defense Analysis, and Cost-Aware Evaluation",
+    "authors": [
+      "Bo-Han Feng",
+      "Yu-Hsuan Li Liang",
+      "Chien-Feng Liu",
+      "You-Hsuan Chang",
+      "Yun-Nung Chen"
+    ],
+    "abstract": "Large Audio Language Models (LALMs) expand jailbreak risks from token-level prompting to the full speech perception-to-reasoning pipeline, where unsafe behavior can be induced through semantics, acoustic style, signal artifacts, or internal representations. Existing work studies these risks under heterogeneous threat models and evaluation protocols, making it difficult to compare attack practicality or defense utility. This paper provides a unified taxonomy and a controlled empirical evaluation of LALM jailbreak attacks and defenses. We organize prior work into semantic, acoustic, signal, and embedding-layer attacks; guard-based, training-free, and training-based defenses; and cross-modal, audio-native, and interactive benchmarks. We then evaluate representative attacks and defenses across ten open-source LALMs, measuring not only attack success rate but also benign refusal and latency. Our results show that Acoustic Best-of-N reveals strong worst-case audio-space vulnerabilities, Narrative Framing is an effective low-latency semantic threat, and current defenses trade robustness against benign usability. These findings support cost- and utility-aware evaluation as a necessary complement to success-rate-only LALM safety benchmarks.",
+    "published": "2026-05-28T14:53:27Z",
+    "updated": "2026-05-28T14:53:27Z",
+    "url": "https://arxiv.org/abs/2605.30031v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.30031v1",
+    "categories": [
+      "cs.SD",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "analysis": {
+      "summary": "Large Audio Language Models (LALMs) expand jailbreak risks from token-level prompting to the full speech perception-to-reasoning pipeline, where unsafe behavior can be induced through semantics, acoustic style, signal artifacts, or internal representations.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-sd",
+        "cs-ai",
+        "cs-cl"
+      ],
+      "analyzed_at": "2026-05-29T05:10:20.206923+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-05-29T05:07:47.653272+00:00"
+  },
+  {
+    "id": "arxiv:2605.29983v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Improving Adversarial Robustness of Attribution via Implicit Regularization",
+    "authors": [
+      "Amir Mehrpanah",
+      "Matteo Gamba",
+      "Hossein Azizpour"
+    ],
+    "abstract": "The adversarial robustness of attributions is a fundamental requirement for reliable explainability in deep learning, yet existing approaches typically rely on computationally expensive explicit regularization. In this work, we show that attribution robustness can arise implicitly from the learning dynamics of standard stochastic gradient descent. We theoretically motivate this effect through connections between parameter-space and input-space curvature, and validate it across architectures, datasets, and attribution methods, with negligible computational overhead. In contrast, we prove that such robustness gains often does not transfer to attention-based attribution under softmax normalization, due to inherent entropy constraints, and we validate this limitation experimentally. Finally, we show that replacing softmax attention with kernel-based attention restores the robustness gains in transformer models. Our results highlight learning dynamics as a principled and practical mechanism for robust explainability, and reveal fundamental limitations of attention-based attribution under normalization.",
+    "published": "2026-05-28T14:19:39Z",
+    "updated": "2026-05-28T14:19:39Z",
+    "url": "https://arxiv.org/abs/2605.29983v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.29983v1",
+    "categories": [
+      "cs.LG",
+      "cs.CV"
+    ],
+    "analysis": {
+      "summary": "The adversarial robustness of attributions is a fundamental requirement for reliable explainability in deep learning, yet existing approaches typically rely on computationally expensive explicit regularization.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-lg",
+        "cs-cv"
+      ],
+      "analyzed_at": "2026-05-29T05:10:20.206946+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-05-29T05:07:47.653548+00:00"
+  },
+  {
+    "id": "arxiv:2605.29930v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Toward AI Systems That Understand Self and Others: A Multi-Phase Inference Framework for Human Cognitive Diversity and World-Model Alignment",
+    "authors": [
+      "Toru Takahashi"
+    ],
+    "abstract": "Mutual misunderstanding in contemporary society does not arise merely because people hold different opinions or values. Even under the same observations, different subjects may form different inferential targets, state representations, prediction errors, and update priorities. This paper proposes a multi-phase inference framework and defines its core internal mechanism as the Multi-Phase Inference Mechanism (MIM). MIM formalizes how heterogeneous world models arise through a phase-formation space, a foregrounding field, subject-specific profile states, and alignment maps between state representations. On this basis, the paper reframes world-model alignment as the problem of making heterogeneous representations mutually processable, rather than forcing agreement or convergence to a single value system. It further connects this formalism to philosophical disagreements, cognitive typology, social fragmentation, and AI alignment. The aim is to provide a constructive vocabulary for AI systems that can help humans understand self and others by making differences in meaning, value, and prediction error visible, comparable, and transformable.",
+    "published": "2026-05-28T13:43:23Z",
+    "updated": "2026-05-28T13:43:23Z",
+    "url": "https://arxiv.org/abs/2605.29930v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.29930v1",
+    "categories": [
+      "cs.AI",
+      "cs.CY",
+      "cs.HC"
+    ],
+    "analysis": {
+      "summary": "Mutual misunderstanding in contemporary society does not arise merely because people hold different opinions or values.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai",
+        "cs-cy",
+        "cs-hc"
+      ],
+      "analyzed_at": "2026-05-29T05:10:20.206966+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-05-29T05:07:47.653820+00:00"
+  },
+  {
+    "id": "arxiv:2605.29877v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Verifying Adversarial Robustness in Quantum Machine Learning: from theory to physical validation via a software tool",
+    "authors": [
+      "Ji Guan",
+      "Mingsheng Ying"
+    ],
+    "abstract": "As with classical neural networks, quantum machine learning (QML) models are vulnerable to small input perturbations that can significantly alter output predictions. Certifying the robustness of QML models, particularly on NISQ hardware, is therefore a fundamental step toward trustworthy quantum AI. This chapter reviews our recently developed comprehensive formal framework for verifying adversarial robustness in QML. The core of this framework is a fidelity-based robustness lower bound computable directly from the measurement outcome distribution, which enables both formal verification and empirical estimation on real quantum devices. Additionally, the optimal bound can be computed via semidefinite programming (SDP) with full knowledge of the quantum machine learning models. We incorporate these results into: (1) an efficient formal verification framework; (2) VeriQR, the first dedicated QML robustness verification tool; and (3) the first experimental benchmark of quantum adversarial robustness on a 20-qubit superconducting processor. Together, these systematic advances enable scalable, physically grounded robustness evaluation of QML models.",
+    "published": "2026-05-28T13:00:48Z",
+    "updated": "2026-05-28T13:00:48Z",
+    "url": "https://arxiv.org/abs/2605.29877v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.29877v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "analysis": {
+      "summary": "As with classical neural networks, quantum machine learning (QML) models are vulnerable to small input perturbations that can significantly alter output predictions.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "quant-ph"
+      ],
+      "analyzed_at": "2026-05-29T05:10:20.206986+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-05-29T05:07:47.654080+00:00"
+  },
+  {
+    "id": "arxiv:2605.29816v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Harnessing non-adversarial robustness in large language models",
+    "authors": [
+      "Qinghua Zhou",
+      "Ellina Aleshina",
+      "Andrey Lovyagin",
+      "Oleg Somov",
+      "Mikhail Seleznyov",
+      "Alexander Panchenko",
+      "Ivan Oseledets",
+      "Elena Tutubalina",
+      "Ivan Y. Tyukin"
+    ],
+    "abstract": "The work presents an approach for addressing the challenge of robustness in Large Language Models (LLMs) to alterations and potential errors caused by semantically similar but textually different prompts. Recent works have shown that these kinds of prompt variations can significantly impact the performance of LLMs on tasks. The central question is: can LLMs' robustness to semantically-neutral prompt alterations be acquired without expensive retraining of the entire model? We address this question both theoretically and through experiments. Our theoretical analysis reveals a crucial factor impacting model robustness - a systematic expected shift or perturbation-induced bias in neural network module outputs. Motivated by this analysis, we show that robustness can be achieved via a simple fine-tuning process: debiasing for robustness. We identify conditions when debiasing helps and when it does not, and demonstrate, through both theory and extensive experiments, that debiasing for robustness may indeed be a quick and efficient tool to enhance robustness and provide certification against random prompt perturbations.",
+    "published": "2026-05-28T12:00:00Z",
+    "updated": "2026-05-28T12:00:00Z",
+    "url": "https://arxiv.org/abs/2605.29816v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.29816v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "The work presents an approach for addressing the challenge of robustness in Large Language Models (LLMs) to alterations and potential errors caused by semantically similar but textually different prompts.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-05-29T05:10:20.207005+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-05-29T05:07:47.654381+00:00"
+  },
+  {
+    "id": "arxiv:2605.29737v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Minimal Prompt Perturbations Lead to Code Vulnerabilities: Prompt Fragility and Hidden-State Signals in Coding LLMs",
+    "authors": [
+      "Alexander Sternfeld",
+      "Andrei Kucharavy",
+      "Ljiljana Dolamic"
+    ],
+    "abstract": "LLM-based coding assistants are seeing rapid adoption, offering substantial gains in developer productivity. As organizations increasingly ship code these agents produce, the security of that code becomes critical. Prior work has shown that minor prompt perturbations degrade the functional correctness of LLM-generated code, but whether they also compromise code security has remained unstudied. We apply token-level mutations to prompts across three models and five programming languages, and show that mutations as small as a single-character change can flip generated code from secure to vulnerable. Probing the models' hidden states reveals that this fragility is partially encoded in prompt representations, but unevenly so. Input-handling vulnerabilities, where the model omits validation or sanitization, are more predictable (mean AUC 0.753) than secure-defaults vulnerabilities, where insecure code stems from one local choice such as a weak algorithm or unsafe parameter (mean AUC 0.674). These results show that the threat model for LLM-assisted coding extends beyond prompt injection to ordinary prompt variation, and indicate that input-handling flaws can be caught before generation while secure-defaults flaws require intervention during decoding.",
+    "published": "2026-05-28T10:30:28Z",
+    "updated": "2026-05-28T10:30:28Z",
+    "url": "https://arxiv.org/abs/2605.29737v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.29737v1",
+    "categories": [
+      "cs.CR",
+      "cs.CL",
+      "cs.SE"
+    ],
+    "analysis": {
+      "summary": "LLM-based coding assistants are seeing rapid adoption, offering substantial gains in developer productivity.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-cl",
+        "cs-se"
+      ],
+      "analyzed_at": "2026-05-29T05:10:20.207026+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-05-29T05:07:47.654651+00:00"
+  },
+  {
+    "id": "arxiv:2605.29659v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Opir: Efficient Multi-Task Safety Classification for Toxicity, Jailbreaks, Hate Speech, and Harmful Content",
+    "authors": [
+      "Ihor Stepanov",
+      "Aleksandr Smechov"
+    ],
+    "abstract": "Real-time safety filtering for large language model (LLM) applications requires classifiers that can detect unsafe prompts, toxic language, jailbreak attempts, and unsafe responses without the cost profile of large guardrail models, and that can distinguish benign sensitive text from genuinely covert harmful content. In this paper, we introduce Opir, a family of encoder-based guardrail models built on the GLiClass architecture. Opir includes multi-task models for binary safe/unsafe classification, multi-label toxicity classification, jailbreak classification, and zero-shot unsafe prompt and response categorization. We also release edge variants with fewer than 100M parameters dedicated to binary safe/unsafe categorization. The models are trained on a three-level taxonomy containing 996 categories across 16 top-level labels, 126 mid-level labels, and 854 leaf labels. Opir's training data combines taxonomy-grounded unsafe prompts, adversarially mined hard negatives, benign safety-preserving examples, generated response examples, multilingual translations, and portions of the Aegis2 and WildGuard training subsets. We also open-sourced an evaluation harness that supports GLiClass and GLiNER2 backends as well as decoder-based models, and covers binary safety classification, multi-label categorization, toxicity, jailbreak detection, prompt safety, response safety, response refusal, and prompt subcategory views across public benchmark families. Across an expanded comparison spanning 12 safety-classification tasks and 17 category tasks against eight contemporary guardrail systems -- including both GLiNER2-based and generative guardrail models -- Opir variants are competitive on or ahead of the strongest open-weight baselines on the majority of benchmark datasets while operating with a substantially smaller deployment footprint.",
+    "published": "2026-05-28T09:21:42Z",
+    "updated": "2026-05-28T09:21:42Z",
+    "url": "https://arxiv.org/abs/2605.29659v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.29659v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "analysis": {
+      "summary": "Real-time safety filtering for large language model (LLM) applications requires classifiers that can detect unsafe prompts, toxic language, jailbreak attempts, and unsafe responses without the cost profile of large guardrail models, and that can distinguish benign sensitive text from genuinely covert harmful content.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-lg",
+        "cs-ai",
+        "cs-cl"
+      ],
+      "analyzed_at": "2026-05-29T05:10:20.207055+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-05-29T05:07:47.654983+00:00"
+  },
+  {
+    "id": "arxiv:2605.29629v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Beyond Attack Success Rate: Temporal Logit Observability for LLM Safety Failures",
+    "authors": [
+      "Junyoung Park",
+      "Sunghwan Park",
+      "Seongyong Ju",
+      "Jaewoo Lee"
+    ],
+    "abstract": "Attack Success Rate (ASR) evaluates each jailbreak with a single yes/no label at the end of generation, telling us whether a failure happened but not how it unfolded. Two attacks that produce equally harmful outputs may have followed completely different paths, and ASR cannot tell them apart. We make those hidden paths observable from logits alone. Temporal Logit Observability (TLO) is a training-free diagnostic that watches a compliance-refusal margin during decoding and places each model-attack condition on a calibrated 2D plane. By design, this plane is most informative exactly where ASR is least informative: among attacks that succeed for genuinely different reasons. Across four aligned LLMs and three jailbreak paradigms, attacks with nearly identical ASR land at clearly different points on the plane: the same model can fail through different temporal patterns. The geometry matches refusal-direction probes from hidden states on most conditions, with one model showing the limit of our fixed-lexicon approach. A simple early-stop rule derived from TLO cuts successful jailbreaks by more than half, without false alarms on plain benign queries. Safety evaluation should report when and how a failure unfolds, not only whether it occurred. TLO makes the first two observable from logits alone.",
+    "published": "2026-05-28T09:02:00Z",
+    "updated": "2026-05-28T09:02:00Z",
+    "url": "https://arxiv.org/abs/2605.29629v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.29629v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Attack Success Rate (ASR) evaluates each jailbreak with a single yes/no label at the end of generation, telling us whether a failure happened but not how it unfolded.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-05-29T05:10:20.207079+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-05-29T05:07:47.655283+00:00"
+  },
+  {
+    "id": "arxiv:2605.29267v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "When and How Human Curation Backfires: Preference Alignment under Multi-Model Self-Consuming Loop",
+    "authors": [
+      "Yang Zhang",
+      "Xiukun Wei",
+      "Xueru Zhang"
+    ],
+    "abstract": "Foundation models are increasingly trained on synthetic data generated by prior model iterations rather than exclusively on real data. This self-consuming training paradigm can lead to model collapse, divergence, or bias amplification. Recent work (Ferbach et al., 2024) shows that incorporating human curation into the loop can steer a self-consuming model toward human-aligned behavior, but these analyses focus on a single, isolated model that solely consumes its own outputs. In practice, however, models often interact and train on input-output pairs produced by other models. This paper studies self-consuming training in the multi-model regime. We first formalize a framework for interacting self-consuming models and characterize when the resulting dynamical system converges to a stable point. We then examine how human curation of one model affects its own alignment (self-influence) and how such effects propagate to other models (cross-influence). Unlike isolated settings where human curation always enhances model alignment, we show that cross-model interactions can dampen or even invert this effect, ultimately degrading long-term alignment.",
+    "published": "2026-05-28T02:36:57Z",
+    "updated": "2026-05-28T02:36:57Z",
+    "url": "https://arxiv.org/abs/2605.29267v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.29267v1",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "analysis": {
+      "summary": "Foundation models are increasingly trained on synthetic data generated by prior model iterations rather than exclusively on real data.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-05-29T05:10:20.207098+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-05-29T05:07:47.655905+00:00"
+  },
+  {
+    "id": "arxiv:2605.29237v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Evolving Skill-Structured Attack Memory Enhances LLM Jailbreaking",
+    "authors": [
+      "Junke Zhang",
+      "Jianwei Wang",
+      "Sishuo Chen",
+      "Yizhang He",
+      "Qingshuai Feng",
+      "Zhengyi Yang"
+    ],
+    "abstract": "Jailbreak attacks on large language models (LLMs) aim to induce LLMs to produce content that they are expected to refuse. Automated black-box jailbreak generation is especially important for safety evaluation, where the attacker observes only model outputs and needs to automatically search for effective adversarial prompts. Existing black-box jailbreak methods either depend on sample-wise heuristic search or leverage attack experience through accumulating strategy pools or method libraries, lacking a systematic organization and management of attack experience. To mitigate these drawbacks, we propose MemoAttack, a memory-driven black-box jailbreak framework with comprehensive attack memory modeling, evolution, and selection. Specifically, MemoAttack comprises three key designs: (1) Skill-Structured Memory Modeling, which abstracts accumulated attack experience into reusable skill-structured attack memory whose units pair attack skills with templates, evidence, and lifecycle state; (2) Lifecycle-Driven Memory Evolution, which evolves the memory through evidence-based probation, promotion, retirement, reactivation, elimination, and storage cleanup; and (3) Explore-Exploit Balanced Memory Selection, which balances reliable memory reuse with uncertainty-driven exploration via contextual Thompson Sampling. Experiments on AdvBench demonstrate that MemoAttack achieves an average attack success rate of 98.00%, outperforming the strongest baseline by 16.67 percentage points, while reducing request count by 45.9%. Moreover, MemoAttack continuously improves as memory accumulates over more samples.",
+    "published": "2026-05-28T01:53:14Z",
+    "updated": "2026-05-28T01:53:14Z",
+    "url": "https://arxiv.org/abs/2605.29237v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.29237v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "analysis": {
+      "summary": "Jailbreak attacks on large language models (LLMs) aim to induce LLMs to produce content that they are expected to refuse.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-05-29T05:10:20.207123+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-05-29T05:07:47.656238+00:00"
+  },
+  {
+    "id": "arxiv:2605.28999v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Measuring Real-World Prompt Injection Attacks in LLM-based Resume Screening",
+    "authors": [
+      "Mohan Zhang",
+      "Yuqi Jia",
+      "Zhen Tan",
+      "Steven Jiang",
+      "Neil Zhenqiang Gong",
+      "Tianlong Chen",
+      "Dawn Song"
+    ],
+    "abstract": "LLMs are vulnerable to prompt injection attacks. However, this vulnerability has been primarily demonstrated conceptually in academic studies or through a few anecdotal case studies. Its prevalence and impact in real-world LLM-based applications are largely unexplored. In this work, we present the first systematic study of prompt-injection attacks in a widely used application: LLM-based resume screening. Our analysis is based on approximately 200K real-world resumes collected over multiple years by hireEZ. We first design tailored methods to detect prompt injection in resumes. Manual validation on a small-scale dataset demonstrates that our detectors achieve high precision and outperform state-of-the-art general-purpose detectors. We then apply our detector to the full resume dataset and conduct a comprehensive measurement study of real-world prompt injection attacks. Our analysis reveals several intriguing findings: approximately 1% of resumes contain hidden prompt injections; the prevalence of such injected resumes has increased noticeably over the past one to two years; and more than 90% of injected prompts do not use explicit instructions. These results provide the first evidence of large-scale prompt injection in real-world LLM-based applications and lay the groundwork for future studies to understand and mitigate such attacks.",
+    "published": "2026-05-27T18:56:19Z",
+    "updated": "2026-05-27T18:56:19Z",
+    "url": "https://arxiv.org/abs/2605.28999v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.28999v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "analysis": {
+      "summary": "LLMs are vulnerable to prompt injection attacks.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai",
+        "cs-cl",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-05-29T05:10:20.207147+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-05-29T05:07:47.656563+00:00"
+  },
+  {
+    "id": "arxiv:2605.28983v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "The Hamilton-Jacobi Theory of Deep Learning",
+    "authors": [
+      "Jose Marie Antonio Miñoza",
+      "Erika Fille T. Legara",
+      "Christopher P. Monterola"
+    ],
+    "abstract": "In this paper, training a neural network is identified, exactly, as a search through Hamilton--Jacobi initial-value problems: each gradient step selects the initial data of a viscous Hamilton--Jacobi equation whose Hopf--Cole propagator best fits the observations; at inference, the input is the spatial point at which that solution is evaluated and the initial condition is already encoded in the weights. The correspondence is exact for log-sum-exp layers and structural for broader architectures: residual networks, transformers, and recurrent architectures (RNNs, LSTMs, SSMs) each discretize the same class of Hamilton--Jacobi equations, with architecture-dependent Hamiltonian and viscosity. A single deformation parameter $\\varepsilon$ unifies all four perspectives (network, tropical algebra, viscous PDE, convex optimization) in a commutative diagram closed under Lipschitz conditions. Quantitative consequences include: the minimax optimal generalization rate $O(n^{-1/(d+2)})$ for fixed $t$; adversarial robustness controlled by $\\varepsilon$; backpropagation as the co-state equation of the Hamiltonian system for residual networks (Pontryagin Maximum Principle); scaling exponents consistent with data intrinsic dimension via PDE quadrature; and a closed-form $O(N)$ influence function (softmax attribution weights $π_j$) whose entropy landscape undergoes fold bifurcations as $\\varepsilon$ increases, each merging attribution basins.",
+    "published": "2026-05-27T18:38:23Z",
+    "updated": "2026-05-27T18:38:23Z",
+    "url": "https://arxiv.org/abs/2605.28983v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.28983v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "math.DS",
+      "math.RT",
+      "physics.comp-ph"
+    ],
+    "analysis": {
+      "summary": "In this paper, training a neural network is identified, exactly, as a search through Hamilton--Jacobi initial-value problems: each gradient step selects the initial data of a viscous Hamilton--Jacobi equation whose Hopf--Cole propagator best fits the observations; at inference, the input is the spatial point at which that solution is evaluated and the initial condition is already encoded in the weights.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-lg",
+        "cs-ai",
+        "math-ds",
+        "math-rt"
+      ],
+      "analyzed_at": "2026-05-29T05:10:20.207171+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-05-29T05:07:47.656918+00:00"
+  },
+  {
+    "id": "arxiv:2605.28818v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "VLMs May Not Globally Enhance Human Alignment over LLMs During Natural Reading",
+    "authors": [
+      "Jinzhou Wu",
+      "Zhengwu Ma",
+      "Jixing Li",
+      "Baoping Tang",
+      "Zitong Lu"
+    ],
+    "abstract": "Large language models (LLMs) have become increasingly useful computational models of human language processing, but it remains unclear whether vision-language learning makes text representations more human-like during natural reading. Here, we address this question by comparing tightly matched LLM and vision-language model (VLM) pairs under a strictly text-only setting, allowing us to isolate the effect of multimodal training history from online visual input or cross-modal fusion. We evaluate model alignment with a human natural-reading dataset that includes whole-cortex fMRI responses and synchronized eye-tracking saccades. Our findings demonstrate that multimodal pretraining may not confer a uniform, global advantage in human alignment during natural reading, indicating that language-internal representations remain the key factor for modeling human text processing. However, the VLM advantage could emerge more selectively when sentences contain stronger visual semantic content, with converging evidence from both fMRI and eye-movement alignments. Together, our findings provide a controlled in silico framework for testing how visual learning history shapes model-human alignment of language processing, suggesting that multimodal pretraining contributes selectively rather than globally to human-like language representations during natural reading.",
+    "published": "2026-05-27T17:59:34Z",
+    "updated": "2026-05-27T17:59:34Z",
+    "url": "https://arxiv.org/abs/2605.28818v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.28818v1",
+    "categories": [
+      "cs.CL",
+      "q-bio.NC"
+    ],
+    "analysis": {
+      "summary": "Large language models (LLMs) have become increasingly useful computational models of human language processing, but it remains unclear whether vision-language learning makes text representations more human-like during natural reading.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cl",
+        "q-bio-nc"
+      ],
+      "analyzed_at": "2026-05-29T05:10:20.207193+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-05-29T05:07:47.657253+00:00"
+  },
+  {
+    "id": "arxiv:2605.28914v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "AIRGuard: Guarding Agent Actions with Runtime Authority Control",
+    "authors": [
+      "Suliu Qin",
+      "Haomin Zhuang",
+      "Yujun Zhou",
+      "Yufei Han",
+      "Xiangliang Zhang"
+    ],
+    "abstract": "Tool-using language agents turn model decisions into external side effects: they read files, run scripts, call APIs, send messages, and invoke Model Context Protocol tools. This makes agent attacks different from jailbreaks. The harmful step is often not an obviously forbidden output, but an ordinary executable action that becomes unsafe because attacker-controlled context steers authorized access against the user's interest. We identify this failure mode as authority confusion: untrusted resources may inform reasoning, but they must not authorize side effects. We present AIRGuard, a runtime guard that operationalizes least privilege as action-time authorization. AIRGuard normalizes heterogeneous tool calls, derives task authority into step-level authority, tracks source and target trust, simulates sensitive side effects, audits cross-step risk, and enforces decisions before actions execute. On AgentTrap, AIRGuard reduces Sonnet 4.6 attack success from 36.3% without defense to 5.5%. On DTAP-150, AIRGuard preserves 76.0% benign utility with Haiku 4.5, compared with 52.0% for ARGUS and 42.0% for MELON. An ablation further shows that prompt-only policy helps only modestly, whereas a dedicated runtime authority-control layer gives the agent system direct control over tool-mediated side effects. Code and data are available at https://github.com/Sophie508/AIRGuard.",
+    "published": "2026-05-27T17:48:14Z",
+    "updated": "2026-05-27T17:48:14Z",
+    "url": "https://arxiv.org/abs/2605.28914v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.28914v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Tool-using language agents turn model decisions into external side effects: they read files, run scripts, call APIs, send messages, and invoke Model Context Protocol tools.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-05-29T05:10:20.207215+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-05-29T05:07:47.657551+00:00"
+  },
+  {
+    "id": "arxiv:2605.28617v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "LACUNA: Safe Agents as Recursive Program Holes",
+    "authors": [
+      "Yaoyu Zhao",
+      "Yichen Xu",
+      "Oliver Bračevac",
+      "Cao Nguyen Pham",
+      "Frank Zhengqing Wu",
+      "Martin Odersky"
+    ],
+    "abstract": "LLM agents increasingly act by writing code, yet a split persists between the runtime that drives the agent and the code the model writes. The runtime owns the loop, context, and control flow, and the model has little say over any of them. Letting model-written code shape the runtime itself would make agents more expressive, but it would also sharpen safety problems. A model can be diverted by a prompt injection, call the wrong tool, or fail partway and leave an inconsistent state, and each such failure reaches further when the code shapes the runtime than when it expresses a single action. We present LACUNA, a programming model for agents that closes this split while preserving safety. Each agent action is a typed call $\\texttt{agent[T](task)}$ that the LLM fills with code when execution reaches it, and the code is type-checked against the surrounding program before it runs. Because each action is accepted or rejected as a whole, a rejected one leaves the environment untouched, and its compiler diagnostics drive a retry. The same check also bounds which tools and data an action may use and how they flow. Our primitive expresses ReAct loops, sub-agents, skills, parallel decomposition, and multi-model planning as ordinary control flow. We evaluate LACUNA on a collection of test cases, BrowseComp-Plus, and $τ^2$-bench. On BrowseComp-Plus, $8.6\\%$ of generations are rejected before execution, with 0.7 retries per query on average, and the agent reaches $27.1\\%$ accuracy. On $τ^2$-bench, LACUNA solves $76.0\\%$ of $392$ tasks across four domains with a capable model, on par with the baseline agent.",
+    "published": "2026-05-27T15:27:25Z",
+    "updated": "2026-05-27T15:27:25Z",
+    "url": "https://arxiv.org/abs/2605.28617v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.28617v1",
+    "categories": [
+      "cs.AI",
+      "cs.PL"
+    ],
+    "analysis": {
+      "summary": "LLM agents increasingly act by writing code, yet a split persists between the runtime that drives the agent and the code the model writes.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai",
+        "cs-pl"
+      ],
+      "analyzed_at": "2026-05-29T05:10:20.207241+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-05-29T05:07:47.657940+00:00"
+  },
+  {
+    "id": "arxiv:2605.28591v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Models That Know How Evaluations Are Designed Score Safer",
+    "authors": [
+      "Katharina Deckenbach",
+      "Haritz Puerto",
+      "Jonas Geiping",
+      "Sahar Abdelnabi"
+    ],
+    "abstract": "The validity of AI safety evaluations depends on models behaving consistently across controlled and deployment settings. Prior work has identified test-time contextual cues, such as hypothetical scenarios, as a source of verbalized evaluation awareness and subsequent behavioral shift. In this paper, we investigate a potential explanation of this phenomenon: evaluation meta-knowledge, defined as parametric knowledge about the structural traits that characterize evaluations. Similar to dataset contamination, where benchmark exposure leads to higher performance through memorization, we hypothesize that models trained on texts describing evaluation practices may implicitly learn to recognize and respond to evaluation-like contexts, for instance, through exposure to scientific articles or social media posts about AI benchmarking. To test this, we fine-tune models on synthetic documents describing evaluation traits such as verifiable structures or moral dilemmas. Evaluating this fine-tuned model on six safety benchmarks, we find that it is significantly safer than the base model and control model. This behavioral shift persists even when restricting the analysis to responses lacking explicit verbalization of evaluation awareness. Our results demonstrate that evaluation meta-knowledge may inflate safety benchmark performance, introducing a novel confounder that is independent of explicit memorization or verbalized evaluation awareness, thus, challenging to detect. These findings have important implications for the design and interpretation of AI safety evaluations. Our code and models are available at https://github.com/compass-group-tue/arxiv2026_evaluation_meta_knowledge.",
+    "published": "2026-05-27T15:11:35Z",
+    "updated": "2026-05-27T15:11:35Z",
+    "url": "https://arxiv.org/abs/2605.28591v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.28591v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "The validity of AI safety evaluations depends on models behaving consistently across controlled and deployment settings.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cl",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-05-29T05:10:20.207267+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-05-29T05:07:47.658313+00:00"
+  },
+  {
+    "id": "arxiv:2605.28899v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Quantum-Enhanced Adversarial Robustness in Artificial Intelligence",
+    "authors": [
+      "Jaydip Sen"
+    ],
+    "abstract": "Artificial Intelligence has achieved remarkable success across diverse application domains. However, its vulnerability to adversarial attacks poses significant challenges to reliability, security, and trustworthiness. Adversarial machine learning demonstrates that even highly accurate models can be manipulated through carefully crafted perturbations, raising serious concerns in safety critical systems such as healthcare, finance, and autonomous technologies. In parallel, quantum computing has emerged as a transformative paradigm capable of addressing complex computational problems through principles such as superposition, entanglement, and quantum interference. The convergence of these fields has led to the emergence of quantum artificial intelligence, which explores how quantum techniques can enhance learning efficiency, scalability, and robustness. This chapter provides a comprehensive overview of adversarial machine learning and existing defense strategies, followed by an accessible introduction to quantum computing and quantum machine learning models. It further presents conceptual frameworks for quantum-enhanced adversarial robustness, emphasizing quantum optimization, feature mapping, and hybrid quantum classical architectures. Practical applications, key challenges, and future research directions are also discussed to support the development of secure and trustworthy AI systems.",
+    "published": "2026-05-27T14:51:50Z",
+    "updated": "2026-05-27T14:51:50Z",
+    "url": "https://arxiv.org/abs/2605.28899v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.28899v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Artificial Intelligence has achieved remarkable success across diverse application domains.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-05-29T05:10:20.207292+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-05-29T05:07:47.658546+00:00"
+  }
+]

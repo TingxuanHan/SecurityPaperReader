@@ -1,0 +1,63 @@
+name: Daily Paper Update
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 06:30 Asia/Shanghai every day.
+    - cron: "30 22 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Set up Node.js
+        if: ${{ env.OPENAI_API_KEY != '' }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Codex CLI
+        if: ${{ env.OPENAI_API_KEY != '' }}
+        run: npm install -g @openai/codex
+
+      - name: Fetch papers
+        run: python scripts/fetch_papers.py
+
+      - name: Analyze papers
+        env:
+          CODEX_MODEL: ${{ vars.CODEX_MODEL || 'gpt-5-mini' }}
+          ANALYZE_LIMIT: "8"
+        run: python scripts/analyze_papers.py
+
+      - name: Build page
+        run: python scripts/build_page.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/papers.json docs/index.md
+          if git diff --cached --quiet; then
+            echo "No paper updates to commit."
+          else
+            git commit -m "chore: update daily security papers"
+            git push
+          fi

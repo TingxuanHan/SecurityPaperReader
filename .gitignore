@@ -3,6 +3,10 @@ logs/
 *.log
 __pycache__/
 *.pyc
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
 
 # raw/private data
 data/raw/

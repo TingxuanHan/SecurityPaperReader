@@ -1,0 +1,79 @@
+{
+  "max_papers_per_run": 80,
+  "topics": [
+    {
+      "name": "AI安全",
+      "query": "\"AI safety\" OR \"AI security\" OR \"LLM security\" OR \"large language model security\" OR \"adversarial robustness\" OR \"model alignment\" OR \"jailbreak\" OR \"prompt injection\"",
+      "keywords": [
+        "AI safety",
+        "AI security",
+        "LLM security",
+        "large language model security",
+        "adversarial robustness",
+        "model alignment",
+        "jailbreak",
+        "prompt injection"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "arXiv AI安全 最近两周",
+      "type": "arxiv",
+      "database": "arxiv",
+      "enabled": true,
+      "topic": "AI安全",
+      "date_range": {
+        "days_back": 14
+      },
+      "max_results": 20,
+      "sort_by": "submittedDate",
+      "sort_order": "descending"
+    },
+    {
+      "name": "CCS AI安全 最近两年",
+      "type": "semantic_scholar",
+      "database": "CCS",
+      "enabled": true,
+      "topic": "AI安全",
+      "venue": [
+        "ACM Conference on Computer and Communications Security",
+        "CCS"
+      ],
+      "date_range": {
+        "years_back": 2
+      },
+      "max_results": 20
+    },
+    {
+      "name": "AAAI AI安全 最近两年",
+      "type": "semantic_scholar",
+      "database": "AAAI",
+      "enabled": true,
+      "topic": "AI安全",
+      "venue": [
+        "AAAI",
+        "AAAI Conference on Artificial Intelligence"
+      ],
+      "date_range": {
+        "years_back": 2
+      },
+      "max_results": 20
+    },
+    {
+      "name": "ICLR AI安全 最近两年",
+      "type": "semantic_scholar",
+      "database": "ICLR",
+      "enabled": true,
+      "topic": "AI安全",
+      "venue": [
+        "ICLR",
+        "International Conference on Learning Representations"
+      ],
+      "date_range": {
+        "years_back": 2
+      },
+      "max_results": 20
+    }
+  ]
+}
