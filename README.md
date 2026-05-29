@@ -30,6 +30,12 @@ python -m pip install -r requirements.txt
 python scripts/fetch_papers.py
 ```
 
+抓取论文并下载 PDF 到本地 `paper/`：
+
+```bash
+python scripts/fetch_papers.py --download-pdfs
+```
+
 分析论文：
 
 ```bash
@@ -82,9 +88,9 @@ config/sources.json
 
 ```text
 arXiv: AI安全, 最近 14 天
-CCS: AI安全, 最近 2 年
-AAAI: AI安全, 最近 2 年
-ICLR: AI安全, 最近 2 年
+CCS: DBLP, AI安全, 最近 2 年
+AAAI: DBLP, AI安全, 最近 2 年
+ICLR: OpenReview, AI安全, 最近 2 年
 ```
 
 时间范围写法：
@@ -124,18 +130,32 @@ arXiv 配置：
 ```json
 {
   "name": "ICLR AI安全 最近两年",
-  "type": "semantic_scholar",
+  "type": "openreview",
   "database": "ICLR",
   "enabled": true,
   "topic": "AI安全",
-  "venue": [
-    "ICLR",
-    "International Conference on Learning Representations"
-  ],
+  "venue_id": "ICLR.cc/{year}/Conference",
   "date_range": {
     "years_back": 2
   },
-  "max_results": 20
+  "max_results": 50
+}
+```
+
+DBLP 会议配置：
+
+```json
+{
+  "name": "AAAI AI安全 最近两年",
+  "type": "dblp",
+  "database": "AAAI",
+  "enabled": true,
+  "topic": "AI安全",
+  "stream": "conf/aaai",
+  "date_range": {
+    "years_back": 2
+  },
+  "max_results": 50
 }
 ```
 

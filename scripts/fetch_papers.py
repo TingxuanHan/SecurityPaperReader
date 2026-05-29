@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import random
 import re
 import sys
 import time
@@ -42,6 +43,22 @@ def clean_text(value: str | None) -> str:
     if not value:
         return ""
     return re.sub(r"\s+", " ", value).strip()
+
+
+def text_value(value) -> str:
+    if isinstance(value, dict):
+        return clean_text(value.get("value"))
+    return clean_text(value)
+
+
+def list_value(value) -> list:
+    if isinstance(value, dict):
+        value = value.get("value")
+    if value is None:
+        return []
+    if isinstance(value, list):
+        return value
+    return [value]
 
 
 def load_json(path: Path, default):
@@ -131,6 +148,13 @@ def year_range(start: datetime | None, end: datetime | None) -> str | None:
     return f"{start_year}-{end_year}"
 
 
+def years_in_range(start: datetime | None, end: datetime | None) -> list[int]:
+    now = datetime.now(timezone.utc)
+    start_year = start.year if start else now.year
+    end_year = end.year if end else now.year
+    return list(range(start_year, end_year + 1))
+
+
 def keyword_match(paper: dict, keywords: list[str]) -> bool:
     if not keywords:
         return True
@@ -142,6 +166,27 @@ def keyword_match(paper: dict, keywords: list[str]) -> bool:
         ]
     ).lower()
     return any(keyword.lower() in haystack for keyword in keywords)
+
+
+def normalize_authors(value) -> list[str]:
+    authors = value
+    if isinstance(authors, dict):
+        authors = authors.get("author")
+    if authors is None:
+        return []
+    if isinstance(authors, str):
+        return [clean_text(authors)]
+    if isinstance(authors, dict):
+        return [clean_text(authors.get("text") or authors.get("#text") or authors.get("name"))]
+    if isinstance(authors, list):
+        names = []
+        for author in authors:
+            if isinstance(author, dict):
+                names.append(clean_text(author.get("text") or author.get("#text") or author.get("name")))
+            else:
+                names.append(clean_text(str(author)))
+        return [name for name in names if name]
+    return []
 
 
 def arxiv_topic_query(topic: dict) -> str:
@@ -168,6 +213,10 @@ def request_headers(url: str) -> dict[str, str]:
     return headers
 
 
+def has_semantic_scholar_key() -> bool:
+    return bool(os.environ.get("SEMANTIC_SCHOLAR_API_KEY") or os.environ.get("S2_API_KEY"))
+
+
 def get_with_retries(url: str, attempts: int = 3) -> requests.Response:
     last_error: Exception | None = None
     for attempt in range(1, attempts + 1):
@@ -177,12 +226,21 @@ def get_with_retries(url: str, attempts: int = 3) -> requests.Response:
                 timeout=30,
                 headers=request_headers(url),
             )
+            if response.status_code == 429 and "api.semanticscholar.org" in url and not has_semantic_scholar_key():
+                raise requests.HTTPError(
+                    f"429 Too Many Requests from Semantic Scholar: {response.text[:300]}",
+                    response=response,
+                )
             if response.status_code in {429, 500, 502, 503, 504} and attempt < attempts:
                 retry_after = response.headers.get("Retry-After")
                 delay = int(retry_after) if retry_after and retry_after.isdigit() else attempt * 10
                 time.sleep(min(delay, 30))
                 continue
-            response.raise_for_status()
+            if response.status_code >= 400:
+                raise requests.HTTPError(
+                    f"{response.status_code} error for {url}: {response.text[:300]}",
+                    response=response,
+                )
             return response
         except requests.RequestException as exc:
             last_error = exc
@@ -265,26 +323,24 @@ def fetch_semantic_scholar(source: dict, topic: dict) -> list[dict]:
     query = source.get("query") or topic.get("query") or "security"
     limit = int(source.get("max_results", 20))
 
-    for venue in venues:
-        params = {
-            "query": query,
-            "limit": limit,
-            "fields": SEMANTIC_SCHOLAR_FIELDS,
-            "venue": venue,
-        }
-        years = year_range(start, end)
-        if years:
-            params["year"] = years
-        url = "https://api.semanticscholar.org/graph/v1/paper/search?" + urllib.parse.urlencode(params)
-        response = get_with_retries(url)
-        for item in response.json().get("data", []):
-            paper = semantic_scholar_paper(source, topic, item)
-            if not in_date_range(paper.get("published"), start, end):
-                continue
-            if not keyword_match(paper, topic.get("keywords", [])):
-                continue
-            papers_by_id[paper["id"]] = paper
-        time.sleep(1)
+    params = {
+        "query": query,
+        "limit": limit,
+        "fields": SEMANTIC_SCHOLAR_FIELDS,
+        "venue": ",".join(venues),
+    }
+    years = year_range(start, end)
+    if years:
+        params["year"] = years
+    url = "https://api.semanticscholar.org/graph/v1/paper/search?" + urllib.parse.urlencode(params)
+    response = get_with_retries(url)
+    for item in response.json().get("data", []):
+        paper = semantic_scholar_paper(source, topic, item)
+        if not in_date_range(paper.get("published"), start, end):
+            continue
+        if not keyword_match(paper, topic.get("keywords", [])):
+            continue
+        papers_by_id[paper["id"]] = paper
 
     return list(papers_by_id.values())[:limit]
 
@@ -316,6 +372,165 @@ def semantic_scholar_paper(source: dict, topic: dict, item: dict) -> dict:
     }
 
 
+def fetch_dblp(source: dict, topic: dict) -> list[dict]:
+    start, end = resolve_date_range(source)
+    stream = source.get("stream") or source.get("venue")
+    if isinstance(stream, list):
+        stream = stream[0]
+    if not stream:
+        stream = source.get("database", source["name"])
+
+    papers_by_id: dict[str, dict] = {}
+    limit = int(source.get("max_results", 50))
+    keywords = topic.get("keywords", [])
+
+    for year in years_in_range(start, end):
+        params = {
+            "q": f"stream:{stream}:{year}",
+            "format": "json",
+            "h": str(max(limit * 5, 100)),
+        }
+        url = "https://dblp.org/search/publ/api?" + urllib.parse.urlencode(params)
+        try:
+            response = get_with_retries(url)
+        except requests.RequestException as exc:
+            print(f"Failed to fetch DBLP {stream} {year}: {exc}", file=sys.stderr)
+            continue
+        hits = response.json().get("result", {}).get("hits", {}).get("hit", [])
+        if isinstance(hits, dict):
+            hits = [hits]
+        for hit in hits:
+            paper = dblp_paper(source, topic, hit)
+            if not paper["title"] or paper["id"].endswith(f":{stream}/{year}"):
+                continue
+            if not in_date_range(paper.get("published"), start, end):
+                continue
+            if not keyword_match(paper, keywords):
+                continue
+            papers_by_id[paper["id"]] = paper
+        time.sleep(1)
+
+    return list(papers_by_id.values())[:limit]
+
+
+def dblp_paper(source: dict, topic: dict, hit: dict) -> dict:
+    info = hit.get("info", {})
+    key = info.get("key") or hit.get("@id") or info.get("url")
+    ee = info.get("ee") or ""
+    if isinstance(ee, list):
+        ee = ee[0] if ee else ""
+    venue = info.get("venue") or source.get("database", "")
+    if isinstance(venue, list):
+        venue = " / ".join(clean_text(item) for item in venue)
+    year = clean_text(str(info.get("year") or ""))
+    return {
+        "id": f"dblp:{key}",
+        "source": source["name"],
+        "database": source.get("database", "DBLP"),
+        "topic": topic.get("name", source.get("topic", "")),
+        "venue": clean_text(venue),
+        "title": clean_text(info.get("title")),
+        "authors": normalize_authors(info.get("authors")),
+        "abstract": "",
+        "published": year,
+        "updated": "",
+        "url": info.get("url") or "",
+        "pdf_url": ee if str(ee).lower().endswith(".pdf") else "",
+        "categories": ["dblp", source.get("database", "")],
+        "analysis": {},
+        "fetched_at": datetime.now(timezone.utc).isoformat(),
+    }
+
+
+def fetch_openreview(source: dict, topic: dict) -> list[dict]:
+    start, end = resolve_date_range(source)
+    venue_template = source.get("venue_id") or source.get("venue")
+    if isinstance(venue_template, list):
+        venue_template = venue_template[0]
+    if not venue_template:
+        raise requests.RequestException(f"Missing OpenReview venue for {source['name']}")
+
+    papers_by_id: dict[str, dict] = {}
+    limit = int(source.get("max_results", 50))
+    for year in years_in_range(start, end):
+        venue_id = str(venue_template).replace("{year}", str(year))
+        params = {
+            "content.venueid": venue_id,
+            "limit": str(max(limit * 5, 100)),
+        }
+        url = "https://api2.openreview.net/notes?" + urllib.parse.urlencode(params)
+        try:
+            response = get_with_retries(url)
+        except requests.RequestException as exc:
+            print(f"Failed to fetch OpenReview {venue_id}: {exc}", file=sys.stderr)
+            continue
+        for note in response.json().get("notes", []):
+            paper = openreview_paper(source, topic, note, year)
+            if not in_date_range(paper.get("published"), start, end):
+                continue
+            if not keyword_match(paper, topic.get("keywords", [])):
+                continue
+            papers_by_id[paper["id"]] = paper
+        time.sleep(1)
+
+    return list(papers_by_id.values())[:limit]
+
+
+def openreview_paper(source: dict, topic: dict, note: dict, year: int) -> dict:
+    content = note.get("content", {})
+    note_id = note.get("id", "")
+    title = text_value(content.get("title"))
+    authors = [clean_text(author) for author in list_value(content.get("authors"))]
+    abstract = text_value(content.get("abstract"))
+    keywords = [clean_text(keyword) for keyword in list_value(content.get("keywords"))]
+    return {
+        "id": f"openreview:{note_id}",
+        "source": source["name"],
+        "database": source.get("database", "OpenReview"),
+        "topic": topic.get("name", source.get("topic", "")),
+        "venue": text_value(content.get("venue")) or source.get("database", ""),
+        "title": title,
+        "authors": [author for author in authors if author],
+        "abstract": abstract,
+        "published": str(year),
+        "updated": "",
+        "url": f"https://openreview.net/forum?id={note_id}",
+        "pdf_url": f"https://openreview.net/pdf?id={note_id}" if note_id else "",
+        "categories": [keyword for keyword in keywords if keyword],
+        "analysis": {},
+        "fetched_at": datetime.now(timezone.utc).isoformat(),
+    }
+
+
+def safe_filename(value: str, max_length: int = 160) -> str:
+    value = re.sub(r"[^A-Za-z0-9._ -]+", "_", value)
+    value = re.sub(r"\s+", " ", value).strip(" ._-")
+    return (value or "paper")[:max_length]
+
+
+def download_papers(papers: list[dict], paper_dir: Path, delay_max: int) -> None:
+    paper_dir.mkdir(parents=True, exist_ok=True)
+    for paper in papers:
+        pdf_url = paper.get("pdf_url")
+        if not pdf_url:
+            continue
+        year = (paper.get("published") or "unknown")[:4]
+        filename = safe_filename(f"{paper.get('database', 'paper')}-{year}-{paper.get('title', '')}") + ".pdf"
+        output = paper_dir / filename
+        paper["local_pdf"] = str(output.relative_to(ROOT))
+        if output.exists():
+            continue
+        delay = random.randint(0, max(0, delay_max))
+        if delay:
+            time.sleep(delay)
+        response = get_with_retries(pdf_url)
+        content_type = response.headers.get("content-type", "")
+        if "pdf" not in content_type.lower() and not pdf_url.lower().endswith(".pdf"):
+            print(f"Skip non-PDF response for {paper.get('title')}: {content_type}", file=sys.stderr)
+            continue
+        output.write_bytes(response.content)
+
+
 def merge_papers(existing: list[dict], incoming: list[dict], limit: int) -> list[dict]:
     by_id = {paper["id"]: paper for paper in existing}
     for paper in incoming:
@@ -335,6 +550,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", type=Path, default=DEFAULT_CONFIG)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument("--download-pdfs", action="store_true")
     args = parser.parse_args()
 
     config = load_json(args.config, {})
@@ -350,12 +566,21 @@ def main() -> int:
             if source.get("type") == "arxiv":
                 incoming.extend(fetch_arxiv(source, topic))
                 time.sleep(3)
+            elif source.get("type") == "dblp":
+                incoming.extend(fetch_dblp(source, topic))
+            elif source.get("type") == "openreview":
+                incoming.extend(fetch_openreview(source, topic))
             elif source.get("type") == "semantic_scholar":
                 incoming.extend(fetch_semantic_scholar(source, topic))
             else:
                 print(f"Unsupported source type: {source.get('type')}", file=sys.stderr)
         except requests.RequestException as exc:
             print(f"Failed to fetch {source.get('name', source.get('type'))}: {exc}", file=sys.stderr)
+
+    if args.download_pdfs or config.get("download_pdfs"):
+        paper_dir = ROOT / config.get("paper_dir", "paper")
+        delay_max = int(config.get("download_delay_max_seconds", 100))
+        download_papers(incoming, paper_dir, delay_max)
 
     limit = int(config.get("max_papers_per_run", 20))
     save_json(args.output, merge_papers(existing, incoming, limit))

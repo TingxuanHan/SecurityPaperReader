@@ -12,8 +12,10 @@ venv/
 data/raw/
 data/pdf/
 data/private/
+paper/
 *.sqlite
 *.db
 
 # local config
 config.local.yml
+.codex-local/

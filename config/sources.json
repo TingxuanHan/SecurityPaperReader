@@ -1,5 +1,8 @@
 {
   "max_papers_per_run": 80,
+  "download_pdfs": false,
+  "paper_dir": "paper",
+  "download_delay_max_seconds": 100,
   "topics": [
     {
       "name": "AI安全",
@@ -32,48 +35,39 @@
     },
     {
       "name": "CCS AI安全 最近两年",
-      "type": "semantic_scholar",
+      "type": "dblp",
       "database": "CCS",
       "enabled": true,
       "topic": "AI安全",
-      "venue": [
-        "ACM Conference on Computer and Communications Security",
-        "CCS"
-      ],
+      "stream": "conf/ccs",
       "date_range": {
         "years_back": 2
       },
-      "max_results": 20
+      "max_results": 50
     },
     {
       "name": "AAAI AI安全 最近两年",
-      "type": "semantic_scholar",
+      "type": "dblp",
       "database": "AAAI",
       "enabled": true,
       "topic": "AI安全",
-      "venue": [
-        "AAAI",
-        "AAAI Conference on Artificial Intelligence"
-      ],
+      "stream": "conf/aaai",
       "date_range": {
         "years_back": 2
       },
-      "max_results": 20
+      "max_results": 50
     },
     {
       "name": "ICLR AI安全 最近两年",
-      "type": "semantic_scholar",
+      "type": "openreview",
       "database": "ICLR",
       "enabled": true,
       "topic": "AI安全",
-      "venue": [
-        "ICLR",
-        "International Conference on Learning Representations"
-      ],
+      "venue_id": "ICLR.cc/{year}/Conference",
       "date_range": {
         "years_back": 2
       },
-      "max_results": 20
+      "max_results": 50
     }
   ]
 }
