@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-05-30 07:50 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-05-31 07:33 Asia/Shanghai
 
 ## 今日论文
 
@@ -504,13 +504,16 @@
 
 **来源**：ICLR · ICLR 2025 Poster · AI安全 · **发布日期**：2025 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=YaBiGjuDiC)
 
-**摘要总结**：暂无
+**摘要总结**：Reinforcement Learning from Human Feedback (RLHF) has become the predominant approach for aligning language models (LMs) to be more helpful and less harmful.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`alignment` `preference optimization` `large language model`
 
 ---
 
@@ -520,13 +523,16 @@
 
 **来源**：ICLR · ICLR 2025 Poster · AI安全 · **发布日期**：2025 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=lOi6FtIwR8)
 
-**摘要总结**：暂无
+**摘要总结**：Recent alignment algorithms such as direct preference optimization (DPO) have been developed to improve the safety of large language models (LLMs) by training these models to match human behaviors exemplified by preference data.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`model editing` `mechanistic interpretability` `ai safety` `alignment`
 
 ---
 
@@ -536,13 +542,16 @@
 
 **来源**：ICLR · ICLR 2025 Poster · AI安全 · **发布日期**：2025 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=jCDF7G3LpF)
 
-**摘要总结**：暂无
+**摘要总结**：Content warning: This paper contains examples of harmful language and content.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`jailbreak` `ai security` `llm vunlnerability`
 
 ---
 
@@ -552,13 +561,16 @@
 
 **来源**：ICLR · ICLR 2025 Poster · AI安全 · **发布日期**：2025 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=wUbum0nd9N)
 
-**摘要总结**：暂无
+**摘要总结**：Large language models (LLMs) pose significant risks due to the potential for generating harmful content or users attempting to evade guardrails.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`content moderation` `llm-based guard models` `calibration` `safety`
 
 ---
 
@@ -568,13 +580,16 @@
 
 **来源**：ICLR · ICLR 2025 Poster · AI安全 · **发布日期**：2025 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=wWnsoLhHwt)
 
-**摘要总结**：暂无
+**摘要总结**：It has been reported that LLMs can recognize their own writing.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`llm` `interpretability` `ai` `activation steering`
 
 ---
 
@@ -584,13 +599,35 @@
 
 **来源**：ICLR · ICLR 2025 Oral · AI安全 · **发布日期**：2025 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=BPgK5XW1Nb)
 
-**摘要总结**：暂无
+**摘要总结**：Aligning large language models (LLMs) with human preferences becomes a key component to obtaining state-of-the-art performance, but it yields a huge cost to construct a large human-annotated preference dataset.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`large language model` `alignment` `preference`
+
+---
+
+### [SecAlign: Defending Against Prompt Injection with Preference Optimization.](https://dblp.org/rec/conf/ccs/ChenZMC0025)
+
+**作者**：Sizhe Chen, Arman Zharmagambetov, Saeed Mahloujifar, Kamalika Chaudhuri, David A. Wagner 0001, Chuan Guo 0001
+
+**来源**：CCS · CCS · AI安全 · **发布日期**：2025 · **推荐**：★★★☆☆
+
+**摘要总结**：暂无自动摘要；请配置 Codex 后重新运行分析任务。
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`dblp` `ccs`
 
 ---
 
@@ -600,13 +637,16 @@
 
 **来源**：ICLR · ICLR 2024 spotlight · AI安全 · **发布日期**：2024 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=kmn0BhQk7p)
 
-**摘要总结**：暂无
+**摘要总结**：Current privacy research on large language models (LLMs) primarily focuses on the issue of extracting memorized training data.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`privacy` `large language models`
 
 ---
 

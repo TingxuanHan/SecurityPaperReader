@@ -1099,7 +1099,23 @@
       "Preference Optimization",
       "Large Language Model"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Reinforcement Learning from Human Feedback (RLHF) has become the predominant approach for aligning language models (LMs) to be more helpful and less harmful.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "alignment",
+        "preference optimization",
+        "large language model"
+      ],
+      "analyzed_at": "2026-05-30T23:33:39.611032+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-05-29T23:50:37.436323+00:00"
   },
   {
@@ -1129,7 +1145,24 @@
       "toxicity",
       "llms"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Recent alignment algorithms such as direct preference optimization (DPO) have been developed to improve the safety of large language models (LLMs) by training these models to match human behaviors exemplified by preference data.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "model editing",
+        "mechanistic interpretability",
+        "ai safety",
+        "alignment"
+      ],
+      "analyzed_at": "2026-05-30T23:33:39.611151+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-05-29T23:50:37.436396+00:00"
   },
   {
@@ -1155,7 +1188,23 @@
       "AI Security",
       "LLM Vunlnerability"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Content warning: This paper contains examples of harmful language and content.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "jailbreak",
+        "ai security",
+        "llm vunlnerability"
+      ],
+      "analyzed_at": "2026-05-30T23:33:39.611248+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-05-29T23:50:37.436753+00:00"
   },
   {
@@ -1183,7 +1232,24 @@
       "Calibration",
       "Safety"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Large language models (LLMs) pose significant risks due to the potential for generating harmful content or users attempting to evade guardrails.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "content moderation",
+        "llm-based guard models",
+        "calibration",
+        "safety"
+      ],
+      "analyzed_at": "2026-05-30T23:33:39.611344+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-05-29T23:50:37.438486+00:00"
   },
   {
@@ -1210,7 +1276,24 @@
       "Representation Engineering",
       "Control"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "It has been reported that LLMs can recognize their own writing.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "llm",
+        "interpretability",
+        "ai",
+        "activation steering"
+      ],
+      "analyzed_at": "2026-05-30T23:33:39.611462+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-05-29T23:50:37.439697+00:00"
   },
   {
@@ -1236,8 +1319,66 @@
       "alignment",
       "preference"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Aligning large language models (LLMs) with human preferences becomes a key component to obtaining state-of-the-art performance, but it yields a huge cost to construct a large human-annotated preference dataset.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "large language model",
+        "alignment",
+        "preference"
+      ],
+      "analyzed_at": "2026-05-30T23:33:39.611558+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-05-29T23:50:37.442944+00:00"
+  },
+  {
+    "id": "dblp:conf/ccs/ChenZMC0025",
+    "source": "CCS AI安全 最近两年",
+    "database": "CCS",
+    "topic": "AI安全",
+    "venue": "CCS",
+    "title": "SecAlign: Defending Against Prompt Injection with Preference Optimization.",
+    "authors": [
+      "Sizhe Chen",
+      "Arman Zharmagambetov",
+      "Saeed Mahloujifar",
+      "Kamalika Chaudhuri",
+      "David A. Wagner 0001",
+      "Chuan Guo 0001"
+    ],
+    "abstract": "",
+    "published": "2025",
+    "updated": "",
+    "url": "https://dblp.org/rec/conf/ccs/ChenZMC0025",
+    "pdf_url": "",
+    "categories": [
+      "dblp",
+      "CCS"
+    ],
+    "analysis": {
+      "summary": "暂无自动摘要；请配置 Codex 后重新运行分析任务。",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "dblp",
+        "ccs"
+      ],
+      "analyzed_at": "2026-05-30T23:33:39.611625+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-05-30T23:31:57.329956+00:00"
   },
   {
     "id": "openreview:kmn0BhQk7p",
@@ -1261,7 +1402,22 @@
       "Privacy",
       "Large Language Models"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Current privacy research on large language models (LLMs) primarily focuses on the issue of extracting memorized training data.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "privacy",
+        "large language models"
+      ],
+      "analyzed_at": "2026-05-30T23:33:39.611725+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-05-29T23:50:36.191323+00:00"
   },
   {
