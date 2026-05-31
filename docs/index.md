@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-05-31 07:33 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-06-01 07:38 Asia/Shanghai
 
 ## 今日论文
 
@@ -656,13 +656,16 @@
 
 **来源**：ICLR · ICLR 2024 poster · AI安全 · **发布日期**：2024 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=vESNKdEMGp)
 
-**摘要总结**：暂无
+**摘要总结**：While large language models (LLMs) exhibit remarkable capabilities across a wide range of tasks, they pose potential safety concerns, such as the ``jailbreak'' problem, wherein malicious instructions can manipulate LLMs to exhibit undesirable behavior.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`multilingual` `safety` `large language models`
 
 ---
 
@@ -672,13 +675,16 @@
 
 **来源**：ICLR · ICLR 2024 poster · AI安全 · **发布日期**：2024 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=iS5ADHNg2A)
 
-**摘要总结**：暂无
+**摘要总结**：We study deceptive fairness attacks on graphs to answer the following question: How can we achieve poisoning attacks on a graph learning model to exacerbate the bias deceptively?
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`graph learning` `fairness` `adversarial attacks`
 
 ---
 
@@ -688,13 +694,16 @@
 
 **来源**：ICLR · ICLR 2024 spotlight · AI安全 · **发布日期**：2024 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=Tigr1kMDZy)
 
-**摘要总结**：暂无
+**摘要总结**：Modern language models can imitate complex patterns through few-shot learning, enabling them to complete challenging tasks without fine-tuning.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`mechanistic interpretability` `ai safety` `interpretability` `science of ml`
 
 ---
 
@@ -704,10 +713,13 @@
 
 **来源**：ICLR · ICLR 2024 poster · AI安全 · **发布日期**：2024 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=h05eQniJsQ)
 
-**摘要总结**：暂无
+**摘要总结**：As robustness verification methods are becoming more precise, training certifiably robust neural networks is becoming ever more relevant.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`certified robustness` `adversarial robustness` `neural network verification` `certified training`

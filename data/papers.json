@@ -1443,7 +1443,23 @@
       "safety",
       "large language models"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "While large language models (LLMs) exhibit remarkable capabilities across a wide range of tasks, they pose potential safety concerns, such as the ``jailbreak'' problem, wherein malicious instructions can manipulate LLMs to exhibit undesirable behavior.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "multilingual",
+        "safety",
+        "large language models"
+      ],
+      "analyzed_at": "2026-05-31T23:38:02.146412+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-05-29T23:50:36.192933+00:00"
   },
   {
@@ -1470,7 +1486,23 @@
       "fairness",
       "adversarial attacks"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "We study deceptive fairness attacks on graphs to answer the following question: How can we achieve poisoning attacks on a graph learning model to exacerbate the bias deceptively?",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "graph learning",
+        "fairness",
+        "adversarial attacks"
+      ],
+      "analyzed_at": "2026-05-31T23:38:02.146522+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-05-29T23:50:36.196964+00:00"
   },
   {
@@ -1498,7 +1530,24 @@
       "few-shot learning",
       "Large Language Models"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Modern language models can imitate complex patterns through few-shot learning, enabling them to complete challenging tasks without fine-tuning.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "mechanistic interpretability",
+        "ai safety",
+        "interpretability",
+        "science of ml"
+      ],
+      "analyzed_at": "2026-05-31T23:38:02.146623+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-05-29T23:50:36.203663+00:00"
   },
   {
@@ -1525,7 +1574,24 @@
       "Neural Network Verification",
       "Certified Training"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "As robustness verification methods are becoming more precise, training certifiably robust neural networks is becoming ever more relevant.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "certified robustness",
+        "adversarial robustness",
+        "neural network verification",
+        "certified training"
+      ],
+      "analyzed_at": "2026-05-31T23:38:02.146734+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-05-29T23:50:36.208918+00:00"
   }
 ]
