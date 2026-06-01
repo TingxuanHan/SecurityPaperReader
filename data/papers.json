@@ -1,5 +1,448 @@
 [
   {
+    "id": "arxiv:2605.31593v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Stateful Online Monitoring Catches Distributed Agent Attacks",
+    "authors": [
+      "Davis Brown",
+      "Samarth Bhargav",
+      "Arav Santhanam",
+      "Kasper Hong",
+      "Ivan Zhang",
+      "Matan Shtepel",
+      "Steffi Chern",
+      "Alexander Robey",
+      "Eric Wong",
+      "Hamed Hassani"
+    ],
+    "abstract": "Language models can find thousands of severe software vulnerabilities, and agents are increasingly being misused for cyberattacks. To avoid detection, attackers frequently distribute their misuse, splitting a harmful task across many user accounts so each individual transcript looks benign. Because safety monitors score only one agent context at a time, they are structurally blind to misuse that is only visible in aggregate, across many accounts. We show this gap is real by building, to our knowledge, the first distributed agent attack, a multi-agent scaffold that completes hard cybersecurity tasks while hiding the harmful objective across subagents with limited contexts, evading a standard monitor that catches it only a fifth as often as prior agent attacks. Towards a defense, we develop an online stateful monitor that uses real-time clustering to collect weak suspiciousness signals across many agent transcripts, and escalates only rarely to a language model that flags misuse across user accounts. In evaluations with large-scale simulated datacenter traffic, our monitor Pareto dominates standard monitors, catching distributed attacks 30% earlier and flagging cyber misuse before it reaches the most harmful stages. Crucially, this comes at negligible additional latency for ~99% of user traffic. This detection advantage persists but narrows as the benign background traffic grows very large. After an extensive red-teaming exercise, we improve the defense and surprisingly also find that it catches standard jailbreaks, since adaptive attackers reuse attack variants across accounts. Our results point toward a new class of safety monitors which reason over groups of users rather than isolated transcripts.",
+    "published": "2026-05-29T17:57:00Z",
+    "updated": "2026-05-29T17:57:00Z",
+    "url": "https://arxiv.org/abs/2605.31593v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.31593v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Language models can find thousands of severe software vulnerabilities, and agents are increasingly being misused for cyberattacks.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-06-01T23:49:28.598432+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-06-01T23:47:38.893903+00:00"
+  },
+  {
+    "id": "arxiv:2605.31042v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "From Prompt Injection to Persistent Control: Defending Agentic Harness Against Trojan Backdoors",
+    "authors": [
+      "Jiejun Tan",
+      "Zhicheng Dou",
+      "Xinyu Yang",
+      "Yuyang Hu",
+      "Yiruo Cheng",
+      "Xiaoxi Li",
+      "Ji-Rong Wen"
+    ],
+    "abstract": "LLM agents are evolving from conversational chatbots to operational tools in real-world workspaces. In local agentic harnesses, an LLM can read and write files, call tools, and reuse workspace state across sessions. While such capabilities enhance utility, they also expose a new attack surface for attackers. Attackers can embed a prompt injection within a file or tool output. Agents may read this hidden instruction, store it, and execute it later. In this multi-step trojan attack paradigm, no individual step appears malicious on its own, but these steps can collectively turn untrusted text into persistent control content. However, existing defenses often inspect each step in isolation. As a result, they can block a clear harmful action, but fail to detect the earlier write operation that plants the backdoor. To reveal this threat, we introduce ClawTrojan, a benchmark designed to identify multi-step trojan attacks in local agentic harnesses. In an OpenClaw-style simulated workspace with GPT-5.4, ClawTrojan reaches a 95.5% attack success rate (ASR), while existing single-turn prompt-injection attacks produce near-zero ASR on the same model. To address this threat, we propose DASGuard, which scans control-like text in sensitive local files, traces its origin, and removes control content that does not originate from a trusted source. Our results show that DASGuard achieves strong dynamic defense by combining runtime attack blocking with sanitized commits to the workspace.",
+    "published": "2026-05-29T09:19:07Z",
+    "updated": "2026-05-29T09:19:07Z",
+    "url": "https://arxiv.org/abs/2605.31042v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.31042v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "analysis": {
+      "summary": "LLM agents are evolving from conversational chatbots to operational tools in real-world workspaces.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai",
+        "cs-cl"
+      ],
+      "analyzed_at": "2026-06-01T23:49:28.598552+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-06-01T23:47:38.894083+00:00"
+  },
+  {
+    "id": "arxiv:2605.30888v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "The Flip Side of RLHF: On-Policy Feedback for Reward Model Self-Supervised Improvement",
+    "authors": [
+      "Xiaobo Wang",
+      "Tong Wu",
+      "Min Tang",
+      "Jiaqi Li",
+      "Qi Liu",
+      "Zilong Zheng"
+    ],
+    "abstract": "Building strong reward models (RMs) for language model alignment is bottlenecked by the cost and difficulty of acquiring diverse and reliable preference data from human annotation or judge models. It is dramatically worse as the policy evolves beyond the static RM training. Therefore, we propose SAVE (Self-supervised reward model improvement via Value-Anchored On-policy feedback), a framework that grades on-policy responses as feedback by using the value function for on-policy RM training. SAVE naturally converts the reward-graded on-policy responses into supervision with a prompt-specific value head as an adaptive anchor. It computes RM advantages and filters ambiguous samples to update the RM via a contrastive objective. The effectiveness of SAVE for enhancing RM training is strongly validated through rigorous empirical evaluation across six diverse benchmarks. It achieves outperforming results across all datasets while maintaining consistent improvements across three RL algorithms (GRPO, RLOO, GSPO) and different policy backbones.",
+    "published": "2026-05-29T06:25:16Z",
+    "updated": "2026-05-29T06:25:16Z",
+    "url": "https://arxiv.org/abs/2605.30888v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.30888v1",
+    "categories": [
+      "cs.CL"
+    ],
+    "analysis": {
+      "summary": "Building strong reward models (RMs) for language model alignment is bottlenecked by the cost and difficulty of acquiring diverse and reliable preference data from human annotation or judge models.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cl"
+      ],
+      "analyzed_at": "2026-06-01T23:49:28.598646+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-06-01T23:47:38.894192+00:00"
+  },
+  {
+    "id": "arxiv:2605.30883v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "TRACE: Task-Aware Adaptive Self-Evolving Agentic Jailbreaking",
+    "authors": [
+      "Churui Zeng",
+      "Weiwei Qi",
+      "Kedong Xiu",
+      "Tianhang Zheng",
+      "Chaochao Lu",
+      "Liang He",
+      "Zhan Qin",
+      "Kui Ren"
+    ],
+    "abstract": "The rise of LLM agents introduces a new threat by enabling planning, coding, and even end-to-end execution of expert-level attack workflows. However, this threat remains underexplored and underestimated since (i) safety alignment prevents LLMs from directly generating harmful instructions, and (ii) most existing jailbreak methods cannot consistently induce agents to execute malicious operations. In this paper, we propose TRACE, a practical agentic jailbreaking framework to further reveal the risks of this threat surface. To conceal the malicious intent, TRACE decomposes a malicious task into multiple subtask sequences under different schemes and selects the sequence with the fewest explicitly harmful subtasks. TRACE then disguises the remaining harmful subtasks as benign-looking instructions by embedding them in task-aware scenarios with related roles, environments, directives, and heuristics. The scenarios are iteratively evolved through well-defined transformation actions, which are sampled by a Q-learning-inspired mechanism, for inducing the agent to execute on the harmful subtasks. Extensive evaluations on AgentHarm and AdvCUA show that TRACE consistently outperforms existing jailbreak baselines across multiple advanced LLM agents, achieving up to 100% bypass rate and 0.73 average success score. We also demonstrate the effectiveness of TRACE in controlled cyberattack instances. Our code and demos are available at https://github.com/ZJU-LLM-Safety/TRACE.git.",
+    "published": "2026-05-29T06:13:58Z",
+    "updated": "2026-05-29T06:13:58Z",
+    "url": "https://arxiv.org/abs/2605.30883v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.30883v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "analysis": {
+      "summary": "The rise of LLM agents introduces a new threat by enabling planning, coding, and even end-to-end execution of expert-level attack workflows.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-06-01T23:49:28.598741+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-06-01T23:47:38.894305+00:00"
+  },
+  {
+    "id": "arxiv:2605.30808v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Differentially Private Preference Data Synthesis for Large Language Model Alignment",
+    "authors": [
+      "Fengyu Gao",
+      "Jing Yang"
+    ],
+    "abstract": "Preference alignment is a crucial post-training step for large language models (LLMs) to ensure their outputs align with human values. However, post-training on real human preference data raises privacy concerns, as these datasets often contain sensitive user prompts and human judgments. To address this, we propose DPPrefSyn, a novel algorithm for generating differentially private (DP) synthetic preference data to enable privacy-preserving preference alignment. DPPrefSyn is a principled framework grounded in the Bradley-Terry preference model and the intrinsic geometric structure of pairwise human preference data. It first learns an underlying preference model from private data with formal differential privacy guarantees, and then leverages the learned model together with public prompts to synthesize high-quality preference data. It exploits the shared linear structure of per-cluster reward models to effectively capture heterogeneous human preferences in private datasets, and leverages DP Principal Component Analysis (DP-PCA) to improve learning accuracy. Extensive experimental results demonstrate that DPPrefSyn achieves competitive alignment performance under strong DP guarantees. These findings highlight the potential of synthetic preference data as a practical alternative for privacy-preserving preference alignment across a broad range of applications. To the best of our knowledge, this is the first work to generate DP synthetic preference data for LLM alignment. Our code is available at https://github.com/gfengyu/Differentially-Private-Preference-Data-Synthesis.",
+    "published": "2026-05-29T03:53:12Z",
+    "updated": "2026-05-29T03:53:12Z",
+    "url": "https://arxiv.org/abs/2605.30808v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.30808v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "analysis": {
+      "summary": "Preference alignment is a crucial post-training step for large language models (LLMs) to ensure their outputs align with human values.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-06-01T23:49:28.598836+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-06-01T23:47:38.894504+00:00"
+  },
+  {
+    "id": "arxiv:2605.30803v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "PReMISE: Policy Rubrics as Measurement Specifications for LLM Judges",
+    "authors": [
+      "Swastik Roy",
+      "Rajkumar Pujari",
+      "Tharindu Kumarage",
+      "Charith Peris",
+      "Rahul Gupta",
+      "Anna Rumshisky",
+      "Pradeep Natarajan",
+      "Venkatesh Saligrama"
+    ],
+    "abstract": "LLM judges are increasingly used to evaluate open-ended responses, but their scores depend strongly on the rubrics that condition them. A vague rubric asking for a response to be ``helpful and factual'' can reward polished answers that invent facts or violate user intent. We treat reusable rubrics as measurement specifications: changing the rubric changes the response quality measurement induced by a fixed judge. We introduce PReMISE, a framework that, given pairwise human-preference data, (i) discovers a policy-level rubric set, and (ii) audits any rubric set under LLM-judge use along four axes: structural adequacy, reliability, preference fit, and adversarial robustness. Across rubric sources no raw source is simultaneously reliable, preference-predictive, and adversarially robust; and high inter-rater agreement does not imply low exploitability. PReMISE is the only rubric source to score non-trivially on applicability, specificity, and effective dimensionality simultaneously. We contribute two audit-targeted repair operations: preference-rank selection raises judge accuracy on paired responses from $65.0\\%$ to $68.6\\%$, competitive with the strongest rubric-discovery baselines and leading on two of three judges in our cross-judge sweep; reliability-constrained refinement reduces the rate at which exploit responses receive high scores from $46.4\\%$ to $36.0\\%$ with little change in inter-judge agreement ($α{=}.531\\to.519$).",
+    "published": "2026-05-29T03:45:11Z",
+    "updated": "2026-05-29T03:45:11Z",
+    "url": "https://arxiv.org/abs/2605.30803v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.30803v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "LLM judges are increasingly used to evaluate open-ended responses, but their scores depend strongly on the rubrics that condition them.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-06-01T23:49:28.598963+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-06-01T23:47:38.894626+00:00"
+  },
+  {
+    "id": "arxiv:2605.30686v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Depth-Dependent Indirect Prompt Injection in Tool-Calling ReAct Agents: Injection Depth, Payload Framing, and Turn-Budget Sensitivity",
+    "authors": [
+      "Mohammadreza Rashidi"
+    ],
+    "abstract": "ReAct agents that interleave chain-of-thought reasoning with tool calls are increasingly deployed for real tasks such as scheduling, file retrieval, and data access. Their tool observation loop creates a direct attack surface: an adversary who controls any tool's return value can embed instructions that redirect the agent away from the user's goal, a threat known as indirect prompt injection. Existing benchmarks evaluate attack success rate (ASR) at a fixed injection position under fixed conditions, leaving three risk dimensions unexplored: where in the tool sequence the payload appears (injection depth), what rhetorical register it uses (framing), and how many turns the agent is permitted (turn cap). We conduct four controlled studies on 20 scenarios spanning five attack categories, totalling 460 trials against GPT-4o-mini and Claude Haiku at a combined API cost under 0.36 USD. Study 1 shows that ASR against GPT-4o-mini decays from 60% at depth 1 to 0% at depths 4 and 5 (Cramer's V = 0.58, p < 0.001; restricted to within-sequence depths 1-3: V = 0.47, p = 0.0013), driven by model resistance at depth 1 and task completion before payload encounter at deeper positions. Study 2 replicates the depth experiment on Claude Haiku, which achieves 0% ASR at every depth through a combination of conservative tool invocation and genuine instruction resistance. Study 3 shows that framing modulates ASR between 25% (neutral) and 75% (persona) at depth 1, a 50-percentage-point range that does not reach statistical significance at N = 20 per condition. Study 4 confirms that ASR is stable across turn caps of 3, 5, and 7, indicating the turn budget is not a risk factor in this setting. Our results establish injection depth as the dominant variable and show that sanitising only the first tool observation captures 67% of measured injection successes.",
+    "published": "2026-05-29T00:28:42Z",
+    "updated": "2026-05-29T00:28:42Z",
+    "url": "https://arxiv.org/abs/2605.30686v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.30686v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "analysis": {
+      "summary": "ReAct agents that interleave chain-of-thought reasoning with tool calls are increasingly deployed for real tasks such as scheduling, file retrieval, and data access.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-06-01T23:49:28.599075+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-06-01T23:47:38.894744+00:00"
+  },
+  {
+    "id": "arxiv:2605.30677v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Investigating Detection and Obfuscation of Prompt Injection Attacks Against Software Reverse Engineering AI Agents",
+    "authors": [
+      "Brian Crawford",
+      "Patrick McClure"
+    ],
+    "abstract": "Agentic software reverse engineering systems are vulnerable to prompt injection attacks placed into the source code of executable binary files. This research demonstrates defensive tactics for detecting the presences of prompt injection strings in the decompiler output of adversarial example programs. Methods for obfuscating these attacks and subsequent methods for defending against these obfuscations are also explored. This research advances the understanding of risk and security of agentic software analysis systems necessary for their deployment into production-level cyber workflows.",
+    "published": "2026-05-29T00:13:35Z",
+    "updated": "2026-05-29T00:13:35Z",
+    "url": "https://arxiv.org/abs/2605.30677v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.30677v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.SE"
+    ],
+    "analysis": {
+      "summary": "Agentic software reverse engineering systems are vulnerable to prompt injection attacks placed into the source code of executable binary files.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai",
+        "cs-se"
+      ],
+      "analyzed_at": "2026-06-01T23:49:28.599216+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-06-01T23:47:38.894817+00:00"
+  },
+  {
+    "id": "arxiv:2605.30667v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Automatically Attacking Software Reverse Engineering AI Agents",
+    "authors": [
+      "Brian Crawford",
+      "Justin Phillips",
+      "Patrick McClure"
+    ],
+    "abstract": "Software tools for reverse engineering executable binary files, such as Ghidra, enable malware analysts to safely conduct robust static analysis without having access to original source code. Coupled with the analytic power of large language models (LLM), agentic systems enabled with tools, such as GhidraMCP, can allow analysts to automate a previously human driven process. Although this automation can increase the productivity of a single malware analyst, it also introduces a new area of vulnerability for malware obfuscation. This paper presents an adversarial technique using genetic algorithm-based prompt generation, a modification of an adversarial attack known as AutoDAN, to demonstrate the ability to deceive LLM-powered disassembly and decompilation systems into misinterpreting binary executables, effectively corrupting their analytical output. This proof-of-concept methodology exploits inherent vulnerabilities in how LLMs process and interpret decompiled machine code via prompt injection by using extraneous string variable assignments to pass surreptitious instructions to the LLM while not impacting the functionality of the executable file. We demonstrate this capability through several concise examples. This approach could enable attackers to bypass automated detection systems that rely on LLM-driven analysis pipelines. By studying and understanding this attack, insights can be gained regarding the security implication of integrating LLMs into cybersecurity toolchains and building more robust agentic code analysis systems.",
+    "published": "2026-05-28T23:58:25Z",
+    "updated": "2026-05-28T23:58:25Z",
+    "url": "https://arxiv.org/abs/2605.30667v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.30667v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "analysis": {},
+    "fetched_at": "2026-06-01T23:47:38.894923+00:00"
+  },
+  {
+    "id": "arxiv:2605.30650v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "When AI Meets Wall Street: A Survey on Trustworthy AI in Fintech",
+    "authors": [
+      "Qingwen Zeng",
+      "Zhenghao Zhao",
+      "Yitian Yang",
+      "Yiqi Zhu",
+      "Fangchen Liu",
+      "Zhaoge Bi",
+      "Moe Thandar Kyaw Wynn",
+      "Kim-Kwang Raymond Choo",
+      "Huaming Chen"
+    ],
+    "abstract": "Artificial intelligence is now embedded as a primary decision engine in continuously operated financial AI pipelines spanning training and updating, deployment and inference, and operation with monitoring and feedback. The automation and scale that make these pipelines effective also create novel attack surfaces, where small algorithmic perturbations can amplify into persistent, system-level financial harm. Existing surveys, however, either treat AI as a defensive tool or analyse adversarial machine learning in a domain-agnostic manner, abstracting away finance-specific constraints such as accounting plausibility, non-IID federated data, continuous retraining, and automation-amplified downstream effects. We address this gap with a unified, lifecycle-centric and mechanism-driven framework. We partition financial AI into three lifecycle stages: training and updating, deployment and inference, and operation, monitoring, and feedback. We further propose the Financial AI Security and Robustness Taxonomy, organising seventeen attack subtypes across data and model poisoning, adversarial attacks on decision boundaries, prompt injection in LLM-mediated workflows, and deepfake-driven subversion of KYC verification layers. For each subtype, we analyse algorithmic strategy, feasibility constraints, stealth and persistence, and downstream financial consequences. Finally, we identify open challenges and outline a research agenda toward lifecycle-aware stress testing and finance-relevant robustness benchmarks.",
+    "published": "2026-05-28T23:10:04Z",
+    "updated": "2026-05-28T23:10:04Z",
+    "url": "https://arxiv.org/abs/2605.30650v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.30650v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "analysis": {},
+    "fetched_at": "2026-06-01T23:47:38.895038+00:00"
+  },
+  {
+    "id": "arxiv:2605.30601v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "TASER: Task-Aware Stein Regularisation for Geometry-Driven Robustness",
+    "authors": [
+      "Michał Kozyra",
+      "Gesine Reinert"
+    ],
+    "abstract": "Modern deep networks remain fragile under distribution shift and adversarial perturbations, often due to excessive or poorly structured input sensitivity. We introduce TASER (Task-Aware Stein Regularisation), a training-time regularisation framework derived from Langevin Stein operators. By penalising pointwise Stein residuals under the training distribution, TASER encourages geometric compatibility between predictors and data density, inducing anisotropic, data-aware smoothness. We provide theoretical links between Stein regularisation and reduced first-order shift sensitivity, develop scalable implementation variants compatible with modern architectures, and demonstrate improved robustness and stability across regression and vision benchmarks. Across CIFAR-10 experiments, TASER consistently improves the adversarial robustness of established training methods without incurring statistically significant clean-accuracy degradation.",
+    "published": "2026-05-28T21:49:04Z",
+    "updated": "2026-05-28T21:49:04Z",
+    "url": "https://arxiv.org/abs/2605.30601v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.30601v1",
+    "categories": [
+      "cs.LG"
+    ],
+    "analysis": {},
+    "fetched_at": "2026-06-01T23:47:38.895106+00:00"
+  },
+  {
+    "id": "arxiv:2605.30534v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Strengthening Polymorphic Prompt Assembling: Dynamic Separator Generation Against Emerging Prompt Injection Attacks",
+    "authors": [
+      "Nima Dorzhiev",
+      "Peng Liu"
+    ],
+    "abstract": "Polymorphic Prompt Assembling (PPA) defends LLM agents against prompt injections by randomly selecting separator pairs from a fixed pool to isolate user input from system instructions. Although effective, static pool reuse exposes a blast-radius vulnerability: once a separator leaks, it can be exploited in future requests. We propose a dynamic per-request separator generation using domain-separated SHA-256 digests keyed on the timestamp, session identifier, and cryptographic nonce. Each assembled prompt receives a unique (BEGIN, END) canary pair, thereby limiting leakage exposure to a single request. We evaluated our extension against 16 injection payloads on Llama-3.3-70B-Instruct-Turbo, with cross-model validation on DeepSeek-V4-Flash model. Against the M1 obfuscation payload (leetspeak + urgency), the dynamic mode reduces the Attack Success Rate (ASR) from 0.88 to 0.38, yielding a statistically significant 2.3 x mitigation verified by non-overlapping 95% Wilson confidence intervals. Against format_breakout_salad, static separator leakage (leak_rate = 0.467) is eliminated entirely in the dynamic mode (0.000), confirming the blast-radius reduction in practice. The implementation requires no model fine-tuning, adds 2.7 microseconds prompt-assembly overhead per request, and is backward compatible with the existing PPA SDK.",
+    "published": "2026-05-28T20:10:04Z",
+    "updated": "2026-05-28T20:10:04Z",
+    "url": "https://arxiv.org/abs/2605.30534v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.30534v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "analysis": {},
+    "fetched_at": "2026-06-01T23:47:38.895190+00:00"
+  },
+  {
+    "id": "arxiv:2605.30454v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "The Surface You Test Is Not the Surface That Breaks",
+    "authors": [
+      "Shifat E Arman",
+      "Syed Nazmus Sakib",
+      "Nafiul Haque",
+      "Shahrear Bin Amin"
+    ],
+    "abstract": "Tool-augmented LLM agents are vulnerable to prompt injection: a third party who controls part of the agent's context can plant instructions that the agent then executes as if they came from the user. Current evaluations report a single attack success rate per model on one channel, the tool output and treat that number as the model's vulnerability. But tool descriptions, which the agent reads at every turn before any tool is called, are themselves an injection surface that the attacker can choose instead. We hold the injection payload byte-identical and deliver it through both surfaces across 13 LLMs from six families and four task suites. The same bytes invert in success rate across models: GPT-4.1 is 96 percent vulnerable on tool outputs but only 4 percent on tool descriptions, while GEMINI-3-FLASH shows the mirror pattern at 20 percent and 98 percent. A variance decomposition over 6,830 attempts attributes 0 percent of the variation in attack outcomes to the surface alone, while the model-surface interaction accounts for 16.7 percent. Vulnerability is a property of the pairing, not the channel. The Adaptive Attack Rate, defined as the per-cell maximum over surfaces, exceeds the strongest fixed-surface baseline by +9.1 percentage points on average. Standard prompt-level defenses inherit the same blindspot, reducing tool-output ASR to 10-18 percent while leaving the description channel above 54 percent. Both attack and defense evaluation must report per-surface vulnerability.",
+    "published": "2026-05-28T18:26:40Z",
+    "updated": "2026-05-28T18:26:40Z",
+    "url": "https://arxiv.org/abs/2605.30454v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.30454v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "analysis": {},
+    "fetched_at": "2026-06-01T23:47:38.895290+00:00"
+  },
+  {
     "id": "arxiv:2605.30040v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",

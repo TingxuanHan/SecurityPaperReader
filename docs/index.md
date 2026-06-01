@@ -1,8 +1,240 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-06-01 07:38 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-06-02 07:49 Asia/Shanghai
 
 ## 今日论文
+
+### [Stateful Online Monitoring Catches Distributed Agent Attacks](https://arxiv.org/abs/2605.31593v1)
+
+**作者**：Davis Brown, Samarth Bhargav, Arav Santhanam, Kasper Hong, Ivan Zhang, Matan Shtepel, Steffi Chern, Alexander Robey, et al.
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-05-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2605.31593v1)
+
+**摘要总结**：Language models can find thousands of severe software vulnerabilities, and agents are increasingly being misused for cyberattacks.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
+
+---
+
+### [From Prompt Injection to Persistent Control: Defending Agentic Harness Against Trojan Backdoors](https://arxiv.org/abs/2605.31042v1)
+
+**作者**：Jiejun Tan, Zhicheng Dou, Xinyu Yang, Yuyang Hu, Yiruo Cheng, Xiaoxi Li, Ji-Rong Wen
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-05-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2605.31042v1)
+
+**摘要总结**：LLM agents are evolving from conversational chatbots to operational tools in real-world workspaces.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-cl`
+
+---
+
+### [The Flip Side of RLHF: On-Policy Feedback for Reward Model Self-Supervised Improvement](https://arxiv.org/abs/2605.30888v1)
+
+**作者**：Xiaobo Wang, Tong Wu, Min Tang, Jiaqi Li, Qi Liu, Zilong Zheng
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-05-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2605.30888v1)
+
+**摘要总结**：Building strong reward models (RMs) for language model alignment is bottlenecked by the cost and difficulty of acquiring diverse and reliable preference data from human annotation or judge models.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl`
+
+---
+
+### [TRACE: Task-Aware Adaptive Self-Evolving Agentic Jailbreaking](https://arxiv.org/abs/2605.30883v1)
+
+**作者**：Churui Zeng, Weiwei Qi, Kedong Xiu, Tianhang Zheng, Chaochao Lu, Liang He, Zhan Qin, Kui Ren
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-05-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2605.30883v1)
+
+**摘要总结**：The rise of LLM agents introduces a new threat by enabling planning, coding, and even end-to-end execution of expert-level attack workflows.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
+
+---
+
+### [Differentially Private Preference Data Synthesis for Large Language Model Alignment](https://arxiv.org/abs/2605.30808v1)
+
+**作者**：Fengyu Gao, Jing Yang
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-05-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2605.30808v1)
+
+**摘要总结**：Preference alignment is a crucial post-training step for large language models (LLMs) to ensure their outputs align with human values.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-lg`
+
+---
+
+### [PReMISE: Policy Rubrics as Measurement Specifications for LLM Judges](https://arxiv.org/abs/2605.30803v1)
+
+**作者**：Swastik Roy, Rajkumar Pujari, Tharindu Kumarage, Charith Peris, Rahul Gupta, Anna Rumshisky, Pradeep Natarajan, Venkatesh Saligrama
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-05-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2605.30803v1)
+
+**摘要总结**：LLM judges are increasingly used to evaluate open-ended responses, but their scores depend strongly on the rubrics that condition them.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
+
+---
+
+### [Depth-Dependent Indirect Prompt Injection in Tool-Calling ReAct Agents: Injection Depth, Payload Framing, and Turn-Budget Sensitivity](https://arxiv.org/abs/2605.30686v1)
+
+**作者**：Mohammadreza Rashidi
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-05-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2605.30686v1)
+
+**摘要总结**：ReAct agents that interleave chain-of-thought reasoning with tool calls are increasingly deployed for real tasks such as scheduling, file retrieval, and data access.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-lg`
+
+---
+
+### [Investigating Detection and Obfuscation of Prompt Injection Attacks Against Software Reverse Engineering AI Agents](https://arxiv.org/abs/2605.30677v1)
+
+**作者**：Brian Crawford, Patrick McClure
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-05-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2605.30677v1)
+
+**摘要总结**：Agentic software reverse engineering systems are vulnerable to prompt injection attacks placed into the source code of executable binary files.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-se`
+
+---
+
+### [Automatically Attacking Software Reverse Engineering AI Agents](https://arxiv.org/abs/2605.30667v1)
+
+**作者**：Brian Crawford, Justin Phillips, Patrick McClure
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-05-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2605.30667v1)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
+
+### [When AI Meets Wall Street: A Survey on Trustworthy AI in Fintech](https://arxiv.org/abs/2605.30650v1)
+
+**作者**：Qingwen Zeng, Zhenghao Zhao, Yitian Yang, Yiqi Zhu, Fangchen Liu, Zhaoge Bi, Moe Thandar Kyaw Wynn, Kim-Kwang Raymond Choo, et al.
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-05-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2605.30650v1)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
+
+### [TASER: Task-Aware Stein Regularisation for Geometry-Driven Robustness](https://arxiv.org/abs/2605.30601v1)
+
+**作者**：Michał Kozyra, Gesine Reinert
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-05-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2605.30601v1)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
+
+### [Strengthening Polymorphic Prompt Assembling: Dynamic Separator Generation Against Emerging Prompt Injection Attacks](https://arxiv.org/abs/2605.30534v1)
+
+**作者**：Nima Dorzhiev, Peng Liu
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-05-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2605.30534v1)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
+
+### [The Surface You Test Is Not the Surface That Breaks](https://arxiv.org/abs/2605.30454v1)
+
+**作者**：Shifat E Arman, Syed Nazmus Sakib, Nafiul Haque, Shahrear Bin Amin
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-05-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2605.30454v1)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
 
 ### [Token Inflation: How Dishonest Providers Can Overcharge for Large Language Model Usage](https://arxiv.org/abs/2605.30040v1)
 
