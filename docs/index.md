@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-06-02 07:49 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-06-03 08:11 Asia/Shanghai
 
 ## 今日论文
 
@@ -162,13 +162,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-05-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2605.30667v1)
 
-**摘要总结**：暂无
+**摘要总结**：Software tools for reverse engineering executable binary files, such as Ghidra, enable malware analysts to safely conduct robust static analysis without having access to original source code.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -178,13 +181,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-05-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2605.30650v1)
 
-**摘要总结**：暂无
+**摘要总结**：Artificial intelligence is now embedded as a primary decision engine in continuously operated financial AI pipelines spanning training and updating, deployment and inference, and operation with monitoring and feedback.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
@@ -194,13 +200,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-05-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2605.30601v1)
 
-**摘要总结**：暂无
+**摘要总结**：Modern deep networks remain fragile under distribution shift and adversarial perturbations, often due to excessive or poorly structured input sensitivity.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg`
 
 ---
 
@@ -210,13 +219,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-05-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2605.30534v1)
 
-**摘要总结**：暂无
+**摘要总结**：Polymorphic Prompt Assembling (PPA) defends LLM agents against prompt injections by randomly selecting separator pairs from a fixed pool to isolate user input from system instructions.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
@@ -226,13 +238,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-05-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2605.30454v1)
 
-**摘要总结**：暂无
+**摘要总结**：Tool-augmented LLM agents are vulnerable to prompt injection: a third party who controls part of the agent's context can plant instructions that the agent then executes as if they came from the user.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
