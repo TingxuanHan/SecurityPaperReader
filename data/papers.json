@@ -1896,6 +1896,50 @@
     "fetched_at": "2026-05-30T23:31:57.329956+00:00"
   },
   {
+    "id": "dblp:conf/aaai/0001LLJWMPL25",
+    "source": "AAAI AI安全 最近两年",
+    "database": "AAAI",
+    "topic": "AI安全",
+    "venue": "AAAI",
+    "title": "Perception-Guided Jailbreak Against Text-to-Image Models.",
+    "authors": [
+      "Yihao Huang 0001",
+      "Le Liang",
+      "Tianlin Li",
+      "Xiaojun Jia",
+      "Run Wang 0001",
+      "Weikai Miao",
+      "Geguang Pu",
+      "Yang Liu 0003"
+    ],
+    "abstract": "",
+    "published": "2025",
+    "updated": "",
+    "url": "https://dblp.org/rec/conf/aaai/0001LLJWMPL25",
+    "pdf_url": "",
+    "categories": [
+      "dblp",
+      "AAAI"
+    ],
+    "analysis": {
+      "summary": "暂无自动摘要；请配置 Codex 后重新运行分析任务。",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "dblp",
+        "aaai"
+      ],
+      "analyzed_at": "2026-06-04T00:13:58.262364+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-06-04T00:13:04.401364+00:00"
+  },
+  {
     "id": "openreview:kmn0BhQk7p",
     "source": "ICLR AI安全 最近两年",
     "database": "ICLR",

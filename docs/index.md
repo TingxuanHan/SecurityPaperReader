@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-06-03 08:11 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-06-04 08:13 Asia/Shanghai
 
 ## 今日论文
 
@@ -875,6 +875,25 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `dblp` `ccs`
+
+---
+
+### [Perception-Guided Jailbreak Against Text-to-Image Models.](https://dblp.org/rec/conf/aaai/0001LLJWMPL25)
+
+**作者**：Yihao Huang 0001, Le Liang, Tianlin Li, Xiaojun Jia, Run Wang 0001, Weikai Miao, Geguang Pu, Yang Liu 0003
+
+**来源**：AAAI · AAAI · AI安全 · **发布日期**：2025 · **推荐**：★★★☆☆
+
+**摘要总结**：暂无自动摘要；请配置 Codex 后重新运行分析任务。
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`dblp` `aaai`
 
 ---
 
