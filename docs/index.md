@@ -1,8 +1,288 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-06-05 07:49 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-06-06 07:44 Asia/Shanghai
 
 ## 今日论文
+
+### [PAC-Bayesian Adversarially Robust Generalization for Message Passing Graph Neural Networks: A Sensitivity Analysis](https://arxiv.org/abs/2606.06293v1)
+
+**作者**：Ziling Liang, Xinping Yi, Qingsong Wen, Shi Jin
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.06293v1)
+
+**摘要总结**：Whilst the vulnerability of graph neural networks (GNNs) to adversarial attacks poses a critical threat to graph representation learning, the understanding of the robust generalization behavior remains a fundamental challenge in the adversarial setting.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `stat-ml`
+
+---
+
+### [Adversarial Attacks Already Tell the Answer: Directional Bias-Guided Test-time Defense for Vision-Language Models](https://arxiv.org/abs/2606.06186v1)
+
+**作者**：Liangsheng Liu, Si Chen, Jiamin Wu, Weiwei Feng, Zhixin Cheng, Xiaotian Yin, Wenfei Yang, Tianzhu Zhang
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.06186v1)
+
+**摘要总结**：Vision-Language Models (VLMs), such as CLIP, have shown strong zero-shot generalization but remain highly vulnerable to adversarial perturbations, posing serious risks in real-world applications.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv`
+
+---
+
+### [Where, What, Why, and Importance: Structured Defect Grounding for Text-to-Image Feedback](https://arxiv.org/abs/2606.06113v1)
+
+**作者**：Huaisong Zhang, Hao Yu, Yuxuan Zhang, Jiahe Wang, Xinrui Chen, Haoxiang Cao, Feng Lu, Wendong Zhang, et al.
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.06113v1)
+
+**摘要总结**：Despite generating increasingly photorealistic images, text-to-image (T2I) models still exhibit localized, subtle, and structurally complex failures.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv`
+
+---
+
+### [CogManip: Benchmarking Manipulative Behavior in Multi-Turn Interactions with Large Language Model](https://arxiv.org/abs/2606.06099v1)
+
+**作者**：Zeyang Yue, Chenfei Yan, Feifei Zhao, Haibo Tong, Mengwen Xu, Xiaozhen Wang, Erliang Lin, Yi Zeng
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.06099v1)
+
+**摘要总结**：Whether Large Language Models (LLMs) exhibit covert psychological manipulation in complex human-AI interactions has garnered increasing safety concerns.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
+
+---
+
+### [Beyond Similarity: Trustworthy Memory Search for Personal AI Agents](https://arxiv.org/abs/2606.06054v1)
+
+**作者**：Jiawen Zhang, Kejia Chen, Jiachen Ma, Yangfan Hu, Lipeng He, Yechao Zhang, Jian Liu, Xiaohu Yang, et al.
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.06054v1)
+
+**摘要总结**：Personal AI agents increasingly rely on long-term memory to provide persistent personalization across sessions.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
+
+---
+
+### [SpeechJBB: Probing Safety Alignment and Comprehension in Large Audio Language Models under Code-Switched Speech](https://arxiv.org/abs/2606.06037v1)
+
+**作者**：Virginia Ceccatelli, Yejin Jeon, David Ifeoluwa Adelani
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.06037v1)
+
+**摘要总结**：Large audio language models (LALMs) are increasingly deployed in real-world applications, yet their safety alignment is still primarily evaluated on monolingual, text-based harmful prompts.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-sd` `eess-as`
+
+---
+
+### [Steering Vectors are an Adversarial Attack Surface](https://arxiv.org/abs/2606.05958v1)
+
+**作者**：Abzal Aidakhmetov, Donato Crisostomi, Tommaso Mencattini, Adrian Robert Minut, Iacopo Masi, Emanuele Rodolà
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.05958v1)
+
+**摘要总结**：Activation steering has become a popular way to control Large Language Model (LLM) behavior without fine-tuning.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg`
+
+---
+
+### [Consistency Training Along the Transformer Stack](https://arxiv.org/abs/2606.05817v1)
+
+**作者**：Sukrati Gautam, Neil Shah, Arav Dhoot, Bryan Maruyama, Caroline Wei, Rohan Kapoor, Robert Sidey, Prakhar Gupta, et al.
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.05817v1)
+
+**摘要总结**：Consistency training encourages models to behave similarly across different contexts, and has shown promise for reducing misalignment.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-ai`
+
+---
+
+### [Membrane: A Self-Evolving Contrastive Safety Memory for LLM Agent Defense](https://arxiv.org/abs/2606.05743v1)
+
+**作者**：Minseok Choi, Seungbin Yang, Dongjin Kim, Subin Kim, Jungmin Son, Yunseung Lee, Jaegul Choo, Youngjun Kwak
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.05743v1)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
+
+### [Coding with "Enemy": Can Human Developers Detect AI Agent Sabotage?](https://arxiv.org/abs/2606.05647v1)
+
+**作者**：Jingheng Ye, Huiqi Zou, Simon Yu, Weiyan Shi
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.05647v1)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
+
+### [Safety Paradox: How Enhanced Safety Awareness Leaves LLMs Vulnerable to Posterior Attack](https://arxiv.org/abs/2606.05614v1)
+
+**作者**：Long P. Hoang, Hai V. Le, Shaoyang Xu, Wei Lu, Wenxuan Zhang
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.05614v1)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
+
+### [SlotGCG: Exploiting the Positional Vulnerability in LLMs for Jailbreak Attacks](https://arxiv.org/abs/2606.05609v1)
+
+**作者**：Seungwon Jeong, Jiwoo Jeong, Hyeonjin Kim, Yunseok Lee, Woojin Lee
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.05609v1)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
+
+### [GuardNet: Ensemble Strategies of Shallow Neural Networks for Robust Prompt Injection and Jailbreak Detection](https://arxiv.org/abs/2606.05566v1)
+
+**作者**：Paulo Ricardo Ferreira Neves, Edson Rodrigues da Cruz Filho, Paulo Henrique Eleuterio Falsetti, João Vitor Pavan, Ian Degaspari, Henrique Vieira Laturrague, Patrick Vieira Laturrague, Guilherme Nielsen Dias, et al.
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.05566v1)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
+
+### [Hybrid Adversarial Defence for Natural Language Understanding Tasks](https://arxiv.org/abs/2606.04612v1)
+
+**作者**：Manar Abouzaid, Yang Wang, Chenghua Lin, Stuart E. Middleton
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-03 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.04612v1)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
+
+### [Off-Distribution Voices: Fanfiction Subgenres as Universal Vernacular Jailbreaks for Aligned LLMs](https://arxiv.org/abs/2606.04483v1)
+
+**作者**：Zhongze Luo, Ruihe Shi, Zhenshuai Yin, Haoyue Liu, Weixuan Wan, Xiaoying Tang
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-03 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.04483v1)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
+
+### [The Meta-Agent Challenge: Are Current Agents Capable of Autonomous Agent Development?](https://arxiv.org/abs/2606.04455v1)
+
+**作者**：Xinyu Lu, Tianshu Wang, Pengbo Wang, zujie wen, Zhiqiang Zhang, Jun Zhou, Boxi Cao, Yaojie Lu, et al.
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-03 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.04455v1)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
 
 ### [Stateful Online Monitoring Catches Distributed Agent Attacks](https://arxiv.org/abs/2605.31593v1)
 
