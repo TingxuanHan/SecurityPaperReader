@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-06-06 07:44 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-06-07 07:34 Asia/Shanghai
 
 ## 今日论文
 
@@ -162,13 +162,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.05743v1)
 
-**摘要总结**：暂无
+**摘要总结**：Despite advances in safety alignment, large language models remain vulnerable to continuously evolving jailbreaks.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-cl`
 
 ---
 
@@ -178,13 +181,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.05647v1)
 
-**摘要总结**：暂无
+**摘要总结**：AI coding agents are increasingly embedded in real-world software development, collaborating with human developers while gaining broader access to codebases and tools.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-cl` `cs-cy` `cs-hc`
 
 ---
 
@@ -194,13 +200,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.05614v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large language models (LLMs) are rigorously aligned to refuse harmful requests, a process that inherently cultivates a latent capacity to evaluate and recognize unsafe content.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
 
 ---
 
@@ -210,13 +219,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.05609v1)
 
-**摘要总结**：暂无
+**摘要总结**：As large language models (LLMs) are widely deployed, identifying their vulnerability through jailbreak attacks becomes increasingly critical.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-lg`
 
 ---
 
@@ -226,13 +238,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.05566v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large Language Models (LLMs) have transformed natural language processing, but they remain vulnerable to Prompt Injection (PI) and Jailbreak (JB) attacks.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-cr`
 
 ---
 
@@ -242,13 +257,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-03 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.04612v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large Language Models (LLMs) are vulnerable both to hallucination and adversarial manipulation.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl`
 
 ---
 
@@ -258,13 +276,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-03 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.04483v1)
 
-**摘要总结**：暂无
+**摘要总结**：Existing jailbreaks against aligned LLMs are discrete artifacts whose surface forms are easy to fingerprint and patch.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl`
 
 ---
 
@@ -274,13 +295,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-03 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.04455v1)
 
-**摘要总结**：暂无
+**摘要总结**：Current AI benchmarks evaluate agents on task execution within human-designed workflows.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-cl`
 
 ---
 
