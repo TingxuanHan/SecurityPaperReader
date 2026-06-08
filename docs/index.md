@@ -1,8 +1,65 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-06-08 07:35 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-06-09 07:43 Asia/Shanghai
 
 ## 今日论文
+
+### [Defending Jailbreak Attacks on Large Language Models via Manifold Trajectory Kinetics](https://arxiv.org/abs/2606.07335v1)
+
+**作者**：Hangtao Zhang, Yucheng Zhao, Sishun Liu, Ziqi Zhou, Zeyu Ye, Wei Wan, Minghui Li, Shengshan Hu, et al.
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.07335v1)
+
+**摘要总结**：Jailbreak prompts can bypass alignment guardrails in large language models (LLMs) and elicit unsafe outputs, making reliable deployment-time detection critical.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
+
+---
+
+### [MalSkillBench: A Runtime-Verified Benchmark of Malicious Agent Skills](https://arxiv.org/abs/2606.07131v1)
+
+**作者**：Wenbo Guo, Wei Zeng, Chengwei Liu, Xiaojun Jia, Yijia Xu, Lei Tang, Yong Fang, Yang Liu
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.07131v1)
+
+**摘要总结**：AI coding agents such as Claude Code and Gemini CLI increasingly extend themselves with third-party skills: markdown packages bundling natural-language instructions, executable scripts, and tool permissions.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-se`
+
+---
+
+### [When CLIP Sees More, It Fights Back Harder: Multi-View Guided Adaptive Counterattacks for Test-Time Adversarial Robustness](https://arxiv.org/abs/2606.06938v1)
+
+**作者**：Sunoh Kim, Daeho Um
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.06938v1)
+
+**摘要总结**：Vision-language models such as CLIP have achieved remarkable zero-shot recognition capabilities, yet their robustness against adversarial perturbations remains limited.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv`
+
+---
 
 ### [PAC-Bayesian Adversarially Robust Generalization for Message Passing Graph Neural Networks: A Sensitivity Analysis](https://arxiv.org/abs/2606.06293v1)
 

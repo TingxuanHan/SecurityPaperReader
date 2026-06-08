@@ -1,5 +1,127 @@
 [
   {
+    "id": "arxiv:2606.07335v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Defending Jailbreak Attacks on Large Language Models via Manifold Trajectory Kinetics",
+    "authors": [
+      "Hangtao Zhang",
+      "Yucheng Zhao",
+      "Sishun Liu",
+      "Ziqi Zhou",
+      "Zeyu Ye",
+      "Wei Wan",
+      "Minghui Li",
+      "Shengshan Hu",
+      "Yanjun Zhang",
+      "Yi Liu",
+      "Leo Yu Zhang"
+    ],
+    "abstract": "Jailbreak prompts can bypass alignment guardrails in large language models (LLMs) and elicit unsafe outputs, making reliable deployment-time detection critical. Prior detection approaches largely rely on a fixed metric space, e.g., raw inputs, gradients, or hidden features, in which benign and jailbreak prompts are linearly separable. We show this assumption breaks under (i) pseudo-malicious prompts that are benign by intent but contain safety-related keywords, and (ii) adaptive attacks that explicitly optimize against the deployed detector. To overcome this limitation, we shift our focus from identifying a universal metric space to analyzing the more robust neighborhood structure of the underlying data manifold. We present Manifold Trajectory Kinetics (MTK), which treats an LLM as a kinetic system transforming inputs into outputs and detects jailbreaks by tracking how a prompt's neighborhood structure evolves across layers. Benign prompts remain close to benign neighborhoods throughout inference, whereas jailbreak prompts exhibit a characteristic trajectory that begins near malicious seeds and later strategically shifts toward benign neighborhoods to evade refusal.Across four LLMs and ten jailbreak attacks, MTK achieves strong robustness to both failure modes: on pseudo-malicious prompts, it attains a jailbreak true positive rate of 95% at a false positive rate of 5% on benign prompts and 2% on pseudo-malicious prompts, and under adaptive attacks, it maintains a true positive rate of 85%. We further demonstrate the superior performance of MTK for jailbreak detection in vision-language models. Our code is available at https://github.com/Rookie143/mtk.",
+    "published": "2026-06-05T14:49:26Z",
+    "updated": "2026-06-05T14:49:26Z",
+    "url": "https://arxiv.org/abs/2606.07335v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.07335v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "analysis": {
+      "summary": "Jailbreak prompts can bypass alignment guardrails in large language models (LLMs) and elicit unsafe outputs, making reliable deployment-time detection critical.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-06-08T23:43:54.583583+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-06-08T23:42:02.623091+00:00"
+  },
+  {
+    "id": "arxiv:2606.07131v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "MalSkillBench: A Runtime-Verified Benchmark of Malicious Agent Skills",
+    "authors": [
+      "Wenbo Guo",
+      "Wei Zeng",
+      "Chengwei Liu",
+      "Xiaojun Jia",
+      "Yijia Xu",
+      "Lei Tang",
+      "Yong Fang",
+      "Yang Liu"
+    ],
+    "abstract": "AI coding agents such as Claude Code and Gemini CLI increasingly extend themselves with third-party skills: markdown packages bundling natural-language instructions, executable scripts, and tool permissions. Because a skill is at once code and agent-facing instruction, it introduces a supply chain dependency whose risk is neither pure code nor pure prompt. Detection tools have never been measured against verified ground truth spanning this hybrid space, leaving their effectiveness unknown and wild-only evaluations biased. We present MalSkillBench, the first runtime-verified benchmark of malicious agent skills: 3,944 malicious skills labeled along a three-dimensional taxonomy of 108 cells. Of these, 3,214 come from a closed-loop Generate-Verify-Feedback pipeline admitting only samples whose malicious behavior fires inside a Docker sandbox under system-call monitoring and an LLM judge; we add 703 in-the-wild and 4,000 matched benign skills. Our measurements are consistent: code injection reaches 94.5% verification yield but prompt injection only 75.8%, the same fragility that later makes it hard to detect; the wild sample is narrow, dominated by one cryptocurrency-theft campaign (86.6% one behavior, 81% from two accounts) with a small but architecturally new tail attacking the agent control plane; the strongest skill-specific detector reaches 98.4% recall on code injection yet collapses on prompt-injection and agent-control attacks, and wild-only scoring swings the ranking by up to 66 recall points; supply-chain scanners and prompt-injection defenses each see only half of a skill, and no combination recovers the code-instruction relationship. Detecting malicious skills therefore requires reasoning jointly over task intent, code, and instructions. We release the dataset, pipeline, baselines, and results.",
+    "published": "2026-06-05T10:43:19Z",
+    "updated": "2026-06-05T10:43:19Z",
+    "url": "https://arxiv.org/abs/2606.07131v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.07131v1",
+    "categories": [
+      "cs.CR",
+      "cs.SE"
+    ],
+    "analysis": {
+      "summary": "AI coding agents such as Claude Code and Gemini CLI increasingly extend themselves with third-party skills: markdown packages bundling natural-language instructions, executable scripts, and tool permissions.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-se"
+      ],
+      "analyzed_at": "2026-06-08T23:43:54.583752+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-06-08T23:42:02.623249+00:00"
+  },
+  {
+    "id": "arxiv:2606.06938v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "When CLIP Sees More, It Fights Back Harder: Multi-View Guided Adaptive Counterattacks for Test-Time Adversarial Robustness",
+    "authors": [
+      "Sunoh Kim",
+      "Daeho Um"
+    ],
+    "abstract": "Vision-language models such as CLIP have achieved remarkable zero-shot recognition capabilities, yet their robustness against adversarial perturbations remains limited. Test-time counterattack (TTC) was recently proposed to improve CLIP's robustness by perturbing an input image to steer it away from a corrupted state during inference. However, TTC remains fragile under strong attacks because its counterattack relies on a directly corrupted original view and employs a noise-driven hard-gating scheme that cannot adapt to varying corruption severity. To address these limitations, we introduce Multi-view guided Adaptive Counterattack (MAC), which performs counterattacks for multi-view with corruption-aware soft weighting. Specifically, MAC first constructs augmented views of an input image to obtain diverse embeddings. It then performs counterattacks to refine corrupted embeddings of views. Next, MAC adaptively scales the counterattack intensity for each view based on its estimated corruption degree. Finally, the adaptively counterattacked views are aggregated to yield a robust final prediction. Extensive experiments across 20 datasets and diverse attack scenarios demonstrate that MAC substantially improves robustness while preserving high inference speed and memory efficiency with its tuning-free design. Our code is available at https://github.com/sunoh-kim/MAC.",
+    "published": "2026-06-05T06:04:43Z",
+    "updated": "2026-06-05T06:04:43Z",
+    "url": "https://arxiv.org/abs/2606.06938v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.06938v1",
+    "categories": [
+      "cs.CV"
+    ],
+    "analysis": {
+      "summary": "Vision-language models such as CLIP have achieved remarkable zero-shot recognition capabilities, yet their robustness against adversarial perturbations remains limited.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cv"
+      ],
+      "analyzed_at": "2026-06-08T23:43:54.583850+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-06-08T23:42:02.623438+00:00"
+  },
+  {
     "id": "arxiv:2606.06293v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
