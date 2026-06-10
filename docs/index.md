@@ -1,8 +1,122 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-06-10 07:49 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-06-11 07:54 Asia/Shanghai
 
 ## 今日论文
+
+### [Training LLMs to Enforce Multi-Level Instruction Hierarchies via Gravity-Weighted Direct Preference Optimization](https://arxiv.org/abs/2606.10860v1)
+
+**作者**：Lena S. Bolliger, Lena A. Jäger
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-09 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.10860v1)
+
+**摘要总结**：Production LLMs receive instructions from sources with very different levels of trust, yet attend to every token with uniform architectural privilege.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-cl`
+
+---
+
+### [Toward Secure LLM Agents: Threat Surfaces, Attacks, Defenses, and Evaluation](https://arxiv.org/abs/2606.10749v1)
+
+**作者**：Yuchen Ling, Shengcheng Yu, Zhenyu Chen, Chunrong Fang
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-09 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.10749v1)
+
+**摘要总结**：Large language model (LLM) agents are rapidly moving from conversational interfaces to software components that plan, invoke tools, maintain memory, and act on external environments.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
+
+---
+
+### [When the Chain of Thought Knows Better: Failure Modes in Multi-Turn Reasoning Models](https://arxiv.org/abs/2606.10740v1)
+
+**作者**：Sai Kartheek Reddy Kasu, Nils Lukas, Samuele Poppi
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-09 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.10740v1)
+
+**摘要总结**：Failures in multi-turn reasoning models are largely invisible to terminal-score evaluation.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-cl` `cs-lg`
+
+---
+
+### [Assessing Automated Prompt Injection Attacks in Agentic Environments](https://arxiv.org/abs/2606.10525v1)
+
+**作者**：David Hofer, Edoardo Debenedetti, Florian Tramèr
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-09 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.10525v1)
+
+**摘要总结**：Indirect prompt injection poses a critical threat to LLM agents that interact with untrusted external data, yet automated attack methods--proven effective for jailbreaking--remain underexplored in realistic agentic settings.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
+
+---
+
+### [Baseline-Free Policy Optimization for Neural Combinatorial Optimization](https://arxiv.org/abs/2606.10321v1)
+
+**作者**：Carlos S. Sepúlveda, Gonzalo A. Ruz
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-09 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.10321v1)
+
+**摘要总结**：Neural combinatorial optimization (NCO) trains autoregressive policies to solve routing problems.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-ai` `cs-ro` `math-oc`
+
+---
+
+### [The Chronicles of Radio Frequency Fingerprinting](https://arxiv.org/abs/2606.10031v1)
+
+**作者**：Abdul Aziz, Ingrid Huso, Savio Sciancalepore, Gabriele Oligeri
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-08 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.10031v1)
+
+**摘要总结**：Radio Frequency Fingerprinting (RFF) has evolved from an early idea for radar emitter identification into a broad research field for wireless device identification and spectrum monitoring for security.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
+
+---
 
 ### [PRISM: Recovering Instruction Sets from Language Model Activations](https://arxiv.org/abs/2606.09563v1)
 
@@ -137,6 +251,25 @@
 
 ---
 
+### [GitInject: Real-World Prompt Injection Attacks in AI-Powered CI/CD Pipelines](https://arxiv.org/abs/2606.09935v1)
+
+**作者**：Jafar Isbarov, Umid Suleymanov, Ilia Shumailov, Murat Kantarcioglu
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-07 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.09935v1)
+
+**摘要总结**：AI-powered agents are increasingly embedded in continuous integration and continuous delivery/deployment (CI/CD) pipelines to autonomously review pull requests (PRs), triage issues, and maintain codebases.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
+
+---
+
 ### [Stain-Aware Wavelet Regularization for Instant Adversarial Purification in Histopathology](https://arxiv.org/abs/2606.08745v1)
 
 **作者**：Zhe Li, Bernhard Kainz
@@ -162,13 +295,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-07 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.08376v1)
 
-**摘要总结**：暂无
+**摘要总结**：As artificial intelligence (AI) systems are increasingly deployed across socially consequential domains, reports of AI-related harms and failures have grown in frequency and diversity.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-ai`
 
 ---
 
@@ -1364,136 +1500,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `ai security` `model inversion attack` `information bottleneck` `conditional mutual information`
-
----
-
-### [Endless Jailbreaks with Bijection Learning](https://openreview.net/forum?id=xP1radUi32)
-
-**作者**：Brian R.Y. Huang, Maximilian Li, Leonard Tang
-
-**来源**：ICLR · ICLR 2025 Poster · AI安全 · **发布日期**：2025 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=xP1radUi32)
-
-**摘要总结**：Despite extensive safety measures, LLMs are vulnerable to adversarial inputs, or jailbreaks, which can elicit unsafe behaviors.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`jailbreaking` `redteaming` `ai safety` `ai alignment`
-
----
-
-### [A Common Pitfall of Margin-based Language Model Alignment: Gradient Entanglement](https://openreview.net/forum?id=YaBiGjuDiC)
-
-**作者**：Hui Yuan, Yifan Zeng, Yue Wu, Huazheng Wang, Mengdi Wang, Liu Leqi
-
-**来源**：ICLR · ICLR 2025 Poster · AI安全 · **发布日期**：2025 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=YaBiGjuDiC)
-
-**摘要总结**：Reinforcement Learning from Human Feedback (RLHF) has become the predominant approach for aligning language models (LMs) to be more helpful and less harmful.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`alignment` `preference optimization` `large language model`
-
----
-
-### [Model Editing as a Robust and Denoised variant of DPO: A Case Study on Toxicity](https://openreview.net/forum?id=lOi6FtIwR8)
-
-**作者**：Rheeya Uppaal, Apratim Dey, Yiting He, Yiqiao Zhong, Junjie Hu
-
-**来源**：ICLR · ICLR 2025 Poster · AI安全 · **发布日期**：2025 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=lOi6FtIwR8)
-
-**摘要总结**：Recent alignment algorithms such as direct preference optimization (DPO) have been developed to improve the safety of large language models (LLMs) by training these models to match human behaviors exemplified by preference data.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`model editing` `mechanistic interpretability` `ai safety` `alignment`
-
----
-
-### [EFFICIENT JAILBREAK ATTACK SEQUENCES ON LARGE LANGUAGE MODELS VIA MULTI-ARMED BANDIT-BASED CONTEXT SWITCHING](https://openreview.net/forum?id=jCDF7G3LpF)
-
-**作者**：Aditya Ramesh, Shivam Bhardwaj, Aditya Saibewar, Manohar Kaul
-
-**来源**：ICLR · ICLR 2025 Poster · AI安全 · **发布日期**：2025 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=jCDF7G3LpF)
-
-**摘要总结**：Content warning: This paper contains examples of harmful language and content.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`jailbreak` `ai security` `llm vunlnerability`
-
----
-
-### [On Calibration of LLM-based Guard Models for Reliable Content Moderation](https://openreview.net/forum?id=wUbum0nd9N)
-
-**作者**：Hongfu Liu, Hengguan Huang, Xiangming Gu, Hao Wang, Ye Wang
-
-**来源**：ICLR · ICLR 2025 Poster · AI安全 · **发布日期**：2025 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=wUbum0nd9N)
-
-**摘要总结**：Large language models (LLMs) pose significant risks due to the potential for generating harmful content or users attempting to evade guardrails.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`content moderation` `llm-based guard models` `calibration` `safety`
-
----
-
-### [Inspection and Control of Self-Generated-Text Recognition Ability in Llama3-8b-Instruct](https://openreview.net/forum?id=wWnsoLhHwt)
-
-**作者**：Christopher Ackerman, Nina Panickssery
-
-**来源**：ICLR · ICLR 2025 Poster · AI安全 · **发布日期**：2025 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=wWnsoLhHwt)
-
-**摘要总结**：It has been reported that LLMs can recognize their own writing.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`llm` `interpretability` `ai` `activation steering`
-
----
-
-### [Spread Preference Annotation: Direct Preference Judgment for Efficient LLM Alignment](https://openreview.net/forum?id=BPgK5XW1Nb)
-
-**作者**：Dongyoung Kim, Kimin Lee, Jinwoo Shin, Jaehyung Kim
-
-**来源**：ICLR · ICLR 2025 Oral · AI安全 · **发布日期**：2025 · **推荐**：★★★☆☆ · [PDF](https://openreview.net/pdf?id=BPgK5XW1Nb)
-
-**摘要总结**：Aligning large language models (LLMs) with human preferences becomes a key component to obtaining state-of-the-art performance, but it yields a huge cost to construct a large human-annotated preference dataset.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`large language model` `alignment` `preference`
