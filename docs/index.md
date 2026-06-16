@@ -1,8 +1,65 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-06-15 07:44 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-06-16 08:09 Asia/Shanghai
 
 ## 今日论文
+
+### [Persuasion Index: A Theory-Guided Framework for Persuasion Analysis](https://arxiv.org/abs/2606.14580v1)
+
+**作者**：Liancheng Gong, Zhiyang Wang, Yiwei Xu, Julia Mendelsohn
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-12 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.14580v1)
+
+**摘要总结**：Identifying persuasive rhetorical cues is critical across domains, from detecting information manipulation and improving AI safety to advancing public health communication.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl`
+
+---
+
+### [From Shield to Target: Denial-of-Service Attacks on LLM-Based Agent Guardrails](https://arxiv.org/abs/2606.14517v1)
+
+**作者**：Yuguang Zhou, Xunguang Wang, Pingchuan Ma, Zhantong Xue, Zhaoyu Wang, Shuai Wang
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-12 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.14517v1)
+
+**摘要总结**：LLM-based guardrails have emerged as a highly effective defense against prompt injection and jailbreak attacks in autonomous agents.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
+
+---
+
+### [A Low-Rank Subspace Analysis of LLM Interventions](https://arxiv.org/abs/2606.14388v1)
+
+**作者**：Angira Sharma, Christian Schroeder de Witt, Philip Torr, Anisoara Calinescu, Jialin Yu
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-12 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.14388v1)
+
+**摘要总结**：Interventions designed to modify a particular behavior in LLMs, such as refusal or sycophancy, often produce unintended changes in other behaviors.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg`
+
+---
 
 ### [Who Pays the Price? Stakeholder-Centric Prompt Injection Benchmarking for Real-world Web Agents](https://arxiv.org/abs/2606.13385v1)
 
@@ -23,6 +80,25 @@
 
 ---
 
+### [A Virtuous AI is an Existential Risk](https://arxiv.org/abs/2606.13739v1)
+
+**作者**：Guillermo Del Pinal, Youngchan Lee, Min Ohn
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.13739v1)
+
+**摘要总结**：This paper examines trade-offs between AI safety and well-being relative to (i) one of the most promising methods for finetuning super-capable AIs, 'Constitutional AI', and (ii) one of the most influential approaches to understanding complex ethical decision making and the conditions for the well-being of rational agents, 'Virtue Ethics'.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cy` `cs-ai` `cs-lg`
+
+---
+
 ### [ERTS: Adversarial Robustness Testing of Ethical AI via Semantic Perturbation in a Bounded Consequence Space](https://arxiv.org/abs/2606.13282v1)
 
 **作者**：Pratyush Chaudhari
@@ -39,6 +115,25 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-ai`
+
+---
+
+### [FreoStream:Enhancing Stream Guardrails via Future-Aware Reasoning and Safety-Aligned Optimization](https://arxiv.org/abs/2606.13737v1)
+
+**作者**：Jianwei Wang, Guoyang Shen, Yanhong Wu, Haoran Li, Hao Peng, Huiping Zhuang, Cen Chen, Ziqian Zeng
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.13737v1)
+
+**摘要总结**：Stream guardrails enable token-level safety detection before full responses are generated.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -1426,98 +1521,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-sd` `cs-ai` `cs-cl`
-
----
-
-### [Improving Adversarial Robustness of Attribution via Implicit Regularization](https://arxiv.org/abs/2605.29983v1)
-
-**作者**：Amir Mehrpanah, Matteo Gamba, Hossein Azizpour
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-05-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2605.29983v1)
-
-**摘要总结**：The adversarial robustness of attributions is a fundamental requirement for reliable explainability in deep learning, yet existing approaches typically rely on computationally expensive explicit regularization.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-lg` `cs-cv`
-
----
-
-### [Toward AI Systems That Understand Self and Others: A Multi-Phase Inference Framework for Human Cognitive Diversity and World-Model Alignment](https://arxiv.org/abs/2605.29930v1)
-
-**作者**：Toru Takahashi
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-05-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2605.29930v1)
-
-**摘要总结**：Mutual misunderstanding in contemporary society does not arise merely because people hold different opinions or values.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai` `cs-cy` `cs-hc`
-
----
-
-### [Verifying Adversarial Robustness in Quantum Machine Learning: from theory to physical validation via a software tool](https://arxiv.org/abs/2605.29877v1)
-
-**作者**：Ji Guan, Mingsheng Ying
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-05-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2605.29877v1)
-
-**摘要总结**：As with classical neural networks, quantum machine learning (QML) models are vulnerable to small input perturbations that can significantly alter output predictions.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`quant-ph`
-
----
-
-### [Harnessing non-adversarial robustness in large language models](https://arxiv.org/abs/2605.29816v1)
-
-**作者**：Qinghua Zhou, Ellina Aleshina, Andrey Lovyagin, Oleg Somov, Mikhail Seleznyov, Alexander Panchenko, Ivan Oseledets, Elena Tutubalina, et al.
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-05-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2605.29816v1)
-
-**摘要总结**：The work presents an approach for addressing the challenge of robustness in Large Language Models (LLMs) to alterations and potential errors caused by semantically similar but textually different prompts.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai`
-
----
-
-### [Minimal Prompt Perturbations Lead to Code Vulnerabilities: Prompt Fragility and Hidden-State Signals in Coding LLMs](https://arxiv.org/abs/2605.29737v1)
-
-**作者**：Alexander Sternfeld, Andrei Kucharavy, Ljiljana Dolamic
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-05-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2605.29737v1)
-
-**摘要总结**：LLM-based coding assistants are seeing rapid adoption, offering substantial gains in developer productivity.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-cl` `cs-se`

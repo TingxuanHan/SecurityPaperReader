@@ -1,5 +1,121 @@
 [
   {
+    "id": "arxiv:2606.14580v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Persuasion Index: A Theory-Guided Framework for Persuasion Analysis",
+    "authors": [
+      "Liancheng Gong",
+      "Zhiyang Wang",
+      "Yiwei Xu",
+      "Julia Mendelsohn"
+    ],
+    "abstract": "Identifying persuasive rhetorical cues is critical across domains, from detecting information manipulation and improving AI safety to advancing public health communication. We propose Persuasion Index (PI), a taxonomy of 15 dimensions grounded in persuasion theories from psychology and communication, and one transparent implementation using 55 sub-features built from lexicons and rule-based detectors. The taxonomy is modular: individual detectors can be replaced while preserving the theoretical structure. By evaluating PI on four public datasets varying in domain, style, and outcome measures, we show that PI provides a shared feature space for interpreting rhetorical patterns associated with persuasion-related outcomes. Linear models show that PI features carry meaningful predictive signal while remaining computationally lightweight. Dimension-level analyses reveal recurring associations between PI dimensions and persuasion outcomes across datasets, while also highlighting topic- and stance-specific variation. We release PI as an open-source package and web interface for principled and auditable analysis of human and AI-mediated communication.",
+    "published": "2026-06-12T15:58:19Z",
+    "updated": "2026-06-12T15:58:19Z",
+    "url": "https://arxiv.org/abs/2606.14580v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.14580v1",
+    "categories": [
+      "cs.CL"
+    ],
+    "analysis": {
+      "summary": "Identifying persuasive rhetorical cues is critical across domains, from detecting information manipulation and improving AI safety to advancing public health communication.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cl"
+      ],
+      "analyzed_at": "2026-06-16T00:09:24.439821+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-06-16T00:06:38.057530+00:00"
+  },
+  {
+    "id": "arxiv:2606.14517v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "From Shield to Target: Denial-of-Service Attacks on LLM-Based Agent Guardrails",
+    "authors": [
+      "Yuguang Zhou",
+      "Xunguang Wang",
+      "Pingchuan Ma",
+      "Zhantong Xue",
+      "Zhaoyu Wang",
+      "Shuai Wang"
+    ],
+    "abstract": "LLM-based guardrails have emerged as a highly effective defense against prompt injection and jailbreak attacks in autonomous agents. However, we reveal that the very reasoning and task-following capabilities enabling this protection introduce a novel vulnerability: attackers can inject crafted data to trap the guardrail in extended reasoning loops, effectuating a systematic denial-of-service (DoS) attack. To systematically expose this threat, we design a beam-search optimization framework that crafts natural-language payloads to maximize guardrail reasoning length, utilizing an LLM proposer guided by a strategy bank. Based on the observation of guardrail's schema-following nature, we also provide another attack framework driven by mechanism-aware structural mutations with less computational load. The attack efficacy is systematically evaluated in two parts. First, in standalone evaluations, the attack generalizes across diverse guardrail architectures, safety templates, and agent benchmarks. Payloads optimized on a single open-source surrogate successfully transfer to eight leading model backbones (e.g., Claude, GPT, Gemini, DeepSeek, and Qwen), achieving a 13--63$\\times$ token amplification. Second, in end-to-end real-world agent deployments (web, desktop, code, and multi-agent systems), the attack reveals up to a 148$\\times$ latency amplification. We show that a single poisoned document can saturate shared guardrail infrastructures, effectively starving co-located agents and paralyzing the entire system. By uncovering this availability flaw, our work underscores the urgent need to develop cost-bounded, reasoning-robust guardrails.",
+    "published": "2026-06-12T14:49:00Z",
+    "updated": "2026-06-12T14:49:00Z",
+    "url": "https://arxiv.org/abs/2606.14517v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.14517v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "LLM-based guardrails have emerged as a highly effective defense against prompt injection and jailbreak attacks in autonomous agents.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-06-16T00:09:24.439945+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-06-16T00:06:38.057665+00:00"
+  },
+  {
+    "id": "arxiv:2606.14388v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "A Low-Rank Subspace Analysis of LLM Interventions",
+    "authors": [
+      "Angira Sharma",
+      "Christian Schroeder de Witt",
+      "Philip Torr",
+      "Anisoara Calinescu",
+      "Jialin Yu"
+    ],
+    "abstract": "Interventions designed to modify a particular behavior in LLMs, such as refusal or sycophancy, often produce unintended changes in other behaviors. This lack of targeted control makes it difficult to design and implement reliable safety controls. To understand these side-effects, we introduce a diagnostic framework for analyzing interacting behaviors in LLMs. We model behaviors as low-rank subspaces in activation space, and study how interventions influence across behaviors. Across multiple instruction-tuned models (7B-70B) and across refusal, jailbreak, and sycophancy settings, we find that different behaviors share internal representations, and intervening on one behavior alters others in asymmetric ways. Some behaviors act as upstream control points whose interventions propagate broadly across other behaviors, while others remain more isolated. We relate these effects to two geometric quantities: (i) the overlap between behavior subspaces, measured as the average squared cosine of principal angles, and (ii) the angle between each behavior subspace and the decision subspace (capturing the model's final decision e.g., refuse vs. comply). Empirically, intervention effects on other behaviors tend to be larger for behavior pairs with higher subspace overlap, and for source behaviors whose subspaces lie closer (smaller angle) to the decision subspace. These findings highlight a challenge for targeted behavior control: behaviors are difficult to modify independently, as interventions can propagate through shared representations and asymmetric interactions.",
+    "published": "2026-06-12T12:24:25Z",
+    "updated": "2026-06-12T12:24:25Z",
+    "url": "https://arxiv.org/abs/2606.14388v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.14388v1",
+    "categories": [
+      "cs.LG"
+    ],
+    "analysis": {
+      "summary": "Interventions designed to modify a particular behavior in LLMs, such as refusal or sycophancy, often produce unintended changes in other behaviors.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-06-16T00:09:24.440046+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-06-16T00:06:38.057783+00:00"
+  },
+  {
     "id": "arxiv:2606.13385v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -51,6 +167,46 @@
     "fetched_at": "2026-06-12T23:57:36.151228+00:00"
   },
   {
+    "id": "arxiv:2606.13739v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "A Virtuous AI is an Existential Risk",
+    "authors": [
+      "Guillermo Del Pinal",
+      "Youngchan Lee",
+      "Min Ohn"
+    ],
+    "abstract": "This paper examines trade-offs between AI safety and well-being relative to (i) one of the most promising methods for finetuning super-capable AIs, 'Constitutional AI', and (ii) one of the most influential approaches to understanding complex ethical decision making and the conditions for the well-being of rational agents, 'Virtue Ethics'. We finetune various models using a 'Virtuous agent' constitution, a 'Subordinate agent' constitution, and a 'Generic agent' constitution, and evaluate them on 'general safety' (toxic behaviors, misinformation, etc.) and also on their willingness to endorse a wide-range of behaviors that, if adopted by a super-powerful AI, would significantly increase the level of existential risk for humanity. Our results suggest that there is a trade-off between reducing existential risk and reinforcing the beliefs and dispositions that would be conducive to an AI agent's well-being. They also suggest that there is a trade-off between existential risk and general safety: if we finetune an AI to adopt beliefs and dispositions that substantially reduce its existential risk -- by shaping the AI to be systematically subordinate to external human authorities -- we thereby increase the likelihood that a human user can deliberately induce the AI to engage in various kinds of generally unsafe behaviors.",
+    "published": "2026-06-11T12:38:54Z",
+    "updated": "2026-06-11T12:38:54Z",
+    "url": "https://arxiv.org/abs/2606.13739v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.13739v1",
+    "categories": [
+      "cs.CY",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "analysis": {
+      "summary": "This paper examines trade-offs between AI safety and well-being relative to (i) one of the most promising methods for finetuning super-capable AIs, 'Constitutional AI', and (ii) one of the most influential approaches to understanding complex ethical decision making and the conditions for the well-being of rational agents, 'Virtue Ethics'.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cy",
+        "cs-ai",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-06-16T00:09:24.440142+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-06-16T00:06:38.058125+00:00"
+  },
+  {
     "id": "arxiv:2606.13282v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -83,6 +239,49 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-06-12T23:57:36.151352+00:00"
+  },
+  {
+    "id": "arxiv:2606.13737v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "FreoStream:Enhancing Stream Guardrails via Future-Aware Reasoning and Safety-Aligned Optimization",
+    "authors": [
+      "Jianwei Wang",
+      "Guoyang Shen",
+      "Yanhong Wu",
+      "Haoran Li",
+      "Hao Peng",
+      "Huiping Zhuang",
+      "Cen Chen",
+      "Ziqian Zeng"
+    ],
+    "abstract": "Stream guardrails enable token-level safety detection before full responses are generated. However, they often make overly conservative judgements and block those sensitive but safe tokens, which is known as over-refusal. Due to lack of full context, they also fail to detect implicitly harmful content from jailbreaking. To address these challenges, we propose FreoStream, a novel streaming guardrail framework. Specifically, FreoStream fine-tunes a LoRA module to perform Future-Aware Reasoning when the base guardrail detects unsafe tokens. The reasoning process follows a Future-Reason-Judge paradigm: predict the future, reason about the full context and give the final judgement. This design can effectively reduce over-refusal by incorporating the future information. Moreover, we introduce the Safety-Aligned Optimization module that extracts the safety-aligned component from the reasoning gradients to update the base guardrail model, thereby enhancing streaming safety detection. Extensive experiments on various safety benchmarks demonstrate that FreoStream achieves lower over-refusal rates and better jailbreak defense compared to existing streaming guardrails.",
+    "published": "2026-06-11T12:25:13Z",
+    "updated": "2026-06-11T12:25:13Z",
+    "url": "https://arxiv.org/abs/2606.13737v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.13737v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Stream guardrails enable token-level safety detection before full responses are generated.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-06-16T00:09:24.440239+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-06-16T00:06:38.058296+00:00"
   },
   {
     "id": "arxiv:2606.13044v1",
@@ -2990,198 +3189,5 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-05-29T05:07:47.653272+00:00"
-  },
-  {
-    "id": "arxiv:2605.29983v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Improving Adversarial Robustness of Attribution via Implicit Regularization",
-    "authors": [
-      "Amir Mehrpanah",
-      "Matteo Gamba",
-      "Hossein Azizpour"
-    ],
-    "abstract": "The adversarial robustness of attributions is a fundamental requirement for reliable explainability in deep learning, yet existing approaches typically rely on computationally expensive explicit regularization. In this work, we show that attribution robustness can arise implicitly from the learning dynamics of standard stochastic gradient descent. We theoretically motivate this effect through connections between parameter-space and input-space curvature, and validate it across architectures, datasets, and attribution methods, with negligible computational overhead. In contrast, we prove that such robustness gains often does not transfer to attention-based attribution under softmax normalization, due to inherent entropy constraints, and we validate this limitation experimentally. Finally, we show that replacing softmax attention with kernel-based attention restores the robustness gains in transformer models. Our results highlight learning dynamics as a principled and practical mechanism for robust explainability, and reveal fundamental limitations of attention-based attribution under normalization.",
-    "published": "2026-05-28T14:19:39Z",
-    "updated": "2026-05-28T14:19:39Z",
-    "url": "https://arxiv.org/abs/2605.29983v1",
-    "pdf_url": "https://arxiv.org/pdf/2605.29983v1",
-    "categories": [
-      "cs.LG",
-      "cs.CV"
-    ],
-    "analysis": {
-      "summary": "The adversarial robustness of attributions is a fundamental requirement for reliable explainability in deep learning, yet existing approaches typically rely on computationally expensive explicit regularization.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-lg",
-        "cs-cv"
-      ],
-      "analyzed_at": "2026-05-29T05:10:20.206946+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-05-29T05:07:47.653548+00:00"
-  },
-  {
-    "id": "arxiv:2605.29930v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Toward AI Systems That Understand Self and Others: A Multi-Phase Inference Framework for Human Cognitive Diversity and World-Model Alignment",
-    "authors": [
-      "Toru Takahashi"
-    ],
-    "abstract": "Mutual misunderstanding in contemporary society does not arise merely because people hold different opinions or values. Even under the same observations, different subjects may form different inferential targets, state representations, prediction errors, and update priorities. This paper proposes a multi-phase inference framework and defines its core internal mechanism as the Multi-Phase Inference Mechanism (MIM). MIM formalizes how heterogeneous world models arise through a phase-formation space, a foregrounding field, subject-specific profile states, and alignment maps between state representations. On this basis, the paper reframes world-model alignment as the problem of making heterogeneous representations mutually processable, rather than forcing agreement or convergence to a single value system. It further connects this formalism to philosophical disagreements, cognitive typology, social fragmentation, and AI alignment. The aim is to provide a constructive vocabulary for AI systems that can help humans understand self and others by making differences in meaning, value, and prediction error visible, comparable, and transformable.",
-    "published": "2026-05-28T13:43:23Z",
-    "updated": "2026-05-28T13:43:23Z",
-    "url": "https://arxiv.org/abs/2605.29930v1",
-    "pdf_url": "https://arxiv.org/pdf/2605.29930v1",
-    "categories": [
-      "cs.AI",
-      "cs.CY",
-      "cs.HC"
-    ],
-    "analysis": {
-      "summary": "Mutual misunderstanding in contemporary society does not arise merely because people hold different opinions or values.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai",
-        "cs-cy",
-        "cs-hc"
-      ],
-      "analyzed_at": "2026-05-29T05:10:20.206966+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-05-29T05:07:47.653820+00:00"
-  },
-  {
-    "id": "arxiv:2605.29877v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Verifying Adversarial Robustness in Quantum Machine Learning: from theory to physical validation via a software tool",
-    "authors": [
-      "Ji Guan",
-      "Mingsheng Ying"
-    ],
-    "abstract": "As with classical neural networks, quantum machine learning (QML) models are vulnerable to small input perturbations that can significantly alter output predictions. Certifying the robustness of QML models, particularly on NISQ hardware, is therefore a fundamental step toward trustworthy quantum AI. This chapter reviews our recently developed comprehensive formal framework for verifying adversarial robustness in QML. The core of this framework is a fidelity-based robustness lower bound computable directly from the measurement outcome distribution, which enables both formal verification and empirical estimation on real quantum devices. Additionally, the optimal bound can be computed via semidefinite programming (SDP) with full knowledge of the quantum machine learning models. We incorporate these results into: (1) an efficient formal verification framework; (2) VeriQR, the first dedicated QML robustness verification tool; and (3) the first experimental benchmark of quantum adversarial robustness on a 20-qubit superconducting processor. Together, these systematic advances enable scalable, physically grounded robustness evaluation of QML models.",
-    "published": "2026-05-28T13:00:48Z",
-    "updated": "2026-05-28T13:00:48Z",
-    "url": "https://arxiv.org/abs/2605.29877v1",
-    "pdf_url": "https://arxiv.org/pdf/2605.29877v1",
-    "categories": [
-      "quant-ph"
-    ],
-    "analysis": {
-      "summary": "As with classical neural networks, quantum machine learning (QML) models are vulnerable to small input perturbations that can significantly alter output predictions.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "quant-ph"
-      ],
-      "analyzed_at": "2026-05-29T05:10:20.206986+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-05-29T05:07:47.654080+00:00"
-  },
-  {
-    "id": "arxiv:2605.29816v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Harnessing non-adversarial robustness in large language models",
-    "authors": [
-      "Qinghua Zhou",
-      "Ellina Aleshina",
-      "Andrey Lovyagin",
-      "Oleg Somov",
-      "Mikhail Seleznyov",
-      "Alexander Panchenko",
-      "Ivan Oseledets",
-      "Elena Tutubalina",
-      "Ivan Y. Tyukin"
-    ],
-    "abstract": "The work presents an approach for addressing the challenge of robustness in Large Language Models (LLMs) to alterations and potential errors caused by semantically similar but textually different prompts. Recent works have shown that these kinds of prompt variations can significantly impact the performance of LLMs on tasks. The central question is: can LLMs' robustness to semantically-neutral prompt alterations be acquired without expensive retraining of the entire model? We address this question both theoretically and through experiments. Our theoretical analysis reveals a crucial factor impacting model robustness - a systematic expected shift or perturbation-induced bias in neural network module outputs. Motivated by this analysis, we show that robustness can be achieved via a simple fine-tuning process: debiasing for robustness. We identify conditions when debiasing helps and when it does not, and demonstrate, through both theory and extensive experiments, that debiasing for robustness may indeed be a quick and efficient tool to enhance robustness and provide certification against random prompt perturbations.",
-    "published": "2026-05-28T12:00:00Z",
-    "updated": "2026-05-28T12:00:00Z",
-    "url": "https://arxiv.org/abs/2605.29816v1",
-    "pdf_url": "https://arxiv.org/pdf/2605.29816v1",
-    "categories": [
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "The work presents an approach for addressing the challenge of robustness in Large Language Models (LLMs) to alterations and potential errors caused by semantically similar but textually different prompts.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-05-29T05:10:20.207005+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-05-29T05:07:47.654381+00:00"
-  },
-  {
-    "id": "arxiv:2605.29737v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Minimal Prompt Perturbations Lead to Code Vulnerabilities: Prompt Fragility and Hidden-State Signals in Coding LLMs",
-    "authors": [
-      "Alexander Sternfeld",
-      "Andrei Kucharavy",
-      "Ljiljana Dolamic"
-    ],
-    "abstract": "LLM-based coding assistants are seeing rapid adoption, offering substantial gains in developer productivity. As organizations increasingly ship code these agents produce, the security of that code becomes critical. Prior work has shown that minor prompt perturbations degrade the functional correctness of LLM-generated code, but whether they also compromise code security has remained unstudied. We apply token-level mutations to prompts across three models and five programming languages, and show that mutations as small as a single-character change can flip generated code from secure to vulnerable. Probing the models' hidden states reveals that this fragility is partially encoded in prompt representations, but unevenly so. Input-handling vulnerabilities, where the model omits validation or sanitization, are more predictable (mean AUC 0.753) than secure-defaults vulnerabilities, where insecure code stems from one local choice such as a weak algorithm or unsafe parameter (mean AUC 0.674). These results show that the threat model for LLM-assisted coding extends beyond prompt injection to ordinary prompt variation, and indicate that input-handling flaws can be caught before generation while secure-defaults flaws require intervention during decoding.",
-    "published": "2026-05-28T10:30:28Z",
-    "updated": "2026-05-28T10:30:28Z",
-    "url": "https://arxiv.org/abs/2605.29737v1",
-    "pdf_url": "https://arxiv.org/pdf/2605.29737v1",
-    "categories": [
-      "cs.CR",
-      "cs.CL",
-      "cs.SE"
-    ],
-    "analysis": {
-      "summary": "LLM-based coding assistants are seeing rapid adoption, offering substantial gains in developer productivity.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-cl",
-        "cs-se"
-      ],
-      "analyzed_at": "2026-05-29T05:10:20.207026+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-05-29T05:07:47.654651+00:00"
   }
 ]
