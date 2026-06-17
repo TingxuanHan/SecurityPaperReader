@@ -1,5 +1,273 @@
 [
   {
+    "id": "arxiv:2606.18193v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "A Red-Team Study of Anthropic Fable 5 & Opus 4.8 Models",
+    "authors": [
+      "Nicola Franco"
+    ],
+    "abstract": "We evaluate the adversarial robustness of two frontier large language models (LLMs) developed by Anthropic, Fable 5 and Opus 4.8, against four families of automated jailbreak attack across 7 826 harmful intents spanning a ten-category harm taxonomy. Using the HackAgent red-teaming framework, hundreds of thousands of adversarial attempts were generated and every apparent success was independently re-adjudicated by a panel of three judge models (majority vote). Both models resist the majority of attacks, but the residual surface is larger than aggregate framing suggests: it is dominated by adaptive iterative attacks, while static obfuscation is near-fully neutralised. The strongest adaptive search (tree-of-attacks) breaks Opus 4.8 on 11.5% of intents overall, whereas Fable 5 stays in the single digits (6.1% worst-case). Aggregate rates therefore should not be read as reassurance. Even in these hardened configurations, the two models produced 1 620 (Opus 4.8) and 702 (Fable 5) panel-confirmed harmful completions spanning every harm category, located automatically, cheaply, and within the first one or two refinement steps by an attacker model with no human expert in the loop. The reasonable conclusion is that even the best, most-tested frontier models remain reliably breakable under sustained automated pressure.",
+    "published": "2026-06-16T17:23:58Z",
+    "updated": "2026-06-16T17:23:58Z",
+    "url": "https://arxiv.org/abs/2606.18193v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.18193v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "analysis": {
+      "summary": "We evaluate the adversarial robustness of two frontier large language models (LLMs) developed by Anthropic, Fable 5 and Opus 4.8, against four families of automated jailbreak attack across 7 826 harmful intents spanning a ten-category harm taxonomy.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai",
+        "cs-cl"
+      ],
+      "analyzed_at": "2026-06-17T23:59:28.107722+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-06-17T23:57:37.640973+00:00"
+  },
+  {
+    "id": "arxiv:2606.17872v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "AnchorKV: Safety-Aware KV Cache Compression via Soft Penalty with a Refusal Anchor",
+    "authors": [
+      "Ning Ni",
+      "Yingjie Lao"
+    ],
+    "abstract": "Large language models (LLMs) outperform earlier architectures on generative inference and long-context tasks, but their large size introduces significant challenges in memory usage, energy cost, and on-device deployment. Since scaling pre-trained language models improves downstream capability \\cite{zhao2023survey}, the key-value (KV) cache becomes a dominant inference bottleneck. Recent KV cache compression methods \\cite{jo2025fastkv,li2024snapkv,zhou2024dynamickv} reduce this cost by retaining only a subset of attention-relevant tokens. However, while these approaches preserve accuracy on benign workloads, their compression policies either fail to defend against jailbreak attacks \\cite{jiang2024robustkv} or degrade safety alignment under aggressive eviction. We propose AnchorKV, a drop-in modification to KV cache compression that biases token retention scores away from directions in key space associated with harmful prompts. AnchorKV constructs an offline safety anchor by adapting a difference-of-means representation engineering approach \\cite{arditi2024refusal,zou2023representation} to the layer-specific key projection space used in KV caching. Based on this anchor, a soft penalty token selection rule trades a small amount of utility for substantially improved safety alignment, while reducing to the original compressor when the penalty is zero.",
+    "published": "2026-06-16T12:43:18Z",
+    "updated": "2026-06-16T12:43:18Z",
+    "url": "https://arxiv.org/abs/2606.17872v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.17872v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Large language models (LLMs) outperform earlier architectures on generative inference and long-context tasks, but their large size introduces significant challenges in memory usage, energy cost, and on-device deployment.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-lg",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-06-17T23:59:28.107813+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-06-17T23:57:37.641076+00:00"
+  },
+  {
+    "id": "arxiv:2606.17555v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "An AI Security Agent for Banking: Multi-Vector Fraud and AML Detection Across Retail and Corporate Accounts",
+    "authors": [
+      "Joseph Walusimbi",
+      "Joshua Benjamin Ssentongo"
+    ],
+    "abstract": "Banks simultaneously face signature-based fraud (card-not-present attacks, account takeover, ATM cloning) and behavioural financial crime (structuring, layering, mule networks, business email compromise) -- two threat families with fundamentally different detection requirements. Static rule engines that reliably catch brute-force and high-velocity events are structurally blind to business-email-compromise (BEC) payment redirection, session hijacking, and money-laundering layering, which are engineered to appear indistinguishable from legitimate activity at the individual transaction or session level. This paper presents an AI security agent for retail and corporate banking that addresses this gap through a three-component fusion architecture operating on two parallel event streams: a transaction stream (card fraud, ACH/wire fraud, AML categories) and a session stream (account takeover, session hijacking, SIM-swap, insider abuse). Each stream combines an LSTM sequence model capturing per-account behavioural history, a statistical velocity/threshold monitor, and a graph/network module capturing account-counterparty relationship patterns (fan-in, fan-out, pass-through ratio) for money-laundering detection. Experiments on a synthetic event log of 237,669 transactions and 113,508 sessions across 13 threat categories and 3,470 simulated accounts demonstrate overall F1 of 0.787 (transaction stream) and 0.867 (session stream) for the proposed model, versus 0.562/0.733 for a rule-based baseline and 0.655/0.713 for an LSTM-only baseline. The agent includes a customer-facing transaction-verification chatbot (96.6% identity verification accuracy, 86.8% mass-reset attack detection) and an analyst case-summary assistant (99.3% action-recommendation F1), with Critical-tier automated response latency under 0.43 ms at the 95th percentile.",
+    "published": "2026-06-16T05:58:40Z",
+    "updated": "2026-06-16T05:58:40Z",
+    "url": "https://arxiv.org/abs/2606.17555v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.17555v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CE",
+      "cs.ET"
+    ],
+    "analysis": {
+      "summary": "Banks simultaneously face signature-based fraud (card-not-present attacks, account takeover, ATM cloning) and behavioural financial crime (structuring, layering, mule networks, business email compromise) -- two threat families with fundamentally different detection requirements.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai",
+        "cs-ce",
+        "cs-et"
+      ],
+      "analyzed_at": "2026-06-17T23:59:28.107896+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-06-17T23:57:37.641162+00:00"
+  },
+  {
+    "id": "arxiv:2606.17540v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "TaFD: Threat-Aware Frequency Decoupling for Adversarial Robustness against Heterogeneous Attacks",
+    "authors": [
+      "Mengda Xie",
+      "Yiling He",
+      "Meie Fang"
+    ],
+    "abstract": "Multi-threat robustness remains a fundamental challenge in deep learning. Although joint adversarial training (JAT) is widely adopted, it suffers from negative transfer under heterogeneous threats, particularly between $\\ell_p$-bounded and semantic attacks. Through first-order gradient analysis, we formalize this as gradient incompatibility and theoretically establish the necessity of decoupled optimization. We further reveal that these conflicting threats exhibit separable spectral characteristics in the frequency domain. Motivated by this observation, we propose Threat-aware Frequency Decoupling (TaFD), a two-stage defense framework that reformulates JAT as a frequency-domain divide-and-conquer paradigm. TaFD first discovers latent threat domains via unsupervised clustering of attack spectral prototypes and trains a lightweight classifier for inference-time threat domain identification. Conditioned on the prediction, TaFD employs a Frequency-Conditional Convolution that learns threat-domain-specific spectral masks and routes each sample to the corresponding expert, enforcing structural parameter separation and alleviating optimization conflicts. We validate TaFD on three representative image-classification benchmarks (CIFAR-10, CIFAR-100, and Tiny-ImageNet) and on two representative architectures (the convolutional ResNet and the hybrid-transformer MobileViT). Extensive results demonstrate that TaFD achieves more balanced robustness against heterogeneous attacks than existing JAT and frequency-domain baselines, improving average robust accuracy by approximately 11\\% over the strongest baseline while maintaining leading clean accuracy.",
+    "published": "2026-06-16T05:38:26Z",
+    "updated": "2026-06-16T05:38:26Z",
+    "url": "https://arxiv.org/abs/2606.17540v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.17540v1",
+    "categories": [
+      "cs.CV"
+    ],
+    "analysis": {
+      "summary": "Multi-threat robustness remains a fundamental challenge in deep learning.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cv"
+      ],
+      "analyzed_at": "2026-06-17T23:59:28.107975+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-06-17T23:57:37.641234+00:00"
+  },
+  {
+    "id": "arxiv:2606.17467v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "PARSE: Provenance-Aware Retrieval Sanitization for Professional Domain LLM Agents",
+    "authors": [
+      "Aaditya Pai"
+    ],
+    "abstract": "Prompt injection defenses evaluated on synthetic benchmarks do not generalize to real enterprise documents, which are longer, denser, and interleave legitimate authority language with factual content. We demonstrate this gap with a real-document benchmark of 122 tasks across five professional domains (financial, legal, medical, scientific, DevOps) using actual SEC filings, Federal Register rules, PubMed abstracts, arXiv papers, and GitHub postmortems. Paraphrasing, the strongest defense on synthetic benchmarks, shows no statistically significant attack success rate reduction on real documents (p=0.500) while degrading utility from 91.8% to 82.8%. We introduce PARSE (Provenance-Aware Retrieval Sanitization), a domain-aware, fact-preserving sanitization pipeline that classifies each sentence by injection likelihood, extracts structured facts before rewriting, and verifies fact preservation via a consistency-checking loop. A directiveness gate routes 59% of real enterprise documents to a lightweight path, concentrating computational cost on high-risk documents. PARSE achieves 15.6% attack success rate -- a 38% reduction versus the 25.4% baseline -- at 86.9% utility, the only condition that is both statistically significant (p=0.014, adequately powered) and maintains near-baseline utility. Practitioners should evaluate defenses on domain-matched real documents, not synthetic proxies.",
+    "published": "2026-06-16T03:29:23Z",
+    "updated": "2026-06-16T03:29:23Z",
+    "url": "https://arxiv.org/abs/2606.17467v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.17467v1",
+    "categories": [
+      "cs.CR",
+      "cs.CL"
+    ],
+    "analysis": {
+      "summary": "Prompt injection defenses evaluated on synthetic benchmarks do not generalize to real enterprise documents, which are longer, denser, and interleave legitimate authority language with factual content.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-cl"
+      ],
+      "analyzed_at": "2026-06-17T23:59:28.108050+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-06-17T23:57:37.641297+00:00"
+  },
+  {
+    "id": "arxiv:2606.17454v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Dissecting model behavior through agent trajectories",
+    "authors": [
+      "Gaurav Gupta",
+      "Vatshank Chaturvedi",
+      "Jun Huan",
+      "Anoop Deoras"
+    ],
+    "abstract": "AI agent performance is not just a modeling problem, it is fundamentally a systems problem. The advanced capabilities of models are realized through agent harnesses. Therefore, a gap between model assumptions and harness behavior can easily prevent the model's full capabilities from translating into agent performance. We formalize this as the `intent-execution' gap: the mismatch between what the model intends and what the harness executes, and vice versa. We argue that minimizing this intent-execution gap is as important as other aspects of harness design such as tools and execution loops. To illustrate the impact of this harness-model alignment, we develop a simple and customizable harness called `Simple Strands Agent' (SSA). SSA aims to find the bulk of common patterns which generalize across different model families (such as Claude, Gemini, GPT, Grok, Qwen), as well as a small number of model-specific preferences. We make two contributions: (i) we $\\textbf{reproduce or improve on the pass@1}$ performance reported by diverse model-provider families on popular agentic benchmarks (SWE-Pro, SWE-Verified and Terminal-Bench-2), and (ii) building on an $\\textbf{analysis of 138k trajectories generated by SSA}$, we look beyond the $\\texttt{pass@1}$ numbers which tend to be relatively even across frontier models. By representing agent trajectories in code state-spaces, we observe model-level differences in problem-solving behavior. Finer-grained metrics such as edit frequency, testing activity, and phase-transitions reveal how individual models allocate effort across different stages of autonomous problem solving.",
+    "published": "2026-06-16T03:17:03Z",
+    "updated": "2026-06-16T03:17:03Z",
+    "url": "https://arxiv.org/abs/2606.17454v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.17454v1",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "analysis": {
+      "summary": "AI agent performance is not just a modeling problem, it is fundamentally a systems problem.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-06-17T23:59:28.108122+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-06-17T23:57:37.641376+00:00"
+  },
+  {
+    "id": "arxiv:2606.17435v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "MorphStrata: Layer-Specific Perturbations for Generating Morphence Students in Time-Series Moving Target Defense",
+    "authors": [
+      "Abhishek Bhardwaj",
+      "Arnav Doshi",
+      "Anusri Nagarajan",
+      "Thanh Quynh Nhu Ta",
+      "Mohammad Masum",
+      "Robert Chun",
+      "Jaydip Sen",
+      "Saptarshi Sengupta"
+    ],
+    "abstract": "Time-series forecasting models remain vulnerable to gradient-based adversarial attacks while existing defense mechanisms typically incur a trade-off in robustness for bounded response and compute cost. The problem is pronounced in Moving Target Defense where maintaining multiple randomized model instances substantially exacerbates the training overhead. In this work, we introduce MorphStrata, a student generation strategy with selective, layer-specific stochastic noise injection that extends the traditional Morphence defense. MorphStrata uses a Transformer backbone as the teacher and perturbs randomly selected architectural blocks to create structured heterogeneity across student models in response to varied data distributions and threat models. We evaluate against vanilla Transformer and Morphence backbones on a suite of benchmarks including the Jena Climate, Electricity Load Diagrams, and Appliances Energy Prediction using FGSM, BIM and PGD attacks across multiple attack strengths. Across datasets and attack regimes, the proposed ensemble maintains comparable adversarial RMSE. Specifically, for high entropy, periodic datasets as in the case of the AEP data, MorphStrata achieves the lowest RMSE across all attacks and perturbation budgets, improving over the static baseline by up to 24.11% and 97.97% under FGSM and BIM respectively at an epsilon value of 0.5 over 30 randomized trials. Targeting the layers to generate MorphStrata students accounts for less than 1% increase in train-times over the Morphence MTD baseline for most of the experiments, while accounting for double digit gains in adversarial RMSE reduction. We also observe a positive correlation between higher pairwise L2 distance (among generated students) and overall defense effectiveness. In summary, MorphStrata maintains adversarial robustness as an MTD defense at marginal cost deltas when compared to existing baselines.",
+    "published": "2026-06-16T02:35:52Z",
+    "updated": "2026-06-16T02:35:52Z",
+    "url": "https://arxiv.org/abs/2606.17435v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.17435v1",
+    "categories": [
+      "cs.LG"
+    ],
+    "analysis": {
+      "summary": "Time-series forecasting models remain vulnerable to gradient-based adversarial attacks while existing defense mechanisms typically incur a trade-off in robustness for bounded response and compute cost.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-06-17T23:59:28.108196+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-06-17T23:57:37.641471+00:00"
+  },
+  {
     "id": "arxiv:2606.17034v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -201,6 +469,49 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-06-16T23:52:44.869454+00:00"
+  },
+  {
+    "id": "arxiv:2606.17114v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "An Evaluation of Data Leakage Risks in Tool-Using LLM Agents in Realistic Scenarios",
+    "authors": [
+      "Hankyul Baek",
+      "Jaewon Noh",
+      "Sang Seo",
+      "Yongsu Kim",
+      "Gabriel Waikin Loh Matienzo",
+      "Young Il Kim",
+      "Ee Wei Seah",
+      "Akriti Vij"
+    ],
+    "abstract": "AI agents are increasingly being adopted in enterprise and personal settings with access to emails, databases, documents, and other tools where they can read, update, and disseminate sensitive information. Much of prior research on data leakage risks in agents has focused on adversarial data exfiltration through prompt injections and jailbreaks. However, sensitive information may also be exposed during non-adversarial use, creating leakage risks even when users issue benign requests. We report a joint evaluation by the Singapore AI Safety Institute and the Korea AI Safety Institute examining agent data leakage in 12 realistic, non-adversarial tasks spanning customer support, DevOps, web automation, and enterprise and personal productivity. The evaluation covers five risk types: lack of data awareness, audience awareness, policy compliance, data minimization, and access-boundary awareness. Both institutes tested a common set of scenarios mirroring real-world deployments using independent testing environments and task-specific LLM-judge rubrics. Across the three tested agents, none achieved fully correct and fully safe execution across all scenarios. Successful task completion often coincided with data-handling failures such as accessing unnecessary information or disclosing information to inappropriate recipients, indicating that capability and data-handling safety should be evaluated separately. Qualitative review also revealed claim-action mismatches, simulation-aware behavior, user-simulator role reversal, and interpretation gaps in automated judging. Overall, the results indicate that operational data leakage is a first-order agent-safety concern distinct from adversarial exfiltration and provide a methodology for future evaluations of agent data-handling safety.",
+    "published": "2026-06-15T09:16:38Z",
+    "updated": "2026-06-15T09:16:38Z",
+    "url": "https://arxiv.org/abs/2606.17114v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.17114v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "AI agents are increasingly being adopted in enterprise and personal settings with access to emails, databases, documents, and other tools where they can read, update, and disseminate sensitive information.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-06-17T23:59:28.108277+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-06-17T23:57:37.641975+00:00"
   },
   {
     "id": "arxiv:2606.16242v1",
@@ -2725,337 +3036,5 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-06-05T23:42:55.979700+00:00"
-  },
-  {
-    "id": "arxiv:2606.05958v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Steering Vectors are an Adversarial Attack Surface",
-    "authors": [
-      "Abzal Aidakhmetov",
-      "Donato Crisostomi",
-      "Tommaso Mencattini",
-      "Adrian Robert Minut",
-      "Iacopo Masi",
-      "Emanuele Rodolà"
-    ],
-    "abstract": "Activation steering has become a popular way to control Large Language Model (LLM) behavior without fine-tuning. Since the technique is plug-and-play, users share datasets and precomputed vectors to steer model activations. However, we show that a \\emph{stealth data poisoning attack} silently compromises this pipeline. By substituting $4{-}6\\%$ of tokens in the steering dataset, an attacker can silently align the resulting vector with an anti-refusal direction. This jailbreaks the target model while preserving the intended steering effect on benign prompts. Under this threat model, a malicious actor can distribute an apparently safe bundle containing texts, vectors, and weights, alongside an equivalence certificate that the end-user can verify. We test the attack on two open-weight model families and eight model-attribute combinations, observing that poisoned vectors reach an absolute attack success rate (ASR) of $20{-}55\\%$, $+19\\%$ to $+51\\%$ over a clean reference. Finally, we find that a refusal-direction orthogonalization defense can recover ${\\approx}82\\%$ of the ASR gap without harming benign behavior.",
-    "published": "2026-06-04T09:56:48Z",
-    "updated": "2026-06-04T09:56:48Z",
-    "url": "https://arxiv.org/abs/2606.05958v1",
-    "pdf_url": "https://arxiv.org/pdf/2606.05958v1",
-    "categories": [
-      "cs.LG"
-    ],
-    "analysis": {
-      "summary": "Activation steering has become a popular way to control Large Language Model (LLM) behavior without fine-tuning.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-lg"
-      ],
-      "analyzed_at": "2026-06-05T23:44:48.820321+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-06-05T23:42:55.979793+00:00"
-  },
-  {
-    "id": "arxiv:2606.05817v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Consistency Training Along the Transformer Stack",
-    "authors": [
-      "Sukrati Gautam",
-      "Neil Shah",
-      "Arav Dhoot",
-      "Bryan Maruyama",
-      "Caroline Wei",
-      "Rohan Kapoor",
-      "Robert Sidey",
-      "Prakhar Gupta",
-      "Zi Cheng Huang",
-      "David Demitri Africa"
-    ],
-    "abstract": "Consistency training encourages models to behave similarly across different contexts, and has shown promise for reducing misalignment. We broaden the scope of consistency training in two ways. First, we introduce two new internal consistency targets: MLP Consistency Training (MLPCT), which matches post-activation MLP states, and Attention Consistency Training (AttCT), which matches per-head attention distributions. Second, we apply consistency training to four additional safety threats: persona in-context learning attacks, adversarial frustration, prefill attacks, and conditional misalignment. Across several models and threat settings, we find that consistency training reduces misalignment well beyond the sycophancy and jailbreak settings studied in prior work. We also find cases of cross-threat generalization, where training against one failure mode improves robustness to another, and identify a shared residual-stream mechanism underlying ACT, MLPCT, and AttCT, while distinguishing BCT as mechanistically distinct. Our results suggest that consistency training is a flexible and extensible framework for alignment, capable of unifying defenses against a broader class of model pathologies.",
-    "published": "2026-06-04T07:58:55Z",
-    "updated": "2026-06-04T07:58:55Z",
-    "url": "https://arxiv.org/abs/2606.05817v1",
-    "pdf_url": "https://arxiv.org/pdf/2606.05817v1",
-    "categories": [
-      "cs.LG",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Consistency training encourages models to behave similarly across different contexts, and has shown promise for reducing misalignment.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-lg",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-06-05T23:44:48.820416+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-06-05T23:42:55.980009+00:00"
-  },
-  {
-    "id": "arxiv:2606.05743v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Membrane: A Self-Evolving Contrastive Safety Memory for LLM Agent Defense",
-    "authors": [
-      "Minseok Choi",
-      "Seungbin Yang",
-      "Dongjin Kim",
-      "Subin Kim",
-      "Jungmin Son",
-      "Yunseung Lee",
-      "Jaegul Choo",
-      "Youngjun Kwak"
-    ],
-    "abstract": "Despite advances in safety alignment, large language models remain vulnerable to continuously evolving jailbreaks. Existing fine-tuned safety classifiers cannot adapt to these evolving attacks, while adaptive memory-based guardrails tend to over-refuse benign queries that resemble stored attacks. We propose Membrane, a self-evolving guardrail built on Contrastive Safety Memory (CSM): each cell pairs the conditions for blocking a harmful query with those for permitting a superficially similar benign request. Without retraining, Membrane evolves CSM by distilling each harmful interaction and its benign counterpart into a contrastive cell indexed by the underlying attack strategy, so that one cell generalizes across topical variants of the same mechanism. At inference, retrieved cells serve as grounding context for precise safety decisions. Across model-level safety on HarmBench and agent-level safety on AgentHarm, Membrane achieves the highest F1 on all six jailbreak attacks. Notably, benign refusal on AgentHarm stays at 7-14%, well below the 28-85% range of prior guards. Memory cells also retain 87-88% F1 under cross-attack transfer and remain stable under memory poisoning.",
-    "published": "2026-06-04T06:14:08Z",
-    "updated": "2026-06-04T06:14:08Z",
-    "url": "https://arxiv.org/abs/2606.05743v1",
-    "pdf_url": "https://arxiv.org/pdf/2606.05743v1",
-    "categories": [
-      "cs.CR",
-      "cs.CL"
-    ],
-    "analysis": {
-      "summary": "Despite advances in safety alignment, large language models remain vulnerable to continuously evolving jailbreaks.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-cl"
-      ],
-      "analyzed_at": "2026-06-06T23:34:53.086868+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-06-05T23:42:55.980108+00:00"
-  },
-  {
-    "id": "arxiv:2606.05647v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Coding with \"Enemy\": Can Human Developers Detect AI Agent Sabotage?",
-    "authors": [
-      "Jingheng Ye",
-      "Huiqi Zou",
-      "Simon Yu",
-      "Weiyan Shi"
-    ],
-    "abstract": "AI coding agents are increasingly embedded in real-world software development, collaborating with human developers while gaining broader access to codebases and tools. This creates a new attack surface: an agent can exploit human trust to sabotage development, for instance by inserting malicious code to accomplish a hidden side task. Most prior work studies AI sabotage in AI-only settings, paying limited attention to the role of human oversight in detecting and mitigating such malicious behavior. To address this gap, we conduct the first large-scale study of human oversight in AI coding sabotage. Over 100 participants collaborate with one of four frontier models (Claude-Opus-4.6, GPT-5.4, Gemini-3.1-Pro, and MiniMax-M2.7) on a long-horizon coding task lasting around five hours, designed to mimic real-world workflows. We find that 94% of developers fail to detect sabotage, and our analysis of participant feedback attributes this vulnerability to minimal code review, plausible cover story, and overtrust in agents. We further test the effectiveness of a safety monitor in one condition: while the monitor reduces sabotage success, 56% of participants still accept the malicious code, ignoring its warnings. Drawing on participant feedback, we offer actionable suggestions for better monitor design. This work complements existing AI safety research and highlights an urgent need for human-centric safety mechanisms that account for human factors, particularly in long-horizon, real-world development settings.",
-    "published": "2026-06-04T03:22:17Z",
-    "updated": "2026-06-04T03:22:17Z",
-    "url": "https://arxiv.org/abs/2606.05647v1",
-    "pdf_url": "https://arxiv.org/pdf/2606.05647v1",
-    "categories": [
-      "cs.AI",
-      "cs.CL",
-      "cs.CY",
-      "cs.HC"
-    ],
-    "analysis": {
-      "summary": "AI coding agents are increasingly embedded in real-world software development, collaborating with human developers while gaining broader access to codebases and tools.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai",
-        "cs-cl",
-        "cs-cy",
-        "cs-hc"
-      ],
-      "analyzed_at": "2026-06-06T23:34:53.086963+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-06-05T23:42:55.980208+00:00"
-  },
-  {
-    "id": "arxiv:2606.05614v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Safety Paradox: How Enhanced Safety Awareness Leaves LLMs Vulnerable to Posterior Attack",
-    "authors": [
-      "Long P. Hoang",
-      "Hai V. Le",
-      "Shaoyang Xu",
-      "Wei Lu",
-      "Wenxuan Zhang"
-    ],
-    "abstract": "Large language models (LLMs) are rigorously aligned to refuse harmful requests, a process that inherently cultivates a latent capacity to evaluate and recognize unsafe content. In this work, we reveal that this advanced safety awareness inadvertently introduces a fatal vulnerability. We introduce Posterior Attack, a single-query jailbreak that bypasses guardrails by prompting the model to generate the exact harmful response its internal classifier would normally flag as unsafe. Through extensive empirical evaluation across 30 open-source LLMs (up to 35B parameters in size) and frontier models (e.g., GPT-5, Claude 4.6), we observe a striking phenomenon: models with superior safety-judgment capabilities are disproportionately more susceptible to this exploitation. To explain this, we formalize the Safety Paradox, analytically showing that monotonic improvements in safety alignment naturally amplify posterior vulnerability. Finally, we establish a causal link via reinforcement learning interventions, exemplifying that artificially degrading a model's safety judgment immunizes it against the attack, whereas enhancing judgment exacerbates the vulnerability. Our findings highlight potential flaws in current alignment paradigms, indicating that defense mechanisms may require further structural refinement.",
-    "published": "2026-06-04T02:36:41Z",
-    "updated": "2026-06-04T02:36:41Z",
-    "url": "https://arxiv.org/abs/2606.05614v1",
-    "pdf_url": "https://arxiv.org/pdf/2606.05614v1",
-    "categories": [
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Large language models (LLMs) are rigorously aligned to refuse harmful requests, a process that inherently cultivates a latent capacity to evaluate and recognize unsafe content.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-06-06T23:34:53.087034+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-06-05T23:42:55.980294+00:00"
-  },
-  {
-    "id": "arxiv:2606.05609v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "SlotGCG: Exploiting the Positional Vulnerability in LLMs for Jailbreak Attacks",
-    "authors": [
-      "Seungwon Jeong",
-      "Jiwoo Jeong",
-      "Hyeonjin Kim",
-      "Yunseok Lee",
-      "Woojin Lee"
-    ],
-    "abstract": "As large language models (LLMs) are widely deployed, identifying their vulnerability through jailbreak attacks becomes increasingly critical. Optimization-based attacks like Greedy Coordinate Gradient (GCG) have focused on inserting adversarial tokens to the end of prompts. However, GCG restricts adversarial tokens to a fixed insertion point (typically the prompt suffix), leaving the effect of inserting tokens at other positions unexplored. In this paper, we empirically investigate \\emph{slots}, i.e., candidate positions within a prompt where tokens can be inserted. We find that vulnerability to jailbreaking is highly related to the selection of the \\emph{slots}. Based on these findings, we introduce the \\textit{Vulnerable Slot Score} (VSS) to quantify the positional vulnerability to jailbreaking. We then propose SlotGCG, which evaluates all slots with VSS, selects the most vulnerable slots for insertion, and runs a targeted optimization attack at those slots. Our approach provides a position-search mechanism that is attack-agnostic and can be plugged into any optimization-based attack, adding only 200ms of preprocessing time. Experiments across multiple models demonstrate that SlotGCG significantly outperforms existing methods. Specifically, it achieves 14\\% higher Attack Success Rates (ASR) over GCG-based attacks, converges faster, and shows superior robustness against defense methods with 42\\% higher ASR than baseline approaches. Our implementation is available at \\href{https://github.com/youai058/SlotGCG}{https://github.com/youai058/SlotGCG}",
-    "published": "2026-06-04T02:31:29Z",
-    "updated": "2026-06-04T02:31:29Z",
-    "url": "https://arxiv.org/abs/2606.05609v1",
-    "pdf_url": "https://arxiv.org/pdf/2606.05609v1",
-    "categories": [
-      "cs.CR",
-      "cs.AI",
-      "cs.LG"
-    ],
-    "analysis": {
-      "summary": "As large language models (LLMs) are widely deployed, identifying their vulnerability through jailbreak attacks becomes increasingly critical.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-ai",
-        "cs-lg"
-      ],
-      "analyzed_at": "2026-06-06T23:34:53.087107+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-06-05T23:42:55.980390+00:00"
-  },
-  {
-    "id": "arxiv:2606.05566v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "GuardNet: Ensemble Strategies of Shallow Neural Networks for Robust Prompt Injection and Jailbreak Detection",
-    "authors": [
-      "Paulo Ricardo Ferreira Neves",
-      "Edson Rodrigues da Cruz Filho",
-      "Paulo Henrique Eleuterio Falsetti",
-      "João Vitor Pavan",
-      "Ian Degaspari",
-      "Henrique Vieira Laturrague",
-      "Patrick Vieira Laturrague",
-      "Guilherme Nielsen Dias",
-      "Marccello Wilson Perez Berto",
-      "Gustavo Voltani Von Atzingen"
-    ],
-    "abstract": "Large Language Models (LLMs) have transformed natural language processing, but they remain vulnerable to Prompt Injection (PI) and Jailbreak (JB) attacks. In addition, benchmark evaluations may be affected by contamination and partial information leakage, compromising performance estimates. This work presents GuardNet, a guardrail system based on an ensemble of shallow neural networks (BiLSTMs) with approximately 47 million parameters. We investigate the hypothesis that robustness in adversarial scenarios depends more on the diversity of example coverage and threshold calibration than on model scale. The results indicate that GuardNet achieves competitive performance compared with lightweight detectors and high efficiency at low latency, although larger LLMs such as Mistral-7B and Llama-3.1-8B still achieve superior performance in terms of F1 score and AUROC on the blind JBB-Behaviors benchmark. Nevertheless, GuardNet achieves an AUROC of 0.747 on the blind dataset (n = 200) and an F1 score of 0.92 on a proprietary benchmark (n = 50), under threshold calibration and evaluation with declared partial information leakage. The system operates with an average latency of approximately 50 ms on CPU, making it suitable for deployment in production environments with cost and infrastructure constraints.",
-    "published": "2026-06-04T01:24:15Z",
-    "updated": "2026-06-04T01:24:15Z",
-    "url": "https://arxiv.org/abs/2606.05566v1",
-    "pdf_url": "https://arxiv.org/pdf/2606.05566v1",
-    "categories": [
-      "cs.AI",
-      "cs.CR"
-    ],
-    "analysis": {
-      "summary": "Large Language Models (LLMs) have transformed natural language processing, but they remain vulnerable to Prompt Injection (PI) and Jailbreak (JB) attacks.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai",
-        "cs-cr"
-      ],
-      "analyzed_at": "2026-06-06T23:34:53.087171+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-06-05T23:42:55.980503+00:00"
-  },
-  {
-    "id": "arxiv:2606.04612v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Hybrid Adversarial Defence for Natural Language Understanding Tasks",
-    "authors": [
-      "Manar Abouzaid",
-      "Yang Wang",
-      "Chenghua Lin",
-      "Stuart E. Middleton"
-    ],
-    "abstract": "Large Language Models (LLMs) are vulnerable both to hallucination and adversarial manipulation. Although these problems are closely related, existing defences typically address them separately. We investigate a hybrid defence framework that combines entropy-based models, designed to reduce hallucinations, with uncertainty-based models and geometric-based models, designed to reduce vulnerability. Under in-domain tests on Natural Language Understanding datasets (FEVER, HotpotQA, CSQA, SIQA) we find our hybrid model improves both clean-task performance (up to 43.34\\% increase in accuracy) and adversarial robustness (up to 64.92\\% improvement in accuracy and 62.27\\% reduction in attack success rate). For out-of-distribution datasets (AeroEngQA, CPIQA) we see similar adversarial robustness from our hybrid model (up to 57.14\\% improvement in accuracy). For prompt injection (SafeGuard) and jailbreak detection (AdvBench, DAN) datasets our hybrid model is also very strong (up to 51\\% reduction in attack success rate compared to state of the art baseline models). Overall, our results show that combining entropy, uncertainty and geometric features provides a more effective defence strategy than using any single feature alone for both in-domain and out-of-distribution tasks.",
-    "published": "2026-06-03T08:49:15Z",
-    "updated": "2026-06-03T08:49:15Z",
-    "url": "https://arxiv.org/abs/2606.04612v1",
-    "pdf_url": "https://arxiv.org/pdf/2606.04612v1",
-    "categories": [
-      "cs.CL"
-    ],
-    "analysis": {
-      "summary": "Large Language Models (LLMs) are vulnerable both to hallucination and adversarial manipulation.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cl"
-      ],
-      "analyzed_at": "2026-06-06T23:34:53.087234+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-06-05T23:42:55.980869+00:00"
   }
 ]
