@@ -1,8 +1,84 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-06-18 07:59 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-06-19 08:07 Asia/Shanghai
 
 ## 今日论文
+
+### [Detecting Hidden ML Training With Zero-Overhead Telemetry](https://arxiv.org/abs/2606.19262v1)
+
+**作者**：Robi Rahman, Sabiha Tajdari
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-17 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.19262v1)
+
+**摘要总结**：Hardware-enabled monitoring of GPU workloads underpins many proposals for AI compute governance, but if developers can defeat monitoring mechanisms, such schemes are unworkable.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg`
+
+---
+
+### [CodeSentinel: A Three-Layer Defense Against Indirect Prompt Injection in Code Contexts](https://arxiv.org/abs/2606.19235v1)
+
+**作者**：Po-Han Cheng, Chia-Mu Yu, Ying-Dar Lin, Yu-Sung Wu, Wei-Bin Lee
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-17 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.19235v1)
+
+**摘要总结**：Code large language models increasingly retrieve external code context from repositories, documentation, issue threads, and coding-agent environments, creating an indirect prompt-injection surface where attackers hide instructions in comments, strings, identifiers, or decoy code.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
+
+---
+
+### [The Gate Is Only as Honest as Its Contracts: ContractGuard for the Contract Layer of Risk-Aware Causal Gating](https://arxiv.org/abs/2606.18550v1)
+
+**作者**：Laxmipriya Ganesh Iyer, Rahul Suresh Babu
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-17 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.18550v1)
+
+**摘要总结**：Risk-Aware Causal Gating (RACG) defends tool-augmented LLM agents against indirect prompt injection by removing dangerous tools from the agent's visible action space, so that even a fully injection-compliant agent cannot call a tool it cannot see.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
+
+---
+
+### [SafeClawBench: Separating Semantic, Audit-Evidence, and Sandbox Harm in Tool-Using LLM Agents](https://arxiv.org/abs/2606.18356v1)
+
+**作者**：Yuchuan Tian, Mengyu Zheng, Haocheng Mei, Ye Yuan, Chao Xu, Xinghao Chen, Hanting Chen, Yu Wang
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-16 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.18356v1)
+
+**摘要总结**：Tool-using language-model agents introduce security failures that go beyond unsafe text: they can disclose protected objects, write persistent memory, send messages, modify databases, or trigger harmful code and tool effects.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
+
+---
 
 ### [A Red-Team Study of Anthropic Fable 5 &amp; Opus 4.8 Models](https://arxiv.org/abs/2606.18193v1)
 
@@ -104,6 +180,25 @@
 **作者**：Gaurav Gupta, Vatshank Chaturvedi, Jun Huan, Anoop Deoras
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-16 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.17454v1)
+
+**摘要总结**：AI agent performance is not just a modeling problem, it is fundamentally a systems problem.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-lg`
+
+---
+
+### [Dissecting model behavior through agent trajectories](https://arxiv.org/abs/2606.17454v2)
+
+**作者**：Gaurav Gupta, Vatshank Chaturvedi, Jun Huan, Anoop Deoras
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-06-16 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.17454v2)
 
 **摘要总结**：AI agent performance is not just a modeling problem, it is fundamentally a systems problem.
 
@@ -314,13 +409,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-14 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.15762v1)
 
-**摘要总结**：暂无
+**摘要总结**：We ran 300 repeated vulnerability-finding scans to measure how repeatable agentic large language model (LLM) security review is on the same JavaScript code, prompt, and benchmark harness.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-se`
 
 ---
 
@@ -330,13 +428,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-14 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.15608v1)
 
-**摘要总结**：暂无
+**摘要总结**：Multimodal Large Language Models (MLLMs) are increasingly used as automated judges, e.g., for image quality and safety assessment.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv`
 
 ---
 
@@ -346,13 +447,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-13 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.15452v1)
 
-**摘要总结**：暂无
+**摘要总结**：Rare events in time series are critical to model but hard to learn due to data scarcity.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `math-at` `q-fin-rm` `stat-ml`
 
 ---
 
@@ -1399,98 +1503,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-lg` `stat-ml`
-
----
-
-### [Adversarial Attacks Already Tell the Answer: Directional Bias-Guided Test-time Defense for Vision-Language Models](https://arxiv.org/abs/2606.06186v1)
-
-**作者**：Liangsheng Liu, Si Chen, Jiamin Wu, Weiwei Feng, Zhixin Cheng, Xiaotian Yin, Wenfei Yang, Tianzhu Zhang
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.06186v1)
-
-**摘要总结**：Vision-Language Models (VLMs), such as CLIP, have shown strong zero-shot generalization but remain highly vulnerable to adversarial perturbations, posing serious risks in real-world applications.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cv`
-
----
-
-### [Where, What, Why, and Importance: Structured Defect Grounding for Text-to-Image Feedback](https://arxiv.org/abs/2606.06113v1)
-
-**作者**：Huaisong Zhang, Hao Yu, Yuxuan Zhang, Jiahe Wang, Xinrui Chen, Haoxiang Cao, Feng Lu, Wendong Zhang, et al.
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.06113v1)
-
-**摘要总结**：Despite generating increasingly photorealistic images, text-to-image (T2I) models still exhibit localized, subtle, and structurally complex failures.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cv`
-
----
-
-### [CogManip: Benchmarking Manipulative Behavior in Multi-Turn Interactions with Large Language Model](https://arxiv.org/abs/2606.06099v1)
-
-**作者**：Zeyang Yue, Chenfei Yan, Feifei Zhao, Haibo Tong, Mengwen Xu, Xiaozhen Wang, Erliang Lin, Yi Zeng
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.06099v1)
-
-**摘要总结**：Whether Large Language Models (LLMs) exhibit covert psychological manipulation in complex human-AI interactions has garnered increasing safety concerns.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai`
-
----
-
-### [Beyond Similarity: Trustworthy Memory Search for Personal AI Agents](https://arxiv.org/abs/2606.06054v1)
-
-**作者**：Jiawen Zhang, Kejia Chen, Jiachen Ma, Yangfan Hu, Lipeng He, Yechao Zhang, Jian Liu, Xiaohu Yang, et al.
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.06054v1)
-
-**摘要总结**：Personal AI agents increasingly rely on long-term memory to provide persistent personalization across sessions.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai`
-
----
-
-### [SpeechJBB: Probing Safety Alignment and Comprehension in Large Audio Language Models under Code-Switched Speech](https://arxiv.org/abs/2606.06037v1)
-
-**作者**：Virginia Ceccatelli, Yejin Jeon, David Ifeoluwa Adelani
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.06037v1)
-
-**摘要总结**：Large audio language models (LALMs) are increasingly deployed in real-world applications, yet their safety alignment is still primarily evaluated on monolingual, text-based harmful prompts.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-sd` `eess-as`
