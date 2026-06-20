@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-06-20 07:35 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-06-21 07:42 Asia/Shanghai
 
 ## 今日论文
 
@@ -618,13 +618,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-13 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.15385v1)
 
-**摘要总结**：暂无
+**摘要总结**：Reward hacking, where AI systems exploit misspecified objectives to achieve high reward without satisfying intended goals, remains a central challenge in AI safety.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
 
 ---
 
@@ -634,13 +637,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-13 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.15199v1)
 
-**摘要总结**：暂无
+**摘要总结**：Proactive warning is an important capability for edge intelligent services, where the system predicts whether a subject will successfully complete an incoming task under strict latency and privacy constraints.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
 
 ---
 
@@ -650,13 +656,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-13 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.15057v1)
 
-**摘要总结**：暂无
+**摘要总结**：Indirect prompt injection (IPI) is a major security threat to LLM-powered agents.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -666,13 +675,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-12 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.15008v1)
 
-**摘要总结**：暂无
+**摘要总结**：Agentic large language model (LLM) systems can now execute actions, not only produce text.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
@@ -682,13 +694,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-12 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.14865v1)
 
-**摘要总结**：暂无
+**摘要总结**：Adversarial Training (AT) improves neural network robustness, but most methods train a fixed parameter space from the start.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-ai`
 
 ---
 

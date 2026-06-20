@@ -1285,7 +1285,21 @@
     "categories": [
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Reward hacking, where AI systems exploit misspecified objectives to achieve high reward without satisfying intended goals, remains a central challenge in AI safety.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-06-20T23:42:13.634757+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-06-16T23:52:44.870420+00:00"
   },
   {
@@ -1311,7 +1325,21 @@
     "categories": [
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Proactive warning is an important capability for edge intelligent services, where the system predicts whether a subject will successfully complete an incoming task under strict latency and privacy constraints.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-06-20T23:42:13.634879+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-06-16T23:52:44.870713+00:00"
   },
   {
@@ -1337,7 +1365,22 @@
       "cs.CR",
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Indirect prompt injection (IPI) is a major security threat to LLM-powered agents.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-06-20T23:42:13.634982+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-06-16T23:52:44.870827+00:00"
   },
   {
@@ -1360,7 +1403,21 @@
     "categories": [
       "cs.CR"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Agentic large language model (LLM) systems can now execute actions, not only produce text.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-06-20T23:42:13.635082+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-06-16T23:52:44.870932+00:00"
   },
   {
@@ -1385,7 +1442,22 @@
       "cs.LG",
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Adversarial Training (AT) improves neural network robustness, but most methods train a fixed parameter space from the start.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-lg",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-06-20T23:42:13.635221+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-06-16T23:52:44.871031+00:00"
   },
   {
