@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-06-27 07:42 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-06-28 07:34 Asia/Shanghai
 
 ## 今日论文
 
@@ -162,13 +162,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-24 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.26396v1)
 
-**摘要总结**：暂无
+**摘要总结**：Pre-trained transformers have demonstrated remarkable generalization abilities, at times extending beyond the scope of their training data.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg`
 
 ---
 
@@ -178,13 +181,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-24 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.26377v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large language models (LLMs) are increasingly deployed in interactive applications, yet they remain vulnerable to adversarial interactions that induce harmful, deceptive, or policy-violating outputs.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
@@ -270,13 +276,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-24 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.25487v2)
 
-**摘要总结**：暂无
+**摘要总结**：Almost every paper on LLM jailbreaks and prompt injection reports an attack-success rate (ASR), and that number is assigned not by people but by an automated judge: either a safety classifier trained for the task, or a general chat model prompted to grade.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl` `cs-cr` `cs-lg`
 
 ---
 
@@ -514,13 +523,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-22 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.23892v1)
 
-**摘要总结**：暂无
+**摘要总结**：Vision-language models (VLMs) are increasingly used as perception-reasoning backbones for embodied intelligence in safety-critical physical systems, where perception or reasoning errors can lead to unsafe decisions or actions.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv`
 
 ---
 
@@ -530,13 +542,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-22 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.23858v1)
 
-**摘要总结**：暂无
+**摘要总结**：A primary challenge in AI safety is the existence of adversarial examples -- slightly distorted inputs that cause a neural network (NN) to misclassify.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-ai` `cs-cr`
 
 ---
 
@@ -584,13 +599,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-22 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.23380v2)
 
-**摘要总结**：暂无
+**摘要总结**：AI safety research has focused predominantly on epistemic and physical harms (e.g., misinformation, bias, system reliability) while the risks that arise from AI systems' engagement with human emotional life have remained fragmented and undertheorised.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cy`
 
 ---
 
@@ -714,13 +732,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-21 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.22686v1)
 
-**摘要总结**：暂无
+**摘要总结**：Modern Large Language Models (LLMs) rely on extensive safety alignment, yet the mechanistic basis of refusal remains opaque.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-lg`
 
 ---
 
@@ -730,13 +751,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-21 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.22673v1)
 
-**摘要总结**：暂无
+**摘要总结**：Coding agents based on large language models (LLMs) demonstrate remarkable autonomous capabilities, but they also introduce significant safety and misuse risks during multi-turn interactions with external environments.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-se`
 
 ---
 
