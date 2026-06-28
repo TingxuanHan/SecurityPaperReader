@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-06-28 07:34 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-06-29 07:35 Asia/Shanghai
 
 ## 今日论文
 
@@ -770,13 +770,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-20 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.21877v1)
 
-**摘要总结**：暂无
+**摘要总结**：Agentic AI systems retrieve private context, invoke tools, write files, call external services, coordinate with other agents, and may act without human approval.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-cr` `cs-se`
 
 ---
 
@@ -786,13 +789,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-19 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.21732v1)
 
-**摘要总结**：暂无
+**摘要总结**：Summarization-based prompt compression is increasingly used by LLM agents to shorten long, distributed contexts, but it shifts the security boundary: filters inspect the pre-compression prompt while the backend acts on a newly generated compressed context.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -802,13 +808,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-19 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.21638v1)
 
-**摘要总结**：暂无
+**摘要总结**：Open-weight Large Language Models (LLMs) enable scientific progress and broad deployment.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-cl`
 
 ---
 
@@ -818,13 +827,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-19 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.21129v1)
 
-**摘要总结**：暂无
+**摘要总结**：Traditional OS security models based on "resource exposure plus permission checks" face structural challenges as LLM-driven autonomous agents acquire capabilities for planning, tool use, network access, and code execution.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-os`
 
 ---
 
@@ -834,13 +846,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-19 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.21082v1)
 
-**摘要总结**：暂无
+**摘要总结**：Multi-turn jailbreaks can evade turn-level moderation by spreading unsafe intent across a dialogue through gradual escalation, reframing, and role manipulation.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl` `cs-ai` `cs-cr`
 
 ---
 
@@ -850,13 +865,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-19 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.21077v1)
 
-**摘要总结**：暂无
+**摘要总结**：Production LLMs increasingly rely on toxicity-based moderation filters as a primary defense, assuming that harmful intent correlates with toxic surface wording.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-cl`
 
 ---
 
@@ -866,13 +884,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-19 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.21071v1)
 
-**摘要总结**：暂无
+**摘要总结**：Local LLM agents such as OpenClaw and Nanobot run on end-user machines and act on host resources - the shell, filesystem, browser, stored credentials, and messaging applications - through natural-language goals.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
