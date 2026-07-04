@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-07-04 07:35 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-07-05 07:31 Asia/Shanghai
 
 ## 今日论文
 
@@ -314,13 +314,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.30970v1)
 
-**摘要总结**：暂无
+**摘要总结**：Autonomous AI agents increasingly perform consequential actions on behalf of human principals, including financial transactions, external communications, and enterprise workflows.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
 
 ---
 
@@ -330,13 +333,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.30970v2)
 
-**摘要总结**：暂无
+**摘要总结**：Autonomous AI agents increasingly perform consequential actions on behalf of human principals, including financial transactions, external communications, and enterprise workflows.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
 
 ---
 
@@ -346,13 +352,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.30783v1)
 
-**摘要总结**：暂无
+**摘要总结**：We identify a security-fidelity tradeoff in defending LLMs against indirect prompt injection: defenses resist injected instructions largely by suppressing untrusted text, which corrupts tasks that must preserve it, such as translation and document editing.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -362,13 +371,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.30755v1)
 
-**摘要总结**：暂无
+**摘要总结**：Claw-like AI agents (e.g., OpenClaw) are always-on processes with persistent access to credentials, files, tools, and external services.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -378,13 +390,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.30219v1)
 
-**摘要总结**：暂无
+**摘要总结**：LLM evaluation and AI safety face a shared measurement problem: benchmark scores, reward-model signals, and reported safety metrics can improve while the latent properties they are meant to represent remain difficult to verify.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-cl` `cs-lg` `cs-se`
 
 ---
 
@@ -394,13 +409,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.30115v1)
 
-**摘要总结**：暂无
+**摘要总结**：Artificial intelligence is increasingly used in medical imaging, yet its robustness to input perturbations remains a critical concern for a wide clinical adoption.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`physics-med-ph`
 
 ---
 
@@ -410,13 +428,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.29963v2)
 
-**摘要总结**：暂无
+**摘要总结**：The structural vulnerabilities of point cloud-based 3D object detectors remain poorly understood.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv` `cs-cr`
 
 ---
 
@@ -426,13 +447,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.29960v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large Language Models (LLMs) often fail to maintain instruction hierarchies (IH) when processing multi-source inputs with varying role-level priorities, paradoxically adhering to lower-priority directives during conflicts.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl`
 
 ---
 
