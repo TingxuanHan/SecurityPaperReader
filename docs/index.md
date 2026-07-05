@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-07-05 07:31 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-07-06 07:36 Asia/Shanghai
 
 ## 今日论文
 
@@ -466,13 +466,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.29649v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large Vision-Language Models (VLMs) are increasingly deployed as content moderation tools, yet they remain vulnerable to jailbreak attacks in which harmful text is visually encoded as ASCII art.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl`
 
 ---
 
@@ -482,13 +485,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.29623v1)
 
-**摘要总结**：暂无
+**摘要总结**：Rare events govern the safety profile of modern AI systems, yet their probabilities are extremely difficult to estimate: direct Monte Carlo requires prohibitive sample budgets.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-lg`
 
 ---
 
@@ -498,13 +504,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.29602v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large Language Models (LLMs) have rapidly evolved, transforming industries by automating complex tasks and generating human-like content.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
@@ -514,13 +523,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.29544v1)
 
-**摘要总结**：暂无
+**摘要总结**：We present Proteus, a framework developed at Resemble AI for automated robustness testing of our audio deepfake detection system.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-sd` `cs-ai`
 
 ---
 
