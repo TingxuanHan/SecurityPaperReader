@@ -1,8 +1,122 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-07-08 07:29 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-07-09 07:36 Asia/Shanghai
 
 ## 今日论文
+
+### [AirflowAttack: Thermal-Airflow Adversarial Perturbations against Infrared Remote-Sensing Vision-Language Models](https://arxiv.org/abs/2607.06485v1)
+
+**作者**：Cong Su, Jiaju Han, Xuemeng Sun, Chengyin Hu, Qike Zhang, Jiujiang Guo, Yiwei Wei, Jiahuan Long
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-07 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.06485v1)
+
+**摘要总结**：Vision-language models (VLMs) are increasingly deployed on infrared (IR) remote sensing imagery in security-critical settings, yet their adversarial robustness remains unexamined.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv` `cs-ai`
+
+---
+
+### [Adversarial Robustness for Small Frequency Moments and a Weak Equivalence Theorem for Turnstile Streams](https://arxiv.org/abs/2607.06312v1)
+
+**作者**：Elena Gribelyuk, Honghao Lin, David P. Woodruff, Huacheng Yu, Samson Zhou
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-07 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.06312v1)
+
+**摘要总结**：We study adversarially robust algorithms for insertion-deletion (turnstile) streams, where future updates may depend on past algorithm outputs.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ds`
+
+---
+
+### [Pluralis v0.1: Towards a Multicultural, Multimodal, Multilingual Benchmark for AI Risk and Reliability](https://arxiv.org/abs/2607.06196v1)
+
+**作者**：Alicia Parrish, Rajat Shinde, Sanket Badhe, Xinyi Bai, Sree Bhargavi Balija, Hua-Rong Chu, Emilio Ferrara, Armstrong Foundjem, et al.
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-07 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.06196v1)
+
+**摘要总结**：Current AI safety evaluation and benchmarking frameworks predominantly rely on Western-centric culture-agnostic defaults that mask critical regional laws, socio-linguistic nuances, and cultural taboos, leaving Vision-Language Models (VLMs) vulnerable in global deployments.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl` `cs-cy`
+
+---
+
+### [AEGIS: A Mechanism-Guided Defense against Visual Synonym Jailbreaks in Text-to-Image Models](https://arxiv.org/abs/2607.06120v1)
+
+**作者**：Yuanmin Huang, Zhenfei Zhang, Mi Zhang, Geng Hong, Qinqin He, Jialing Tao, Hui Xue, Min Yang
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-07 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.06120v1)
+
+**摘要总结**：Text-to-image diffusion models have achieved high visual fidelity and broad adoption, but remain vulnerable to safety violations when adversaries exploit them to synthesize illicit content.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv`
+
+---
+
+### [The Balkanization of Execution-Security Research for AI Coding Agents: Isolation, Access Control, and Time-of-Check-to-Time-of-Use Vulnerabilities](https://arxiv.org/abs/2607.05743v1)
+
+**作者**：Mohammadreza Rashidi
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-07 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.05743v1)
+
+**摘要总结**：AI coding agents now read repositories, call tools, and execute shell commands with limited human oversight, and a fast-growing body of work studies whether the execution layer around them is actually safe.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
+
+---
+
+### [Higher-Order Certified Robustness for Regression](https://arxiv.org/abs/2607.05536v1)
+
+**作者**：Jie Zhang, Natalie Frank
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-06 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.05536v1)
+
+**摘要总结**：Randomized smoothing has emerged as a scalable technique for certifying the adversarial robustness of classifiers.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`stat-ml` `cs-lg`
+
+---
 
 ### [Untrusted Content Masking for Web Agents with Security Guarantees](https://arxiv.org/abs/2607.05277v1)
 
@@ -162,13 +276,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-07-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.03797v1)
 
-**摘要总结**：暂无
+**摘要总结**：Deep learning (DL) has shown strong performance in medical image classification, but its trustworthy deployment remains challenging in safety-critical clinical settings, where prediction errors under perturbations may lead to severe consequences.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv` `eess-iv`
 
 ---
 
@@ -178,13 +295,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-07-03 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.03600v1)
 
-**摘要总结**：暂无
+**摘要总结**：Adversarial robustness in Unsupervised Domain Adaptation (UDA) remains a significant challenge due to noisy pseudo labels and inherent distributional shifts between the clean source and adversarially perturbed target domains.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv` `cs-ai`
 
 ---
 
@@ -1377,117 +1497,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-cr`
-
----
-
-### [Pigeonholing: Bad prompts hurt models to collapse and make mistakes](https://arxiv.org/abs/2606.24267v1)
-
-**作者**：Hyunji Nam, Keertana Chidambaram, Dorottya Demszky, Natasha Jaques
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-23 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.24267v1)
-
-**摘要总结**：While in-context learning is generally shown to be effective in Large Language Models (LLMs), bad contexts can cause performance degradation and mode collapse, a phenomenon we call "pigeonholing." **Unintentionally bad** contexts can happen without malicious jailbreaking intents: For example, a user asks the model to justify an incorrect math theorem or fails to correct the model's buggy code.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cl` `cs-ai`
-
----
-
-### [Distributed Quality-Diversity Search for Toxicity in Large Language Models](https://arxiv.org/abs/2606.24166v1)
-
-**作者**：Onkar Shelar, Travis Desell
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-23 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.24166v1)
-
-**摘要总结**：Large Language Models remain vulnerable to adversarial prompts that elicit harmful responses, and scaling red-teaming to cover a broad range of failure modes is constrained by the cost of text generation and evaluation.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ne`
-
----
-
-### [PixJail: Self-Evolving Paper-to-Pipeline Reproduction for Text-to-Image Jailbreak Evaluation](https://arxiv.org/abs/2606.24081v1)
-
-**作者**：Leyi Sheng, Han Sun, Zhen Sun, Yuntao Yue, Jinlin Wu, Xinlei He, Jiaheng Wei
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-23 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.24081v1)
-
-**摘要总结**：As Text-to-Image (T2I) jailbreak techniques evolve rapidly, existing benchmarks and reproduction workflows often struggle to keep pace.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai`
-
----
-
-### [Overconfident Coordinates: Quantifying Confidence in Traceroute Geolocation](https://arxiv.org/abs/2606.24027v1)
-
-**作者**：Santiago Klein, Caleb J. Wang, Fabián E. Bustamante
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-23 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.24027v1)
-
-**摘要总结**：Studies of Internet paths often attach router locations to traceroute hops using commercial geolocation databases, rDNS labels, Geofeeds, and IXP metadata.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ni`
-
----
-
-### [Overconfident Coordinates: Quantifying Confidence in Traceroute Geolocation](https://arxiv.org/abs/2606.24027v2)
-
-**作者**：Santiago Klein, Caleb J. Wang, Fabián E. Bustamante
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-23 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.24027v2)
-
-**摘要总结**：Studies of Internet paths often attach router locations to traceroute hops using commercial geolocation databases, rDNS labels, Geofeeds, and IXP metadata.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ni`
-
----
-
-### [Reinforcement Learning Towards Broadly and Persistently Beneficial Models](https://arxiv.org/abs/2606.24014v1)
-
-**作者**：Akshay V. Jagadeesh, Rahul K. Arora, Khaled Saab, Ali Malik, Mikhail Trofimov, Foivos Tsimpourlas, Johannes Heidecke, Karan Singhal
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-22 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.24014v1)
-
-**摘要总结**：As AI systems are deployed across increasingly diverse and high-stakes settings, model alignment must generalize beyond the tasks and domains seen during training.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai` `cs-cl`
