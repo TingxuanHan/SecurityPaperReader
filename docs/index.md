@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-07-11 07:29 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-07-12 07:17 Asia/Shanghai
 
 ## 今日论文
 
@@ -618,13 +618,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-07-03 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.03561v1)
 
-**摘要总结**：暂无
+**摘要总结**：As AI models continue to develop powerful capabilities, it becomes critical that we are able to verify that their output is aligned with our intentions.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-cc` `cs-cr` `cs-lg`
 
 ---
 
@@ -634,13 +637,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-07-03 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.03233v1)
 
-**摘要总结**：暂无
+**摘要总结**：The rapid growth of publicly available digital information has rendered manual open-source intelligence (OSINT) analysis insufficient for modern intelligence, cybersecurity, and cyber investigation.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-ir` `cs-si`
 
 ---
 
@@ -650,13 +656,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-07-03 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.03232v1)
 
-**摘要总结**：暂无
+**摘要总结**：We present a new quadratic model for the certification problem in adversarial robustness, which simultaneously accounts for all possible target classes.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`math-co` `stat-ml`
 
 ---
 
@@ -666,13 +675,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-07-03 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.03165v1)
 
-**摘要总结**：暂无
+**摘要总结**：Brain decoding aims to uncover neural mechanisms by inferring stimulus-related representations from brain signals.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv`
 
 ---
 
@@ -682,13 +694,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-07-03 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.03143v1)
 
-**摘要总结**：暂无
+**摘要总结**：Vision-language alignment powers open-vocabulary recognition, retrieval, and LVLM grounding, yet natural captions are often underspecified, making similarity brittle and overly confident under paraphrase and omitted details.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv` `cs-ai`
 
 ---
 
@@ -698,13 +713,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-07-03 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.03075v1)
 
-**摘要总结**：暂无
+**摘要总结**：Safety-critical applications require classifiers that are both robust and reliable.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-cv`
 
 ---
 
@@ -714,13 +732,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-07-03 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.02961v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large Vision-Language Models (LVLMs) exhibit remarkable vision-language capabilities and are increasingly deployed in real-world applications such as personal assistants, document analysis systems, and embodied agents.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv` `cs-cr`
 
 ---
 
@@ -730,13 +751,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-07-03 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.02873v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large language model agents driving security tool suites over the Model Context Protocol are increasingly common.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-se` `cs-ai` `cs-cr`
 
 ---
 

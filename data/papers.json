@@ -1316,7 +1316,24 @@
       "cs.CR",
       "cs.LG"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "As AI models continue to develop powerful capabilities, it becomes critical that we are able to verify that their output is aligned with our intentions.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai",
+        "cs-cc",
+        "cs-cr",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-07-11T23:17:48.595141+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-07-07T23:26:31.285758+00:00"
   },
   {
@@ -1344,7 +1361,24 @@
       "cs.IR",
       "cs.SI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "The rapid growth of publicly available digital information has rendered manual open-source intelligence (OSINT) analysis insufficient for modern intelligence, cybersecurity, and cyber investigation.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai",
+        "cs-ir",
+        "cs-si"
+      ],
+      "analyzed_at": "2026-07-11T23:17:48.595264+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-07-07T23:26:31.285864+00:00"
   },
   {
@@ -1368,7 +1402,22 @@
       "math.CO",
       "stat.ML"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "We present a new quadratic model for the certification problem in adversarial robustness, which simultaneously accounts for all possible target classes.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "math-co",
+        "stat-ml"
+      ],
+      "analyzed_at": "2026-07-11T23:17:48.595349+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-07-07T23:26:31.285940+00:00"
   },
   {
@@ -1391,7 +1440,21 @@
     "categories": [
       "cs.CV"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Brain decoding aims to uncover neural mechanisms by inferring stimulus-related representations from brain signals.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cv"
+      ],
+      "analyzed_at": "2026-07-11T23:17:48.595447+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-07-07T23:26:31.286031+00:00"
   },
   {
@@ -1415,7 +1478,22 @@
       "cs.CV",
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Vision-language alignment powers open-vocabulary recognition, retrieval, and LVLM grounding, yet natural captions are often underspecified, making similarity brittle and overly confident under paraphrase and omitted details.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cv",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-07-11T23:17:48.595535+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-07-07T23:26:31.286118+00:00"
   },
   {
@@ -1438,7 +1516,22 @@
       "cs.LG",
       "cs.CV"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Safety-critical applications require classifiers that are both robust and reliable.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-lg",
+        "cs-cv"
+      ],
+      "analyzed_at": "2026-07-11T23:17:48.595622+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-07-07T23:26:31.286211+00:00"
   },
   {
@@ -1461,7 +1554,22 @@
       "cs.CV",
       "cs.CR"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Large Vision-Language Models (LVLMs) exhibit remarkable vision-language capabilities and are increasingly deployed in real-world applications such as personal assistants, document analysis systems, and embodied agents.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cv",
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-07-11T23:17:48.595718+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-07-07T23:26:31.286308+00:00"
   },
   {
@@ -1485,7 +1593,23 @@
       "cs.AI",
       "cs.CR"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Large language model agents driving security tool suites over the Model Context Protocol are increasingly common.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-se",
+        "cs-ai",
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-07-11T23:17:48.595816+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-07-07T23:26:31.286416+00:00"
   },
   {
