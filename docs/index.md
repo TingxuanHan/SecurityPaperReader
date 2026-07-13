@@ -1,8 +1,46 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-07-13 07:15 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-07-14 07:27 Asia/Shanghai
 
 ## 今日论文
+
+### [Robustifying Vision-Language Models via Test-Time Prompt Adaptation](https://arxiv.org/abs/2607.09450v1)
+
+**作者**：Xingyu Zhu, Huanshen Wu, Shuo Wang, Beier Zhu, Jiannan Ge, Jiaheng Zhang, Long Chen
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-10 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.09450v1)
+
+**摘要总结**：Pre-trained Vision-Language Models (VLMs) such as CLIP achieve strong zero-shot generalization, but their performance degrades sharply under adversarial perturbations.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv` `cs-lg`
+
+---
+
+### [Optimizing Against Safety Representations: Activation-Guided Adversarial Suffixes and the Geometry of Refusal](https://arxiv.org/abs/2607.08883v1)
+
+**作者**：Ege Çakar, Hannah Guan, Kayden Kehe
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-09 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.08883v1)
+
+**摘要总结**：Behavioral alignment in large language models often masks fragile internal safety representations.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg`
+
+---
 
 ### [Formal Mechanisms for Market Stability in Self-Interested Agent Societies: A Marketplace Simulation Study](https://arxiv.org/abs/2607.08652v1)
 
@@ -1483,41 +1521,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-cr` `cs-ai`
-
----
-
-### [Adversarial Diffusion Across Modalities: A Fusion Survey of Attacks, Defenses, and Evaluation for Text, Vision, and Vision-Language Models](https://arxiv.org/abs/2606.26566v1)
-
-**作者**：Abrar Alotaibi, Moataz Ahmed
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-25 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.26566v1)
-
-**摘要总结**：Adversarial evaluation of AI systems has matured along four largely disconnected tracks: diffusion-based attacks on text and large language models (LLMs), diffusion-based attacks on image classifiers, jailbreak pipelines against vision-language models, and diffusion-based input purification defenses.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-cl`
-
----
-
-### [The Inattentional Gap: Task-Conditioned Language and Vision Models Omit the Safety-Critical Signals They Can Otherwise Report](https://arxiv.org/abs/2606.26529v1)
-
-**作者**：Kwan Soo Shin
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-25 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.26529v1)
-
-**摘要总结**：AI safety is evaluated by how reliably a model detects the hazards it is told to find, yet accidents often arise from the hazard no one specified.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cl` `cs-ai` `cs-cv`
