@@ -1,8 +1,160 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-07-14 07:27 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-07-15 07:25 Asia/Shanghai
 
 ## 今日论文
+
+### [MJ: Multi-turn LLM Jailbreaking via Decomposed Credit Assignment](https://arxiv.org/abs/2607.11070v1)
+
+**作者**：Junyoung Park, Namgyu Park, Sechan Lee, Yoon-Chan Jhi, Jihoon Cho, Sangdon Park
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-13 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.11070v1)
+
+**摘要总结**：Modern large language models (LLMs) operate in interactive multi-turn settings, making multi-turn jailbreaking a realistic threat model and an important setting for automated red teaming.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl`
+
+---
+
+### [Distributed Denial of Science: How Indirect Data Poisoning of AI Systems Can Industrialize Scientific Fraud](https://arxiv.org/abs/2607.10712v1)
+
+**作者**：Bálint Gyevnár, Atoosa Kasirzadeh, Nihar B. Shah
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-12 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.10712v1)
+
+**摘要总结**：Scientific fraud is the instrument of doubt that malicious entities can use to establish controversy in science.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-dl`
+
+---
+
+### [NetInjectBench: Benchmarking Indirect Prompt Injection in Tool-Using Large Language Model Agents for Network Operations](https://arxiv.org/abs/2607.10490v1)
+
+**作者**：Ruksat Khan Shayoni, Muhammad Faraz Shoaib, S M Asif Hossain, M. F. Mridha
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.10490v1)
+
+**摘要总结**：Tool-using large language model (LLM) agents are attractive for network operations, but tickets, alerts, logs, runbooks, and ChatOps messages can carry indirect prompt injections.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-lg`
+
+---
+
+### [Devil in the Lens: Analyzing and Defending Physical Prompt Injection Against Vision-Language Models on Wearable Devices](https://arxiv.org/abs/2607.10269v1)
+
+**作者**：Yaxin Li, Hao Wang, Yanda Shao, Shuhao Zhang, Yan Long
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.10269v1)
+
+**摘要总结**：Vision-Language Models (VLMs) are rapidly deployed on human-facing wearable devices such as smart glasses to enable multimodal perception and AI-assisted decision-making.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
+
+---
+
+### [Which Neurons Detect Malicious Code? A Probing Study of LLM Security Knowledge](https://arxiv.org/abs/2607.10221v1)
+
+**作者**：Lam D. Dao, Vang T. Nguyen, Anh M. T. Bui, Phuong T. Nguyen
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.10221v1)
+
+**摘要总结**：Background.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-se` `cs-cr`
+
+---
+
+### [Minionese: Comprehensive Benchmark and Mechanistic Study of Multilingual LLM Safety](https://arxiv.org/abs/2607.10112v1)
+
+**作者**：Chigozirim Ifebi, Brent Kong, Ayushi Mehrotra
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.10112v1)
+
+**摘要总结**：Safety alignment in large language models remains brittle across languages: prompts reliably refused in English can elicit harmful compliance in non-English and low-resource settings.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
+
+---
+
+### [The Effect of Multi-Lingual and Keyword Adversarial Injection on LLM Relevance Judgment](https://arxiv.org/abs/2607.10080v1)
+
+**作者**：Nguyen Khoi Vo, Duy Duong Tuong, Oleg Zendel, Mark Sanderson
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.10080v1)
+
+**摘要总结**：Large language models (LLMs) are increasingly being used as automated judges for relevance evaluation in information retrieval, yet their robustness to adversarial manipulation remains insufficiently understood, particularly in multilingual settings.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ir`
+
+---
+
+### ["Code Is Cheap. Show Me the Talk.": Lessons from Teaching and Managing AI Coding Tool Usage in a Visualization Course](https://arxiv.org/abs/2607.09938v1)
+
+**作者**：Zhongzheng Xu, Taehyun Yang, Fumeng Yang
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-10 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.09938v1)
+
+**摘要总结**：Generative Artificial Intelligence (GenAI) coding tools are transforming visualization education.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-hc`
+
+---
 
 ### [Robustifying Vision-Language Models via Test-Time Prompt Adaptation](https://arxiv.org/abs/2607.09450v1)
 
@@ -1360,158 +1512,6 @@
 **来源**：arxiv · AI安全 · **发布日期**：2026-06-26 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.28153v1)
 
 **摘要总结**：Jailbreak attacks bypass LLM safety alignment, yet their mechanisms remain poorly understood.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai`
-
----
-
-### [Improving Adversarial Robustness via Activation Amplification and Attenuation](https://arxiv.org/abs/2606.27784v1)
-
-**作者**：Taïga Gonçalves, Yongsong Huang, Tomo Miyazaki, Shinichiro Omachi
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-26 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.27784v1)
-
-**摘要总结**：The existence of adversarial attacks is often attributed to the presence of non-robust features in neural networks.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cv` `cs-ai` `cs-lg`
-
----
-
-### [Low-Agreeableness Persona Conditioning for Safe LLM Fine-Tuning](https://arxiv.org/abs/2606.27709v1)
-
-**作者**：Austin MY Cheung, Yi Yang
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-26 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.27709v1)
-
-**摘要总结**：Recent work has shown that fine-tuning large language models (LLMs) for social warmth degrades factual reliability and increases sycophancy.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cl` `cs-ai`
-
----
-
-### [Yuvion LLM: An Adversarially-Aware Large Language Model for Content And AI Safety](https://arxiv.org/abs/2606.27632v1)
-
-**作者**：Ting Ma, Xiufeng Huang, Benlei Cui, Xiaowen Xu, Shikai Qiu, Ruijie Jian, Hongxing Li, Guanghui Wang, et al.
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-26 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.27632v1)
-
-**摘要总结**：As large language models are increasingly deployed in real-world systems, safety failures can still lead to harmful outputs and dangerous misuse.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cl`
-
----
-
-### [On the Inseparability of Instructions and Data in Shared-Embedding Sequence Models](https://arxiv.org/abs/2606.27567v1)
-
-**作者**：Dewank Pant, Shruti Lohani, Avijit Kumar
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-25 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.27567v1)
-
-**摘要总结**：Prompt injection is the top security risk for LLM-integrated applications, yet every defense proposed so far has been broken.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai` `cs-lg`
-
----
-
-### [Prompt Injection in Automated Résumé Screening with Large Language Models: Single and Multi-Injection Settings](https://arxiv.org/abs/2606.27287v1)
-
-**作者**：Preet Baxi, Jiannan Xu, Jane Yi Jiang, Stefanus Jasin
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-25 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.27287v1)
-
-**摘要总结**：Large language models (LLMs) are increasingly used to screen and rank job applicants, creating incentives for candidates to strategically manipulate algorithmic hiring systems.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai`
-
----
-
-### [Jailbreaking for the Average Jane: Choosing Optimal Jailbreaks via Bandit Algorithms for Automatically Enhanced Queries](https://arxiv.org/abs/2606.26936v1)
-
-**作者**：Prarabdh Shukla, Ritik, Suhas Rao, Arpit Agarwal, Arjun Bhagoji
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-25 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.26936v1)
-
-**摘要总结**：With a profusion of jailbreaks for LLMs now widely known, a growing concern is that non-expert malicious actors ("the average Jane") could elicit actionable responses to malicious requests.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-cl` `cs-lg`
-
----
-
-### [MIRROR: Novelty-Constrained Memory-Guided MCTS Red-Teaming for Agentic RAG](https://arxiv.org/abs/2606.26793v1)
-
-**作者**：Inderjeet Singh, Andrés Murillo, Motoyoshi Sekiya, Yuki Unno, Junichi Suga
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-25 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.26793v1)
-
-**摘要总结**：Multimodal agentic retrieval-augmented generation (RAG) systems expand the attack surface beyond prompt injection to include text poisoning, image injection, direct-query attacks, and orchestrator-level tool manipulation.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai` `cs-lg`
-
----
-
-### [Agents That Know Too Much: A Data-Centric Survey of Privacy in LLM Agents](https://arxiv.org/abs/2606.26627v1)
-
-**作者**：Nada Lahjouji, Ashwin Gerard Colaco
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-25 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.26627v1)
-
-**摘要总结**：Large language model agents increasingly query databases, search document collections, call external APIs, remember past interactions, and act on a user's behalf.
 
 **创新点**
 
