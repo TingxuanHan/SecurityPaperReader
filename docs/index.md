@@ -1,8 +1,103 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-07-15 07:25 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-07-16 07:29 Asia/Shanghai
 
 ## 今日论文
+
+### [Silent Alarm: A J-Space Protocol for Comparing Danger Recognition Across Models and Quantization Levels](https://arxiv.org/abs/2607.12792v1)
+
+**作者**：Roman Prosvirnin, Victor Minchenkov, Alexey Soldatov, Vladimir Bashun
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-14 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.12792v1)
+
+**摘要总结**：Jailbreak-robustness research typically evaluates safety through generated responses using an LLM-as-judge approach.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
+
+---
+
+### [PVDetector: Detecting Prompt Injection Attacks on Purpose-Specific LLM Agents through Policy-Violation Concept Analysis](https://arxiv.org/abs/2607.12624v1)
+
+**作者**：Junhui Wang, Hangtao Zhang, Zhirun Zheng, Li Zeng, Jiejun Xiao, Xi Luo, Lihua Yin, Saiqin Long
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-14 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.12624v1)
+
+**摘要总结**：Large language models (LLMs) are increasingly deployed as purpose-specific agents to handle domain-specific tasks such as customer service and code generation.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
+
+---
+
+### [VanillaBench: The Hidden Accuracy Cost of Adversarial Robustness](https://arxiv.org/abs/2607.12545v1)
+
+**作者**：Niklas Bunzel
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-14 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.12545v1)
+
+**摘要总结**：Adversarial robustness research has produced hundreds of defended models over the past decade, yet the literature almost universally reports robustness results in isolation: standard (clean) accuracy and adversarial accuracy of the robust model are shown, but the gap to the corresponding vanilla model is rarely quantified.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-cv`
+
+---
+
+### [Isolation as a First-Class Principle for LLM-Agent System Safety: Concepts, Taxonomy, Challenges and Future Directions](https://arxiv.org/abs/2607.12406v1)
+
+**作者**：Huihao Jing, Wenbin Hu, Shaojin Chen, Haochen Shi, Sirui Zhang, Hanyu Yang, Changxuan Fan, Zhongwei Xie, et al.
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-14 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.12406v1)
+
+**摘要总结**：The capability of LLM agents to function as the ``brain'' of a system fundamentally expands the scope of analysis beyond a standalone model.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
+
+---
+
+### [Reducing information dependency does not cause training data privacy. Adversarially non-robust features do](https://arxiv.org/abs/2607.12354v1)
+
+**作者**：Rasmus Torp, Shailen K. Smith, Adam Breuer
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-14 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.12354v1)
+
+**摘要总结**：In this paper, we challenge the prevailing view that information dependency (including rote memorization) drives training data exposure to image reconstruction attacks.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg`
+
+---
 
 ### [MJ: Multi-turn LLM Jailbreaking via Decomposed Credit Assignment](https://arxiv.org/abs/2607.11070v1)
 
@@ -1426,98 +1521,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-cl`
-
----
-
-### [SCARCE: Scalable Cascade Analysis for Rare-event Characterisation via Embeddings](https://arxiv.org/abs/2606.29623v1)
-
-**作者**：Yingjie Wang, Yi Dong, Edmund Lau, Jie Meng, Taylor T Johnson, Xiaowei Huang
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.29623v1)
-
-**摘要总结**：Rare events govern the safety profile of modern AI systems, yet their probabilities are extremely difficult to estimate: direct Monte Carlo requires prohibitive sample budgets.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai` `cs-lg`
-
----
-
-### [An Empirical Evaluation of Prompt Injection Vulnerabilities in Large Language Models Across Multilingual and Obfuscated Attack Scenarios](https://arxiv.org/abs/2606.29602v1)
-
-**作者**：Caglar Uysal, Baturay Birinci, Süha Orhun Mutluergil, Orçun Çetin
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.29602v1)
-
-**摘要总结**：Large Language Models (LLMs) have rapidly evolved, transforming industries by automating complex tasks and generating human-like content.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr`
-
----
-
-### [Proteus: Automated Adversarial Robustness Testing for Audio Deepfake Detectors](https://arxiv.org/abs/2606.29544v1)
-
-**作者**：Nicolas M. Müller, Aditya Tirumala Bukkapatnam, Zohaib Ahmed
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.29544v1)
-
-**摘要总结**：We present Proteus, a framework developed at Resemble AI for automated robustness testing of our audio deepfake detection system.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-sd` `cs-ai`
-
----
-
-### [Agent-Native Immune System: Architecture, Taxonomy, and Engineering](https://arxiv.org/abs/2606.28270v1)
-
-**作者**：Bo Shen, Lifeng Chang, Tianyuan Wei, Yunpeng Li, Feng Shi, Yichen Han, Peijie Gao, Shiyi Kuang, et al.
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-26 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.28270v1)
-
-**摘要总结**：The transition from static chat bots to autonomous agents--equipped with persistent memory, tool-use protocols, and multi-agent collaboration--has fundamentally expanded the AI threat landscape.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai` `cs-ma`
-
----
-
-### [Robust Harmful Features Under Jailbreak Attacks: Mechanistic Evidence from Attention Head Specialization in Large Language Models](https://arxiv.org/abs/2606.28153v1)
-
-**作者**：Yanchen Yin, Dongqi Han, Linghui Li
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-26 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.28153v1)
-
-**摘要总结**：Jailbreak attacks bypass LLM safety alignment, yet their mechanisms remain poorly understood.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai`
