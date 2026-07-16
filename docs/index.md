@@ -1,8 +1,122 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-07-16 07:29 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-07-17 07:18 Asia/Shanghai
 
 ## 今日论文
+
+### [Rethinking Penetration Testing for AI-Enabled Systems: From Resource Compromise to Behavioral Objective Violation](https://arxiv.org/abs/2607.14006v1)
+
+**作者**：Mohammad Allahbakhsh, Mohammad Hassan Bahari, Moslem Attar-Raouf
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-15 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.14006v1)
+
+**摘要总结**：Penetration testing traditionally evaluates whether adversaries can exploit weaknesses in software, infrastructure, configurations, or operational controls to achieve security-relevant compromise.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
+
+---
+
+### [Agent Skill Security: Threat Models, Attacks, Defenses, and Evaluation](https://arxiv.org/abs/2607.13987v1)
+
+**作者**：Sanket Badhe, Priyanka Tiwari
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-15 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.13987v1)
+
+**摘要总结**：Reusable skills are becoming a fundamental building block of Large Language Model (LLM) agents, enabling capabilities to be packaged, shared, and reused across diverse applications.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
+
+---
+
+### [AIMO Interpretability Challenge](https://arxiv.org/abs/2607.13899v1)
+
+**作者**：Michal Štefánik, Philipp Mondorf, Andreas Waldis, Qianying Liu, Chuan Yang, Michal Spiegel, Josef Kuchař, Marek Kadlčík, et al.
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-15 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.13899v1)
+
+**摘要总结**：We propose the AIMO Interpretability Challenge, a competition on distinguishing robust from spurious reasoning in frontier mathematical language models based on the models' internal mechanisms.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
+
+---
+
+### [How Agents Ask for Permission: User Permissions for AI Agents, from Interfaces to Enforcement](https://arxiv.org/abs/2607.13718v1)
+
+**作者**：Alexandra E. Michael, Franziska Roesner
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-15 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.13718v1)
+
+**摘要总结**：As AI agents gain prevalance, users are increasingly exposed to the risks such systems entail.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
+
+---
+
+### [Adversarial Prompting Framework for AI Safety Assessment](https://arxiv.org/abs/2607.13453v1)
+
+**作者**：Yash Bhatnagar, Kunal Banerjee, Anirban Chatterjee
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-15 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.13453v1)
+
+**摘要总结**：Artificial Intelligence (AI), especially Generative AI (GenAI), adoption has increased in industries significantly in recent years.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
+
+---
+
+### [Evaluating Frontier AI Agents as Autonomous Clinical Security Auditors](https://arxiv.org/abs/2607.13411v1)
+
+**作者**：Michael O. Eniolade
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-15 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.13411v1)
+
+**摘要总结**：Clinical AI models can expose patients to harm when adversarial vulnerabilities go undetected, yet formal security auditing requires statistical expertise, specialized tools, and significant time.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-lg`
+
+---
 
 ### [Silent Alarm: A J-Space Protocol for Comparing Danger Recognition Across Models and Quantization Levels](https://arxiv.org/abs/2607.12792v1)
 
@@ -96,6 +210,44 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-lg`
+
+---
+
+### [Securing LLMs in the Wild: Privacy and Security Challenges at the Edge](https://arxiv.org/abs/2607.13088v1)
+
+**作者**：Ren-Yi Huang, Mingchen Li, Dumindu Samaraweera, Morris Chang
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-13 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.13088v1)
+
+**摘要总结**：Large Language Models (LLMs) are rapidly moving from research settings into the wild, deployed on enterprise infrastructure, personal devices, and edge platforms.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-lg`
+
+---
+
+### [SingGuard-NSFA: Extensible Guardrails for Agentic AI via Generative Reasoning and Real-Time Classification](https://arxiv.org/abs/2607.13081v1)
+
+**作者**：SingGuard Team
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-13 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.13081v1)
+
+**摘要总结**：We present nsfaguard, a guardrail framework for securing agentic AI systems against operational threats, such as prompt injection, sensitive information extraction, malicious code requests, dangerous tool misuse, and resource exhaustion.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-cl` `cs-lg`
 
 ---
 
@@ -1369,155 +1521,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-ai`
-
----
-
-### [Behavioral Governance for Autonomous AI Agents: The AgentBound Framework](https://arxiv.org/abs/2606.30970v2)
-
-**作者**：Anuj Kaul, Qianlong Lan, Pranay Gupta
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.30970v2)
-
-**摘要总结**：Autonomous AI agents increasingly perform consequential actions on behalf of human principals, including financial transactions, external communications, and enterprise workflows.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai`
-
----
-
-### [Security--Fidelity Tradeoffs: The Hidden Cost of Prompt Injection Defense](https://arxiv.org/abs/2606.30783v1)
-
-**作者**：Mitchell Hermon, Rahul Gupta, Weitong Ruan, Ekraam Sabir, Haohan Wang
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.30783v1)
-
-**摘要总结**：We identify a security-fidelity tradeoff in defending LLMs against indirect prompt injection: defenses resist injected instructions largely by suppressing untrusted text, which corrupts tasks that must preserve it, such as translation and document editing.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai`
-
----
-
-### [Understanding and Evaluating Claw-like Agent Security Through a Computer-Systems Lens](https://arxiv.org/abs/2606.30755v1)
-
-**作者**：Peizhi Niu, Wenjie Qu, Shangding Gu, Tianneng Shi, Yuankai Li, Ahmad Tawaha, Hend Alzahrani, Vincent Siu, et al.
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.30755v1)
-
-**摘要总结**：Claw-like AI agents (e.g., OpenClaw) are always-on processes with persistent access to credentials, files, tools, and external services.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai`
-
----
-
-### [EvalSafetyGap: A Hybrid Survey and Conceptual Framework for LLM Evaluation-Safety Failures](https://arxiv.org/abs/2606.30219v1)
-
-**作者**：Buğra Alperen Uluırmak, Rifat Kurban
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.30219v1)
-
-**摘要总结**：LLM evaluation and AI safety face a shared measurement problem: benchmark scores, reward-model signals, and reported safety metrics can improve while the latent properties they are meant to represent remain difficult to verify.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai` `cs-cl` `cs-lg` `cs-se`
-
----
-
-### [Adversarial robustness of a U-Net-based model observer for CT protocol optimization](https://arxiv.org/abs/2606.30115v1)
-
-**作者**：Filippo Maria Balli, Giorgia Stendardo, Sandra Doria, Michele Ginolfi, Alessio Gnerucci, Diego Sona, Adriana Taddeucci, Cesare Gori, et al.
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.30115v1)
-
-**摘要总结**：Artificial intelligence is increasingly used in medical imaging, yet its robustness to input perturbations remains a critical concern for a wide clinical adoption.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`physics-med-ph`
-
----
-
-### [Explainability-Aware Frustum Attack: Exposing Structural Vulnerabilities in LiDAR-Based 3D Object Detectors](https://arxiv.org/abs/2606.29963v2)
-
-**作者**：Chengzeng You, Binbin Xu, Soteris Demetriou
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.29963v2)
-
-**摘要总结**：The structural vulnerabilities of point cloud-based 3D object detectors remain poorly understood.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cv` `cs-cr`
-
----
-
-### [IHDec: Divergence-Steered Contrastive Decoding for Securing Multi-Turn Instruction Hierarchies](https://arxiv.org/abs/2606.29960v1)
-
-**作者**：Nicole Geumheon Liu, Haeun Jang, Yonghyun Jun, Hwanhee Lee
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.29960v1)
-
-**摘要总结**：Large Language Models (LLMs) often fail to maintain instruction hierarchies (IH) when processing multi-source inputs with varying role-level priorities, paradoxically adhering to lower-priority directives during conflicts.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cl`
-
----
-
-### [Resolution Thresholds in VLM Detection of Harmful ASCII Art Across Construction Modes and Languages](https://arxiv.org/abs/2606.29649v1)
-
-**作者**：Yikai Hua, Peter West
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-06-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2606.29649v1)
-
-**摘要总结**：Large Vision-Language Models (VLMs) are increasingly deployed as content moderation tools, yet they remain vulnerable to jailbreak attacks in which harmful text is visually encoded as ASCII art.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cl`
