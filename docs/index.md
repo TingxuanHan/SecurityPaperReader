@@ -1,8 +1,65 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-07-20 07:26 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-07-21 07:31 Asia/Shanghai
 
 ## 今日论文
+
+### [Harmonizing AI Safety Thresholds](https://arxiv.org/abs/2607.16112v1)
+
+**作者**：Wilber Sean Anterola, Matthew Ball, Luis F. Lafuerza, Markov Grey
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-17 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.16112v1)
+
+**摘要总结**：Frontier AI companies have published capability thresholds that differ substantially, making it difficult for third parties to verify whether a threshold has been crossed or to compare requirements across companies.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
+
+---
+
+### [Refusal is Not Safety! Benchmarking Latent Safety Risks of LLM-Driven Content Humorization](https://arxiv.org/abs/2607.15977v1)
+
+**作者**：Yu Cui, Ruiqing Yue, Tingyu Li, Sicheng Pan, Zhuoyu Sun, Xufeng Zhang, Baohan Huang, Haibin Zhang, et al.
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-17 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.15977v1)
+
+**摘要总结**：Safety defenses for large language models (LLMs) have been extensively studied, with existing approaches focusing on attack detection and refusal mechanisms.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
+
+---
+
+### [From Neural Intent to Cryptographic Authorization: Governing Agentic Workflows](https://arxiv.org/abs/2607.15596v1)
+
+**作者**：Jiasi Weng, Jian Weng, Minrong Chen, Ming Li, Jia-Nan Liu, Zhi Li, Yue Zhang
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-17 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.15596v1)
+
+**摘要总结**：The rapid adoption of artificial intelligence (AI)-driven and agentic workflows is transforming traditional government and enterprise systems into language-based, tool-using and increasingly autonomous infrastructures.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
+
+---
 
 ### [MedFailBench: A Clinician-Built Open-Source Benchmark for Medical AI Safety Boundary Inspection](https://arxiv.org/abs/2607.15166v1)
 
@@ -1464,60 +1521,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-cl` `cs-ai` `cs-se`
-
----
-
-### [HARC: Coupling Harmfulness and Refusal Directions for Robust Safety Alignment](https://arxiv.org/abs/2607.00572v1)
-
-**作者**：Shei Pern Chua, Fangzhao Wu
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-01 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.00572v1)
-
-**摘要总结**：Understanding how aligned LLMs internally represent safety is critical for diagnosing alignment vulnerabilities, as it explains why jailbreaks succeed and informs the design of robust alignment strategies.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai` `cs-cr`
-
----
-
-### [Cross-Domain Generalization Failure in Lightweight Intrusion Detection Models for IIoT Networks](https://arxiv.org/abs/2607.00553v1)
-
-**作者**：MD Azizul Hakim, Md Shihab Uddin, Talha Ibne Anis
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-01 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.00553v1)
-
-**摘要总结**：Lightweight machine learning models are increasingly proposed for intrusion detection in Industrial Internet of Things (IIoT) networks due to their suitability for resource-constrained edge deployment.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai`
-
----
-
-### [Fixed-Set Robustness in Programming by Example: Example Corruption and Semantic Partition Recovery](https://arxiv.org/abs/2607.01280v1)
-
-**作者**：Yuan Si, Jialu Zhang
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-01 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.01280v1)
-
-**摘要总结**：Programming-by-example systems infer programs from a small set of input-output examples.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-lg` `cs-pl`
