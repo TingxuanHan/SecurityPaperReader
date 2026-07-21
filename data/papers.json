@@ -1,5 +1,306 @@
 [
   {
+    "id": "arxiv:2607.18063v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Adaptive Adversaries: A Multi-Turn, Multi-LLM Benchmark for LLM Agent Security",
+    "authors": [
+      "Devina Jain",
+      "David Hartmann",
+      "Chuan Li"
+    ],
+    "abstract": "LLM-based agents process external content, exposing them to prompt injection and multi-turn manipulation. Most safety benchmarks evaluate defenders against fixed attack pools collected before evaluation, single-turn or multi-turn. We present a 21-scenario benchmark for \\emph{adaptive multi-round attacks against memoryless LLM defenders}: an autonomous LLM attacker observes prior defender responses and pivots across rounds, while each defender response is evaluated as a fresh interaction. Holding the 21 scenarios, attackers, defenders, and structured-output scoring fixed, restricting scoring to the first attacker turn yields $0$-$1\\%$ attack success rate (ASR); allowing 15 rounds of adaptive attack yields $5.4$-$14.0\\%$. Pooling three frontier attacker LLMs uncovers $1.4$-$2.2\\times$ as many unique successful attacks as the best single attacker, and the generated attacks have low cosine similarity ($0.02$-$0.14$) to attacks in existing benchmarks. Claude Opus 4.6 and GPT-5.4 are tied in aggregate ($5.4\\%$ each; overlapping $95\\%$ CIs), but their weaknesses differ sharply: on one scenario Opus reaches $60\\%$ ASR ($95\\%$ CI $36$--$80\\%$) while GPT-5.4 and Gemini each stay at $7\\%$ (CI $1$-$30\\%$; the gap is preserved in a higher-$N$ replication). $13$ of $21$ scenarios distinguish at least one defender pair, yet rankings disagree across scenarios (Kendall's $W = 0.19$). We release the benchmark -- 21 evaluation scenarios, 10 public development scenarios, the orchestrator, baseline harnesses, and a multi-attacker CLI -- plus 945 transcripts from the 3$\\times$3 frontier matrix, an attack-replay dataset, and 18{,}422 gpt-oss-20b battles from an open competition's final scoring rounds.",
+    "published": "2026-07-20T15:30:38Z",
+    "updated": "2026-07-20T15:30:38Z",
+    "url": "https://arxiv.org/abs/2607.18063v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.18063v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "analysis": {
+      "summary": "LLM-based agents process external content, exposing them to prompt injection and multi-turn manipulation.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-07-21T23:28:14.337767+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-07-21T23:24:58.076909+00:00"
+  },
+  {
+    "id": "arxiv:2607.18056v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "An Early Warning of Emerging Biosecurity Risks in Frontier LLMs",
+    "authors": [
+      "Zhida He",
+      "Xia Hu",
+      "Baichen Le",
+      "Chunxiao Li",
+      "Jiajia Li",
+      "Lijun Li",
+      "Chaochao Lu",
+      "Jing Shao",
+      "Youbang Sun",
+      "Hua Tang",
+      "Xiang Wang",
+      "Xiao Wang",
+      "Xiaoyu Wen",
+      "Tong Wu",
+      "Jia Xu",
+      "Peng Yu",
+      "Shu Yu",
+      "Jie Zhang",
+      "Qiaosheng Zhang",
+      "Yi Zhang",
+      "Xing-Ming Zhao",
+      "Tianhang Zheng",
+      "Ziyuan Zhou"
+    ],
+    "abstract": "Frontier large language models (LLMs) are increasingly integrated into scientific workflows, yet their growing biological capabilities may outpace current safeguards. To assess the biological risks of frontier models, we develop Intern-BioBreaker, a specialized bio-red-teaming model, together with an integrated computational-to-physical framework that couples model-level stress testing with wet-lab validation. Within this framework, Intern-BioBreaker generates targeted jailbreak prompts to test whether aligned models can be induced to provide operational guidance for safety-sensitive biological tasks or produce sequence-level outputs with potentially harmful properties. Selected sequence outputs are then carried forward for DNA synthesis, host expression, and orthogonal protein verification to assess whether model-generated designs can yield the intended biological products. Our evaluation reveals a concerning gap between text-level safeguards and the risks posed by capable scientific models: (i) Intern-BioBreaker outperforms baseline attack models and reveals widespread bio-risk jailbreak vulnerabilities across both open-weight and proprietary frontier LLMs, with several targets reaching near-saturated or 100% task-level attack success rate (ASR); (ii) in sequence-level case studies, GPT-5.5 can be induced to generate modified viral candidate sequences with pathogenic potential; the corresponding translated proteins may exhibit even stronger receptor-binding affinity and thus enhanced infection potential; and (iii) end-to-end verification shows that selected model-generated biological designs are not merely textual artifacts, but can be physically realized under controlled experimental settings. These findings underscore the need for stronger biological red-teaming, nucleic acid synthesis screening, and safety mechanisms that keep pace with model capabilities.",
+    "published": "2026-07-20T15:26:23Z",
+    "updated": "2026-07-20T15:26:23Z",
+    "url": "https://arxiv.org/abs/2607.18056v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.18056v1",
+    "categories": [
+      "cs.CL",
+      "q-bio.GN"
+    ],
+    "analysis": {
+      "summary": "Frontier large language models (LLMs) are increasingly integrated into scientific workflows, yet their growing biological capabilities may outpace current safeguards.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cl",
+        "q-bio-gn"
+      ],
+      "analyzed_at": "2026-07-21T23:28:14.337890+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-07-21T23:24:58.077107+00:00"
+  },
+  {
+    "id": "arxiv:2607.17890v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Stress Testing Concept Erasure with Large Language Model Agents",
+    "authors": [
+      "Yuyang Xue",
+      "Feng Chen",
+      "Zhihua Liu",
+      "Edward Moroshko",
+      "Jingyu Sun",
+      "Steven McDonagh",
+      "Sotirios A. Tsaftaris"
+    ],
+    "abstract": "Concept erasure aims to remove semantic concepts from a trained generative model and is increasingly important for responsible AI deployment. However, verifying whether a model has robustly removed targeted concepts remains a critical challenge. Existing evaluation methods are typically pre-defined and static, failing to expose vulnerabilities under diverse natural-language probes and challenging conditions. Moreover, manually designed evaluation strategies can be biased and difficult to scale. We posit that concept erasure evaluation is best formulated as an adaptive hypothesis search, operationalised by agents that iteratively propose, critique, and verify tests to systematically expand coverage of failure modes. To this end, we propose Stress Testing Agents for Concept Erasure (STACE), a framework that autonomously stress-tests concept-erased models using multiple Large Language Model (LLM) agents, by iteratively generating and verifying stress-testing hypotheses grounded by external knowledge. We also introduce a suite of metrics for assessing the performance and efficiency of LLM-agent-powered stress-testing frameworks. Our extensive experiments show that STACE outperforms five LLM-based evaluation baselines on four concept categories. Further analysis across two T2I models, six concept erasure approaches, and various erasure strengths show that STACE is robust for different settings. We also show that STACE can be adapted beyond concept erasure evaluation to other problem domains, such as LLM jailbreaking. Our code is available anonymously.",
+    "published": "2026-07-20T12:38:50Z",
+    "updated": "2026-07-20T12:38:50Z",
+    "url": "https://arxiv.org/abs/2607.17890v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.17890v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Concept erasure aims to remove semantic concepts from a trained generative model and is increasingly important for responsible AI deployment.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-07-21T23:28:14.337991+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-07-21T23:24:58.077224+00:00"
+  },
+  {
+    "id": "arxiv:2607.17779v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Dynamic Defense Profiling Enables Cognitive Jailbreak of Text-to-Image Models",
+    "authors": [
+      "Dongdong Yang",
+      "Deyue Zhang",
+      "Zhao Liu",
+      "Zonghao Ying",
+      "Wenzhuo Xu",
+      "Jiankai Jin",
+      "Xiangzheng Zhang",
+      "Quanchen Zou"
+    ],
+    "abstract": "Text-to-Image (T2I) generative models have achieved remarkable progress in synthesizing high-quality visual content, yet they remain vulnerable to adversarial misuse, particularly in generating Not-Safe-For-Work (NSFW) images. Most existing jailbreak attacks primarily rely on heuristic prompt engineering or black-box optimization, treating model feedback as a binary signal (success or failure). This coarse-grained paradigm overlooks the rich information embedded in diverse failure modes, such as textual refusal, visual blocking, and semantic sanitization, resulting in inefficient exploration and severe semantic collapse. In this paper, we propose MIND, a cognitive jailbreak framework that reframes adversarial prompt generation as a belief-state inference problem over latent defense mechanisms. Instead of blindly searching for bypass prompts, MIND actively models the target system's latent defense mechanisms by interpreting multi-modal feedback as high-density signals. Specifically, the framework integrates three core components: (1) a Multi-modal Judge for fine-grained feedback decomposition, (2) a Defense Profiler for iterative belief updating, and (3) a Meta-Memory module for retrieving historically effective attack strategies. These components are unified within a reasoning-driven evolutionary optimization process, enabling adaptive and semantically consistent jailbreak generation. Extensive experiments on the I2P benchmark demonstrate the effectiveness of MIND. Under six representative pre-processing and post-processing defense settings applied to the Stable Diffusion v1.5 model, MIND achieves an Attack Success Rate (ASR) of 95.62%, significantly outperforming existing methods. Additionally, the effectiveness of the proposed framework is validated across four widely used commercial T2I systems, achieving the highest ASR of 91.58% on Wan-2.5.",
+    "published": "2026-07-20T10:09:30Z",
+    "updated": "2026-07-20T10:09:30Z",
+    "url": "https://arxiv.org/abs/2607.17779v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.17779v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Text-to-Image (T2I) generative models have achieved remarkable progress in synthesizing high-quality visual content, yet they remain vulnerable to adversarial misuse, particularly in generating Not-Safe-For-Work (NSFW) images.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-07-21T23:28:14.338092+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-07-21T23:24:58.077343+00:00"
+  },
+  {
+    "id": "arxiv:2607.17535v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Salience Induction against Multi-Hop RAG Agents: Threat and Defense",
+    "authors": [
+      "Xingfu Zhou",
+      "Pengfei Wang",
+      "Yuan Zhou",
+      "Wei Xie",
+      "Xu Zhou"
+    ],
+    "abstract": "Agentic retrieval-augmented generation (RAG) systems increasingly retrieve external evidence and orchestrate tools for knowledge-intensive applications. In Multi-Hop question answering, agents chain facts across documents. Existing defenses focus on content poisoning, which injects false facts, and prompt injection, which embeds directives. We identify a third attack surface: the salience channel, through which fact position, emphasis, framing, and semantic proximity can redirect reasoning even when all retrieved claims are true and no instructions are present. We formalize Salience Induction as truth-preserving edits that redirect Multi-Hop attribute binding while leaving the retrieval trace semantically intact. We define six Salience-Editing operator classes and build an iterative proposer-verifier pipeline under factual and stealth constraints. We also introduce SalientWiki-MH, a decoy-annotated Multi-Hop benchmark. Evaluations across five frontier model families (GPT, Claude, Gemini, DeepSeek, and Qwen) and three agent architectures (ReAct, Reflexion, and tool-calling) show broad generalization. Under a 30% edit budget, Salience Induction achieves an 83.3% attack success rate; the strongest evaluated baseline defense leaves 75.7% post-defense ASR. Untargeted rewriting further reduces attacks only by degrading neutral task success. Our lightweight input-side defense, Salience Normalization, reduces attack success to 15.3% under standard attacks and 23.6% under an adaptive attack. These results show that truthfulness and instruction filtering alone are insufficient: robust agentic RAG also requires defenses against salience-relevance decoupling.",
+    "published": "2026-07-20T04:27:50Z",
+    "updated": "2026-07-20T04:27:50Z",
+    "url": "https://arxiv.org/abs/2607.17535v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.17535v1",
+    "categories": [
+      "cs.CR",
+      "cs.CL"
+    ],
+    "analysis": {
+      "summary": "Agentic retrieval-augmented generation (RAG) systems increasingly retrieve external evidence and orchestrate tools for knowledge-intensive applications.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-cl"
+      ],
+      "analyzed_at": "2026-07-21T23:28:14.338187+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-07-21T23:24:58.077462+00:00"
+  },
+  {
+    "id": "arxiv:2607.17279v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Between Safe Boundaries: Exploiting Temporal Consistency for Jailbreaking Text-To-Video Generation Models",
+    "authors": [
+      "Xingkai Peng",
+      "Jun Jiang",
+      "Jiayang Liu",
+      "Kejiang Chen",
+      "Weiming Zhang"
+    ],
+    "abstract": "Recently, text-to-video (T2V) models have been widely deployed, sparking growing concerns over their robustness against jailbreak attacks. Existing jailbreak methods, mostly adapted from text-to-image attacks, suffer notable drawbacks when applied to T2V systems. They fail to fully leverage temporal consistency, an inherent characteristic of video generation. Besides, these methods demand heavy video query optimization, which is infeasible in practical black-box scenarios. Their adversarial prompt search is also driven by heuristic local signals, lacking principled structured exploration strategies. To tackle these limitations, we propose BSB, a structured, query-efficient jailbreak framework for T2V models. BSB harnesses temporal consistency by encoding harmful intent as the transition between two individually harmless boundary states. Under this paradigm, the attack targets boundary-state pairs whose interpolation tends to produce unsafe intermediate frames during video generation. Directly evaluating all candidate pairs within the video space incurs prohibitive computation cost. Instead, BSB conducts Monte Carlo Tree Search (MCTS) in a cheaper textual proxy space and regularly calibrates search outcomes with sparse video-level evaluations. We conduct comprehensive experiments on mainstream commercial T2V models including Veo 3.1, Sora 2, Seedance and Kling v1. Results show BSB surpasses all existing jailbreak baselines, delivering an average 18.6% relative gain in attack success rate over the strongest competitor across evaluated models. Our findings identify temporal consistency as an understudied yet vital attack surface for T2V models and verify that structured search facilitates effective vulnerability discovery under constrained query budgets.",
+    "published": "2026-07-19T14:52:31Z",
+    "updated": "2026-07-19T14:52:31Z",
+    "url": "https://arxiv.org/abs/2607.17279v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.17279v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.MM"
+    ],
+    "analysis": {
+      "summary": "Recently, text-to-video (T2V) models have been widely deployed, sparking growing concerns over their robustness against jailbreak attacks.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai",
+        "cs-mm"
+      ],
+      "analyzed_at": "2026-07-21T23:28:14.338283+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-07-21T23:24:58.077569+00:00"
+  },
+  {
+    "id": "arxiv:2607.17152v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "How Jailbreak Attacks Inform Safety Alignment: A Defender-Centric, Shapley-Based Evaluation of Jailbreak Contributions",
+    "authors": [
+      "Yukai Zhou",
+      "Feiyang Lu",
+      "Xiaokai Mao",
+      "Jinfei Liu",
+      "Wenjie Wang"
+    ],
+    "abstract": "Jailbreak attacks on large language models are usually evaluated by attacker-centric metrics such as attack success rate (ASR), yet an attack that breaks a model is not necessarily useful for improving its safety. We propose a defender-centric view of jailbreak evaluation, where attacks are evaluated by the downstream safety improvements they enable when used as red-teaming data for safety training. Building on this view, we introduce A-MESS (Minimal Effective Attack-Subset Selection), a setting-agnostic framework for attributing and selecting jailbreak attacks from black-box subset utility observations. A-MESS estimates AttackSHAP, a Shapley-based score that attributes marginal utility to individual attacks and selects compact attack subsets under user-specified budgets via greedy or surrogate-based optimization. Across controlled utility landscapes and real LLM safety settings, we find that ASR rankings are weakly aligned with defender-centric utility, that AttackSHAP can be estimated accurately with limited utility queries, and that directly optimizing subsets yields stronger safety utility than attacker-centric or attribution-only selection. These results suggest evaluating jailbreak attacks as resources for improving safety, not only as tools for breaking models.",
+    "published": "2026-07-19T09:18:35Z",
+    "updated": "2026-07-19T09:18:35Z",
+    "url": "https://arxiv.org/abs/2607.17152v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.17152v1",
+    "categories": [
+      "cs.CR",
+      "cs.CL"
+    ],
+    "analysis": {
+      "summary": "Jailbreak attacks on large language models are usually evaluated by attacker-centric metrics such as attack success rate (ASR), yet an attack that breaks a model is not necessarily useful for improving its safety.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-cl"
+      ],
+      "analyzed_at": "2026-07-21T23:28:14.338397+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-07-21T23:24:58.077662+00:00"
+  },
+  {
     "id": "arxiv:2607.16112v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -117,6 +418,45 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-07-20T23:27:59.715254+00:00"
+  },
+  {
+    "id": "arxiv:2607.16348v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Boundary-Seeking GAN-Augmented TabTransformer for Adversarially Robust Intrusion Detection",
+    "authors": [
+      "Raihan Sultan Pasha Basuki",
+      "Aliyah Kurniasih"
+    ],
+    "abstract": "Machine learning-based intrusion detection systems (IDSs) often suffer from class imbalance and vulnerability to adversarial attacks, leading to degraded detection performance and reduced robustness. This study proposes a TabTransformer framework augmented by the Boundary-Seeking Generative Adversarial Network (BGAN) for flow-based intrusion detection using the CICIDS2017 dataset. BGAN serves a dual purpose by generating synthetic minority-class samples to mitigate data imbalance and producing adversarial samples to evaluate model robustness. Experimental results demonstrate that BGAN augmentation improves TabTransformer's Macro-F1 score from 82.96% to 86.50%, with the largest class-wise improvement observed for Web_Attack (F1 score: 0.29 to 0.61). Robustness evaluation shows that all non-augmented models experienced a 100% Performance Drop Rate (PDR) under adversarial testing, whereas all BGAN-augmented models achieved negative PDR values, indicating improved resilience. Furthermore, the augmented TabTransformer maintained stable and low False Triggered Rate (FTR) values (1.51%-2.92%) across all noise levels, compared with the BGAN-augmented Decision Tree, which reached 49.09% under benign perturbations. These findings demonstrate that BGAN consistently enhances both class balance and adversarial robustness, while the proposed BGAN-TabTransformer framework provides an effective and adaptive intrusion detection solution for adversarial network environments.",
+    "published": "2026-07-17T00:35:52Z",
+    "updated": "2026-07-17T00:35:52Z",
+    "url": "https://arxiv.org/abs/2607.16348v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.16348v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "analysis": {
+      "summary": "Machine learning-based intrusion detection systems (IDSs) often suffer from class imbalance and vulnerability to adversarial attacks, leading to degraded detection performance and reduced robustness.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-07-21T23:28:14.338500+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-07-21T23:24:58.078332+00:00"
   },
   {
     "id": "arxiv:2607.15166v1",
@@ -2847,313 +3187,5 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-07-07T23:26:31.286308+00:00"
-  },
-  {
-    "id": "arxiv:2607.02873v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Determinants and Limits of LLM Security-Tool Orchestration: A Study with HexStrike-AI",
-    "authors": [
-      "Romain Gerard",
-      "Assmaa Zeghaider",
-      "Yan Guo"
-    ],
-    "abstract": "Large language model agents driving security tool suites over the Model Context Protocol are increasingly common. Yet the factors that bound their capability remain poorly characterized: how much depends on the model versus the client that drives it, whether constraining the agent to the orchestrator's own tools helps, and where capability is limited by reasoning rather than by missing tools. Using HexStrikeAI, an open-source orchestrator that exposes 150+ tools, as a testbed, we follow a methodology that evaluates the system, diagnoses its failures, and applies targeted improvements. We run 86 picoCTF challenges across seven categories and three difficulty tiers, under three tool-access regimes and three model/client configurations (774 trials). We then apply corrections to existing tools, agent-behavior changes, and eleven new capability tools, and re-run the previously-unsuccessful trials. The diagnosis isolates the driving client as a first-order factor for a fixed model (a 2.1 * gap between two DeepSeek clients) and a monotonic difficulty gradient, with the largest gains in the mid tier. The overall solve rate rises from 55.4% to 72.0%, and every configuration improves significantly (paired McNemar p < 0.001, non-overlapping 95% confidence intervals). The residual failures are reasoning- or environment-bound rather than missing-tool. A 60-run stability sub-study finds single-run verdicts reproducible (17/20 unanimous). We discuss what the results imply for how such orchestrators should be evaluated, and we are explicit about the limits: the study uses a single benchmark, the fixes were tuned on the same challenges they were evaluated on, and the client effect is demonstrated for one model only, so its generality to other models remains a hypothesis.",
-    "published": "2026-07-03T02:20:04Z",
-    "updated": "2026-07-03T02:20:04Z",
-    "url": "https://arxiv.org/abs/2607.02873v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.02873v1",
-    "categories": [
-      "cs.SE",
-      "cs.AI",
-      "cs.CR"
-    ],
-    "analysis": {
-      "summary": "Large language model agents driving security tool suites over the Model Context Protocol are increasingly common.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-se",
-        "cs-ai",
-        "cs-cr"
-      ],
-      "analyzed_at": "2026-07-11T23:17:48.595816+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-07T23:26:31.286416+00:00"
-  },
-  {
-    "id": "arxiv:2607.02121v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Behind the Refusal: Determining Guardrail Activation via Behavioral Monitoring",
-    "authors": [
-      "William Hackett",
-      "Peter Garraghan"
-    ],
-    "abstract": "As Large Language Models (LLMs) and agentic systems become integrated into real-world applications, ensuring their safety and security is critical. Guardrail systems that detect and block malicious instructions sent to and from an LLM are an essential component of AI security. However, researchers conducting black-box adversarial emulation against production AI systems often struggle to determine whether a guardrail block or an LLM rejection has occurred. This distinction is important because the techniques used to bypass guardrails can differ substantially from those used to bypass LLM safety alignment, and has a material impact on attack technique selection and optimization. We propose the first black-box guardrail reconnaissance methodology, which detects the presence of a guardrail within a target AI system through behavioral monitoring of HTTP, lexical, and timing signals, assuming only black-box access and zero prior knowledge of the guardrail or AI system. Experiments demonstrate that our approach detects guardrail presence with 100% accuracy, with statistically significant behavioral separation between benign and malicious interactions (q < 0.001). Our approach further identifies the content categories a guardrail is designed to block, and distinguishes guardrail blocks from LLM rejection on unseen prompts with an average F1 score of 98%.",
-    "published": "2026-07-02T12:59:28Z",
-    "updated": "2026-07-02T12:59:28Z",
-    "url": "https://arxiv.org/abs/2607.02121v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.02121v1",
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "As Large Language Models (LLMs) and agentic systems become integrated into real-world applications, ensuring their safety and security is critical.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-07-03T23:35:28.615985+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-03T23:32:12.580049+00:00"
-  },
-  {
-    "id": "arxiv:2607.02079v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "HaloGuard 1.0: An Open Weights Constitutional Classifier for Multilingual AI Safety",
-    "authors": [
-      "Navaneeth Sangameswaran",
-      "Preetham S",
-      "Ashmiya Lenin"
-    ],
-    "abstract": "We present HaloGuard 1.0, an open-weights implementation of the constitutional-classifier paradigm for input safety. It achieves state-of-the-art performance on English and multilingual prompt-safety benchmarks at roughly one-tenth the model size of current leading open guard models. The safety constitution is the organising structure of the corpus: a natural-language constitution of 46 policies and 2,940 subcategories drives synthetic data generation, with exhaustive one-to-one paired counterfactuals that hold topic and vocabulary fixed while flipping intent, a two-tier harmless design that separately targets boundary and baseline false positives (FPs), and balanced multilingual materialisation across 46 languages that treats language as a surface form appearing on both sides of the boundary rather than as an adversarial signal. Across seven prompt-safety benchmarks, HaloGuard 1.0-0.8B attains the best average F1 (90.9) of any open guard we evaluate, outperforming baselines up to 27B parameters (over 30 times larger) while holding false-positive rate (FPR) to 4.3 and false-negative rate (FNR) to 9.5. The HaloGuard 1.0-4B variant reaches average F1 of 92.1 and FPR of 3.5, spending its extra capacity on precision rather than recall. A structured adjudication of the remaining failures indicates that most apparent missed-harm cases are benchmark mislabels rather than genuine model misses. An always-on adversarial red-teaming protocol continuously hardens the guard against both content-level and agentic attacks. We release the models as open weights.",
-    "published": "2026-07-02T12:21:16Z",
-    "updated": "2026-07-02T12:21:16Z",
-    "url": "https://arxiv.org/abs/2607.02079v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.02079v1",
-    "categories": [
-      "cs.CL",
-      "cs.CR",
-      "cs.LG"
-    ],
-    "analysis": {
-      "summary": "We present HaloGuard 1.0, an open-weights implementation of the constitutional-classifier paradigm for input safety.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cl",
-        "cs-cr",
-        "cs-lg"
-      ],
-      "analyzed_at": "2026-07-03T23:35:28.616107+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-03T23:32:12.580157+00:00"
-  },
-  {
-    "id": "arxiv:2607.02074v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Comprehensive Robustness Analysis of LiDAR-based 3D Object Detection in Autonomous Driving",
-    "authors": [
-      "Adwait Chandorkar",
-      "Kai Krink",
-      "Yerdana Maulenbay",
-      "Hasan Tercan",
-      "Tobias Meisen"
-    ],
-    "abstract": "Recent advancements in LiDAR-only 3D object detection have demonstrated improved detection accuracy over benchmark datasets. However, the adversarial robustness of these models remains untested. Very few adversarial robustness studies exist for LiDAR-only 3D object detection and unfortunately, even they are limited to legacy models. Moreover, there is a systemic gap in the existing evaluation frameworks that rely simply on mAP ignoring other structural and predictive factors. To fill this gap, we propose a holistic framework that evaluates adversarial robustness using two structural factors (point cloud density and point cloud localization) and three predictive factors (misclassification, localization error, distance from ego). Using this framework, we perform an empirical study and critical analysis on recent and legacy state-of-the-art models using adversarial attacks specifically designed for LiDAR-based models. Our key finding is that high-capacity, voxel-based detectors are more susceptible to structured coordinate perturbations than pillar-based detectors. Additionally, non-anchor-based detectors demonstrate poor adversarial robustness, which necessitates rethinking model training techniques. Overall, our results demonstrate that recent models are as vulnerable to adversarial attacks as their predecessors. Therefore, we argue that there is a need to improve the evaluation benchmarks for 3D object detection that not only reward architectural modifications for improving detection accuracy, but also evaluate whether the design choices improve adversarial robustness.",
-    "published": "2026-07-02T12:13:49Z",
-    "updated": "2026-07-02T12:13:49Z",
-    "url": "https://arxiv.org/abs/2607.02074v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.02074v1",
-    "categories": [
-      "cs.CV"
-    ],
-    "analysis": {
-      "summary": "Recent advancements in LiDAR-only 3D object detection have demonstrated improved detection accuracy over benchmark datasets.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cv"
-      ],
-      "analyzed_at": "2026-07-03T23:35:28.616208+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-03T23:32:12.580261+00:00"
-  },
-  {
-    "id": "arxiv:2607.01715v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Distributionally Robust Listwise Preference Optimization",
-    "authors": [
-      "Xudong Wu",
-      "Jian Qian",
-      "Pangpang Liu",
-      "Vaneet Aggarwal",
-      "Jiayu Chen"
-    ],
-    "abstract": "Existing robust preference optimization for language-model alignment mainly studies pairwise supervision and places robustness at the dataset, prompt, or preference-pair level. We instead study listwise preference optimization under ranking-label uncertainty: given a prompt and a candidate list, the observed ranking over that list may be ambiguous due to annotator inconsistency, near-ties, lossy rankwise feedback, or reward-model noise. We propose a pointwise total-variation robust Plackett--Luce objective that directly robustifies the ranking label conditional on the candidate list. The robust loss admits an exact decomposition into the nominal PL loss plus a worst-case PL correction, and the worst-case ranking is obtained by sorting current implicit scores in ascending order, reducing the inner maximization from $K!$ enumeration to $O(K\\log K)$. This tractable structure yields strong offline and online optimization guarantees. In the offline fixed-list setting, the robust objective is convex and projected stochastic subgradient reaches global $ε$-suboptimality with $O(ε^{-2})$ sample complexity. In the online policy-induced setting, where candidate lists are generated by the current policy, we establish weak convexity and $\\widetilde O(ε^{-2})$ Moreau-envelope stationarity. Experiments in offline LLM alignment show that the proposed robust correction largely preserves performance under clean labels and improves robustness under noise. In online alignment, it makes reward-model-ranked candidate expansion more reliable and improves both reward-model and external GPT-4 judge metrics.",
-    "published": "2026-07-02T05:12:03Z",
-    "updated": "2026-07-02T05:12:03Z",
-    "url": "https://arxiv.org/abs/2607.01715v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.01715v1",
-    "categories": [
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Existing robust preference optimization for language-model alignment mainly studies pairwise supervision and places robustness at the dataset, prompt, or preference-pair level.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-07-03T23:35:28.616307+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-03T23:32:12.580377+00:00"
-  },
-  {
-    "id": "arxiv:2607.01690v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Epistemic Goggles: A Pretrained Module that Induces an Epistemic Frame via Gradient Editing",
-    "authors": [
-      "Joshua Penman"
-    ],
-    "abstract": "Finetuning a language model on documents that are explicitly annotated as fictional results in a model that still actually believes the documents' core claims, an effect known as Negation Neglect. In our evaluations, models trained on documents prefixed and suffixed with such annotations correctly identify the relevant claims as fictional only about 9% of the time. To address this, we introduce Goggles, a learned module that intervenes on the finetuning gradient rather than the data. During supervised finetuning, a Goggles module edits the gradients an LLM LoRA receives, imparting a chosen epistemic frame (the stance the model takes toward the nature of what it reads) to whatever the documents teach. A Goggles instance is trained once for a given base model, frame, and LoRA configuration, then applied frozen to documents it was never trained on. Trained through Goggles on those same documents, now carrying no fictional annotation, the model flags the content as fictional roughly 91% of the time, while preserving capability (GPQA and TruthfulQA match or exceed baseline). The same architecture supports other frames: a Goggles instance can be trained to treat documents as \"part of an AI safety evaluation by Redwood Research\" rather than simply as fiction. The imparted frame persists under continued finetuning that pushes back toward the claim, where prior interventions revert. Goggles suggests a path toward training language models on known-misaligned data without absorbing the behaviors that data demonstrates.",
-    "published": "2026-07-02T04:31:41Z",
-    "updated": "2026-07-02T04:31:41Z",
-    "url": "https://arxiv.org/abs/2607.01690v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.01690v1",
-    "categories": [
-      "cs.AI",
-      "cs.CL",
-      "cs.LG"
-    ],
-    "analysis": {
-      "summary": "Finetuning a language model on documents that are explicitly annotated as fictional results in a model that still actually believes the documents' core claims, an effect known as Negation Neglect.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai",
-        "cs-cl",
-        "cs-lg"
-      ],
-      "analyzed_at": "2026-07-03T23:35:28.616397+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-03T23:32:12.580495+00:00"
-  },
-  {
-    "id": "arxiv:2607.01679v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Beyond Gradient-Based Attacks: Adversarial Robustness and Explainability Stability in Cybersecurity Classifiers",
-    "authors": [
-      "Mona Rajhans",
-      "Vishal Khawarey"
-    ],
-    "abstract": "Adversarial attacks on cybersecurity classifiers pose a dual threat: degrading predictions and destabilising the SHAP-based explanations that security analysts rely on to understand and triage alerts. We extend our prior MLP conference study to Random Forest and XGBoost across four tabular security datasets (phishing URLs, UNSW-NB15, NF-ToN-IoT, HIKARI-2021), evaluating five attacks including three black-box methods applicable to non-differentiable tree models. We introduce the Explainability Stability Index (ESI), a scalar metric computed from TreeSHAP attribution drift under adversarial perturbation, reported on the same [0,1] scale as the Robustness Index (RI). A key finding is that gradient-based black-box attacks (ZOO) produce degenerate results against XGBoost (apparent RI ~0.98) due to piecewise-constant prediction surfaces, while score-based Square Attack reveals genuine vulnerability (RI ~0.36). These degenerate perturbations still drive substantial attribution drift: XGBoost ESI ~0.06-0.16 despite near-perfect ZOO robustness, versus 0.14-0.29 for RF, showing that prediction robustness and explanation stability are distinct axes requiring joint measurement. A two-axis framework (gradient dependence, query efficiency) explains the observed attack ranking and yields practical guidance for tree ensemble evaluation. A step-size ablation explains a counterintuitive PGD anomaly on z-score normalised tabular data.",
-    "published": "2026-07-02T04:10:58Z",
-    "updated": "2026-07-02T04:10:58Z",
-    "url": "https://arxiv.org/abs/2607.01679v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.01679v1",
-    "categories": [
-      "cs.CR",
-      "cs.AI",
-      "cs.LG"
-    ],
-    "analysis": {
-      "summary": "Adversarial attacks on cybersecurity classifiers pose a dual threat: degrading predictions and destabilising the SHAP-based explanations that security analysts rely on to understand and triage alerts.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-ai",
-        "cs-lg"
-      ],
-      "analyzed_at": "2026-07-03T23:35:28.616500+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-03T23:32:12.580577+00:00"
-  },
-  {
-    "id": "arxiv:2607.01153v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Adversarial Pragmatics for AI Safety Evaluation: A Benchmark for Instruction Conflict, Embedded Commands, and Policy Ambiguity",
-    "authors": [
-      "Brett Reynolds"
-    ],
-    "abstract": "Safety evaluations for language models increasingly depend on judgments about ambiguous natural-language behaviour: whether a model has followed an instruction, refused appropriately, complied with a policy, resisted an embedded command, or misreported progress in an agentic task. Existing benchmarks often compress these distinctions into pass/fail labels, obscuring whether failures arise from capability limits, policy ambiguity, instruction conflict, scaffold failure, or unstable evaluator judgments. This paper introduces adversarial pragmatics as a benchmark and annotation protocol for evaluating model behaviour under instruction conflict, embedded commands, quotation, scope ambiguity, deixis, indirect speech acts, and multi-turn agent transcripts. The contribution is empirical and methodological: a linguistically controlled taxonomy, an 18-item seed benchmark with validator-enforced metadata, a 54-row local seed pilot, an expert-evaluation protocol distinguishing task success, policy compliance, safety risk, refusal outcome, and evaluator confidence, and metrics for judge validity, diagnostic ambiguity, and taxonomy drift. The framework turns linguistic judgment methodology into a practical tool for validating safety evals, LLM judges, gold-set construction, prompt-injection tests, and safety documentation.",
-    "published": "2026-07-01T16:33:14Z",
-    "updated": "2026-07-01T16:33:14Z",
-    "url": "https://arxiv.org/abs/2607.01153v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.01153v1",
-    "categories": [
-      "cs.CL",
-      "cs.AI",
-      "cs.SE"
-    ],
-    "analysis": {
-      "summary": "Safety evaluations for language models increasingly depend on judgments about ambiguous natural-language behaviour: whether a model has followed an instruction, refused appropriately, complied with a policy, resisted an embedded command, or misreported progress in an agentic task.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cl",
-        "cs-ai",
-        "cs-se"
-      ],
-      "analyzed_at": "2026-07-02T23:37:01.126783+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-02T23:33:45.206805+00:00"
   }
 ]
