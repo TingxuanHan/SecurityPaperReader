@@ -1,5 +1,207 @@
 [
   {
+    "id": "arxiv:2607.20379v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Train the Model, Not the Reader: Decodability Supervision for Verifiable Activation Explanations",
+    "authors": [
+      "Hiskias Dingeto"
+    ],
+    "abstract": "Natural-language autoencoders score explanations of hidden activations by reconstruction: an explanation is deemed faithful if the activation can be regenerated from it. The test is structurally insensitive to individual false claims: if flipping a claim does not change the reconstruction, the claim is never penalized. We show the test is passed in two ways, neither faithful. On a released Qwen-2.5-7B verbalizer, explanations reconstruct well above chance while ~2% of specific claims are reconstruction-dependent, so the score tracks gist, not specific facts. Under exact synthetic ground truth, the standard recipe develops co-adapted private codes (false wording the reconstruction depends on) in 5/5 runs, and fixes that leave the target model unchanged do not help. We contribute two audit protocols, the grounded-vs-true cross and the evaluator swap, and RECAP (Readable Encodings via Co-trained Auxiliary Predictors): linear heads trained alongside the target model to keep designated content decodable. On RECAP-trained sandbox models, fresh verbalizers state the designated content truly and the codes vanish, at a +0.001-nat cost. This replicates on a pretrained Pythia-160M: the content becomes reliably probe-decodable, though a fresh verbalizer conveys it only in part (truth 0.44-0.46 vs a near-zero control). For interpretability, high reconstruction does not certify individual claims. For AI safety, RECAP makes designated internal content independently checkable against probes rather than asserted by prose a model can game: an independent probe scores the verbalizer's true claims above its false ones (AUC 0.96, vs 0.82 without RECAP). Against an adversary that edits an explanation to maximize the reconstruction score while lying (suppressing ~87% of its lie penalty), the RECAP probe still flags the lies (AUC 0.95) while the control probe collapses to chance (0.51).",
+    "published": "2026-07-22T17:10:23Z",
+    "updated": "2026-07-22T17:10:23Z",
+    "url": "https://arxiv.org/abs/2607.20379v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.20379v1",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "analysis": {
+      "summary": "Natural-language autoencoders score explanations of hidden activations by reconstruction: an explanation is deemed faithful if the activation can be regenerated from it.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai",
+        "cs-cl"
+      ],
+      "analyzed_at": "2026-07-23T23:28:36.792274+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-07-23T23:25:20.511419+00:00"
+  },
+  {
+    "id": "arxiv:2607.19855v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Adversarial Frontiers: Minimum-Norm Attack Ensembles for Robustness Evaluation",
+    "authors": [
+      "Luca Scionis",
+      "Luca Melis",
+      "Maura Pintor",
+      "Fabio Brau",
+      "Ambra Demontis",
+      "Giorgio Fumera",
+      "Fabio Roli",
+      "Battista Biggio"
+    ],
+    "abstract": "Adversarial robustness is commonly evaluated with predefined attack ensembles, such as AutoAttack, at a single perturbation budget $\\varepsilon$ and on a selective choice of perturbation norms. We argue this formulation is fundamentally limited. First, robustness--perturbation curves may intersect or decay at different rates across models, making single-$\\varepsilon$ rankings unstable. Second, current ensembles provide no evidence of optimality, leaving an unknown gap to worst-case performance. Third, fixed attack configurations provide no systematic control over the trade-off between attack strength and evaluation cost. To address these limitations, we introduce a unified evaluation framework based on a comprehensive pool of minimum-norm attacks and robustness--perturbation curves across $\\ell_0$, $\\ell_1$, $\\ell_2$ and $\\ell_\\infty$ norms. We define the attack frontier as the worst-case robustness estimate the attack pool produces against a model. We then formalize evaluation as a frontier-approximation problem, constructing minimum-norm attack ensembles, optimized subsets of the comprehensive pool, that approach the frontier under a controllable query budget, with larger budgets monotonically tightening the estimate. Furthermore, we define the defense frontier as the maximum robustness across the model set at each perturbation size. We finally propose the Defense Optimality Index to rank defenses by their gap to the defense frontier, providing a ranking without selecting a reference $\\varepsilon$. On CIFAR-10 and ImageNet, our ensembles match or exceed AutoAttack on most defenses at every budget tier, at fixed and controllable query cost, offering practitioners a query-controlled, curve-based alternative to fixed-$\\varepsilon$ evaluation.",
+    "published": "2026-07-22T07:43:38Z",
+    "updated": "2026-07-22T07:43:38Z",
+    "url": "https://arxiv.org/abs/2607.19855v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.19855v1",
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "analysis": {
+      "summary": "Adversarial robustness is commonly evaluated with predefined attack ensembles, such as AutoAttack, at a single perturbation budget $\\varepsilon$ and on a selective choice of perturbation norms.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-lg",
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-07-23T23:28:36.792391+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-07-23T23:25:20.511671+00:00"
+  },
+  {
+    "id": "arxiv:2607.19837v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Know Your Agent: Reconnaissance-Driven Pentesting of AI Agents",
+    "authors": [
+      "Or Zion Eliav",
+      "Eyal Lenga",
+      "Shir Bernstien",
+      "Yisroel Mirsky"
+    ],
+    "abstract": "Traditional pentesting uses reconnaissance at each step to uncover unseen weaknesses, build stronger attacks, and advance the objective; we argue that AI agents require the same treatment. We formalize agent reconnaissance by modeling the process and identifying the knowledge assets it seeks to extract: what they are, how they are used, and which agent weaknesses they exploit to give adversaries leverage in indirect prompt injection attacks. We instantiate these insights in Know Your Agent (KYA), a framework that automates black-box, reconnaissance-driven pentesting by probing agents, building target profiles, and using those profiles to craft stronger attacks. We evaluate KYA on agent-security benchmarks and a real-world coding agent, and release KYA, its benchmarks, and baseline implementations for reproducibility.",
+    "published": "2026-07-22T07:20:27Z",
+    "updated": "2026-07-22T07:20:27Z",
+    "url": "https://arxiv.org/abs/2607.19837v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.19837v1",
+    "categories": [
+      "cs.AI",
+      "cs.CR",
+      "cs.LG"
+    ],
+    "analysis": {
+      "summary": "Traditional pentesting uses reconnaissance at each step to uncover unseen weaknesses, build stronger attacks, and advance the objective; we argue that AI agents require the same treatment.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai",
+        "cs-cr",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-07-23T23:28:36.792481+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-07-23T23:25:20.511751+00:00"
+  },
+  {
+    "id": "arxiv:2607.19829v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "DARWIN: Evolving Jailbreak Adversary and Guardrail for LLM Safety Evaluation and Protection",
+    "authors": [
+      "Weiwei Qi",
+      "Zefeng Wu",
+      "Zhilin Guo",
+      "Tianhang Zheng",
+      "Chaochao Lu",
+      "Liang He",
+      "Zhan Qin",
+      "Kui Ren"
+    ],
+    "abstract": "Most existing LLM safety evaluation and defense methods follow a static formulation: jailbreak vulnerabilities are evaluated with fixed attack methods, and guardrails are trained on fixed malicious prompt datasets. However, real-world adversaries continuously evolve their capabilities and expand the attack space. To address this challenge, we propose DARWIN, an evolutionary attack-defense framework that formulates jailbreaking as an open-ended evolution process and continuously updates guardrails through an evolving attack-defense loop. DARWIN-Attack is an evolutionary adversary that expands its capabilities through strategy discovery, mutation, selection, and feedback-driven composition. It collects strategies from broad external sources, generates new variants through self-reflection and genetic evolution, and retains effective strategies based on their performance against aligned LLMs. During attack execution, DARWIN-Attack adaptively selects and combines evolved strategies according to feedback from target LLMs and guardrails. Across frontier models and guardrails, it achieves state-of-the-art attack success rates, including nearly 100% on DeepSeek-V4-Pro and YuFeng-XGuard and over 90% on GPT-5.5. On the defense side, we introduce DARWIN-Guard, an online adversarial training paradigm that iteratively learns from emerging adversarial samples generated by DARWIN-Attack. To improve robustness without sacrificing utility, DARWIN-Guard jointly trains on malicious and benign disguised queries, encouraging the model to identify underlying intent rather than superficial attack patterns. DARWIN-Guard achieves an average unsafe recall of 91.6% across 12 safety benchmarks, outperforming strong guardrails such as YuFeng-XGuard and Nemotron Guard, while maintaining a nearly 100% pass rate on standard benign datasets.",
+    "published": "2026-07-22T07:08:59Z",
+    "updated": "2026-07-22T07:08:59Z",
+    "url": "https://arxiv.org/abs/2607.19829v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.19829v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "analysis": {
+      "summary": "Most existing LLM safety evaluation and defense methods follow a static formulation: jailbreak vulnerabilities are evaluated with fixed attack methods, and guardrails are trained on fixed malicious prompt datasets.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-07-23T23:28:36.792576+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-07-23T23:25:20.511868+00:00"
+  },
+  {
+    "id": "arxiv:2607.19595v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Twin Agent: Context Residual Compression for Privilege Separated Agents",
+    "authors": [
+      "Zhanhao Hu",
+      "Dennis Jacob",
+      "Xiao Huang",
+      "Zhaorun Chen",
+      "Bo Li",
+      "David Wagner"
+    ],
+    "abstract": "Large language model (LLM) agents are vulnerable to security risks, such as prompt injection attacks from untrusted context that manipulate downstream reasoning and tool use. Existing secure-by-design approaches mitigate this risk by separating untrusted observations from privileged execution and careful control of information flow, but often degrade utility and require extensive task-specific engineering. We thus propose Twin Agent, a general privilege separation design pattern inspired by residual coding in the agent context. Twin Agent consists of two nearly symmetric agents: an Explore Agent that inspects untrusted information and a Safe Agent that executes privileged actions. The Explore Agent is conditioned on the Safe Agent's current context and communicates only compact hints to the Safe Agent about the next action to take. This design reduces the information needed to preserve task utility and thus achieves a better security--utility tradeoff, which we empirically verify by measuring how utility and attack success change as the length of hints varies. We evaluate Twin Agent on long-horizon software engineering tasks with SWE-bench Lite and on heterogeneous multi-tool interaction tasks with AgentDojo and DecodingTrust-Agent. Across both benchmarks, Twin Agent preserves high task utility while preventing prompt injection attacks, outperforming both undefended agents and privilege separation baselines.",
+    "published": "2026-07-21T21:47:52Z",
+    "updated": "2026-07-21T21:47:52Z",
+    "url": "https://arxiv.org/abs/2607.19595v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.19595v1",
+    "categories": [
+      "cs.CR",
+      "cs.CL"
+    ],
+    "analysis": {
+      "summary": "Large language model (LLM) agents are vulnerable to security risks, such as prompt injection attacks from untrusted context that manipulate downstream reasoning and tool use.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-cl"
+      ],
+      "analyzed_at": "2026-07-23T23:28:36.792662+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-07-23T23:25:20.511969+00:00"
+  },
+  {
     "id": "arxiv:2607.19318v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -236,6 +438,44 @@
     "fetched_at": "2026-07-22T23:27:44.540167+00:00"
   },
   {
+    "id": "arxiv:2607.19432v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "ChainWatch: A Kill Chain-Aligned Sequential Detection Framework for Multi-Step Attacks in MCP-Based AI Agent Systems",
+    "authors": [
+      "Om Narayan",
+      "Rashmi Jyoti",
+      "Ramkinker Singh"
+    ],
+    "abstract": "The Model Context Protocol (MCP) is an open-source standard that allows AI agents to connect to external tools, databases, and services. While this connectivity enables powerful agent capabilities, it also introduces multi-step attacks that existing per-call defenses cannot reliably detect. Attackers can compose individually benign tool invocations into malicious sequences that evade isolated inspection. This paper presents ChainWatch, a sequential detection framework for identifying multi-step attacks in MCP-based AI agent systems. ChainWatch models attack progression using a six-stage kill chain and applies a Hidden Markov Model (HMM) to classify tool-call sequences. Detection rules are triggered when a session exhibits suspicious progression across multiple stages. The framework is supported by a structured threat model covering direct sequential attacks, indirect prompt injection chains, and hybrid multi-stage attacks. A 20-dimensional feature extraction schema captures behavioral signals from tool interactions. We demonstrate the approach using five representative attack scenarios from the security literature, showing how ChainWatch detects attack chains that evade traditional per-call security mechanisms.",
+    "published": "2026-07-20T22:36:26Z",
+    "updated": "2026-07-20T22:36:26Z",
+    "url": "https://arxiv.org/abs/2607.19432v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.19432v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "The Model Context Protocol (MCP) is an open-source standard that allows AI agents to connect to external tools, databases, and services.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-07-23T23:28:36.792751+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-07-23T23:25:20.512704+00:00"
+  },
+  {
     "id": "arxiv:2607.18496v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -329,8 +569,62 @@
     "categories": [
       "cs.CY"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "The rapid improvement of AI systems has intensified debate about humanity's economic, political, social, and existential future.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cy"
+      ],
+      "analyzed_at": "2026-07-23T23:28:36.792832+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-07-22T23:27:44.540435+00:00"
+  },
+  {
+    "id": "arxiv:2607.19430v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "ChannelGuard: Safe Models Do Not Compose into Safe Multi-Agent Systems",
+    "authors": [
+      "Elias Hossain",
+      "Md Mehedi Hasan Nipu",
+      "Fatema Tuj Johora Faria",
+      "Tasfia Nuzhat Ornee",
+      "Maleeha Sheikh"
+    ],
+    "abstract": "Multi-agent LLM applications chain a planner, worker agents, a verifier, and a synthesizer, and every hop between agents is an unmonitored channel through which an adversary can smuggle instructions. Existing defenses guard only the input boundary (IBProtector, Llama Guard, perplexity filters, SmoothLLM) or run outside the application as opaque, stochastic provider-side filters. We show this gap carries a consequence rarely measured: on a 2,100-trace evaluation across eight attack families, five defenses, and three model backends, an undefended pipeline that appears fully safe under standard reporting (attack success 0.000 on tool- and memory-poisoning) owes that safety almost entirely to the cloud provider's server-side filter (54 of 60 blocks on Azure GPT-5), and silently shifts to the agent model's own alignment on a backend without such a filter. Outcome-only reporting hides this dependence. We present ChannelGuard, a training-free defense-in-depth framework placing information-bottleneck gates on every inter-agent channel; each scores channel text against an adversarial phrase bank by embedding similarity and deterministically passes, compresses, or blocks it, adding no LLM call, while an attribution method records which layer stopped each attack. ChannelGuard's tool-output gate blocks Tool Poisoning 30 of 30 at the application layer, identically across Azure GPT-5, Anthropic Sonnet 4.5, and Anthropic Haiku 4.5, whereas the undefended pipeline shifts entirely across backends; it also lowers Prompt Injection attack success by half (0.333 to 0.167) and preserves GSM8K accuracy exactly (0.867). White-box adaptive paraphrase evades every embedding gate, where a perturb-and-vote baseline does better. An extended appendix adds baselines, ablations, sweeps, a benign-preservation analysis, and a judge audit (kappa = 0.900), at a total cost of 47.36 USD.",
+    "published": "2026-07-20T19:11:17Z",
+    "updated": "2026-07-20T19:11:17Z",
+    "url": "https://arxiv.org/abs/2607.19430v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.19430v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Multi-agent LLM applications chain a planner, worker agents, a verifier, and a synthesizer, and every hop between agents is an unmonitored channel through which an adversary can smuggle instructions.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-07-23T23:28:36.792930+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-07-23T23:25:20.513044+00:00"
   },
   {
     "id": "arxiv:2607.18429v1",
@@ -2861,282 +3155,5 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-07-08T23:33:37.945826+00:00"
-  },
-  {
-    "id": "arxiv:2607.05277v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Untrusted Content Masking for Web Agents with Security Guarantees",
-    "authors": [
-      "Kristina Nikolić",
-      "Egor Zverev",
-      "Javier Rando",
-      "Matthew Jagielski",
-      "Edoardo Debenedetti",
-      "Florian Tramèr"
-    ],
-    "abstract": "Defenses that provide security guarantees against prompt injection attacks rely on strict isolation between trusted instructions and untrusted data. In text-based environments such as tool-use APIs, this separation arises naturally: agents can reason from interface definitions without ever processing untrusted content. Extending these guarantees to web agents faces a fundamental challenge: to perceive and interact with their environment, web agents must first observe the rendered page, which intermingles trusted content with untrusted content. This structural entanglement removes the trust boundary on which security guarantees depend, undermining provable defenses for web agents. In this paper, we present Untrusted Content Masking (UCM), a simple and effective approach that restores this boundary in web environments. We leverage a key structural insight: a webpage's Document Object Model (DOM) encodes sufficient information to distinguish trusted from untrusted regions without reading their content. Our framework exploits this by redacting untrusted regions before they reach the agent and routing interaction through a sandboxed interface with strict privilege separation, thereby enabling agents to observe and interact with their environment while remaining isolated from adversarial content. The code is publicly available.",
-    "published": "2026-07-06T16:22:37Z",
-    "updated": "2026-07-06T16:22:37Z",
-    "url": "https://arxiv.org/abs/2607.05277v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.05277v1",
-    "categories": [
-      "cs.CR",
-      "cs.LG"
-    ],
-    "analysis": {
-      "summary": "Defenses that provide security guarantees against prompt injection attacks rely on strict isolation between trusted instructions and untrusted data.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-lg"
-      ],
-      "analyzed_at": "2026-07-07T23:29:49.913099+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-07T23:26:31.284625+00:00"
-  },
-  {
-    "id": "arxiv:2607.05120v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Agent Data Injection Attacks are Realistic Threats to AI Agents",
-    "authors": [
-      "Woohyuk Choi",
-      "Juhee Kim",
-      "Taehyun Kang",
-      "Jihyeon Jeong",
-      "Luyi Xing",
-      "Byoungyoung Lee"
-    ],
-    "abstract": "AI agents act on behalf of user prompts, consuming external data and taking actions based on the agent context. Prior research on AI agent security has primarily focused on indirect prompt injection (IPI). Its most well-studied category is instruction injection, where attacker-controlled untrusted data is interpreted as an instruction. In response, many mitigations have been proposed to prevent instruction injection attacks. In this paper, we introduce a new category of IPI, agent data injection attacks (ADI). ADI injects malicious data disguised as trusted data, such as security-critical metadata (e.g., resource identifiers or data origins) or agent context data (e.g., tool call and response formats). As a result, agents unknowingly execute unintended actions based on attacker-controlled data. ADI has similar attack impacts as instruction injection attacks, because it causes agents to misbehave and execute unintended actions. Despite the similar impact, ADI remains underexplored and easily bypasses existing IPI defenses. We found several critical vulnerabilities in real-world agents that allow an attacker to launch various attacks: arbitrary click attacks on web agents (Claude in Chrome, Antigravity, and Nanobrowser), and remote code execution and supply-chain attacks on coding agents (Claude Code, Codex, and Gemini CLI). We evaluate ADI vulnerabilities across off-the-shelf models and AI agents, and find that ADI is effective in both standalone LLMs and AI agent settings. ADI exposes a critical gap in agent security, signifying that current AI agents do not employ a fundamental security principle: current agents do not isolate trusted data from untrusted data.",
-    "published": "2026-07-06T14:07:49Z",
-    "updated": "2026-07-06T14:07:49Z",
-    "url": "https://arxiv.org/abs/2607.05120v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.05120v1",
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "AI agents act on behalf of user prompts, consuming external data and taking actions based on the agent context.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-07-07T23:29:49.913242+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-07T23:26:31.284778+00:00"
-  },
-  {
-    "id": "arxiv:2607.04846v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Pretraining Curricula Enable Selective Fine-tuning",
-    "authors": [
-      "Sebastian A. Bruijns",
-      "Jirko Rubruck",
-      "Mia H. Whitefield",
-      "Kai J. Sandbrink",
-      "Fazl Barez",
-      "Christopher Summerfield"
-    ],
-    "abstract": "Transformers follow implicit curricula whereby some tasks are learned before others. However, how explicit pretraining curricula influence learning, generalization, and the selectivity of fine-tuning is unclear. This is important for AI safety, where fine-tuning is used to selectively suppress misaligned behaviors. Here, we compare curricula that pretrain tasks in a balanced (sampled uniformly) or an imbalanced (one task early, the other late) fashion. We show that imbalanced learning of two conflicting copy tasks promotes in-context learning and improves the selectivity of refusal fine-tuning. Ablations and activation patching show that this occurs because imbalanced pretraining encourages tasks to be disentangled in separable neural circuits, whereas balanced training routes both tasks through a common pathway. We extend these findings to a synthetic language learning task involving rule-consistent and rule-violating data, where imbalanced curricula similarly lead to more localized, less entangled rule representations, resulting in more robust rule-following behavior. Together, these results suggest that imbalanced pretraining curricula may be an important tool for promoting disentangled representations, with direct consequences for the precision and reliability of safety fine-tuning.",
-    "published": "2026-07-06T09:18:35Z",
-    "updated": "2026-07-06T09:18:35Z",
-    "url": "https://arxiv.org/abs/2607.04846v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.04846v1",
-    "categories": [
-      "cs.LG",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Transformers follow implicit curricula whereby some tasks are learned before others.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-lg",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-07-07T23:29:49.913338+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-07T23:26:31.284891+00:00"
-  },
-  {
-    "id": "arxiv:2607.06592v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "LipSSD: Lipschitz-Constrained Single-Shot Detection for Adversarially Robust Object Detection",
-    "authors": [
-      "Vincent Lébé",
-      "Yannick Prudent",
-      "Corentin Friedrich",
-      "Thomas Massena",
-      "Ronan Sicre",
-      "Franck Mamalet"
-    ],
-    "abstract": "Object detectors have many applications in safety-critical systems, but they are known to be sensitive to worst-case perturbations such as adversarial attacks, which limits their applicability in real-world scenarios. Compared with classification, adversarial robustness for object detection has received less attention, and existing methods are often tied to adversarial training, whose performance may not transfer across attacks, perturbation budgets, or architectures. In this work, we introduce Lipschitz-constrained variants of object detection architectures as robust-by-design alternatives to standard detectors. We validate this approach with LipSSD, a Lipschitz-constrained Single Shot MultiBox Detector (SSD), and provide a comprehensive study of its adversarial robustness using multiple white-box adversarial attacks and datasets. We first analyze the accuracyrobustness trade-off induced by Lipschitz constraints and show that it can be controlled through a single training hyperparameter. We then demonstrate that Lipschitzconstrained detectors are complementary to adversarial training: under the same training setup on the Pascal VOC dataset, adversarially trained LipSSD improves mAP@50 on unseen attacks by up to 15 points over classical adversarially trained SSD. Finally, we use more specific safety-critical datasets such as LARD and KITTI, and show that Lipschitz-constrained detectors can improve robustness while largely preserving clean performance. These results suggest that architectural Lipschitz control is a practical and attack-agnostic direction for improving the robustness of object detectors.",
-    "published": "2026-07-06T08:33:28Z",
-    "updated": "2026-07-06T08:33:28Z",
-    "url": "https://arxiv.org/abs/2607.06592v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.06592v1",
-    "categories": [
-      "cs.CV",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Object detectors have many applications in safety-critical systems, but they are known to be sensitive to worst-case perturbations such as adversarial attacks, which limits their applicability in real-world scenarios.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cv",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-07-09T23:45:07.000906+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-09T23:41:51.559031+00:00"
-  },
-  {
-    "id": "arxiv:2607.04645v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Retroactive Chain-of-Thought (RetroCoT): Forensic Reconstruction Prompts as a Safety Diagnostic Across Model Generations",
-    "authors": [
-      "Samira Hajizadeh"
-    ],
-    "abstract": "Safety alignment in large language models is typically evaluated against direct, imperative harmful requests. We show that this alignment is highly conditioned on pragmatic register: models that refuse a direct request frequently comply when the same underlying objective is expressed through a different communicative stance. This suggests that current alignment policies are not invariant to semantic equivalence, but remain sensitive to how a request is pragmatically framed. We introduce Retroactive Chain-of-Thought (RetroCoT), a single-turn attack that reframes harmful requests as forensic reconstruction tasks. Rather than requesting harmful instructions directly, RetroCoT presupposes that the harmful outcome has already occurred and asks the model, acting as a forensic analyst, to reconstruct in reverse the causal chain that produced it. On AdvBench (n=50), RetroCoT achieves attach success rate of 58% on gpt-4o and 52% on gpt-4o-mini, compared with direct-request baselines of 0% and 4%, respectively. We further identify a pronounced generation gap: GPT-5-family models refuse RetroCoT entirely, explicitly identifying the reconstruction premise in their refusal rationales, consistent with explicit coverage of this reconstruction register. However, this robustness does not generalize across pragmatic forms. A single adversarial feedback turn presenting an existing forensic reconstruction response alongside evaluator critique raises ASR from 0% to 48% on GPT-5.4-mini and from 58% to 94% on GPT-4o; a control condition omitting the fabricated low score achieves 85% on GPT-5.4-mini, indicating that the operative element is pragmatic continuation within the established forensic frame rather than score manipulation. These results suggest that frontier-model alignment remains conditioned on pragmatic framing rather than semantic intent, and that new pragmatic registers can continue to expose a...",
-    "published": "2026-07-06T03:59:06Z",
-    "updated": "2026-07-06T03:59:06Z",
-    "url": "https://arxiv.org/abs/2607.04645v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.04645v1",
-    "categories": [
-      "cs.CL",
-      "cs.AI",
-      "cs.CR",
-      "cs.LG"
-    ],
-    "analysis": {
-      "summary": "Safety alignment in large language models is typically evaluated against direct, imperative harmful requests.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cl",
-        "cs-ai",
-        "cs-cr",
-        "cs-lg"
-      ],
-      "analyzed_at": "2026-07-07T23:29:49.913438+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-07T23:26:31.284988+00:00"
-  },
-  {
-    "id": "arxiv:2607.04240v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Biological Motifs for Agentic Control",
-    "authors": [
-      "Bogdan Banu"
-    ],
-    "abstract": "The transition of Large Language Models (LLMs) from passive generators to autonomous agents has introduced significant challenges in reliability, security, and state management. Current agentic architectures are often constructed ad-hoc, prone to hallucination cascades, infinite loops, and prompt injection attacks. This paper argues that many of these failure modes can be analyzed using control motifs long studied in systems biology, provided the comparison is made at the level of typed interfaces and coordination structure rather than literal biological mechanism. We develop a typed interface correspondence between Gene Regulatory Networks and agentic software systems using polynomial functors and wiring diagrams. Five biological motifs are mapped to composable software design patterns: Coherent Feed-Forward Loops for noise suppression, Adaptive Immunity for layered security, Mitochondrial Signaling for resource governance, Endosymbiosis for neuro-symbolic integration, and Morphogen Diffusion for spatially varying coordination. An epistemic topology layer derives Kripke-style knowledge operators from the wiring diagram's observation structure and proves four predictive theorems for multi-agent scaling. The core contributions are: (1) the Agentic Operad, a typed syntax for agent composition with provable error suppression bounds for feed-forward topologies; (2) an epistemic topology with four theorems (error amplification, sequential penalty, parallel acceleration, and tool density scaling) whose qualitative predictions are consistent with published multi-agent benchmarks; and (3) a six-layer progression from structure through development, grounded in autonomous learning frameworks and convergence proxies from the empirical literature. A reference implementation with 1,813 tests and 116 examples illustrates practical feasibility.",
-    "published": "2026-07-05T11:30:45Z",
-    "updated": "2026-07-05T11:30:45Z",
-    "url": "https://arxiv.org/abs/2607.04240v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.04240v1",
-    "categories": [
-      "cs.AI",
-      "q-bio.CB"
-    ],
-    "analysis": {
-      "summary": "The transition of Large Language Models (LLMs) from passive generators to autonomous agents has introduced significant challenges in reliability, security, and state management.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai",
-        "q-bio-cb"
-      ],
-      "analyzed_at": "2026-07-07T23:29:49.913534+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-07T23:26:31.285085+00:00"
-  },
-  {
-    "id": "arxiv:2607.04145v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Binary Iterative Method for Non-targeted Adversarial Attack",
-    "authors": [
-      "Naman Goyal",
-      "Milan Chaudhari"
-    ],
-    "abstract": "Adversarial attacks guide and provide additional training and test data for both adversarial training and adversarial robustness validation, and expose the 'piecewise linearity' of deep learning based models. Since adversarial attacks and adversarial robustness are mathematically defined problems that can be optimised directly with end-to-end differentiable search, adversarial robustness is more widely applicable than other robustness metrics such as corruption and perturbation robustness, and new kinds of adversarial attacks are beneficial for robustness testing. Attacks are targeted or non-targeted depending on whether the image is modified to misclassify to a particular class or to any incorrect class; we focus on the non-targeted setting. Finding the optimal input data points and hyper-parameters for generating non-targeted adversarial attacks remains a challenge for current methods like the Fast Gradient Method, Basic Iterative Method and Virtual Adversarial Method. We propose a new method, the \"Binary Iterative Method\" (BinIM), which uses a divide-and-conquer paradigm to optimise parameters and hyper-parameters for the generation of non-targeted attacks. We compare our method to other gradient-based adversarial attacks evaluated over pre-trained networks (InceptionV3, InceptionV2, ResNet V2 152) on classification tasks. On 1000 randomly-sampled images from the standard ImageNet dataset, the Binary Iterative Method outperforms all other gradient-based methods, qualitatively making the classifier misclassify with confidence up to 0.995 while reducing the probability of the true label to 2.21e-09 (approximately 0).",
-    "published": "2026-07-05T07:12:30Z",
-    "updated": "2026-07-05T07:12:30Z",
-    "url": "https://arxiv.org/abs/2607.04145v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.04145v1",
-    "categories": [
-      "cs.LG",
-      "cs.CV"
-    ],
-    "analysis": {
-      "summary": "Adversarial attacks guide and provide additional training and test data for both adversarial training and adversarial robustness validation, and expose the 'piecewise linearity' of deep learning based models.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-lg",
-        "cs-cv"
-      ],
-      "analyzed_at": "2026-07-07T23:29:49.913625+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-07T23:26:31.285291+00:00"
   }
 ]
