@@ -1,5 +1,43 @@
 [
   {
+    "id": "arxiv:2607.21151v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "V-DEAL: Diagnosing Video Safety De-Calibration as an Understanding-Refusal Coupling Failure",
+    "authors": [
+      "Zhetong Zhang",
+      "Honghao Fu",
+      "Miao Xu",
+      "Yiwei Wang",
+      "Yujun Cai"
+    ],
+    "abstract": "As Video Large Language Models are increasingly deployed in real-world applications, ensuring their safety alignment has become critical. Counterintuitively, we find that harmful videos paired with benign queries achieve higher attack success rates than the same videos paired with explicitly harmful queries. To understand the underlying mechanism of this vulnerability, we present V-DEAL, a three-level diagnostic framework that jointly analyzes this failure across model behaviour, understanding, and internal representations. By progressively ruling out perception failure and quantifying the model's internal refusal tendency, V-DEAL provides a new diagnostic perspective for analyzing the underlying mechanism of the observed vulnerability. We tested six Video LLMs on three public benchmarks and observed that models correctly recognize harmful video content with over 81\\% accuracy, yet the average attack success rate still reaches 48.33\\% under the condition pairing harmful videos with benign queries. Hidden-state analysis further shows that visual understanding activates a weaker refusal tendency than textual understanding. Furthermore, we introduce a prompt injection intervention method that reduces attack success rates by an average of 48.24 percentage points and achieves performance comparable to prior fine-tuning-based methods, providing an effective and practical means to address such safety risks in Video LLMs.",
+    "published": "2026-07-23T10:35:38Z",
+    "updated": "2026-07-23T10:35:38Z",
+    "url": "https://arxiv.org/abs/2607.21151v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21151v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "As Video Large Language Models are increasingly deployed in real-world applications, ensuring their safety alignment has become critical.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-07-24T23:33:17.211712+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-07-24T23:29:59.614884+00:00"
+  },
+  {
     "id": "arxiv:2607.20379v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -34,6 +72,44 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-07-23T23:25:20.511419+00:00"
+  },
+  {
+    "id": "arxiv:2607.20581v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Geometric Configurations of Perturbed Jailbreak Prompts",
+    "authors": [
+      "Lynn Delcon",
+      "Andres Algaba",
+      "Vincent Ginis"
+    ],
+    "abstract": "Perturbation techniques that turn unsuccessful jailbreak prompts into successful ones are continuously evolving, constituting a major security threat to LLM safety. In this paper, we investigate the internal representations of such string-level perturbed jailbreak inputs in the small weight models of the Qwen-2.5-1.5B/-3B/-7B-Instruct and Llama-3.2-1B/-3B/-3.1-8B-Instruct families. We select two representation spaces: the last-layer-last-token embedding space and the top-50 next-token probability space. The former space separates prompts based on their spelling and format, while the latter space is effectively one-dimensional but appears more complex to cluster. Within our refusal-dominated answer set we find no behavioral hyperplane in either space. Only the next token \"Sure\" in the 1.5B Qwen model, and both tokens \",\" and \"ĊĊ\" in the 1$ Llama model, display a significant association with a compliant-labeled answer.",
+    "published": "2026-07-22T11:52:43Z",
+    "updated": "2026-07-22T11:52:43Z",
+    "url": "https://arxiv.org/abs/2607.20581v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.20581v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Perturbation techniques that turn unsuccessful jailbreak prompts into successful ones are continuously evolving, constituting a major security threat to LLM safety.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-07-24T23:33:17.211836+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-07-24T23:29:59.615181+00:00"
   },
   {
     "id": "arxiv:2607.19855v1",
@@ -516,6 +592,46 @@
     "fetched_at": "2026-07-22T23:27:44.540273+00:00"
   },
   {
+    "id": "arxiv:2607.18496v2",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Towards an Automated Test of LLM Security Knowledge",
+    "authors": [
+      "Shufan Chai",
+      "Liangliang Sun",
+      "Jessica Staddon"
+    ],
+    "abstract": "Large language models (LLMs) are increasingly used for a range of software, hardware and human-centered security tasks. Consequently, LLM performance on security tasks is an active area of measurement and research, often with a focus on identifying areas in which LLM security ``knowledge'' may be insufficient. Popular strategies for identifying LLM security knowledge gaps include building corpora of challenge questions or task benchmarks, strategies that require substantial manual work and security expertise to design and execute. We introduce a partially-automated method for assessing LLM knowledge of a security area.The method uses authoritative information from Consumer Protection Agencies (CPAs) to identify instability in LLM responses that can be indicative of knowledge gaps. We demonstrate the method for 2 security topics, identity theft and impostor scams, and 5 LLMs in 2 leading LLM families, Gemini and GPT, using publicly available information about identity theft and impostor scams from 6 CPAs.The method distinguishes between models that have and don't have sufficient knowledge to accurately identify the security topics in text narratives.",
+    "published": "2026-07-20T20:37:37Z",
+    "updated": "2026-07-22T19:09:23Z",
+    "url": "https://arxiv.org/abs/2607.18496v2",
+    "pdf_url": "https://arxiv.org/pdf/2607.18496v2",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.HC"
+    ],
+    "analysis": {
+      "summary": "Large language models (LLMs) are increasingly used for a range of software, hardware and human-centered security tasks.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai",
+        "cs-hc"
+      ],
+      "analyzed_at": "2026-07-24T23:33:17.211967+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-07-24T23:29:59.616383+00:00"
+  },
+  {
     "id": "arxiv:2607.18485v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -647,7 +763,24 @@
       "cs.CY",
       "cs.LG"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Phishing emails remain one of the most persistent cybersecurity threats, and machine-learning classifiers are widely used to detect them.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai",
+        "cs-cy",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-07-24T23:33:17.212063+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-07-22T23:27:44.540516+00:00"
   },
   {
@@ -891,7 +1024,21 @@
     "categories": [
       "cs.CR"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Adversarial robustness optimization aims to preserve correct prediction under adversarial perturbations, and has produced substantial robustness gains through methods such as adversarial training and adversarial purification.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-07-24T23:33:17.212165+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-07-22T23:27:44.541325+00:00"
   },
   {
@@ -3041,119 +3188,5 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-07-08T23:33:37.945516+00:00"
-  },
-  {
-    "id": "arxiv:2607.06120v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "AEGIS: A Mechanism-Guided Defense against Visual Synonym Jailbreaks in Text-to-Image Models",
-    "authors": [
-      "Yuanmin Huang",
-      "Zhenfei Zhang",
-      "Mi Zhang",
-      "Geng Hong",
-      "Qinqin He",
-      "Jialing Tao",
-      "Hui Xue",
-      "Min Yang"
-    ],
-    "abstract": "Text-to-image diffusion models have achieved high visual fidelity and broad adoption, but remain vulnerable to safety violations when adversaries exploit them to synthesize illicit content. Existing alignment paradigms, from input sanitization to structural feature pruning, are largely organized around unsafe concepts explicitly exposed during filtering, editing, or localization. This leaves a blind spot for visual synonym attacks (VSA), a jailbreak where benign-looking prompts elicit prohibited imagery through implicit visual associations. As a result, current defenses face a safety-utility dilemma: they may either under-mitigate VSA threats or over-suppress visually similar benign concepts. The core challenge is that VSA hides the unsafe target at the textual surface while revealing it through generation-time visual-semantic convergence. In this work, we therefore shift from static suppression of pre-specified unsafe concepts to dynamic tracing of how unsafe semantics emerge during generation. Our mechanistic analysis shows that VSA and explicit unsafe prompts converge through sparse semantic-injecting attention heads, which serve as inference-time bottlenecks for prohibited visual semantics. Based on this insight, we propose AEGIS (Adaptive Evasion Guard via Identification and Steering), an inference-time defense that applies similarity-aware repulsion only at the identified vulnerable heads. Evaluated against 16 baselines, AEGIS improves both safety and utility. On SD 1.4, it reduces ASR to $\\mathbf{0.00}/\\mathbf{0.03}$ for in-domain violence/nudity VSA and achieves ASRs $\\le \\mathbf{0.09}$ on out-of-domain explicit and adversarial attacks. It preserves benign fidelity, avoids suppressing hard-negative concepts, and transfers to SD 2.1 and FLUX.1 after re-identifying the critical heads for each backbone.",
-    "published": "2026-07-07T10:27:54Z",
-    "updated": "2026-07-07T10:27:54Z",
-    "url": "https://arxiv.org/abs/2607.06120v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.06120v1",
-    "categories": [
-      "cs.CV"
-    ],
-    "analysis": {
-      "summary": "Text-to-image diffusion models have achieved high visual fidelity and broad adoption, but remain vulnerable to safety violations when adversaries exploit them to synthesize illicit content.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cv"
-      ],
-      "analyzed_at": "2026-07-08T23:36:39.524728+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-08T23:33:37.945632+00:00"
-  },
-  {
-    "id": "arxiv:2607.05743v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "The Balkanization of Execution-Security Research for AI Coding Agents: Isolation, Access Control, and Time-of-Check-to-Time-of-Use Vulnerabilities",
-    "authors": [
-      "Mohammadreza Rashidi"
-    ],
-    "abstract": "AI coding agents now read repositories, call tools, and execute shell commands with limited human oversight, and a fast-growing body of work studies whether the execution layer around them is actually safe. That literature is scattered. Papers on sandbox isolation, capability and access control, policy enforcement, time-of-check-to-time-of-use (TOCTOU) races, Model Context Protocol (MCP) threats, identity delegation, execution provenance, network egress control, and static analysis of agent-generated code are published independently and rarely cite one another. We systematize 39 papers published between 2023 and 2026 into 17 categories, each verified directly against its source. The same verification protocol also confirms four disclosed, patched CVEs directly affecting production agent harnesses. Reading across categories surfaces five cross-cutting gaps that no single paper addresses. (1) Isolation architectures and capability models are almost never evaluated against one another on a shared benchmark. (2) Policy-enforcement studies report failure rates from 69% to 98% of real denylists, yet no isolation paper re-evaluates its own defense under that adversarial setting. (3) TOCTOU and MCP threats are analyzed as separate literatures despite both being instances of the same state-validation problem. (4) Every enforcement mechanism assumes an honest policy author, leaving policy-authoring error itself unaddressed. (5) Benign but out-of-scope agent actions occurring at rates up to 17.1% under realistic prompting are addressed by no access-control or capability paper in the corpus. Existing broader surveys of agentic AI security discuss sandboxing only as one item among many defenses, leaving execution security without a dedicated systematization. This paper is written to fill that gap. We conclude with a research agenda directed at the five gaps.",
-    "published": "2026-07-07T01:56:18Z",
-    "updated": "2026-07-07T01:56:18Z",
-    "url": "https://arxiv.org/abs/2607.05743v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.05743v1",
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "AI coding agents now read repositories, call tools, and execute shell commands with limited human oversight, and a fast-growing body of work studies whether the execution layer around them is actually safe.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-07-08T23:36:39.524845+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-08T23:33:37.945737+00:00"
-  },
-  {
-    "id": "arxiv:2607.05536v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Higher-Order Certified Robustness for Regression",
-    "authors": [
-      "Jie Zhang",
-      "Natalie Frank"
-    ],
-    "abstract": "Randomized smoothing has emerged as a scalable technique for certifying the adversarial robustness of classifiers. However, its application to regression remains under-explored and faces unique challenges. Existing regression certificates rely on probabilistic acceptance regions and fail to exploit the local geometry of the function. In this work, we present a novel framework for certified robust regression that addresses these limitations. We derive a prediction-centered certificate that guarantees the stability of the smoothed model's prediction and ensures practical computability at test time. We investigate several alternatives for constructing these certificates by explicitly incorporating means, variances, and gradients. In particular, we demonstrate on the MNIST rotation task that utilizing gradient information yields significantly tighter robustness certificates compared to the current state-of-the-art, alpha-smoothing.",
-    "published": "2026-07-06T18:17:13Z",
-    "updated": "2026-07-06T18:17:13Z",
-    "url": "https://arxiv.org/abs/2607.05536v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.05536v1",
-    "categories": [
-      "stat.ML",
-      "cs.LG"
-    ],
-    "analysis": {
-      "summary": "Randomized smoothing has emerged as a scalable technique for certifying the adversarial robustness of classifiers.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "stat-ml",
-        "cs-lg"
-      ],
-      "analyzed_at": "2026-07-08T23:36:39.524930+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-08T23:33:37.945826+00:00"
   }
 ]

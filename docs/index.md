@@ -1,8 +1,27 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-07-24 07:28 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-07-25 07:33 Asia/Shanghai
 
 ## 今日论文
+
+### [V-DEAL: Diagnosing Video Safety De-Calibration as an Understanding-Refusal Coupling Failure](https://arxiv.org/abs/2607.21151v1)
+
+**作者**：Zhetong Zhang, Honghao Fu, Miao Xu, Yiwei Wang, Yujun Cai
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-23 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.21151v1)
+
+**摘要总结**：As Video Large Language Models are increasingly deployed in real-world applications, ensuring their safety alignment has become critical.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
+
+---
 
 ### [Train the Model, Not the Reader: Decodability Supervision for Verifiable Activation Explanations](https://arxiv.org/abs/2607.20379v1)
 
@@ -20,6 +39,25 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-ai` `cs-cl`
+
+---
+
+### [Geometric Configurations of Perturbed Jailbreak Prompts](https://arxiv.org/abs/2607.20581v1)
+
+**作者**：Lynn Delcon, Andres Algaba, Vincent Ginis
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-22 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.20581v1)
+
+**摘要总结**：Perturbation techniques that turn unsuccessful jailbreak prompts into successful ones are continuously evolving, constituting a major security threat to LLM safety.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -251,6 +289,25 @@
 
 ---
 
+### [Towards an Automated Test of LLM Security Knowledge](https://arxiv.org/abs/2607.18496v2)
+
+**作者**：Shufan Chai, Liangliang Sun, Jessica Staddon
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-20 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.18496v2)
+
+**摘要总结**：Large language models (LLMs) are increasingly used for a range of software, hardware and human-centered security tasks.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-hc`
+
+---
+
 ### [Trusted Credentials, Untrusted Behavior: Benchmarking LLM-Agent Security in High-Performance Computing](https://arxiv.org/abs/2607.18485v1)
 
 **作者**：Jie Li
@@ -314,13 +371,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-07-20 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.18429v1)
 
-**摘要总结**：暂无
+**摘要总结**：Phishing emails remain one of the most persistent cybersecurity threats, and machine-learning classifiers are widely used to detect them.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-cy` `cs-lg`
 
 ---
 
@@ -425,13 +485,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-07-20 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.18339v1)
 
-**摘要总结**：暂无
+**摘要总结**：Adversarial robustness optimization aims to preserve correct prediction under adversarial perturbations, and has produced substantial robustness gains through methods such as adversarial training and adversarial purification.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
@@ -1458,60 +1521,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-cl` `cs-cy`
-
----
-
-### [AEGIS: A Mechanism-Guided Defense against Visual Synonym Jailbreaks in Text-to-Image Models](https://arxiv.org/abs/2607.06120v1)
-
-**作者**：Yuanmin Huang, Zhenfei Zhang, Mi Zhang, Geng Hong, Qinqin He, Jialing Tao, Hui Xue, Min Yang
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-07 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.06120v1)
-
-**摘要总结**：Text-to-image diffusion models have achieved high visual fidelity and broad adoption, but remain vulnerable to safety violations when adversaries exploit them to synthesize illicit content.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cv`
-
----
-
-### [The Balkanization of Execution-Security Research for AI Coding Agents: Isolation, Access Control, and Time-of-Check-to-Time-of-Use Vulnerabilities](https://arxiv.org/abs/2607.05743v1)
-
-**作者**：Mohammadreza Rashidi
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-07 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.05743v1)
-
-**摘要总结**：AI coding agents now read repositories, call tools, and execute shell commands with limited human oversight, and a fast-growing body of work studies whether the execution layer around them is actually safe.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai`
-
----
-
-### [Higher-Order Certified Robustness for Regression](https://arxiv.org/abs/2607.05536v1)
-
-**作者**：Jie Zhang, Natalie Frank
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-06 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.05536v1)
-
-**摘要总结**：Randomized smoothing has emerged as a scalable technique for certifying the adversarial robustness of classifiers.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`stat-ml` `cs-lg`
