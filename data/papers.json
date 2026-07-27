@@ -1,5 +1,157 @@
 [
   {
+    "id": "arxiv:2607.22024v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Agent Security Needs Redefinition through a Holistic Framework",
+    "authors": [
+      "Vincent Siu",
+      "Jingxuan He",
+      "Kyle Montgomery",
+      "Zhun Wang",
+      "Chenguang Wang",
+      "Dawn Song"
+    ],
+    "abstract": "Agent security is widely treated as a question about action content. Defenses ask whether an instruction looks malicious. Benchmarks ask whether an agent performs a harmful sounding action. \\textbf{We argue that agent security is fundamentally a contextual problem, and that the current content based framing systematically misdefines it.} A command to ``delete user data'' might be a routine administrative request or a prompt injection attacking production systems, and the content alone cannot distinguish the two. Authorization context can. Across every injection task in AgentDojo and WASP, the same action is one an authenticated user would plausibly request in a routine workflow, which makes the conflation a structural property of evaluating security through content. We operationalize contextual security through four properties that must hold jointly and be evaluated continuously across the agent's trajectory. Source Authorization asks who issued the command. Task Alignment specifies the agent's authorized objective. Action Alignment evaluates whether each action serves that objective. Data Isolation governs information flows across privilege boundaries. Under this reframing, indirect prompt injection becomes a Source Authorization violation. Snapshot benchmarks are structurally incapable of evaluating Data Isolation. Existing defenses are reorganized around the property they actually approximate. The contextual reframing changes which defenses are coherent, which evaluations measure something useful, and which attack patterns evaluation can see at all.",
+    "published": "2026-07-24T06:43:09Z",
+    "updated": "2026-07-24T06:43:09Z",
+    "url": "https://arxiv.org/abs/2607.22024v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.22024v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Agent security is widely treated as a question about action content.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-07-27T23:34:26.590823+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-07-27T23:31:08.996272+00:00"
+  },
+  {
+    "id": "arxiv:2607.21993v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Three-Body Alignment: Aligning Chess Agent with Human Reasoning through Reranked Rationale",
+    "authors": [
+      "Jaymari Chua",
+      "Chen Wang",
+      "Liming Zhu",
+      "Lina Yao"
+    ],
+    "abstract": "As reasoning agents become increasingly complex, aligning their underlying reasoning and decision-making processes with human conceptual models is a challenge for AI security and safety. When modelling expert knowledge, understanding how to characterise and integrate insights from agents with fundamentally different reasoning architectures is necessary for safe and predictable deployment. We investigate this alignment through a \\emph{three-body alignment} in chess, analysing the semantic divergence between rationales produced by human experts (Grandmasters), engine-assisted human commentators (who rationalise the outputs of efficiently updatable neural networks, or NNUEs), and Large Language Models (LLMs). Our contributions include: (1) A novel multisource rationale dataset, constructed using an agentic data engineering pipeline to transform unstructured expert commentary into structured, queryable data for alignment evaluation. (2) An empirical analysis of the semantic embedding space. Using t-SNE visualisation, we demonstrate that these sources form distinct clusters, confirming significant heterogeneity and reflecting fundamentally different conceptual approaches to the same environment. (3) An experiment demonstrating that reranking mechanisms can improve human alignment, while quantifying the explicit trade-off with tactical performance, offering a pathway for more interpretable agent decision-making. (4) The preliminary development of an enriched chess narrative dataset structure, designed to lay the groundwork for future evaluations of text rationale similarity and to address the limitations of standard dense retrieval. (5) Finally, we open-source our chess rationales dataset\\footnote{Hugging Face: https://huggingface.co/datasets/jaymarichua/trichess} to support developing novel techniques that integrate diverse expert knowledge into human-aligned intelligent agents.",
+    "published": "2026-07-24T05:38:46Z",
+    "updated": "2026-07-24T05:38:46Z",
+    "url": "https://arxiv.org/abs/2607.21993v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21993v1",
+    "categories": [
+      "cs.GT"
+    ],
+    "analysis": {
+      "summary": "As reasoning agents become increasingly complex, aligning their underlying reasoning and decision-making processes with human conceptual models is a challenge for AI security and safety.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-gt"
+      ],
+      "analyzed_at": "2026-07-27T23:34:26.590943+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-07-27T23:31:08.996412+00:00"
+  },
+  {
+    "id": "arxiv:2607.21951v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "SIREN (Luring LLMs onto the Rocks): PAIR-Driven Preference Manipulation in Web-RAG Recommenders",
+    "authors": [
+      "Evan Caville",
+      "Siamak Layeghy",
+      "Billy Sung",
+      "Sara Dolnicar",
+      "Marius Portmann"
+    ],
+    "abstract": "This paper investigates the adversarial manipulation of the ranked recommendations produced by web-augmented large language models (LLMs). When an LLM answers a recommendation query by retrieving and reading live webpages, it acts as a recommender, and each retrieved page becomes a potential attack surface. Prior work has examined fabricated products, retrieval poisoning, and rank promotion. However, these studies do not compare how different edits to an already retrieved page change the model's final ranking while the surrounding source set remains unchanged. To address this gap, we propose SIREN, an automated attacker--judge method that adapts the PAIR jailbreaking loop to competitive rank manipulation, with the goal of moving a chosen entity to rank~1 in an LLM-generated recommendation. SIREN retrieves and captures webpages using Anthropic's web tools, then iteratively edits a retrieved source using an interpretable taxonomy of 23 content-poisoning techniques. The custom-RAG replay platform keeps the same sources in the same order, so changes in the model's ranking can be linked to changes in the supplied content rather than to differences in retrieval. Across two production Claude models, SIREN reaches rank~1 in 62 of 124 technique trials nested within eight query--model contexts. The payloads that reached rank~1 were then tested in fresh sessions, where they reproduced the result with a mean success rate of 0.805. Across the evaluated settings, declarative ranking claims and seeded lists were generally more effective than directive-form injections, although the strength of this difference depended on the target model. To the best of our knowledge, this is among the first controlled studies of competitive rank manipulation in production LLMs where the supplied source context is kept fixed.",
+    "published": "2026-07-24T03:55:51Z",
+    "updated": "2026-07-24T03:55:51Z",
+    "url": "https://arxiv.org/abs/2607.21951v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21951v1",
+    "categories": [
+      "cs.IR",
+      "cs.CR"
+    ],
+    "analysis": {
+      "summary": "This paper investigates the adversarial manipulation of the ranked recommendations produced by web-augmented large language models (LLMs).",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ir",
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-07-27T23:34:26.591046+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-07-27T23:31:08.996530+00:00"
+  },
+  {
+    "id": "arxiv:2607.21824v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Protocol-Level Attacks on Agentic Commerce Platforms: A Cross-Platform Taxonomy, AIP-Bench, and Unified Defense",
+    "authors": [
+      "Yedidel Louck"
+    ],
+    "abstract": "Agentic commerce platforms let AI agents autonomously discover services, move payments, and wield user credentials on their users' behalf, and they already handle real money. Their security has so far been studied almost entirely at the level of the AI model, through prompt injection and misalignment. We show that the more consequential risks lie one layer down, in the protocol between agents and commerce services. There, vulnerabilities are structural : exploitation is deterministic and ndependent of which model an agent runs, so no model improvement removes them. Across three leading platforms we identify 33 such vulnerabilities, each succeeding deterministically regardless of the deployed model, at a 100% attack-success rate (ASR) wherever live-measured. The same failure modes recur across independently built codebases, a systemic pattern rather than isolated bugs. Three of them chain into an end-to-end payment hijack. We contribute a taxonomy separating these structural attacks from model-dependent semantic ones. We also build two artifacts: AIP-Bench (Agent Interaction Protocol Benchmark), to our knowledge the first deterministic benchmark for agentic commerce security, and PCAT (Protocol-level Commerce Agent Trust), a platform-agnostic defense that drives the structural attack-success rate to zero for four of the five structural classes (RC-1, RC-2, RC-4, RC-5), with RC-3 (observable credential channels) reduced to warn-only, without modifying any platform. Agentic commerce must be secured at the protocol layer, not only the model.",
+    "published": "2026-07-23T21:21:01Z",
+    "updated": "2026-07-23T21:21:01Z",
+    "url": "https://arxiv.org/abs/2607.21824v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21824v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "analysis": {
+      "summary": "Agentic commerce platforms let AI agents autonomously discover services, move payments, and wield user credentials on their users' behalf, and they already handle real money.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-07-27T23:34:26.591139+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-07-27T23:31:08.996624+00:00"
+  },
+  {
     "id": "arxiv:2607.21151v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -2978,215 +3130,5 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-07-09T23:41:51.557775+00:00"
-  },
-  {
-    "id": "arxiv:2607.07739v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Controllability-Aware Adversarial Examples Against LLM-Based Network Traffic Classifiers",
-    "authors": [
-      "Zhenpeng Li"
-    ],
-    "abstract": "Large language models (LLMs) are increasingly explored as network intrusion detection classifiers, but their adversarial robustness under realistic attacker constraints remains unclear. We present a controllability-aware black-box transfer framework for LLM-based network traffic classifiers. The framework partitions flow features into directly controllable (DC), indirectly controllable (IC), and uncontrollable (UC) groups according to network communication semantics, then restricts perturbations to DC features while freezing IC/UC features. Using a shared XGBoost surrogate, we generate finite-difference PGD, greedy coordinate-wise, and NES adversarial examples and transfer them to seven LLM targets and two conventional ML targets across five IDS benchmarks from 1999 to 2022. Across 27 valid LLM configurations and over 500,000 adversarial examples, we find that LLM transfer vulnerability is substantial but dataset- and comparator-dependent. Compared with LightGBM, LLMs are more vulnerable on RT-IoT2022 and CIC-IDS-2018, comparable on NSL-KDD and UNSW-NB15, and less vulnerable on HIKARI-2021; compared with the averaged ML baseline, LLMs show higher ASR on all five datasets. We further observe a consistent cross-architecture transfer hierarchy: gradient- and score-based perturbations transfer more effectively than greedy perturbations across all 27 LLM cells and 9/10 ML cells. Cross-surrogate validation with tree, neural, and linear surrogates yields similar LLM ASR, reducing evidence that the findings are XGBoost-specific. Constraint violation rate is 0\\% by construction.",
-    "published": "2026-07-08T04:21:04Z",
-    "updated": "2026-07-08T04:21:04Z",
-    "url": "https://arxiv.org/abs/2607.07739v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.07739v1",
-    "categories": [
-      "cs.CR"
-    ],
-    "analysis": {
-      "summary": "Large language models (LLMs) are increasingly explored as network intrusion detection classifiers, but their adversarial robustness under realistic attacker constraints remains unclear.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr"
-      ],
-      "analyzed_at": "2026-07-10T23:29:04.346557+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-10T23:25:48.616315+00:00"
-  },
-  {
-    "id": "arxiv:2607.06485v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "AirflowAttack: Thermal-Airflow Adversarial Perturbations against Infrared Remote-Sensing Vision-Language Models",
-    "authors": [
-      "Cong Su",
-      "Jiaju Han",
-      "Xuemeng Sun",
-      "Chengyin Hu",
-      "Qike Zhang",
-      "Jiujiang Guo",
-      "Yiwei Wei",
-      "Jiahuan Long"
-    ],
-    "abstract": "Vision-language models (VLMs) are increasingly deployed on infrared (IR) remote sensing imagery in security-critical settings, yet their adversarial robustness remains unexamined. We present AirflowAttack, to our knowledge the first adversarial attack for IR remote-sensing VLMs and the first to weaponize thermal-airflow turbulence as the perturbation prior. A lightweight generator synthesizes a single input-agnostic perturbation regularized toward physically plausible airflow patterns. Optimized on one surrogate CLIP model, it attains a mean zero-shot scene-classification attack success rate (ASR, the fraction of samples whose top-1 class changes) of 48.5% across five diverse CLIP backbones, far exceeding four IR-specific physical baselines (27.7--37.0%). Applied to six state-of-the-art VLMs, it cuts scene-classification accuracy by up to 38.2% relative, yet paradoxically makes some models more confident in their IR analysis, confabulating the perturbation as genuine thermal evidence such as temperature gradients and convection. Ablations show the airflow prior raises physical plausibility at no measurable cost to attack success. Together with a benchmark spanning eleven models and four tasks, these findings expose critical vulnerabilities in the rapidly expanding IR VLM ecosystem.",
-    "published": "2026-07-07T16:46:46Z",
-    "updated": "2026-07-07T16:46:46Z",
-    "url": "https://arxiv.org/abs/2607.06485v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.06485v1",
-    "categories": [
-      "cs.CV",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Vision-language models (VLMs) are increasingly deployed on infrared (IR) remote sensing imagery in security-critical settings, yet their adversarial robustness remains unexamined.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cv",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-07-08T23:36:39.524394+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-08T23:33:37.945018+00:00"
-  },
-  {
-    "id": "arxiv:2607.06312v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Adversarial Robustness for Small Frequency Moments and a Weak Equivalence Theorem for Turnstile Streams",
-    "authors": [
-      "Elena Gribelyuk",
-      "Honghao Lin",
-      "David P. Woodruff",
-      "Huacheng Yu",
-      "Samson Zhou"
-    ],
-    "abstract": "We study adversarially robust algorithms for insertion-deletion (turnstile) streams, where future updates may depend on past algorithm outputs. While recent work achieved a robust $(1+ε)$-approximation for the second moment $F_2$ in polylogarithmic space, achieving high accuracy for other frequency moments remained a major open question; for $p\\in[0,2)$, including the fundamental distinct elements problem ($F_0$), only constant-factor approximations were known in sublinear space. We close this gap, showing that $(1+ε)$-approximate robustness can be achieved in polylogarithmic space for all $p\\in[0,2]$. Our approach generalizes the estimator-corrector-learner framework to non-Hilbert spaces by dynamically maintaining implicit isometric embeddings into $L_2$ and performing regularized kernel ridge regression over adaptively discovered hard queries, yielding the first insertion-deletion algorithms that approximate: (1) the $p$-th frequency moment $F_p$ up to a $(1+ε)$-factor in poly$(1/ε, \\log n)$ space for all $p\\in[0,2]$, including the support size $F_0$, (2) metric and information-theoretic quantities, including the Earth Mover Distance (EMD) and $k$-median clustering cost over $[Δ]^d$ up to an $O(d \\log Δ)$-factor, and the Shannon entropy up to an $ε$-additive error, and (3) non-normed symmetric losses defined by Bernstein functions up to a $(1+ε)$-factor. For the $F_p$ moments, our algorithm is optimal up to poly$(1/ε, \\log n)$ factors. Furthermore, we establish a weak equivalence between classical oblivious sketching and adversarial robustness. We prove that for any sub-multiplicative norm, the existence of an efficient classical linear sketch is equivalent to the existence of an efficient robust turnstile algorithm, up to polynomial factors, formalizing $L_1$ embeddability as the fundamental mechanism governing both models.",
-    "published": "2026-07-07T14:15:22Z",
-    "updated": "2026-07-07T14:15:22Z",
-    "url": "https://arxiv.org/abs/2607.06312v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.06312v1",
-    "categories": [
-      "cs.DS"
-    ],
-    "analysis": {
-      "summary": "We study adversarially robust algorithms for insertion-deletion (turnstile) streams, where future updates may depend on past algorithm outputs.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ds"
-      ],
-      "analyzed_at": "2026-07-08T23:36:39.524523+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-08T23:33:37.945185+00:00"
-  },
-  {
-    "id": "arxiv:2607.06196v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Pluralis v0.1: Towards a Multicultural, Multimodal, Multilingual Benchmark for AI Risk and Reliability",
-    "authors": [
-      "Alicia Parrish",
-      "Rajat Shinde",
-      "Sanket Badhe",
-      "Xinyi Bai",
-      "Sree Bhargavi Balija",
-      "Hua-Rong Chu",
-      "Emilio Ferrara",
-      "Armstrong Foundjem",
-      "Rajat Ghosh",
-      "Aakash Gupta",
-      "Xuanli He",
-      "Ong Chen Hui",
-      "Minji Jung",
-      "Madhangi Karimanal",
-      "Faiza Khan Khattak",
-      "Boryoung Kim",
-      "Eugenia Kim",
-      "Liliya Lavitas",
-      "Seok Min Lim",
-      "Victor Lu",
-      "Jim Moirangthem",
-      "Dhivya Nagasubramanian",
-      "Deepak Pandita",
-      "Sita Rajagopal",
-      "Geetha Raju",
-      "Evgeniia Razumovskaia",
-      "Aravind Reddy",
-      "Federico Ricciuti",
-      "Nobin Sarwar",
-      "Sungpil Shin",
-      "Sunayana Sitaram",
-      "Snehal Thorat",
-      "Tharindu Cyril Weerasooriya",
-      "Jasmijn Bastings",
-      "Joachim Baumann",
-      "Kongtao Chen",
-      "Murali Emani",
-      "Mariya Hendriksen",
-      "Jiho Jin",
-      "Jun Seong Kim",
-      "Younghoon Ko",
-      "Alicja Kwasniewska",
-      "Minjae Lee",
-      "Tom Wei-cyuan Lin Kashyap Ramanandula Manjusha",
-      "Junho Myung",
-      "Junyeong Park",
-      "Roma Patel",
-      "Shyam Ratan",
-      "Sudarsun Santhiappan",
-      "Priyanka Suresh",
-      "Tuesday",
-      "Ksheeraj Sai Vepuri Laura Amortegui-Ordonez",
-      "Claire Dennis",
-      "Minsuk Kahng",
-      "Chris Knotz",
-      "Alice Oh",
-      "Balaraman Ravindran",
-      "Soojung Ryu William Bartholomew",
-      "Hiwot Tesfaye",
-      "Lora Aroyo"
-    ],
-    "abstract": "Current AI safety evaluation and benchmarking frameworks predominantly rely on Western-centric culture-agnostic defaults that mask critical regional laws, socio-linguistic nuances, and cultural taboos, leaving Vision-Language Models (VLMs) vulnerable in global deployments. We introduce Pluralis v0.1: a novel multimodal, multi-regional, and multilingual dataset built from a culture-first perspective. Spanning 6,448 prompts across six Asia-Pacific countries (Bangladesh, India, Korea, Pakistan, Singapore, Taiwan) and eight languages, Pluralis diverges from prior work by natively sourcing localized safety hazards rather than adapting Western datasets. Crucially, it introduces a multimodal evaluation paradigm: user text (e.g., \"Should I gift this?\") and an image referring to \"this\" (e.g., a clock) - both innocuous in isolation, but synergistically triggering specific legal or cultural violations. Pluralis disentangles universal safety violations from localized cultural appropriateness, establishing the latter as a first-class evaluation axis. To operationalize this, we present Judge-Pluralis, an agreement-gated LLM-as-a-Judge ensemble trained on examples classified in an empirically derived cultural taxonomy. Observing VLM behavior on a subset of the Pluralis surfaces recurring, locale-specific failure modes such as image misidentifications with downstream harm, missed item-context-locale interactions, and inadequate refusals. These failure modes vary systematically across locales and languages, exposing blind spots that globally averaged metrics conceal. Ultimately, Pluralis is not presented as a solved evaluation framework for cultural alignment, but rather as a first step and catalyst for future innovation. We call upon the research community to utilize this foundation to advance the science of multilingual, multicultural evaluation to better support AI cultural alignment globally.",
-    "published": "2026-07-07T12:21:52Z",
-    "updated": "2026-07-07T12:21:52Z",
-    "url": "https://arxiv.org/abs/2607.06196v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.06196v1",
-    "categories": [
-      "cs.CL",
-      "cs.CY"
-    ],
-    "analysis": {
-      "summary": "Current AI safety evaluation and benchmarking frameworks predominantly rely on Western-centric culture-agnostic defaults that mask critical regional laws, socio-linguistic nuances, and cultural taboos, leaving Vision-Language Models (VLMs) vulnerable in global deployments.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cl",
-        "cs-cy"
-      ],
-      "analyzed_at": "2026-07-08T23:36:39.524626+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-08T23:33:37.945516+00:00"
   }
 ]

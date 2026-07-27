@@ -1,8 +1,84 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-07-27 07:28 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-07-28 07:34 Asia/Shanghai
 
 ## 今日论文
+
+### [Agent Security Needs Redefinition through a Holistic Framework](https://arxiv.org/abs/2607.22024v1)
+
+**作者**：Vincent Siu, Jingxuan He, Kyle Montgomery, Zhun Wang, Chenguang Wang, Dawn Song
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-24 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.22024v1)
+
+**摘要总结**：Agent security is widely treated as a question about action content.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
+
+---
+
+### [Three-Body Alignment: Aligning Chess Agent with Human Reasoning through Reranked Rationale](https://arxiv.org/abs/2607.21993v1)
+
+**作者**：Jaymari Chua, Chen Wang, Liming Zhu, Lina Yao
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-24 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.21993v1)
+
+**摘要总结**：As reasoning agents become increasingly complex, aligning their underlying reasoning and decision-making processes with human conceptual models is a challenge for AI security and safety.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-gt`
+
+---
+
+### [SIREN (Luring LLMs onto the Rocks): PAIR-Driven Preference Manipulation in Web-RAG Recommenders](https://arxiv.org/abs/2607.21951v1)
+
+**作者**：Evan Caville, Siamak Layeghy, Billy Sung, Sara Dolnicar, Marius Portmann
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-24 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.21951v1)
+
+**摘要总结**：This paper investigates the adversarial manipulation of the ranked recommendations produced by web-augmented large language models (LLMs).
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ir` `cs-cr`
+
+---
+
+### [Protocol-Level Attacks on Agentic Commerce Platforms: A Cross-Platform Taxonomy, AIP-Bench, and Unified Defense](https://arxiv.org/abs/2607.21824v1)
+
+**作者**：Yedidel Louck
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-23 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.21824v1)
+
+**摘要总结**：Agentic commerce platforms let AI agents autonomously discover services, move payments, and wield user credentials on their users' behalf, and they already handle real money.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
+
+---
 
 ### [V-DEAL: Diagnosing Video Safety De-Calibration as an Understanding-Refusal Coupling Failure](https://arxiv.org/abs/2607.21151v1)
 
@@ -1445,79 +1521,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-lg`
-
----
-
-### [Controllability-Aware Adversarial Examples Against LLM-Based Network Traffic Classifiers](https://arxiv.org/abs/2607.07739v1)
-
-**作者**：Zhenpeng Li
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-08 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.07739v1)
-
-**摘要总结**：Large language models (LLMs) are increasingly explored as network intrusion detection classifiers, but their adversarial robustness under realistic attacker constraints remains unclear.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr`
-
----
-
-### [AirflowAttack: Thermal-Airflow Adversarial Perturbations against Infrared Remote-Sensing Vision-Language Models](https://arxiv.org/abs/2607.06485v1)
-
-**作者**：Cong Su, Jiaju Han, Xuemeng Sun, Chengyin Hu, Qike Zhang, Jiujiang Guo, Yiwei Wei, Jiahuan Long
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-07 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.06485v1)
-
-**摘要总结**：Vision-language models (VLMs) are increasingly deployed on infrared (IR) remote sensing imagery in security-critical settings, yet their adversarial robustness remains unexamined.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cv` `cs-ai`
-
----
-
-### [Adversarial Robustness for Small Frequency Moments and a Weak Equivalence Theorem for Turnstile Streams](https://arxiv.org/abs/2607.06312v1)
-
-**作者**：Elena Gribelyuk, Honghao Lin, David P. Woodruff, Huacheng Yu, Samson Zhou
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-07 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.06312v1)
-
-**摘要总结**：We study adversarially robust algorithms for insertion-deletion (turnstile) streams, where future updates may depend on past algorithm outputs.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ds`
-
----
-
-### [Pluralis v0.1: Towards a Multicultural, Multimodal, Multilingual Benchmark for AI Risk and Reliability](https://arxiv.org/abs/2607.06196v1)
-
-**作者**：Alicia Parrish, Rajat Shinde, Sanket Badhe, Xinyi Bai, Sree Bhargavi Balija, Hua-Rong Chu, Emilio Ferrara, Armstrong Foundjem, et al.
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-07 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.06196v1)
-
-**摘要总结**：Current AI safety evaluation and benchmarking frameworks predominantly rely on Western-centric culture-agnostic defaults that mask critical regional laws, socio-linguistic nuances, and cultural taboos, leaving Vision-Language Models (VLMs) vulnerable in global deployments.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cl` `cs-cy`
