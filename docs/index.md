@@ -1,8 +1,122 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-07-30 07:30 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-07-31 07:33 Asia/Shanghai
 
 ## 今日论文
+
+### [On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment](https://arxiv.org/abs/2607.27081v1)
+
+**作者**：Yongjian Guo, Wanlun Ma, Lingyu Shen, Xi Xiao, Sheng Wen
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.27081v1)
+
+**摘要总结**：Fine-tuning is the dominant paradigm for specializing large language models (LLMs), yet it exposes a critical vulnerability: malicious data providers can embed harmful behaviors into downstream corpora, creating models that retain professional skills while violating human values on demand.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-cl` `cs-cr` `cs-lg`
+
+---
+
+### [ToxScreen: Detecting Whether an LLM Has Been Poisoned](https://arxiv.org/abs/2607.26849v1)
+
+**作者**：Anthony Hughes, Nicole Xing, Collin Francel, Andy Kim, Andrew Draganov
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.26849v1)
+
+**摘要总结**：As large language models (LLMs) are deployed in high-stakes domains, adversaries may poison training data to implant backdoors: hidden triggers that covertly manipulate model behavior at inference time.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-lg`
+
+---
+
+### [Borrowed Strength: Best-of-N Search over a Code EncodingBreaks Self-Check Jailbreak Defenses](https://arxiv.org/abs/2607.26639v1)
+
+**作者**：Haoyu Zhang, Shibo Zheng, Xiangchen Guan, Zhuoxi Wang, Zijian Xiao, Mohammad Zandsalimy, Shanu Sushmita
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.26639v1)
+
+**摘要总结**：A self-check defense asks the target model to assess a request before answering it; SAGE, the strongest published instance, reports an average 99% defense success rate.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
+
+---
+
+### [Recover, Decode, Reguard: Guard-Agnostic Defense Amplification againstEncoded VLM Jailbreaks](https://arxiv.org/abs/2607.26574v1)
+
+**作者**：Haoyu Zhang, Zhuoxi Wang, Shibo Zheng, Zijian Xiao, Xiangchen Guan, Mohammad Zandsalimy, Shanu Sushmita
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.26574v1)
+
+**摘要总结**：Safety classifiers ("guards") are the dominant black-box defense for vision-language models, yet they judge an input's surface form, not its meaning: a harmful request re-encoded as set theory, formal logic, a rare language, code, or an image of text slips past a guard that would block it in plain language -- the decode gap.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-lg`
+
+---
+
+### [Prosody-driven Jailbreaks in Audio LLMs: A Controlled Study and Mechanistic Analysis](https://arxiv.org/abs/2607.26541v1)
+
+**作者**：Jiachen Qian, Junyu Li
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.26541v1)
+
+**摘要总结**：Audio-capable foundation models enable end-to-end spoken interaction, but they also introduce safety risks beyond transcript content.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-sd` `cs-cl`
+
+---
+
+### [GPT-Red: Automated Red Teaming via Self-Play at Scale](https://arxiv.org/abs/2607.26115v1)
+
+**作者**：Eric Wallace, Christopher A. Choquette-Choo, Nikhil Kandpal, Sam Toyer, Dylan Hunn, Stephanie Lin, Yuxin Wen, Xiangyu Qi, et al.
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-07-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.26115v1)
+
+**摘要总结**：We introduce \textbf{GPT-Red}, an automated red-teaming agent that is trained to discover novel prompt injection attacks against frontier LLMs.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-cl` `cs-lg`
+
+---
 
 ### [Evaluation of Adversarial Robustness in Arabic Language Models](https://arxiv.org/abs/2607.25814v1)
 
@@ -276,13 +390,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-07-26 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.24866v1)
 
-**摘要总结**：暂无
+**摘要总结**：AI safety has a missing layer.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
@@ -330,13 +447,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-07-26 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.23496v1)
 
-**摘要总结**：暂无
+**摘要总结**：Safety-aligned large language models are trained to refuse harmful requests, yet embedding the same requests in particular scenarios can bypass their safeguards.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-cr`
 
 ---
 
@@ -1392,117 +1512,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-ai`
-
----
-
-### [Reducing information dependency does not cause training data privacy. Adversarially non-robust features do](https://arxiv.org/abs/2607.12354v1)
-
-**作者**：Rasmus Torp, Shailen K. Smith, Adam Breuer
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-14 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.12354v1)
-
-**摘要总结**：In this paper, we challenge the prevailing view that information dependency (including rote memorization) drives training data exposure to image reconstruction attacks.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-lg`
-
----
-
-### [Securing LLMs in the Wild: Privacy and Security Challenges at the Edge](https://arxiv.org/abs/2607.13088v1)
-
-**作者**：Ren-Yi Huang, Mingchen Li, Dumindu Samaraweera, Morris Chang
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-13 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.13088v1)
-
-**摘要总结**：Large Language Models (LLMs) are rapidly moving from research settings into the wild, deployed on enterprise infrastructure, personal devices, and edge platforms.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-lg`
-
----
-
-### [SingGuard-NSFA: Extensible Guardrails for Agentic AI via Generative Reasoning and Real-Time Classification](https://arxiv.org/abs/2607.13081v1)
-
-**作者**：SingGuard Team
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-13 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.13081v1)
-
-**摘要总结**：We present nsfaguard, a guardrail framework for securing agentic AI systems against operational threats, such as prompt injection, sensitive information extraction, malicious code requests, dangerous tool misuse, and resource exhaustion.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai` `cs-cl` `cs-lg`
-
----
-
-### [MJ: Multi-turn LLM Jailbreaking via Decomposed Credit Assignment](https://arxiv.org/abs/2607.11070v1)
-
-**作者**：Junyoung Park, Namgyu Park, Sechan Lee, Yoon-Chan Jhi, Jihoon Cho, Sangdon Park
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-13 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.11070v1)
-
-**摘要总结**：Modern large language models (LLMs) operate in interactive multi-turn settings, making multi-turn jailbreaking a realistic threat model and an important setting for automated red teaming.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cl`
-
----
-
-### [Distributed Denial of Science: How Indirect Data Poisoning of AI Systems Can Industrialize Scientific Fraud](https://arxiv.org/abs/2607.10712v1)
-
-**作者**：Bálint Gyevnár, Atoosa Kasirzadeh, Nihar B. Shah
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-12 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.10712v1)
-
-**摘要总结**：Scientific fraud is the instrument of doubt that malicious entities can use to establish controversy in science.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai` `cs-dl`
-
----
-
-### [NetInjectBench: Benchmarking Indirect Prompt Injection in Tool-Using Large Language Model Agents for Network Operations](https://arxiv.org/abs/2607.10490v1)
-
-**作者**：Ruksat Khan Shayoni, Muhammad Faraz Shoaib, S M Asif Hossain, M. F. Mridha
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.10490v1)
-
-**摘要总结**：Tool-using large language model (LLM) agents are attractive for network operations, but tickets, alerts, logs, runbooks, and ChatOps messages can carry indirect prompt injections.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-lg`
