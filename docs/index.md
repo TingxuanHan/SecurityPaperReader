@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-08-01 07:31 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-08-02 07:26 Asia/Shanghai
 
 ## 今日论文
 
@@ -162,13 +162,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-07-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.27373v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large language models (LLMs) are becoming increasingly integrated into mainstream development platforms and daily technological workflows, typically behind moderation and safety controls.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -634,13 +637,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-07-25 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.23365v1)
 
-**摘要总结**：暂无
+**摘要总结**：Artificial intelligence (AI) systems are increasingly deployed in high-stakes domains such as healthcare, autonomous driving, finance, and education.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-se` `cs-ai` `cs-cr`
 
 ---
 
@@ -650,13 +656,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-07-25 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.23088v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large Language Models (LLMs) are widely used for code generation, yet their security behavior in realistic development workflows remains underexplored.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -666,13 +675,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-07-24 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.22925v1)
 
-**摘要总结**：暂无
+**摘要总结**：A key question for AI safety is whether a language model expresses all of its reasoning in its output tokens.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl` `cs-ai` `cs-lg`
 
 ---
 
