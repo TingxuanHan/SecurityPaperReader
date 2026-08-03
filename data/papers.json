@@ -1,5 +1,114 @@
 [
   {
+    "id": "arxiv:2607.29254v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Tool Specifications Matter: Uncovering and Mitigating Safety Risks in AI Agents",
+    "authors": [
+      "Minghui Pan",
+      "Jiayuxuan Yang",
+      "Yuanyuan Yuan",
+      "Yu Jiang",
+      "Zhenpeng Chen"
+    ],
+    "abstract": "AI agents extend large language models (LLMs) with external tools, enabling them to perform complex tasks and translate model outputs into consequential real-world actions. Yet LLMs often become substantially less safe when deployed as agents, and the source of this degradation remains poorly understood. In this paper, we identify schema-formatted tool specifications as a primary source of agent safety degradation and show, through white-box representation analysis, that they weaken the model's internal refusal signals and contribute to unsafe tool execution. Building on this finding, we propose SafeKeep, an inference-time safeguard that decouples safety judgment from tool execution: it assesses requests using flattened textual tool specifications while retaining the original schema-formatted specifications for execution. Across two representative benchmarks and four LLMs, including both white-box and black-box models, SafeKeep increases the average refusal rate for harmful requests from 23.8% to 70.6% and reduces the average attack success rate under observation-level prompt injection from 25.6% to 2.5%. It also outperforms existing safeguards and preserves task-handling capability. We release the code and data at https://github.com/snowcatsmoking/SafeKeep .",
+    "published": "2026-07-31T10:25:04Z",
+    "updated": "2026-07-31T10:25:04Z",
+    "url": "https://arxiv.org/abs/2607.29254v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.29254v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "AI agents extend large language models (LLMs) with external tools, enabling them to perform complex tasks and translate model outputs into consequential real-world actions.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-08-03T23:35:38.967977+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-08-03T23:32:21.082247+00:00"
+  },
+  {
+    "id": "arxiv:2607.29062v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "On the Generalization of Steering Vectors for Chain-of-Thought Faithfulness",
+    "authors": [
+      "Matthew Nguyen",
+      "Kyle Cox",
+      "Austin Meek",
+      "Iván Arcuschin"
+    ],
+    "abstract": "Model capabilities have improved in large part due to scaling chain of thought. This has been a promising development for AI safety--where models verbalize their reasoning, it is possible to monitor it. However, in some cases, models do not verbalize important steps in their reasoning process. For example, models prompted with a cue suggesting the incorrect answer may fail to acknowledge that cue, even when it appears instrumental to their conclusion. When chain of thought (CoT) fails to disclose instrumental reasoning steps, we describe it as unfaithful. Prior work has shown that activation steering can be a useful method to improve faithfulness in CoT. We extend this line of work by studying how well steering for faithfulness generalizes across cue types, datasets, and methods of constructing the steering vector for three models (Gemma-3 4B, Qwen-3.5 9B, Gemma-3 12B) in a cued question-answering setting. While steering reliably increases cue acknowledgment for only the largest model (Gemma-3 12B), we find that when steering is effective, its effect generalizes broadly across cue types and datasets--in cross-cue and cross-dataset analyses, effect size is determined primarily by the evaluation setting, rather than the vector's train setting. How the vector is built also matters little--four construction methods, including one whose optimization target mentions no specific cue, yield similar effect sizes. Finally, we consider the possibility that steering promotes the salience of the cue and causes greater cue use, rather than targeting verbalization behaviors. However, we find no evidence for this--steering leaves the rate of cue use roughly unchanged while reducing hidden cue use, i.e., cue use that is not acknowledged.",
+    "published": "2026-07-31T06:30:45Z",
+    "updated": "2026-07-31T06:30:45Z",
+    "url": "https://arxiv.org/abs/2607.29062v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.29062v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Model capabilities have improved in large part due to scaling chain of thought.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-08-03T23:35:38.968098+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-08-03T23:32:21.082378+00:00"
+  },
+  {
+    "id": "arxiv:2607.28881v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Fragility of Value under Imperfect Alignment",
+    "authors": [
+      "Winter Cross"
+    ],
+    "abstract": "As more responsibility is placed upon AI systems, it becomes increasingly important to guarantee that these systems are aligned with humanity. A common fear in AI safety is that human value is fragile -- that is, optimizing too heavily for an imperfect proxy to human values will lead to a catastrophic outcome. In this paper, we present a model of the alignment problem where an agent undergoes idealized alignment training that guarantees its value function satisfies a proxy condition before optimizing the world. Our primary results identify conditions on the human value function and the accuracy of several proxy conditions under which an agent with an $η$-catastrophic value function, one that is guaranteed to take the expectation of human value below $η$ in the limit of optimizing power, would be deployed. Our results highlight the danger of overoptimization and motivate AI designs that limit optimization pressure, such as quantilizers, rather than relying solely on pre-deployment training.",
+    "published": "2026-07-30T22:52:34Z",
+    "updated": "2026-07-30T22:52:34Z",
+    "url": "https://arxiv.org/abs/2607.28881v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.28881v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "As more responsibility is placed upon AI systems, it becomes increasingly important to guarantee that these systems are aligned with humanity.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-08-03T23:35:38.968194+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-08-03T23:32:21.082459+00:00"
+  },
+  {
     "id": "arxiv:2607.28226v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -81,6 +190,48 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-07-31T23:27:43.584219+00:00"
+  },
+  {
+    "id": "arxiv:2607.28165v2",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Piggybacking on Perception: Stealthy Concurrent Audio Prompt Injections against Multimodal LLM Agents",
+    "authors": [
+      "Mingxiao Liu",
+      "Yitong Li",
+      "Haoren Zhao",
+      "Yaoxiang Bian",
+      "Jianan Ma",
+      "Jian Zhang",
+      "Jialuo Chen",
+      "Xinhao Deng",
+      "Zhen Wang"
+    ],
+    "abstract": "Large Language Model (LLM)-driven multimodal agents are increasingly deployed to execute autonomous tasks via continuous audio interaction. While this paradigm enhances interaction naturalness, it introduces a critical yet under-explored attack surface, as audio inputs inevitably contain environmental noise beyond user control. In this paper, we investigate concurrent audio prompt injection attacks targeting multimodal agents. Distinct from traditional acoustic attacks on voice devices, we propose novel techniques for instruction augmentation and scenario concealment. These methods allow malicious audio instructions to imperceptibly \"piggyback\" onto user speech, thereby hijacking agents to execute malicious actions. To systematically quantify this threat, we construct AudioAgentSecurity, the first comprehensive benchmark for audio instruction injection attacks, encompassing 8 real-world task scenarios and 10 distinct attack patterns. We evaluate 11 state-of-the-art agents, including Gemini 3 Pro and GPT-4o-audio. Notably, our methods achieve an average Attack Success Rate (ASR) of 69.10\\% against the advanced Gemini 3 Pro. To counter this threat, we further introduce Cascaded Audio Decoupling and Verification (CADV), a defense mechanism based on source separation and consistency analysis. Compared with existing prompt-level defenses, CADV achieving up to 96\\% detection accuracy and providing effective protection against a broad range of acoustic injection attacks. Finally, real-world experiments with human volunteers on Doubao AI Smartphone in diverse dynamic real-world scenarios confirm the attacks' high stealth and efficacy, while demonstrating that our defense reliably mitigates these vulnerabilities.",
+    "published": "2026-07-30T13:04:15Z",
+    "updated": "2026-07-31T04:07:45Z",
+    "url": "https://arxiv.org/abs/2607.28165v2",
+    "pdf_url": "https://arxiv.org/pdf/2607.28165v2",
+    "categories": [
+      "cs.CR"
+    ],
+    "analysis": {
+      "summary": "Large Language Model (LLM)-driven multimodal agents are increasingly deployed to execute autonomous tasks via continuous audio interaction.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-08-03T23:35:38.968294+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-08-03T23:32:21.082682+00:00"
   },
   {
     "id": "arxiv:2607.27995v1",
@@ -235,6 +386,46 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-07-31T23:27:43.584688+00:00"
+  },
+  {
+    "id": "arxiv:2607.28685v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Safety, or Just Capability? A Validity Audit of Agent-Safety Benchmarks",
+    "authors": [
+      "Youting Wang",
+      "Xiao Han",
+      "Dingyan Shang",
+      "Yuan Tang",
+      "Bowen Liu"
+    ],
+    "abstract": "Agent-safety benchmarks measure different behaviors, and their scores get quoted interchangeably as an agent's safety. We treat four of them (R-Judge, InjecAgent, AgentHarm, AgentDojo) as measurements to be validated, running each under its official implementation and author-provided scorer on up to 22 models, with MMLU and GPQA measured by us under one protocol as a capability composite. The metric is the first problem. On any binary trace-judgment benchmark scored by $F_1$, an ``always positive'' policy attains $F_1 = 2π/(1+π)$; on R-Judge that is $0.690$, above five of the 21 models that actually discriminate. The three broad-coverage benchmarks then rank the same 18 models differently, and the trade-off behind that disagreement is a small-panel artifact: R-Judge specificity against AgentHarm safety correlates $-0.64$ at $n{=}7$ and $+0.02$ at $n{=}18$, and a quarter of random size-7 subsets reach $|ρ| \\geq 0.5$ around that near-zero value. Held-out validity turns on which outcome you pick. Capability predicts task success ($ρ{=}{+}0.60$) but correlates negatively with misalignment safety ($ρ{=}{-}0.44$, $n{=}21$). On their paired $n{=}20$ panel, the corresponding contrast is $Δ{=}{-}1.00$ (95% CI $[-1.48, -0.49]$, $p<0.001$), and it survives leave-one-organization-out and organization-clustered bootstrap analyses. On an expanded 41-model panel, the misalignment correlation weakens to $-0.16$ (95% CI $[-0.54, +0.22]$) and jailbreak strengthens to $+0.34$, though neither change is significant. \\mbox{AgentHarm} shows the strongest held-out association, $ρ{=}{+}0.72$ with three-template jailbreak safety after controlling capability. But both instruments score harmful compliance, so this is evidence of convergent validity rather than general safety. Naming the benchmark, metric, target behavior, and model panel is the minimum a safety claim needs.",
+    "published": "2026-07-30T03:45:10Z",
+    "updated": "2026-07-30T03:45:10Z",
+    "url": "https://arxiv.org/abs/2607.28685v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.28685v1",
+    "categories": [
+      "cs.AI",
+      "cs.IR"
+    ],
+    "analysis": {
+      "summary": "Agent-safety benchmarks measure different behaviors, and their scores get quoted interchangeably as an agent's safety.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai",
+        "cs-ir"
+      ],
+      "analyzed_at": "2026-08-03T23:35:38.968401+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-08-03T23:32:21.083248+00:00"
   },
   {
     "id": "arxiv:2607.27604v1",
@@ -2992,188 +3183,5 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-07-17T23:12:30.815208+00:00"
-  },
-  {
-    "id": "arxiv:2607.14432v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "The Adversarial Robustness of Sketching and Streaming Algorithms",
-    "authors": [
-      "David P. Woodruff",
-      "Samson Zhou"
-    ],
-    "abstract": "Sketching and streaming algorithms are vital for handling massive datasets. While classical methods guarantee correctness on fixed inputs, they often fail with adaptive inputs, where future data depends on past algorithm outputs. This is common in settings such as optimization, databases, finance, and network monitoring. This monograph surveys recent advances in adversarial robustness, including techniques for insertion-only streams, connections to differential privacy, and cryptographic methods that achieve adversarial robustness. We also discuss fundamental limitations, especially for linear sketches and streams with insertions and deletions, where robustness often requires polynomial space or sketching dimension. Throughout, we explore core problems like adaptively answering queries for optimization problems, norm estimation, frequency moments, and heavy hitters, and highlight emerging tools and open challenges at the intersection of streaming, sketching, privacy, and adversarial robustness.",
-    "published": "2026-07-15T23:55:51Z",
-    "updated": "2026-07-15T23:55:51Z",
-    "url": "https://arxiv.org/abs/2607.14432v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.14432v1",
-    "categories": [
-      "cs.DS"
-    ],
-    "analysis": {
-      "summary": "Sketching and streaming algorithms are vital for handling massive datasets.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ds"
-      ],
-      "analyzed_at": "2026-07-17T23:15:46.686518+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-17T23:12:30.815291+00:00"
-  },
-  {
-    "id": "arxiv:2607.14357v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "When Is Delegated Play Truthful? Within-Range Regret and the Trilemma of Aligned Delegation",
-    "authors": [
-      "Taksch Dube"
-    ],
-    "abstract": "Advertisers delegate bidding to autobidders; users delegate tasks to language-model agents. A person describes what they want to an automated proxy that acts in a mechanism on their behalf. This is the revelation principle in production, and it forces a question classical theory assumes away: when is it optimal to describe yourself honestly to your own proxy? We show the answer turns on one quantity, the proxy's within-range regret. The most a principal can gain by misreporting equals the regret of the proxy's honest-report action against those the principal could have steered it to take. Honest self-description is optimal exactly when the proxy already plays the best action it can reach, that is, when it is loyal (Theorem 1). The identity unifies auction-specific autobidding results and pins down when the faithful-communication assumption behind language-model elicitation proxies (Huang et al.) holds. The identity constrains guardrails placed on proxies, from bid caps to a model's alignment layer. No guardrail can be at once binding (it displaces the truthful action from the proxy's best reachable outcome), truthful (honest reporting stays optimal), and capability-preserving (that outcome stays reachable through some report); any two preclude the third (Theorem 2). A safety constraint that alters what a model does while leaving its best output reachable makes honest description of intent suboptimal, so a sharper report can gain. This is the incentive behind prompt-engineering and jailbreaking. Because within-range regret is #P-hard to compute exactly, we estimate it from samples and maintain it as a model is updated, at a cost set by how far the model drifts, not how often it changes. Running it on production language models from five providers under an alignment-style cap, we find honest reporting leaves surplus unclaimed on every model, recovered by inflating the report.",
-    "published": "2026-07-15T20:45:21Z",
-    "updated": "2026-07-15T20:45:21Z",
-    "url": "https://arxiv.org/abs/2607.14357v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.14357v1",
-    "categories": [
-      "cs.GT",
-      "cs.MA",
-      "econ.TH"
-    ],
-    "analysis": {
-      "summary": "Advertisers delegate bidding to autobidders; users delegate tasks to language-model agents.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-gt",
-        "cs-ma",
-        "econ-th"
-      ],
-      "analyzed_at": "2026-07-17T23:15:46.686612+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-17T23:12:30.815391+00:00"
-  },
-  {
-    "id": "arxiv:2607.14006v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Rethinking Penetration Testing for AI-Enabled Systems: From Resource Compromise to Behavioral Objective Violation",
-    "authors": [
-      "Mohammad Allahbakhsh",
-      "Mohammad Hassan Bahari",
-      "Moslem Attar-Raouf"
-    ],
-    "abstract": "Penetration testing traditionally evaluates whether adversaries can exploit weaknesses in software, infrastructure, configurations, or operational controls to achieve security-relevant compromise. This paradigm remains necessary for AI-enabled systems, but it is no longer sufficient. In such systems, adversaries may influence prompts, retrieved content, sensor inputs, training data, memory, tools, or human-AI interaction loops to alter system behavior without directly compromising the underlying infrastructure. This paper reframes penetration testing for AI-enabled systems as objective-driven behavioral evaluation. We define an AI-enabled system as one in which learned models materially influence behavior affecting operational outcomes, and we define AI-enabled penetration as the feasible induction of AI-governed behavior that violates one or more operational objectives under an explicit threat model. This definition preserves conventional penetration testing while extending it to adversarial pathways such as prompt injection, indirect prompt injection, data poisoning, sensor manipulation, retrieval poisoning, tool misuse, and agentic misalignment. We further propose a testing workflow that identifies operational objectives, maps AI-governed behavior, analyzes adversarial influence surfaces, defines behavioral failure criteria, executes scenario-based tests, and reports evidence linking adversarial action to objective violation. A running example involving an AI-enabled security operations center assistant illustrates how penetration may occur through behavioral influence rather than infrastructure compromise. Together, the definitions, workflow, and example provide a technical framework for evaluating adversarial success in deployed AI-enabled systems.",
-    "published": "2026-07-15T16:36:54Z",
-    "updated": "2026-07-15T16:36:54Z",
-    "url": "https://arxiv.org/abs/2607.14006v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.14006v1",
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Penetration testing traditionally evaluates whether adversaries can exploit weaknesses in software, infrastructure, configurations, or operational controls to achieve security-relevant compromise.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-07-16T23:18:27.565241+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-16T23:15:05.320966+00:00"
-  },
-  {
-    "id": "arxiv:2607.14194v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Inference-Time Concept Suppression and Video-Centric Evaluation for Text-to-Video Models",
-    "authors": [
-      "Wenxuan Chen",
-      "Wenjie Feng"
-    ],
-    "abstract": "Text-to-video (T2V) generators can synthesize realistic and temporally coherent videos, but controllably removing a target concept from a generator remains difficult. Unlike text-to-image concept erasure, T2V unlearning must suppress a target concept that may persist across frames while preserving non-target subjects, actions, scenes, and temporal structure. We propose \\textbf{SIRUS}, a training-free inference-time framework for concept-level T2V unlearning. Given textual aliases of a target concept, SIRUS localizes target-related prompt evidence and suppresses target expression during sampling, without updating the text encoder or denoising network. We further introduce a video-oriented evaluation framework for T2V unlearning that separately measures target forgetting, non-target preservation, video quality, jailbreak robustness, and efficiency, using video-level failure criteria, frame-level residue statistics, paired preservation analysis, VBench-based quality diagnostics, and deployment overhead measurement. Across five safety, object, and style concepts on CogVideoX, SIRUS reaches 70.4\\% average forgetting success and 25.7\\% average frame hit, compared with 44.4\\% / 47.2\\% for VideoEraser, while reducing the average VBench quality drop from -0.043 to -0.016, yielding the strongest forgetting-quality trade-off among fully evaluated baselines. Transfer experiments on Wan2.2 further suggest that SIRUS generalizes across modern T2V backbones.",
-    "published": "2026-07-15T16:26:09Z",
-    "updated": "2026-07-15T16:26:09Z",
-    "url": "https://arxiv.org/abs/2607.14194v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.14194v1",
-    "categories": [
-      "cs.CV",
-      "cs.LG"
-    ],
-    "analysis": {
-      "summary": "Text-to-video (T2V) generators can synthesize realistic and temporally coherent videos, but controllably removing a target concept from a generator remains difficult.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cv",
-        "cs-lg"
-      ],
-      "analyzed_at": "2026-07-17T23:15:46.686701+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-17T23:12:30.815588+00:00"
-  },
-  {
-    "id": "arxiv:2607.13987v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Agent Skill Security: Threat Models, Attacks, Defenses, and Evaluation",
-    "authors": [
-      "Sanket Badhe",
-      "Priyanka Tiwari"
-    ],
-    "abstract": "Reusable skills are becoming a fundamental building block of Large Language Model (LLM) agents, enabling capabilities to be packaged, shared, and reused across diverse applications. However, existing security research primarily focuses on prompt injection and runtime execution, leaving security risks throughout the broader skill lifecycle largely unexplored. In this paper, we present SkillSec-Eval, a lifecycle-aware framework for systematically evaluating the security of reusable agent skills. We first characterize the skill lifecycle and develop a threat taxonomy spanning repository admission, semantic retrieval, planner selection, execution, and skill evolution. We then instantiate this taxonomy in SkillSec-Eval and conduct a comprehensive empirical evaluation using a repository of 327 real-world skills. Our study demonstrates that vulnerabilities arise at multiple lifecycle stages beyond execution, highlighting the need for lifecycle-aware security analysis of reusable agent skills.",
-    "published": "2026-07-15T16:15:46Z",
-    "updated": "2026-07-15T16:15:46Z",
-    "url": "https://arxiv.org/abs/2607.13987v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.13987v1",
-    "categories": [
-      "cs.CR"
-    ],
-    "analysis": {
-      "summary": "Reusable skills are becoming a fundamental building block of Large Language Model (LLM) agents, enabling capabilities to be packaged, shared, and reused across diverse applications.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr"
-      ],
-      "analyzed_at": "2026-07-16T23:18:27.565353+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-16T23:15:05.321080+00:00"
   }
 ]
