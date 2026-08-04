@@ -1,8 +1,208 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-08-04 07:35 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-08-05 07:34 Asia/Shanghai
 
 ## 今日论文
+
+### [Invisible Ink Threats: Adversarial Goals Behind Legitimate Tasks in Computer-Use Agents](https://arxiv.org/abs/2608.02018v1)
+
+**作者**：Jia-Chen Zhang, Ze-Yu Zhang, Kai-Wei Zhang
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-03 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.02018v1)
+
+**摘要总结**：Computer-use agents (CUAs), which empower large language models to autonomously operate operating systems and the web, are increasingly vulnerable to indirect prompt injection attacks.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv`
+
+---
+
+### [Mitigating Visual Degradation in MLLMs via Spatial-Spectral Visual Anchor Learning](https://arxiv.org/abs/2608.01635v1)
+
+**作者**：Qianlong Yang, Bowen Ye, Xianda Guo, Yanlun Peng, Wenke Huang, Hongyuan Zhang, Yulei Jia
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-03 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.01635v1)
+
+**摘要总结**：Despite the progress of multimodal large language models (MLLMs), they continue to exhibit deficiencies in visual perception.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv`
+
+---
+
+### [No Single Neuron of Failure: Distributed Safety Alignment Against White-Box Attacks](https://arxiv.org/abs/2608.01414v1)
+
+**作者**：Simiao Xie, Chuancheng Shi, Shangze Li, Wenhua Wu, Fei Shen, Ying Zhou, Zhiyong Wang, Tat-Seng Chua
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-02 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.01414v1)
+
+**摘要总结**：With the rapid release of open-weight large foundation models, safety threats are shifting from black-box jailbreaks to neuron-level white-box attacks that directly identify and manipulate safety-related neurons.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-cr`
+
+---
+
+### [DreamTrajectory: Trajectory-Guided Action Generation with World Model Alignment for Mobile Manipulation](https://arxiv.org/abs/2608.01381v1)
+
+**作者**：Zheng Yang, Wenjie Zhang, Xiangyu Chen, Wenxuan Song, Xianpeng Wang, Yihang Kang, Wen Chen, Lujia Wang, et al.
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-02 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.01381v1)
+
+**摘要总结**：Mobile manipulation requires a robot to coordinate base and arm motion under continuously changing viewpoints and contact conditions, within an action space far larger than that of fixed-base manipulation.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ro`
+
+---
+
+### [The Boy Who Cried Wolf: Adversarial Misclassification of Safe Inputs as Unsafe in Multimodal Guardrails](https://arxiv.org/abs/2608.01373v1)
+
+**作者**：Shuo Shi, Rui Yin, Naen Xu, Jiahao Chen, Chunyi Zhou, Tianyu Du, Zhihui Fu, Jun Wang, et al.
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-02 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.01373v1)
+
+**摘要总结**：Multimodal guard models have emerged as critical safety components for screening content in vision-language systems.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
+
+---
+
+### [SoK: Intent-Oriented Systematization of Multi-Turn LLM Jailbreaks](https://arxiv.org/abs/2608.01117v1)
+
+**作者**：Siyuan Li, Aodu Wulianghai, Zehao Liu, Xi Lin, Qinghua Mao, Haoyu Li, Xiang Chen, Siyuan Liang, et al.
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-02 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.01117v1)
+
+**摘要总结**：Large Language Models (LLMs) are increasingly deployed in interactive settings, where user intent commonly unfolds through multi-turn dialogue.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
+
+---
+
+### [ReACT-CLIP: Response-Aware Test-Time Defense for Vision--Language Models](https://arxiv.org/abs/2608.01067v1)
+
+**作者**：Hashmat Shadab Malik, Toluwani Aremu, Samuele Poppi, Muzammal Naseer, Salman Khan
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-02 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.01067v1)
+
+**摘要总结**：Training-free test-time defenses offer a practical way to improve the adversarial robustness of CLIP-style vision--language models without modifying the pretrained model.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv`
+
+---
+
+### [Decoy Images Amplify Caption-Mediated Defenses Against Encoded Jailbreaks](https://arxiv.org/abs/2608.01043v1)
+
+**作者**：Haoyu Zhang, Xiangchen Guan, Shibo Zheng, Mohammad Zandsalimy, Shanu Sushmita
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-02 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.01043v1)
+
+**摘要总结**：We report a counter-intuitive interaction between image inputs and existing black-box defenses on Vision--Language Models (VLMs): pairing an encoded jailbreak prompt with an unrelated decoy image can sharply lower attack success rate (ASR).
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
+
+---
+
+### [Mind the Gap: Zero-Query Jailbreaks via Filter-Generator Discrepancy in Text-to-Image Systems](https://arxiv.org/abs/2608.00973v1)
+
+**作者**：Wanguang Li, Zhaoxin Wang, Handing Wang
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-02 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.00973v1)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
+
+### [Copyright Is the Headline; Capability Is the Blind Spot: AI Technology in the Book-Publishing Trade Press, November 2025--August 2026](https://arxiv.org/abs/2608.00964v1)
+
+**作者**：Fred Zimmerman
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-02 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.00964v1)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
+
+### [When Prompts Control Robots: Prompt Injection Attacks in Multi-Agent Robotic Systems](https://arxiv.org/abs/2608.00747v1)
+
+**作者**：Neha Nagaraja, Amisha Bagari, Hayretdin Bahsi
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-01 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.00747v1)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
 
 ### [Tool Specifications Matter: Uncovering and Mitigating Safety Risks in AI Agents](https://arxiv.org/abs/2607.29254v1)
 
@@ -1312,212 +1512,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-ai`
-
----
-
-### [Salience Induction against Multi-Hop RAG Agents: Threat and Defense](https://arxiv.org/abs/2607.17535v1)
-
-**作者**：Xingfu Zhou, Pengfei Wang, Yuan Zhou, Wei Xie, Xu Zhou
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-20 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.17535v1)
-
-**摘要总结**：Agentic retrieval-augmented generation (RAG) systems increasingly retrieve external evidence and orchestrate tools for knowledge-intensive applications.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-cl`
-
----
-
-### [Shared Vulnerabilities in Robustness-Optimized Defenses: One Breach Exposes the Family](https://arxiv.org/abs/2607.18339v1)
-
-**作者**：Hanrui Wang, Ruihao Zheng, Shuo Wang, Isao Echizen, Xingbo Dong, Zhe Jin
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-20 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.18339v1)
-
-**摘要总结**：Adversarial robustness optimization aims to preserve correct prediction under adversarial perturbations, and has produced substantial robustness gains through methods such as adversarial training and adversarial purification.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr`
-
----
-
-### [Between Safe Boundaries: Exploiting Temporal Consistency for Jailbreaking Text-To-Video Generation Models](https://arxiv.org/abs/2607.17279v1)
-
-**作者**：Xingkai Peng, Jun Jiang, Jiayang Liu, Kejiang Chen, Weiming Zhang
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-19 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.17279v1)
-
-**摘要总结**：Recently, text-to-video (T2V) models have been widely deployed, sparking growing concerns over their robustness against jailbreak attacks.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai` `cs-mm`
-
----
-
-### [How Jailbreak Attacks Inform Safety Alignment: A Defender-Centric, Shapley-Based Evaluation of Jailbreak Contributions](https://arxiv.org/abs/2607.17152v1)
-
-**作者**：Yukai Zhou, Feiyang Lu, Xiaokai Mao, Jinfei Liu, Wenjie Wang
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-19 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.17152v1)
-
-**摘要总结**：Jailbreak attacks on large language models are usually evaluated by attacker-centric metrics such as attack success rate (ASR), yet an attack that breaks a model is not necessarily useful for improving its safety.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-cl`
-
----
-
-### [Harmonizing AI Safety Thresholds](https://arxiv.org/abs/2607.16112v1)
-
-**作者**：Wilber Sean Anterola, Matthew Ball, Luis F. Lafuerza, Markov Grey
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-17 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.16112v1)
-
-**摘要总结**：Frontier AI companies have published capability thresholds that differ substantially, making it difficult for third parties to verify whether a threshold has been crossed or to compare requirements across companies.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai`
-
----
-
-### [Refusal is Not Safety! Benchmarking Latent Safety Risks of LLM-Driven Content Humorization](https://arxiv.org/abs/2607.15977v1)
-
-**作者**：Yu Cui, Ruiqing Yue, Tingyu Li, Sicheng Pan, Zhuoyu Sun, Xufeng Zhang, Baohan Huang, Haibin Zhang, et al.
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-17 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.15977v1)
-
-**摘要总结**：Safety defenses for large language models (LLMs) have been extensively studied, with existing approaches focusing on attack detection and refusal mechanisms.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr`
-
----
-
-### [From Neural Intent to Cryptographic Authorization: Governing Agentic Workflows](https://arxiv.org/abs/2607.15596v1)
-
-**作者**：Jiasi Weng, Jian Weng, Minrong Chen, Ming Li, Jia-Nan Liu, Zhi Li, Yue Zhang
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-17 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.15596v1)
-
-**摘要总结**：The rapid adoption of artificial intelligence (AI)-driven and agentic workflows is transforming traditional government and enterprise systems into language-based, tool-using and increasingly autonomous infrastructures.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr`
-
----
-
-### [Boundary-Seeking GAN-Augmented TabTransformer for Adversarially Robust Intrusion Detection](https://arxiv.org/abs/2607.16348v1)
-
-**作者**：Raihan Sultan Pasha Basuki, Aliyah Kurniasih
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-17 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.16348v1)
-
-**摘要总结**：Machine learning-based intrusion detection systems (IDSs) often suffer from class imbalance and vulnerability to adversarial attacks, leading to degraded detection performance and reduced robustness.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai` `cs-lg`
-
----
-
-### [MedFailBench: A Clinician-Built Open-Source Benchmark for Medical AI Safety Boundary Inspection](https://arxiv.org/abs/2607.15166v1)
-
-**作者**：Goktug Ozkan
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-16 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.15166v1)
-
-**摘要总结**：Most medical AI benchmarks measure whether a model knows the correct answer.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai` `cs-cl`
-
----
-
-### [Bad Memory: Evaluating Prompt Injection Risks from Memory in Agentic Systems](https://arxiv.org/abs/2607.14611v1)
-
-**作者**：Soham Gadgil, David Alexander, Sai Sunku, Franziska Roesner
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-16 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.14611v1)
-
-**摘要总结**：A growing class of agentic systems maintain persistent state across sessions through memory files, behavioral preferences, and knowledge bases.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai` `cs-ma`
-
----
-
-### [Context Contamination in LLM Analysis of Network Security Logs: Poison with Passive Prompt Injection and Mitigation Evaluation](https://arxiv.org/abs/2607.14493v1)
-
-**作者**：Rabimba Karanjai, Yang Lu, Hemanth Hegadehalli Madhavarao, Lei Xu, Weidong Shi
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-16 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.14493v1)
-
-**摘要总结**：Large Language Models are increasingly deployed in Security Operations Centers for log analysis tasks including summarization, alert triage, and threat investigation.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr`
