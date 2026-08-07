@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-08-07 09:38 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-08-08 07:06 Asia/Shanghai
 
 ## 今日论文
 
@@ -162,13 +162,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.05409v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large language models typically undergo post-training to align them with safety policies but there exist many sophisticated jailbreaks that sidestep established safeguards.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl`
 
 ---
 
@@ -178,13 +181,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.05108v1)
 
-**摘要总结**：暂无
+**摘要总结**：Prompt injection poses significant security risks to LLM agents.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
@@ -194,13 +200,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.05086v1)
 
-**摘要总结**：暂无
+**摘要总结**：Language models differ in how safely they behave and these differences are measured by safety benchmarks.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-cl`
 
 ---
 
@@ -210,13 +219,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.04741v1)
 
-**摘要总结**：暂无
+**摘要总结**：LLM-based web agents automate user tasks by observing webpages and executing browser actions on behalf of users.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
@@ -226,13 +238,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.04565v1)
 
-**摘要总结**：暂无
+**摘要总结**：LLM-based search agents are widely used for information-seeking tasks, but their reliance on external tool returns introduces a critical security risk: web content retrieved during execution is untrusted, exposing agents to prompt injection and goal hijacking.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-cl`
 
 ---
 
@@ -242,13 +257,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.04192v1)
 
-**摘要总结**：暂无
+**摘要总结**：Closed source agent skills may encode proprietary instructions, scripts, constants, and data.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-cl`
 
 ---
 
@@ -258,13 +276,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.04173v1)
 
-**摘要总结**：暂无
+**摘要总结**：Deep neural networks (DNNs) deployed on resource-constrained neuromorphic hardware face three concurrent challenges: the need for model compression through pruning, vulnerability to adversarial input perturbations, and susceptibility to hardware-induced weight faults such as stuck-at-zero errors.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-cr`
 
 ---
 
@@ -274,13 +295,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.04053v1)
 
-**摘要总结**：暂无
+**摘要总结**：Prompt injection remains a critical threat to LLM agents, yet existing defenses treat each task as a self-contained problem, independent of previous encounters.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
