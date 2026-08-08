@@ -1305,7 +1305,24 @@
       "cs.CR",
       "cs.MA"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Large language models are increasingly integrated into autonomous robotic systems for task planning and control, but this integration exposes them to prompt injection attacks that can lead to unsafe decisions and physical harm.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ro",
+        "cs-ai",
+        "cs-cr",
+        "cs-ma"
+      ],
+      "analyzed_at": "2026-08-08T22:56:06.054767+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-08-05T23:27:04.594255+00:00"
   },
   {
