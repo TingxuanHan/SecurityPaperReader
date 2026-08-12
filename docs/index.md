@@ -1,8 +1,208 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-08-12 07:11 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-08-13 07:10 Asia/Shanghai
 
 ## 今日论文
+
+### [How to Verify Consistency of Probabilistic Claims](https://arxiv.org/abs/2608.11181v1)
+
+**作者**：Orr Paradise, Oliver Richardson, Yoshua Bengio, Shafi Goldwasser
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.11181v1)
+
+**摘要总结**：When a probabilistic predictor answers many conditional-probability queries, are its answers self-consistent, and can this be verified in polynomial time?
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cc` `cs-ai` `cs-lg`
+
+---
+
+### [Data Attribution of Emergent Misalignment with Persona Features](https://arxiv.org/abs/2608.11025v1)
+
+**作者**：Clemens Vetter, David Kaczér, Lucie Flek, Florian Mai
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.11025v1)
+
+**摘要总结**：Emergent misalignment (EM) is the phenomenon where fine-tuning a language model on a narrow task leads to harmful behavior in unrelated domains.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl`
+
+---
+
+### [SafeCA: Safe Cross-Attention Localization and Regulation for Text-to-Video Jailbreak Defense](https://arxiv.org/abs/2608.10933v1)
+
+**作者**：Siyuan Liang, Yupeng Qiu, Junfeng Fang, Rong-Cheng Tu, Jiaxing Huang, Dacheng Tao
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.10933v1)
+
+**摘要总结**：Text-to-Video (T2V) generative models are vulnerable to jailbreak attacks in real-world deployment, leading them to produce harmful or inappropriate content.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv`
+
+---
+
+### [ProTAGAD: A Foundation Model for TAG Anomaly Detection with Decoupled Topological and Textual Prototypes](https://arxiv.org/abs/2608.10699v1)
+
+**作者**：Ziyan Wang, Liwen Wu, Cheng Xie, Song Gao, Zhenli He, Xin Jin
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.10699v1)
+
+**摘要总结**：Text-Attributed Graphs (TAGs), endowed with abundant textual content along with topological structures, have emerged as a versatile backbone for real-world anomaly detection spanning large language model security, social network moderation, and cyber threat identification.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-ai`
+
+---
+
+### [ProbGuard: Calibrated Safety Risk Estimation from LLM Output Distributions](https://arxiv.org/abs/2608.10621v1)
+
+**作者**：Xinzhe Huang, Biwu Yao, Kedong Xiu, Mengnan Zhao, Di Wang, Puning Zhao, Tianhang Zheng
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.10621v1)
+
+**摘要总结**：Recent research on Large Language Model (LLM) safety has widely adopted guardrails to identify unsafe LLM outputs.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg`
+
+---
+
+### [Measuring Semantic Abstractness of SAE Features via Nonlocality](https://arxiv.org/abs/2608.10537v1)
+
+**作者**：Chuqiao Lin, Shivaji Sondhi, Xiao-Liang Qi
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.10537v1)
+
+**摘要总结**：Sparse autoencoders (SAEs) have helped uncover mechanistic explanations for LLM behaviours such as reasoning, jailbreaking etc., via understanding the corresponding task-relevant and causally effective features.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-lg`
+
+---
+
+### [On Understanding, Identifying, and Mitigating Vulnerabilities in Agentic Large Language Models](https://arxiv.org/abs/2608.10530v1)
+
+**作者**：Md Jafrin Hossain, Mohammad Arif Hossain, Nirwan Ansari
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.10530v1)
+
+**摘要总结**：Large Language Models (LLMs) have undergone a shift from stateless conversational interfaces to autonomous agents capable of multi-step planning, tool invocation, code execution, and maintaining persistent memory.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
+
+---
+
+### [SafeCap: Improving LVLM Safety with Image Captioning Reinforcement Learning](https://arxiv.org/abs/2608.10513v1)
+
+**作者**：Caoyuan Ma, Wenpu Liu, Weichu Xie, Tian Gu, Shilei Zhao, Lingxi Min, Shuai Dong, Yuqi Xu, et al.
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.10513v1)
+
+**摘要总结**：Large vision-language models (LVLMs) remain vulnerable to jailbreak attacks that exploit visual inputs to bypass safety alignment inherited from their language backbones.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv` `cs-ai`
+
+---
+
+### [Hidden in Plain Sight: Diffusion-Based Unrestricted Robotic Attacks on Vision-Language-Action Models](https://arxiv.org/abs/2608.10393v1)
+
+**作者**：Jiahui Han, Yuhui Yao, Xin Wang, Jiafei Cao, Mingxuan Zhang, Danfeng Shan, Huiqi Deng, Guanchu Wang, et al.
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.10393v1)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
+
+### [Toward a Theory of Value in AI Alignment](https://arxiv.org/abs/2608.10327v1)
+
+**作者**：Andrew Smart, Shazeda Ahmed, Jackie Kay, Jimmy Tobin, Kris Shrishak, Abeba Birhane
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-10 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.10327v1)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
+
+### [From Prompt Injection to Web Exploitation: Revisiting Classic Vulnerabilities in LLM-Integrated Applications](https://arxiv.org/abs/2608.10281v1)
+
+**作者**：Spiros Tsigkopoulos, Christoforos Ntantogian
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-10 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.10281v1)
+
+**摘要总结**：暂无
+
+**创新点**
+
+- 暂无
+
+**推荐理由**：暂无
+
+---
 
 ### [Stealing Reasoning Traces from Proprietary LLM APIs](https://arxiv.org/abs/2608.09867v1)
 
@@ -1282,212 +1482,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-cr` `cs-ai` `cs-lg`
-
----
-
-### [Prosody-driven Jailbreaks in Audio LLMs: A Controlled Study and Mechanistic Analysis](https://arxiv.org/abs/2607.26541v1)
-
-**作者**：Jiachen Qian, Junyu Li
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.26541v1)
-
-**摘要总结**：Audio-capable foundation models enable end-to-end spoken interaction, but they also introduce safety risks beyond transcript content.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-sd` `cs-cl`
-
----
-
-### [GPT-Red: Automated Red Teaming via Self-Play at Scale](https://arxiv.org/abs/2607.26115v1)
-
-**作者**：Eric Wallace, Christopher A. Choquette-Choo, Nikhil Kandpal, Sam Toyer, Dylan Hunn, Stephanie Lin, Yuxin Wen, Xiangyu Qi, et al.
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.26115v1)
-
-**摘要总结**：We introduce \textbf{GPT-Red}, an automated red-teaming agent that is trained to discover novel prompt injection attacks against frontier LLMs.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai` `cs-cl` `cs-lg`
-
----
-
-### [Evaluation of Adversarial Robustness in Arabic Language Models](https://arxiv.org/abs/2607.25814v1)
-
-**作者**：Anwar Alajmi, Ayed Salman, Imtiaz Ahmad
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.25814v1)
-
-**摘要总结**：The emergence of the recent outstanding capabilities of Arabic Language Models has opened doors for exposing their vulnerabilities.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cl` `cs-cr`
-
----
-
-### [Rashomon Alignment](https://arxiv.org/abs/2607.25680v1)
-
-**作者**：Moisés Santos, Peter van der Putten, Bernhard Pfahringer, Carlos Soares
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.25680v1)
-
-**摘要总结**：We propose Rashomon Alignment (RA), a new measure to assess functional similarity between two models.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-lg` `cs-ai`
-
----
-
-### [SignDeepSC: A Semantic Signature-based Approach for Robust Semantic Communication](https://arxiv.org/abs/2607.25676v1)
-
-**作者**：Khalil Alhaj, Razane Tajeddine, Hadi Sarieddeen
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.25676v1)
-
-**摘要总结**：Semantic communication systems such as deep semantic communication (DeepSC) offer high efficiency but are vulnerable to adversarial attacks on their underlying neural networks.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `eess-sp`
-
----
-
-### [Why Public Service AI Governance Frameworks Risk Failing in the Age of General-Purpose AI: Lessons from Policing](https://arxiv.org/abs/2607.25648v1)
-
-**作者**：Sam Relins, Daniel Birks
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.25648v1)
-
-**摘要总结**：Public services face growing pressure to adopt artificial intelligence (AI) to close the gap between rising demand and falling resources.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cy` `cs-ai`
-
----
-
-### [Inspect India Evals: An Open Benchmarking Framework for Evaluating Large Language Models in the Indian Linguistic and Cultural Context](https://arxiv.org/abs/2607.25375v1)
-
-**作者**：Abhishek Kumar Singh, Shrey Nag, Sachita, Lipi Goel, Rajeshwar Singh Janwar
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.25375v1)
-
-**摘要总结**：India is a vast nation of over 1.4 billion people, varied by hundreds of diverse and locally specific traditions and cultures and 22 officially recognized languages.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cl`
-
----
-
-### [SafeFlow: Semantic Information-Flow Control for Blocking Malicious Propagation in Multi-Agent Systems](https://arxiv.org/abs/2607.25255v1)
-
-**作者**：Haowen Dai, Zonghao Ying, Wenfeng Li, Xiangfan Wu, Yisong Xiao, Tianyuan Zhang, Jiaye Lin, Lei Wei, et al.
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.25255v1)
-
-**摘要总结**：Multi-agent systems improve capability through task decomposition and role specialization, but these same mechanisms introduce an important safety blind spot: a harmful objective can be fragmented into locally plausible subtasks, allowing malicious intent to evade detection by any single agent.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ma` `cs-cr`
-
----
-
-### [Inverse RL Helps Align AI by Imitating Humans](https://arxiv.org/abs/2607.24900v1)
-
-**作者**：Michał Wiliński, Liu Leqi, Chirag Nagpal
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-27 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.24900v1)
-
-**摘要总结**：Language model alignment aims to make model behavior reliably reflect desirable properties such as helpfulness, safety, and instruction following.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-lg`
-
----
-
-### [TYPO: Instruction-Dense Visual Jailbreaks against Commercial Closed-Source Image-Generation Models](https://arxiv.org/abs/2607.24897v1)
-
-**作者**：Meng Xie, Li Zeng, Hangtao Zhang, Xianlong Wang, Ziqi Zhou, Pengpeng Qiao, Zhetao Li
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-27 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.24897v1)
-
-**摘要总结**：Recent commercial image-generation models can generate high-quality images with readable text (e.g., posters, infographics, and manuals), attracting considerable attention.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr`
-
----
-
-### [Agentic Permissions Policy Algebra for Taint Confinement in LLM Agents](https://arxiv.org/abs/2607.24625v1)
-
-**作者**：Arseny Kravchenko, Vadim Liventsev, Innokentii Konstantinov, Ildar Iskhakov, Matvey Kukuy
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-27 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.24625v1)
-
-**摘要总结**：Autonomous LLM agents processing mixed-confidentiality data face severe security risks from prompt injection attacks and reasoning errors.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai`
