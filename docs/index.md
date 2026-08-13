@@ -1,8 +1,84 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-08-13 07:10 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-08-14 07:12 Asia/Shanghai
 
 ## 今日论文
+
+### [Rethinking Agent Security as a Networking Problem](https://arxiv.org/abs/2608.12172v1)
+
+**作者**：Van Tran, Taveesh Sharma, Tajveer Singh Dhesi, Nick Feamster
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-12 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.12172v1)
+
+**摘要总结**：AI agents are rapidly becoming more capable and widely deployed, promising substantial gains in productivity and enabling new classes of applications.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ma`
+
+---
+
+### [Philosophical vertigo with artificial intelligence](https://arxiv.org/abs/2608.11955v1)
+
+**作者**：Thomas A. Pollak, Hamilton Morrin, Murray Shanahan
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-12 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.11955v1)
+
+**摘要总结**：Large language models are already adept at engaging users in long, emotionally salient conversations across ordinary and existential domains.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cy` `cs-hc`
+
+---
+
+### [ToolHazard: Scaling Adversarial Environments for Security Evaluation and Alignment of LLM-based Agents](https://arxiv.org/abs/2608.11878v1)
+
+**作者**：Yutao Mou, Pengfei Yang, Zhe Yin, Zhangchi Xue, Xiaotian Luan, Dingyao Yu, Tong Zhang, Shikun Zhang, et al.
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-12 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.11878v1)
+
+**摘要总结**：Large language model (LLM) agents integrated with external tools are vulnerable to indirect prompt injections embedded in environmental states.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-cl`
+
+---
+
+### [Understanding Content Moderation in Large Language Models through Restricted Books: From Refusal to Warning](https://arxiv.org/abs/2608.11806v1)
+
+**作者**：Xucheng Yu, Emily Knox, Haohan Wang
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-12 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.11806v1)
+
+**摘要总结**：As large language models enter everyday information pipelines, understanding how they handle sensitive topics matters as much as understanding whether they handle them at all.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cy`
+
+---
 
 ### [How to Verify Consistency of Probabilistic Claims](https://arxiv.org/abs/2608.11181v1)
 
@@ -99,6 +175,25 @@
 
 ---
 
+### [Agent Safety Should Be a Runtime Contract](https://arxiv.org/abs/2608.11274v1)
+
+**作者**：Albus W. Ng, Yi Han, Jusheng Zhang, Wenhao Wang
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.11274v1)
+
+**摘要总结**：The dominant paradigm treats AI safety as a property to be instilled during model training via RLHF, DPO, or Constitutional AI.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
+
+---
+
 ### [Measuring Semantic Abstractness of SAE Features via Nonlocality](https://arxiv.org/abs/2608.10537v1)
 
 **作者**：Chuqiao Lin, Shivaji Sondhi, Xiao-Liang Qi
@@ -162,13 +257,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.10393v1)
 
-**摘要总结**：暂无
+**摘要总结**：Vision-Language-Action (VLA) models have shown strong capabilities in controlling robots across diverse manipulation tasks.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-ro`
 
 ---
 
@@ -178,13 +276,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-10 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.10327v1)
 
-**摘要总结**：暂无
+**摘要总结**：Can AI systems be aligned to human values?
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
 
 ---
 
@@ -194,13 +295,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-10 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.10281v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large Language Models are increasingly integrated into web applications through chatbots, tool-calling pipelines, and agentic workflows.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
@@ -1387,98 +1491,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-ai`
-
----
-
-### [RoguePrompt: Dual-Layer Encoding for Self-Reconstruction to Circumvent LLM Moderation](https://arxiv.org/abs/2607.27373v1)
-
-**作者**：Benyamin Tafreshian, Prathamesh Dhake
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.27373v1)
-
-**摘要总结**：Large language models (LLMs) are becoming increasingly integrated into mainstream development platforms and daily technological workflows, typically behind moderation and safety controls.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai`
-
----
-
-### [On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment](https://arxiv.org/abs/2607.27081v1)
-
-**作者**：Yongjian Guo, Wanlun Ma, Lingyu Shen, Xi Xiao, Sheng Wen
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.27081v1)
-
-**摘要总结**：Fine-tuning is the dominant paradigm for specializing large language models (LLMs), yet it exposes a critical vulnerability: malicious data providers can embed harmful behaviors into downstream corpora, creating models that retain professional skills while violating human values on demand.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai` `cs-cl` `cs-cr` `cs-lg`
-
----
-
-### [ToxScreen: Detecting Whether an LLM Has Been Poisoned](https://arxiv.org/abs/2607.26849v1)
-
-**作者**：Anthony Hughes, Nicole Xing, Collin Francel, Andy Kim, Andrew Draganov
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.26849v1)
-
-**摘要总结**：As large language models (LLMs) are deployed in high-stakes domains, adversaries may poison training data to implant backdoors: hidden triggers that covertly manipulate model behavior at inference time.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-lg`
-
----
-
-### [Borrowed Strength: Best-of-N Search over a Code EncodingBreaks Self-Check Jailbreak Defenses](https://arxiv.org/abs/2607.26639v1)
-
-**作者**：Haoyu Zhang, Shibo Zheng, Xiangchen Guan, Zhuoxi Wang, Zijian Xiao, Mohammad Zandsalimy, Shanu Sushmita
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.26639v1)
-
-**摘要总结**：A self-check defense asks the target model to assess a request before answering it; SAGE, the strongest published instance, reports an average 99% defense success rate.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai`
-
----
-
-### [Recover, Decode, Reguard: Guard-Agnostic Defense Amplification againstEncoded VLM Jailbreaks](https://arxiv.org/abs/2607.26574v1)
-
-**作者**：Haoyu Zhang, Zhuoxi Wang, Shibo Zheng, Zijian Xiao, Xiangchen Guan, Mohammad Zandsalimy, Shanu Sushmita
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.26574v1)
-
-**摘要总结**：Safety classifiers ("guards") are the dominant black-box defense for vision-language models, yet they judge an input's surface form, not its meaning: a harmful request re-encoded as set theory, formal logic, a rare language, code, or an image of text slips past a guard that would block it in plain language -- the decode gap.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai` `cs-lg`
