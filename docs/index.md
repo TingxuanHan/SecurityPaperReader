@@ -1,8 +1,84 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-08-14 07:12 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-08-15 06:48 Asia/Shanghai
 
 ## 今日论文
+
+### [Synthetic Persona Pretraining: Alignment from Token Zero](https://arxiv.org/abs/2608.13482v1)
+
+**作者**：Julian Minder, Viktor Moskvoretskii, Raghav Singhal, Difan Jiao, Andy Arditi, Shaobo Cui, Yiderigun Borjigin, Kartik Bali, et al.
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-13 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.13482v1)
+
+**摘要总结**：As language-model-based AI is increasingly deployed in autonomous settings, aligning its goals and values with those of humans becomes critical.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-ai` `cs-cl`
+
+---
+
+### [Rules or Character? Scaling Laws for AI Safety Design](https://arxiv.org/abs/2608.13345v1)
+
+**作者**：Satoshi Takahashi, Nobuji Kouno, Masaaki Komatsu, Ryuji Hamamoto
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-13 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.13345v1)
+
+**摘要总结**：Artificial Intelligence (AI) safety systems combine character shaping (e.g., Reinforcement Learning from Human Feedback [RLHF], Constitutional AI), which modifies behavioral distributions at training time, with rule enforcement (e.g., output filters, safety classifiers), which blocks harmful outputs at inference time, yet little formal analysis exists on how their optimal balance should change as deployment scales increase.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
+
+---
+
+### [Adversarial Robustness in Smishing Detection: A Comparative Analysis of Adversarial Fragility in Classical vs. Transformer-Based Detection Systems](https://arxiv.org/abs/2608.12889v1)
+
+**作者**：Denzel Chiuseni, Athanase Bahizire, Silva Hama, Jema David Ndibwile
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-13 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.12889v1)
+
+**摘要总结**：Smishing detection systems are commonly trained and evaluated on clean, monolingual text.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
+
+---
+
+### [HiRoute: Hierarchical Routed Prompt Tuning for Safety Alignment of Large Language Models](https://arxiv.org/abs/2608.12821v1)
+
+**作者**：Fangzhou Chen, Shiji Zhao, Mengyang Wang, Qihui Zhu, Ranjie Duan, Maoxun Yuan, Xingxing Wei
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-13 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.12821v1)
+
+**摘要总结**：Large language models (LLMs) remain vulnerable to harmful requests and jailbreak attacks.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg`
+
+---
 
 ### [Rethinking Agent Security as a Networking Problem](https://arxiv.org/abs/2608.12172v1)
 
@@ -28,6 +104,25 @@
 **作者**：Thomas A. Pollak, Hamilton Morrin, Murray Shanahan
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-12 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.11955v1)
+
+**摘要总结**：Large language models are already adept at engaging users in long, emotionally salient conversations across ordinary and existential domains.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cy` `cs-hc`
+
+---
+
+### [Philosophical vertigo with artificial intelligence](https://arxiv.org/abs/2608.11955v2)
+
+**作者**：Thomas A. Pollak, Hamilton Morrin, Murray Shanahan
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-12 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.11955v2)
 
 **摘要总结**：Large language models are already adept at engaging users in long, emotionally salient conversations across ordinary and existential domains.
 
@@ -466,13 +561,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-09 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.08471v1)
 
-**摘要总结**：暂无
+**摘要总结**：Deployed LLM safety guardrails are predominantly static: trained once and frozen at release, while new jailbreak techniques and previously un-addressed harmful categories emerge within days, leaving the defense perpetually a step behind.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
 
 ---
 
@@ -482,13 +580,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-09 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.08468v1)
 
-**摘要总结**：暂无
+**摘要总结**：Agent Skills---structured packages of instructions and scripts that augment LLM-based agents---are rapidly proliferating, yet their security properties remain under-explored.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -498,13 +599,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-08 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.08100v1)
 
-**摘要总结**：暂无
+**摘要总结**：Retrieval-Augmented Generation (RAG) enables large language models to classify network flows and generate human-readable incident reports by retrieving semantically similar historical traffic from a vector knowledge base.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-lg`
 
 ---
 
@@ -1387,101 +1491,6 @@
 **来源**：arxiv · AI安全 · **发布日期**：2026-07-30 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.27910v1)
 
 **摘要总结**：Inference time defences against vision language model jailbreaks often subtract a calibrated direction from the residual stream at a chosen decoder layer.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai`
-
----
-
-### [Unifying Adversarially Robust Model Experts in Vision-Language Models](https://arxiv.org/abs/2607.27897v1)
-
-**作者**：Nguyen Duc Thai, Junhao Dong, Sua Qi Rong, Hua Yu, Yew-Soon Ong
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-30 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.27897v1)
-
-**摘要总结**：Vision-language models (VLMs), such as CLIP, are vulnerable to adversarial attacks, posing a serious problem for real-life applications and deployment.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cv`
-
----
-
-### [ZAPs: A Reward Attribution Framework for DeFi Ecosystems with Adversarial-Robust Scoring via Parallel Anomaly Ensemble Detection](https://arxiv.org/abs/2607.27859v1)
-
-**作者**：Girish G N, Ashutosh Sahoo, Ajay Bhat, Akshay SP, Gurukiran S, Parag Paul, Dhanashekar Kandaswamy
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-30 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.27859v1)
-
-**摘要总结**：Incentive programs are central to user acquisition in decentralized finance, but many reward systems rely on raw volume, transaction count, and wallet count, making them vulnerable to bots and sybil operations.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`q-fin-gn` `cs-lg`
-
----
-
-### [Safety, or Just Capability? A Validity Audit of Agent-Safety Benchmarks](https://arxiv.org/abs/2607.28685v1)
-
-**作者**：Youting Wang, Xiao Han, Dingyan Shang, Yuan Tang, Bowen Liu
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-30 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.28685v1)
-
-**摘要总结**：Agent-safety benchmarks measure different behaviors, and their scores get quoted interchangeably as an agent's safety.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai` `cs-ir`
-
----
-
-### [Revisiting the Adversarial Robustness of Graph-Based Traffic Forecasting](https://arxiv.org/abs/2607.27604v1)
-
-**作者**：Qingzhao Zhang
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-30 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.27604v1)
-
-**摘要总结**：Traffic forecasting by graph-based AI is a critical component of intelligent transportation systems, motivating security research on robustness to malicious sensor readings.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai`
-
----
-
-### [A dataset of rated conceptual arguments](https://arxiv.org/abs/2607.27499v1)
-
-**作者**：Emery Cooper, Caspar Oesterheld, Linh Chi Nguyen, Alexander Kastner, Ethan Perez
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.27499v1)
-
-**摘要总结**：Large language models have improved rapidly on tasks with verifiable answers, such as mathematics and programming.
 
 **创新点**
 

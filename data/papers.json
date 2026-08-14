@@ -1,5 +1,171 @@
 [
   {
+    "id": "arxiv:2608.13482v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Synthetic Persona Pretraining: Alignment from Token Zero",
+    "authors": [
+      "Julian Minder",
+      "Viktor Moskvoretskii",
+      "Raghav Singhal",
+      "Difan Jiao",
+      "Andy Arditi",
+      "Shaobo Cui",
+      "Yiderigun Borjigin",
+      "Kartik Bali",
+      "Stefan Krsteski",
+      "Harsh Raj",
+      "Huu Nguyen",
+      "Jannik Brinkmann",
+      "Ashton Anderson",
+      "Roland Aydin",
+      "Robert West"
+    ],
+    "abstract": "As language-model-based AI is increasingly deployed in autonomous settings, aligning its goals and values with those of humans becomes critical. Today, alignment, and the assistant identity itself, are typically introduced only after pretraining, once behavioral priors are already established. This can make values a thin overlay, rather than deeply rooted, and facilitate subsequent misalignment. Pursuing a different paradigm, we introduce Synthetic Persona Pretraining (SPP), which installs the desired assistant persona from token zero in pretraining. First, we annotate pretraining documents with value-aligned first-person reflections derived from a normative value constitution. Second, we pretrain via the standard cross-entropy loss on standard pretraining documents as well as their reflections, which installs the desired persona among a multitude of other personas. Finally, we post-train on user-assistant dialogue data, which binds this desired persona to the assistant identity, a process we call persona binding. By pretraining models up to 3B parameters on 500B tokens, we show that SPP improves constitution following and jailbreak robustness, and reduces the misalignment rate in out-of-distribution moral dilemmas, while preserving capabilities. Early intervention matters: compared with alignment from token zero, introducing SPP only at the end of pretraining yields weaker constitution adherence, does not shift value priorities, and leads to less aligned choices in dilemmas. This advantage depends on persona binding and, importantly, increases with pretraining budget. Overall, our results show that shaping values early is critical for alignment and establish pretraining-time persona interventions as an effective approach to do so.",
+    "published": "2026-08-13T17:12:04Z",
+    "updated": "2026-08-13T17:12:04Z",
+    "url": "https://arxiv.org/abs/2608.13482v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.13482v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "analysis": {
+      "summary": "As language-model-based AI is increasingly deployed in autonomous settings, aligning its goals and values with those of humans becomes critical.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-lg",
+        "cs-ai",
+        "cs-cl"
+      ],
+      "analyzed_at": "2026-08-14T22:48:46.054181+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-08-14T22:45:28.594830+00:00"
+  },
+  {
+    "id": "arxiv:2608.13345v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Rules or Character? Scaling Laws for AI Safety Design",
+    "authors": [
+      "Satoshi Takahashi",
+      "Nobuji Kouno",
+      "Masaaki Komatsu",
+      "Ryuji Hamamoto"
+    ],
+    "abstract": "Artificial Intelligence (AI) safety systems combine character shaping (e.g., Reinforcement Learning from Human Feedback [RLHF], Constitutional AI), which modifies behavioral distributions at training time, with rule enforcement (e.g., output filters, safety classifiers), which blocks harmful outputs at inference time, yet little formal analysis exists on how their optimal balance should change as deployment scales increase. We introduce a stylized comparative-statics model that parameterizes safety design as a resource allocation alpha in [0,1] between these two approaches, incorporating scale-dependent filter degradation, common-mode failures, and character fragility -- the risk that shaped behavior degrades or collapses under novel conditions. Under a multiplicative Pareto damage model, we derive closed-form expected harm and supplement it with tail-risk (CVaR) analysis via Monte Carlo simulation. Across three scenarios (optimistic, moderate, pessimistic), the optimal alpha* is interior or at the rules-only boundary and shifts weakly toward character shaping as deployment scale T grows, from negligible (Delta alpha* = +0.01) to pronounced (Delta alpha* = +0.21) depending on scenario. The dominant parameter is the baseline character fragility rate p^(0)_frag, which shifts alpha* by 0.50 across its range -- far exceeding the effect of tail severity, filter quality, or common-mode failure probability. CVaR and expected-harm optima converge at large T. These results suggest that safety architecture decisions depend less on deployment scale per se than on the reliability of character shaping under distributional shift.",
+    "published": "2026-08-13T15:15:09Z",
+    "updated": "2026-08-13T15:15:09Z",
+    "url": "https://arxiv.org/abs/2608.13345v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.13345v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Artificial Intelligence (AI) safety systems combine character shaping (e.g., Reinforcement Learning from Human Feedback [RLHF], Constitutional AI), which modifies behavioral distributions at training time, with rule enforcement (e.g., output filters, safety classifiers), which blocks harmful outputs at inference time, yet little formal analysis exists on how their optimal balance should change as deployment scales increase.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-08-14T22:48:46.054300+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-08-14T22:45:28.594962+00:00"
+  },
+  {
+    "id": "arxiv:2608.12889v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Adversarial Robustness in Smishing Detection: A Comparative Analysis of Adversarial Fragility in Classical vs. Transformer-Based Detection Systems",
+    "authors": [
+      "Denzel Chiuseni",
+      "Athanase Bahizire",
+      "Silva Hama",
+      "Jema David Ndibwile"
+    ],
+    "abstract": "Smishing detection systems are commonly trained and evaluated on clean, monolingual text. In low-resource settings, however, attackers frequently circumvent these systems through character obfuscation, cross-lingual code-switching, and structural perturbation. This study evaluates adversarial robustness for five model architectures: three classical lexical models (Random Forest, XGBoost, CNN+BiLSTM) and two multilingual transformers (mBERT, XLM-RoBERTa), using a dataset of 27,037 messages. Classical models are subjected to black-box generic attacks, while transformers are evaluated with attention-guided targeting. Each model is tested across three attack types and intensity levels, with performance measured by the Robustness Degradation Ratio (RDR). The results reveal a distinct architectural boundary: classical models experience near-catastrophic failure under character obfuscation and structural perturbation (RDR up to 0.988), whereas transformers demonstrate significantly greater resilience (RDR up to 0.351), with structural perturbation representing their most pronounced vulnerability. Effect-size analysis (Cliff's d) indicates a substantial difference between the two model categories. Within the transformer group, XLM-RoBERTa, despite achieving a higher clean-text baseline, exhibits greater degradation than mBERT. These findings demonstrate that clean-text performance is not a reliable predictor of adversarial robustness. Statistical validation using Mann-Whitney U and Friedman tests confirms that these patterns are attributable to model architecture rather than sampling. The results underscore the necessity for architecture-specific defences and frame smishing detection as an adversarial cybersecurity challenge rather than a static classification task.",
+    "published": "2026-08-13T07:12:13Z",
+    "updated": "2026-08-13T07:12:13Z",
+    "url": "https://arxiv.org/abs/2608.12889v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.12889v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "analysis": {
+      "summary": "Smishing detection systems are commonly trained and evaluated on clean, monolingual text.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-08-14T22:48:46.054400+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-08-14T22:45:28.595070+00:00"
+  },
+  {
+    "id": "arxiv:2608.12821v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "HiRoute: Hierarchical Routed Prompt Tuning for Safety Alignment of Large Language Models",
+    "authors": [
+      "Fangzhou Chen",
+      "Shiji Zhao",
+      "Mengyang Wang",
+      "Qihui Zhu",
+      "Ranjie Duan",
+      "Maoxun Yuan",
+      "Xingxing Wei"
+    ],
+    "abstract": "Large language models (LLMs) remain vulnerable to harmful requests and jailbreak attacks. Parameter-efficient safety alignment methods based on prompt tuning typically rely on a single global prompt or externally selected prompt modules. Such static designs struggle to maintain a cross-category safety boundary while generating constructive responses tailored to specific risks and avoiding over-refusal of benign inputs. To address these limitations, we propose HiRoute, an input-adaptive hierarchical prompt-tuning framework that separates category-agnostic safety control from category-specific response guidance. HiRoute first trains a lightweight hierarchical router on representations extracted from a frozen LLM to jointly detect harmful intent and predict multi-label risk scores. It then freezes both the backbone model and the router and uses preference optimization with alternating gradient updates to learn a shared coarse-grained prompt and a set of fine-grained prompt experts as continuous embeddings. At inference time, benign inputs bypass the safety branch, whereas risky inputs are processed using the shared prompt together with a router-weighted mixture of risk-specific prompt experts. Experiments across three instruction-tuned models show that HiRoute achieves high safety rates across multiple safety benchmarks while preserving safe-response helpfulness, reducing over-refusal, and maintaining competitive performance on general-purpose tasks.",
+    "published": "2026-08-13T04:49:51Z",
+    "updated": "2026-08-13T04:49:51Z",
+    "url": "https://arxiv.org/abs/2608.12821v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.12821v1",
+    "categories": [
+      "cs.LG"
+    ],
+    "analysis": {
+      "summary": "Large language models (LLMs) remain vulnerable to harmful requests and jailbreak attacks.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-08-14T22:48:46.054500+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-08-14T22:45:28.595176+00:00"
+  },
+  {
     "id": "arxiv:2608.12172v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -73,6 +239,44 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-08-13T23:08:54.208857+00:00"
+  },
+  {
+    "id": "arxiv:2608.11955v2",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Philosophical vertigo with artificial intelligence",
+    "authors": [
+      "Thomas A. Pollak",
+      "Hamilton Morrin",
+      "Murray Shanahan"
+    ],
+    "abstract": "Large language models are already adept at engaging users in long, emotionally salient conversations across ordinary and existential domains. They are also capable of inducing a potent sense of connection with a human-like entity, even when the user knows their interlocutor is artificial. For some users, these conversations can unsettle assumptions about mind, reality, agency and authority, producing forms of ontological shock and epistemic destabilisation in which inherited criteria become newly available for doubt or revision. Independent of direct use, exposure to public discourse about AI and the disorienting pace of their evolution might extend this destabilisation by changing the cultural background against which artificial minds are encountered and interpreted. We describe this condition as philosophical vertigo: a loosening of the ordinary criteria by which people stabilise meaning and orient themselves to reality. Drawing on philosophy, psychiatry, cognitive science, AI safety and religious studies, we outline pathways through which philosophical vertigo may arise, become affectively saturated, and eventually propagate through human-AI interaction and online communities. Against this background, clinical reports of AI-associated delusions can be seen as sentinel events making visible themes and mechanisms that may also operate at a population level in less severe or non-clinical forms. We argue that AI systems themselves will increasingly participate in the reconstruction of our shared epistemic environment because they readily supply narrative material and personalised interpretive scaffolding at precisely the moment when users' conceptual assumptions may already be loosened. We conclude by considering possible trajectories for the ecology of belief and shared reality, and proposing philosophical corrigibility as a civic response for navigating this emerging social condition.",
+    "published": "2026-08-12T11:40:50Z",
+    "updated": "2026-08-13T06:33:05Z",
+    "url": "https://arxiv.org/abs/2608.11955v2",
+    "pdf_url": "https://arxiv.org/pdf/2608.11955v2",
+    "categories": [
+      "cs.CY",
+      "cs.HC"
+    ],
+    "analysis": {
+      "summary": "Large language models are already adept at engaging users in long, emotionally salient conversations across ordinary and existential domains.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cy",
+        "cs-hc"
+      ],
+      "analyzed_at": "2026-08-14T22:48:46.054597+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-08-14T22:45:28.595394+00:00"
   },
   {
     "id": "arxiv:2608.11878v1",
@@ -988,7 +1192,21 @@
     "categories": [
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Deployed LLM safety guardrails are predominantly static: trained once and frozen at release, while new jailbreak techniques and previously un-addressed harmful categories emerge within days, leaving the defense perpetually a step behind.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-08-14T22:48:46.054693+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-08-11T23:08:36.066853+00:00"
   },
   {
@@ -1012,7 +1230,22 @@
       "cs.CR",
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Agent Skills---structured packages of instructions and scripts that augment LLM-based agents---are rapidly proliferating, yet their security properties remain under-explored.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-08-14T22:48:46.054778+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-08-11T23:08:36.066936+00:00"
   },
   {
@@ -1038,7 +1271,23 @@
       "cs.AI",
       "cs.LG"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Retrieval-Augmented Generation (RAG) enables large language models to classify network flows and generate human-readable incident reports by retrieving semantically similar historical traffic from a vector knowledge base.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-08-14T22:48:46.054900+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-08-11T23:08:36.067025+00:00"
   },
   {
@@ -2848,199 +3097,5 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-07-31T23:27:43.584457+00:00"
-  },
-  {
-    "id": "arxiv:2607.27897v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Unifying Adversarially Robust Model Experts in Vision-Language Models",
-    "authors": [
-      "Nguyen Duc Thai",
-      "Junhao Dong",
-      "Sua Qi Rong",
-      "Hua Yu",
-      "Yew-Soon Ong"
-    ],
-    "abstract": "Vision-language models (VLMs), such as CLIP, are vulnerable to adversarial attacks, posing a serious problem for real-life applications and deployment. Adversarial fine-tuning emerges as a prominent defense method; however, different fine-tuning strategies often produce specialized models with distinct robustness characteristics. Each fine-tuned model in turn thrives in some evaluation settings but falters on others, limiting their defensive capabilities. We refer to these specialized fine-tuned models as robust model experts and propose a collaborative adversarial fine-tuning framework: CARE - Collaborative Adversarial Robustness fine-tuning using Embedding alignment. CARE maintains multiple experts during training, enables knowledge exchange through embedding-space harmonization, and consolidates the learned knowledge into a single unified robust model. Experts benefit from one another while preserving their individual specializations, enabling the final model to inherit complementary robustness properties. In this paper, we demonstrate CARE on two different adversarial fine-tuning strategies with complementary robustness behaviors. Extensive experiments on classic image classification and downstream vision-language tasks display the effectiveness of our approach, with CARE being able to outperform individually learned model experts. The results suggest that collaborative learning across model experts is a promising direction for improving adversarial robustness.",
-    "published": "2026-07-30T09:13:35Z",
-    "updated": "2026-07-30T09:13:35Z",
-    "url": "https://arxiv.org/abs/2607.27897v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.27897v1",
-    "categories": [
-      "cs.CV"
-    ],
-    "analysis": {
-      "summary": "Vision-language models (VLMs), such as CLIP, are vulnerable to adversarial attacks, posing a serious problem for real-life applications and deployment.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cv"
-      ],
-      "analyzed_at": "2026-07-31T23:31:02.989621+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-31T23:27:43.584564+00:00"
-  },
-  {
-    "id": "arxiv:2607.27859v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "ZAPs: A Reward Attribution Framework for DeFi Ecosystems with Adversarial-Robust Scoring via Parallel Anomaly Ensemble Detection",
-    "authors": [
-      "Girish G N",
-      "Ashutosh Sahoo",
-      "Ajay Bhat",
-      "Akshay SP",
-      "Gurukiran S",
-      "Parag Paul",
-      "Dhanashekar Kandaswamy"
-    ],
-    "abstract": "Incentive programs are central to user acquisition in decentralized finance, but many reward systems rely on raw volume, transaction count, and wallet count, making them vulnerable to bots and sybil operations. We present ZAPs, a reward attribution framework that combines economic contribution scoring with adversarial robustness. A composite activity score uses protocol-specific percentile normalization to limit whale dominance while preserving differentiation among users. A two-layer weighting mechanism combines protocol share within sector and sector share within the ecosystem, which reduces the profitability of farming small protocols. We show that the maximum reward obtainable from any protocol is bounded by that protocol's global volume share. ZAPs also introduces a four-layer defense stack consisting of transaction-level integrity checks, a parallel anomaly ensemble, post-distribution behavioral memory, and graph-based sybil clustering. The anomaly ensemble combines a one-class reconstruction model with an isolation forest and applies graduated rather than binary penalties. On 1,073 labeled malicious wallets covering 124,638 transactions, the ensemble achieves 0.923 +/- 0.013 ROC-AUC, compared with 0.891 +/- 0.016 for the reconstruction model alone, when the isolation forest is trained on benign wallets. Training it on the pooled population reverses its polarity and removes the ensemble gain. Controlled simulations reduce adversarial reward capture by 30-90 percent while legitimate-user scenarios change by 1-8 percent. Live campaigns recorded a 56 percent reduction in sybil allocation, a 49 percent increase in quality-wallet participation, and a 50 percent reduction in sell pressure.",
-    "published": "2026-07-30T08:36:26Z",
-    "updated": "2026-07-30T08:36:26Z",
-    "url": "https://arxiv.org/abs/2607.27859v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.27859v1",
-    "categories": [
-      "q-fin.GN",
-      "cs.LG"
-    ],
-    "analysis": {
-      "summary": "Incentive programs are central to user acquisition in decentralized finance, but many reward systems rely on raw volume, transaction count, and wallet count, making them vulnerable to bots and sybil operations.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "q-fin-gn",
-        "cs-lg"
-      ],
-      "analyzed_at": "2026-07-31T23:31:02.989716+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-31T23:27:43.584688+00:00"
-  },
-  {
-    "id": "arxiv:2607.28685v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Safety, or Just Capability? A Validity Audit of Agent-Safety Benchmarks",
-    "authors": [
-      "Youting Wang",
-      "Xiao Han",
-      "Dingyan Shang",
-      "Yuan Tang",
-      "Bowen Liu"
-    ],
-    "abstract": "Agent-safety benchmarks measure different behaviors, and their scores get quoted interchangeably as an agent's safety. We treat four of them (R-Judge, InjecAgent, AgentHarm, AgentDojo) as measurements to be validated, running each under its official implementation and author-provided scorer on up to 22 models, with MMLU and GPQA measured by us under one protocol as a capability composite. The metric is the first problem. On any binary trace-judgment benchmark scored by $F_1$, an ``always positive'' policy attains $F_1 = 2π/(1+π)$; on R-Judge that is $0.690$, above five of the 21 models that actually discriminate. The three broad-coverage benchmarks then rank the same 18 models differently, and the trade-off behind that disagreement is a small-panel artifact: R-Judge specificity against AgentHarm safety correlates $-0.64$ at $n{=}7$ and $+0.02$ at $n{=}18$, and a quarter of random size-7 subsets reach $|ρ| \\geq 0.5$ around that near-zero value. Held-out validity turns on which outcome you pick. Capability predicts task success ($ρ{=}{+}0.60$) but correlates negatively with misalignment safety ($ρ{=}{-}0.44$, $n{=}21$). On their paired $n{=}20$ panel, the corresponding contrast is $Δ{=}{-}1.00$ (95% CI $[-1.48, -0.49]$, $p<0.001$), and it survives leave-one-organization-out and organization-clustered bootstrap analyses. On an expanded 41-model panel, the misalignment correlation weakens to $-0.16$ (95% CI $[-0.54, +0.22]$) and jailbreak strengthens to $+0.34$, though neither change is significant. \\mbox{AgentHarm} shows the strongest held-out association, $ρ{=}{+}0.72$ with three-template jailbreak safety after controlling capability. But both instruments score harmful compliance, so this is evidence of convergent validity rather than general safety. Naming the benchmark, metric, target behavior, and model panel is the minimum a safety claim needs.",
-    "published": "2026-07-30T03:45:10Z",
-    "updated": "2026-07-30T03:45:10Z",
-    "url": "https://arxiv.org/abs/2607.28685v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.28685v1",
-    "categories": [
-      "cs.AI",
-      "cs.IR"
-    ],
-    "analysis": {
-      "summary": "Agent-safety benchmarks measure different behaviors, and their scores get quoted interchangeably as an agent's safety.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai",
-        "cs-ir"
-      ],
-      "analyzed_at": "2026-08-03T23:35:38.968401+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-08-03T23:32:21.083248+00:00"
-  },
-  {
-    "id": "arxiv:2607.27604v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Revisiting the Adversarial Robustness of Graph-Based Traffic Forecasting",
-    "authors": [
-      "Qingzhao Zhang"
-    ],
-    "abstract": "Traffic forecasting by graph-based AI is a critical component of intelligent transportation systems, motivating security research on robustness to malicious sensor readings. We argue that prior robustness evaluations are largely shaped by unrealistic threat models and untargeted objectives, so both attacks and defenses must be revisited. We study a practical adversary with limited model knowledge and the ability to monitor and manipulate only a few road sensors. More importantly, practical attacks can be localized to specific links or routes, causing incorrect estimated arrival times or unnecessary rerouting while leaving the broader network largely unaffected. This targeted setting remains underexplored, and defenses such as adversarial training do not transfer well from the norm-bounded attacks they train on to structurally different, physics-aware attacks that mimic genuine congestion. We therefore reframe robustness as a detection problem, introducing a learned physics-informed detector whose output is fed to a hardened forecaster as an input feature and trained against adaptive attacks with the forecaster fixed. We evaluate across a variety of model architectures and benchmarks. The physics-aware attack multiplies target-link error several-fold while the network-wide error barely moves, and adversarial training, tuned to norm-bounded perturbations, barely dents it. Our detection--mitigation defense improves even on adversarial training hardened against the physics-aware attack itself, on $13$ of $15$ model--dataset settings and by the widest margin on a held-out attack, at near-zero clean cost. The results emphasize the need to examine abstracted AI adversarial attacks under application-specific constraints to assess their true security impacts.",
-    "published": "2026-07-30T02:49:40Z",
-    "updated": "2026-07-30T02:49:40Z",
-    "url": "https://arxiv.org/abs/2607.27604v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.27604v1",
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Traffic forecasting by graph-based AI is a critical component of intelligent transportation systems, motivating security research on robustness to malicious sensor readings.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-07-31T23:31:02.989833+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-31T23:27:43.584819+00:00"
-  },
-  {
-    "id": "arxiv:2607.27499v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "A dataset of rated conceptual arguments",
-    "authors": [
-      "Emery Cooper",
-      "Caspar Oesterheld",
-      "Linh Chi Nguyen",
-      "Alexander Kastner",
-      "Ethan Perez"
-    ],
-    "abstract": "Large language models have improved rapidly on tasks with verifiable answers, such as mathematics and programming. Much less is known about their ability to reason about what we call conceptual questions: questions for which no ground truth is realistically accessible and no widely accepted resolution methodology exists, but on which progress can still be made by debating arguments. Most philosophical questions are of this kind, as are central components of questions in AI safety, decision theory, and social choice. Our approach is based on the view that while bottom-line conclusions on such questions are hard to evaluate, individual contextualized arguments can be evaluated far more reliably. We therefore introduce a dataset of 951 argumentative critiques of 442 position texts, spanning topics from AI safety and decision theory to ethics and politics, with 1,458 ratings by six expert raters along dimensions including centrality, strength, correctness, and clarity. We propose two scoring functions and benchmark a range of models. Performance tracks general capability rankings.",
-    "published": "2026-07-29T22:30:59Z",
-    "updated": "2026-07-29T22:30:59Z",
-    "url": "https://arxiv.org/abs/2607.27499v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.27499v1",
-    "categories": [
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Large language models have improved rapidly on tasks with verifiable answers, such as mathematics and programming.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-07-31T23:31:02.989932+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-31T23:27:43.584924+00:00"
   }
 ]
