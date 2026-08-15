@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-08-15 06:48 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-08-16 06:46 Asia/Shanghai
 
 ## 今日论文
 
@@ -618,13 +618,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-08 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.08027v1)
 
-**摘要总结**：暂无
+**摘要总结**：Prompt injection is a critical security threat in large language model (LLM) applications, where attackers hijack model behavior by embedding malicious instructions in user or external data.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-lg`
 
 ---
 
@@ -634,13 +637,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-08 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.07892v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large reasoning models (LRMs) expose a new safety failure mode: adversarial prompts can manipulate reasoning context, task decomposition, or capability interpretation so that harmful objectives are processed as legitimate reasoning steps.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
@@ -650,13 +656,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-07 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.07808v1)
 
-**摘要总结**：暂无
+**摘要总结**：Four years after prompt injection was first identified in 2022, attacks are still predominantly documented as verbatim strings rather than structured exploits, despite advancing agent capabilities and threat actors embedding injections to subvert AI-assisted security analysis.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -666,13 +675,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-07 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.07430v1)
 
-**摘要总结**：暂无
+**摘要总结**：Diffusion Large Language Models (DLLMs) replace autoregressive next-token prediction with iterative parallel denoising, yet their internal safety mechanisms remain poorly understood.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-ai`
 
 ---
 
@@ -682,13 +694,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-07 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.07167v1)
 
-**摘要总结**：暂无
+**摘要总结**：Giving an AI agent the ability to send emails, query databases, or execute commands is useful--until the agent is tricked into doing something it shouldn't.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
 
 ---
 
@@ -698,13 +713,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-07 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.06865v1)
 
-**摘要总结**：暂无
+**摘要总结**：The malicious use of generative artificial intelligence to create highly realistic deepfake videos raises serious ethical concerns and poses substantial challenges to AI safety.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv` `cs-ai` `cs-ma`
 
 ---
 
@@ -714,13 +732,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-07 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.06674v1)
 
-**摘要总结**：暂无
+**摘要总结**：Adversarial vulnerabilities remain a major concern for the safe deployment of neural networks, particularly in object detection, a core task embedded in many safety-critical systems.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv` `cs-lg`
 
 ---
 
