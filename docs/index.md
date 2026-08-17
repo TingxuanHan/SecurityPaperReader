@@ -1,8 +1,65 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-08-17 06:45 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-08-18 06:49 Asia/Shanghai
 
 ## 今日论文
+
+### [Tripwire: Triggering Aligned Refusal via Statistically Certified Safety Neurons](https://arxiv.org/abs/2608.14392v1)
+
+**作者**：Wei Zhao, Zhe Li, Peixin Zhang, Jun Sun
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-14 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.14392v1)
+
+**摘要总结**：Neuron- and path-level interventions offer the finest-grained route to defending large language models (LLMs) against jailbreak attacks, yet existing methods fall short of this promise, i.e., they often compromise model utility significantly.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
+
+---
+
+### [A Four-Axis Trustworthiness Benchmark for LLM-as-Judge in Principle-Based Regulation](https://arxiv.org/abs/2608.14329v1)
+
+**作者**：Dipankar Sarkar
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-14 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.14329v1)
+
+**摘要总结**：Principle-based regulation, with evaluative standards such as "fair, clear, and not misleading" or "deliver good outcomes", cannot be reduced to binary predicates, and LLM-as-judge is increasingly used as the substitute.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-cl` `cs-cy`
+
+---
+
+### [Language-Specific Gaps in AI Safety Training Datasets](https://arxiv.org/abs/2608.13695v1)
+
+**作者**：Chialuka Prisca-Mary Onuoha, Bright Etornam Sunu, Rashidat Sikiru
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-13 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.13695v1)
+
+**摘要总结**：Large language model providers routinely cite multilingual safety benchmarks spanning a dozen or more languages as evidence that their models are safe for non-English-speaking users.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cy` `cs-lg`
+
+---
 
 ### [Synthetic Persona Pretraining: Alignment from Token Zero](https://arxiv.org/abs/2608.13482v1)
 
@@ -1464,60 +1521,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-cr`
-
----
-
-### [Piggybacking on Perception: Stealthy Concurrent Audio Prompt Injections against Multimodal LLM Agents](https://arxiv.org/abs/2607.28165v2)
-
-**作者**：Mingxiao Liu, Yitong Li, Haoren Zhao, Yaoxiang Bian, Jianan Ma, Jian Zhang, Jialuo Chen, Xinhao Deng, et al.
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-30 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.28165v2)
-
-**摘要总结**：Large Language Model (LLM)-driven multimodal agents are increasingly deployed to execute autonomous tasks via continuous audio interaction.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr`
-
----
-
-### [Generalization and Trade-off in Adversarial Training: An RKHS Perspective via Kernel Integral Operators](https://arxiv.org/abs/2607.27995v1)
-
-**作者**：Yiling Xie, Xiaoming Huo
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-30 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.27995v1)
-
-**摘要总结**：Adversarial training has emerged as a powerful approach for protecting models against adversarial attacks in a broad range of real-world applications.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`stat-ml` `cs-lg`
-
----
-
-### [A Cross-Architecture Audit of Direction-Based Inference-Time Defences in Vision-Language Models](https://arxiv.org/abs/2607.27910v1)
-
-**作者**：Xiangyu Yin, Tora Bodin, Rohan Menon, Chih-Hong Cheng
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-07-30 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2607.27910v1)
-
-**摘要总结**：Inference time defences against vision language model jailbreaks often subtract a calibrated direction from the residual stream at a chosen decoder layer.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai`

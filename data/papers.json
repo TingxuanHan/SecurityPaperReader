@@ -1,5 +1,121 @@
 [
   {
+    "id": "arxiv:2608.14392v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Tripwire: Triggering Aligned Refusal via Statistically Certified Safety Neurons",
+    "authors": [
+      "Wei Zhao",
+      "Zhe Li",
+      "Peixin Zhang",
+      "Jun Sun"
+    ],
+    "abstract": "Neuron- and path-level interventions offer the finest-grained route to defending large language models (LLMs) against jailbreak attacks, yet existing methods fall short of this promise, i.e., they often compromise model utility significantly. Specifically, one line of work suppresses toxic neurons to erase harmful semantics, but since such semantics are distributed across the network, blocking every pathway forces a large intervention footprint. An alternative line of research focus on identify safety neurons using external classifiers. While promising, the existing approaches suffer from compromising neurons that are important for the model utility as well. Moreover, both approaches remain always on and thus perturb every benign request even when no attack is present. To address these limitations, we present \\ours{}, a training-free defense that first identifies safety-specific neurons through per-neuron hypothesis tests under false-discovery-rate control together with a utility-specificity filter. Based on this identification, a trigger-style clamp holds the selected neurons at their harmful-conditional mean activations, injecting an internal harmful-input signal that triggers the refusal behavior learned during alignment. The clamp is then realized by two provably equivalent deployment modes, namely a detector-gated inference-time intervention and an offline bias-patch weight edit. Extensive experiments across four safety-aligned LLMs and four representative attacks demonstrate that \\ours{} reduces the average attack success rate to at most 2.0\\% while incurring a utility drop of only 0.5\\% to 5.3\\% on MT-Bench, the smallest among all defenses. Code is available at https://anonymous.4open.science/r/Tripwire-65C4.",
+    "published": "2026-08-14T15:33:11Z",
+    "updated": "2026-08-14T15:33:11Z",
+    "url": "https://arxiv.org/abs/2608.14392v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.14392v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Neuron- and path-level interventions offer the finest-grained route to defending large language models (LLMs) against jailbreak attacks, yet existing methods fall short of this promise, i.e., they often compromise model utility significantly.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-08-17T22:49:07.114466+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-08-17T22:45:47.537892+00:00"
+  },
+  {
+    "id": "arxiv:2608.14329v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "A Four-Axis Trustworthiness Benchmark for LLM-as-Judge in Principle-Based Regulation",
+    "authors": [
+      "Dipankar Sarkar"
+    ],
+    "abstract": "Principle-based regulation, with evaluative standards such as \"fair, clear, and not misleading\" or \"deliver good outcomes\", cannot be reduced to binary predicates, and LLM-as-judge is increasingly used as the substitute. Our position is that any such judge must be evaluated on four axes: accuracy, paraphrase robustness, adversarial robustness, and calibration. We release Principle-Bench, 168 cryptoasset financial-promotion scenarios mapped to two UK FCA principles, with paraphrase, adversarial keyword-stuffing, and boundary perturbations authored under a pre-registered rubric; the first benchmark covering all four axes for principle-based regulation. We also introduce Ceca (Calibrated Exemplar-Cluster Assessment): a calibrated, auditable assessor that emits exact per-exemplar counterfactual attributions. Across keyword counting, three sentence-transformer embedders, an open-weight LLM-judge, and a calibrated cascade, no method dominates all four axes. A 120B LLM-judge, strongest on benign inputs, loses 47 accuracy points (0.74 to 0.27) on keyword-stuffed Consumer Duty inputs: \"compliance theatre.\" A second judge from a different model family agrees only at Cohen's kappa = 0.16 on that split, localising the failure to the model rather than the corpus. Any deployment-grade LLM-judge for principle-based regulation must report per-principle adversarial deception and post-hoc calibration alongside aggregate accuracy.",
+    "published": "2026-08-14T14:20:38Z",
+    "updated": "2026-08-14T14:20:38Z",
+    "url": "https://arxiv.org/abs/2608.14329v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.14329v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL",
+      "cs.CY",
+      "cs.LG"
+    ],
+    "analysis": {
+      "summary": "Principle-based regulation, with evaluative standards such as \"fair, clear, and not misleading\" or \"deliver good outcomes\", cannot be reduced to binary predicates, and LLM-as-judge is increasingly used as the substitute.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai",
+        "cs-cl",
+        "cs-cy"
+      ],
+      "analyzed_at": "2026-08-17T22:49:07.114614+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-08-17T22:45:47.538034+00:00"
+  },
+  {
+    "id": "arxiv:2608.13695v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Language-Specific Gaps in AI Safety Training Datasets",
+    "authors": [
+      "Chialuka Prisca-Mary Onuoha",
+      "Bright Etornam Sunu",
+      "Rashidat Sikiru"
+    ],
+    "abstract": "Large language model providers routinely cite multilingual safety benchmarks spanning a dozen or more languages as evidence that their models are safe for non-English-speaking users. We show that these collection-level coverage claims frequently do not survive inspection at the level of an individual language. Auditing 21 resources across 25 language slices, of which 20 count as datasets under our counting rules, spanning three languages chosen to represent low- (Hausa), mid- (Swahili), and high-resource (French) tiers, we find that gaps in provenance, annotation reliability, access, harm-taxonomy coverage, and data reuse recur in patterns that partially, but not fully, track resource level. Using a controlled within-pipeline comparison, we show a Hausa-language slice falling below its own paper's translation-quality acceptance threshold while the same pipeline's Swahili output clears the same bar comfortably; this is evidence that these gaps are measurable and addressable, not inherent. We further show that self-harm and sexual-content categories have no native-language coverage in either African-language tier we studied, a total rather than gradated gap that a purely resource-level account does not predict. We connect these findings to a documented, persistent asymmetry in multilingual jailbreak robustness (single-turn attacks largely mitigated, multi-turn attacks still effective), arguing that this asymmetry is structurally consistent with where our audit finds training and evaluation data thinnest. We contribute a reusable slice-level audit methodology, a cross-tier empirical comparison, and concrete recommendations for dataset creators, model providers, and venues aiming to make ``multilingual coverage'' claims verifiable rather than merely stated. Dataset: https://huggingface.co/datasets/ChialukaOnuoha/safety-slice-audit",
+    "published": "2026-08-13T18:40:22Z",
+    "updated": "2026-08-13T18:40:22Z",
+    "url": "https://arxiv.org/abs/2608.13695v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.13695v1",
+    "categories": [
+      "cs.CY",
+      "cs.LG"
+    ],
+    "analysis": {
+      "summary": "Large language model providers routinely cite multilingual safety benchmarks spanning a dozen or more languages as evidence that their models are safe for non-English-speaking users.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cy",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-08-17T22:49:07.114726+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-08-17T22:45:47.538338+00:00"
+  },
+  {
     "id": "arxiv:2608.13482v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -3085,121 +3201,5 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-07-31T23:27:43.584219+00:00"
-  },
-  {
-    "id": "arxiv:2607.28165v2",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Piggybacking on Perception: Stealthy Concurrent Audio Prompt Injections against Multimodal LLM Agents",
-    "authors": [
-      "Mingxiao Liu",
-      "Yitong Li",
-      "Haoren Zhao",
-      "Yaoxiang Bian",
-      "Jianan Ma",
-      "Jian Zhang",
-      "Jialuo Chen",
-      "Xinhao Deng",
-      "Zhen Wang"
-    ],
-    "abstract": "Large Language Model (LLM)-driven multimodal agents are increasingly deployed to execute autonomous tasks via continuous audio interaction. While this paradigm enhances interaction naturalness, it introduces a critical yet under-explored attack surface, as audio inputs inevitably contain environmental noise beyond user control. In this paper, we investigate concurrent audio prompt injection attacks targeting multimodal agents. Distinct from traditional acoustic attacks on voice devices, we propose novel techniques for instruction augmentation and scenario concealment. These methods allow malicious audio instructions to imperceptibly \"piggyback\" onto user speech, thereby hijacking agents to execute malicious actions. To systematically quantify this threat, we construct AudioAgentSecurity, the first comprehensive benchmark for audio instruction injection attacks, encompassing 8 real-world task scenarios and 10 distinct attack patterns. We evaluate 11 state-of-the-art agents, including Gemini 3 Pro and GPT-4o-audio. Notably, our methods achieve an average Attack Success Rate (ASR) of 69.10\\% against the advanced Gemini 3 Pro. To counter this threat, we further introduce Cascaded Audio Decoupling and Verification (CADV), a defense mechanism based on source separation and consistency analysis. Compared with existing prompt-level defenses, CADV achieving up to 96\\% detection accuracy and providing effective protection against a broad range of acoustic injection attacks. Finally, real-world experiments with human volunteers on Doubao AI Smartphone in diverse dynamic real-world scenarios confirm the attacks' high stealth and efficacy, while demonstrating that our defense reliably mitigates these vulnerabilities.",
-    "published": "2026-07-30T13:04:15Z",
-    "updated": "2026-07-31T04:07:45Z",
-    "url": "https://arxiv.org/abs/2607.28165v2",
-    "pdf_url": "https://arxiv.org/pdf/2607.28165v2",
-    "categories": [
-      "cs.CR"
-    ],
-    "analysis": {
-      "summary": "Large Language Model (LLM)-driven multimodal agents are increasingly deployed to execute autonomous tasks via continuous audio interaction.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr"
-      ],
-      "analyzed_at": "2026-08-03T23:35:38.968294+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-08-03T23:32:21.082682+00:00"
-  },
-  {
-    "id": "arxiv:2607.27995v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Generalization and Trade-off in Adversarial Training: An RKHS Perspective via Kernel Integral Operators",
-    "authors": [
-      "Yiling Xie",
-      "Xiaoming Huo"
-    ],
-    "abstract": "Adversarial training has emerged as a powerful approach for protecting models against adversarial attacks in a broad range of real-world applications. In this paper, we study adversarial training in the reproducing kernel Hilbert space (RKHS) framework through the associated kernel integral operator. We first derive source-uniform generalization error bounds for the RKHS adversarial training estimator in terms of the robustness level, sample size, source smoothness, and kernel spectrum. On a fixed polynomial-spectrum model, we further establish a matching lower bound showing that the optimally balanced generalization rate can be slower than the minimax prediction benchmark. This result reveals a loss of statistical accuracy in adversarial training. Our analysis shows that this loss arises from the interaction between adversarial robustness and observation noise: the noise contribution in the mixed robustness term slows the approximation rate, although the same term reduces the estimation complexity. To address this limitation, we propose a two-stage noise-debiased procedure that estimates and removes the noise contribution from the mixed term. The resulting estimator improves the generalization rate and attains the minimax polynomial rate, up to a logarithmic factor, when the robustness level is selected at the stated sample-dependent order. Our results characterize the generalization behavior of adversarial training in a nonparametric framework and provide a new interpretation and a principled solution for the trade-off between adversarial robustness and generalization. Numerical experiments support the theoretical findings and demonstrate the effectiveness of the proposed method.",
-    "published": "2026-07-30T10:43:29Z",
-    "updated": "2026-07-30T10:43:29Z",
-    "url": "https://arxiv.org/abs/2607.27995v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.27995v1",
-    "categories": [
-      "stat.ML",
-      "cs.LG"
-    ],
-    "analysis": {
-      "summary": "Adversarial training has emerged as a powerful approach for protecting models against adversarial attacks in a broad range of real-world applications.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "stat-ml",
-        "cs-lg"
-      ],
-      "analyzed_at": "2026-07-31T23:31:02.989430+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-31T23:27:43.584340+00:00"
-  },
-  {
-    "id": "arxiv:2607.27910v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "A Cross-Architecture Audit of Direction-Based Inference-Time Defences in Vision-Language Models",
-    "authors": [
-      "Xiangyu Yin",
-      "Tora Bodin",
-      "Rohan Menon",
-      "Chih-Hong Cheng"
-    ],
-    "abstract": "Inference time defences against vision language model jailbreaks often subtract a calibrated direction from the residual stream at a chosen decoder layer. We compare five defence candidates across 15 model and layer cells from four architectural families under a magnitude controlled protocol that matches the intervention size for each prompt and pairs every direction with a random control of the same norm. The candidates are the mean image conditioning shift, a CMRM style refusal direction, a ShiftDC style attack specific residual, a prompt instruction to ignore the image, and a random control. No single candidate dominates on both refusal recovery and utility preservation. The image conditioning shift leads on LLaVA 1.5 and Pixtral 12B and is the only candidate whose utility loss remains at the measurement noise floor in every family. The prompt instruction leads on Qwen2.5 VL, while the attack specific residual leads on Qwen2 VL 2B. The image conditioning direction is direction specific in 13 of 15 cells, but strongly architecture specific and nontransferable across the only dimension compatible pair, LLaVA 1.5 13B and Pixtral 12B. We also connect text only and multimodal refusal geometry. The CMRM direction has positive cosine alignment with the image conditioning shift in all 15 cells, with mean 0.35, range 0.17 to 0.65, 15 to 25 times the random vector null, and a sign test p value of about 3e-5. These results show that the two recipes recover partially overlapping geometry and that direction based defences should be calibrated separately for each language decoder family.",
-    "published": "2026-07-30T09:24:27Z",
-    "updated": "2026-07-30T09:24:27Z",
-    "url": "https://arxiv.org/abs/2607.27910v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.27910v1",
-    "categories": [
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Inference time defences against vision language model jailbreaks often subtract a calibrated direction from the residual stream at a chosen decoder layer.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-07-31T23:31:02.989526+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-07-31T23:27:43.584457+00:00"
   }
 ]
