@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-08-20 06:49 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-08-21 06:52 Asia/Shanghai
 
 ## 今日论文
 
@@ -238,13 +238,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-17 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.16393v2)
 
-**摘要总结**：暂无
+**摘要总结**：We assess indirect prompt injection in DeepSeek Harness (DSH), using AI-Infra-Guard (A.I.G) to construct tests, deliver controlled taint, execute DSH, collect traces, and judge outcomes.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
@@ -330,13 +333,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-15 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.15402v1)
 
-**摘要总结**：暂无
+**摘要总结**：Generative model alignment has received broad interest, and significant progress has been made in supervised fine-tuning and inference-time computation.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg`
 
 ---
 
@@ -346,13 +352,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-15 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.15392v1)
 
-**摘要总结**：暂无
+**摘要总结**：Chain-of-thought monitoring is a potentially useful safety signal, but its reliability across languages and behavioral settings remains uncertain.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
 
 ---
 
@@ -362,13 +371,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-15 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.15267v1)
 
-**摘要总结**：暂无
+**摘要总结**：Semantic change detection (SCD) is a bitemporal dense-prediction task that jointly identifies changed regions and their semantic states before and after change.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv`
 
 ---
 
@@ -378,13 +390,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-14 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.14876v1)
 
-**摘要总结**：暂无
+**摘要总结**：Agentic coding assistants are finding widespread use, not just in new code development but in quickly ingesting and leveraging third-party code.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-cl` `cs-lg`
 
 ---
 
@@ -394,13 +409,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-14 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.14795v1)
 
-**摘要总结**：暂无
+**摘要总结**：An AI that can only give advice seems safe: the human is always free to ignore it.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-gt`
 
 ---
 
