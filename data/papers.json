@@ -1,5 +1,124 @@
 [
   {
+    "id": "arxiv:2608.19982v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "COPA: Continual Preference Optimization for Adaptive Prompt Injection Defense",
+    "authors": [
+      "Roshan Sood",
+      "Onat Gungor",
+      "Tajana Rosing"
+    ],
+    "abstract": "LLMs remain vulnerable to prompt injection attacks, where adversarial instructions embedded in user inputs or external content manipulate model behavior and bypass safeguards. Existing defenses are predominantly static, relying on fixed alignment objectives or attack-specific filtering mechanisms that require redesign as new attack strategies emerge. While recent lifelong alignment methods address shifting user preferences, they do not account for adaptive adversaries that continually evolve to exploit weaknesses in previously learned defenses. This limitation is particularly important in real-world deployments, where evolving attack distributions necessitate continual adaptation without sacrificing robustness to previously encountered threats. We present COPA, a continual preference optimization framework that treats prompt-injection defense as a lifelong learning problem. Instead of one-time alignment, COPA incrementally incorporates feedback from newly observed attacks via GRPO-based optimization and uses margin-weighted experience replay to retain defenses against prior attack classes. This enables continuous adaptation to emerging threats while mitigating catastrophic forgetting and preserving general-purpose model capabilities. Across lifelong prompt injection attack streams, COPA reduces attack success rate by up to 6.3x and 4.4x on average compared to state-of-the-art defenses. These results highlight continual preference optimization as an effective paradigm for defending LLMs against adaptive adversaries.",
+    "published": "2026-08-20T12:52:55Z",
+    "updated": "2026-08-20T12:52:55Z",
+    "url": "https://arxiv.org/abs/2608.19982v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.19982v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "analysis": {
+      "summary": "LLMs remain vulnerable to prompt injection attacks, where adversarial instructions embedded in user inputs or external content manipulate model behavior and bypass safeguards.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-08-21T22:50:36.725173+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-08-21T22:46:28.332610+00:00"
+  },
+  {
+    "id": "arxiv:2608.19816v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Understanding as an Explicit and Assessable Component of Frontier AI Safety Decisions",
+    "authors": [
+      "Stephen Barrett",
+      "Robin Bloomfield",
+      "Alexandra Chirilă",
+      "Mamoon Masud",
+      "David Meredith Hardy",
+      "Phillip Mulvana"
+    ],
+    "abstract": "Decision makers need sufficient understanding to make good decisions about complex AI systems. However, AI deployment decisions are increasingly made under time-pressure, and this combined with the use of AI generated artefact creation, can mean that the existence of safety cases and system cards may no longer demonstrate that sufficient understanding exists. Our provisional methodology for making understanding explicit and assessable requires the production of an explicit description of 4 objects of understanding (decision, decision-frame, safety justification, system-in-context) and a justification for the adequacy of this understanding. In addition, the methodology provides a mechanism for describing and evaluating the adequacy of the decision-maker representation of this understanding. It builds on recent developments in safety cases using the Assurance 2.0 framework to operationalise the philosophical basis of understanding from Elgin and Arendt. To assess the methodology we trialled two different scenarios. One scenario, which we investigated through role-based analysis, concerned the risk of scheming in the deployment of an AI coding agent in a robotics company and the other scenario was for the higher uncertainty, more decision-critical argument of 'If Anyone Builds It, Everyone Dies' (Yudkowsky and Soares). The trial's central finding, for these two scenarios, is that the methodology could be applied and was found to be generative: we found the analyses that justify sufficiency of understanding (internal coherence, tethering, felicitous falsehoods, external coherence) drives the engineering.",
+    "published": "2026-08-20T09:12:36Z",
+    "updated": "2026-08-20T09:12:36Z",
+    "url": "https://arxiv.org/abs/2608.19816v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.19816v1",
+    "categories": [
+      "cs.CY"
+    ],
+    "analysis": {
+      "summary": "Decision makers need sufficient understanding to make good decisions about complex AI systems.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cy"
+      ],
+      "analyzed_at": "2026-08-21T22:50:36.725248+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-08-21T22:46:28.332723+00:00"
+  },
+  {
+    "id": "arxiv:2608.19737v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "TempJail: Temporal Jailbreak Attack against Large Vision-Language Models via Subtitle Scheduling",
+    "authors": [
+      "Ling Zhou",
+      "Yihao Huang",
+      "Jingling Sun",
+      "Zhiwen Tian",
+      "Yi Zeng",
+      "Qihe Liu",
+      "Shijie Zhou"
+    ],
+    "abstract": "Large vision-language models (LVLMs) have achieved remarkable progress in video understanding and reasoning. Despite extensive studies on text- and image-based jailbreaks, video jailbreaks against LVLMs remain largely unexplored. Existing video jailbreak methods mainly manipulate textual content embedded in videos, while overlooking how such information is organized over time. Our analysis reveals that jailbreak effectiveness depends not only on the semantics of textual information but also on its temporal presentation, including duration and timing-slot allocation. Motivated by this finding, we use subtitles, which are common in real-world videos and allow semantic content to be presented under precise temporal control without appearing visually intrusive, as a natural attack medium. Based on this insight, we propose TempJail, a black-box video-based jailbreak framework that constructs query-aligned dialogue-style subtitle sequences and optimizes their temporal scheduling to exploit temporal vulnerabilities in LVLMs and elicit responses that satisfy the harmful intent of the source query. Extensive experiments on four representative LVLMs and two datasets demonstrate that TempJail achieves the highest attack success rate across all evaluated model--dataset settings, outperforming the strongest baseline by 53 and 18 percentage points in dataset-averaged ASR on GPT-5 and Gemini 3.5-Flash, respectively.",
+    "published": "2026-08-20T07:37:10Z",
+    "updated": "2026-08-20T07:37:10Z",
+    "url": "https://arxiv.org/abs/2608.19737v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.19737v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "analysis": {
+      "summary": "Large vision-language models (LVLMs) have achieved remarkable progress in video understanding and reasoning.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cv",
+        "cs-ai",
+        "cs-cl"
+      ],
+      "analyzed_at": "2026-08-21T22:50:36.725304+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-08-21T22:46:28.332796+00:00"
+  },
+  {
     "id": "arxiv:2608.17659v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -3051,121 +3170,5 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-08-07T01:35:15.358228+00:00"
-  },
-  {
-    "id": "arxiv:2608.04192v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Behavioral Skill Reconstruction: Reconstructing Hidden Functionality from LLM Agent Skills",
-    "authors": [
-      "Peichun Hua",
-      "Haoxuan Xu",
-      "Mengyuan Li"
-    ],
-    "abstract": "Closed source agent skills may encode proprietary instructions, scripts, constants, and data. Providers may offer their capabilities as services while keeping the underlying packages hidden. Prior work focuses on prompt injection attacks that directly disclose these artifacts, and existing defenses accordingly aim to prevent such leakage. However, preventing file disclosure does not prevent users from recovering the functionality those files implement. This raises a fundamental question: can a user reconstruct a skill's functionality through ordinary use while its files remain hidden? We study behavioral skill reconstruction (BSR), in which an attacker uses valid task requests and observed responses to build a functional clone of a hidden skill. We introduce SkillClone, a black-box attack that clones a target skill by forming an interface hypothesis from its public advertisement, issuing structured benign probes, synthesizing an executable replica, and iteratively repairing it through differential validation against the victim skill. Across 30 skills spanning rules, tables, procedures, and algorithms, SkillClone achieves exact or partial recovery on held-out inputs for several targets. Iterative requerying closes gaps missed by single-round reconstruction. Because SkillClone uses only legitimate interactions, disclosure-focused defenses provide limited coverage, and less detailed skill descriptions offer limited protection. These results show that file secrecy alone does not ensure functional secrecy. Defenses must also limit cumulative information leakage from ordinary use.",
-    "published": "2026-08-04T19:51:15Z",
-    "updated": "2026-08-04T19:51:15Z",
-    "url": "https://arxiv.org/abs/2608.04192v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.04192v1",
-    "categories": [
-      "cs.CR",
-      "cs.AI",
-      "cs.CL"
-    ],
-    "analysis": {
-      "summary": "Closed source agent skills may encode proprietary instructions, scripts, constants, and data.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-ai",
-        "cs-cl"
-      ],
-      "analyzed_at": "2026-08-07T23:06:08.898140+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-08-07T01:35:15.358323+00:00"
-  },
-  {
-    "id": "arxiv:2608.04173v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Understanding Fault Tolerance of Adversarially Robust Pruned Models",
-    "authors": [
-      "Manali Dangarikar",
-      "Cory Merkel"
-    ],
-    "abstract": "Deep neural networks (DNNs) deployed on resource-constrained neuromorphic hardware face three concurrent challenges: the need for model compression through pruning, vulnerability to adversarial input perturbations, and susceptibility to hardware-induced weight faults such as stuck-at-zero errors. While each of these factors has been studied in isolation, their combined effects on model reliability have received little attention. This paper presents an empirical investigation of how pruning, adversarial training, and hardware fault injection interact to affect the robustness of convolutional neural networks. Using a compact three-layer CNN trained on MNIST, we conduct three experiments: (1) comparing the fault tolerance of naturally and adversarially trained models under simultaneous hardware faults and adversarial attacks, (2) evaluating how pruning affects adversarial robustness, and (3) characterizing the joint accuracy surface across fault rates, adversarial perturbation magnitudes, and pruning levels. Our results show that adversarial training improves robustness against input perturbations but increases sensitivity to stuck-at-zero weight faults. Contrary to intuition, pruning did not significantly increase fault sensitivity, and varying the pruning level had little effect across fault rates and attack strengths. These results highlight the need to jointly consider adversarial robustness and hardware reliability.",
-    "published": "2026-08-04T19:31:43Z",
-    "updated": "2026-08-04T19:31:43Z",
-    "url": "https://arxiv.org/abs/2608.04173v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.04173v1",
-    "categories": [
-      "cs.LG",
-      "cs.CR"
-    ],
-    "analysis": {
-      "summary": "Deep neural networks (DNNs) deployed on resource-constrained neuromorphic hardware face three concurrent challenges: the need for model compression through pruning, vulnerability to adversarial input perturbations, and susceptibility to hardware-induced weight faults such as stuck-at-zero errors.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-lg",
-        "cs-cr"
-      ],
-      "analyzed_at": "2026-08-07T23:06:08.898234+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-08-07T01:35:15.358530+00:00"
-  },
-  {
-    "id": "arxiv:2608.04053v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "AgentAntibody: An Adaptive Immune System for Defending LLM Agents against Prompt Injection",
-    "authors": [
-      "Shihao Weng",
-      "Yang Feng",
-      "Xiaofei Xie",
-      "Jiongchi Yu"
-    ],
-    "abstract": "Prompt injection remains a critical threat to LLM agents, yet existing defenses treat each task as a self-contained problem, independent of previous encounters. In practice, user requests are often underspecified: they describe the desired outcome without fully specifying acceptable behavior. An injection can exploit this ambiguity, causing the agent to complete the task in a way the user would reject. As the user's expectations become clearer through concrete cases, a defense should learn from each encounter and apply what it learns to the next. Inspired by adaptive immunity, we propose AgentAntibody, which equips LLM agents with a self-evolving immune system against prompt injection. AgentAntibody represents its evolving understanding of the user's security boundary as a persistent library of antibodies. At runtime, the library recognizes threats to this boundary and mounts corresponding immune responses. Across encounters, it evolves to strengthen the agent's immunity to future attacks. Extensive experiments across three benchmarks and four backbone LLMs show that, by learning the user's boundary through experience, AgentAntibody outperforms existing defenses in preventing harmful actions while preserving legitimate task completion, even when the harmful and legitimate actions are both compatible with the stated task.",
-    "published": "2026-08-04T10:41:34Z",
-    "updated": "2026-08-04T10:41:34Z",
-    "url": "https://arxiv.org/abs/2608.04053v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.04053v1",
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Prompt injection remains a critical threat to LLM agents, yet existing defenses treat each task as a self-contained problem, independent of previous encounters.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-08-07T23:06:08.898327+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-08-07T01:35:15.358829+00:00"
   }
 ]

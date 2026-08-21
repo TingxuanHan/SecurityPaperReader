@@ -1,8 +1,65 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-08-21 06:52 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-08-22 06:50 Asia/Shanghai
 
 ## 今日论文
+
+### [COPA: Continual Preference Optimization for Adaptive Prompt Injection Defense](https://arxiv.org/abs/2608.19982v1)
+
+**作者**：Roshan Sood, Onat Gungor, Tajana Rosing
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-20 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.19982v1)
+
+**摘要总结**：LLMs remain vulnerable to prompt injection attacks, where adversarial instructions embedded in user inputs or external content manipulate model behavior and bypass safeguards.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
+
+---
+
+### [Understanding as an Explicit and Assessable Component of Frontier AI Safety Decisions](https://arxiv.org/abs/2608.19816v1)
+
+**作者**：Stephen Barrett, Robin Bloomfield, Alexandra Chirilă, Mamoon Masud, David Meredith Hardy, Phillip Mulvana
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-20 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.19816v1)
+
+**摘要总结**：Decision makers need sufficient understanding to make good decisions about complex AI systems.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cy`
+
+---
+
+### [TempJail: Temporal Jailbreak Attack against Large Vision-Language Models via Subtitle Scheduling](https://arxiv.org/abs/2608.19737v1)
+
+**作者**：Ling Zhou, Yihao Huang, Jingling Sun, Zhiwen Tian, Yi Zeng, Qihe Liu, Shijie Zhou
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-20 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.19737v1)
+
+**摘要总结**：Large vision-language models (LVLMs) have achieved remarkable progress in video understanding and reasoning.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv` `cs-ai` `cs-cl`
+
+---
 
 ### [MobileWorldSafety: Benchmarking GUI Agent Safety Against Environmental Injection Attacks in Android Apps](https://arxiv.org/abs/2608.17659v1)
 
@@ -1464,60 +1521,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-cr` `cs-ai` `cs-cl`
-
----
-
-### [Behavioral Skill Reconstruction: Reconstructing Hidden Functionality from LLM Agent Skills](https://arxiv.org/abs/2608.04192v1)
-
-**作者**：Peichun Hua, Haoxuan Xu, Mengyuan Li
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-08-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.04192v1)
-
-**摘要总结**：Closed source agent skills may encode proprietary instructions, scripts, constants, and data.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai` `cs-cl`
-
----
-
-### [Understanding Fault Tolerance of Adversarially Robust Pruned Models](https://arxiv.org/abs/2608.04173v1)
-
-**作者**：Manali Dangarikar, Cory Merkel
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-08-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.04173v1)
-
-**摘要总结**：Deep neural networks (DNNs) deployed on resource-constrained neuromorphic hardware face three concurrent challenges: the need for model compression through pruning, vulnerability to adversarial input perturbations, and susceptibility to hardware-induced weight faults such as stuck-at-zero errors.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-lg` `cs-cr`
-
----
-
-### [AgentAntibody: An Adaptive Immune System for Defending LLM Agents against Prompt Injection](https://arxiv.org/abs/2608.04053v1)
-
-**作者**：Shihao Weng, Yang Feng, Xiaofei Xie, Jiongchi Yu
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-08-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.04053v1)
-
-**摘要总结**：Prompt injection remains a critical threat to LLM agents, yet existing defenses treat each task as a self-contained problem, independent of previous encounters.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai`
