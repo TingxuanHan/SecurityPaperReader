@@ -1,8 +1,122 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-08-24 06:47 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-08-25 06:52 Asia/Shanghai
 
 ## 今日论文
+
+### [Utility Under Attack: Agent Memory Poisoning and the Limits of Content Screening and Provenance Ranking](https://arxiv.org/abs/2608.21230v1)
+
+**作者**：Arulnidhi Karunanidhi
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-21 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.21230v1)
+
+**摘要总结**：Persistent memory makes false information durable: once a false statement is stored, it can be retrieved into future sessions that match it.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
+
+---
+
+### [TraceGrant: A Contract-Governed Security Framework for the Task-Effect Lifecycle of Networked LLM Agents](https://arxiv.org/abs/2608.21126v1)
+
+**作者**：Bohao Liao, Jingchao Wang, Qipeng Song, Jin Cao, Jieling Wang, Boyu Deng
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-21 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.21126v1)
+
+**摘要总结**：Networked large language model (LLM) agents retrieve information from email, cloud storage, calendars, transaction platforms, and Web services to complete multistep tasks that produce persistent external effects.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
+
+---
+
+### [ReFrame: Evidence-Guided Test-Time Safety Alignment in Multimodal Large Language Models](https://arxiv.org/abs/2608.21100v1)
+
+**作者**：Wenzheng Jiang, Xuankun Rong, Yuanzhao Zhai, Dawei Feng, Huaimin Wang
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-21 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.21100v1)
+
+**摘要总结**：While multimodal large language models (MLLMs) extend model capabilities beyond text, they also make safety alignment increasingly challenging.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
+
+---
+
+### [PromptResponse: Optimizing Prompts for LLM Coding Tasks](https://arxiv.org/abs/2608.21074v1)
+
+**作者**：Erik Thureck, Robert Kühnen, Tim Jacobowitz
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-21 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.21074v1)
+
+**摘要总结**：Large language models (LLMs) are increasingly used in research workflows and software development pipelines, yet their output remains sensitive to input prompt variations.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl` `cs-ai` `cs-hc` `cs-se`
+
+---
+
+### [Certified Multi-Turn Robustness for LLM Safety via Compositional Bounds and Safety Persistence](https://arxiv.org/abs/2608.20820v1)
+
+**作者**：Yang Liu, Bin Chong, Wenkai Yang, Shuai Zhang, Yancheng Chen, Feiyu Han, GuoZhen, Cheng Zhang, et al.
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-21 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.20820v1)
+
+**摘要总结**：Large language models (LLMs) are vulnerable to multi-turn jailbreak attacks that progressively manipulate conversation context.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
+
+---
+
+### [Faults That Fortify: CNN Adversarial Robustness via GPU Undervolting](https://arxiv.org/abs/2608.20572v1)
+
+**作者**：Behnam Omidi, Ahmad Tahmasivand, Husam Alsyouri, Saba Al-Sayouri, Chongzhou Fang, Ihsen Alouani, Khaled N. Khasawneh
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-20 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.20572v1)
+
+**摘要总结**：Convolutional Neural Networks (CNNs) face a dual challenge: vulnerability to adversarial attacks and prohibitive training cost.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-ar` `cs-cr`
+
+---
 
 ### [COPA: Continual Preference Optimization for Adaptive Prompt Injection Defense](https://arxiv.org/abs/2608.19982v1)
 
@@ -30,6 +144,25 @@
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-20 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.19816v1)
 
 **摘要总结**：Decision makers need sufficient understanding to make good decisions about complex AI systems.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cy`
+
+---
+
+### [Understanding as an Explicit and Assessable Component of Frontier AI Safety Decisions](https://arxiv.org/abs/2608.19816v2)
+
+**作者**：Stephen Barrett, Robin Bloomfield, Alexandra Chirilă, Mamoon Masud, David Meredith Hardy, Phillip Mulvana
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-20 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.19816v2)
+
+**摘要总结**：Decision makers need sufficient understanding to make good decisions about training or deploying frontier AI systems.
 
 **创新点**
 
@@ -1388,136 +1521,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-mm`
-
----
-
-### [PromptShield Home: Ambient Multimodal Prompt Injection Defense for Smart-Home Agents](https://arxiv.org/abs/2608.05495v1)
-
-**作者**：He Zhang, Feilong Li, Dingning Long, Yilin Cui, Peijun Zhang, Yuewen Zhang, Qianyao Xu, Xinyi Fu
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-08-06 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.05495v1)
-
-**摘要总结**：Smart-home assistants increasingly use multimodal large language models (MLLMs) that perceive video and audio directly.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-hc`
-
----
-
-### [Robust Context-Aware Detection of Malicious Instructions in Text](https://arxiv.org/abs/2608.05430v1)
-
-**作者**：Buzhao Liu, Xinhang Ma, Yevgeniy Vorobeychik
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-08-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.05430v1)
-
-**摘要总结**：The remarkable instruction-following ability of modern LLMs has enabled their practical use as the minds of agents that can autonomously complete increasingly complex tasks.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-lg`
-
----
-
-### [Mood Matters: How Syntactic Sensitivity Undermines Safety Alignment](https://arxiv.org/abs/2608.05409v1)
-
-**作者**：Alina Klerings, Jannik Brinkmann, Heiner Stuckenschmidt, Simone Paolo Ponzetto
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-08-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.05409v1)
-
-**摘要总结**：Large language models typically undergo post-training to align them with safety policies but there exist many sophisticated jailbreaks that sidestep established safeguards.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cl`
-
----
-
-### [Agent Against Agent: An Agentic System for Automatic Prompt Injection Red Teaming](https://arxiv.org/abs/2608.05108v1)
-
-**作者**：Yanting Wang, Chenlong Yin, Runpeng Geng, Jinyuan Jia
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-08-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.05108v1)
-
-**摘要总结**：Prompt injection poses significant security risks to LLM agents.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr`
-
----
-
-### [Item Response Theory for AI Safety](https://arxiv.org/abs/2608.05086v1)
-
-**作者**：Joshua Fonseca Rivera, Neil Shah, David Demitri Africa, Konstantinos Voudouris
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-08-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.05086v1)
-
-**摘要总结**：Language models differ in how safely they behave and these differences are measured by safety benchmarks.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai` `cs-cl`
-
----
-
-### [LoginTrap: Uncovering Task-Agnostic Phishing-Style Indirect Prompt Injection Attacks against LLM-based Web Agents](https://arxiv.org/abs/2608.04741v1)
-
-**作者**：Longtao Guo, Zelin Zhang, Kaifeng Huang, Yang Shi
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-08-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.04741v1)
-
-**摘要总结**：LLM-based web agents automate user tasks by observing webpages and executing browser actions on behalf of users.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr`
-
----
-
-### [Breadcrumbing Search Agents](https://arxiv.org/abs/2608.04565v1)
-
-**作者**：Xuebin Li, Hanqing Zhao, Siyuan Liang, Kejiang Chen, Weiming Zhang, Dacheng Tao, Nenghai Yu
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-08-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.04565v1)
-
-**摘要总结**：LLM-based search agents are widely used for information-seeking tasks, but their reliance on external tool returns introduces a critical security risk: web content retrieved during execution is untrusted, exposing agents to prompt injection and goal hijacking.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai` `cs-cl`
