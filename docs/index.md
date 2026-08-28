@@ -1,8 +1,122 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-08-27 11:27 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-08-28 14:14 Asia/Shanghai
 
 ## 今日论文
+
+### [RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution](https://arxiv.org/abs/2608.27439v1)
+
+**作者**：Junjie Zhang, Hui Liu, Kecheng Chen, Xianbo Mo, Changsheng Chen, Haoliang Li
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-27 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.27439v1)
+
+**摘要总结**：LLM-based agents are increasingly deployed in product-level execution harnesses, where jailbreaks can trigger harmful tool use and persistent state changes, creating greater risks than unsafe text generation alone.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
+
+---
+
+### [The Framing Gap: Indirect Prompt-Injection Exfiltration Defeats Surface-Level Defenses in Tool-Using Agents](https://arxiv.org/abs/2608.27092v1)
+
+**作者**：Md Habibur Rahman, Jaeho Kim
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-27 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.27092v1)
+
+**摘要总结**：A tool-using LLM agent that reads attacker-controlled web content while holding a secret faces indirect prompt injection: the content may make it exfiltrate the secret.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
+
+---
+
+### [TempJail: Temporal Jailbreak Attacks against Image-to-Video Generation Models](https://arxiv.org/abs/2608.26971v1)
+
+**作者**：Qi Lu, Zehui Guo, David Yuanda Gan, Zijing Li, Hengda Zhang, Weijun Xu, Qiankun Zhang
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-27 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.26971v1)
+
+**摘要总结**：In recent years, image-to-video (I2V) generation models have made remarkable progress in subject consistency and temporal coherence, enabling high quality video synthesis.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv` `cs-mm`
+
+---
+
+### [A Single Suffix to Break Them All: Basin-Aware Jailbreaks for Merged Model Families](https://arxiv.org/abs/2608.26506v1)
+
+**作者**：Yu Zhe, Yixin Tan, Junhao Wei, Wang Chen
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-27 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.26506v1)
+
+**摘要总结**：Model merging enables combining multiple fine-tuned models without additional training, but its safety implications remain poorly understood.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-cl`
+
+---
+
+### [The Latent Diagnostic Taxonomy: A Framework for Constructing Classifiers and Diagnosing Their Decisions, Applied to Prompt Injection Detection](https://arxiv.org/abs/2608.26423v1)
+
+**作者**：Jaturong Kongmanee, Smile Thanapattheerakul
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-26 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.26423v1)
+
+**摘要总结**：This paper proposes a framework for constructing a classifier as a safeguard layer, and for developing a complementary diagnostic that identifies which of the classifier's confident decisions can be trusted.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-ai` `cs-cl` `cs-cr`
+
+---
+
+### [CG4AI: A Column Generation Framework for Training AI Models Under Constraints](https://arxiv.org/abs/2608.26375v1)
+
+**作者**：Youcef Magnouche, Abderrahmane Driouch, Sébastien Martin, Pierre Bauguion
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-26 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.26375v1)
+
+**摘要总结**：Standard machine-learning training minimizes a loss function over a dataset, but does not guarantee that the resulting model will satisfy predefined rules or constraints on its outputs.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-ai` `cs-dm`
+
+---
 
 ### [A Self-Evolving Multi-Agent Framework Defense against LLM Jailbreak Attacks](https://arxiv.org/abs/2608.26008v1)
 
@@ -39,6 +153,25 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-cr`
+
+---
+
+### [NeuronFuzz: Safety Neuron Guided Fuzzing for LLM Safety Evaluation](https://arxiv.org/abs/2608.26222v1)
+
+**作者**：Zhiyuan Xu, Muhammad Firhard Roslan, Joseph Gardiner, Sana Belguith, Lichao Wu
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-08-26 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.26222v1)
+
+**摘要总结**：Safety evaluation is critical for assessing whether aligned Large Language Models (LLMs) remain robust against jailbreak attacks.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-ai` `cs-cr` `cs-se`
 
 ---
 
@@ -162,13 +295,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-25 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.23959v1)
 
-**摘要总结**：暂无
+**摘要总结**：Safety alignment in large language models (LLMs) remains brittle against a growing spectrum of attacks.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-ir` `cs-lg`
 
 ---
 
@@ -1355,136 +1491,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-cl`
-
----
-
-### [SafeCA: Safe Cross-Attention Localization and Regulation for Text-to-Video Jailbreak Defense](https://arxiv.org/abs/2608.10933v1)
-
-**作者**：Siyuan Liang, Yupeng Qiu, Junfeng Fang, Rong-Cheng Tu, Jiaxing Huang, Dacheng Tao
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-08-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.10933v1)
-
-**摘要总结**：Text-to-Video (T2V) generative models are vulnerable to jailbreak attacks in real-world deployment, leading them to produce harmful or inappropriate content.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cv`
-
----
-
-### [ProTAGAD: A Foundation Model for TAG Anomaly Detection with Decoupled Topological and Textual Prototypes](https://arxiv.org/abs/2608.10699v1)
-
-**作者**：Ziyan Wang, Liwen Wu, Cheng Xie, Song Gao, Zhenli He, Xin Jin
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-08-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.10699v1)
-
-**摘要总结**：Text-Attributed Graphs (TAGs), endowed with abundant textual content along with topological structures, have emerged as a versatile backbone for real-world anomaly detection spanning large language model security, social network moderation, and cyber threat identification.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-lg` `cs-ai`
-
----
-
-### [ProbGuard: Calibrated Safety Risk Estimation from LLM Output Distributions](https://arxiv.org/abs/2608.10621v1)
-
-**作者**：Xinzhe Huang, Biwu Yao, Kedong Xiu, Mengnan Zhao, Di Wang, Puning Zhao, Tianhang Zheng
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-08-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.10621v1)
-
-**摘要总结**：Recent research on Large Language Model (LLM) safety has widely adopted guardrails to identify unsafe LLM outputs.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-lg`
-
----
-
-### [Agent Safety Should Be a Runtime Contract](https://arxiv.org/abs/2608.11274v1)
-
-**作者**：Albus W. Ng, Yi Han, Jusheng Zhang, Wenhao Wang
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-08-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.11274v1)
-
-**摘要总结**：The dominant paradigm treats AI safety as a property to be instilled during model training via RLHF, DPO, or Constitutional AI.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai`
-
----
-
-### [Measuring Semantic Abstractness of SAE Features via Nonlocality](https://arxiv.org/abs/2608.10537v1)
-
-**作者**：Chuqiao Lin, Shivaji Sondhi, Xiao-Liang Qi
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-08-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.10537v1)
-
-**摘要总结**：Sparse autoencoders (SAEs) have helped uncover mechanistic explanations for LLM behaviours such as reasoning, jailbreaking etc., via understanding the corresponding task-relevant and causally effective features.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai` `cs-lg`
-
----
-
-### [On Understanding, Identifying, and Mitigating Vulnerabilities in Agentic Large Language Models](https://arxiv.org/abs/2608.10530v1)
-
-**作者**：Md Jafrin Hossain, Mohammad Arif Hossain, Nirwan Ansari
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-08-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.10530v1)
-
-**摘要总结**：Large Language Models (LLMs) have undergone a shift from stateless conversational interfaces to autonomous agents capable of multi-step planning, tool invocation, code execution, and maintaining persistent memory.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai`
-
----
-
-### [SafeCap: Improving LVLM Safety with Image Captioning Reinforcement Learning](https://arxiv.org/abs/2608.10513v1)
-
-**作者**：Caoyuan Ma, Wenpu Liu, Weichu Xie, Tian Gu, Shilei Zhao, Lingxi Min, Shuai Dong, Yuqi Xu, et al.
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-08-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.10513v1)
-
-**摘要总结**：Large vision-language models (LVLMs) remain vulnerable to jailbreak attacks that exploit visual inputs to bypass safety alignment inherited from their language backbones.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cv` `cs-ai`
