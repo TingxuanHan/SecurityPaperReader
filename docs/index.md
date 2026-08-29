@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-08-28 14:14 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-08-29 11:47 Asia/Shanghai
 
 ## 今日论文
 
@@ -314,13 +314,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-24 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.23873v1)
 
-**摘要总结**：暂无
+**摘要总结**：Everything a language model sees is tokens.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-cl` `cs-cr` `cs-lg`
 
 ---
 
@@ -330,13 +333,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-24 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.23870v1)
 
-**摘要总结**：暂无
+**摘要总结**：When it comes to safety policies for generative AI, one size does not fit all.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
 
 ---
 
@@ -346,13 +352,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-24 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.23782v1)
 
-**摘要总结**：暂无
+**摘要总结**：Continual learning faces the persistent challenge of catastrophic forgetting, where sequential task updates degrade previously acquired knowledge.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg`
 
 ---
 
@@ -362,13 +371,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-24 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.23763v1)
 
-**摘要总结**：暂无
+**摘要总结**：The Model Context Protocol (MCP) has emerged as the standard layer connecting Large Language Model agents to external tool backends.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -530,13 +542,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-22 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.21895v1)
 
-**摘要总结**：暂无
+**摘要总结**：Locally deployed Large Language Models (LLMs) via inference engines such as Ollama run without the moderation and abuse detection present in API-served models.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -546,13 +561,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-22 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.21869v1)
 
-**摘要总结**：暂无
+**摘要总结**：Text-to-image (T2I) diffusion models offer powerful visual generation, but their controllability creates a critical safety challenge: adversarial prompts can steer the denoising trajectory toward policy-violating content such as explicit nudity or graphic violence.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv` `cs-ai`
 
 ---
 
@@ -562,13 +580,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-22 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.21775v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large Language Models (LLMs) are increasingly deployed in real-world applications, yet they remain vulnerable to generating harmful content.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl`
 
 ---
 
@@ -578,13 +599,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-21 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.21656v1)
 
-**摘要总结**：暂无
+**摘要总结**：Retrieval-Augmented Generation (RAG) has emerged as a powerful paradigm for combining large language models (LLMs) with external knowledge sources.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl`
 
 ---
 
