@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-08-30 08:32 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-08-31 08:43 Asia/Shanghai
 
 ## 今日论文
 
