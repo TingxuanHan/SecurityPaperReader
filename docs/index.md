@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-09-02 08:24 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-09-03 08:27 Asia/Shanghai
 
 ## 今日论文
 
@@ -162,13 +162,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-31 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.30207v1)
 
-**摘要总结**：暂无
+**摘要总结**：Computer use agents (CUAs) are vision-language models that perceive a screen and act on a real operating system through mouse, keyboard, and terminal, and they are increasingly deployed to automate everyday digital tasks.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -178,13 +181,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-30 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.30083v1)
 
-**摘要总结**：暂无
+**摘要总结**：Multi-agent AI platforms move quickly from staging to production, but the way agents establish trust remains rudimentary: an agent either transmits raw data to a peer or accepts that peer's natural-language self-report that a value complies with policy.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ma`
 
 ---
 
@@ -194,13 +200,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-30 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.30041v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large language model agents place outputs from external skills into their execution context, allowing attacker-controlled data to influence later privileged actions.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -362,13 +371,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.28396v1)
 
-**摘要总结**：暂无
+**摘要总结**：Robustness evaluation is essential for deploying machine-learning (ML) systems in real-world settings, where models may face adversarial perturbations, distribution shifts, and other operational stressors.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-se`
 
 ---
 
@@ -378,13 +390,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.28327v1)
 
-**摘要总结**：暂无
+**摘要总结**：Practitioners defend large language models (LLMs) by stacking defenses, assuming the layers compound.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-cl`
 
 ---
 
@@ -394,13 +409,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.27990v1)
 
-**摘要总结**：暂无
+**摘要总结**：Prompt injection attacks on Large Language Model (LLM) agents seek to introduce malicious instructions or content into external text sources retrieved by agents, forcing the underlying LLMs to execute harmful actions outside their benign scope.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -429,13 +447,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-27 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.27548v1)
 
-**摘要总结**：暂无
+**摘要总结**：Safety moderation for deployed AI applications is moving beyond text-only prompts: systems increasingly need to judge images, documents, screenshots, and generated responses under policies that vary across domains.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
 
 ---
 
@@ -445,13 +466,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-27 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.27531v1)
 
-**摘要总结**：暂无
+**摘要总结**：The safety of large vision-language models is increasingly stress-tested by multimodal jailbreaks, yet existing attacks remain largely static at the meta level: template-based attacks freeze the image--text layout, while iterative attacks adapt only the image--text content with fixed attack strategies and frozen attacker parameters.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-cv`
 
 ---
 

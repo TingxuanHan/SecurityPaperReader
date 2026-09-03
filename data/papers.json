@@ -324,7 +324,22 @@
       "cs.CR",
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Computer use agents (CUAs) are vision-language models that perceive a screen and act on a real operating system through mouse, keyboard, and terminal, and they are increasingly deployed to automate everyday digital tasks.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-09-03T00:27:48.916277+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-09-02T00:20:51.486377+00:00"
   },
   {
@@ -345,7 +360,22 @@
       "cs.CR",
       "cs.MA"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Multi-agent AI platforms move quickly from staging to production, but the way agents establish trust remains rudimentary: an agent either transmits raw data to a peer or accepts that peer's natural-language self-report that a value complies with policy.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ma"
+      ],
+      "analyzed_at": "2026-09-03T00:27:48.916401+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-09-02T00:20:51.486481+00:00"
   },
   {
@@ -370,7 +400,22 @@
       "cs.CR",
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Large language model agents place outputs from external skills into their execution context, allowing attacker-controlled data to influence later privileged actions.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-09-03T00:27:48.916542+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-09-02T00:20:51.486594+00:00"
   },
   {
@@ -708,7 +753,21 @@
     "categories": [
       "cs.SE"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Robustness evaluation is essential for deploying machine-learning (ML) systems in real-world settings, where models may face adversarial perturbations, distribution shifts, and other operational stressors.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-se"
+      ],
+      "analyzed_at": "2026-09-03T00:27:48.916639+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-09-01T01:19:44.049607+00:00"
   },
   {
@@ -733,7 +792,23 @@
       "cs.AI",
       "cs.CL"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Practitioners defend large language models (LLMs) by stacking defenses, assuming the layers compound.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai",
+        "cs-cl"
+      ],
+      "analyzed_at": "2026-09-03T00:27:48.916739+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-09-01T01:19:44.049729+00:00"
   },
   {
@@ -759,7 +834,22 @@
       "cs.CR",
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Prompt injection attacks on Large Language Model (LLM) agents seek to introduce malicious instructions or content into external text sources retrieved by agents, forcing the underlying LLMs to execute harmful actions outside their benign scope.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-09-03T00:27:48.916833+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-09-01T01:19:44.049840+00:00"
   },
   {
@@ -824,7 +914,21 @@
     "categories": [
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Safety moderation for deployed AI applications is moving beyond text-only prompts: systems increasingly need to judge images, documents, screenshots, and generated responses under policies that vary across domains.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-09-03T00:27:48.916927+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-09-01T01:19:44.050028+00:00"
   },
   {
@@ -854,7 +958,22 @@
       "cs.CR",
       "cs.CV"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "The safety of large vision-language models is increasingly stress-tested by multimodal jailbreaks, yet existing attacks remain largely static at the meta level: template-based attacks freeze the image--text layout, while iterative attacks adapt only the image--text content with fixed attack strategies and frozen attacker parameters.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-cv"
+      ],
+      "analyzed_at": "2026-09-03T00:27:48.917022+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-09-01T01:19:44.050141+00:00"
   },
   {
