@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-09-03 08:27 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-09-04 08:18 Asia/Shanghai
 
 ## 今日论文
 
@@ -523,13 +523,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-27 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.26971v2)
 
-**摘要总结**：暂无
+**摘要总结**：In recent years, image-to-video (I2V) generation models have made remarkable progress in subject consistency and temporal coherence, enabling high quality video synthesis.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv` `cs-mm`
 
 ---
 
@@ -539,13 +542,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-08-27 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.27504v1)
 
-**摘要总结**：暂无
+**摘要总结**：Despite extensive safety alignment, large language models (LLMs) remain vulnerable to jailbreak attacks that bypass safeguards to elicit harmful content.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
