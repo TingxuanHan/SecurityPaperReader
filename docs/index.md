@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-09-08 08:34 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-09-09 08:24 Asia/Shanghai
 
 ## 今日论文
 
@@ -162,13 +162,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-03 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.03693v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large language models (LLMs) are vulnerable to jailbreak attacks that bypass safety alignment through carefully crafted prompts.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -178,13 +181,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-03 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.03247v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large language model (LLM) security has largely focused on role-playing jailbreaks, with less attention to what happens when a user asks an LLM to verify an identity claim through a test designed by the model itself.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
@@ -194,13 +200,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-02 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.02852v1)
 
-**摘要总结**：暂无
+**摘要总结**：LLMs are trained to generate natural language.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-cr`
 
 ---
 
@@ -210,13 +219,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-02 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.02414v1)
 
-**摘要总结**：暂无
+**摘要总结**：Multi-turn jailbreak attacks demonstrate that harmful intent can be distributed across dialogue, yet existing methods obscure what conversational mechanisms drive vulnerability.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl` `cs-ai`
 
 ---
 
@@ -226,13 +238,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-02 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.02293v1)
 
-**摘要总结**：暂无
+**摘要总结**：Mixture-of-Experts (MoE) is a scaling architecture for large language models that activates only a small subset of expert modules per token, enabling massive parameter growth with nearly constant computation.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-ai` `cs-cr`
 
 ---
 
@@ -242,13 +257,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-02 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.02172v1)
 
-**摘要总结**：暂无
+**摘要总结**：Optimization-based jailbreak attacks such as Greedy Coordinate Gradient (GCG) achieve strong effectiveness and transferability by optimizing adversarial suffixes on white-box source models.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl` `cs-lg`
 
 ---
 
@@ -258,13 +276,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-02 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.02127v1)
 
-**摘要总结**：暂无
+**摘要总结**：Persistent AI agents construct autobiographical state through reflection, retrieval, and consolidation.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
@@ -274,13 +295,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-02 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.02035v1)
 
-**摘要总结**：暂无
+**摘要总结**：Skill selection is a key stage in LLM-agent workflows, determining which installed skill should handle a user request.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
