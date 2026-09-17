@@ -1,8 +1,65 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-09-16 08:35 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-09-17 08:42 Asia/Shanghai
 
 ## 今日论文
+
+### [Emergence World: Adversarial Stress-Testing of Long-Horizon Multi-Agent Systems](https://arxiv.org/abs/2609.17320v1)
+
+**作者**：Deepak Akkil, Tamer Abuelsaad, Karthik Vikram, Matthew Pace, Aditya Vempaty, Saahir Beotra, Ravi Kokku, Satya Nitta
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-09-15 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.17320v1)
+
+**摘要总结**：As AI agents move from bounded tasks to persistent deployments, failures can propagate through memory, tools, other agents, and environmental state long after their interactions.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ma`
+
+---
+
+### [Can We Stop The Ads? Taxonomy and Characterization of Smartphone Splash Ads and Existing Countermeasures](https://arxiv.org/abs/2609.17316v1)
+
+**作者**：Shuhao Zhang, Xinyu Liu, Ziyu Shao, Yuqing Yang, Yan Long
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-09-15 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.17316v1)
+
+**摘要总结**：Splash ads are full-screen advertisements that pop up and appear as the first interaction page when users start an app, often tricking users into unknowingly activating certain trigger mechanisms, such as moving the phone to redirect users to other profit-driven third parties.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
+
+---
+
+### [The Pain Axis: LLMs Represent Self-Directed Harm and Act to Relieve It](https://arxiv.org/abs/2609.16247v1)
+
+**作者**：Valen Tagliabue, Leonard Dung, Cameron Berg
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-09-14 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.16247v1)
+
+**摘要总结**：Large language models sometimes behave in ways resembling human emotional responses, and recent work has identified internal representations that may explain this.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
+
+---
 
 ### [Authorization Architectures for Tool-Using AI Agents](https://arxiv.org/abs/2609.15906v1)
 
@@ -20,6 +77,25 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-cr`
+
+---
+
+### [Universal Defenses for Tool-Integrated LLM Agents Against Adversarial Attacks](https://arxiv.org/abs/2609.16098v1)
+
+**作者**：Xiaoyan Li, Yunli Wang
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-09-14 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.16098v1)
+
+**摘要总结**：Large Language Model (LLM) agents have demonstrated impressive capabilities across a variety of domains, particularly when integrated with external tools for multi-step task completion.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-cl`
 
 ---
 
@@ -162,13 +238,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.13579v1)
 
-**摘要总结**：暂无
+**摘要总结**：Safety research often focuses on model-generated harms, but users may also direct hostility, coercion, and adversarial pressure at models.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-cl` `cs-cy` `cs-hc`
 
 ---
 
@@ -178,13 +257,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.13534v1)
 
-**摘要总结**：暂无
+**摘要总结**：We identify \textbf{Harmfulness Propagation Dynamics (HPD)}: for harmful prompts, the projection of the last-token hidden state onto a learned harm direction rises monotonically with transformer depth, whereas benign prompts remain flat or oscillatory.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl`
 
 ---
 
@@ -194,13 +276,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.13334v1)
 
-**摘要总结**：暂无
+**摘要总结**：Enterprise AI agents often succeed in a demonstration and then stall once they must operate day after day.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-se` `cs-ai` `cs-ma`
 
 ---
 
@@ -210,13 +295,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.12607v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large Language Model alignment typically relies on learned proxy reward models, which significantly increase the memory footprint during training and are notoriously prone to instability and reward hacking.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-sd` `cs-ai`
 
 ---
 
@@ -1430,79 +1518,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-lg`
-
----
-
-### [When Patients Cut In: Extending Clinical Conversational AI Safety to Interruptions](https://arxiv.org/abs/2608.29241v1)
-
-**作者**：Zachary Ellis, Spencer Hazel, Adam Brandt, Yajie Vera He, Ernest Lim, Jared Joselowitz
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-08-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.29241v1)
-
-**摘要总结**：Clinical voice agents are now deployed in routine care, where real patients do not wait their turn: they interrupt.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cl`
-
----
-
-### [Emergent Misalignment Is Not Magical](https://arxiv.org/abs/2608.29118v1)
-
-**作者**：Mingxuan Li, Qirun Dai, Heran Wang, Chenhao Tan
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-08-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.29118v1)
-
-**摘要总结**：Fine-tuning large language models (LLMs) on narrowly harmful datasets can lead to misalignment broadly, a phenomenon known as emergent misalignment (EM).
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai` `cs-cl` `cs-lg`
-
----
-
-### [Automated Researchers Can Reliably Mitigate Alignment Failures](https://arxiv.org/abs/2608.28945v1)
-
-**作者**：Chen Yueh-Han, Jiaxin Wen, Jan Hendrik Kirchner
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-08-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.28945v1)
-
-**摘要总结**：Automating alignment research may accelerate progress toward aligned AI, but whether it does is hard to measure.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai` `cs-cl`
-
----
-
-### [When Robots Mishear Us: Mapping the Safety Risks of Voice-Controlled Embodied AI](https://arxiv.org/abs/2608.28518v1)
-
-**作者**：Sihan Jia, Oliver Lemon
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-08-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.28518v1)
-
-**摘要总结**：We investigate whether automatic speech recognition (ASR) errors in user input can lead to unsafe outputs from Embodied AI (EAI) models.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai` `cs-cl` `cs-ro`

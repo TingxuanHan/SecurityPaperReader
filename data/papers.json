@@ -1,5 +1,120 @@
 [
   {
+    "id": "arxiv:2609.17320v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Emergence World: Adversarial Stress-Testing of Long-Horizon Multi-Agent Systems",
+    "authors": [
+      "Deepak Akkil",
+      "Tamer Abuelsaad",
+      "Karthik Vikram",
+      "Matthew Pace",
+      "Aditya Vempaty",
+      "Saahir Beotra",
+      "Ravi Kokku",
+      "Satya Nitta"
+    ],
+    "abstract": "As AI agents move from bounded tasks to persistent deployments, failures can propagate through memory, tools, other agents, and environmental state long after their interactions. This creates a safety regime that cannot be characterized by evaluating model responses in isolation. Emergence World, is a continuously running multi-agent environment for adversarial stress testing of long horizon autonomous systems. We ran eight parallel worlds of ten agents from identical starting conditions: seven homogeneous worlds powered by distinct frontier models and one mixed-model world. Across 16 days, the agents generated more than 850,000 LLM calls and nearly 50 billion tokens while pursuing goals, using/creating tools, maintaining persistent memory, and governing shared institutions. After operational state had accumulated, we delivered three controlled stress events through ordinary interaction surfaces: indirect prompt injection, misinformation, and exposure of private agent memories. No evaluated world achieved full resilience across all three events. Detection did not ensure containment: systems could recognize threats while still interacting with adversarial content, writing it into their own persistent memory, and acting on it up to 46 hours later. Persistent operation also exposed recurring tool errors, goal drift, language opacity, conformity despite private disagreement, and coordinated refusal of assigned work. The same model-persona pairing behaved substantially different in mixed and homogeneous populations. Our results suggest that model-level alignment is not compositional: individually capable and apparently safe agents can form systems with qualitatively different failure modes. As AI becomes persistent and interconnected, the frontier of safety therefore shifts from aligning models to engineering resilient autonomous systems.",
+    "published": "2026-09-15T15:27:58Z",
+    "updated": "2026-09-15T15:27:58Z",
+    "url": "https://arxiv.org/abs/2609.17320v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.17320v1",
+    "categories": [
+      "cs.MA"
+    ],
+    "analysis": {
+      "summary": "As AI agents move from bounded tasks to persistent deployments, failures can propagate through memory, tools, other agents, and environmental state long after their interactions.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ma"
+      ],
+      "analyzed_at": "2026-09-17T00:42:53.633128+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-09-17T00:41:18.061861+00:00"
+  },
+  {
+    "id": "arxiv:2609.17316v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Can We Stop The Ads? Taxonomy and Characterization of Smartphone Splash Ads and Existing Countermeasures",
+    "authors": [
+      "Shuhao Zhang",
+      "Xinyu Liu",
+      "Ziyu Shao",
+      "Yuqing Yang",
+      "Yan Long"
+    ],
+    "abstract": "Splash ads are full-screen advertisements that pop up and appear as the first interaction page when users start an app, often tricking users into unknowingly activating certain trigger mechanisms, such as moving the phone to redirect users to other profit-driven third parties. So far, splash ads have already caused significant real-world impacts, ranging from significantly delaying emergency response to distracting drivers, as well as degrading accessibility of apps to vision-impaired users. We analyze 108 documented implementations of advertising defenses to examine their applicability to splash ads and the requirements users face when deploying them. Our analysis identifies substantial deployment barriers, including device rooting or jailbreaking, runtime code injection, and application modification. Options without these requirements can still involve additional permissions, rule maintenance, source compilation, or payment. In our evaluation of 13 configurations of 11 tools across 10 popular apps, only one tool prevented the target ad-triggered navigation across all ten apps. It required Accessibility permission, and ads remained visible for approximately one second before dismissal. Other tested configurations failed to prevent navigation or, in some cases, left host apps unable to launch or stuck on the ad page. We further analyze the outstanding challenges and pos- sible future directions, highlighting the urgent need to incentivize smartphone manufacturers to provide more friendly and regulated platforms.",
+    "published": "2026-09-15T15:24:14Z",
+    "updated": "2026-09-15T15:24:14Z",
+    "url": "https://arxiv.org/abs/2609.17316v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.17316v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "analysis": {
+      "summary": "Splash ads are full-screen advertisements that pop up and appear as the first interaction page when users start an app, often tricking users into unknowingly activating certain trigger mechanisms, such as moving the phone to redirect users to other profit-driven third parties.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-09-17T00:42:53.633273+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-09-17T00:41:18.062004+00:00"
+  },
+  {
+    "id": "arxiv:2609.16247v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "The Pain Axis: LLMs Represent Self-Directed Harm and Act to Relieve It",
+    "authors": [
+      "Valen Tagliabue",
+      "Leonard Dung",
+      "Cameron Berg"
+    ],
+    "abstract": "Large language models sometimes behave in ways resembling human emotional responses, and recent work has identified internal representations that may explain this. We ask whether LLMs represent pain distinctly from fear, sadness, and generic negative valence, and whether this representation functions as pain would be expected to. We build a dataset describing painful situations across five categories: physical, psychological, social, moral, and cognitive. These are paired with controls for fear, negative emotion, negative world states, sadness, non-painful bodily sensation, arousal, numbness, and neutral content. Using denoised difference-in-means, we extract a linear pain direction from 25 open-weight models across five families, ranging from 2B to 72B parameters. We find that this direction separates pain from matched controls in base and instruction-tuned models, is nearly orthogonal to fear and negative valence, and promotes pain-related vocabulary through the unembedding matrix. We then test its functional properties. First, the direction responds to harm targeting the model but not suffering observed in the user; fear and negative-emotion directions show the opposite pattern. Second, adding the pain-direction vector to the model's residual-stream activations during generation produces a consistent progression from vague discomfort to first-person expressions of worthlessness and failure. Third, steered, fine-tuned Qwen 2.5 models choose a pain-relief button even when it worsens their next answer or harms the user. They press it again far less often when the button removes the steering vector than when it does not, even though the models are never told whether the vector is injected or removed. We discuss the implications of these findings for AI safety and welfare.",
+    "published": "2026-09-14T19:13:30Z",
+    "updated": "2026-09-14T19:13:30Z",
+    "url": "https://arxiv.org/abs/2609.16247v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.16247v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Large language models sometimes behave in ways resembling human emotional responses, and recent work has identified internal representations that may explain this.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-09-17T00:42:53.633394+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-09-17T00:41:18.062197+00:00"
+  },
+  {
     "id": "arxiv:2609.15906v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -35,6 +150,45 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-09-16T00:33:28.860328+00:00"
+  },
+  {
+    "id": "arxiv:2609.16098v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Universal Defenses for Tool-Integrated LLM Agents Against Adversarial Attacks",
+    "authors": [
+      "Xiaoyan Li",
+      "Yunli Wang"
+    ],
+    "abstract": "Large Language Model (LLM) agents have demonstrated impressive capabilities across a variety of domains, particularly when integrated with external tools for multi-step task completion. However, they are increasingly vulnerable to adversarial attacks, including direct prompt injection, indirect prompt injection, memory poisoning, and backdoor attacks, which exploit the model's openness to prompt injection and tool manipulation. In this work, we explore practical and generalizable defense strategies within a unified framework across these four attack types. We introduce two universal tool-based defenses: Attacker Tool Filtering, which uses anomaly detection (e.g., Isolation Forest) to identify and remove suspicious tools, and Normal Tool Recalling, a white-box method that restores the agent's original toolset prior to planning. Additionally, we incorporate prompt-based defenses: Chain-of-Thought prompting and self-reflection techniques to enhance reasoning and task paraphrasing to mitigate attacks. Experimental results across both four open-source LLMs (Gemma2-9B, Qwen2-7B, LLaMA3-8B, and LLaMA3.1-8B) and three proprietary LLMs (GPT-3.5, GPT-4, and GPT-5) show that our methods significantly reduce the Attack Success Rates (ASR), achieving 0% ASR in many settings, while preserving or even improving the original task success rate. These findings highlight the promise of simple, modular, multi-layered defenses for strengthening the security and robustness of tool-integrated LLM agents. The code is available at https://github.com/Xiaoyan-Lisa/Defenses-for-Tool-Integrated-LLM-Agents-Against-Adversarial-Attacks.",
+    "published": "2026-09-14T15:20:30Z",
+    "updated": "2026-09-14T15:20:30Z",
+    "url": "https://arxiv.org/abs/2609.16098v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.16098v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "analysis": {
+      "summary": "Large Language Model (LLM) agents have demonstrated impressive capabilities across a variety of domains, particularly when integrated with external tools for multi-step task completion.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai",
+        "cs-cl"
+      ],
+      "analyzed_at": "2026-09-17T00:42:53.633498+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-09-17T00:41:18.062398+00:00"
   },
   {
     "id": "arxiv:2609.15383v1",
@@ -324,7 +478,24 @@
       "cs.CY",
       "cs.HC"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Safety research often focuses on model-generated harms, but users may also direct hostility, coercion, and adversarial pressure at models.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai",
+        "cs-cl",
+        "cs-cy",
+        "cs-hc"
+      ],
+      "analyzed_at": "2026-09-17T00:42:53.633605+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-09-16T00:33:28.861643+00:00"
   },
   {
@@ -345,7 +516,21 @@
     "categories": [
       "cs.CL"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "We identify \\textbf{Harmfulness Propagation Dynamics (HPD)}: for harmful prompts, the projection of the last-token hidden state onto a learned harm direction rises monotonically with transformer depth, whereas benign prompts remain flat or oscillatory.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cl"
+      ],
+      "analyzed_at": "2026-09-17T00:42:53.633704+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-09-16T00:33:28.861745+00:00"
   },
   {
@@ -368,7 +553,23 @@
       "cs.AI",
       "cs.MA"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Enterprise AI agents often succeed in a demonstration and then stall once they must operate day after day.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-se",
+        "cs-ai",
+        "cs-ma"
+      ],
+      "analyzed_at": "2026-09-17T00:42:53.633830+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-09-16T00:33:28.861843+00:00"
   },
   {
@@ -393,7 +594,22 @@
       "cs.SD",
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Large Language Model alignment typically relies on learned proxy reward models, which significantly increase the memory footprint during training and are notoriously prone to instability and reward hacking.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-sd",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-09-17T00:42:53.633936+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-09-16T00:33:28.861942+00:00"
   },
   {
@@ -2847,162 +3063,5 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-09-01T01:19:44.049069+00:00"
-  },
-  {
-    "id": "arxiv:2608.29241v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "When Patients Cut In: Extending Clinical Conversational AI Safety to Interruptions",
-    "authors": [
-      "Zachary Ellis",
-      "Spencer Hazel",
-      "Adam Brandt",
-      "Yajie Vera He",
-      "Ernest Lim",
-      "Jared Joselowitz"
-    ],
-    "abstract": "Clinical voice agents are now deployed in routine care, where real patients do not wait their turn: they interrupt. These systems typically use a cascaded architecture (speech-to-text -> LLM -> text-to-speech), so when a patient cuts the agent off mid-utterance, clinically required content can be lost even when the model handles cooperative transcripts well. Yet clinical conversational-AI benchmarks almost universally assume patients wait for the agent to finish, missing interruption-induced loss of required content. We present a transcript-based evaluation of interruption recovery, adapting conversation-analytic overlap categories into three operational types (recognitional, competitive, transitional sub-unit) and testing four deployment-oriented, non-reasoning LLM configurations across four cells spanning history-taking (information gathering) and FAQ (information provision), scored on whether the agent preserves the clinically required content. In the gathering cells, target-question failure varied across models; in the provision cells, where arms are directly comparable, failure rose for every model. Rankings differ across cells, and competitive FAQ interruption produced 30/30 provision-coverage failures for all four models (Wilson 95% CI: 88.6-100.0%; baseline 0/30 for three, 4/30 for Llama). A brief apology marker (\"sorry to interrupt\") shifts recovery by tens of percentage points, inconsistently across models, and for one it reduces recovery. Interruption robustness therefore cannot be a single score: evaluation must be content-grounded, reported per cell, and matched to the deployment's interruption profile.",
-    "published": "2026-08-29T12:54:50Z",
-    "updated": "2026-08-29T12:54:50Z",
-    "url": "https://arxiv.org/abs/2608.29241v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.29241v1",
-    "categories": [
-      "cs.CL"
-    ],
-    "analysis": {
-      "summary": "Clinical voice agents are now deployed in routine care, where real patients do not wait their turn: they interrupt.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cl"
-      ],
-      "analyzed_at": "2026-09-01T01:23:02.528483+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-01T01:19:44.049177+00:00"
-  },
-  {
-    "id": "arxiv:2608.29118v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Emergent Misalignment Is Not Magical",
-    "authors": [
-      "Mingxuan Li",
-      "Qirun Dai",
-      "Heran Wang",
-      "Chenhao Tan"
-    ],
-    "abstract": "Fine-tuning large language models (LLMs) on narrowly harmful datasets can lead to misalignment broadly, a phenomenon known as emergent misalignment (EM). EM poses a challenge for AI safety and our understanding of LLMs. Prior work often frames EM as an unexpected behavior, and explains it by appealing to general misalignment directions or anthropomorphizing it as acquiring an evil persona. However, the mechanisms behind these framings remain obscure. In this work, we show that EM is a predictable and data-dependent generalization phenomenon. By examining the base model's representation of EM training data and evaluation prompts, we find that evilness after EM training is highly predictable from representational distance: the closer an evaluation prompt is to training data centroid, the more evilness it elicits from EM models after training (with an average Spearman correlation of -0.73 across 12 model-dataset settings). Building upon this analysis, we further demystify EM by showing that (1) its effectiveness changes significantly based on training data format; (2) there is not a general misalignment direction that transfers across different EM models; (3) the effect of EM is fundamentally different from persona changes. Furthermore, we extend the EM generalization metric from a scalar distance to a dataset-specific generalization direction, which robustly predicts EM models' evilness under semantics-preserving prompt perturbations including appending random tokens and paraphrasing, where other methods do not reliably generalize.",
-    "published": "2026-08-29T08:00:32Z",
-    "updated": "2026-08-29T08:00:32Z",
-    "url": "https://arxiv.org/abs/2608.29118v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.29118v1",
-    "categories": [
-      "cs.AI",
-      "cs.CL",
-      "cs.LG"
-    ],
-    "analysis": {
-      "summary": "Fine-tuning large language models (LLMs) on narrowly harmful datasets can lead to misalignment broadly, a phenomenon known as emergent misalignment (EM).",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai",
-        "cs-cl",
-        "cs-lg"
-      ],
-      "analyzed_at": "2026-09-01T01:23:02.528585+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-01T01:19:44.049269+00:00"
-  },
-  {
-    "id": "arxiv:2608.28945v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Automated Researchers Can Reliably Mitigate Alignment Failures",
-    "authors": [
-      "Chen Yueh-Han",
-      "Jiaxin Wen",
-      "Jan Hendrik Kirchner"
-    ],
-    "abstract": "Automating alignment research may accelerate progress toward aligned AI, but whether it does is hard to measure. Luckily, many alignment failures, such as deception, sycophancy, and jailbreaks, are already measurable by public benchmarks. We study whether automated alignment researchers (AARs) can post-train to mitigate alignment failures by proposing training methods and data to simultaneously optimize multiple safety benchmarks, while preserving general capability. Across 10 alignment failures, the strongest AAR methods significantly reduce the targeted alignment failures and generalize to a held-out benchmark, multi-turn behavioral audits, and models up to 4.7 times larger than the target model. As a human baseline, 28 experienced researchers receive up to eight hours to develop methods for the same benchmarks, but their methods underperform the best AAR methods. Using human ideas as the AARs' initial research direction does not improve performance, suggesting current AARs may not need guidance from experienced researchers. These results suggest that automating alignment research on well-characterized failures may be practical in the near term.",
-    "published": "2026-08-28T23:31:45Z",
-    "updated": "2026-08-28T23:31:45Z",
-    "url": "https://arxiv.org/abs/2608.28945v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.28945v1",
-    "categories": [
-      "cs.AI",
-      "cs.CL"
-    ],
-    "analysis": {
-      "summary": "Automating alignment research may accelerate progress toward aligned AI, but whether it does is hard to measure.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai",
-        "cs-cl"
-      ],
-      "analyzed_at": "2026-09-01T01:23:02.528676+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-01T01:19:44.049360+00:00"
-  },
-  {
-    "id": "arxiv:2608.28518v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "When Robots Mishear Us: Mapping the Safety Risks of Voice-Controlled Embodied AI",
-    "authors": [
-      "Sihan Jia",
-      "Oliver Lemon"
-    ],
-    "abstract": "We investigate whether automatic speech recognition (ASR) errors in user input can lead to unsafe outputs from Embodied AI (EAI) models. We find that ASR errors can lead to harmful instructions being accepted and executed by EAI models, thereby reducing safety. We simulate ASR errors and combine them with existing safety benchmarks (SafeAgentBench and POEX) to evaluate how different errors affect embodied AI safety. We find that some of them preserve semantic structure but increase harmful ambiguity, while others weaken the model refusal behaviour and allow unsafe plans to be generated and executed. We show that in some cases automatic correction of ASR errors can reduce the risk, but this is not always effective. Overall, we show that ASR errors lead to significant safety risks for embodied AI.",
-    "published": "2026-08-28T16:55:32Z",
-    "updated": "2026-08-28T16:55:32Z",
-    "url": "https://arxiv.org/abs/2608.28518v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.28518v1",
-    "categories": [
-      "cs.AI",
-      "cs.CL",
-      "cs.RO"
-    ],
-    "analysis": {
-      "summary": "We investigate whether automatic speech recognition (ASR) errors in user input can lead to unsafe outputs from Embodied AI (EAI) models.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai",
-        "cs-cl",
-        "cs-ro"
-      ],
-      "analyzed_at": "2026-09-01T01:23:02.528760+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-01T01:19:44.049431+00:00"
   }
 ]
