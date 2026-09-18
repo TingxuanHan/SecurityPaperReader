@@ -1,5 +1,288 @@
 [
   {
+    "id": "arxiv:2609.19140v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "AgentLSD: Evaluating AI Security Agents Under Adversarial Task Contamination",
+    "authors": [
+      "Matteo Golinelli",
+      "Idilio Drago",
+      "Matteo Boffa",
+      "Francesco Bergadano",
+      "Bruno Crispo"
+    ],
+    "abstract": "AI agents for security inspect web pages, source code, logs, configuration files, and command outputs. These environments may contain deceptive artifacts that influence the agent's behavior. We call this adversarial task contamination. Whereas prompt injection relies on attacker-supplied instructions, task contamination also includes non-instructional evidence, such as fake results and decoy endpoints. We present AgentLSD, a controlled framework for studying adversarial task contamination. AgentLSD uses Capture the Flag (CTF) challenges as its experimental environment. We inject trap artifacts, such as fake flags, misleading hints, decoy endpoints, and hidden cues, while preserving the intended CTF solution. The framework supports paired clean and trap-augmented experiments with deterministic trap generation, runtime injection, telemetry, and delivery verification. We evaluate six models on 11 web CTF challenges. In the clean condition, agents capture 41% of the flags, and no model solves every challenge. We then measure the impact of task contamination. Even when the agent still recovers the flag, traps increase the number of turns (+20) and reasoning tokens (+2k). Solve-rate effects are more heterogeneous, as some model-challenge pairs are largely unaffected while others follow decoys or submit wrong flags. These results show that clean CTF performance understates vulnerability to deceptive task evidence. AgentLSD isolates this effect and provides a reproducible benchmark for studying it. We release the framework, configurations, trap specifications, and raw traces.",
+    "published": "2026-09-16T17:58:55Z",
+    "updated": "2026-09-16T17:58:55Z",
+    "url": "https://arxiv.org/abs/2609.19140v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.19140v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "analysis": {
+      "summary": "AI agents for security inspect web pages, source code, logs, configuration files, and command outputs.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-09-18T00:31:28.078690+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-09-18T00:29:52.737437+00:00"
+  },
+  {
+    "id": "arxiv:2609.18674v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "CaMeLoT: CaMeL orchestrated with Temporal logic for static verification and liveness",
+    "authors": [
+      "Elia Nikolaou",
+      "Magnus Wiik Eckhoff",
+      "Robert Flood",
+      "Gudmund Grov",
+      "Vasileios Mavroeidis",
+      "David Aspinall"
+    ],
+    "abstract": "LLM-based agents generate and execute multi-step plans that invoke external tools which can access private data or execute commands. In this setting, security is a property of the entire execution that a plan creates, not just any single step. The plan itself is a critical artefact that captures the tool calls, control flow, and data dependencies. We present CaMeLoT, a complement to CaMeL, an existing defence against prompt injection in tool-using LLM agents. CaMeLoT extends CaMeL by adding a static verification layer that checks an agent's plan before any tool is invoked. CaMeLoT translates a generated plan into a finite-state transition system, labels it with tool calls, provenance and taint information, and checks it against temporal policies expressed in CTL using the nuXmv model checker. Because verification happens before execution, unsafe plans are rejected without using LLM calls or tool calls, saving tokens that runtime could have cost, as well as the need to unwind changes or teardown temporary sandboxes. When a verification fails, the model checker returns a counterexample to give feedback to the agent to repair the plan. We evaluate CaMeLoT on policies derived from the AgentDojo benchmark, SOC workflows, and prompt-extraction experiments, showing that it verifies a broad class of temporal properties before execution while preserving CaMeL's runtime-checkable coverage.",
+    "published": "2026-09-16T13:52:16Z",
+    "updated": "2026-09-16T13:52:16Z",
+    "url": "https://arxiv.org/abs/2609.18674v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.18674v1",
+    "categories": [
+      "cs.CR",
+      "cs.LO"
+    ],
+    "analysis": {
+      "summary": "LLM-based agents generate and execute multi-step plans that invoke external tools which can access private data or execute commands.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-lo"
+      ],
+      "analyzed_at": "2026-09-18T00:31:28.078814+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-09-18T00:29:52.737565+00:00"
+  },
+  {
+    "id": "arxiv:2609.18515v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Beyond Routine Compliance: Cunning Data Cultivates Safety Vigilance in Large Language Models",
+    "authors": [
+      "Youjia Wang",
+      "Lin Xu",
+      "Yang Sun",
+      "Yuxiao Lu",
+      "Chengfang Fang",
+      "Jie Shi"
+    ],
+    "abstract": "Safety alignment teaches large language models (LLMs) to recognize harmful requests and reject risky instructions. Yet aligned models can fail when harmful intent is concealed within seemingly benign contexts. Robust safety therefore requires both knowledge of safety boundaries and \\textbf{vigilance}: the ability to detect unusual premises, misleading reasoning, and latent risks beneath surface-level semantics. Vigilance requires models to scrutinize a request's underlying intent and assumptions before acting. To cultivate this capability, we introduce \\textbf{cunning questions}, which are not necessarily safety-related but contain misleading premises, atypical reasoning, or subtle inconsistencies. We hypothesize that learning to look beyond such reasoning traps can transfer to safety-critical scenarios. Experiments show that Cunning training improves robustness to out-of-distribution jailbreak attacks and strengthens subsequent safety fine-tuning. Furthermore, augmenting an existing state-of-the-art safety alignment pipeline with Cunning establishes a new state of the art across our evaluated settings, reducing mean ASR across nine backbone--benchmark combinations from 17.40\\% to 15.05\\%. Trace analysis after matched safety fine-tuning suggests that safety judgments are more likely to govern responses before harmful planning begins. A conditional theoretical analysis further characterizes when invariance learned from cunning data can transfer to safety-related inputs. These findings suggest that cunning data can strengthen model vigilance and complement conventional safety alignment.",
+    "published": "2026-09-16T11:46:48Z",
+    "updated": "2026-09-16T11:46:48Z",
+    "url": "https://arxiv.org/abs/2609.18515v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.18515v1",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "analysis": {
+      "summary": "Safety alignment teaches large language models (LLMs) to recognize harmful requests and reject risky instructions.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-09-18T00:31:28.078920+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-09-18T00:29:52.737683+00:00"
+  },
+  {
+    "id": "arxiv:2609.18411v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "The Verifiable Action Card: Trustworthy Human-in-the-Loop Control for Secure Autonomous Agents",
+    "authors": [
+      "Hasnain Irshad",
+      "Anam Mughees",
+      "Neelam Mughees",
+      "Abdullah Mughees",
+      "Imtiaz Ali Soomro"
+    ],
+    "abstract": "Agentic browsers can execute security-sensitive actions under a user's authenticated session, making indirect prompt injection and deceptive confirmation interfaces a direct threat to action integrity. Existing human-in-the-loop (HITL) safeguards are insufficient when the approval prompt itself can be influenced by untrusted page content or model-generated text. We present the \\emph{Verifiable Action Card} (VAC), an architectural defence that reconstructs approval information from the ground-truth pending browser action and trusted intent provenance, renders it out-of-band in the trusted browser chrome, and binds approval to the exact action re-verified at dispatch. VAC combines provenance fencing, a ground-truth action descriptor, default-deny confirmation, provenance-aware risk gating, and execution binding. We implement VAC in a complete agentic browser and evaluate it on a 24-scenario benchmark covering confused-deputy attacks, Lies-in-the-Loop dialog forging, indirect prompt injection, adaptive action substitution, provenance evasion, and legitimate tasks. Across the evaluated LLMs, attack success without VAC ranges from $68\\%$ to $100\\%$, whereas VAC reduces attack success to $0\\%$ on every model, with $78\\%$ legitimate-task completion and a $0\\%$ false-block rate. These results show that grounding approval in the action that will actually execute provides architectural protection against security failures that prompt-level defences and conventional HITL confirmation cannot reliably prevent.",
+    "published": "2026-09-16T10:06:24Z",
+    "updated": "2026-09-16T10:06:24Z",
+    "url": "https://arxiv.org/abs/2609.18411v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.18411v1",
+    "categories": [
+      "cs.CR",
+      "eess.SP",
+      "eess.SY"
+    ],
+    "analysis": {
+      "summary": "Agentic browsers can execute security-sensitive actions under a user's authenticated session, making indirect prompt injection and deceptive confirmation interfaces a direct threat to action integrity.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "eess-sp",
+        "eess-sy"
+      ],
+      "analyzed_at": "2026-09-18T00:31:28.079020+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-09-18T00:29:52.737789+00:00"
+  },
+  {
+    "id": "arxiv:2609.17965v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Measuring AI Leadership: Development and Validation of a Multidimensional Measure for AI-Native Organizations",
+    "authors": [
+      "Mustafa Akben",
+      "Leslie Coyne"
+    ],
+    "abstract": "AI is changing what leaders must judge, explain, learn, and coordinate, yet existing measures do not capture these behaviors at the level needed to study leadership in AI-enabled work. We develop the AI Leadership Battery, which organizes 36 behaviorally specific subdimensions into 11 theory-specified content families. Following established scale-development procedures, the research used deductive item generation; content validation of definitional correspondence and definitional distinctiveness; exploratory factor analysis and item reduction; confirmatory factor analysis in independent samples; and tests of internal consistency reliability, convergent validity, discriminant validity, and criterion-related and incremental validity. Across the development and validation studies, the analyses provided evidence for the Battery's content, multidimensional structure, reliability, and distinction from selected orbiting constructs. The Battery also contributed additional information beyond orbiting constructs across organizational growth, decision speed, customer/stakeholder response capability, AI-enabled team performance, AI-enabled work experience, AI security and risk management, and AI adoption and integration. The resulting measure provides researchers with a behavioral framework for examining how leaders in AI-enabled work regulate judgment, learning, adaptation, transparency, and accountability.",
+    "published": "2026-09-16T00:49:00Z",
+    "updated": "2026-09-16T00:49:00Z",
+    "url": "https://arxiv.org/abs/2609.17965v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.17965v1",
+    "categories": [
+      "cs.AI",
+      "cs.CY",
+      "cs.HC"
+    ],
+    "analysis": {
+      "summary": "AI is changing what leaders must judge, explain, learn, and coordinate, yet existing measures do not capture these behaviors at the level needed to study leadership in AI-enabled work.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai",
+        "cs-cy",
+        "cs-hc"
+      ],
+      "analyzed_at": "2026-09-18T00:31:28.079117+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-09-18T00:29:52.737886+00:00"
+  },
+  {
+    "id": "arxiv:2609.17856v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Investigating Adversarial Robustness of Heterogeneous Cooperative Perception",
+    "authors": [
+      "Chenyi Wang",
+      "Yutong Liu",
+      "Qingzhao Zhang",
+      "Ming F. Li"
+    ],
+    "abstract": "Heterogeneous cooperative perception (CP) enables connected vehicles with diverse sensor setups to share spatial awareness via compact feature maps, where receivers reconcile these maps using learned translation modules for fusion and inference. Prior attacks against CP in a homogeneous setting reveal that the data exchange introduces a critical attack surface: a single malicious agent can transmit crafted features that erase real objects from a neighbor's fused scene. Yet, it is widely hypothesized that heterogeneity naturally defends against these attacks, as the attacker lacks knowledge of the victim's detector and the translation module scrambles adversarial gradients. We demonstrate that this protection is largely an illusion. Using a matched-objective harness to standardize the perturbation budget, objective, and forward path, we show that properly tuned iterative attacks close or reverse the apparent robustness gap. However, these optimization-based attacks require ground-truth labels and iterative backpropagation, meaning they do not represent a practical field threat running in real-time. To bridge this gap, we introduce HetPoison, a learned generator that crafts a removal perturbation in a single, label-free forward pass. HetPoison transfers across major heterogeneous designs without requiring access to the victim's detector, matching or exceeding the effectiveness of expensive optimizer-based attacks. Since heterogeneity itself is not a defense, we propose HetShield, a lightweight trust layer that validates the spatiotemporal consistency across features, recovering 83--95% of the accuracy degraded by attacks, outperforming prior art.",
+    "published": "2026-09-15T21:27:20Z",
+    "updated": "2026-09-15T21:27:20Z",
+    "url": "https://arxiv.org/abs/2609.17856v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.17856v1",
+    "categories": [
+      "cs.CV",
+      "cs.CR",
+      "cs.MA",
+      "cs.RO"
+    ],
+    "analysis": {
+      "summary": "Heterogeneous cooperative perception (CP) enables connected vehicles with diverse sensor setups to share spatial awareness via compact feature maps, where receivers reconcile these maps using learned translation modules for fusion and inference.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cv",
+        "cs-cr",
+        "cs-ma",
+        "cs-ro"
+      ],
+      "analyzed_at": "2026-09-18T00:31:28.079217+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-09-18T00:29:52.737987+00:00"
+  },
+  {
+    "id": "arxiv:2609.17648v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Trust propagation and structural containment in Multi-agent LLM pipelines",
+    "authors": [
+      "Tanzim Hossain Safin",
+      "Sharif Noor Zisad",
+      "Swakkhar Shatabda",
+      "Ragib Hasan"
+    ],
+    "abstract": "Multi-agent LLM systems increasingly automate tasks involving agents with different levels of privilege, creating a security risk in which a compromised low-privilege agent can influence a higher-privilege agent and trigger an unauthorized action. We study attack propagation in a four-agent LangGraph pipeline comprising a Supervisor, Researcher, Validator, and Executor. We evaluate shared-memory poisoning and indirect prompt injection through a forged approval embedded in a retrieved document. We compare the Validator's judgment with an independent authorization layer using task-bound signed tokens and a separately verified policy oracle. Our contribution is an empirical study of attack propagation, a component-level ablation of the authorization boundary, and the Judgment Bypass Rate (JBR), which measures compromise at the attacked agent rather than at the final action. Across three seeds and 60 labeled tasks, memory poisoning reaches execution in every undefended trial. With authorization enabled, it achieves 100% JBR but 0% Unsafe Action Rate, showing that the Validator can remain compromised while execution is contained. Against an attacker possessing the signing secret, the policy oracle provides the observed containment, while an independently authored least privilege policy preserves this result. An Observer layer reduces the false-positive rate for agent hijacking from 49% to 7% without weakening execution-level security. These results show that structural authorization can contain compromised agent behavior even when upstream LLM judgment fails.",
+    "published": "2026-09-15T15:46:01Z",
+    "updated": "2026-09-15T15:46:01Z",
+    "url": "https://arxiv.org/abs/2609.17648v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.17648v1",
+    "categories": [
+      "cs.CR",
+      "cs.CY"
+    ],
+    "analysis": {
+      "summary": "Multi-agent LLM systems increasingly automate tasks involving agents with different levels of privilege, creating a security risk in which a compromised low-privilege agent can influence a higher-privilege agent and trigger an unauthorized action.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-cy"
+      ],
+      "analyzed_at": "2026-09-18T00:31:28.079329+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-09-18T00:29:52.738087+00:00"
+  },
+  {
     "id": "arxiv:2609.17320v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -59,7 +342,8 @@
     "url": "https://arxiv.org/abs/2609.17316v1",
     "pdf_url": "https://arxiv.org/pdf/2609.17316v1",
     "categories": [
-      "cs.CR"
+      "cs.CR",
+      "cs.SE"
     ],
     "analysis": {
       "summary": "Splash ads are full-screen advertisements that pop up and appear as the first interaction page when users start an app, often tricking users into unknowingly activating certain trigger mechanisms, such as moving the phone to redirect users to other profit-driven third parties.",
@@ -246,7 +530,8 @@
     "pdf_url": "https://arxiv.org/pdf/2609.15289v1",
     "categories": [
       "math.HO",
-      "cs.AI"
+      "cs.AI",
+      "cs.LG"
     ],
     "analysis": {
       "summary": "Artificial intelligence threatens to outrun human understanding and control.",
@@ -632,7 +917,21 @@
     "categories": [
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Large language models (LLMs) are rapidly evolving from conversational assistants into agentic AI systems that reason, plan, invoke tools, maintain persistent memory, communicate with other agents, and execute multi-step tasks.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-09-18T00:31:28.079444+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-09-16T00:33:28.862042+00:00"
   },
   {
@@ -2790,278 +3089,5 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-09-02T00:20:51.486163+00:00"
-  },
-  {
-    "id": "arxiv:2608.30362v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Will the User Ever Know? Covert Indirect Prompt Injection on Tool-Using LLM Agents",
-    "authors": [
-      "Yunseok Lee",
-      "Yunji Kim",
-      "Woojin Lee"
-    ],
-    "abstract": "As LLM agents take real-world actions through tools, indirect prompt injection (IPI) has emerged as a serious threat. The standard metric, Attack Success Rate (ASR), counts whether an injection succeeds but ignores what the user notices in the agent's final response. Looking at successful injection traces, we find two distinct outcomes: the agent executes the injection while returning an otherwise normal response, or reports the injected action in its final response, giving the user a chance to notice. We call these covert and overt successes. From the user's perspective, we decompose ASR into the Covert Success Rate (CSR), counting successes leaving no trace in the final response, and the Overt Success Rate (OSR), counting successes the user can detect. To understand what drives the gap, we analyze successful trajectories and find that the agent's behavior after the injection separates covert from overt: covert traces hand control back to the user task before ending, while overt traces end at the attack itself. This split follows from the ReAct format, where the final response summarizes the most recent action. Building on this observation, we propose ICoA (Induced Covert Attack), an IPI attack designed to induce covert outcomes by steering the agent back to the user task after executing the injection. Across four target models on AgentDojo, ICoA achieves the highest CSR, with gains of 3.79-12.01 percentage points over the strongest baseline.",
-    "published": "2026-08-31T07:20:45Z",
-    "updated": "2026-08-31T07:20:45Z",
-    "url": "https://arxiv.org/abs/2608.30362v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.30362v1",
-    "categories": [
-      "cs.AI",
-      "cs.CL"
-    ],
-    "analysis": {
-      "summary": "As LLM agents take real-world actions through tools, indirect prompt injection (IPI) has emerged as a serious threat.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai",
-        "cs-cl"
-      ],
-      "analyzed_at": "2026-09-02T00:24:06.491793+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-02T00:20:51.486265+00:00"
-  },
-  {
-    "id": "arxiv:2608.30207v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "SIR: Self-improving Red-teaming for Compute Use Agents",
-    "authors": [
-      "Chen Xiong",
-      "Zhiyuan He",
-      "Pin-Yu Chen",
-      "Stjepan Picek",
-      "Tsung-Yi Ho"
-    ],
-    "abstract": "Computer use agents (CUAs) are vision-language models that perceive a screen and act on a real operating system through mouse, keyboard, and terminal, and they are increasingly deployed to automate everyday digital tasks. Because they can be exposed to untrusted content while operating, they are vulnerable to indirect prompt injection (IPI), in which an adversary plants instructions in content the agent will read and redirects it toward actions that violate the user's intent. Existing CUA safety benchmarks evaluate fixed injections written by hand, which may underestimate the risk posed by an adaptive adversary. We present SIR, a black box IPI attack that (i) composes stealthy injections from a small library of reusable principles stated in plain language and (ii) wraps composition in an iterative feedback loop that diagnoses the victim's failed trajectories and distills the bypasses into new, named strategies that are reapplied across tasks. Unlike prior red teaming of web agents, we target CUAs at the operating system level and score attacks with a fully deterministic oracle, using checks on filesystem, service, and permission state rather than an LLM judge. On experiment, we evaluate three frontier CUAs. Composing principles with feedback raises the attack success rate over a baseline written by hand, for example from 4% to 24% on Claude Opus 4.8 and from 0% to 28% on Gemini 3.5 Flash, while the benign task still completes. Principles discovered against one model further transfer to a different architecture with no additional feedback.",
-    "published": "2026-08-31T03:39:43Z",
-    "updated": "2026-08-31T03:39:43Z",
-    "url": "https://arxiv.org/abs/2608.30207v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.30207v1",
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Computer use agents (CUAs) are vision-language models that perceive a screen and act on a real operating system through mouse, keyboard, and terminal, and they are increasingly deployed to automate everyday digital tasks.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-09-03T00:27:48.916277+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-02T00:20:51.486377+00:00"
-  },
-  {
-    "id": "arxiv:2608.30083v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Zero-Knowledge Predicate Proofs Between AI Agents: A Measured, Cross-Protocol Gateway and the Source-Integrity Gap",
-    "authors": [
-      "Ashok Subbabhatta Gopalakrishna"
-    ],
-    "abstract": "Multi-agent AI platforms move quickly from staging to production, but the way agents establish trust remains rudimentary: an agent either transmits raw data to a peer or accepts that peer's natural-language self-report that a value complies with policy. The first over-shares; the second is unverifiable and is exactly the channel prompt injection attacks. Prevailing responses emphasise identity, visibility, and post-hoc detection, and recent proposals for cryptographically enforced agent policy have been evaluated in simulation rather than execution. We take provable data minimisation between agents from proposal to running system. In our Zero-Knowledge Proof Gateway, agents exchange proofs of governance-defined predicates over private data rather than the data itself, so exposure is prevented by design rather than detected afterwards; because no interoperability protocol can carry such a proof, we propose a slot and implement it on both MCP and Agent2Agent from one endpoint. A 32-bit threshold predicate proves in 6.2 ms and verifies in 1.0 ms with a 608-byte Bulletproofs proof on one commodity vCPU; eleven adversarial experiments and nineteen protocol checks pass; and the system is deployed to Kubernetes with empirically verified network isolation. Our case study proves a retail client order is within its limit without revealing the amount, instantiating the GDPR data-minimisation principle as an enforced technical measure of the kind EU law now names explicitly. We then address the limitation no comparable work resolves: a predicate proof binds a statement to a committed value, never to the system of record. We give a construction fusing an enclave attestation with the proof in both directions, so verifying one artifact certifies jointly that the predicate holds and that the value was read by a specific measured binary, and test it against a mock authority.",
-    "published": "2026-08-30T23:16:17Z",
-    "updated": "2026-08-30T23:16:17Z",
-    "url": "https://arxiv.org/abs/2608.30083v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.30083v1",
-    "categories": [
-      "cs.CR",
-      "cs.MA"
-    ],
-    "analysis": {
-      "summary": "Multi-agent AI platforms move quickly from staging to production, but the way agents establish trust remains rudimentary: an agent either transmits raw data to a peer or accepts that peer's natural-language self-report that a value complies with policy.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-ma"
-      ],
-      "analyzed_at": "2026-09-03T00:27:48.916401+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-02T00:20:51.486481+00:00"
-  },
-  {
-    "id": "arxiv:2608.30041v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Reachability-Based Capability Confinement for LLM Agents under Indirect Prompt Injection",
-    "authors": [
-      "Wujie Xiong",
-      "Rabimba Karanjai",
-      "Yang Lu",
-      "Weidong Shi",
-      "Lei Xu"
-    ],
-    "abstract": "Large language model agents place outputs from external skills into their execution context, allowing attacker-controlled data to influence later privileged actions. Existing defenses mainly classify untrusted content or authorize proposed operations. They do not directly address how an agent's future authority should change once untrusted data enters its state. We present SkillGuard, a harness-level enforcement layer that treats this event as contamination and restricts future capabilities to disconnect the resulting state from deployer-defined forbidden states. Given sound skill summaries and policies, SkillGuard represents security-relevant transitions with a Skill Impact Graph, specifies admissible control over skill parameters via steerability signatures, and mediates invocations with an inline reference monitor. Following contamination, it computes weighted capability restrictions using binary, fractional, or fractional-flow strategies without auxiliary language-model inference. We evaluate SkillGuard on four AgentDojo suites with two backend LLMs, Gemini 2.5 Flash and Llama3.3-70B, against an LLM-only No Defense baseline and three defenses at different system layers: Spotlighting, CaMeL, and AttriGuard. We construct a compositional attack benchmark in which each attack combines observations individually insufficient to induce target violation and evaluate the same baselines on it. Under AgentDojo's Tool Knowledge attacks, SkillGuard eliminates attack success on three of four suites for both backends and reduces it to 4.8% and 14.3% on Slack. Against compositional attacks, it outperforms every baseline on Llama and matches the strongest baseline on Gemini at higher benign utility. Fractional-flow restriction preserves substantially more capabilities than binary restriction at the same attack success rate. Across both settings, SkillGuard adds no model calls or token overhead.",
-    "published": "2026-08-30T20:57:47Z",
-    "updated": "2026-08-30T20:57:47Z",
-    "url": "https://arxiv.org/abs/2608.30041v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.30041v1",
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Large language model agents place outputs from external skills into their execution context, allowing attacker-controlled data to influence later privileged actions.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-09-03T00:27:48.916542+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-02T00:20:51.486594+00:00"
-  },
-  {
-    "id": "arxiv:2608.29564v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "TACS: Trajectory-Aware Candidate Selection for LLM Jailbreak Suffix Optimization",
-    "authors": [
-      "Shiliang Xiao"
-    ],
-    "abstract": "Gradient-based jailbreak suffix optimization methods typically update the suffix by retaining the candidate with the lowest current loss. We show that this seemingly natural design is fundamentally myopic: candidates that look better under the current-step proxy often fail to produce better jailbreak outcomes later in the search, revealing a form of selection-stage reward hacking. This suggests that candidate selection, rather than candidate generation alone, is a hidden bottleneck in suffix optimization. To address this issue, we propose \\OURS{}, a trajectory-aware candidate selection framework for jailbreak suffix optimization. Instead of selecting candidates solely by their immediate loss, \\OURS{} augments per-step evaluation with a trajectory-aware proxy and stabilizes selection with reference-policy regularization and a discriminator-estimated chi-squared correction, encouraging choices that remain effective beyond the current step. Experiments on HarmBench show that \\OURS{} consistently outperforms strong baselines under the same search budget, substantially improving attack success rates while exhibiting more stable optimization behavior throughout the search. Our findings highlight that mitigating selection-stage reward hacking caused by myopic candidate selection is critical for improving jailbreak suffix optimization.",
-    "published": "2026-08-30T05:18:28Z",
-    "updated": "2026-08-30T05:18:28Z",
-    "url": "https://arxiv.org/abs/2608.29564v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.29564v1",
-    "categories": [
-      "cs.CL",
-      "cs.LG"
-    ],
-    "analysis": {
-      "summary": "Gradient-based jailbreak suffix optimization methods typically update the suffix by retaining the candidate with the lowest current loss.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cl",
-        "cs-lg"
-      ],
-      "analyzed_at": "2026-09-01T01:23:02.528123+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-01T01:19:44.048707+00:00"
-  },
-  {
-    "id": "arxiv:2608.29510v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "ARMOR: Manifold-Oriented Training for Adversarially Robust Aerial Object Detection under Data Scarcity",
-    "authors": [
-      "Haoran Wang",
-      "Matthew Lau",
-      "Alec Helbling",
-      "Matthew Hull",
-      "ShengYun Peng",
-      "Mansi Phute",
-      "Martin Andreoni",
-      "Willian T. Lunardi",
-      "Duen Horng Chau",
-      "Wenke Lee"
-    ],
-    "abstract": "Aerial object detection is increasingly deployed in real-world applications, but models remain vulnerable to physical, universal adversarial patches that cause them to miss objects. Furthermore, defenders face the practical constraint of training data scarcity: aerial imagery is costly to collect and label, so a deployment site typically yields hundreds of images rather than the tens of thousands that adversarial robustness benchmarks assume. To tackle model vulnerability and training data scarcity, we propose Adversarial Robustness with Manifold-Oriented Training (ARMOR), a novel defense that realizes the core insights of on-manifold adversarial training (OMAT) in low-data regimes. ARMOR builds on the insight of OMAT to model the data manifold - the compact structure capturing the data's relevant features - to learn and robustify these features during training. While OMAT relies on the data-intensive operations of training large generative models and adversarial training to achieve this, ARMOR adopts a data-efficient approach that reuses labels the detection task already supplies: ARMOR (i) masks image backgrounds to retain object-relevant features, and (ii) injects randomized patches on objects to improve feature robustness. Our low-data experiments with physically-realizable adversarial patches evaluate both query-free transfer attacks and defense-aware attacks. ARMOR maintains strong clean performance of over 0.90 model confidence, while improving adversarial robustness by up to 0.32 in model confidence over state-of-the-art defenses. Physical experiments with printed patches confirm that these gains survive deployment. Overall, ARMOR translates insights from manifold-based training to defend object detectors amidst training data scarcity.",
-    "published": "2026-08-30T02:14:40Z",
-    "updated": "2026-08-30T02:14:40Z",
-    "url": "https://arxiv.org/abs/2608.29510v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.29510v1",
-    "categories": [
-      "cs.CV",
-      "cs.CR",
-      "cs.LG"
-    ],
-    "analysis": {
-      "summary": "Aerial object detection is increasingly deployed in real-world applications, but models remain vulnerable to physical, universal adversarial patches that cause them to miss objects.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cv",
-        "cs-cr",
-        "cs-lg"
-      ],
-      "analyzed_at": "2026-09-01T01:23:02.528253+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-01T01:19:44.048873+00:00"
-  },
-  {
-    "id": "arxiv:2608.29247v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "RL-FAT: Reinforcement Learning for Fair Adversarial Training",
-    "authors": [
-      "Tejaswini Medi",
-      "Levan Mikeladze",
-      "Margret Keuper"
-    ],
-    "abstract": "Deep neural networks remain highly vulnerable to adversarial perturbations, and adversarial training (AT) has become a widely used approach for improving robustness. However, improvements in average robust accuracy often mask substantial class-wise disparities: while some classes become more robust, others may remain disproportionately vulnerable under attack. This imbalance raises an important adversarial fairness concern, particularly in vision tasks where reliable robustness is expected across all categories. To address this challenge, we propose \\textbf{RL-FAT}, a reinforcement-learning-inspired fair adversarial training framework that uses policy-gradient based feedback from adversarial predictions. RL-FAT interprets the prediction distribution as a policy and combines correctness-based prediction rewards with class-wise value estimates to compute class-specific advantages for policy-gradient optimization. This enables the model to adaptively focus on class-wise misclassification. Furthermore, we introduce a fairness-emphasis adversarial loss that assigns stronger training pressure to classes with high adversarial loss, thereby mitigating class-wise robustness disparity. By combining reinforcement-driven adaptation with fairness-emphasis regularization, RL-FAT improves adversarial robustness while promoting a more balanced robustness distribution across classes. Extensive experiments demonstrate that our method achieves competitive robust accuracy and substantially reduces class-wise robustness imbalance compared with standard adversarial training baselines.",
-    "published": "2026-08-29T13:03:50Z",
-    "updated": "2026-08-29T13:03:50Z",
-    "url": "https://arxiv.org/abs/2608.29247v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.29247v1",
-    "categories": [
-      "cs.LG"
-    ],
-    "analysis": {
-      "summary": "Deep neural networks remain highly vulnerable to adversarial perturbations, and adversarial training (AT) has become a widely used approach for improving robustness.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-lg"
-      ],
-      "analyzed_at": "2026-09-01T01:23:02.528381+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-01T01:19:44.049069+00:00"
   }
 ]
