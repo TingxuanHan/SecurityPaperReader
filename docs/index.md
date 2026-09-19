@@ -1,8 +1,84 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-09-18 08:31 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-09-19 08:27 Asia/Shanghai
 
 ## 今日论文
+
+### [Xeno-Interpretability: Investigating the Alien Minds of LLMs](https://arxiv.org/abs/2609.20408v1)
+
+**作者**：F. Pierucci, M. Bracale Syrnikov, M. Prandi, M. Galisai, F. Giarrusso, P. Bisconti
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-09-17 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.20408v1)
+
+**摘要总结**：Large language models are usually interpreted through concepts that humans already possess: truthfulness, refusal, deception, personality, harmfulness, and related categories.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl` `cs-ai`
+
+---
+
+### [Reproducibility is not construct validity: LLM measurement of institutionally situated communication](https://arxiv.org/abs/2609.19866v1)
+
+**作者**：Veronika Batzdorfer, Carlo Romano Marcello Alessandro Santagiustina
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-09-17 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.19866v1)
+
+**摘要总结**：High annotation reproducibility does not necessarily imply that an LLM-inferred measure captures the construct it is intended to measure.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-cl` `cs-cy` `q-fin-rm`
+
+---
+
+### [SoK: Trading Agents or Market Crashers? Dissecting Robustness and Security Failures in Academic Financial LLM Trading Schemes](https://arxiv.org/abs/2609.19705v1)
+
+**作者**：Mengxiao Wang, Nitesh Saxena
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-09-17 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.19705v1)
+
+**摘要总结**：Autonomous large language model (LLM) agents are moving rapidly into high-stakes domains, yet existing agentic-AI security studies remain largely domain-agnostic and overlook the distinctive, high-consequence attack surface such settings create.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-ma`
+
+---
+
+### [Red-Teaming Auto Mode: Improving Blocking Classifiers Against Malign Coding Agents](https://arxiv.org/abs/2609.19587v1)
+
+**作者**：Alex Remedios, Simon Storf, Fabien Roger, John Hughes
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-09-17 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.19587v1)
+
+**摘要总结**：To keep coding agents from going off the rails, production systems now review each proposed action with a blocking monitor that can reject it before it runs (Auto Mode in Claude Code, Guardian in OpenAI's Codex).
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-cl`
+
+---
 
 ### [AgentLSD: Evaluating AI Security Agents Under Adversarial Task Contamination](https://arxiv.org/abs/2609.19140v1)
 
@@ -1445,79 +1521,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-lg`
-
----
-
-### [The Fragility of Jailbreak Robustness Across Operational States](https://arxiv.org/abs/2608.30748v1)
-
-**作者**：Yuna Park, Hwang Youn Kim, Yujin Kim, Won Woo Ro, Suhyun Kim, Jae-In Hwang
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-08-31 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.30748v1)
-
-**摘要总结**：Existing jailbreak evaluations typically characterize robustness using a single attack success rate (ASR) measured in a default configuration (the vanilla state).
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-cl`
-
----
-
-### [The Safety Relay in Roleplay Jailbreaks: A Component-Resolved Causal Analysis of Harm Recognition and Refusal](https://arxiv.org/abs/2608.30585v1)
-
-**作者**：Md Mokarram Chowdhury, Ernie Chang, Yang Li
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-08-31 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.30585v1)
-
-**摘要总结**：Large language models are trained to follow instructions while refusing harmful requests.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-lg`
-
----
-
-### [ECLIPSE: Self-Evolving Stealthy Prompt Injection Attack against Long-Horizon Agentic Systems](https://arxiv.org/abs/2608.30441v1)
-
-**作者**：Shiqian Zhao, Yangfan Zhou, Xinfeng Li, Runyi Hu, Yechao Zhang, Yi Xie, Tianwei Zhang, Luu Anh Tuan
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-08-31 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.30441v1)
-
-**摘要总结**：Recently, large language model (LLM) agents, such as Codex, Claude Code, and OpenClaw, have become capable of planning and executing long-horizon tasks through repeated tool calls.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr`
-
----
-
-### [Attesting Outputs and Delegation Ancestry in Multi-Agent AI Systems](https://arxiv.org/abs/2608.30387v1)
-
-**作者**：Lifei Liu, Haoran Yu
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-08-31 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.30387v1)
-
-**摘要总结**：Multi-agent applications delegate work across independently operated deployers.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr`
