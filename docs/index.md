@@ -1,8 +1,103 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-09-21 08:21 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-09-22 08:58 Asia/Shanghai
 
 ## 今日论文
+
+### [Online Algorithms with a Sample: Tight Bounds and Adversarial Robustness](https://arxiv.org/abs/2609.21889v1)
+
+**作者**：Anish Hebbar, Ravi Kumar, Roie Levin, Joseph, Naor, Debmalya Panigrahi
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-09-18 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.21889v1)
+
+**摘要总结**：Suppose an online algorithm is given an unbiased $p$-sample of its input as offline advice; can the algorithm exploit the sample to achieve beyond-worst-case performance?
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ds`
+
+---
+
+### [CASCADE Against Jailbreaks: Combination Across Stages with Controlled Attack-Defense Evaluation](https://arxiv.org/abs/2609.21793v1)
+
+**作者**：Jiale Luo, Eric Han
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-09-18 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.21793v1)
+
+**摘要总结**：Defenses against jailbreak attacks on Large Language Models (LLMs) operate at different pipeline stages, such as input modification or output guard, but it remains unclear which defenses to deploy at each stage and how to combine them.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-cl`
+
+---
+
+### [HE-Guardrail: A Homomorphic Guardrail Against Jailbreak Attacks for Encrypted Large Language Model Inference](https://arxiv.org/abs/2609.21484v1)
+
+**作者**：Byeongseo Min, Yongwoo Lee, Young-Sik Kim, Yongjune Kim
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-09-18 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.21484v1)
+
+**摘要总结**：Homomorphic encryption (HE) has emerged as a promising approach to privacy-preserving machine learning (PPML), enabling computation directly over encrypted data.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
+
+---
+
+### [Hiding in Plain Sight: A Diffusion-based Mitigation of Geolocation Privacy Leakage in Vision-Language Models](https://arxiv.org/abs/2609.21363v1)
+
+**作者**：Yining Wang, Xi Li, Mi Zhang, Xiaohan Zhang, Xiaoyu You, Zhenxing Qian, Mi Wen
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-09-18 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.21363v1)
+
+**摘要总结**：Multimodal large reasoning models (MLRMs) have demonstrated remarkable capabilities in complex visual understanding.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv` `cs-lg`
+
+---
+
+### [Origin Is All You Need: Provenance-Aware Transformers for Structural Trust-Boundary Separation](https://arxiv.org/abs/2609.21088v1)
+
+**作者**：Yuxuan Zhang, Jeff Huang, Guofei Gu
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-09-17 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.21088v1)
+
+**摘要总结**：Indirect prompt injection (IPI) remains a central safety and security challenge for large language model (LLM) systems because standard transformers lack architectural notion of source authority.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
+
+---
 
 ### [Xeno-Interpretability: Investigating the Alien Minds of LLMs](https://arxiv.org/abs/2609.20408v1)
 
@@ -1426,98 +1521,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-cr`
-
----
-
-### [Implicit Manipulation for Skill Selection in LLM Agents with Semantic Matching](https://arxiv.org/abs/2609.02035v1)
-
-**作者**：Qikai Wang, Yongzhao Zhang, Zhiwei Chen, Yimiao Sun, Jiguo Yu, Xiaosong Zhang
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-02 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.02035v1)
-
-**摘要总结**：Skill selection is a key stage in LLM-agent workflows, determining which installed skill should handle a user request.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr`
-
----
-
-### [Agent Flight Recorder: Tamper-Evident Audit Trails with On-Chain Anchoring for Long-Horizon Tool-Using Agents](https://arxiv.org/abs/2609.01931v1)
-
-**作者**：Laurent Bindschaedler, Quentin Botha, Christoph Siebenbrunner
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-01 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.01931v1)
-
-**摘要总结**：Long-horizon agents execute thousands of actions, resulting in sequential failures rather than isolated errors.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ma`
-
----
-
-### [Sycophantic Agreement Transfers with Neutral Data via Contrastive Preference Optimization](https://arxiv.org/abs/2608.31079v1)
-
-**作者**：Camila Blank, Zhuofan Ying, Christopher Potts, Peter Hase, Jing Huang
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-08-31 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.31079v1)
-
-**摘要总结**：Sycophantic agreement refers to a behavior in which language models excessively affirm the user, often at the cost of factual accuracy.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-lg`
-
----
-
-### [Thesis Proposal: Toward a Human-Centered and Perspective-Aware Framework for Reproducible ML Evaluation and AI Alignment](https://arxiv.org/abs/2608.30842v1)
-
-**作者**：Deepak Pandita, Christopher M. Homan
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-08-31 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.30842v1)
-
-**摘要总结**：Humans play a vital role at every stage of AI development, from data collection and curation to model development and evaluation.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cl`
-
----
-
-### [Do VLMs Share Safety Neurons Across Modalities?](https://arxiv.org/abs/2608.30750v1)
-
-**作者**：Jiaxuan Li, Jiahao Zhang, Duc Minh Vo, Huy H. Nguyen, Pride Kavumba, Koki Wataoka
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-08-31 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2608.30750v1)
-
-**摘要总结**：Vision-language models (VLMs) can comply with harmful requests delivered through images, even when their LLM backbones would refuse the same content in text.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-lg`
