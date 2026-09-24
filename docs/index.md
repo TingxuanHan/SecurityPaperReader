@@ -1,8 +1,103 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-09-23 08:47 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-09-24 08:39 Asia/Shanghai
 
 ## 今日论文
+
+### [Exploring Solver-Level Warmstarting for Neural Network Verification](https://arxiv.org/abs/2609.25962v1)
+
+**作者**：Annelot Bosman, Minghao Liu, Marta Kwiatkowska, Holger Hoos, Jan van Rijn
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-09-22 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.25962v1)
+
+**摘要总结**：Neural network verification has become a key tool for providing formal guarantees on the behaviour of neural networks.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg`
+
+---
+
+### [Universal Fractal Natural Language Decision Map: Real-Time Edge Triage Across Heterogeneous Domains](https://arxiv.org/abs/2609.25498v1)
+
+**作者**：Volkan Dağlı, Zerrin Dağlı, Dağhan Dağlı
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-09-21 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.25498v1)
+
+**摘要总结**：Deploying Large Language Models for runtime operational triage incurs prohibitive latency (&gt;100-500 ms), high VRAM requirements (&gt;4-8 GB), and excessive energy dissipation.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ne` `cs-ai` `cs-cl`
+
+---
+
+### [RAG-NAROK: Retrieval-Aware Knowledge Corpus Poisoning in RAG with Source-specific Refutation](https://arxiv.org/abs/2609.25469v1)
+
+**作者**：Abdullahil Kafi, Alvi Ataur Khalil
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-09-21 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.25469v1)
+
+**摘要总结**：Retrieval augmented generation (RAG) systems have emerged as the dominant architecture for grounding large language model (LLM) outputs in verifiable external knowledge, yet their structural reliance on a dynamic retrieval pipeline introduces a largely unexplored class of adversarial vulnerability.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
+
+---
+
+### [Embedded Assessments for Frontier AI](https://arxiv.org/abs/2609.25413v1)
+
+**作者**：Jacob Charnock, Sophie Williams, Zaheed Kara, Markus Anderljung, Alejandro Tlaie Boria, Stephen Casper, Anka Reuel, Jonas Freund
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-09-21 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.25413v1)
+
+**摘要总结**：Third-party evaluations for frontier AI have mostly tested models through external interfaces before deployment.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cy`
+
+---
+
+### [From Decorative to Load-Bearing: Task Difficulty Shapes the Causal Role of Chain-of-Thought](https://arxiv.org/abs/2609.25366v1)
+
+**作者**：Renee Jia, Di Mu
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-09-21 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.25366v1)
+
+**摘要总结**：Chain-of-thought (CoT) monitoring is only meaningful if written reasoning causally constrains the answer.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
+
+---
 
 ### [Decoding Guardrails: XAI-Guided Perturbation Analysis of Prompt Injection Detection](https://arxiv.org/abs/2609.24801v1)
 
@@ -20,6 +115,25 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-cr` `cs-ai`
+
+---
+
+### [Attack Success Rate Is Not a Number: On Measurement Validity in Agentic AI Security Evaluation](https://arxiv.org/abs/2609.25173v1)
+
+**作者**：Chetan Pathade, Prathamesh Pawar, Shubham Patil
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-09-21 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.25173v1)
+
+**摘要总结**：Attack success rate (ASR) is the headline metric in nearly every published evaluation of attacks on, and defenses for, LLM agents.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
@@ -162,13 +276,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-18 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.22510v1)
 
-**摘要总结**：暂无
+**摘要总结**：As LLM applications integrate with external tools, they are increasingly exposed to indirect prompt injection (IPI), where adversarial instructions are embedded in retrieved content.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-lg`
 
 ---
 
@@ -292,13 +409,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-17 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.20408v2)
 
-**摘要总结**：暂无
+**摘要总结**：Large language models are usually interpreted through concepts that humans already possess: truthfulness, refusal, deception, personality, harmfulness, and related categories.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl` `cs-ai`
 
 ---
 
@@ -1401,117 +1521,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-ai`
-
----
-
-### [EvoSafeHarness: Evolving Model- and Domain-Specific Harnesses for Securing Agents](https://arxiv.org/abs/2609.05903v1)
-
-**作者**：Nanxi Li, Yingzi Ma, Yulong Cao, Edward Suh, Bo Li, Dawn Song, Chaowei Xiao
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.05903v1)
-
-**摘要总结**：Large Language Model (LLM) agents are turning language into real-world effects, making safety necessary against both indirect prompt injections and direct harmful requests.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr`
-
----
-
-### [TIER: Threat Implicitness Benchmark for Evaluating LLM Safety Behaviors](https://arxiv.org/abs/2609.05117v1)
-
-**作者**：Thu-Hien Trinh-Thi, Hai-Yen Vong, Thanh-Ha Ung-Dung, Tram Ho
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.05117v1)
-
-**摘要总结**：Current LLM safety benchmarks largely rely on binary metrics, overlooking how models respond to harmful prompts with varying threat implicitness.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai`
-
----
-
-### [Influence Score and Transformers interpretability: Measure of the Effective Impact of Attention Heads at inference time](https://arxiv.org/abs/2609.05074v1)
-
-**作者**：Lisa Bouger, Yannick Teglia, Philippe Loubet Moundi
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.05074v1)
-
-**摘要总结**：We propose an influence score to quantify the contribution of attention heads to classification decisions in Transformer-based models designed for prompt injection detection.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cl`
-
----
-
-### [Locating and Steering Refusal Beyond Attention](https://arxiv.org/abs/2609.04721v1)
-
-**作者**：Preethi Carmel Bosco, Gopalakrishnan Srinivasan
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.04721v1)
-
-**摘要总结**：Where inside a language model does refusal live, and does that place change when the architecture does?
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-lg`
-
----
-
-### [Repeat-After-Me: Black-Box Adaptive Visual Prompt Injection](https://arxiv.org/abs/2609.04533v1)
-
-**作者**：Sizhe Chen, Yu-Lin Tsai, Ivan Evtimov, Kamalika Chaudhuri, Raluca Ada Popa, David Wagner, Arman Zharmagambetov
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-03 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.04533v1)
-
-**摘要总结**：Prompt injection is widely recognized as a major security threat to AI agents that interact with untrusted external data, such as websites, documents, and emails.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai`
-
----
-
-### [Rethinking Indirect Prompt Injection as a Test-Time Search Problem](https://arxiv.org/abs/2609.04495v1)
-
-**作者**：Duong M. Nguyen, Joon Sik Kim, Blazej Manczak, Vaikkunth Mugunthan
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-03 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.04495v1)
-
-**摘要总结**：We formulate indirect prompt injection as a test-time search over a task-dependent attack surface induced by the environment, user task, and injection task.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai` `cs-cl` `cs-cr`

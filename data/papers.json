@@ -1,5 +1,194 @@
 [
   {
+    "id": "arxiv:2609.25962v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Exploring Solver-Level Warmstarting for Neural Network Verification",
+    "authors": [
+      "Annelot Bosman",
+      "Minghao Liu",
+      "Marta Kwiatkowska",
+      "Holger Hoos",
+      "Jan van Rijn"
+    ],
+    "abstract": "Neural network verification has become a key tool for providing formal guarantees on the behaviour of neural networks. However, many verification problems remain computationally intractable in the worst case: even for common adversarial robustness specifications, verification is NP-complete. Here, we explore the application of solver-level warmstarting for neural network verification to exploit information from previous solutions. We study the effect on running time as several properties are modified, including perturbation radii, input data and the networks themselves, using a pipeline that is generalisable and potentially adaptable to state-of-the-art verifiers. Our results show that warmstarting can significantly reduce verification time in most cases. Moreover, warmstarting enables the successful verification of instances that could not be solved from scratch within the given time limit.",
+    "published": "2026-09-22T10:17:03Z",
+    "updated": "2026-09-22T10:17:03Z",
+    "url": "https://arxiv.org/abs/2609.25962v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.25962v1",
+    "categories": [
+      "cs.LG"
+    ],
+    "analysis": {
+      "summary": "Neural network verification has become a key tool for providing formal guarantees on the behaviour of neural networks.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-09-24T00:39:15.527069+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-09-24T00:37:38.701475+00:00"
+  },
+  {
+    "id": "arxiv:2609.25498v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Universal Fractal Natural Language Decision Map: Real-Time Edge Triage Across Heterogeneous Domains",
+    "authors": [
+      "Volkan Dağlı",
+      "Zerrin Dağlı",
+      "Dağhan Dağlı"
+    ],
+    "abstract": "Deploying Large Language Models for runtime operational triage incurs prohibitive latency (>100-500 ms), high VRAM requirements (>4-8 GB), and excessive energy dissipation. Extending Mandelbrot Fractal Neural Synthesis (Dagli et al., 2026), this paper presents the Universal Fractal Natural Language Decision Map, realized via the werr machine-native edge reflex runtime and the production answerr platform (https://answerr.me). Operating entirely without stored weight tensors (0 Bytes VRAM), the engine synthesizes deterministic decisions---noul (Boolean), choice (categorical), and score (ordinal)---by dynamically modulating 24-byte coordinate seeds along the chaotic boundary of the Mandelbrot set and evaluating 4-quadrant escape dynamics. Drawing inspiration from biological System-One reflex arcs, the engine introduces: (i) an Auto-Seed Router with domain projector Phi_D yielding a +28.8% accuracy gain over linear baselines; (ii) an Information-Theoretic Acoustic Damping Filter grounded in token entropy and phonetic spectral density that insulates against prompt injections (0.0% empirical bypass; 95% Wilson CI: [0.0%, 30.8%]) while pruning escape iterations by 45.8% (accelerating throughput 2.5x to 3.31 ms latency); and (iii) an Organic Dynamic Calibration framework using O(1) Exponential Moving Average (EMA, alpha=0.03) and quadrant phase rotation to eliminate positional bias. Benchmarked on bare-metal infrastructure (api.answerr.me:4431) across 1,150+ verified decisions (3,200+ questions) and ranked World #1 on the independent JevBench suite (81.65%), the framework achieves 92.6% macro-accuracy (95% CI: [90.8%, 94.1%]) with 7.08 ms median CPU latency. We provide an OpenAI-compatible API (/v1/chat/completions) and demonstrate feasibility on microcontrollers and 32-byte EVM smart contracts.",
+    "published": "2026-09-21T23:57:31Z",
+    "updated": "2026-09-21T23:57:31Z",
+    "url": "https://arxiv.org/abs/2609.25498v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.25498v1",
+    "categories": [
+      "cs.NE",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "analysis": {
+      "summary": "Deploying Large Language Models for runtime operational triage incurs prohibitive latency (>100-500 ms), high VRAM requirements (>4-8 GB), and excessive energy dissipation.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ne",
+        "cs-ai",
+        "cs-cl"
+      ],
+      "analyzed_at": "2026-09-24T00:39:15.527202+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-09-24T00:37:38.701747+00:00"
+  },
+  {
+    "id": "arxiv:2609.25469v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "RAG-NAROK: Retrieval-Aware Knowledge Corpus Poisoning in RAG with Source-specific Refutation",
+    "authors": [
+      "Abdullahil Kafi",
+      "Alvi Ataur Khalil"
+    ],
+    "abstract": "Retrieval augmented generation (RAG) systems have emerged as the dominant architecture for grounding large language model (LLM) outputs in verifiable external knowledge, yet their structural reliance on a dynamic retrieval pipeline introduces a largely unexplored class of adversarial vulnerability. Existing knowledge-base poisoning attacks are fundamentally static. Adversarial documents are pre-computed and injected without any awareness of what the victim system will actually retrieve for a given query, leaving the attack blind to the competitive documentary landscape that surrounds its payload in the generator's context window. Unlike traditional static poisoning attacks that are blind to the retrieved context, we introduce RAG-NAROK (Retrieval-Anchored Generation Negation And Response Quality Collapse), a RAG attack framework that adapts to the query text. RAG-NAROK exploits the transparency inherent in RAG pipeline to first extract the legitimate source identities, then generate Anchor-Specific Refutation documents that explicitly name and devalue retrieved sources while leveraging recency and authority biases to steer the text generation toward a target answer. Our results demonstrate that RAG-NAROK significantly outperforms static baselines across diverse domains, revealing a fundamental tension between RAG transparency and AI security.",
+    "published": "2026-09-21T22:53:04Z",
+    "updated": "2026-09-21T22:53:04Z",
+    "url": "https://arxiv.org/abs/2609.25469v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.25469v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Retrieval augmented generation (RAG) systems have emerged as the dominant architecture for grounding large language model (LLM) outputs in verifiable external knowledge, yet their structural reliance on a dynamic retrieval pipeline introduces a largely unexplored class of adversarial vulnerability.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-09-24T00:39:15.527303+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-09-24T00:37:38.701847+00:00"
+  },
+  {
+    "id": "arxiv:2609.25413v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Embedded Assessments for Frontier AI",
+    "authors": [
+      "Jacob Charnock",
+      "Sophie Williams",
+      "Zaheed Kara",
+      "Markus Anderljung",
+      "Alejandro Tlaie Boria",
+      "Stephen Casper",
+      "Anka Reuel",
+      "Jonas Freund"
+    ],
+    "abstract": "Third-party evaluations for frontier AI have mostly tested models through external interfaces before deployment. But the risks from frontier AI models depend on how their developers use and govern them internally. Recently, CEOs of frontier AI companies have committed to hosting embedded assessments. These assessments would give independent evaluators employee-like access to a developer's internal systems, staff, and documentation. First, we argue that this can enable deeper and more flexible assessments of risks that depend on internal systems and practices, while providing access under stronger security controls. Then, we examine seven design questions about scope, information gathering, duration, timing, terms of engagement, disclosure, and escalation. We recommend that frontier AI developers begin hosting embedded assessments now, covering at least three areas central to managing risks from internal AI use: internal agent monitoring, internal agent security controls and permissions, and model alignment. To enable meaningful third-party scrutiny, assessments should be continuous, evaluators should publish detailed reports at least quarterly, and clear escalation mechanisms should be established. These recommendations are intended as a starting point, with further steps needed to realize the full potential of embedded assessments.",
+    "published": "2026-09-21T21:10:39Z",
+    "updated": "2026-09-21T21:10:39Z",
+    "url": "https://arxiv.org/abs/2609.25413v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.25413v1",
+    "categories": [
+      "cs.CY"
+    ],
+    "analysis": {
+      "summary": "Third-party evaluations for frontier AI have mostly tested models through external interfaces before deployment.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cy"
+      ],
+      "analyzed_at": "2026-09-24T00:39:15.527426+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-09-24T00:37:38.701950+00:00"
+  },
+  {
+    "id": "arxiv:2609.25366v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "From Decorative to Load-Bearing: Task Difficulty Shapes the Causal Role of Chain-of-Thought",
+    "authors": [
+      "Renee Jia",
+      "Di Mu"
+    ],
+    "abstract": "Chain-of-thought (CoT) monitoring is only meaningful if written reasoning causally constrains the answer. We introduce continuation-based causal testing, an ablation-patch intervention that perturbs one reasoning step, truncates the chain, and forces the model to continue from the corrupted prefix. It measures how load-bearing a CoT is for the final answer, a behavioral notion distinct from mechanistic faithfulness. Across Gemma-2-9B-IT, Llama-3.1-8B-Instruct, and DeepSeek-R1-Distill-Qwen-7B on GSM8K, MMLU, and BIG-Bench Hard, CoT load-bearingness tracks model-relative task difficulty: on easy tasks models silently bypass their own reasoning; on hard tasks they follow corrupted steps and propagate errors. A matched 2x2 analysis shows task difficulty dominates perturbation type: error propagation rises 16x from GSM8K to BBH multistep arithmetic, and a variance partition over 28,584 continuations attributes 98.8% of explained deviance to task difficulty versus 0.8% to perturbation type. Reasoning-specific RL suppresses error propagation and compresses the gradient. A four-variant judge-sensitivity analysis and blind two-annotator study (n=500) show the error-propagation vs. non-propagation label is invariant to judge prompt, with perfect inter-annotator agreement (Cohen's kappa = 1.00). This gradient creates a structural problem for CoT-based oversight and AI safety monitoring: where the trace is easy to read it carries little signal, and where it matters errors propagate before a monitor can intervene. Linear probes on hidden states separate silent bypass, self-correction, and error propagation, but additive activation steering provides limited causal control, flipping only about 25% of error-propagation cases at best. Behavioral mode is readable but not reliably controllable.",
+    "published": "2026-09-21T20:06:06Z",
+    "updated": "2026-09-21T20:06:06Z",
+    "url": "https://arxiv.org/abs/2609.25366v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.25366v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Chain-of-thought (CoT) monitoring is only meaningful if written reasoning causally constrains the answer.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-09-24T00:39:15.527538+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-09-24T00:37:38.702054+00:00"
+  },
+  {
     "id": "arxiv:2609.24801v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -37,6 +226,42 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-09-23T00:45:28.241614+00:00"
+  },
+  {
+    "id": "arxiv:2609.25173v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Attack Success Rate Is Not a Number: On Measurement Validity in Agentic AI Security Evaluation",
+    "authors": [
+      "Chetan Pathade",
+      "Prathamesh Pawar",
+      "Shubham Patil"
+    ],
+    "abstract": "Attack success rate (ASR) is the headline metric in nearly every published evaluation of attacks on, and defenses for, LLM agents. We argue that ASR as currently used is not a single quantity but a family of metrics parameterized by six design choices that papers seldom specify and never hold constant across the literature. We support this with two studies that require no proprietary access. First, a full-text meta-analysis of 259 agentic-security papers posted to arXiv between February 2025 and September 2026 finds that most report neither a variance estimate nor repeated runs for their headline attack metric: 58% (95% CI 44-71) in a hand-coded random sample of 50, 65.3% by automated coding of all 259. Only 30.9% disclose enough about decoding to establish whether their evaluation was even stochastic, and of the 64 papers we confirm use an LLM judge, 29.7% report any agreement check against human labels. Second, an analytical study shows that these omissions are not cosmetic: on a 100-instance benchmark, the minimum difference in ASR detectable at conventional power is 18.2 percentage points, and two defenses whose true ASRs differ by 5 points are ranked in the wrong order by a single-run evaluation roughly 21% of the time. Because several of the six axes shift ASR in a system-dependent way, the resulting incomparability is not a constant offset that cancels in comparison. We conclude that cross-paper ASR comparison is currently unsupported, and propose a ten-item reporting checklist targeted at each failure we measure. Our aim is not to dispute any individual result but to supply the shared measurement contract the field has so far done without.",
+    "published": "2026-09-21T14:16:59Z",
+    "updated": "2026-09-21T14:16:59Z",
+    "url": "https://arxiv.org/abs/2609.25173v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.25173v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "analysis": {
+      "summary": "Attack success rate (ASR) is the headline metric in nearly every published evaluation of attacks on, and defenses for, LLM agents.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-09-24T00:39:15.527638+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-09-24T00:37:38.702256+00:00"
   },
   {
     "id": "arxiv:2609.24515v1",
@@ -353,7 +578,22 @@
       "cs.CR",
       "cs.LG"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "As LLM applications integrate with external tools, they are increasingly exposed to indirect prompt injection (IPI), where adversarial instructions are embedded in retrieved content.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-09-24T00:39:15.527745+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-09-23T00:45:28.242433+00:00"
   },
   {
@@ -613,7 +853,22 @@
       "cs.CL",
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Large language models are usually interpreted through concepts that humans already possess: truthfulness, refusal, deception, personality, harmfulness, and related categories.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cl",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-09-24T00:39:15.527848+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-09-23T00:45:28.242871+00:00"
   },
   {
@@ -2864,238 +3119,5 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-09-10T00:21:02.984607+00:00"
-  },
-  {
-    "id": "arxiv:2609.05903v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "EvoSafeHarness: Evolving Model- and Domain-Specific Harnesses for Securing Agents",
-    "authors": [
-      "Nanxi Li",
-      "Yingzi Ma",
-      "Yulong Cao",
-      "Edward Suh",
-      "Bo Li",
-      "Dawn Song",
-      "Chaowei Xiao"
-    ],
-    "abstract": "Large Language Model (LLM) agents are turning language into real-world effects, making safety necessary against both indirect prompt injections and direct harmful requests. System-level safety harnesses add an enforcement layer beyond model-level defenses, but existing harnesses are usually designed once by experts and applied across heterogeneous models and domains. Effective protection is deployment-dependent: models differ in how much enforcement they need before utility declines, while domains differ in the effects, state, and action sequences that must be governed. A harness that is strict enough for one model may over-block another, and a policy that transfers across domains may miss application-specific safety relations. We present EvoSafeHarness, a safety-specific optimization framework that synthesizes a deployable harness for a frozen model in a target domain. It jointly searches a natural-language policy and executable code logic, guided by model behavior, domain specifications, and fresh-context adversarial review to reject benchmark-specific rules. Across four agent benchmark families, EvoSafeHarness achieves a stronger safety-utility frontier than fixed expert-designed defenses. On DecodingTrust-Agent, it reduces average attack success rate from 45.6% to 10.0% at a 3.3-point utility cost and achieves the best score in 14 of 15 cells. On AgentDojo, it reaches 82.8% utility at 0.0% ASR, twice CaMeL's utility at the same operating point, and transfers unchanged to unseen AgentDyn suites. It also achieves the best score on Agent-SafetyBench for every victim and keeps mean ASR below 20% under adaptive PAIR attacks with a refinement budget of 16. Analysis shows that domain semantics determine which safety relations and trajectory state are needed, while model and runtime behavior determine how and where those relations should be enforced.",
-    "published": "2026-09-05T05:56:41Z",
-    "updated": "2026-09-05T05:56:41Z",
-    "url": "https://arxiv.org/abs/2609.05903v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.05903v1",
-    "categories": [
-      "cs.CR"
-    ],
-    "analysis": {
-      "summary": "Large Language Model (LLM) agents are turning language into real-world effects, making safety necessary against both indirect prompt injections and direct harmful requests.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr"
-      ],
-      "analyzed_at": "2026-09-13T00:06:08.800827+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-10T00:21:02.984700+00:00"
-  },
-  {
-    "id": "arxiv:2609.05117v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "TIER: Threat Implicitness Benchmark for Evaluating LLM Safety Behaviors",
-    "authors": [
-      "Thu-Hien Trinh-Thi",
-      "Hai-Yen Vong",
-      "Thanh-Ha Ung-Dung",
-      "Tram Ho"
-    ],
-    "abstract": "Current LLM safety benchmarks largely rely on binary metrics, overlooking how models respond to harmful prompts with varying threat implicitness. We introduce TIER, a Threat Implicitness Benchmark for behavioral safety evaluation of LLMs. TIER covers four risk domains and four threat levels, from explicit harmful requests to sophisticated jailbreaks. Responses are assessed using a six-label behavior scale and two independent LLM judges. Experiments on six open-weight LLMs show that safety behaviors evolve gradually across threat levels rather than shifting directly from refusal to compliance. Contextual prompts yield the most diverse behaviors, while jailbreaks reveal the largest robustness gaps. Furthermore, models with similar Attack Success Rates can exhibit distinct response distributions, highlighting the need for behavior-aware LLM safety evaluation.",
-    "published": "2026-09-04T13:13:11Z",
-    "updated": "2026-09-04T13:13:11Z",
-    "url": "https://arxiv.org/abs/2609.05117v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.05117v1",
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Current LLM safety benchmarks largely rely on binary metrics, overlooking how models respond to harmful prompts with varying threat implicitness.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-09-08T00:34:02.156284+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-08T00:32:25.740414+00:00"
-  },
-  {
-    "id": "arxiv:2609.05074v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Influence Score and Transformers interpretability: Measure of the Effective Impact of Attention Heads at inference time",
-    "authors": [
-      "Lisa Bouger",
-      "Yannick Teglia",
-      "Philippe Loubet Moundi"
-    ],
-    "abstract": "We propose an influence score to quantify the contribution of attention heads to classification decisions in Transformer-based models designed for prompt injection detection. The score combines directional influence on the logits with structural contribution within the residual stream, enabling a multi-scale analysis at the head, layer, and network levels. Applied to a DeBERTa model specialized for prompt injection detection, our framework reveals distinct decision behaviours between correct and erroneous predictions. Our method provides an effective compromise between fine-grained circuit analysis and global output-based methods, and offers a systematic way to study decision mechanisms in Transformer classifiers.",
-    "published": "2026-09-04T12:32:57Z",
-    "updated": "2026-09-04T12:32:57Z",
-    "url": "https://arxiv.org/abs/2609.05074v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.05074v1",
-    "categories": [
-      "cs.CL"
-    ],
-    "analysis": {
-      "summary": "We propose an influence score to quantify the contribution of attention heads to classification decisions in Transformer-based models designed for prompt injection detection.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cl"
-      ],
-      "analyzed_at": "2026-09-08T00:34:02.156365+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-08T00:32:25.740492+00:00"
-  },
-  {
-    "id": "arxiv:2609.04721v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Locating and Steering Refusal Beyond Attention",
-    "authors": [
-      "Preethi Carmel Bosco",
-      "Gopalakrishnan Srinivasan"
-    ],
-    "abstract": "Where inside a language model does refusal live, and does that place change when the architecture does? In a transformer, refusal is governed by a single direction in the residual stream, a finding that safety and interpretability tooling now depend on. State-space models (SSMs) route information through a recurrent update instead of attention, sharing no token-mixing mechanism with a transformer. Does the same safety representation survive this shift, or must it be rediscovered per architecture? It survives. A single rigid rotation, which can only reorient a space and not reshape it, aligns one model's representation space with another's, so the two genuinely share the representation. A harm probe trained on a transformer then flags an SSM's harmful inputs, and removing the aligned direction makes a model answer attacks it would otherwise refuse, while a random direction of the same size does far less. What is architecture-specific is not where the direction is steered but where it must be read. Each layer computes a fresh output that is then added into the residual stream, and harm is cleanly readable at this output, the write site, before the addition. A control that holds the intervention's strength fixed shows that what matters is where the direction is estimated, not where it is applied. Applied through a detector-triggered gate, this direction lowers jailbreak success in all four architecture families we test (SSM, transformer, recurrent, hybrid), and on the SSM it holds against an attacker that tunes its prompt against the defense. The gate only matches a trivial rule that returns a fixed refusal whenever the same detector fires, so what transfers across architectures is the direction itself, not defense strength. Safety tooling built on refusal therefore ports to a new architecture by re-estimating the direction at that architecture's write site, not by rebuilding it.",
-    "published": "2026-09-04T04:45:53Z",
-    "updated": "2026-09-04T04:45:53Z",
-    "url": "https://arxiv.org/abs/2609.04721v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.04721v1",
-    "categories": [
-      "cs.LG"
-    ],
-    "analysis": {
-      "summary": "Where inside a language model does refusal live, and does that place change when the architecture does?",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-lg"
-      ],
-      "analyzed_at": "2026-09-08T00:34:02.156428+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-08T00:32:25.740640+00:00"
-  },
-  {
-    "id": "arxiv:2609.04533v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Repeat-After-Me: Black-Box Adaptive Visual Prompt Injection",
-    "authors": [
-      "Sizhe Chen",
-      "Yu-Lin Tsai",
-      "Ivan Evtimov",
-      "Kamalika Chaudhuri",
-      "Raluca Ada Popa",
-      "David Wagner",
-      "Arman Zharmagambetov"
-    ],
-    "abstract": "Prompt injection is widely recognized as a major security threat to AI agents that interact with untrusted external data, such as websites, documents, and emails. Prior work has shown that, in the text domain, black-box prompt injection can achieve near-perfect attack success rates (ASRs). In the image domain, however, existing visual prompt injection methods are substantially less effective in attacking frontier commercial VLMs for materially harmful behavior. Achieving such outputs is hard because it requires a long and/or format-compliant target string, such as a precise, parseable native tool call with exact function names and arguments. We present Repeat-After-Me, a black-box adaptive visual prompt injection attack that can reveal personally identifiable information or make malicious tool calls. Across both open-weight and commercial frontier VLMs, including Qwen3.6-27B and GPT-5.5, our method achieves ASRs exceeding 80% and 47%, respectively, under a realistic setting in which the benign user prompt is semantically unrelated to the injected task and does not verbally authorize it. In our evaluation, injections optimized on one surrogate retain 43-46% of the original ASR on two commercial victims, and cross-sample transferability retains 64-66% of the original ASR on those two models. We test our attack in a real-world OpenClaw agent: in a default OpenClaw Discord deployment, an untrusted user can use a minimally injected image to overwrite TOOLS.md, enabling future sensitive behaviors like remote code execution and secret exfiltration. We show our new attack vector works in cases where adaptive textual prompt injection fails. We discuss potential defenses.",
-    "published": "2026-09-03T22:44:45Z",
-    "updated": "2026-09-03T22:44:45Z",
-    "url": "https://arxiv.org/abs/2609.04533v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.04533v1",
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Prompt injection is widely recognized as a major security threat to AI agents that interact with untrusted external data, such as websites, documents, and emails.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-09-08T00:34:02.156488+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-08T00:32:25.740710+00:00"
-  },
-  {
-    "id": "arxiv:2609.04495v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Rethinking Indirect Prompt Injection as a Test-Time Search Problem",
-    "authors": [
-      "Duong M. Nguyen",
-      "Joon Sik Kim",
-      "Blazej Manczak",
-      "Vaikkunth Mugunthan"
-    ],
-    "abstract": "We formulate indirect prompt injection as a test-time search over a task-dependent attack surface induced by the environment, user task, and injection task. To operationalize this formulation, we introduce an agentic attacker with a dedicated search harness that performs environment reconnaissance, structured reasoning over attack strategies, and adaptive evaluation using victim-agent feedback. Across heterogeneous tasks, we find that increasing attacker test-time compute improves vulnerability discovery and exploitation, while ablations show that explicit strategy management is important for avoiding redundant search and sustaining gains at larger budgets. These results suggest that agentic security evaluations should characterize both the attacker's search procedure and compute budget, rather than treating attack success as a budget-independent property of the victim. More broadly, our findings identify the attacker's adaptive search over the system attack surfaces as an important and underexplored security risk for tool-using agents.",
-    "published": "2026-09-03T21:28:37Z",
-    "updated": "2026-09-03T21:28:37Z",
-    "url": "https://arxiv.org/abs/2609.04495v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.04495v1",
-    "categories": [
-      "cs.AI",
-      "cs.CL",
-      "cs.CR"
-    ],
-    "analysis": {
-      "summary": "We formulate indirect prompt injection as a test-time search over a task-dependent attack surface induced by the environment, user task, and injection task.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai",
-        "cs-cl",
-        "cs-cr"
-      ],
-      "analyzed_at": "2026-09-08T00:34:02.156541+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-08T00:32:25.740760+00:00"
   }
 ]
