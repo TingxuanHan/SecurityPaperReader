@@ -1,8 +1,84 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-09-24 08:39 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-09-25 08:39 Asia/Shanghai
 
 ## 今日论文
+
+### [An Open Pipeline and Dashboard for Systemic-Risk Evidence under the EU AI Act's Code of Practice](https://arxiv.org/abs/2609.28335v1)
+
+**作者**：Jacob T. Emmerson, Phuong-Anh Nguyen-Le, Ronan Romano, Wilber Sean V. Anterola, Yann Billeter, Zhijing Jin
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-09-23 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.28335v1)
+
+**摘要总结**：Claims about AI safety reach audiences well beyond the AI community, yet many rely on opaque evidence or static assessments, when supporting evidence is accessible at all.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
+
+---
+
+### [Psychoacoustically Aligned Latent Smoothing for Adversarial Robustness of Full-Duplex Speech-to-Speech Dialogue Models](https://arxiv.org/abs/2609.27378v1)
+
+**作者**：Kian Shamsaie, Iman Modarressi
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-09-23 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.27378v1)
+
+**摘要总结**：End-to-end speech-to-speech dialogue models listen and speak simultaneously, so a continuously open acoustic channel is exposed to adversarial manipulation.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-sd` `cs-ai` `cs-cl` `cs-hc`
+
+---
+
+### [Ajar: Measuring Open Privilege in Agent Defenses](https://arxiv.org/abs/2609.26900v1)
+
+**作者**：Reshabh K Sharma, Linxi Jiang, Shuo Chen, Zhiqiang Lin
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-09-22 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.26900v1)
+
+**摘要总结**：A language model agent acts through the tools it is given.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-se`
+
+---
+
+### [Safety Nudges: User-Facing Interventions for Real-Time AI Risk Awareness](https://arxiv.org/abs/2609.26865v1)
+
+**作者**：Varshini Elangovan, James Wedgwood, Chhavi Yadav, William Agnew, Sauvik Das, Virginia Smith
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-09-22 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.26865v1)
+
+**摘要总结**：Conversational AI systems can pose safety risks to their users such as hallucination, sycophancy, overconfidence, and anthropomorphism, but these risks are difficult for users to detect during everyday use.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-hc` `cs-ai` `cs-cy` `cs-lg`
+
+---
 
 ### [Exploring Solver-Level Warmstarting for Neural Network Verification](https://arxiv.org/abs/2609.25962v1)
 
@@ -1445,79 +1521,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-ai` `cs-cl` `cs-cr` `cs-cy`
-
----
-
-### [SRD-GUARD: A Defense Framework of LLMs via Semantic Rewriting and Joint Multi-Model Scoring for Latent Intent Exposure](https://arxiv.org/abs/2609.06540v1)
-
-**作者**：Qi Wang, Chengcheng Wan, Jiangtao Wang
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-06 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.06540v1)
-
-**摘要总结**：Large language models (LLMs) are increasingly deployed in safety-critical applications, yet jailbreak attacks can conceal harmful intent through role-playing, fictional scenarios, or seemingly benign motivations.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai`
-
----
-
-### [Rethinking Safety for Generalist Robots](https://arxiv.org/abs/2609.06326v1)
-
-**作者**：Rohan Sinha, Anushri Dixit, Ran Tian, Anirudha Majumdar, Andrea Bajcsy
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-06 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.06326v1)
-
-**摘要总结**：Generalist robots promise to transform our society: the same system that prepares a meal or folds laundry might also repair a car, inspect infrastructure, or care for a loved one.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`eess-sy` `cs-ro`
-
----
-
-### [Robustness Evaluation and Detection of Transferable Adversarial Attacks in ML-Based NIDS](https://arxiv.org/abs/2609.06012v1)
-
-**作者**：Huda Ali Alatawi
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.06012v1)
-
-**摘要总结**：Machine learning-based network intrusion detection systems (ML-based NIDS) are vulnerable to adversarial evasion, where malicious samples are perturbed to evade detection and be misclassified as benign.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr`
-
----
-
-### [Agentic Pressure: The Endogenous Entropy of Reliable Autonomy](https://arxiv.org/abs/2609.05995v1)
-
-**作者**：Hengle Jiang, Ziying Luo, Ke Tang
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.05995v1)
-
-**摘要总结**：Achieving reliable autonomy in the wild requires agents to sustain continuous operations across long-horizon trajectories.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai`

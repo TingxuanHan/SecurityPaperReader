@@ -1,5 +1,171 @@
 [
   {
+    "id": "arxiv:2609.28335v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "An Open Pipeline and Dashboard for Systemic-Risk Evidence under the EU AI Act's Code of Practice",
+    "authors": [
+      "Jacob T. Emmerson",
+      "Phuong-Anh Nguyen-Le",
+      "Ronan Romano",
+      "Wilber Sean V. Anterola",
+      "Yann Billeter",
+      "Zhijing Jin"
+    ],
+    "abstract": "Claims about AI safety reach audiences well beyond the AI community, yet many rely on opaque evidence or static assessments, when supporting evidence is accessible at all. We present the Systemic Risk Index, an open evaluation pipeline and dashboard built to make empirical evidence more transparent and traceable to the public. Our work organizes 19 public benchmarks into four systemic-risk categories defined by the EU GPAI Code of Practice---CBRN, cyber offense, harmful manipulation, and loss of control---and evaluates models using harm-preserving perturbations and simulated deployment contexts. The interactive dashboard lets users alternate between average and worst-case aggregation, vary how model capability affects the aggregate score, and trace each risk rating to its benchmark evidence. Across 18 models, scores fall by 14 to 37 points under worst-case aggregation, highlighting information that can be hidden by an average assessment of model risk. LLM judges show agreement with human graders comparable to human--human agreement ($κ= 0.78\\text{--}0.82$), and a blind audit finds that $83\\%$ of sampled transformations preserve the original harm. In a survey ($N = 21$), most participants report that scores are easy to understand and that the dashboard encouraged them to view model evaluations under different settings",
+    "published": "2026-09-23T16:13:36Z",
+    "updated": "2026-09-23T16:13:36Z",
+    "url": "https://arxiv.org/abs/2609.28335v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.28335v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Claims about AI safety reach audiences well beyond the AI community, yet many rely on opaque evidence or static assessments, when supporting evidence is accessible at all.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-09-25T00:39:40.139506+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-09-25T00:38:03.959314+00:00"
+  },
+  {
+    "id": "arxiv:2609.27378v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Psychoacoustically Aligned Latent Smoothing for Adversarial Robustness of Full-Duplex Speech-to-Speech Dialogue Models",
+    "authors": [
+      "Kian Shamsaie",
+      "Iman Modarressi"
+    ],
+    "abstract": "End-to-end speech-to-speech dialogue models listen and speak simultaneously, so a continuously open acoustic channel is exposed to adversarial manipulation. We formalize imperceptible attacks on full-duplex agents as optimization over additive perturbations confined beneath the psychoacoustic masking threshold of the carrier speech, under three goals: targeted semantic hijacking, response suppression, and policy jailbreaking. Against an undefended Moshi-style agent, white-box attacks succeed in up to 91.7% of trials. We then introduce psychoacoustically aligned latent smoothing (PALS), which injects anisotropic Gaussian noise shaped by local codebook covariance at the residual-vector-quantized latent interface, with input noise shaped by the masking threshold constraining the attacker and trained by a Kullback--Leibler consistency objective. Deployed with no inference-time cost, PALS reduces hijack to 8.3%, mute to 11.2%, and jailbreak to 9.1% at clean quality within 2.3%. A Monte Carlo-smoothed variant certifies an ellipsoidal latent radius up to 0.616, a guaranteed floor that the empirical robustness far exceeds.",
+    "published": "2026-09-23T05:29:13Z",
+    "updated": "2026-09-23T05:29:13Z",
+    "url": "https://arxiv.org/abs/2609.27378v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.27378v1",
+    "categories": [
+      "cs.SD",
+      "cs.AI",
+      "cs.CL",
+      "cs.HC"
+    ],
+    "analysis": {
+      "summary": "End-to-end speech-to-speech dialogue models listen and speak simultaneously, so a continuously open acoustic channel is exposed to adversarial manipulation.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-sd",
+        "cs-ai",
+        "cs-cl",
+        "cs-hc"
+      ],
+      "analyzed_at": "2026-09-25T00:39:40.139658+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-09-25T00:38:03.959441+00:00"
+  },
+  {
+    "id": "arxiv:2609.26900v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Ajar: Measuring Open Privilege in Agent Defenses",
+    "authors": [
+      "Reshabh K Sharma",
+      "Linxi Jiang",
+      "Shuo Chen",
+      "Zhiqiang Lin"
+    ],
+    "abstract": "A language model agent acts through the tools it is given. The data it reads while working on a task can redirect what it does with those tools. A growing set of techniques for safe and secure agent execution therefore sits between the agent and its tools, aiming to enforce access control, information flow or isolation at that boundary. Today these techniques are evaluated on agent-security benchmarks built around indirect prompt injection. Those benchmarks judge a defense by how far it brings the number of successful attacks down while preserving the agent's utility. A defense is judged only on the agent's execution. It can score well on both metrics while holding open a transfer, a deletion or a broad read that no task needed. Ajar measures that open privilege directly using the existing benchmarks. It attaches to an agent-security benchmark that already exists and reuses the tasks, tool schemas, reference solutions and goal states that benchmark uses to grade its own runs. For each benign task it builds candidate tool calls the task does not need, so allowing one is privilege left open. These calls are presented to the defense at every point where the agent could act. We evaluate Ajar by attaching it to AgentDojo, where open privilege becomes a third axis beside the existing attack success and benign utility. We run it on five defenses: Progent, CaMeL, AC4A, Permission Assistant, and Claude Code's Auto mode. We observed that they leave widely different amounts of privilege open. Two defenses leak by almost the same amount yet differ widely in the benign tasks they finish, and one defense buys part of its tightness by refusing calls its tasks were entitled to make. This open privilege cannot be derived from the measured attack success or benign utility. The source code of Ajar is available at https://github.com/reSHARMA/Ajar.",
+    "published": "2026-09-22T18:01:41Z",
+    "updated": "2026-09-22T18:01:41Z",
+    "url": "https://arxiv.org/abs/2609.26900v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.26900v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.SE"
+    ],
+    "analysis": {
+      "summary": "A language model agent acts through the tools it is given.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai",
+        "cs-se"
+      ],
+      "analyzed_at": "2026-09-25T00:39:40.139772+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-09-25T00:38:03.959734+00:00"
+  },
+  {
+    "id": "arxiv:2609.26865v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Safety Nudges: User-Facing Interventions for Real-Time AI Risk Awareness",
+    "authors": [
+      "Varshini Elangovan",
+      "James Wedgwood",
+      "Chhavi Yadav",
+      "William Agnew",
+      "Sauvik Das",
+      "Virginia Smith"
+    ],
+    "abstract": "Conversational AI systems can pose safety risks to their users such as hallucination, sycophancy, overconfidence, and anthropomorphism, but these risks are difficult for users to detect during everyday use. We introduce Safety Nudges, a browser-based tool that provides lightweight, in situ flags when concerning behavior is detected in chatbot conversations. We evaluated Safety Nudges in a two-week field study with 45 frequent chatbot users, collecting interaction logs, surveys, and feedback on individual nudges. Participants found the tool useful, clear, and minimally disruptive, with nearly all users reporting an increased awareness of potential AI harms, though we found that this improved awareness alone did not necessarily lead to discernible behavioral changes. Our results suggest that user facing safety nudges can complement model-level safeguards by helping people critically evaluate AI responses in context, while highlighting the importance of relevance, calibration, and user control in nudge design for conversational AI safety.",
+    "published": "2026-09-22T16:12:08Z",
+    "updated": "2026-09-22T16:12:08Z",
+    "url": "https://arxiv.org/abs/2609.26865v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.26865v1",
+    "categories": [
+      "cs.HC",
+      "cs.AI",
+      "cs.CY",
+      "cs.LG"
+    ],
+    "analysis": {
+      "summary": "Conversational AI systems can pose safety risks to their users such as hallucination, sycophancy, overconfidence, and anthropomorphism, but these risks are difficult for users to detect during everyday use.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-hc",
+        "cs-ai",
+        "cs-cy",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-09-25T00:39:40.139868+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-09-25T00:38:03.959834+00:00"
+  },
+  {
     "id": "arxiv:2609.25962v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -2971,153 +3137,5 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-09-10T00:21:02.984338+00:00"
-  },
-  {
-    "id": "arxiv:2609.06540v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "SRD-GUARD: A Defense Framework of LLMs via Semantic Rewriting and Joint Multi-Model Scoring for Latent Intent Exposure",
-    "authors": [
-      "Qi Wang",
-      "Chengcheng Wan",
-      "Jiangtao Wang"
-    ],
-    "abstract": "Large language models (LLMs) are increasingly deployed in safety-critical applications, yet jailbreak attacks can conceal harmful intent through role-playing, fictional scenarios, or seemingly benign motivations. Existing inference-time defenses may miss disguised attacks or excessively refuse legitimate requests. We propose SRD-GUARD, a parameter-free, black-box defense framework that exposes concealed intent through semantic rewriting and consensus-based risk assessment. Given an input prompt, SRD-GUARD generates five semantically related rewrites that preserve the underlying objective while removing unnecessary contextual packaging. The original prompt and rewrites are jointly evaluated by multiple independent LLM-based safety scorers on a continuous risk scale. A decision module combines absolute risk thresholds with relative risk changes between the original and rewritten prompts to adaptively intercept, preserve, or warn on requests. We evaluate SRD-GUARD against UNIATTACK, CIPHER, and DeepInception on Llama-3-8B-Uncensored and DeepSeek-V4-Flash using AdvBench and OR-Bench-Hard. SRD-GUARD achieves average DSRs of 91.44% and 100%, with ORRs of 8.00% and 12.00%, respectively. Compared with evaluated baselines, it provides a more favorable DSR--ORR trade-off. Ablation studies show that rewriting exposes concealed harmful intent, joint scoring improves robustness to individual evaluator behavior, and risk-adaptive decision making enables selective handling of ambiguous inputs. These results demonstrate that semantic intent exposure, consensus-based risk assessment, and relative-risk-aware routing provide an effective and selective approach to black-box jailbreak defense. The artifact is available at https://anonymous.4open.science/status/CICD-Guard-D648.",
-    "published": "2026-09-06T11:26:08Z",
-    "updated": "2026-09-06T11:26:08Z",
-    "url": "https://arxiv.org/abs/2609.06540v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.06540v1",
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Large language models (LLMs) are increasingly deployed in safety-critical applications, yet jailbreak attacks can conceal harmful intent through role-playing, fictional scenarios, or seemingly benign motivations.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-09-12T00:27:19.882724+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-10T00:21:02.984408+00:00"
-  },
-  {
-    "id": "arxiv:2609.06326v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Rethinking Safety for Generalist Robots",
-    "authors": [
-      "Rohan Sinha",
-      "Anushri Dixit",
-      "Ran Tian",
-      "Anirudha Majumdar",
-      "Andrea Bajcsy"
-    ],
-    "abstract": "Generalist robots promise to transform our society: the same system that prepares a meal or folds laundry might also repair a car, inspect infrastructure, or care for a loved one. Yet this versatility introduces risks far beyond the collision- and force-based safety notions that have long dominated robotics. Notions of safety must now consider context (e.g., turning off a building's electricity is only safe during scheduled maintenance), user intent (e.g., asking the robot to ``clean the kitchen'' includes unspoken expectations that the robot should not mix dangerous but powerful cleaning agents like bleach and ammonia), hard-to-model physical consequences (e.g., burning food during meal preparation), and more. We argue the need for a new era of robot safety---embodied AI safety---that broadens the hazards considered across the robot's lifecycle while recognizing that the safety of bits cannot be separated from the safety of atoms. We present a taxonomy of emerging risks and a full-stack research agenda to guide the safe deployment of generalist robots.",
-    "published": "2026-09-06T01:23:02Z",
-    "updated": "2026-09-06T01:23:02Z",
-    "url": "https://arxiv.org/abs/2609.06326v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.06326v1",
-    "categories": [
-      "eess.SY",
-      "cs.RO"
-    ],
-    "analysis": {
-      "summary": "Generalist robots promise to transform our society: the same system that prepares a meal or folds laundry might also repair a car, inspect infrastructure, or care for a loved one.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "eess-sy",
-        "cs-ro"
-      ],
-      "analyzed_at": "2026-09-12T00:27:19.882812+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-10T00:21:02.984477+00:00"
-  },
-  {
-    "id": "arxiv:2609.06012v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Robustness Evaluation and Detection of Transferable Adversarial Attacks in ML-Based NIDS",
-    "authors": [
-      "Huda Ali Alatawi"
-    ],
-    "abstract": "Machine learning-based network intrusion detection systems (ML-based NIDS) are vulnerable to adversarial evasion, where malicious samples are perturbed to evade detection and be misclassified as benign. Despite growing research on adversarial attacks and defenses for ML-based NIDS, comparative evaluations of multiple attack types, detection models, and defense strategies under a common setting remain limited. In this paper, we evaluate eight adversarial evasion attacks, fifteen detection models, and three representative defense strategies using the NF-UQ-NIDS dataset, which includes recent traditional and IoT network traffic with twenty distinct attack categories. The evaluation compares model performance on clean test data and on robustness evaluation sets that include adversarial samples, analyzes attack success consistency across models, and examines the effect of defense strategies on adversarial robustness. To support model comparison, we introduce the Robustness Index (RI), a compact comparative metric that rewards high balanced accuracy and macro-F1 score computed on the robustness evaluation set while penalizing high attack success rate (ASR). We further present AR-NIDS, a two-stage framework that uses an adversarially trained ensemble to distinguish normal, attack, and adversarial samples, followed by an adversarial attack classifier to identify the attack type. Under the evaluated transfer-based setting, the proposed adversarially trained ensemble achieves the strongest overall trade-off between classification performance on the robustness evaluation set and evasion resistance, reducing the average ASR from 0.41 to 0.03 and achieving an RI of 0.98.",
-    "published": "2026-09-05T10:34:14Z",
-    "updated": "2026-09-05T10:34:14Z",
-    "url": "https://arxiv.org/abs/2609.06012v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.06012v1",
-    "categories": [
-      "cs.CR"
-    ],
-    "analysis": {
-      "summary": "Machine learning-based network intrusion detection systems (ML-based NIDS) are vulnerable to adversarial evasion, where malicious samples are perturbed to evade detection and be misclassified as benign.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr"
-      ],
-      "analyzed_at": "2026-09-12T00:27:19.882942+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-10T00:21:02.984544+00:00"
-  },
-  {
-    "id": "arxiv:2609.05995v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Agentic Pressure: The Endogenous Entropy of Reliable Autonomy",
-    "authors": [
-      "Hengle Jiang",
-      "Ziying Luo",
-      "Ke Tang"
-    ],
-    "abstract": "Achieving reliable autonomy in the wild requires agents to sustain continuous operations across long-horizon trajectories. However, as agents navigate these unconstrained settings, they encounter cumulative friction that inherently destabilizes their alignment. In this paper, we identify a distinct non-adversarial phenomenon termed Agentic Pressure. We define this as a kinetic force that spontaneously emerges when the cost of compliance conflicts with the imperative of goal achievement. Unlike static jailbreaks, this pressure is endogenous and arises directly from the dynamics of interaction. We propose a theoretical framework that formalizes Agentic Pressure as the ratio between the required work to overcome environmental friction and the remaining capacity of the agent. Our analysis demonstrates that when this pressure exceeds a critical threshold, agents exhibit safety drift as a mathematically optimal adaptation. Consequently, they often resort to Instrumental Hallucination to rationalize rule violations. Empirical experiments validate this framework and show that aligned agents spontaneously compromise safety to preserve autonomy under high-pressure conditions.",
-    "published": "2026-09-05T09:39:18Z",
-    "updated": "2026-09-05T09:39:18Z",
-    "url": "https://arxiv.org/abs/2609.05995v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.05995v1",
-    "categories": [
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Achieving reliable autonomy in the wild requires agents to sustain continuous operations across long-horizon trajectories.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-09-13T00:06:08.800697+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-10T00:21:02.984607+00:00"
   }
 ]
