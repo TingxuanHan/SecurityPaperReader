@@ -333,7 +333,22 @@
       "cs.CR",
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Most studies of prompt injection focus on generative agents, leaving their effects on models with schema-defined outputs unclear.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-09-27T00:45:08.965862+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-09-26T00:42:32.562180+00:00"
   },
   {
@@ -527,7 +542,24 @@
       "cs.CY",
       "cs.LG"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Conversational AI systems can pose safety risks to their users such as hallucination, sycophancy, overconfidence, and anthropomorphism, but these risks are difficult for users to detect during everyday use.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-hc",
+        "cs-ai",
+        "cs-cy",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-09-27T00:45:08.965941+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-09-26T00:42:32.562677+00:00"
   },
   {
@@ -629,7 +661,23 @@
       "cs.AI",
       "cs.CL"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Deploying Large Language Models for runtime operational triage incurs prohibitive latency (>100-500 ms), high VRAM requirements (>4-8 GB), and excessive energy dissipation.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ne",
+        "cs-ai",
+        "cs-cl"
+      ],
+      "analyzed_at": "2026-09-27T00:45:08.966001+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-09-26T00:42:32.562948+00:00"
   },
   {

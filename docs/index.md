@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-09-26 08:44 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-09-27 08:45 Asia/Shanghai
 
 ## 今日论文
 
@@ -162,13 +162,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-23 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.28613v1)
 
-**摘要总结**：暂无
+**摘要总结**：Most studies of prompt injection focus on generative agents, leaving their effects on models with schema-defined outputs unclear.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -254,13 +257,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-22 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.26865v2)
 
-**摘要总结**：暂无
+**摘要总结**：Conversational AI systems can pose safety risks to their users such as hallucination, sycophancy, overconfidence, and anthropomorphism, but these risks are difficult for users to detect during everyday use.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-hc` `cs-ai` `cs-cy` `cs-lg`
 
 ---
 
@@ -308,13 +314,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-21 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.25498v2)
 
-**摘要总结**：暂无
+**摘要总结**：Deploying Large Language Models for runtime operational triage incurs prohibitive latency (&gt;100-500 ms), high VRAM requirements (&gt;4-8 GB), and excessive energy dissipation.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ne` `cs-ai` `cs-cl`
 
 ---
 
