@@ -1,5 +1,228 @@
 [
   {
+    "id": "arxiv:2610.01828v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "The Asymptotics of Language Model Alignment with Memory",
+    "authors": [
+      "Haricharan Balasundaram",
+      "V. Arvind Rameshwar"
+    ],
+    "abstract": "Language model (LM) alignment broadly aims to perturb a given LM $Q$ into an aligned LM $q$ such that i) the outputs produced by $q$ and $Q$ are 'close' in probability, ii) $q$ has a higher expected reward than $Q$. Two common techniques for LM alignment are: KL-constrained RL, which requires knowledge of the LM distribution and is computationally expensive, and the best-of-$n$ algorithm, which requires only sampling from the LM. The work of Yang et al. established asymptotic closeness between the distributions produced by the two alignment methods for an $m$--length i.i.d. token sequence output by the LM, in the limit as $m$ increases to infinity. However, the i.i.d. assumption is not representative of practical LMs, whose output sequences often have memory. In this paper, we extend the asymptotic closeness result to the case when the $m$--length token sequence outputted by the LM is Markovian. Further, for finite-length output sequences -- particularly, when $m=1$ -- we provide a complete characterization of LM distributions and reward functions for which the KL-divergence between the distributions produced by the two alignment methods is zero -- a question first posed in Yang et al.",
+    "published": "2026-10-01T15:04:05Z",
+    "updated": "2026-10-01T15:04:05Z",
+    "url": "https://arxiv.org/abs/2610.01828v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.01828v1",
+    "categories": [
+      "cs.CL",
+      "cs.IT"
+    ],
+    "analysis": {
+      "summary": "Language model (LM) alignment broadly aims to perturb a given LM $Q$ into an aligned LM $q$ such that i) the outputs produced by $q$ and $Q$ are 'close' in probability, ii) $q$ has a higher expected reward than $Q$.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cl",
+        "cs-it"
+      ],
+      "analyzed_at": "2026-10-03T01:16:39.808934+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-10-03T01:15:04.448218+00:00"
+  },
+  {
+    "id": "arxiv:2610.01821v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Beyond Linear Concepts: Discovering and Aligning Non-Linear Concept Manifolds in Large Language Models",
+    "authors": [
+      "Tido Specht",
+      "Elias Benedict Krey",
+      "Nils Neukirch",
+      "Nils Strodthoff"
+    ],
+    "abstract": "Understanding information processing in large language models (LLMs) requires dissecting the geometric organization of their internal token representations. While existing mechanistic interpretability (MI) methods seek to extract concepts, they are constrained by a strong linearity assumption challenged by evidence of non-linear feature manifolds. We move beyond linear concepts by adapting Non-Linear Multi-Dimensional Concept Discovery (NLMCD) from computer vision to token-level LLM activations, modeling concepts as low-dimensional manifolds. To compare concept manifolds across layers and models, we introduce a concept-based alignment (CBA) score, a generalized Rand index that measures geometric proximity without explicit feature matching. Our analysis yields six key findings: (i) a neighboring-layer sanity check shows CBA is more sensitive than PCA- or CKA-based linear baselines; (ii) layer-by-layer alignment matrices reveal two block structures in intermediate and late layers, consistent across models and obscured by linear metrics; (iii) concept composition remains syntax-dominated through most of the network before giving way to increasingly mixed syntactic-semantic concepts in later layers, with increasing output-orientation toward the final layers; (iv) multilingual concept sharing between English and Mandarin is training-dependent rather than universal, strongest in Qwen, weaker in Llama, and absent in GPT-2; (v) inter-model alignment mirrors this structure, with strong correspondence between same-family Qwen models of different scale but weak alignment across model families; and (vi) across Tulu-3 training stages, alignment is highest between adjacent stages, with the largest shift between the base model and SFT, while subsequent preference-alignment stages (DPO, RLVR) leave early layers largely unchanged and RLVR mostly preserves DPO's concepts in late layers.",
+    "published": "2026-10-01T14:55:03Z",
+    "updated": "2026-10-01T14:55:03Z",
+    "url": "https://arxiv.org/abs/2610.01821v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.01821v1",
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ],
+    "analysis": {
+      "summary": "Understanding information processing in large language models (LLMs) requires dissecting the geometric organization of their internal token representations.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-lg",
+        "cs-cl"
+      ],
+      "analyzed_at": "2026-10-03T01:16:39.809040+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-10-03T01:15:04.448333+00:00"
+  },
+  {
+    "id": "arxiv:2610.01768v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "The Innocent Courier: Covert Exfiltration Through Legitimate LLM Web Fetching",
+    "authors": [
+      "Alessandro Pegoraro",
+      "Daryan Merx",
+      "Phillip Rieger",
+      "Ahmad-Reza Sadeghi"
+    ],
+    "abstract": "With the increasing capabilities of Large-Language-Models (LLMs) and LLM-based agents, users are increasingly using them to solve everyday problems, such as answering e-mails or providing programming support. Existing work has extensively investigated security and privacy risks, such as prompt injections and the disclosure of sensitive data to chatbot providers. While various solutions were developed to address these risks, including input structuring to prevent prompt injections or deploying local LLMs to avoid sharing confidential data with chatbot operators, LLMs also pose the risk of leaking confidential data to third parties. In this paper, we demonstrate with LLMLeak a novel attack vector where malicious software that runs locally but cannot communicate directly with the internet abuses LLMs to establish a covert channel. While inputs that instruct the LLM to send data directly via generated code are easy to detect and network libraries are typically restricted, LLMLeak relies only on the LLM's tool to fetch websites for further information. A malicious software component on the client side embeds a secret into a URL. It presents the referenced website as providing information required for a benign task, such as migrating a software library. When the LLM accesses the URL, the attacker receives the encoded secret through an attacker-controlled DNS or web server. We perform an extensive evaluation on eleven open-parameter models, observe an attack success rate of 79.7%, and also conduct a case study on real-world chatbots, demonstrating the relevance of LLMLeak.",
+    "published": "2026-10-01T14:25:55Z",
+    "updated": "2026-10-01T14:25:55Z",
+    "url": "https://arxiv.org/abs/2610.01768v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.01768v1",
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "analysis": {
+      "summary": "With the increasing capabilities of Large-Language-Models (LLMs) and LLM-based agents, users are increasingly using them to solve everyday problems, such as answering e-mails or providing programming support.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-10-03T01:16:39.809148+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-10-03T01:15:04.448425+00:00"
+  },
+  {
+    "id": "arxiv:2610.01574v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Adversarial Robustness in Fake Quantum Simulators",
+    "authors": [
+      "Marc Maußner",
+      "Volker Reers"
+    ],
+    "abstract": "This paper investigates the performance scalability and adversarial robustness of Quantum Machine Learning (QML) models deployed on noise-model-based fake simulators. We conduct a dual-phased study, first benchmarking the computational throughput of Qiskit's Aer simulation engine across varying hardware architectures, and second, evaluating the effectiveness of Projected Gradient Descent (PGD) attacks and adversarial retraining strategies under realistic noise conditions. Our results quantify the runtime tradeoffs and scaling behavior for medium-scale simulations (projected up to 8 qubits) and demonstrate that high adversarial-to-benign retraining ratios (50/50) are essential for achieving practical model robustness for 4-qubit classifiers under realistic noise conditions.",
+    "published": "2026-10-01T12:33:59Z",
+    "updated": "2026-10-01T12:33:59Z",
+    "url": "https://arxiv.org/abs/2610.01574v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.01574v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "analysis": {
+      "summary": "This paper investigates the performance scalability and adversarial robustness of Quantum Machine Learning (QML) models deployed on noise-model-based fake simulators.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "quant-ph"
+      ],
+      "analyzed_at": "2026-10-03T01:16:39.809217+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-10-03T01:15:04.448488+00:00"
+  },
+  {
+    "id": "arxiv:2610.01558v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Controllable Stochastic Quantization Encoding for Adversarially Robust Spiking Neural Networks",
+    "authors": [
+      "Yujia Liu",
+      "Peiyu Liu",
+      "Yajing Zheng",
+      "Tiejun Huang"
+    ],
+    "abstract": "Spiking Neural Networks (SNNs) have attracted increasing attention due to their impressive temporal dynamics, energy efficiency, and brain-inspired mechanisms. Although SNNs have demonstrated promising performance in image classification tasks, recent studies have shown that they remain vulnerable to adversarial attacks, where imperceptible perturbations are added to input images to mislead model predictions. Existing defense methods mainly focus on training strategies, while the role of input encoding remains less explored. An observation is that the robustness advantage of Poisson encoding over direct encoding may benefit from its inherent randomness. Motivated by this, we propose a stochastic quantization encoding method that encodes the input image with controllable randomness adjusted by the quantization scale, thereby improving the adversarial robustness of SNNs. We further show that this method constitutes a general framework that reduces to both Poisson encoding and direct encoding under different choices of the quantization scale. Since it enhances robustness at the input encoding stage, it can be combined with existing training-based defenses for further gains. Experimental results on CIFAR-10 and CIFAR-100 demonstrate the effectiveness of the proposed stochastic quantization encoding method. To sum up, this work highlights the importance of input encoding for the adversarial robustness of SNNs, providing a new perspective for understanding and improving it.",
+    "published": "2026-10-01T12:24:45Z",
+    "updated": "2026-10-01T12:24:45Z",
+    "url": "https://arxiv.org/abs/2610.01558v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.01558v1",
+    "categories": [
+      "cs.NE"
+    ],
+    "analysis": {
+      "summary": "Spiking Neural Networks (SNNs) have attracted increasing attention due to their impressive temporal dynamics, energy efficiency, and brain-inspired mechanisms.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ne"
+      ],
+      "analyzed_at": "2026-10-03T01:16:39.809292+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-10-03T01:15:04.448562+00:00"
+  },
+  {
+    "id": "arxiv:2610.01436v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "A Deterministic and Auditable AI Security Risk Assessment Framework with ATLAS Aligned Executable Rules and Formal Verification",
+    "authors": [
+      "Yixuan Huang",
+      "Basel Halak",
+      "Boojoong Kang"
+    ],
+    "abstract": "Artificial intelligence systems are increasingly deployed in high impact and safety critical settings, yet security assessment remains difficult to reproduce and defend under audit. Existing approaches often rely on narrative checklists or assessor driven scoring, and they lack an explicit, machine evaluable mapping from observable engineering artefacts to stable technique level outcomes. We present an evidence driven AI security assessment framework that operationalises assessment as a deterministic decision function. The framework normalises heterogeneous artefacts into a project independent Control ID taxonomy scored on a bounded four level ordinal scale, compiles technique level predicates from a pinned MITRE ATLAS snapshot via an explicit mitigation to control mapping, and outputs technique indexed feasibility and impact levels with traceable links back to the triggering evidence. We package all normative choices as a versioned assessment policy object to support repeatable reassessment across snapshots. To ensure semantic correctness, we formally verify boundedness, totality, ordered semantic consistency, and monotonicity of the compiled evaluator over the full declared score domain. We evaluate the framework on five public open source AI projects pinned to explicit repository snapshots, quantify before and after changes under a unified hardening intervention, and validate responsiveness to real engineering changes through fork based implementations of Software Bill of Materials (SBOM) generation and Continuous integration (CI) security scanning gates. Results show consistent downward shifts in feasibility profiles under strengthened observable controls, while worst case residual feasibility persists when technique specific core controls remain absent from the evidence scope.",
+    "published": "2026-10-01T10:33:04Z",
+    "updated": "2026-10-01T10:33:04Z",
+    "url": "https://arxiv.org/abs/2610.01436v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.01436v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Artificial intelligence systems are increasingly deployed in high impact and safety critical settings, yet security assessment remains difficult to reproduce and defend under audit.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-10-03T01:16:39.809369+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-10-03T01:15:04.448639+00:00"
+  },
+  {
     "id": "arxiv:2610.01062v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -436,6 +659,49 @@
     "fetched_at": "2026-10-01T01:21:45.164077+00:00"
   },
   {
+    "id": "arxiv:2609.38645v2",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Alignment via Training Against Probes Without Losing Monitorability",
+    "authors": [
+      "Lena Libon",
+      "Alexander Panfilov",
+      "Ben Rank",
+      "Xin Chen",
+      "Jonas Geiping",
+      "Maksym Andriushchenko"
+    ],
+    "abstract": "Models are usually aligned based on their observed outputs, using demonstrations, preference data, or reward signals. These objectives reward responses that look aligned. More capable models may learn to satisfy them without internalizing the intended behavior, for example by faking compliance during training. Such superficial compliance could be harder when the objective is defined on model internals rather than outputs. Therefore, we study probe-guided fine-tuning, using probes that detect undesired properties in model activations as a direct training signal. We evaluate linear and non-linear probes with different numbers of probes per layer across two alignment objectives: harmlessness and honesty. We find that training against probes that do not update during training is an easily exploitable objective, while continuously updated probes substantially reduce harmfulness and improve honesty while preserving utility. Probe-guided fine-tuning achieves better safety-utility trade-offs than DPO and inference-time steering, while being substantially more robust against jailbreak and abliteration attacks. Moreover, the concepts stay linearly encoded after fine-tuning, meaning oversight is not lost by our method. Training against probes thus offers a way to shape what models represent rather than only what they output, which may become increasingly important as models get better at making their outputs look aligned.",
+    "published": "2026-09-29T23:03:54Z",
+    "updated": "2026-10-01T13:38:27Z",
+    "url": "https://arxiv.org/abs/2609.38645v2",
+    "pdf_url": "https://arxiv.org/pdf/2609.38645v2",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ],
+    "analysis": {
+      "summary": "Models are usually aligned based on their observed outputs, using demonstrations, preference data, or reward signals.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-lg",
+        "cs-ai",
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-10-03T01:16:39.809450+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-10-03T01:15:04.449671+00:00"
+  },
+  {
     "id": "arxiv:2609.38415v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -660,7 +926,22 @@
       "cs.CR",
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Tool-using LLM agents remain vulnerable to indirect prompt injection because trusted instructions and untrusted observations share one context, allowing malicious content to steer consequential input-filtering defenses.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-10-03T01:16:39.809529+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-10-01T01:21:45.164819+00:00"
   },
   {
@@ -2512,271 +2793,5 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-09-24T00:37:38.701475+00:00"
-  },
-  {
-    "id": "arxiv:2609.25498v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Universal Fractal Natural Language Decision Map: Real-Time Edge Triage Across Heterogeneous Domains",
-    "authors": [
-      "Volkan Dağlı",
-      "Zerrin Dağlı",
-      "Dağhan Dağlı"
-    ],
-    "abstract": "Deploying Large Language Models for runtime operational triage incurs prohibitive latency (>100-500 ms), high VRAM requirements (>4-8 GB), and excessive energy dissipation. Extending Mandelbrot Fractal Neural Synthesis (Dagli et al., 2026), this paper presents the Universal Fractal Natural Language Decision Map, realized via the werr machine-native edge reflex runtime and the production answerr platform (https://answerr.me). Operating entirely without stored weight tensors (0 Bytes VRAM), the engine synthesizes deterministic decisions---noul (Boolean), choice (categorical), and score (ordinal)---by dynamically modulating 24-byte coordinate seeds along the chaotic boundary of the Mandelbrot set and evaluating 4-quadrant escape dynamics. Drawing inspiration from biological System-One reflex arcs, the engine introduces: (i) an Auto-Seed Router with domain projector Phi_D yielding a +28.8% accuracy gain over linear baselines; (ii) an Information-Theoretic Acoustic Damping Filter grounded in token entropy and phonetic spectral density that insulates against prompt injections (0.0% empirical bypass; 95% Wilson CI: [0.0%, 30.8%]) while pruning escape iterations by 45.8% (accelerating throughput 2.5x to 3.31 ms latency); and (iii) an Organic Dynamic Calibration framework using O(1) Exponential Moving Average (EMA, alpha=0.03) and quadrant phase rotation to eliminate positional bias. Benchmarked on bare-metal infrastructure (api.answerr.me:4431) across 1,150+ verified decisions (3,200+ questions) and ranked World #1 on the independent JevBench suite (81.65%), the framework achieves 92.6% macro-accuracy (95% CI: [90.8%, 94.1%]) with 7.08 ms median CPU latency. We provide an OpenAI-compatible API (/v1/chat/completions) and demonstrate feasibility on microcontrollers and 32-byte EVM smart contracts.",
-    "published": "2026-09-21T23:57:31Z",
-    "updated": "2026-09-21T23:57:31Z",
-    "url": "https://arxiv.org/abs/2609.25498v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.25498v1",
-    "categories": [
-      "cs.NE",
-      "cs.AI",
-      "cs.CL"
-    ],
-    "analysis": {
-      "summary": "Deploying Large Language Models for runtime operational triage incurs prohibitive latency (>100-500 ms), high VRAM requirements (>4-8 GB), and excessive energy dissipation.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ne",
-        "cs-ai",
-        "cs-cl"
-      ],
-      "analyzed_at": "2026-09-24T00:39:15.527202+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-24T00:37:38.701747+00:00"
-  },
-  {
-    "id": "arxiv:2609.25498v2",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Universal Fractal Natural Language Decision Map: Real-Time Edge Triage Across Heterogeneous Domains",
-    "authors": [
-      "Volkan Dağlı",
-      "Zerrin Dağlı",
-      "Dağhan Dağlı"
-    ],
-    "abstract": "Deploying Large Language Models for runtime operational triage incurs prohibitive latency (>100-500 ms), high VRAM requirements (>4-8 GB), and excessive energy dissipation. Extending Mandelbrot Fractal Neural Synthesis (Dagli et al., 2026), this paper presents the Universal Fractal Natural Language Decision Map, realized via the werr machine-native edge reflex runtime and the production answerr platform (https://answerr.me). Operating entirely without stored weight tensors (0 Bytes VRAM), the engine synthesizes deterministic decisions---noul (Boolean), choice (categorical), and score (ordinal)---by dynamically modulating 24-byte coordinate seeds along the chaotic boundary of the Mandelbrot set and evaluating multi-scale escape dynamics. Drawing inspiration from biological System-One reflex arcs, the engine introduces: (i) an Auto-Seed Router with domain projector Phi_D yielding a +28.8% accuracy gain over linear baselines; (ii) an Information-Theoretic Semantic Token Damping Filter (T_desc = 0.045) insulating against prompt injections (0.0% empirical bypass; 95% Wilson CI: [0.0%, 27.8%]) while pruning iterations by 45.8% (accelerating throughput 2.5x to 3.31 ms latency); (iii) a Multi-Scale Harmonic Tripod Fusion; (iv) a Coupled Margin Expansion Operator (Pitchfork Bifurcation Offset); and (v) a Cyclic Z/9Z Modular Resonant Grid Discretization based on the closed sub-ideal {0,3,6} (Lean 4 Mathlib ZMod 9), reducing FLOPs by 68.4%. Evaluated on JevBench (N=231), werr achieves 100.00% TypeSafe compliance and 81.65% calibrated accuracy with 7.08 ms median latency. We provide an OpenAI-compatible API and demonstrate deployment on 32-byte EVM smart contracts via the open-source werracle on-chain oracle (21,438 gas).",
-    "published": "2026-09-21T23:57:31Z",
-    "updated": "2026-09-24T12:54:18Z",
-    "url": "https://arxiv.org/abs/2609.25498v2",
-    "pdf_url": "https://arxiv.org/pdf/2609.25498v2",
-    "categories": [
-      "cs.NE",
-      "cs.AI",
-      "cs.CL"
-    ],
-    "analysis": {
-      "summary": "Deploying Large Language Models for runtime operational triage incurs prohibitive latency (>100-500 ms), high VRAM requirements (>4-8 GB), and excessive energy dissipation.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ne",
-        "cs-ai",
-        "cs-cl"
-      ],
-      "analyzed_at": "2026-09-27T00:45:08.966001+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-26T00:42:32.562948+00:00"
-  },
-  {
-    "id": "arxiv:2609.25469v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "RAG-NAROK: Retrieval-Aware Knowledge Corpus Poisoning in RAG with Source-specific Refutation",
-    "authors": [
-      "Abdullahil Kafi",
-      "Alvi Ataur Khalil"
-    ],
-    "abstract": "Retrieval augmented generation (RAG) systems have emerged as the dominant architecture for grounding large language model (LLM) outputs in verifiable external knowledge, yet their structural reliance on a dynamic retrieval pipeline introduces a largely unexplored class of adversarial vulnerability. Existing knowledge-base poisoning attacks are fundamentally static. Adversarial documents are pre-computed and injected without any awareness of what the victim system will actually retrieve for a given query, leaving the attack blind to the competitive documentary landscape that surrounds its payload in the generator's context window. Unlike traditional static poisoning attacks that are blind to the retrieved context, we introduce RAG-NAROK (Retrieval-Anchored Generation Negation And Response Quality Collapse), a RAG attack framework that adapts to the query text. RAG-NAROK exploits the transparency inherent in RAG pipeline to first extract the legitimate source identities, then generate Anchor-Specific Refutation documents that explicitly name and devalue retrieved sources while leveraging recency and authority biases to steer the text generation toward a target answer. Our results demonstrate that RAG-NAROK significantly outperforms static baselines across diverse domains, revealing a fundamental tension between RAG transparency and AI security.",
-    "published": "2026-09-21T22:53:04Z",
-    "updated": "2026-09-21T22:53:04Z",
-    "url": "https://arxiv.org/abs/2609.25469v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.25469v1",
-    "categories": [
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Retrieval augmented generation (RAG) systems have emerged as the dominant architecture for grounding large language model (LLM) outputs in verifiable external knowledge, yet their structural reliance on a dynamic retrieval pipeline introduces a largely unexplored class of adversarial vulnerability.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-09-24T00:39:15.527303+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-24T00:37:38.701847+00:00"
-  },
-  {
-    "id": "arxiv:2609.25413v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Embedded Assessments for Frontier AI",
-    "authors": [
-      "Jacob Charnock",
-      "Sophie Williams",
-      "Zaheed Kara",
-      "Markus Anderljung",
-      "Alejandro Tlaie Boria",
-      "Stephen Casper",
-      "Anka Reuel",
-      "Jonas Freund"
-    ],
-    "abstract": "Third-party evaluations for frontier AI have mostly tested models through external interfaces before deployment. But the risks from frontier AI models depend on how their developers use and govern them internally. Recently, CEOs of frontier AI companies have committed to hosting embedded assessments. These assessments would give independent evaluators employee-like access to a developer's internal systems, staff, and documentation. First, we argue that this can enable deeper and more flexible assessments of risks that depend on internal systems and practices, while providing access under stronger security controls. Then, we examine seven design questions about scope, information gathering, duration, timing, terms of engagement, disclosure, and escalation. We recommend that frontier AI developers begin hosting embedded assessments now, covering at least three areas central to managing risks from internal AI use: internal agent monitoring, internal agent security controls and permissions, and model alignment. To enable meaningful third-party scrutiny, assessments should be continuous, evaluators should publish detailed reports at least quarterly, and clear escalation mechanisms should be established. These recommendations are intended as a starting point, with further steps needed to realize the full potential of embedded assessments.",
-    "published": "2026-09-21T21:10:39Z",
-    "updated": "2026-09-21T21:10:39Z",
-    "url": "https://arxiv.org/abs/2609.25413v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.25413v1",
-    "categories": [
-      "cs.CY"
-    ],
-    "analysis": {
-      "summary": "Third-party evaluations for frontier AI have mostly tested models through external interfaces before deployment.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cy"
-      ],
-      "analyzed_at": "2026-09-24T00:39:15.527426+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-24T00:37:38.701950+00:00"
-  },
-  {
-    "id": "arxiv:2609.25366v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "From Decorative to Load-Bearing: Task Difficulty Shapes the Causal Role of Chain-of-Thought",
-    "authors": [
-      "Renee Jia",
-      "Di Mu"
-    ],
-    "abstract": "Chain-of-thought (CoT) monitoring is only meaningful if written reasoning causally constrains the answer. We introduce continuation-based causal testing, an ablation-patch intervention that perturbs one reasoning step, truncates the chain, and forces the model to continue from the corrupted prefix. It measures how load-bearing a CoT is for the final answer, a behavioral notion distinct from mechanistic faithfulness. Across Gemma-2-9B-IT, Llama-3.1-8B-Instruct, and DeepSeek-R1-Distill-Qwen-7B on GSM8K, MMLU, and BIG-Bench Hard, CoT load-bearingness tracks model-relative task difficulty: on easy tasks models silently bypass their own reasoning; on hard tasks they follow corrupted steps and propagate errors. A matched 2x2 analysis shows task difficulty dominates perturbation type: error propagation rises 16x from GSM8K to BBH multistep arithmetic, and a variance partition over 28,584 continuations attributes 98.8% of explained deviance to task difficulty versus 0.8% to perturbation type. Reasoning-specific RL suppresses error propagation and compresses the gradient. A four-variant judge-sensitivity analysis and blind two-annotator study (n=500) show the error-propagation vs. non-propagation label is invariant to judge prompt, with perfect inter-annotator agreement (Cohen's kappa = 1.00). This gradient creates a structural problem for CoT-based oversight and AI safety monitoring: where the trace is easy to read it carries little signal, and where it matters errors propagate before a monitor can intervene. Linear probes on hidden states separate silent bypass, self-correction, and error propagation, but additive activation steering provides limited causal control, flipping only about 25% of error-propagation cases at best. Behavioral mode is readable but not reliably controllable.",
-    "published": "2026-09-21T20:06:06Z",
-    "updated": "2026-09-21T20:06:06Z",
-    "url": "https://arxiv.org/abs/2609.25366v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.25366v1",
-    "categories": [
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Chain-of-thought (CoT) monitoring is only meaningful if written reasoning causally constrains the answer.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-09-24T00:39:15.527538+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-24T00:37:38.702054+00:00"
-  },
-  {
-    "id": "arxiv:2609.24801v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Decoding Guardrails: XAI-Guided Perturbation Analysis of Prompt Injection Detection",
-    "authors": [
-      "Fernando Outeda",
-      "Gustavo Betarte",
-      "Juan Diego Campo",
-      "Fiorella Cravero"
-    ],
-    "abstract": "Large language models (LLMs) are increasingly deployed in production systems, raising concerns about their exposure to adversarial manipulation through prompt injection and jailbreak attacks. Classifier-based guardrails, such as Prompt Guard 2, are widely used as a first line of defense against such attacks, but their internal decision logic is largely opaque to both defenders and attackers. This paper presents an exploratory case study that applies explainable artificial intelligence (XAI) techniques to analyze how Prompt Guard 2 distinguishes malicious from benign prompts. We conduct four experiments to probe this question empirically. Guided by Vanilla Gradient and SHAP attributions, we find that Prompt Guard 2's decisions rely on the cumulative contribution of many tokens rather than a few dominant ones, yet saliency-guided synonym substitution and sentence-level paraphrasing can flip its predictions while altering only a moderate fraction of the text, in some cases yielding a successful jailbreak against the underlying LLM. A dataset-scale saliency analysis further shows that undetected injection prompts systematically lack the lexical markers the classifier relies on. We discuss the implications of these findings for the design and evaluation of classifier-based guardrails, and argue that explanation methods intended to support transparency can simultaneously lower the cost of constructing successful adversarial bypasses.",
-    "published": "2026-09-21T16:01:09Z",
-    "updated": "2026-09-21T16:01:09Z",
-    "url": "https://arxiv.org/abs/2609.24801v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.24801v1",
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Large language models (LLMs) are increasingly deployed in production systems, raising concerns about their exposure to adversarial manipulation through prompt injection and jailbreak attacks.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-09-23T00:47:04.585848+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-23T00:45:28.241614+00:00"
-  },
-  {
-    "id": "arxiv:2609.25173v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Attack Success Rate Is Not a Number: On Measurement Validity in Agentic AI Security Evaluation",
-    "authors": [
-      "Chetan Pathade",
-      "Prathamesh Pawar",
-      "Shubham Patil"
-    ],
-    "abstract": "Attack success rate (ASR) is the headline metric in nearly every published evaluation of attacks on, and defenses for, LLM agents. We argue that ASR as currently used is not a single quantity but a family of metrics parameterized by six design choices that papers seldom specify and never hold constant across the literature. We support this with two studies that require no proprietary access. First, a full-text meta-analysis of 259 agentic-security papers posted to arXiv between February 2025 and September 2026 finds that most report neither a variance estimate nor repeated runs for their headline attack metric: 58% (95% CI 44-71) in a hand-coded random sample of 50, 65.3% by automated coding of all 259. Only 30.9% disclose enough about decoding to establish whether their evaluation was even stochastic, and of the 64 papers we confirm use an LLM judge, 29.7% report any agreement check against human labels. Second, an analytical study shows that these omissions are not cosmetic: on a 100-instance benchmark, the minimum difference in ASR detectable at conventional power is 18.2 percentage points, and two defenses whose true ASRs differ by 5 points are ranked in the wrong order by a single-run evaluation roughly 21% of the time. Because several of the six axes shift ASR in a system-dependent way, the resulting incomparability is not a constant offset that cancels in comparison. We conclude that cross-paper ASR comparison is currently unsupported, and propose a ten-item reporting checklist targeted at each failure we measure. Our aim is not to dispute any individual result but to supply the shared measurement contract the field has so far done without.",
-    "published": "2026-09-21T14:16:59Z",
-    "updated": "2026-09-21T14:16:59Z",
-    "url": "https://arxiv.org/abs/2609.25173v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.25173v1",
-    "categories": [
-      "cs.CR"
-    ],
-    "analysis": {
-      "summary": "Attack success rate (ASR) is the headline metric in nearly every published evaluation of attacks on, and defenses for, LLM agents.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr"
-      ],
-      "analyzed_at": "2026-09-24T00:39:15.527638+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-24T00:37:38.702256+00:00"
   }
 ]

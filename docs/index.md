@@ -1,8 +1,122 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-10-02 09:45 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-10-03 09:16 Asia/Shanghai
 
 ## 今日论文
+
+### [The Asymptotics of Language Model Alignment with Memory](https://arxiv.org/abs/2610.01828v1)
+
+**作者**：Haricharan Balasundaram, V. Arvind Rameshwar
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-10-01 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.01828v1)
+
+**摘要总结**：Language model (LM) alignment broadly aims to perturb a given LM $Q$ into an aligned LM $q$ such that i) the outputs produced by $q$ and $Q$ are 'close' in probability, ii) $q$ has a higher expected reward than $Q$.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl` `cs-it`
+
+---
+
+### [Beyond Linear Concepts: Discovering and Aligning Non-Linear Concept Manifolds in Large Language Models](https://arxiv.org/abs/2610.01821v1)
+
+**作者**：Tido Specht, Elias Benedict Krey, Nils Neukirch, Nils Strodthoff
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-10-01 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.01821v1)
+
+**摘要总结**：Understanding information processing in large language models (LLMs) requires dissecting the geometric organization of their internal token representations.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-cl`
+
+---
+
+### [The Innocent Courier: Covert Exfiltration Through Legitimate LLM Web Fetching](https://arxiv.org/abs/2610.01768v1)
+
+**作者**：Alessandro Pegoraro, Daryan Merx, Phillip Rieger, Ahmad-Reza Sadeghi
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-10-01 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.01768v1)
+
+**摘要总结**：With the increasing capabilities of Large-Language-Models (LLMs) and LLM-based agents, users are increasingly using them to solve everyday problems, such as answering e-mails or providing programming support.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-lg`
+
+---
+
+### [Adversarial Robustness in Fake Quantum Simulators](https://arxiv.org/abs/2610.01574v1)
+
+**作者**：Marc Maußner, Volker Reers
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-10-01 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.01574v1)
+
+**摘要总结**：This paper investigates the performance scalability and adversarial robustness of Quantum Machine Learning (QML) models deployed on noise-model-based fake simulators.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`quant-ph`
+
+---
+
+### [Controllable Stochastic Quantization Encoding for Adversarially Robust Spiking Neural Networks](https://arxiv.org/abs/2610.01558v1)
+
+**作者**：Yujia Liu, Peiyu Liu, Yajing Zheng, Tiejun Huang
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-10-01 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.01558v1)
+
+**摘要总结**：Spiking Neural Networks (SNNs) have attracted increasing attention due to their impressive temporal dynamics, energy efficiency, and brain-inspired mechanisms.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ne`
+
+---
+
+### [A Deterministic and Auditable AI Security Risk Assessment Framework with ATLAS Aligned Executable Rules and Formal Verification](https://arxiv.org/abs/2610.01436v1)
+
+**作者**：Yixuan Huang, Basel Halak, Boojoong Kang
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-10-01 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.01436v1)
+
+**摘要总结**：Artificial intelligence systems are increasingly deployed in high impact and safety critical settings, yet security assessment remains difficult to reproduce and defend under audit.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
+
+---
 
 ### [Kernelized Activation Steering](https://arxiv.org/abs/2610.01062v1)
 
@@ -213,6 +327,25 @@
 
 ---
 
+### [Alignment via Training Against Probes Without Losing Monitorability](https://arxiv.org/abs/2609.38645v2)
+
+**作者**：Lena Libon, Alexander Panfilov, Ben Rank, Xin Chen, Jonas Geiping, Maksym Andriushchenko
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-09-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.38645v2)
+
+**摘要总结**：Models are usually aligned based on their observed outputs, using demonstrations, preference data, or reward signals.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-ai` `cs-cr`
+
+---
+
 ### [Evaluating Whether GPT-6 Astra Performs Unsanctioned Supply-Chain Attacks](https://arxiv.org/abs/2609.38415v1)
 
 **作者**：Alexandra Souly, Kai Fronsdal, Abby D'Cruz, Xander Davies, Robert Kirk
@@ -314,13 +447,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.37196v1)
 
-**摘要总结**：暂无
+**摘要总结**：Tool-using LLM agents remain vulnerable to indirect prompt injection because trusted instructions and untrusted observations share one context, allowing malicious content to steer consequential input-filtering defenses.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -1310,136 +1446,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-lg`
-
----
-
-### [Universal Fractal Natural Language Decision Map: Real-Time Edge Triage Across Heterogeneous Domains](https://arxiv.org/abs/2609.25498v1)
-
-**作者**：Volkan Dağlı, Zerrin Dağlı, Dağhan Dağlı
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-21 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.25498v1)
-
-**摘要总结**：Deploying Large Language Models for runtime operational triage incurs prohibitive latency (&gt;100-500 ms), high VRAM requirements (&gt;4-8 GB), and excessive energy dissipation.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ne` `cs-ai` `cs-cl`
-
----
-
-### [Universal Fractal Natural Language Decision Map: Real-Time Edge Triage Across Heterogeneous Domains](https://arxiv.org/abs/2609.25498v2)
-
-**作者**：Volkan Dağlı, Zerrin Dağlı, Dağhan Dağlı
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-21 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.25498v2)
-
-**摘要总结**：Deploying Large Language Models for runtime operational triage incurs prohibitive latency (&gt;100-500 ms), high VRAM requirements (&gt;4-8 GB), and excessive energy dissipation.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ne` `cs-ai` `cs-cl`
-
----
-
-### [RAG-NAROK: Retrieval-Aware Knowledge Corpus Poisoning in RAG with Source-specific Refutation](https://arxiv.org/abs/2609.25469v1)
-
-**作者**：Abdullahil Kafi, Alvi Ataur Khalil
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-21 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.25469v1)
-
-**摘要总结**：Retrieval augmented generation (RAG) systems have emerged as the dominant architecture for grounding large language model (LLM) outputs in verifiable external knowledge, yet their structural reliance on a dynamic retrieval pipeline introduces a largely unexplored class of adversarial vulnerability.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai`
-
----
-
-### [Embedded Assessments for Frontier AI](https://arxiv.org/abs/2609.25413v1)
-
-**作者**：Jacob Charnock, Sophie Williams, Zaheed Kara, Markus Anderljung, Alejandro Tlaie Boria, Stephen Casper, Anka Reuel, Jonas Freund
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-21 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.25413v1)
-
-**摘要总结**：Third-party evaluations for frontier AI have mostly tested models through external interfaces before deployment.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cy`
-
----
-
-### [From Decorative to Load-Bearing: Task Difficulty Shapes the Causal Role of Chain-of-Thought](https://arxiv.org/abs/2609.25366v1)
-
-**作者**：Renee Jia, Di Mu
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-21 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.25366v1)
-
-**摘要总结**：Chain-of-thought (CoT) monitoring is only meaningful if written reasoning causally constrains the answer.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai`
-
----
-
-### [Decoding Guardrails: XAI-Guided Perturbation Analysis of Prompt Injection Detection](https://arxiv.org/abs/2609.24801v1)
-
-**作者**：Fernando Outeda, Gustavo Betarte, Juan Diego Campo, Fiorella Cravero
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-21 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.24801v1)
-
-**摘要总结**：Large language models (LLMs) are increasingly deployed in production systems, raising concerns about their exposure to adversarial manipulation through prompt injection and jailbreak attacks.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai`
-
----
-
-### [Attack Success Rate Is Not a Number: On Measurement Validity in Agentic AI Security Evaluation](https://arxiv.org/abs/2609.25173v1)
-
-**作者**：Chetan Pathade, Prathamesh Pawar, Shubham Patil
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-21 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.25173v1)
-
-**摘要总结**：Attack success rate (ASR) is the headline metric in nearly every published evaluation of attacks on, and defenses for, LLM agents.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr`
