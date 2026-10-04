@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-10-03 09:16 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-10-04 09:45 Asia/Shanghai
 
 ## 今日论文
 
@@ -466,13 +466,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.37054v1)
 
-**摘要总结**：暂无
+**摘要总结**：Ensuring the safety of reasoning large language models (LLMs) across languages is essential for their reliable deployment.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
 
 ---
 
@@ -482,13 +485,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.37040v1)
 
-**摘要总结**：暂无
+**摘要总结**：Natural language autoencoders translate a language model's internal activations into readable explanations.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl` `cs-ai`
 
 ---
 
@@ -498,13 +504,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.38253v1)
 
-**摘要总结**：暂无
+**摘要总结**：Text-to-image (T2I) models have substantially improved in language understanding, in-image text rendering, and visual composition, while their safety mechanisms do not always keep pace with these capabilities.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -533,13 +542,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.38249v1)
 
-**摘要总结**：暂无
+**摘要总结**：Warning: This paper contains harmful and offensive text.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
@@ -549,13 +561,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.38248v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large language model agents can execute commands, create subprocesses, and directly access files and networks, allowing prompt injection or planning errors to become operating-system side effects.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-os`
 
 ---
 
@@ -698,13 +713,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.35659v1)
 
-**摘要总结**：暂无
+**摘要总结**：Autonomous coding agents read untrusted files, run shell commands and spawn sub-agents with little supervision, yet their record is usually an editable log.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ce` `cs-cr`
 
 ---
 
@@ -714,13 +732,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.35544v1)
 
-**摘要总结**：暂无
+**摘要总结**：Reliable refusal of harmful requests is essential to the safe deployment of language models.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl` `cs-ai` `cs-lg`
 
 ---
 
@@ -730,13 +751,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.35350v1)
 
-**摘要总结**：暂无
+**摘要总结**：While Large Reasoning Models (LRMs) excel at complex reasoning, alignment through reinforcement learning often induces systemic overconfidence.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-cl` `cs-lg`
 
 ---
 
