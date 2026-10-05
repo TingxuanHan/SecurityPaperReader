@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-10-04 09:45 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-10-05 09:06 Asia/Shanghai
 
 ## 今日论文
 
@@ -770,13 +770,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.35932v1)
 
-**摘要总结**：暂无
+**摘要总结**：Prompt injection against LLM agents becomes much stronger when the injected instruction is wrapped in the model's own chat template.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-lg`
 
 ---
 
@@ -786,13 +789,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.35291v1)
 
-**摘要总结**：暂无
+**摘要总结**：Modern AI models are aligned through post-training to adapt them to downstream tasks.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-cv`
 
 ---
 
@@ -802,13 +808,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.35269v1)
 
-**摘要总结**：暂无
+**摘要总结**：The rising number of concept unlearning techniques for text-to-image (T2I) diffusion models has produced a fragmented evaluation landscape.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-ai` `cs-cv`
 
 ---
 
@@ -818,13 +827,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.35044v1)
 
-**摘要总结**：暂无
+**摘要总结**：Preference-based alignment methods such as Direct Preference Optimization (DPO) use pairwise preferences labeled by human annotators to fine-tune language models.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-ai`
 
 ---
 
@@ -834,13 +846,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.34686v1)
 
-**摘要总结**：暂无
+**摘要总结**：As large language models increasingly operate as tool-using agents, post-jailbreak safety feedback is often assumed to serve as a reliable safeguard; however, how lingering jailbreak context shapes subsequent agent behavior remains largely unexplored.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
 
 ---
 
@@ -850,13 +865,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.34572v1)
 
-**摘要总结**：暂无
+**摘要总结**：Reasoning language models that can call tools must decide during inference whether to answer unaided or delegate.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-cl` `cs-lg`
 
 ---
 
@@ -866,13 +884,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.34506v1)
 
-**摘要总结**：暂无
+**摘要总结**：Human-model alignment is critical for trustworthy AI-assisted decision-making systems.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
 
 ---
 
@@ -882,13 +903,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.34463v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large language model (LLM)-based agents increasingly rely on external tools and content, exposing them to indirect prompt injection (IPI).
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 

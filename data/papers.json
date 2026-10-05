@@ -1608,7 +1608,23 @@
       "cs.AI",
       "cs.LG"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Prompt injection against LLM agents becomes much stronger when the injected instruction is wrapped in the model's own chat template.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-10-05T01:06:35.089226+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-09-30T01:21:41.080261+00:00"
   },
   {
@@ -1632,7 +1648,22 @@
       "cs.LG",
       "cs.CV"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Modern AI models are aligned through post-training to adapt them to downstream tasks.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-lg",
+        "cs-cv"
+      ],
+      "analyzed_at": "2026-10-05T01:06:35.089370+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-09-30T01:21:41.080397+00:00"
   },
   {
@@ -1660,7 +1691,23 @@
       "cs.AI",
       "cs.CV"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "The rising number of concept unlearning techniques for text-to-image (T2I) diffusion models has produced a fragmented evaluation landscape.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-lg",
+        "cs-ai",
+        "cs-cv"
+      ],
+      "analyzed_at": "2026-10-05T01:06:35.089473+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-09-30T01:21:41.080503+00:00"
   },
   {
@@ -1683,7 +1730,22 @@
       "cs.LG",
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Preference-based alignment methods such as Direct Preference Optimization (DPO) use pairwise preferences labeled by human annotators to fine-tune language models.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-lg",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-10-05T01:06:35.089569+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-09-30T01:21:41.080594+00:00"
   },
   {
@@ -1710,7 +1772,21 @@
     "categories": [
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "As large language models increasingly operate as tool-using agents, post-jailbreak safety feedback is often assumed to serve as a reliable safeguard; however, how lingering jailbreak context shapes subsequent agent behavior remains largely unexplored.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-10-05T01:06:35.089671+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-09-30T01:21:41.080706+00:00"
   },
   {
@@ -1733,7 +1809,23 @@
       "cs.CL",
       "cs.LG"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Reasoning language models that can call tools must decide during inference whether to answer unaided or delegate.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai",
+        "cs-cl",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-10-05T01:06:35.089768+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-09-30T01:21:41.080815+00:00"
   },
   {
@@ -1754,7 +1846,21 @@
     "categories": [
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Human-model alignment is critical for trustworthy AI-assisted decision-making systems.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-10-05T01:06:35.089869+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-09-30T01:21:41.080921+00:00"
   },
   {
@@ -1780,7 +1886,22 @@
       "cs.CR",
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Large language model (LLM)-based agents increasingly rely on external tools and content, exposing them to indirect prompt injection (IPI).",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-10-05T01:06:35.089970+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-09-30T01:21:41.081040+00:00"
   },
   {
