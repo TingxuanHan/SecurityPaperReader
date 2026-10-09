@@ -1,8 +1,122 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-10-08 10:09 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-10-09 10:21 Asia/Shanghai
 
 ## 今日论文
+
+### [Searching for "Harmful Refusal": A Psychometric Audit of an AI Safety Benchmark](https://arxiv.org/abs/2610.12409v1)
+
+**作者**：Christopher M. Stewart, Preston Botter, Natalie Sarabosing, Muye Zhang, Rachel Phinnemore, Shalini Ghosh, Hong Shen, Hoda Heidari
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-10-08 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.12409v1)
+
+**摘要总结**：Safety benchmarks typically report one overall score for a suite of datasets, each of which may target one or more safety-related attributes, so models with similar overall scores can have very different attribute profiles.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
+
+---
+
+### [One Word Opens the Gate: The Option-Channel Attack on Typed Decision Models as Agent Guardrails](https://arxiv.org/abs/2610.12292v1)
+
+**作者**：Seyedarmin Azizi, Erfan Baghaei Potraghloo, Massoud Pedram
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-10-08 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.12292v1)
+
+**摘要总结**：A typed decision model reads a piece of text and returns a probability over caller-defined options, each with a short written definition, generating no text.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
+
+---
+
+### [LTBD: Learnable Trust-Boundary Delimiters for Prompt Injection Defense](https://arxiv.org/abs/2610.11634v1)
+
+**作者**：Luman Zhao, Minghui Xu, Yue Zhang, Yijun Yang
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-10-08 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.11634v1)
+
+**摘要总结**：Large language models (LLMs) perform remarkably well on complex tasks, yet remain highly vulnerable to prompt injection attacks, where malicious instructions embedded in external data can override user intent.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
+
+---
+
+### [Distillation for Incrimination and Distillation for Capabilities](https://arxiv.org/abs/2610.11012v1)
+
+**作者**：Sebastian Prasanna, Jacqueline Tay, Alek Westover
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-10-07 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.11012v1)
+
+**摘要总结**：Powerful misaligned AI models might recognize alignment evaluations and strategically behave well on them, rendering direct audits uninformative.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
+
+---
+
+### [BRANCH: Bypassing Multi-Scanner AI Guardrails](https://arxiv.org/abs/2610.10742v1)
+
+**作者**：William Hackett, Peter Garraghan
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-10-07 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.10742v1)
+
+**摘要总结**：AI systems increasingly rely on Large Language Models (LLMs) as core reasoning engines, making them targets for prompt injection and jailbreaks.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
+
+---
+
+### [Beyond the Ergodic Wall: A Discrete Geometric Physics Sandbox for Analysing AI Scaling Limits and Complexity Collapse](https://arxiv.org/abs/2610.10651v1)
+
+**作者**：Simon Richard Daniel
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-10-07 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.10651v1)
+
+**摘要总结**：This paper exposes the ergodic ceiling and thermodynamic inefficiency of current deep learning, which converges to a statistical average of historic human knowledge.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-ai`
+
+---
 
 ### [AI Safety Considerations for Agents With Limited Time to Act](https://arxiv.org/abs/2610.10285v1)
 
@@ -99,6 +213,25 @@
 
 ---
 
+### [Defensive Sufficiency in a Stackelberg Model of AI Security](https://arxiv.org/abs/2610.09892v2)
+
+**作者**：Subhabrata Majumdar, Rajlakshmi Chavan
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-10-07 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.09892v2)
+
+**摘要总结**：Feedback from automated testing, human red teaming, and incident response can strengthen an AI system's defenses when discovered failures lead to effective repairs.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
+
+---
+
 ### [A Scoping Review and Experimental Study on Reinforcement Learning from Human Feedback for Human-Robot Collaboration](https://arxiv.org/abs/2610.09891v1)
 
 **作者**：Alexandra Coroiu, Andrea Vogt, Viktor Werbilo, Andreas Poppele, Johann Christensen, Sven Hallerbach
@@ -115,6 +248,25 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-hc` `cs-ai` `cs-ro`
+
+---
+
+### [Safe at One Loop, Risky at Another: Aligning Safety Across Recurrent Depths in Looped Language Models](https://arxiv.org/abs/2610.10625v1)
+
+**作者**：Yi Wang, Xiuyuan Qi, Dongqi Han, Dongsheng Li, Wenjie Wang
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-10-07 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.10625v1)
+
+**摘要总结**：Looped Language Models (LoopLMs) provide a parameter efficient approach to scaling model capabilities through repeated use of shared parameters across recurrent steps.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-lg`
 
 ---
 
@@ -1300,158 +1452,6 @@
 **来源**：arxiv · AI安全 · **发布日期**：2026-09-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.36956v1)
 
 **摘要总结**：Manipulating next-token probabilities during generation can bypass the safety alignment of large language models.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai`
-
----
-
-### [SURE: Framework for Safety to Construct Trustworthy AI](https://arxiv.org/abs/2609.38249v1)
-
-**作者**：Soeun Han, Jisoo Lee, Jeongyong Shim, Eunkyeong Lee, Eunmi Kim
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.38249v1)
-
-**摘要总结**：Warning: This paper contains harmful and offensive text.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr`
-
----
-
-### [ContractWarden: Kernel-Enforced Damage Boundaries for AI Agents via Human-Authorized Contracts](https://arxiv.org/abs/2609.38248v1)
-
-**作者**：Dongxu Cui, Zhichao Gu, Ping Zheng, Wenshuai Xi, Simeng Han, Yong Liao
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.38248v1)
-
-**摘要总结**：Large language model agents can execute commands, create subprocesses, and directly access files and networks, allowing prompt injection or planning errors to become operating-system side effects.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-os`
-
----
-
-### [Does the Unsafe Gradient Survive a Conversation? On the Fragility of Gradient-Based Jailbreak Detection in Multi-Turn Dialogue](https://arxiv.org/abs/2609.36849v1)
-
-**作者**：Omar Sheta, Rinku Deuja, Hadi Masoudi, Minghong Fang
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.36849v1)
-
-**摘要总结**：Safety-aligned language models are commonly deployed as multi-turn assistants, which lets adversaries spread unsafe intent across several user turns instead of a single prompt.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai` `cs-ir` `cs-lg`
-
----
-
-### [pikit: A Composable Toolkit for Indirect Prompt Injection Research and Evaluation](https://arxiv.org/abs/2609.36817v1)
-
-**作者**：Zonghao Ying, Xiangfan Wu, Bo Yang, Huiyu Wu, Xing Zheng, Huangsheng Cheng, Xiaorong Shi, Jing Guo
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.36817v1)
-
-**摘要总结**：Indirect prompt injection embeds malicious instructions within external content retrieved by LLM-based agents, altering target behavior without user authorization.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr`
-
----
-
-### [Constitutional adapters: Inference-time interventions for misalignment and misuse](https://arxiv.org/abs/2609.36657v1)
-
-**作者**：Adam S. Lowet, Mark Kurzeja
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.36657v1)
-
-**摘要总结**：Training models to act in accordance with an explicitly defined set of principles, or "constitution," has shown promise as a robust and transparent mechanism for AI alignment.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-lg` `cs-ai`
-
----
-
-### [Self-Evolving Defense: Continual Security Policy Learning for LLM Agents](https://arxiv.org/abs/2609.36603v1)
-
-**作者**：Minh Nhat Le, Nisarga Gondi, Yibo Peng, Ronghao Ni, Limin Jia, Beidi Chen, Haizhong Zheng
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.36603v1)
-
-**摘要总结**：Large language models (LLMs) increasingly power agents that access sensitive information, use external tools, and modify software repositories.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr`
-
----
-
-### [Divide and Inject: Can Agents Reconstruct an Indirect Prompt Injection from Fragments?](https://arxiv.org/abs/2609.36576v1)
-
-**作者**：Michael Lee, Zhipeng Wei, Yue Dong, N. Benjamin Erichson
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.36576v1)
-
-**摘要总结**：Agentic systems are now being widely used to orchestrate tools and reason over long contexts.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai`
-
----
-
-### [CounterSteer: Suppressing Indirect Prompt Injection with Activation Steering](https://arxiv.org/abs/2609.36570v1)
-
-**作者**：Mark Russinovich
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.36570v1)
-
-**摘要总结**：Indirect prompt injection makes an LLM agent treat untrusted retrieved text as instructions.
 
 **创新点**
 
