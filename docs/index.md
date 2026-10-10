@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-10-09 10:21 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-10-10 09:50 Asia/Shanghai
 
 ## 今日论文
 
@@ -314,13 +314,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-07 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.09264v1)
 
-**摘要总结**：暂无
+**摘要总结**：Modern agentic coding frameworks increasingly rely on community-shared rule files (e.g., AGENTS.md or .cursorrules) to guide autonomous code generation, yet the security risks of this pipeline remain underexplored.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -330,13 +333,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-06 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.09167v1)
 
-**摘要总结**：暂无
+**摘要总结**：Jailbreak defenses for large language models are usually calibrated on a fixed set of known attack methods.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`stat-ap`
 
 ---
 
@@ -346,13 +352,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-06 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.08951v1)
 
-**摘要总结**：暂无
+**摘要总结**：LLM agents retrieve untrusted content and act through tools, creating indirect prompt-injection risks that can cause unauthorized actions or persistent state changes.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
@@ -362,13 +371,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-06 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.08773v1)
 
-**摘要总结**：暂无
+**摘要总结**：Web agents complete user requests by reading and acting on pages that third parties write, so an instruction planted on a page can redirect the agent away from the user's goal.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl` `cs-ai` `cs-lg`
 
 ---
 
@@ -378,13 +390,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-06 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.08678v1)
 
-**摘要总结**：暂无
+**摘要总结**：Speculative decoding accelerates inference for a large language model (LLM), referred to as the \emph{target model}, by first using a smaller model, referred to as the \emph{draft model}, to generate candidate tokens and then verifying them with the target model for acceptance or rejection.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-lg`
 
 ---
 
@@ -394,13 +409,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-06 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.08554v1)
 
-**摘要总结**：暂无
+**摘要总结**：While HCI increasingly examines AI-safety for youth, the literature lacks a comprehensive view of what risks have been identified, how they are addressed, and whether proposed protections work in-practice.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-hc` `cs-ai` `cs-lg`
 
 ---
 
@@ -562,13 +580,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.06122v1)
 
-**摘要总结**：暂无
+**摘要总结**：Embodied agents powered by large language models and vision-language models are increasingly deployed in physical environments, but jailbreak attacks can induce these agents to perform physically harmful actions.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
 
 ---
 
@@ -578,13 +599,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.06093v1)
 
-**摘要总结**：暂无
+**摘要总结**：The robustness of Personally Identifiable Information (PII) protection in Large Language Models (LLMs) is a critical concern, yet the risks associated with cross-lingual data extraction remain under-explored.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl` `cs-ai` `cs-cr`
 
 ---
 
