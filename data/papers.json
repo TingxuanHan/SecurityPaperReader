@@ -1,5 +1,43 @@
 [
   {
+    "id": "arxiv:2610.13078v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Attention Sees, MLP Refuses: Tracing the Attention-to-MLP Safety Pathway in LLMs",
+    "authors": [
+      "Zixuan Weng",
+      "Haoqi He",
+      "Weifei Jin",
+      "Yue Huang",
+      "Yang Bai"
+    ],
+    "abstract": "Safety-aligned large language models (LLMs) remain vulnerable to jailbreaks and can over-refuse benign requests. Understanding these failures requires distinguishing harmfulness recognition from the computation that writes refusal. We reframe this as a pathway question and make it measurable on residual-stream updates in decoder-only Transformers, separating the harmfulness information a module update exposes from the change it produces in readable refusal evidence. Across 18 Base-Instruct pairs spanning Qwen, Llama, and Gemma, harmfulness is decoded more readily from attention updates, particularly in early layers, whereas MLP updates contribute more strongly to harm-selective refusal writing in aligned models. Post-training strengthens MLP refusal writing in all 18 pairs without systematically improving harmfulness decodability, while positive MLP writing becomes more concentrated in deeper layers after post-training. Across six reasoning-enabled models, harmfulness remains decodable during reasoning while strong refusal writing concentrates at answer onset, a pattern that persists with reasoning disabled. Causal interventions further support this pathway: resetting downstream MLP updates to their clean values substantially reduces the refusal shift caused by upstream attention interventions. Building on these findings, we introduce Sentinel, which combines an attention-derived perception score P with an MLP-derived decision score D. Their joint profiles characterize jailbreaks and over-refusals, and conditional routing with both signals achieves a lower aggregate error rate than single-signal routing and evaluated fixed reminders across eight models.",
+    "published": "2026-10-09T06:34:26Z",
+    "updated": "2026-10-09T06:34:26Z",
+    "url": "https://arxiv.org/abs/2610.13078v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.13078v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Safety-aligned large language models (LLMs) remain vulnerable to jailbreaks and can over-refuse benign requests.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-10-12T01:27:54.552202+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-10-12T01:26:18.218358+00:00"
+  },
+  {
     "id": "arxiv:2610.12409v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -114,6 +152,51 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-10-09T02:19:30.852591+00:00"
+  },
+  {
+    "id": "arxiv:2610.12524v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "An Exploration of Attacks on AI Agent Systems",
+    "authors": [
+      "Cathleen Qiao",
+      "Layah Vigneaud",
+      "Chloe Brandon",
+      "Max Cabilangan",
+      "Xiyuan Cao",
+      "Isaac Khabra",
+      "Reva Mahajan",
+      "Lena Nguyen",
+      "Kyle Pak",
+      "Anagh Pandya",
+      "Roshni Dave",
+      "Peiran Wang"
+    ],
+    "abstract": "As autonomous AI agents become more integrated into sensitive domains, it is crucial that single and multi-agent AI systems are secured. This paper investigates how prompt injection attacks can exploit both direct user inputs and inter?agent communication to leak sensitive information and trigger cross-agent infections. While our tests mostly highlight key vulnerabilities in single-agent systems, we also extend these attacks to multi-agent frameworks, investigating how weaknesses can propagate across agents. Our findings emphasize the need for more robust defenses as AI agents become more commonly embedded in real-world workflows.",
+    "published": "2026-10-08T02:29:20Z",
+    "updated": "2026-10-08T02:29:20Z",
+    "url": "https://arxiv.org/abs/2610.12524v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.12524v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "analysis": {
+      "summary": "As autonomous AI agents become more integrated into sensitive domains, it is crucial that single and multi-agent AI systems are secured.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-10-12T01:27:54.552272+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-10-12T01:26:18.218810+00:00"
   },
   {
     "id": "arxiv:2610.11012v1",
@@ -1932,7 +2015,21 @@
     "categories": [
       "cs.IR"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "LLM-driven sequential recommendation formulates next-item prediction as autoregressive generation conditioned on natural-language prompts.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ir"
+      ],
+      "analyzed_at": "2026-10-12T01:27:54.552349+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-10-06T02:21:23.880821+00:00"
   },
   {
@@ -1959,7 +2056,22 @@
       "cs.CR",
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Advances in large language models (LLMs) have enabled AI-driven code generation from natural language specifications, introducing new attack surfaces for injecting vulnerabilities into software.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-10-12T01:27:54.552403+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-10-06T02:21:23.880923+00:00"
   },
   {
@@ -1981,7 +2093,21 @@
     "categories": [
       "cs.CR"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "AI services increasingly rely on black-box security guardrails, yet privacy-preserving model auditing regimes often cannot measure how well these systems perform in both a human eyes-off production setting, which disallows human inspection of user input, and a machine eyes-off setting, which disallows model inspection of such input.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-10-12T01:27:54.552461+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-10-06T02:21:23.881024+00:00"
   },
   {
@@ -2004,7 +2130,22 @@
       "cs.CV",
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "A targeted adversarial perturbation can drive a vision-language model's (VLM's) teacher-forced training loss for a fixed target caption to near zero, yet the same model, allowed to generate freely, produces the original, correct description with no trace of the target.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cv",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-10-12T01:27:54.552519+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-10-06T02:21:23.881218+00:00"
   },
   {
@@ -3035,91 +3176,5 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-10-01T01:21:45.165196+00:00"
-  },
-  {
-    "id": "arxiv:2609.38253v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "CollageAttack: Exploiting Cross-Modal Alignment Flaws in T2I Models through Spatial Text Composition",
-    "authors": [
-      "Zhiyi Mou",
-      "Yao Lu",
-      "Wangze Ni",
-      "Di Hong",
-      "Dakun Shen",
-      "Haoyang Li",
-      "Chen Jason Zhang",
-      "Alexander Zhou",
-      "Kui Ren"
-    ],
-    "abstract": "Text-to-image (T2I) models have substantially improved in language understanding, in-image text rendering, and visual composition, while their safety mechanisms do not always keep pace with these capabilities. This creates a cross-modal attack surface in which harmful semantics can remain inconspicuous in a serialized prompt yet emerge through image-level composition. We propose CollageAttack, an automated single-prompt black-box jailbreak that shifts semantic assembly into the image plane by combining context-relevant scenes, scene-grounded textual carriers, and spatially distributed text fragments. Experiments across multiple open-weight and commercial T2I models show that CollageAttack achieves attack success rates of up to 86.0%, outperforming the strongest baseline on the same model by 18.5 percentage points, while consistently producing more harmful outputs and preserving the source intent. We further find that distributed textual fragments can reconstruct the intended semantics after generation, with visual composition producing stronger communicative impact than text alone. These results reveal a cross-modal safety gap in which harmful meaning emerges from the composition of individually less explicit elements.",
-    "published": "2026-09-29T08:23:01Z",
-    "updated": "2026-09-29T08:23:01Z",
-    "url": "https://arxiv.org/abs/2609.38253v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.38253v1",
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Text-to-image (T2I) models have substantially improved in language understanding, in-image text rendering, and visual composition, while their safety mechanisms do not always keep pace with these capabilities.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-10-04T01:45:05.387998+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-10-01T01:21:45.165313+00:00"
-  },
-  {
-    "id": "arxiv:2609.36956v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Controlled Decoding Attacks on Black-Box LLMs",
-    "authors": [
-      "Jesson Wang",
-      "Shawn Li",
-      "Wei Yang",
-      "Franck Dernoncourt",
-      "Ryan A. Rossi",
-      "Charith Peris",
-      "Yue Zhao"
-    ],
-    "abstract": "Manipulating next-token probabilities during generation can bypass the safety alignment of large language models. Existing approaches, however, rely on access to model weights or numerical token probabilities and therefore do not apply to interfaces that return only sampled text. Reconstructing probabilities from sampled outputs offers a possible alternative, but finite sampling produces sparse and noisy estimates, while repeating this process at every generation step incurs substantial query costs. Our empirical observations suggest that large distributional changes along successful jailbreak trajectories are concentrated at a small subset of positions, motivating selective control. We introduce \\method{}, a framework for jailbreaking through text-only continuation interfaces that permit repeated sampling and assistant-prefix continuation. Sample-Based Distribution Reconstruction combines sampled outputs with a prior over unobserved actions to obtain a usable control signal. Risk-Gated Residual Control uses the evolving response prefix to decide when to reconstruct and modify the distribution, concentrating sampling costs at selected positions. Speculative Multi-Token Execution further amortizes target calls by verifying and accepting draft prefixes that require no intervention. Across four target endpoints and three benchmarks, \\method{} achieves the highest mean score most comparisons against baselines.",
-    "published": "2026-09-29T07:58:49Z",
-    "updated": "2026-09-29T07:58:49Z",
-    "url": "https://arxiv.org/abs/2609.36956v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.36956v1",
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Manipulating next-token probabilities during generation can bypass the safety alignment of large language models.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-09-30T01:23:16.644029+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-09-30T01:21:41.078944+00:00"
   }
 ]

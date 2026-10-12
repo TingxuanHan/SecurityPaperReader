@@ -1,8 +1,27 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-10-11 09:08 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-10-12 09:27 Asia/Shanghai
 
 ## 今日论文
+
+### [Attention Sees, MLP Refuses: Tracing the Attention-to-MLP Safety Pathway in LLMs](https://arxiv.org/abs/2610.13078v1)
+
+**作者**：Zixuan Weng, Haoqi He, Weifei Jin, Yue Huang, Yang Bai
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-10-09 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.13078v1)
+
+**摘要总结**：Safety-aligned large language models (LLMs) remain vulnerable to jailbreaks and can over-refuse benign requests.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
+
+---
 
 ### [Searching for "Harmful Refusal": A Psychometric Audit of an AI Safety Benchmark](https://arxiv.org/abs/2610.12409v1)
 
@@ -58,6 +77,25 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-cr` `cs-ai`
+
+---
+
+### [An Exploration of Attacks on AI Agent Systems](https://arxiv.org/abs/2610.12524v1)
+
+**作者**：Cathleen Qiao, Layah Vigneaud, Chloe Brandon, Max Cabilangan, Xiyuan Cao, Isaac Khabra, Reva Mahajan, Lena Nguyen, et al.
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-10-08 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.12524v1)
+
+**摘要总结**：As autonomous AI agents become more integrated into sensitive domains, it is crucial that single and multi-agent AI systems are secured.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
@@ -922,13 +960,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-02 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.03923v1)
 
-**摘要总结**：暂无
+**摘要总结**：LLM-driven sequential recommendation formulates next-item prediction as autoregressive generation conditioned on natural-language prompts.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ir`
 
 ---
 
@@ -938,13 +979,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-02 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.03857v1)
 
-**摘要总结**：暂无
+**摘要总结**：Advances in large language models (LLMs) have enabled AI-driven code generation from natural language specifications, introducing new attack surfaces for injecting vulnerabilities into software.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -954,13 +998,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-02 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.03470v1)
 
-**摘要总结**：暂无
+**摘要总结**：AI services increasingly rely on black-box security guardrails, yet privacy-preserving model auditing regimes often cannot measure how well these systems perform in both a human eyes-off production setting, which disallows human inspection of user input, and a machine eyes-off setting, which disallows model inspection of such input.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
@@ -970,13 +1017,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-02 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.03445v1)
 
-**摘要总结**：暂无
+**摘要总结**：A targeted adversarial perturbation can drive a vision-language model's (VLM's) teacher-forced training loss for a fixed target caption to near zero, yet the same model, allowed to generate freely, produces the original, correct description with no trace of the target.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv` `cs-ai`
 
 ---
 
@@ -1471,41 +1521,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-cl` `cs-ai`
-
----
-
-### [CollageAttack: Exploiting Cross-Modal Alignment Flaws in T2I Models through Spatial Text Composition](https://arxiv.org/abs/2609.38253v1)
-
-**作者**：Zhiyi Mou, Yao Lu, Wangze Ni, Di Hong, Dakun Shen, Haoyang Li, Chen Jason Zhang, Alexander Zhou, et al.
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.38253v1)
-
-**摘要总结**：Text-to-image (T2I) models have substantially improved in language understanding, in-image text rendering, and visual composition, while their safety mechanisms do not always keep pace with these capabilities.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai`
-
----
-
-### [Controlled Decoding Attacks on Black-Box LLMs](https://arxiv.org/abs/2609.36956v1)
-
-**作者**：Jesson Wang, Shawn Li, Wei Yang, Franck Dernoncourt, Ryan A. Rossi, Charith Peris, Yue Zhao
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.36956v1)
-
-**摘要总结**：Manipulating next-token probabilities during generation can bypass the safety alignment of large language models.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai`
