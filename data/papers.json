@@ -1,5 +1,46 @@
 [
   {
+    "id": "arxiv:2610.13944v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "InstantFusion: A Shared Latent Interface for Heterogeneous Image Generators",
+    "authors": [
+      "Xuanlang Dai",
+      "Jiazi Bu",
+      "Yujie Zhou",
+      "Yuhong Liu",
+      "Beichen Zhang",
+      "Penghui Yang",
+      "Ziyu Liu",
+      "Yuhang Zang"
+    ],
+    "abstract": "Diffusion/flow models have emerged as the de facto paradigms for image generation, giving rise to a diverse family of modern generators with increasingly heterogeneous architectures and representations. Despite their remarkable generation capabilities, the cross-model alignment of latent representations and the consistency of their underlying denoising dynamics remain underexplored. In this work, we uncover an intriguing cross-model compatibility: independently trained generators exhibit similar latent spatial organization, while directly handing off intermediate states between unaligned models can still preserve coarse visual content. Motivated by these observations, we propose InstantFusion, a lightweight shared latent interface that connects the denoising trajectories of heterogeneous image generators. Specifically, to enable flexible cross-model state translation, model-specific Latent AutoEncoders (LAEs) are introduced to project intermediate states from different generators into a shared latent space and decode them into the latent space of a target generator. This shared space is constrained by two complementary objectives: aligning intermediate states derived from the same image at matched noise levels and synchronizing their corresponding local denoising velocities. Once trained, InstantFusion allows denoising to seamlessly transition across frozen generators without requiring a dedicated mapping for every model pair. The versatility of InstantFusion is demonstrated across acceleration, multi-preference composition, cross-architecture on-policy distillation, and cross-model composition, achieving competitive performance across these diverse settings.",
+    "published": "2026-10-09T17:59:04Z",
+    "updated": "2026-10-09T17:59:04Z",
+    "url": "https://arxiv.org/abs/2610.13944v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.13944v1",
+    "categories": [
+      "cs.CV"
+    ],
+    "analysis": {
+      "summary": "Diffusion/flow models have emerged as the de facto paradigms for image generation, giving rise to a diverse family of modern generators with increasingly heterogeneous architectures and representations.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cv"
+      ],
+      "analyzed_at": "2026-10-13T03:06:35.041011+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-10-13T03:04:58.332794+00:00"
+  },
+  {
     "id": "arxiv:2610.13078v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -3134,47 +3175,5 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-10-01T01:21:45.165074+00:00"
-  },
-  {
-    "id": "arxiv:2609.37040v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Selecting The Most Informative Tokens in Natural Language Autoencoders",
-    "authors": [
-      "Federico Torrielli",
-      "Gianluca Barmina",
-      "Andrea Blasi Núñez",
-      "Amon Rapp",
-      "Luigi Di Caro",
-      "Peter Schneider-Kamp",
-      "Lukas Galke Poech"
-    ],
-    "abstract": "Natural language autoencoders translate a language model's internal activations into readable explanations. Explaining every token position is costly. Which positions should an auditor inspect to understand a potential threat? We study this question across $4.7$ million explanations on prompt injection and concealment. We compare signals from model computation with a ranker trained only on chat structure. Chat structure usually selects more relevant explanations than the computational signals, without requiring a model forward pass for position selection. On three of four datasets, explaining just $5\\%$ of positions retains nearly all of the success rate from explaining every position, where success means obtaining an explanation about the threat. The benefit varies with the audit task. We also show that pretrained verbalizers recover words that models have learned to conceal through fine-tuning, without additional verbalizer training. These results identify where auditors can concentrate explanation generation and show that useful explanations can extend beyond the model a verbalizer was trained to describe.",
-    "published": "2026-09-29T08:50:02Z",
-    "updated": "2026-09-29T08:50:02Z",
-    "url": "https://arxiv.org/abs/2609.37040v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.37040v1",
-    "categories": [
-      "cs.CL",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Natural language autoencoders translate a language model's internal activations into readable explanations.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cl",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-10-04T01:45:05.387923+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-10-01T01:21:45.165196+00:00"
   }
 ]

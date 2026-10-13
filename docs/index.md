@@ -1,8 +1,27 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-10-12 09:27 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-10-13 11:06 Asia/Shanghai
 
 ## 今日论文
+
+### [InstantFusion: A Shared Latent Interface for Heterogeneous Image Generators](https://arxiv.org/abs/2610.13944v1)
+
+**作者**：Xuanlang Dai, Jiazi Bu, Yujie Zhou, Yuhong Liu, Beichen Zhang, Penghui Yang, Ziyu Liu, Yuhang Zang
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-10-09 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.13944v1)
+
+**摘要总结**：Diffusion/flow models have emerged as the de facto paradigms for image generation, giving rise to a diverse family of modern generators with increasingly heterogeneous architectures and representations.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv`
+
+---
 
 ### [Attention Sees, MLP Refuses: Tracing the Attention-to-MLP Safety Pathway in LLMs](https://arxiv.org/abs/2610.13078v1)
 
@@ -1502,22 +1521,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-ai`
-
----
-
-### [Selecting The Most Informative Tokens in Natural Language Autoencoders](https://arxiv.org/abs/2609.37040v1)
-
-**作者**：Federico Torrielli, Gianluca Barmina, Andrea Blasi Núñez, Amon Rapp, Luigi Di Caro, Peter Schneider-Kamp, Lukas Galke Poech
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-09-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2609.37040v1)
-
-**摘要总结**：Natural language autoencoders translate a language model's internal activations into readable explanations.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cl` `cs-ai`
