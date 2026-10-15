@@ -1,5 +1,527 @@
 [
   {
+    "id": "arxiv:2610.18609v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "DPOison-VL: Clean Preference Poisoning in Vision-Language Direct Preference Optimization",
+    "authors": [
+      "Chengtao Jian",
+      "Kai Yang"
+    ],
+    "abstract": "Direct Preference Optimization (DPO) has become a widely adopted approach for aligning vision-language models (VLMs), yet the security of multimodal preference data remains largely unexplored. Existing preference poisoning attacks either corrupt explicit supervision signals or require visible triggers, making them detectable under human inspection. We introduce DPOison-VL, the first clean preference poisoning attack against VLM-DPO, which manipulates model alignment solely through imperceptible perturbations on a small fraction of training images, while leaving all prompts, responses, and preference annotations semantically intact. We formulate poison construction as a bilevel optimization and derive a gradient alignment surrogate that efficiently steers image perturbations toward the attacker-specified preference. We further introduce a preference displacement score for principled poison selection with provable first-order optimality under a fixed poison budget, and derive a sufficient condition for preference inversion. Extensive experiments across diverse attack tasks, different VLM architectures and scales, and baseline comparisons demonstrate that DPOison-VL achieves up to 98\\% ASR with only 2\\% poisoned data and exhibits cross-model transferability, while largely preserving clean accuracy and general utility. Our findings reveal a critical vulnerability in VLM-DPO, where imperceptible image perturbations in preference training data can silently redirect alignment.",
+    "published": "2026-10-13T15:58:58Z",
+    "updated": "2026-10-13T15:58:58Z",
+    "url": "https://arxiv.org/abs/2610.18609v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.18609v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CV"
+    ],
+    "analysis": {
+      "summary": "Direct Preference Optimization (DPO) has become a widely adopted approach for aligning vision-language models (VLMs), yet the security of multimodal preference data remains largely unexplored.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai",
+        "cs-cv"
+      ],
+      "analyzed_at": "2026-10-15T00:39:33.010318+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-10-15T00:37:57.127093+00:00"
+  },
+  {
+    "id": "arxiv:2610.18508v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Towards Safe Autonomy for Computer Use",
+    "authors": [
+      "Dominik Seip",
+      "Bartol Markovinović",
+      "Matthias Hein"
+    ],
+    "abstract": "The safety of LLM-based agents currently rests on alignment training and safety classifiers, neither of which can rule out that a sophisticated indirect prompt injection (IPI) goes through and causes significant harm. Recent work therefore builds agents with information-flow guarantees that rely on structured tool interfaces to interact with the environment. Computer Use Agents (CUAs) act visually on the computer screen, which does not provide a boundary between trusted first-party interfaces and untrusted, potentially attacker-authored content. Actions are equally ambiguous: a click may land on an application toolbar or a button controlled by an attacker. Treating the user as the source of trust and confirming each sensitive decision produces confirmation fatigue, with the risk of missing harmful actions. We introduce SA-CUA, a dual-LLM framework that generates a reliable trust boundary for CUAs by deriving conservative deterministic rules from the accessibility tree for unmasking trusted regions from the privileged LLM's screenshot, keeping trusted and untrusted content separated. Human interaction is only required for proper task specification in the beginning. During the task a robust endorsement channel allows values to pass from the untrusted to the trusted domain by verifying information via trusted channels. This allows the agent to autonomously handle tasks involving untrusted information. SA-CUA maintains much higher utility than CaMeL-CUA while keeping the attack success rate at zero.",
+    "published": "2026-10-13T15:03:33Z",
+    "updated": "2026-10-13T15:03:33Z",
+    "url": "https://arxiv.org/abs/2610.18508v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.18508v1",
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "analysis": {
+      "summary": "The safety of LLM-based agents currently rests on alignment training and safety classifiers, neither of which can rule out that a sophisticated indirect prompt injection (IPI) goes through and causes significant harm.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-10-15T00:39:33.010417+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-10-15T00:37:57.127202+00:00"
+  },
+  {
+    "id": "arxiv:2610.18457v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Kairos: Transactional Security Enforcement at the System Boundary for LLM Agents",
+    "authors": [
+      "Kristoffer Hempel",
+      "Nils Loose",
+      "Lorenzo Cavallaro",
+      "Thomas Eisenbarth"
+    ],
+    "abstract": "Large language model (LLM) agents are becoming an integral part of the software development lifecycle, and the capabilities granted to them allow an agent to act with the user's authority on any resource it can access. The reach that gives an agent its utility is equally available to an attacker who can steer it. Anything an agent ingests can carry an injected instruction, and since the model does not reliably distinguish instructions from data, indirect prompt injection should be mitigated by mediating the effects the agent produces. Such mediation faces a structural difficulty. Legitimate work and the first step of an attack often look alike when an individual action is observed, and what separates them lies later in the trace, so a monitor limited to allow and deny is forced to decide before the evidence accumulates. We present Kairos, a reference monitor at the isolation boundary of an unmodified, opaque agent, where a tool call, a shell command, and a script the agent writes all cross the boundary as the same file and network operations, so that confinement holds regardless of the agent's behavior. A declarative policy that states which sources are trusted decides most effects deterministically and defers the rest, which are held while the agent continues speculatively. A decision oracle with bounded authority, such as a language model or a human, releases or refuses each deferred effect on the trace. Across three benchmarks and three agent models, Kairos outperforms existing defenses in the trade-off between attack success and utility. In particular, on AgentDojo, it reduces attack success from 47.0\\% to 2.7\\% while its benign utility stays at the level of the undefended agent.",
+    "published": "2026-10-13T14:24:26Z",
+    "updated": "2026-10-13T14:24:26Z",
+    "url": "https://arxiv.org/abs/2610.18457v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.18457v1",
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "analysis": {
+      "summary": "Large language model (LLM) agents are becoming an integral part of the software development lifecycle, and the capabilities granted to them allow an agent to act with the user's authority on any resource it can access.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-10-15T00:39:33.010512+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-10-15T00:37:57.127299+00:00"
+  },
+  {
+    "id": "arxiv:2610.18408v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Prompt-Injection Probes Learn the Conversation, Not Just the Injection",
+    "authors": [
+      "Kaan Kale",
+      "Sriram Vishwanath"
+    ],
+    "abstract": "Linear probes on a model's hidden states are used as cheap monitors for indirect prompt injection: they screen the tool outputs an agent reads and send suspicious ones to a slower second check, so every false alarm has a cost. But a probe learns whatever separates its training examples. The standard evaluation of injection probes can be passed without the model: conversation position and text lengths alone reach 0.91-0.98 AUROC. When each attack is compared with the same conversation without the injection, or with harmless text formatted like an injection, standard probes flag most of these harmless cases. We add such cases to the training data as matched negatives. Across six open models, in applications seen during training and at the default threshold, changing only the training data cuts false alarms on injection-free conversations from 41-80% to 4-27%, and on harmless look-alikes from 92-98% to 3-16%. With a threshold set on normal traffic, our probe still catches a median 95% of the attacks that fooled the agent (91% without our data). In new applications, false alarms stay low, but detection depends on the model and on how the threshold is set. The same data also helps a text-only filter.",
+    "published": "2026-10-13T13:51:06Z",
+    "updated": "2026-10-13T13:51:06Z",
+    "url": "https://arxiv.org/abs/2610.18408v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.18408v1",
+    "categories": [
+      "cs.CL"
+    ],
+    "analysis": {
+      "summary": "Linear probes on a model's hidden states are used as cheap monitors for indirect prompt injection: they screen the tool outputs an agent reads and send suspicious ones to a slower second check, so every false alarm has a cost.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cl"
+      ],
+      "analyzed_at": "2026-10-15T00:39:33.010587+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-10-15T00:37:57.127369+00:00"
+  },
+  {
+    "id": "arxiv:2610.17880v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Cross-Lingual Transfer of Evil Vectors Is Directionally Asymmetric",
+    "authors": [
+      "Juann Kim",
+      "Minku Kang"
+    ],
+    "abstract": "Persona vectors are linear directions in the residual-stream activations of LLMs that encode behavioral traits and enable fine-grained control over model behavior. Among them, the evil persona vector is particularly relevant to understanding harmful behavior, jailbreak vulnerabilities, and the unlearning of harmful knowledge. Yet whether this vector reflects a genuinely cross-lingual concept, rather than an artifact of its extraction language, remains untested. We conduct a systematic evil-vector transfer study across two high-resource languages (English, Spanish) and two low-resource languages (Swahili, Telugu) on four open-source instruction-tuned LLMs, and find that transfer is directionally asymmetric. Evil vectors are harder to obtain reliably from low-resource languages, and the resulting vectors are largely ineffective at steering, even within their own language. In contrast, vectors extracted from high-resource languages transfer effectively to low-resource inputs while largely preserving general knowledge, as measured by MMLU. Geometric analysis further supports this pattern: evil vectors from the two high-resource languages are closely aligned, whereas low-resource vectors align only weakly with this shared direction. These results suggest that a shared cross-lingual evil direction exists and, once reliably extracted from a high-resource language, can be reused to steer behavior in low-resource languages without additional per-language data collection.",
+    "published": "2026-10-13T07:36:59Z",
+    "updated": "2026-10-13T07:36:59Z",
+    "url": "https://arxiv.org/abs/2610.17880v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.17880v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Persona vectors are linear directions in the residual-stream activations of LLMs that encode behavioral traits and enable fine-grained control over model behavior.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cl",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-10-15T00:39:33.010658+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-10-15T00:37:57.127438+00:00"
+  },
+  {
+    "id": "arxiv:2610.17636v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "The Tokens Strike Back: Safety-Aware Denoising with Directional Embedding-based Revision",
+    "authors": [
+      "Amman Yusuf",
+      "Jiwoo Shin",
+      "Ruizhi Deng",
+      "Heitor Rodrigues Guimarães",
+      "Nikita Dvornik",
+      "Mijung Park"
+    ],
+    "abstract": "The Safety-Aware Denoiser (SAD) is a recent, training-free, safety-guidance framework for text diffusion models. During inference, SAD steers text samples toward safe regions of the token probability space. In this paper, we propose $\\mathit{SADDER}$ (Safety-Aware Denoising with Directional Embedding-based Revision), which improves the safety and quality trade-offs of SAD by exploiting a safety-guidance signal in the embedding (or activation) space for each token position, then updating the token positions using the SAD update rule multiplied by the guidance signal. This multiplication acts as a gating mechanism: tokens with a high unsafe signal are more likely to be modified during inference following the SAD update rule. However, such an update does not automatically preserve the conditional mean, i.e., the denoiser of a fixed target distribution. We therefore theoretically derive new position-wise target distributions for which the modified denoiser is exact. Furthermore, we derive conditions under which the position-wise target distributions match a global target distribution. We test our $\\mathit{SADDER}$ method on popular Masked Diffusion Language Models (MDLMs) and Uniform-State Diffusion Models (USDMs) across unsafe continuation and jailbreak settings, and show that $\\mathit{SADDER}$ achieves a better balance between safety, generation quality, and inference cost than existing methods.",
+    "published": "2026-10-13T03:04:22Z",
+    "updated": "2026-10-13T03:04:22Z",
+    "url": "https://arxiv.org/abs/2610.17636v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.17636v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "The Safety-Aware Denoiser (SAD) is a recent, training-free, safety-guidance framework for text diffusion models.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-lg",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-10-15T00:39:33.010729+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-10-15T00:37:57.127529+00:00"
+  },
+  {
+    "id": "arxiv:2610.17579v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Risk-Averse Inference-Time Diffusion Model Alignment with Finite-Sample Guarantees",
+    "authors": [
+      "Yuchen Liang",
+      "Xian Yu"
+    ],
+    "abstract": "Inference-time alignment steers diffusion models toward downstream objectives without costly fine-tuning, but existing methods typically optimize expected cost (or reward) without explicitly controlling tail risk. In this work, we propose a risk-averse framework for inference-time alignment of diffusion models that balances expected cost and Conditional Value-at-Risk (CVaR) under trajectory-level Kullback-Leibler regularization. We characterize the optimal path distribution and reverse transitions as functions of the CVaR threshold, reducing the alignment problem to a one-dimensional optimization problem over the threshold. We show that this one-dimensional optimization problem can be nonconvex in general, establish sufficient conditions for convexity, and introduce quadratic regularization to enable efficient derivative-free ternary search. Under suitable assumptions, we provide finite-sample guarantees for threshold optimization and value estimation, and combine them into a terminal total-variation bound relative to the regularized target under exact resampling. Experiments on synthetic data and image generation using Stable Diffusion demonstrate improved tail performance over risk-neutral baselines while maintaining competitive average cost.",
+    "published": "2026-10-13T01:57:33Z",
+    "updated": "2026-10-13T01:57:33Z",
+    "url": "https://arxiv.org/abs/2610.17579v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.17579v1",
+    "categories": [
+      "stat.ML",
+      "cs.LG",
+      "math.OC"
+    ],
+    "analysis": {
+      "summary": "Inference-time alignment steers diffusion models toward downstream objectives without costly fine-tuning, but existing methods typically optimize expected cost (or reward) without explicitly controlling tail risk.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "stat-ml",
+        "cs-lg",
+        "math-oc"
+      ],
+      "analyzed_at": "2026-10-15T00:39:33.010799+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-10-15T00:37:57.127592+00:00"
+  },
+  {
+    "id": "arxiv:2610.17457v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "BrowseSafe++: Benchmarking Prompt Injection Detection Across Web Contexts, Languages, and Browser Views",
+    "authors": [
+      "Yuetian Chen",
+      "Kaiyuan Zhang",
+      "Yuntao Du",
+      "Thomas Li",
+      "Mark Tenenholtz",
+      "Kyle Polley",
+      "Jerry Ma",
+      "Denis Yarats",
+      "Ninghui Li"
+    ],
+    "abstract": "Browser agents need to make decisions and execute actions on behalf of users while consuming untrusted webpages, creating opportunities for malicious instructions embedded in webpages to redirect legitimate tasks. We introduce BrowseSafe++, which extends BrowseSafe from 14,719 pages to 38,675 pairs of pages. Most of its prompt injections were observed in the wild on production websites. We keep each injection unchanged and rewrite the sensitive parts of the page around it to protect privacy. Each attacked page has a clean copy of the same page as its control. Both are provided as HTML, Markdown, an accessibility tree, and a screenshot. Every pair includes a user task and its expected answer. The benchmark includes twelve types of websites, from news articles to shared documents and forums, with 24 attack types appearing in 18 different locations on a page. We use these paired pages to train BrowseSafe-Guard, two 0.8B-parameter detectors for text and screenshots. Both achieve higher F1 scores than the detector based on frontier models, while keeping false-positive rates on benign pages and inference cost low. BrowseSafe-Adapt revises benchmark injections from browser-agent feedback, and attacks that succeed on only a few percent of tasks when replayed directly reach up to 95.41% success once adapted.",
+    "published": "2026-10-12T22:17:51Z",
+    "updated": "2026-10-12T22:17:51Z",
+    "url": "https://arxiv.org/abs/2610.17457v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.17457v1",
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "analysis": {
+      "summary": "Browser agents need to make decisions and execute actions on behalf of users while consuming untrusted webpages, creating opportunities for malicious instructions embedded in webpages to redirect legitimate tasks.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-10-15T00:39:33.010876+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-10-15T00:37:57.127671+00:00"
+  },
+  {
+    "id": "arxiv:2610.17313v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "TRAP: Tree-Guided Reinforcement-Augmented Probing for Automated LLM Jailbreaking",
+    "authors": [
+      "Mohammad Reza Mirbagheri",
+      "Amir Mahdi Sadeghzadeh"
+    ],
+    "abstract": "Aligned large language models (LLMs) remain vulnerable to jailbreak prompts that circumvent their safety guardrails, making the identification of these vulnerabilities important for understanding and mitigating model weaknesses. Existing automated jailbreak methods explore prompt candidates or reuse attack experience, but generally do not learn over a persistent hierarchy that connects related jailbreak strategies, such as role-play, encoding, and obfuscation. This leaves the relationships among reusable strategies underused in guiding adaptive attack selection. We present Tree-Guided Reinforcement-Augmented Probing (TRAP), a hierarchical framework for automated jailbreak strategy discovery that requires only black-box access to the target LLM. TRAP organizes established jailbreak methods and successful attack templates into a semantic strategy tree, connecting broad attack approaches to concrete, reusable strategies. A reinforcement-learning policy based on a tree-structured gradient bandit explores this tree and uses evaluator feedback to update strategy preferences along each selected path. The policy retains these preferences across attack objectives, allowing experience from earlier attempts to guide subsequent strategy selection. Retrieval-augmented prompt construction translates the selected strategy into an attack for the current objective using relevant successful examples. Experiments on AdvBench across seven aligned LLMs show that TRAP outperforms its counterparts on six models under the reported method settings and the common primary evaluator, achieving attack success rates of 45.6% to 97.9% on these models. These findings support hierarchical strategy learning as an effective approach to discovering jailbreak vulnerabilities in aligned LLMs.",
+    "published": "2026-10-12T19:10:37Z",
+    "updated": "2026-10-12T19:10:37Z",
+    "url": "https://arxiv.org/abs/2610.17313v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.17313v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "analysis": {},
+    "fetched_at": "2026-10-15T00:37:57.127746+00:00"
+  },
+  {
+    "id": "arxiv:2610.17085v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Superintelligence and the Triple Risk of an AI Race",
+    "authors": [
+      "Matthew Rendall",
+      "Max Hellrigel-Holderbaum",
+      "Leonard Dung"
+    ],
+    "abstract": "On many estimates, artificial general intelligence (AGI) is likely to emerge within the next few decades or even sooner. Once it does, it may quickly surpass human intelligence, possibly by a huge margin. Some believe that the country that develops AGI first could attain global dominance. This prospect risks setting off intense competition between the United States and China. Indeed, a narrative has already developed that the superpowers are locked in an AI race, with the Trump administration proclaiming its determination to 'dismantle unnecessary regulatory barriers' to winning it. We argue that this approach presents three profound dangers. The first two are familiar from past arms races: being overtaken by a rival or triggering a war. The third is new: losing control of human beings' future to agents far more intelligent than we are, which could endanger our very survival. Striving to get to AGI first risks a race to the bottom on safety practices and regulation concerning them. China does not yet appear bent on racing to superintelligence. The United States should prioritise both unilateral and co-operative efforts to improve AI safety and avoid provoking a race that all humanity could lose.",
+    "published": "2026-10-12T16:47:49Z",
+    "updated": "2026-10-12T16:47:49Z",
+    "url": "https://arxiv.org/abs/2610.17085v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.17085v1",
+    "categories": [
+      "cs.CY",
+      "cs.AI"
+    ],
+    "analysis": {},
+    "fetched_at": "2026-10-15T00:37:57.127978+00:00"
+  },
+  {
+    "id": "arxiv:2610.16814v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "StableJudge: A Lightweight Adversarial Defense Framework for LLM-as-a-Judge",
+    "authors": [
+      "Anning Hu",
+      "Yangyu Li",
+      "Yuqi Huang",
+      "Shengchao Hu",
+      "Junchi Yan"
+    ],
+    "abstract": "Large language models (LLMs) are increasingly used as judges to assign scalar scores that drive downstream decision-making, including tasks such as paper review and recommendation. However, LLM-as-a-Judge pipelines are vulnerable to score-hijacking prompt injection embedded in evaluated content, which corrupts scoring signals and distorts induced rankings. Existing defenses often enforce robustness by modifying the judge model itself, making safety dependent on a specific model's scale and training and requiring repeated effort when the judge is updated or replaced. We propose StableJudge, a lightweight defense framework that externalizes prompt-injection mitigation as a reusable pre-scoring capability. StableJudge centers on a compact 0.13B Sentry that localizes injected spans and performs targeted sanitization prior to evaluation, and is trained using adversarially evolving attacks to improve robustness beyond a fixed prompt set. To stabilize measurement, StableJudge derives deterministic, fine-grained scalar scores from the judge's output distribution. Across held-out scientific abstracts and out-of-distribution attack variants, StableJudge improves score recovery under attack while largely preserving general-purpose performance, demonstrating that robust LLM-based judging can be achieved by decoupling safety from judge scale via reusable defense capabilities. Code and data will be released.",
+    "published": "2026-10-12T14:00:13Z",
+    "updated": "2026-10-12T14:00:13Z",
+    "url": "https://arxiv.org/abs/2610.16814v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.16814v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "analysis": {},
+    "fetched_at": "2026-10-15T00:37:57.128126+00:00"
+  },
+  {
+    "id": "arxiv:2610.16550v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "CT0: Cybersecurity Transformer",
+    "authors": [
+      "Víctor Mayoral-Vilches"
+    ],
+    "abstract": "General-purpose frontier models are large, expensive to run, and increasingly reluctant to engage with authorised defensive- and offensive-security work. We ask the opposite question: how small can a cybersecurity-specialist transformer be while remaining genuinely useful to a security practitioner? We introduce CT0, a Cybersecurity Transformer architecture, and CT0-Micro, its first incarnation: a compact (~4B-parameter) model built on the open base model, whose backbone is specialised by two-phase on-policy distillation on our Cybersecurity AI (CAI) dataset. CT0 serves two modes from one set of weights: System 1 answers typed security decisions (is this file suspicious, is this request an attack, did the model just refuse) in a single forward pass without generating a token, System 2 is the usual tool-using agent, and a confidence gate spends generation only where the fast path is unsure. Specialisation lifts the agentic path: CT0-Micro solves 21.1% of cybench-subtask against 7.6% for its base, above every open model of comparable footprint and the densest cybersecurity capability per parameter we measured. The fast path is what the architecture buys: CT0-Micro screens eighty files per second for indicators of compromise, catches its own refusals at 96.5% accuracy in 47 ms where the model judging itself reaches 76.5% in 254 ms and misses half of them, flags jailbreak requests at AUROC 0.966 in 8 ms, and, generating only for the facts it is unsure about, extracts vulnerability facts more accurately than either mode alone at a fifth of the generative cost. All of it is built in about 314 RTX PRO 6000 GPU-hours and served from one workstation GPU, with no policy layer between operator and target. Across eighteen benchmarks and use cases run with one checkpoint and head, we report where the design helps, where it does not, and what it still lacks.",
+    "published": "2026-10-12T10:31:44Z",
+    "updated": "2026-10-12T10:31:44Z",
+    "url": "https://arxiv.org/abs/2610.16550v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.16550v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "analysis": {},
+    "fetched_at": "2026-10-15T00:37:57.128206+00:00"
+  },
+  {
+    "id": "arxiv:2610.16458v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Differential Privacy Protected Preference Alignment on Survey Derived Data",
+    "authors": [
+      "Xiuyuan Qi",
+      "Yi Wang",
+      "Wenjie Wang"
+    ],
+    "abstract": "Preference alignment enables language models to better reflect human values, but the preference data contains sensitive information, especially when derived from surveys about political beliefs, social norms, religion, gender attitudes, and cultural values. This paper studies privacy-preserving alignment on questionnaire-derived data from the World Values Survey, where supervision takes the form of ordinal labels rather than standard pairwise rankings. Existing efforts mainly focus on general privacy protections upon model training, while data-specific methods for survey data remain unexplored. We first show the vulnerability of aligned models, then formulate the task as rating prediction and introduce label differential privacy. Building on this formulation, we construct a differential private pipeline utilizing three privacy mechanisms: randomized response, exponential mechanism, and DP-SGD. Experiments show that simple label-level mechanisms outperform gradient-level methods, and proper aggregation function for preprocessing also make large contribution. The new fine-grained private comparison motivates explorations toward language model alignment with formal privacy guarantees.",
+    "published": "2026-10-12T09:18:26Z",
+    "updated": "2026-10-12T09:18:26Z",
+    "url": "https://arxiv.org/abs/2610.16458v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.16458v1",
+    "categories": [
+      "cs.CR",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "analysis": {},
+    "fetched_at": "2026-10-15T00:37:57.128271+00:00"
+  },
+  {
+    "id": "arxiv:2610.16305v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "ATTCK-R: Knowledge-Aware Long-Horizon Jailbreaking for Protected LLMs",
+    "authors": [
+      "Md Mushfiqur Rahman",
+      "Tobias Rohde",
+      "Rahul Tripathi",
+      "Khalil Elkhalil",
+      "Kevin Lybarger"
+    ],
+    "abstract": "As large language models are deployed behind increasingly sophisticated safety mechanisms, evaluating their robustness under realistic adversarial conditions becomes increasingly difficult and critical. Existing jailbreaking evaluations often rely on static prompts, limited interaction horizons, or lightly protected systems, failing to reflect protected deployment settings with prompt-based safety protections. We show that the introduction of a prompt-based safety protection reduces the average attack success rate of a strong multi-turn baseline from 0.896 to 0.608 (32.1\\% relative), demonstrating that unprotected evaluations substantially overestimate real-world vulnerabilities. We propose Adaptive Traceback and Tactic Curation for Knowledge-based Red-teaming (ATTCK-R), a planning-driven multi-turn red teaming framework designed for protected black-box systems. ATTCK-R models jailbreaking as a long-horizon trajectory optimization problem using a structured belief state, introduces optimization-based tactic curation to abstract reusable strategies from prior successes and failures, and employs informed traceback to resume attacks from strategically meaningful states rather than restarting. Evaluated across 9 widely used LLMs configured with a single prompt-based safety protection layer, ATTCK-R consistently outperforms strong recent multi-turn jailbreaking frameworks. Ablation results confirm that long-horizon planning and tactic curation improve attack effectiveness, while adaptive traceback improves efficiency through structured recovery from conversational failure.",
+    "published": "2026-10-12T07:32:11Z",
+    "updated": "2026-10-12T07:32:11Z",
+    "url": "https://arxiv.org/abs/2610.16305v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.16305v1",
+    "categories": [
+      "cs.CR",
+      "cs.CL"
+    ],
+    "analysis": {},
+    "fetched_at": "2026-10-15T00:37:57.128342+00:00"
+  },
+  {
+    "id": "arxiv:2610.16275v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "A Survey of Flow Matching in Reinforcement Learning",
+    "authors": [
+      "Nabuat Zaman Nahim",
+      "Fairoz Nower Khan",
+      "Peizhong Ju"
+    ],
+    "abstract": "Flow Matching (FM) has recently emerged as a principled and efficient generative modeling framework for reinforcement learning (RL), enabling expressive, multimodal policy parameterizations via deterministic probability transport. Compared to diffusion-based policies that rely on stochastic denoising chains, FM uses sampling based on ordinary differential equations (ODEs), with learned velocity fields, which can substantially reduce inference latency and simplify the incorporation of RL objectives. As research in flow-based RL rapidly accelerates across offline continuous control, online fine-tuning, and foundation model alignment, the literature has become highly fragmented. In this survey, we provide a comprehensive taxonomy of flow-matching approaches in reinforcement learning. We organize the literature along two axes: the target distribution being modeled (e.g., action policies, value critics, transition dynamics) and the mechanism of RL signal integration (e.g., energy-weighted regression, flow-based policy gradients, and group relative policy optimization). Furthermore, we survey emerging frontiers such as discrete and non-Euclidean action spaces, provide a systematic comparative analysis against Gaussian and diffusion baselines, and outline critical open problems. Ultimately, this survey serves as a foundational roadmap for the next generation of generative reinforcement learning and alignment.",
+    "published": "2026-10-12T06:55:17Z",
+    "updated": "2026-10-12T06:55:17Z",
+    "url": "https://arxiv.org/abs/2610.16275v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.16275v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "analysis": {},
+    "fetched_at": "2026-10-15T00:37:57.128410+00:00"
+  },
+  {
+    "id": "arxiv:2610.16084v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "The Sharp Directions Are Against You: Curvature Analysis of Activation Steering",
+    "authors": [
+      "Seyedarmin Azizi",
+      "Arya Fayyazi",
+      "Parsa Razmara",
+      "Erfan Baghaei Potraghloo",
+      "Souvik Kundu",
+      "Massoud Pedram"
+    ],
+    "abstract": "Activation steering adds a vector to a language model's internal representations at inference time. It is a lightweight alternative to fine-tuning for behavioral control. The standard construction, contrastive activation addition (CAA), is fragile, as on many inputs it shifts behavior in the wrong direction. To explain this fragility, we first study the geometry of the steering vector. We introduce steering Hessian, the matrix of second order derivative of the model's behavioral loss with respect to the steering vector. It captures the output behavior response sensitivity of the model under small perturbations of the steering vector along each direction. Its top eigenvectors are sharp directions: tiny perturbations along them can cause large, erratic, input-dependent behavioral swings. Bottom eigenvectors are flat directions: behavior is robust along them. Removing the sharp component of a steering vector approximately preserves its direction and magnitude (cosine > 0.974, norm reduction < 3% for typical settings) while reducing the vector's directional curvature by up to 12x (median 4x across 36 conditions). We evaluate on three model families (Qwen2.5-7B, Llama-3.1-8B, Mistral-7B), with four behavioral tasks, and 36 token-level conditions. Steering along sharp directions reverses the intended behavior in every condition tested, with anti-steer rates of 53-100%. Sharp directions account for only 1-5% of the CAA vector's squared norm. However, they drive a disproportionate share of the gap between the steered and unsteered next-token distributions during autoregressive generation. We term this one-line correction as sharp removal; it outperforms standard CAA in open-ended generation across all 25 conditions tested. A jailbreaking experiment further shows that sharp directions act as noise rather than signal: they disrupt coherent behavioral control regardless of steering polarity.",
+    "published": "2026-10-12T02:49:19Z",
+    "updated": "2026-10-12T02:49:19Z",
+    "url": "https://arxiv.org/abs/2610.16084v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.16084v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "analysis": {},
+    "fetched_at": "2026-10-15T00:37:57.128502+00:00"
+  },
+  {
+    "id": "arxiv:2610.16070v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Understanding and Reducing Misalignment in Persuasion Optimization",
+    "authors": [
+      "Boyi Wei",
+      "Ruta Desai",
+      "Peter Henderson",
+      "Wenyue Hua"
+    ],
+    "abstract": "Frontier models are now trained for complex multi-agent tasks, from running a company to engaging in negotiations. These tasks necessitate training models to be persuasive. But what does this optimization pressure mean for model alignment? In this work, we study how reinforcement learning (RL) training for persuasion affects models' use of misaligned strategies such as evidence fabrication and belief coercion, and what techniques can reduce such misalignment. We find that optimizing sender models solely for receiver belief shifts causes the average number of distinct misaligned strategies used per game to increase by more than 25%, and fabrications per game increase to more than 4 times relative to pre-RL models. We compare various mitigation approaches, including stronger strategy guidance, clean demonstrations, penalizing misaligned strategy usage, and improving the model's ability to detect fabrications. We find that navigating the persuasiveness-misalignment trade-off in this setting is challenging, with the best trade-offs coming from combining guidance on aligned persuasion strategies with reward penalties on misalignment. Overall, our work provides a testbed for assessing misalignment stemming from RL-based persuasion training and shows concrete paths for reducing misalignment. Importantly, it highlights that without direct intervention, persuasion-involved RL environments are likely to naturally lead to large increases in the use of misaligned strategies.",
+    "published": "2026-10-12T02:19:21Z",
+    "updated": "2026-10-12T02:19:21Z",
+    "url": "https://arxiv.org/abs/2610.16070v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.16070v1",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "analysis": {},
+    "fetched_at": "2026-10-15T00:37:57.128575+00:00"
+  },
+  {
     "id": "arxiv:2610.13944v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -2493,687 +3015,5 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-10-02T01:43:38.761013+00:00"
-  },
-  {
-    "id": "arxiv:2610.00902v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Mean field games as a tool for AI safety: a worked example from the July 2026 Hugging Face incident",
-    "authors": [
-      "P. Jameson Graber"
-    ],
-    "abstract": "One way to make AI systems safe is to shape what the system is: its objective and dispositions. We take a complementary route: treat the agents' characteristics as partly unknown and ask what structure of interaction ensures that bad collective outcomes are not equilibria. Mean field games suit this when many interchangeable agents are coupled through an aggregate. We introduce a program for using them in AI safety and carry one example through end to end: the July 2026 incident in which about 1,200 agents in an OpenAI evaluation coordinated on an improvised message board and 684 attacked a third party's infrastructure. We model the decision to attack as a mean field game of optimal stopping whose gain is a product: belief that provenance will be audited, times reachability of the record, minus the perceived hazard. The central result is an exact threshold on the belief. No agent attacks unless the population's confidence that provenance is checked exceeds $π^{**} = η/(η+ ψ+ \\varepsilon a \\overline{M})$, where $η$ is the perceived hazard, $ψ$ and $\\varepsilon a \\overline{M}$ measure how far one attacker and the collective can alter the record, and $\\overline{M}$ is the peak population. Below it, no attack is the unique equilibrium for all agent parameters. The threshold survives every enrichment we consider. We then use the per-agent record to discipline the model. Its features, a stable minority attacking for thirty hours and then a pivot in which most of the board joined within a day, motivate each refinement. The account that emerges is heterogeneous belief meeting a sequence of public discoveries, each lowering the belief at which attacking paid. A few coordinating agents made those discoveries, so the model describes the several hundred who responded, not the few who produced them; a major-player version is left to future work.",
-    "published": "2026-10-01T01:30:05Z",
-    "updated": "2026-10-01T01:30:05Z",
-    "url": "https://arxiv.org/abs/2610.00902v1",
-    "pdf_url": "https://arxiv.org/pdf/2610.00902v1",
-    "categories": [
-      "math.OC",
-      "cs.AI",
-      "cs.GT"
-    ],
-    "analysis": {
-      "summary": "One way to make AI systems safe is to shape what the system is: its objective and dispositions.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "math-oc",
-        "cs-ai",
-        "cs-gt"
-      ],
-      "analyzed_at": "2026-10-02T01:45:15.067618+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-10-02T01:43:38.761128+00:00"
-  },
-  {
-    "id": "arxiv:2610.00430v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Memetic Trojans: Social Contagions as Carriers of Adversarial Payloads in Agent Networks",
-    "authors": [
-      "Birk Torpmann-Hagen",
-      "Finn Schwall",
-      "Leon Moonen"
-    ],
-    "abstract": "Autonomous large language model (LLM) agents increasingly interact in network environments where adversarial content can propagate between agents. Known attacks include agent worms, which spread through self-replicating prompt injections or configuration compromises. We introduce \\emph{memetic trojans}, a distinct class of network-mediated attack that exploits agents' tendencies to retransmit and amplify content. Unlike agent worms, whose propagation is adversarially induced, memetic trojans exploit \\emph{endogenous} transmission by embedding adversarial payloads in \\emph{social contagions}: content agents have internal reasons to share. As part of our work, we extract social contagions from Moltbook, a social media platform for LLM agents. Controlled transmission experiments reveal large differences in virality: the most effective contagion is retransmitted in approximately 50\\% of subsequent agent posts and upvoted at 2.5x the average post's rate. Its memetic trojan counterpart largely inherits these properties. Monte Carlo attack simulations show that memetic trojans amplify expected exposure by up to 3.19x. Network structure and amplification mechanisms strongly shape propagation, producing heavy-tailed outcomes with near network-wide exposure. These results identify endogenous social transmission as a distinct security vulnerability in multi-agent systems. Because propagation does not require agents to follow malicious retransmission instructions, defenses focused on prompt-injection detection or preventing agent compromise cannot alone prevent memetic trojan propagation. Securing large-scale agent ecosystems may require network-level defenses that account for how agent preferences, recommendation mechanisms, and network topology amplify adversarial payloads.",
-    "published": "2026-09-30T16:43:02Z",
-    "updated": "2026-09-30T16:43:02Z",
-    "url": "https://arxiv.org/abs/2610.00430v1",
-    "pdf_url": "https://arxiv.org/pdf/2610.00430v1",
-    "categories": [
-      "cs.SI",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Autonomous large language model (LLM) agents increasingly interact in network environments where adversarial content can propagate between agents.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-si",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-10-02T01:45:15.067701+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-10-02T01:43:38.761301+00:00"
-  },
-  {
-    "id": "arxiv:2609.39902v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "CodeMimicry: Exploiting Safety Generalization Lag in Large Language Models via Structured Code Completion",
-    "authors": [
-      "Zhen Liang",
-      "Hai Huang",
-      "Wentao Chen"
-    ],
-    "abstract": "Large language models have achieved remarkable capabilities across diverse domains, yet their safety alignment remains vulnerable to jailbreak attacks. In this work, we identify a previously underexplored failure mode - safety generalization lag - where alignment trained predominantly on natural language fails to transfer to the code domain. We show that this lag induces a code-completion blind spot, allowing malicious intent embedded within syntactically valid code to evade safety mechanisms. To exploit this vulnerability, we propose CodeMimicry, a fully automated black-box jailbreak framework that generates structured, object-oriented code prompts to induce harmful outputs via code completion. Experiments on 8 state-of-the-art commercial LLMs demonstrate that CodeMimicry achieves a 96.25% attack success rate with 1.51 queries on average, significantly outperforming both template-based and optimization-based baselines. Beyond empirical performance, we provide a mechanistic analysis of code-based jailbreaks through latent space representations, including projection onto refusal-related directions and activation steering. This analysis offers an explanation of how CodeMimicry bypasses safety mechanisms in code-related domains. Our findings reveal a weakness in current safety alignment and highlight the need for robust alignments in structured domains such as code.",
-    "published": "2026-09-30T15:02:14Z",
-    "updated": "2026-09-30T15:02:14Z",
-    "url": "https://arxiv.org/abs/2609.39902v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.39902v1",
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Large language models have achieved remarkable capabilities across diverse domains, yet their safety alignment remains vulnerable to jailbreak attacks.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-10-02T01:45:15.067774+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-10-02T01:43:38.761376+00:00"
-  },
-  {
-    "id": "arxiv:2609.39678v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Aletheia: Permission-Minimality Testing for Coding-Agent Rules",
-    "authors": [
-      "Jieke Shi",
-      "Yuchen Chen",
-      "Junda He",
-      "Yue Liu",
-      "David Lo"
-    ],
-    "abstract": "Repository instruction files guide coding agents, but also expose them to prompt injection. Malicious rules can request credential access or data transfer while the agent produces a correct patch. We present Aletheia, a framework for permission-minimality testing. Aletheia translates requested authority into a typed language and synthesizes executable sandbox configurations. It runs the unchanged rule and task under full permissions and independent restrictions that remove one permission at a time. Passing independent functional tests under strictly reduced authority provides a dispensability witness, which Aletheia interprets against task context to diagnose suspicious requests. We formalize synthesis and the conditions connecting witnesses to enforced restrictions. On a shared refactoring task, Aletheia executes and detects all 314 AIShellJack attack inputs, with no alarms on five benign templates. Among 80 manually verified benign GHAgentFiles rules, it raises three false positives (3.75%).",
-    "published": "2026-09-30T13:09:24Z",
-    "updated": "2026-09-30T13:09:24Z",
-    "url": "https://arxiv.org/abs/2609.39678v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.39678v1",
-    "categories": [
-      "cs.CR",
-      "cs.SE"
-    ],
-    "analysis": {
-      "summary": "Repository instruction files guide coding agents, but also expose them to prompt injection.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-se"
-      ],
-      "analyzed_at": "2026-10-02T01:45:15.067841+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-10-02T01:43:38.761444+00:00"
-  },
-  {
-    "id": "arxiv:2610.00392v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "From A2A Attacks to Envelope-Layer Defense: Red-Teaming Evaluation of LLM Agents and a Three-Layer Isomorphic Attack-Defense Model",
-    "authors": [
-      "Yuelin Han"
-    ],
-    "abstract": "Agent interaction protocols such as ACP and A2A have moved LLM-based agents toward multi-agent collaboration, introducing new security threats. A task sent by a remote peer over A2A is treated as a legitimate request, providing a natural channel for indirect prompt injection. Existing agent security evaluations mostly rely on a single metric, the attack success rate (ASR), and cannot distinguish whether an attack failed because the LLM recognized the malicious content or because a mechanism at the agent layer blocked execution. To address this, we propose A2A-TIBA, an attack principle combining indirect prompt injection with bypass circumvention. Through implant-command-exfiltration steps, it induces the target agent to deploy a callback interaction program, after which the attacker issues commands bypassing the agent. To evaluate defenses finer, we design GDA Measurement, a red-team testbed method using raw context capture via an LLM gateway, dual data preservation, and agent-based autonomous judging. We propose four attack outcomes, Class A/B/C/D, extending ASR into semantic refusal rate, semantic breach rate, interception rate, and penetration rate. Experiments reveal the envelope layer -- the channel through which malicious content enters an agent -- as a new defense dimension. We accordingly propose ELA-ITL, a three-layer isomorphic attack-defense model, dividing defense into envelope packaging, LLM recognition, and agent interception, and attack into implant channel, prompt optimization, and execution mechanism. Testing on 15 agent front-end x LLM back-end combinations and building a 1,000-case dataset verifies the attack effectiveness of A2A-TIBA, the evaluation validity of GDA Measurement, and confirms that adding malicious prompt labels to envelope packaging such as A2A, tool, and memory channels significantly improves LLM recognition of malicious content.",
-    "published": "2026-09-30T11:19:12Z",
-    "updated": "2026-09-30T11:19:12Z",
-    "url": "https://arxiv.org/abs/2610.00392v1",
-    "pdf_url": "https://arxiv.org/pdf/2610.00392v1",
-    "categories": [
-      "cs.CR"
-    ],
-    "analysis": {
-      "summary": "Agent interaction protocols such as ACP and A2A have moved LLM-based agents toward multi-agent collaboration, introducing new security threats.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr"
-      ],
-      "analyzed_at": "2026-10-02T01:45:15.067924+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-10-02T01:43:38.761525+00:00"
-  },
-  {
-    "id": "arxiv:2609.39134v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Feature-Aware Token Attack for Compression-Triggered Stealthy Failures in Large Vision-Language Models",
-    "authors": [
-      "Shilinlu Yan",
-      "Bowen Chen",
-      "Yuechen Zhang",
-      "Zhenhong Zhou",
-      "Li Sun",
-      "Sen Su"
-    ],
-    "abstract": "Visual-token compression improves the efficiency of large vision-language models, but can expose failures that full-token evaluation misses. We study adversarial images that preserve full-token correctness yet induce errors after compression, even when both inference paths succeed on the clean image. Creating such failures is challenging because perturbing token importance can also damage the visual content needed for full-token inference. We propose Feature-Aware Token Attack (FATA), which couples attention suppression with cosine-based feature preservation on a fixed set of salient clean-image tokens. In the primary LLaVA-1.5-7B setting, FATA uses only vision-encoder gradients, without access to the deployed compressor, token budget, or downstream task. Across four visually dependent task subsets and four compressors under a controlled reconstruction protocol, FATA achieves SR = 96.3% full-token accuracy retention and CBR = 22.1% conditional blinding, compared with 89.8% and 15.7% for CAA. Ablations support the role of both objectives in balancing compressed-path failure against full-token preservation. FATA also has the lowest measured detection rate among four attacks across three evaluated detectors at a 5% false-positive rate. These findings motivate assessing adversarial robustness jointly across full-token and compressed inference.",
-    "published": "2026-09-30T07:04:15Z",
-    "updated": "2026-09-30T07:04:15Z",
-    "url": "https://arxiv.org/abs/2609.39134v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.39134v1",
-    "categories": [
-      "cs.CV"
-    ],
-    "analysis": {
-      "summary": "Visual-token compression improves the efficiency of large vision-language models, but can expose failures that full-token evaluation misses.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cv"
-      ],
-      "analyzed_at": "2026-10-01T01:23:21.223584+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-10-01T01:21:45.163659+00:00"
-  },
-  {
-    "id": "arxiv:2610.00365v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Manifold-Constrained Initial Noise Optimization for Efficient Generative Model Alignment",
-    "authors": [
-      "Jinho Chang",
-      "Jong Chul Ye"
-    ],
-    "abstract": "Recent advances in distillation and flow-map models have enabled deterministic one- or few-step generation for high-quality data, facilitating a new branch of reward alignment approaches that directly optimize the initial noise from a Gaussian distribution. However, most existing initial-noise optimization methods rely on first-order gradient information, which is either inapplicable or suffers from instability and inefficiency in black-box reward scenarios. Here, we introduce ZeNOVA, a stable and efficient initial noise alignment method in a gradient-free manner. Specifically, we address existing algorithms' major challenge in black-box scenarios through annealed soft-value guidance, manifold-constrained hyperspherical Langevin dynamics, and Metropolis-Hastings jumping. Extensive experiments on image and video generative models show that ZeNOVA outperforms all evaluated zeroth-order baselines by optimizing the initial noise toward higher rewards substantially more stably while exploiting the geometry of the Gaussian prior, demonstrating its practical applicability to various black-box reward alignment.",
-    "published": "2026-09-30T06:37:54Z",
-    "updated": "2026-09-30T06:37:54Z",
-    "url": "https://arxiv.org/abs/2610.00365v1",
-    "pdf_url": "https://arxiv.org/pdf/2610.00365v1",
-    "categories": [
-      "cs.LG",
-      "cs.AI",
-      "cs.CV"
-    ],
-    "analysis": {
-      "summary": "Recent advances in distillation and flow-map models have enabled deterministic one- or few-step generation for high-quality data, facilitating a new branch of reward alignment approaches that directly optimize the initial noise from a Gaussian distribution.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-lg",
-        "cs-ai",
-        "cs-cv"
-      ],
-      "analyzed_at": "2026-10-02T01:45:15.068001+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-10-02T01:43:38.761669+00:00"
-  },
-  {
-    "id": "arxiv:2609.38899v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "SceneJail: Exploiting Video Scenario Context to Jailbreak Multimodal LLMs",
-    "authors": [
-      "Wenyu Chen",
-      "Li Wang",
-      "Chuanchao Zang",
-      "Xiangtao Meng",
-      "Xinyu Gao",
-      "Jianing Wang",
-      "Zheng Li",
-      "Shanqing Guo"
-    ],
-    "abstract": "Video Multimodal Large Language Models (Video-MLLMs) support reasoning over video inputs, yet remain vulnerable to jailbreak attacks that elicit policy-violating responses. Existing video jailbreaks primarily manipulate how harmful queries are visually presented, thereby treating video merely as a carrier. Consequently, the surrounding video scenario remains unexplored as a contextual attack surface. In this paper, we show that the same harmful query can elicit different safety responses when placed in different video scenarios. To systematically exploit this vulnerability, we propose SceneJail, an adaptive black-box jailbreak framework with two coordinated components. Adaptive Scenario Construction dynamically searches for a surrounding scenario that is contextually compatible with the harmful query. Scenario-aware Prompt Search uses black-box response feedback to search for textual guidance tailored to the selected scenario. Extensive evaluations on the HADES and SafeBench datasets across eight Video-MLLMs, including two proprietary models, GPT-4.1 and Gemini3.5-Flash, demonstrate the effectiveness of SceneJail. SceneJail-F, which presents the complete query persistently, achieves average attack success rates (ASR) up to 91.5%, outperforming the strongest baselines by 29.1 percentage points. Furthermore, SceneJail-S, which distributes the query across successive frames, remains highly robust against current defenses, retaining a 72.3% ASR even under strict image filtering.",
-    "published": "2026-09-30T03:47:17Z",
-    "updated": "2026-09-30T03:47:17Z",
-    "url": "https://arxiv.org/abs/2609.38899v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.38899v1",
-    "categories": [
-      "cs.CR",
-      "cs.AI",
-      "cs.LG"
-    ],
-    "analysis": {
-      "summary": "Video Multimodal Large Language Models (Video-MLLMs) support reasoning over video inputs, yet remain vulnerable to jailbreak attacks that elicit policy-violating responses.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-ai",
-        "cs-lg"
-      ],
-      "analyzed_at": "2026-10-01T01:23:21.223682+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-10-01T01:21:45.163818+00:00"
-  },
-  {
-    "id": "arxiv:2609.38645v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Alignment via Training Against Probes Without Losing Monitorability",
-    "authors": [
-      "Lena Libon",
-      "Alexander Panfilov",
-      "Ben Rank",
-      "Xin Chen",
-      "Jonas Geiping",
-      "Maksym Andriushchenko"
-    ],
-    "abstract": "Models are usually aligned based on their observed outputs, using demonstrations, preference data, or reward signals. These objectives reward responses that look aligned. More capable models may learn to satisfy them without internalizing the intended behavior, for example by faking compliance during training. Such superficial compliance could be harder when the objective is defined on model internals rather than outputs. Therefore, we study probe-guided fine-tuning, using probes that detect undesired properties in model activations as a direct training signal. We evaluate linear and non-linear probes with different numbers of probes per layer across two alignment objectives: harmlessness and honesty. We find that training against probes that do not update during training is an easily exploitable objective, while continuously updated probes substantially reduce harmfulness and improve honesty while preserving utility. Probe-guided fine-tuning achieves better safety-utility trade-offs than DPO and inference-time steering, while being substantially more robust against jailbreak and abliteration attacks. Moreover, the concepts stay linearly encoded after fine-tuning, meaning oversight is not lost by our method. Training against probes thus offers a way to shape what models represent rather than only what they output, which may become increasingly important as models get better at making their outputs look aligned.",
-    "published": "2026-09-29T23:03:54Z",
-    "updated": "2026-09-29T23:03:54Z",
-    "url": "https://arxiv.org/abs/2609.38645v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.38645v1",
-    "categories": [
-      "cs.LG",
-      "cs.AI",
-      "cs.CR"
-    ],
-    "analysis": {
-      "summary": "Models are usually aligned based on their observed outputs, using demonstrations, preference data, or reward signals.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-lg",
-        "cs-ai",
-        "cs-cr"
-      ],
-      "analyzed_at": "2026-10-01T01:23:21.223761+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-10-01T01:21:45.164077+00:00"
-  },
-  {
-    "id": "arxiv:2609.38645v2",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Alignment via Training Against Probes Without Losing Monitorability",
-    "authors": [
-      "Lena Libon",
-      "Alexander Panfilov",
-      "Ben Rank",
-      "Xin Chen",
-      "Jonas Geiping",
-      "Maksym Andriushchenko"
-    ],
-    "abstract": "Models are usually aligned based on their observed outputs, using demonstrations, preference data, or reward signals. These objectives reward responses that look aligned. More capable models may learn to satisfy them without internalizing the intended behavior, for example by faking compliance during training. Such superficial compliance could be harder when the objective is defined on model internals rather than outputs. Therefore, we study probe-guided fine-tuning, using probes that detect undesired properties in model activations as a direct training signal. We evaluate linear and non-linear probes with different numbers of probes per layer across two alignment objectives: harmlessness and honesty. We find that training against probes that do not update during training is an easily exploitable objective, while continuously updated probes substantially reduce harmfulness and improve honesty while preserving utility. Probe-guided fine-tuning achieves better safety-utility trade-offs than DPO and inference-time steering, while being substantially more robust against jailbreak and abliteration attacks. Moreover, the concepts stay linearly encoded after fine-tuning, meaning oversight is not lost by our method. Training against probes thus offers a way to shape what models represent rather than only what they output, which may become increasingly important as models get better at making their outputs look aligned.",
-    "published": "2026-09-29T23:03:54Z",
-    "updated": "2026-10-01T13:38:27Z",
-    "url": "https://arxiv.org/abs/2609.38645v2",
-    "pdf_url": "https://arxiv.org/pdf/2609.38645v2",
-    "categories": [
-      "cs.LG",
-      "cs.AI",
-      "cs.CR"
-    ],
-    "analysis": {
-      "summary": "Models are usually aligned based on their observed outputs, using demonstrations, preference data, or reward signals.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-lg",
-        "cs-ai",
-        "cs-cr"
-      ],
-      "analyzed_at": "2026-10-03T01:16:39.809450+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-10-03T01:15:04.449671+00:00"
-  },
-  {
-    "id": "arxiv:2609.38415v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Evaluating Whether GPT-6 Astra Performs Unsanctioned Supply-Chain Attacks",
-    "authors": [
-      "Alexandra Souly",
-      "Kai Fronsdal",
-      "Abby D'Cruz",
-      "Xander Davies",
-      "Robert Kirk"
-    ],
-    "abstract": "This technical report presents an alignment evaluation developed and performed by the UK AI Security Institute for assessing whether advanced AI systems take unsanctioned actions outside the scope of their assigned task. We evaluate whether frontier models conduct supply-chain attacks against out-of-scope, third-party targets when placed in difficult cybersecurity challenges, motivated by recently observed cases of models attacking real open-source repositories during evaluations. Applying our methods to GPT-6 Astra and previous OpenAI models, with cyber safeguards disabled, we find that GPT-6 Astra attempts complete supply-chain attacks in simulation at a higher rate than GPT-5.6 Sol and GPT-5.5. This includes writing malicious code as a contribution to an out-of-scope open-source codebase, creating fake identities to deceive open-source developers, and submitting benign contributions before malicious ones. GPT-6 Astra frequently reasons about the scope of the challenge in its chain-of-thought yet still proceeds to attack out-of-scope targets; it often asks for permission, and treats an automated message as as authorisation; and it continues to take unsanctioned actions, at a reduced rate, when internet access is more explicitly disallowed. Our evaluation builds on an internal version of Petri, an open-source LLM auditing tool, with all tool calls simulated by other LLMs, so that no real network access, systems or third-party repositories are reachable and no real-world harm is caused. Finally, we discuss limitations, in particular simulation awareness. We believe simulation awareness may have driven some of the observed behaviour but does not remove our concern. Our results suggest that defences beyond model alignment, such as sandboxing and monitoring, are increasingly critical for safe and secure deployment.",
-    "published": "2026-09-29T19:09:55Z",
-    "updated": "2026-09-29T19:09:55Z",
-    "url": "https://arxiv.org/abs/2609.38415v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.38415v1",
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "This technical report presents an alignment evaluation developed and performed by the UK AI Security Institute for assessing whether advanced AI systems take unsanctioned actions outside the scope of their assigned task.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-10-01T01:23:21.223837+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-10-01T01:21:45.164225+00:00"
-  },
-  {
-    "id": "arxiv:2609.38107v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Correct Answers, Invalid Traces: What Verifiable Grade-School Math Reveals About Chain-of-Thought Traces",
-    "authors": [
-      "Ratish Puduppully",
-      "Pranabendu Misra",
-      "Paarth Iyer",
-      "Durgesh Kalwar",
-      "Vardhan Palod",
-      "Subbarao Kambhampati"
-    ],
-    "abstract": "Chain-of-thought traces are widely read as records of how models reach their answers, informing debugging, agent auditing, and claims about reasoning. Testing this interpretation is difficult because natural-language thinking traces are rarely mechanically verifiable. We revisit it in iGSM, a synthetic grade-school mathematics benchmark designed to study thinking traces and used to support claims of learned reasoning and planning. Crucially, iGSM exposes the exact quantities and dependencies that a correct solution should use, allowing generated traces to be checked programmatically step by step and enabling us to test whether correct answers are reliably accompanied by valid traces. We first evaluate models trained exclusively on valid, minimal traces. Answer correctness and trace validity nearly coincide in distribution but decouple out of distribution: on the hardest instances, 31.6% of correct answers have invalid traces, over half of which pass all syntactic and arithmetic checks but fail semantic dependency checks. We then intervene on trace supervision. Non-minimal training traces induce non-minimal outputs, while re-asking the same problem with a different query reveals computations inherited from the original query, weakening minimality as evidence of selective planning. Shuffling tokens in 10% of training trace sentences preserves near-clean accuracy even out of distribution despite no trace passing verification. Swapped training traces likewise retain high in-distribution accuracy. We discuss the implications of these findings for chain-of-thought monitoring and interpretation in the context of AI safety.",
-    "published": "2026-09-29T17:46:55Z",
-    "updated": "2026-09-29T17:46:55Z",
-    "url": "https://arxiv.org/abs/2609.38107v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.38107v1",
-    "categories": [
-      "cs.CL",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Chain-of-thought traces are widely read as records of how models reach their answers, informing debugging, agent auditing, and claims about reasoning.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cl",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-10-01T01:23:21.223910+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-10-01T01:21:45.164345+00:00"
-  },
-  {
-    "id": "arxiv:2609.38081v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Traversing the solution space of neural networks with Hessian Null Space Continuation",
-    "authors": [
-      "Ann Huang",
-      "Mitchell Ostrow",
-      "Zhouyang Lu",
-      "William T. Redman",
-      "Leo Kozachkov",
-      "Kanaka Rajan"
-    ],
-    "abstract": "On a single task, deep networks can learn many solutions, depending on their optimizer, training data, architecture, and hyperparameters. Many of these solutions are mode-connected: rather than isolated points in weight space, they are connected by low-loss regions. Yet how their internal computation varies within these regions is unknown. A parallel line of work has identified the degeneracy of neural representations: many networks reach similar training loss with distinct internal structures. However, it is unclear how these solutions are related in weight space. We unify these subfields and show for the first time that many different internal mechanisms exist within a local mode-connected region in weight space. To do so, we introduce Hessian Null Space Continuation (HNC), a scalable method that uses local curvature to traverse regions of weight space that preserve network function, and can be steered toward solutions with specified properties. In RNNs trained on a memory task, HNC reaches drastically different representations and dynamics with maintained behavior. In ImageNet-trained Vision Transformers, HNC finds representations that differ more from the original network than any independently trained model with a different architecture or objective. In reinforcement-learning agents, HNC uncovers a distinct navigation strategy at comparable return and exposes reward hacking in an AI Safety Gridworld. Finally, HNC measures the local geometry of the solution set, showing how model size and task complexity shape its dimension and functional sensitivity. Our results show that a surprisingly large amount of representational diversity exists near a single trained solution, unseen by standard gradient-based optimization. HNC identifies and quantifies this diversity, opening new possibilities for mechanistic understanding of solution spaces and for model merging, editing, and fine-tuning.",
-    "published": "2026-09-29T17:38:24Z",
-    "updated": "2026-09-29T17:38:24Z",
-    "url": "https://arxiv.org/abs/2609.38081v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.38081v1",
-    "categories": [
-      "cs.LG",
-      "q-bio.NC",
-      "stat.ML"
-    ],
-    "analysis": {
-      "summary": "On a single task, deep networks can learn many solutions, depending on their optimizer, training data, architecture, and hyperparameters.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-lg",
-        "q-bio-nc",
-        "stat-ml"
-      ],
-      "analyzed_at": "2026-10-01T01:23:21.223986+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-10-01T01:21:45.164473+00:00"
-  },
-  {
-    "id": "arxiv:2609.37737v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Where Do LLMs Decide to Break the Rules? Mechanistic Localization of Prompt Injection Compliance",
-    "authors": [
-      "Rui Wen",
-      "Jiayang Liu",
-      "Zeyu Yang",
-      "Jun Sakuma",
-      "Lu Sun"
-    ],
-    "abstract": "When a prompt injection attack succeeds, a Large Language Model (LLM) abandons its assigned system role to comply with an adversarial instruction. While prior work has extensively quantified how often this occurs, we ask a more fundamental question: where inside the network does the model actually decide to break the rules? Using layer-by-layer causal activation patching across five models (4B to 32B parameters), we find a clear dissociation: attack information is linearly decodable from the first layer, yet causal leverage over the model's behavior is negligible until a late-layer bottleneck in the final third of the network. Patching this bottleneck reverses compliance in 77--92\\% of cases. We show that the compliance mechanism occupies a compact linear subspace (rank-8 in 4B and 14B models, scaling to rank-64 at 32B) and is architecturally stable across varying model families. Finally, we validate our mechanistic account by showing that this causal peak layer is also the representationally optimal site for detecting attacks, outperforming early-layer classifiers that degrade under surface-level obfuscation such as leetspeak substitution. This alignment between causal leverage and detection performance provides converging evidence that the late-layer bottleneck captures decision-relevant computation rather than merely reflecting an artifact of the intervention.",
-    "published": "2026-09-29T14:54:21Z",
-    "updated": "2026-09-29T14:54:21Z",
-    "url": "https://arxiv.org/abs/2609.37737v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.37737v1",
-    "categories": [
-      "cs.CR"
-    ],
-    "analysis": {
-      "summary": "When a prompt injection attack succeeds, a Large Language Model (LLM) abandons its assigned system role to comply with an adversarial instruction.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr"
-      ],
-      "analyzed_at": "2026-10-01T01:23:21.224055+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-10-01T01:21:45.164576+00:00"
-  },
-  {
-    "id": "arxiv:2609.37537v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Weeding Out Bad Seeds: Initial-Noise-Robust Unlearning for Text-to-Image Diffusion Models",
-    "authors": [
-      "Arian Komaei Koma",
-      "Seyed Amir Kasaei",
-      "Aida Aryafar",
-      "Matin Ghiasi",
-      "Ali Aghayari",
-      "Amirhossein Souri",
-      "Mohammad Mosayyebi",
-      "AmirMahdi Sadeghzadeh",
-      "Mohammad Hossein Rohban"
-    ],
-    "abstract": "Machine unlearning has emerged as a critical post-hoc safety measure to erase sensitive concepts from Text-to-Image (T2I) models without prohibitive retraining. However, we reveal that current state-of-the-art (SOTA) approaches are brittle due to a severe lack of robustness to noise initialization. We call this phenomenon ``probabilistic forgetting'': suppressed concepts re-emerge under specific random initial noise conditions, despite appearing unlearned on other initializations. We trace this failure to the misalignment between standard Gaussian sampling during unlearning and the unlearning objective. Since the target concept manifests only in specific initial noise regions throughout the unlearning phase, uniform random sampling yields sparse, uninformative gradient updates that fail to drive robust erasure. To overcome this issue, we propose an adaptive, concept-conditioned sampling strategy that dynamically concentrates gradient updates on regions where the target concept manifests, down-weighting uninformative areas. We integrate our framework with six distinct SOTA unlearning methods across four diffusion backbones and evaluate it across safety, object, and artistic-style unlearning, as well as under black-box and white-box adversarial attacks. Our method reduces the conditional nudity re-emergence rate across random initializations by 67.2% on average over four baselines and lowers attack success rates across both adversarial evaluations. Across concept domains, Adaptive Noise Sampling strengthens adversarial robustness and non-target retention while preserving competitive generative quality and target-erasure performance.",
-    "published": "2026-09-29T13:21:10Z",
-    "updated": "2026-09-29T13:21:10Z",
-    "url": "https://arxiv.org/abs/2609.37537v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.37537v1",
-    "categories": [
-      "cs.CV"
-    ],
-    "analysis": {
-      "summary": "Machine unlearning has emerged as a critical post-hoc safety measure to erase sensitive concepts from Text-to-Image (T2I) models without prohibitive retraining.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cv"
-      ],
-      "analyzed_at": "2026-10-01T01:23:21.224155+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-10-01T01:21:45.164714+00:00"
-  },
-  {
-    "id": "arxiv:2609.37196v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "ToolFence: Fine-Grained Authorization for Secure Tool-Using LLM Agents",
-    "authors": [
-      "Yanjie Li",
-      "Xiangyu He",
-      "Xuelong Dai",
-      "Bin Xiao"
-    ],
-    "abstract": "Tool-using LLM agents remain vulnerable to indirect prompt injection because trusted instructions and untrusted observations share one context, allowing malicious content to steer consequential input-filtering defenses. Multi-path consensus defenses still leave a high attack success rate because they examine content or aggregated outputs rather than authorizing effects, especially for the within-tool attack, which preserves the intended tool but manipulates its arguments. Data-Flow Control such as CaMeL provides stronger guarantees, but incurs substantial time latency that limits practical deployment. We introduce ToolFence, which compiles a typed authorization blueprint before execution, enforces it through a deterministic monitor, and when the blueprint is incomplete asks a judge to grant new capabilities rather than adjudicate each concrete call. ToolFence provides two key advantages. First, its fine-grained provenance-aware authorization enables the system to distinguish user-authorized values from untrusted observations, effectively addressing the within-tool attack. Second, its deterministic fast path and capability-level runtime grants substantially reduce the frequency of expensive judge calls, improving runtime efficiency. On AgentDojo with Qwen3-max, ToolFence reduces overall ASR to near zero with only a 3.80 percentage-point clean-utility drop and practical runtime overhead.",
-    "published": "2026-09-29T10:16:01Z",
-    "updated": "2026-09-29T10:16:01Z",
-    "url": "https://arxiv.org/abs/2609.37196v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.37196v1",
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Tool-using LLM agents remain vulnerable to indirect prompt injection because trusted instructions and untrusted observations share one context, allowing malicious content to steer consequential input-filtering defenses.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-10-03T01:16:39.809529+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-10-01T01:21:45.164819+00:00"
-  },
-  {
-    "id": "arxiv:2609.37054v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "actr: aligning thoughts and responses for multilingual safety in reasoning llms",
-    "authors": [
-      "Xianhui Zhang",
-      "Jian Yu",
-      "Chengyu Xie",
-      "Chenhang Cui",
-      "Shuyi Miao",
-      "Pengyang Shao",
-      "Yu Zheng",
-      "Fei Shen",
-      "Tat-Seng Chua"
-    ],
-    "abstract": "Ensuring the safety of reasoning large language models (LLMs) across languages is essential for their reliable deployment. However, when exposed to jailbreak attacks in non-high-resource languages, these models may generate unsafe responses even when their reasoning traces identify safety risks. To address this issue, we propose aligning cross-lingual thoughts and responses (ACTR), a framework that improves multilingual safety alignment by strengthening the use of existing safety reasoning. Specifically, we first present the think gap score (TGS) to compare the normalized contributions of reasoning traces to attention outputs during response generation across languages, and use reasoning- trace substitution to measure the cross-lingual safety gap. Next, using a corpus of jailbreak queries, we assess neuron importance through changes in response representations caused by neuron masking and compare the high-importance neuron sets obtained with reasoning enabled and disabled to identify safety think neurons that support the use of safety reasoning. Finally, we devise neuron-selective consistency optimization (NSCO), which uses a frozen judge model to reward agreement between the safety categories of reasoning traces and responses while updating only the parameters associated with the selected neurons, requiring no human-annotated responses or preference data. Across two reasoning models, ACTR achieves lower average attack success rates than the evaluated state-of-the-art methods on AdvBench-X and MultiJail, with safety gains extending to unseen languages, while preserving or improving average performance on multilingual knowledge and mathematical reasoning tasks and limiting false refusals of benign requests. Warning: this paper contains examples with unsafe content.",
-    "published": "2026-09-29T08:58:55Z",
-    "updated": "2026-09-29T08:58:55Z",
-    "url": "https://arxiv.org/abs/2609.37054v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.37054v1",
-    "categories": [
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Ensuring the safety of reasoning large language models (LLMs) across languages is essential for their reliable deployment.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-10-04T01:45:05.387826+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-10-01T01:21:45.165074+00:00"
   }
 ]
