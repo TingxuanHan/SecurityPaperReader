@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-10-17 08:38 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-10-18 08:08 Asia/Shanghai
 
 ## 今日论文
 
@@ -314,13 +314,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-13 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.19133v1)
 
-**摘要总结**：暂无
+**摘要总结**：Indirect prompt injection uses untrusted retrieved content, tool outputs, or agent messages to override an LLM's intended behavior.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg`
 
 ---
 
@@ -330,13 +333,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-13 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.19118v1)
 
-**摘要总结**：暂无
+**摘要总结**：Emerging decision models such as JEV provide typed interfaces that map task instructions and observations directly to choices, judgments, and scores.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl`
 
 ---
 
@@ -498,13 +504,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-12 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.17313v1)
 
-**摘要总结**：暂无
+**摘要总结**：Aligned large language models (LLMs) remain vulnerable to jailbreak prompts that circumvent their safety guardrails, making the identification of these vulnerabilities important for understanding and mitigating model weaknesses.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
@@ -514,13 +523,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-12 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.17085v1)
 
-**摘要总结**：暂无
+**摘要总结**：On many estimates, artificial general intelligence (AGI) is likely to emerge within the next few decades or even sooner.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cy` `cs-ai`
 
 ---
 
@@ -530,13 +542,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-12 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.16814v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large language models (LLMs) are increasingly used as judges to assign scalar scores that drive downstream decision-making, including tasks such as paper review and recommendation.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -546,13 +561,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-12 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.16550v1)
 
-**摘要总结**：暂无
+**摘要总结**：General-purpose frontier models are large, expensive to run, and increasingly reluctant to engage with authorised defensive- and offensive-security work.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
@@ -562,13 +580,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-12 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.16458v1)
 
-**摘要总结**：暂无
+**摘要总结**：Preference alignment enables language models to better reflect human values, but the preference data contains sensitive information, especially when derived from surveys about political beliefs, social norms, religion, gender attitudes, and cultural values.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-cl` `cs-lg`
 
 ---
 
@@ -578,13 +599,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-12 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.16305v1)
 
-**摘要总结**：暂无
+**摘要总结**：As large language models are deployed behind increasingly sophisticated safety mechanisms, evaluating their robustness under realistic adversarial conditions becomes increasingly difficult and critical.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-cl`
 
 ---
 
