@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-10-18 08:08 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-10-19 08:17 Asia/Shanghai
 
 ## 今日论文
 
@@ -618,13 +618,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-12 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.16275v1)
 
-**摘要总结**：暂无
+**摘要总结**：Flow Matching (FM) has recently emerged as a principled and efficient generative modeling framework for reinforcement learning (RL), enabling expressive, multimodal policy parameterizations via deterministic probability transport.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-ai`
 
 ---
 
@@ -634,13 +637,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-12 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.16084v1)
 
-**摘要总结**：暂无
+**摘要总结**：Activation steering adds a vector to a language model's internal representations at inference time.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
 
 ---
 
@@ -650,13 +656,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-12 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.16070v1)
 
-**摘要总结**：暂无
+**摘要总结**：Frontier models are now trained for complex multi-agent tasks, from running a company to engaging in negotiations.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-lg`
 
 ---
 

@@ -1261,7 +1261,22 @@
       "cs.LG",
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Flow Matching (FM) has recently emerged as a principled and efficient generative modeling framework for reinforcement learning (RL), enabling expressive, multimodal policy parameterizations via deterministic probability transport.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-lg",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-10-19T00:17:52.241776+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-10-15T00:37:57.128410+00:00"
   },
   {
@@ -1286,7 +1301,21 @@
     "categories": [
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Activation steering adds a vector to a language model's internal representations at inference time.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-10-19T00:17:52.241860+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-10-15T00:37:57.128502+00:00"
   },
   {
@@ -1310,7 +1339,22 @@
       "cs.AI",
       "cs.LG"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Frontier models are now trained for complex multi-agent tasks, from running a company to engaging in negotiations.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-10-19T00:17:52.241918+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-10-15T00:37:57.128575+00:00"
   },
   {
