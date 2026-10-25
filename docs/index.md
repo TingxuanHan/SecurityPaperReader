@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-10-24 08:52 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-10-25 08:25 Asia/Shanghai
 
 ## 今日论文
 
@@ -219,13 +219,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-21 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.30193v1)
 
-**摘要总结**：暂无
+**摘要总结**：Retrieval-augmented generation (RAG) systems face security, privacy, and copyright risks including content leakage, source reconstruction, unauthorized access, data poisoning, and prompt injection.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-cl` `cs-ir`
 
 ---
 
@@ -482,13 +485,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-19 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.27208v1)
 
-**摘要总结**：暂无
+**摘要总结**：Deep neural networks have achieved remarkable success on vision benchmarks, yet they continue to struggle with many generalization challenges.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv` `cs-ai`
 
 ---
 
@@ -650,13 +656,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-19 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.25937v1)
 
-**摘要总结**：暂无
+**摘要总结**：Retrieval-Augmented Generation (RAG) enables large language models to access external knowledge during inference, but its reliance on external knowledge bases also introduces new attack surfaces.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
@@ -666,13 +675,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-19 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.25897v1)
 
-**摘要总结**：暂无
+**摘要总结**：As jailbreak attacks against large language models (LLMs) become increasingly diverse, red-teaming has come to rely on large libraries of jailbreak prompts and attack strategies to evaluate the robustness of victim models and their defense settings.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-cl`
 
 ---
 
@@ -682,13 +694,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-18 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.25588v1)
 
-**摘要总结**：暂无
+**摘要总结**：Alignment of large language models typically relies on pairwise preference feedback, though ranked feedback can capture more comprehensive information across multiple responses within a single annotation.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `stat-ml`
 
 ---
 
@@ -698,13 +713,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-18 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.24999v1)
 
-**摘要总结**：暂无
+**摘要总结**：Prompt injection is the dominant security risk for large-language-model (LLM) applications and agents, yet the field still lacks a coherent map of how these attacks are constructed.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-cl` `cs-lg`
 
 ---
 
@@ -714,13 +732,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-18 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.24969v1)
 
-**摘要总结**：暂无
+**摘要总结**：Safely overseeing AI is increasingly challenging for the humans doing it, as they must evaluate longer and more complex outputs with every new model generation.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
 
 ---
 
@@ -730,13 +751,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-17 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.24896v1)
 
-**摘要总结**：暂无
+**摘要总结**：LLM code agents increasingly ship code with little oversight, yet defenders trained on static vulnerability datasets fall behind adapting adversaries.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-cl`
 
 ---
 
