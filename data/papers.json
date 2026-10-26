@@ -1956,7 +1956,23 @@
       "cs.CR",
       "cs.SE"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Modern LLM applications rely on runtime monitors that inspect tool calls, traces, streams, detector outputs, and verifier inputs.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai",
+        "cs-cr",
+        "cs-se"
+      ],
+      "analyzed_at": "2026-10-26T00:31:23.852697+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-10-20T01:07:03.791677+00:00"
   },
   {
@@ -1984,7 +2000,22 @@
       "cs.CR",
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Multimodal large language model (MLLM)-based mobile agents are rapidly evolving from conversational assistants into autonomous systems that perceive, reason over, and act on smartphone environments.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-10-26T00:31:23.852828+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-10-20T01:07:03.791788+00:00"
   },
   {
@@ -2011,7 +2042,21 @@
     "categories": [
       "cs.CR"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "MLLM-based mobile agents are rapidly gaining autonomy in perception, planning, and closed-loop execution in dynamic mobile environments.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-10-26T00:31:23.852934+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-10-20T01:07:03.791902+00:00"
   },
   {
@@ -2038,7 +2083,22 @@
       "cs.CL",
       "cs.CR"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Tool-using agents read untrusted external content, which exposes them to indirect prompt injection (IPI), where hidden instructions hijack the agent's tool calls.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cl",
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-10-26T00:31:23.853027+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-10-20T01:07:03.791995+00:00"
   },
   {
@@ -2064,7 +2124,22 @@
       "cs.CR",
       "cs.CL"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Despite extensive safety alignment, large language models remain vulnerable to jailbreak attacks.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-cl"
+      ],
+      "analyzed_at": "2026-10-26T00:31:23.853136+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-10-20T01:07:03.792103+00:00"
   },
   {
@@ -2090,7 +2165,21 @@
     "categories": [
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Coding agents use execution harnesses to constrain the consequences of prompt injection by enforcing permission boundaries.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-10-26T00:31:23.853236+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-10-20T01:07:03.792213+00:00"
   },
   {
@@ -2119,7 +2208,23 @@
       "cs.AI",
       "cs.LG"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Small variations in prompt characteristics can meaningfully alter the semantics, tone, and contextual assumptions of large language model outputs.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cl",
+        "cs-ai",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-10-26T00:31:23.853332+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-10-20T01:07:03.792350+00:00"
   },
   {
@@ -2141,7 +2246,21 @@
     "categories": [
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Multi-turn jailbreaks use feedback from a victim large language model to adapt their queries over several turns.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-10-26T00:31:23.853428+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-10-20T01:07:03.792441+00:00"
   },
   {

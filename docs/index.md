@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-10-25 08:25 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-10-26 08:31 Asia/Shanghai
 
 ## 今日论文
 
@@ -922,13 +922,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-16 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.23362v1)
 
-**摘要总结**：暂无
+**摘要总结**：Modern LLM applications rely on runtime monitors that inspect tool calls, traces, streams, detector outputs, and verifier inputs.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-cr` `cs-se`
 
 ---
 
@@ -938,13 +941,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-16 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.23307v1)
 
-**摘要总结**：暂无
+**摘要总结**：Multimodal large language model (MLLM)-based mobile agents are rapidly evolving from conversational assistants into autonomous systems that perceive, reason over, and act on smartphone environments.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -954,13 +960,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-16 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.23303v1)
 
-**摘要总结**：暂无
+**摘要总结**：MLLM-based mobile agents are rapidly gaining autonomy in perception, planning, and closed-loop execution in dynamic mobile environments.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
@@ -970,13 +979,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-16 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.23254v1)
 
-**摘要总结**：暂无
+**摘要总结**：Tool-using agents read untrusted external content, which exposes them to indirect prompt injection (IPI), where hidden instructions hijack the agent's tool calls.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl` `cs-cr`
 
 ---
 
@@ -986,13 +998,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-16 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.23030v1)
 
-**摘要总结**：暂无
+**摘要总结**：Despite extensive safety alignment, large language models remain vulnerable to jailbreak attacks.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-cl`
 
 ---
 
@@ -1002,13 +1017,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-16 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.22987v1)
 
-**摘要总结**：暂无
+**摘要总结**：Coding agents use execution harnesses to constrain the consequences of prompt injection by enforcing permission boundaries.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
 
 ---
 
@@ -1018,13 +1036,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-16 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.22942v1)
 
-**摘要总结**：暂无
+**摘要总结**：Small variations in prompt characteristics can meaningfully alter the semantics, tone, and contextual assumptions of large language model outputs.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl` `cs-ai` `cs-lg`
 
 ---
 
@@ -1034,13 +1055,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-16 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.22928v1)
 
-**摘要总结**：暂无
+**摘要总结**：Multi-turn jailbreaks use feedback from a victim large language model to adapt their queries over several turns.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
 
 ---
 
