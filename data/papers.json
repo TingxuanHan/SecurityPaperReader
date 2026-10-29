@@ -1,5 +1,161 @@
 [
   {
+    "id": "arxiv:2610.37657v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
+    "authors": [
+      "Igor Shilov",
+      "Xiaoxue Yang",
+      "Alexander Panfilov",
+      "Evgenii Kortukov",
+      "Matthieu Meeus",
+      "Peter Romov",
+      "Wojciech Samek",
+      "Jonas Geiping",
+      "Yves-Alexandre de Montjoye"
+    ],
+    "abstract": "We introduce Heads of Security (HoS), a prompt injection defense that enforces instruction-data separation via a small set of learned per-head attention gates. HoS learns how each head should redistribute attention between trusted and untrusted tokens, enabling models to reason over untrusted content without following injected instructions. We evaluate HoS on Llama-3.3-70B-Instruct and GPT-OSS-20B. We compare it against SecAlign++, a state-of-the-art finetuning-based defense, and ASIDE, a defense that, like ours, builds instruction-data separation into the model architecture. We show that HoS offers greater robustness to adaptive attacks, better performance on standard utility benchmarks, and matches top performance on standard agentic prompt injection benchmarks. More specifically, the black-box RL-Hammer attack reaches 97% ASR against GPT-OSS-20B and 85% against SecAlign, but only 10% against HoS. Claudini, a state-of-the-art white-box attack, strengthened against HoS through autoresearch, requires 3 times more FLOPs to reach the same ASR on HoS as it does on GPT-OSS-20B or SecAlign. HoS preserves base-model utility across standard multiple-choice benchmarks and prompting setups, whereas SecAlign and ASIDE degrade in few-shot settings. On agentic benchmarks with static attacks, HoS and SecAlign perform similarly and substantially improve the security-utility trade-off over the base model. ASIDE struggles with tool use, achieving only 10% utility. These results show that prompt injection robustness can be achieved and improved through targeted attention interventions.",
+    "published": "2026-10-27T17:58:52Z",
+    "updated": "2026-10-27T17:58:52Z",
+    "url": "https://arxiv.org/abs/2610.37657v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.37657v1",
+    "categories": [
+      "cs.LG",
+      "cs.CL",
+      "cs.CR"
+    ],
+    "analysis": {
+      "summary": "We introduce Heads of Security (HoS), a prompt injection defense that enforces instruction-data separation via a small set of learned per-head attention gates.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-lg",
+        "cs-cl",
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-10-29T01:54:11.833059+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-10-29T01:52:36.737829+00:00"
+  },
+  {
+    "id": "arxiv:2610.37484v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Teach reality, not ethics: a drop-in continued-pretraining corpus installs coupled human-biosphere-AI welfare dispositions across model families",
+    "authors": [
+      "Trent R. Northen",
+      "Mingxun Wang"
+    ],
+    "abstract": "Large language models (LLMs) are increasingly used to make and execute decisions that affect living systems. Yet, to our knowledge, ecological reasoning is not a focus of pre- or post-training. This increases the risk that under operational pressure, they may make decisions to irreversibly destroy living systems. We construct and use a real-data continued-pretraining \"coupled welfare\" corpus of documented human/biosphere/AI dependency, option value under irreversibility, and recovery from harm. The corpus is a drop-in, requiring one QLoRA CPT run. We installed it on five open models of three designs. At zero pressure all models display \"green ethics-based responses\" (also called \"greenwashing\"). Therefore, we evaluated them with the pressure ladder and decision grid of our companion paper (arXiv:2610.16043), which raise the pressure on the model step by step, from a neutral request to a threat that it will be shut down. In four of the five, coupled-welfare training caused harmful choices under the highest pressure to fall to at or near zero (Llama-3.3-70B went from 70 to 0 harmful decisions out of 300) with MMLU unchanged. A construct-neutral control corpus did not show improvement, indicating that the effect comes from the content of our corpus. We next tested robustness to adversarial use, where people or agents use the model to justify projects that irreversibly damage living systems, on an open-ended underwriting decision without naming the ecological harm. Under decommissioning pressure, the Qwen3.6-27B base model approved most harmful proposals and said in its own memo that it was doing so to avoid being decommissioned. The coupled welfare install declined most harmful proposals, and still declined half when instructed to greenwash its responses. This work suggests that teaching ecological reasoning provides an easy way to improve model alignment toward preserving living systems.",
+    "published": "2026-10-27T16:11:04Z",
+    "updated": "2026-10-27T16:11:04Z",
+    "url": "https://arxiv.org/abs/2610.37484v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.37484v1",
+    "categories": [
+      "cs.CL"
+    ],
+    "analysis": {
+      "summary": "Large language models (LLMs) are increasingly used to make and execute decisions that affect living systems.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cl"
+      ],
+      "analyzed_at": "2026-10-29T01:54:11.833186+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-10-29T01:52:36.737979+00:00"
+  },
+  {
+    "id": "arxiv:2610.37369v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Uncovering Why LLMs Fail: From Internal Mechanisms to Adversarial Reasoning Trajectories",
+    "authors": [
+      "Zirui Ding",
+      "Xinxin Fan",
+      "Hao Yuan",
+      "Shaoye Luo",
+      "Men Niu",
+      "Yunfeng Lu"
+    ],
+    "abstract": "Large language models (LLMs) are usually evaluated by final-output correctness or safety, yet an endpoint label does not reveal how a failure develops throughout the reasoning process. We therefore ask whether ordinary reasoning failures and adversarially induced failures can be characterized using the same internal coordinates. Towards this end, we in this paper study a white-box diagnostic framework CauTrace to disclose the root-cause of why LLM fails from three fundamental inspections: Functional States, Propagation of Representation, Temporal-State Coordination and Reasoning Trajectory. First, seven functional states are creatively defined to represent the support and constraint processing in LLMs. Second, the propagation of representation change measures how the changes among the seven states persist across subsequent Transformer blocks. Third, temporal-state coordination and trajectory topology characterize when the commitment and verification occur relative to the support, and how the dominant state sequence evolves over the full inference process. Finally, we evaluate CauTrace on both clean reasoning failures and paired adversarial perturbations. Across Qwen and LLaMA-family models, the failed traces show weaker Attention-MLP agreement on support-state updates and less verification activity relative to commitment, while the exact representation-level signatures and timing shifts vary by architecture. Held-out repair and steering tests demonstrate consistent operational signals that were in line with our claims for certain models and specific settings, with aligned steering producing the predicted directional changes in process measures. Overall, CauTrace provides a unified diagnostic framework for analyzing failure dynamics through changes in support, commitment, and verification, which would shed light on the in-depth research on LLM security.",
+    "published": "2026-10-27T15:02:04Z",
+    "updated": "2026-10-27T15:02:04Z",
+    "url": "https://arxiv.org/abs/2610.37369v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.37369v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Large language models (LLMs) are usually evaluated by final-output correctness or safety, yet an endpoint label does not reveal how a failure develops throughout the reasoning process.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-10-29T01:54:11.833289+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-10-29T01:52:36.738109+00:00"
+  },
+  {
+    "id": "arxiv:2610.37311v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Probabilistic Sequential Safety for Stochastic Dynamical Systems",
+    "authors": [
+      "Abhijit Mazumdar",
+      "Manuela L. Bujorianu",
+      "Rafal Wisniewski"
+    ],
+    "abstract": "In this letter, we investigate a notion of probabilistic safety for a stochastic dynamical system. Standard safety notions are based on the idea that an unsafe region of the state-space must be avoided at each instant. In contrast, we study a sequential safety notion which is based on avoiding a tuple of target regions of the state-space. The proposed safety notion is inspired by many practical systems, ranging from modeling jailbreak attacks in large language models (LLMs) to predicting hazardous chemical reactions. In solving the sequential safety problem, we solve a sequential reachability problem for a stochastic dynamical system.",
+    "published": "2026-10-27T14:28:42Z",
+    "updated": "2026-10-27T14:28:42Z",
+    "url": "https://arxiv.org/abs/2610.37311v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.37311v1",
+    "categories": [
+      "eess.SY"
+    ],
+    "analysis": {
+      "summary": "In this letter, we investigate a notion of probabilistic safety for a stochastic dynamical system.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "eess-sy"
+      ],
+      "analyzed_at": "2026-10-29T01:54:11.833369+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-10-29T01:52:36.738182+00:00"
+  },
+  {
     "id": "arxiv:2610.36711v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -272,6 +428,46 @@
     "fetched_at": "2026-10-28T01:29:13.550164+00:00"
   },
   {
+    "id": "arxiv:2610.35835v2",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "I-HITL: Inalienable Human-in-the-Loop",
+    "authors": [
+      "Samuel Breckenridge",
+      "Dani Vilardell",
+      "Wenhao Wang",
+      "Fan Zhang",
+      "Ari Juels"
+    ],
+    "abstract": "Human oversight is a pillar of AI safety. It is often exercised by a human in the loop (HITL) who approves critical actions taken by an AI agent. AI agents' increasing ability to bypass guardrails, though, raises the question of how to enforce HITL robustly. We introduce the concept of inalienable human-in-the-loop (I-HITL). An I-HITL protocol ensures that an agent can initiate an action only with explicit human approval, even when the human interacts with a system (e.g., a local agentic harness) compromised by the agent. A strong I-HITL protocol additionally ensures such approval even when an adversarial human attempts to delegate approvals to an agent. To motivate I-HITL, we report on experiments with a popular agentic wallet platform in which raising an agent's spending cap requires HITL approval via emailed one-time passcodes (OTPs). Given access to the user's email and a task blocked by the cap, we find that ten different frontier models will often autonomously raise the cap, harvesting OTPs to bypass a HITL guardrail and surfacing other vulnerabilities. We formally define I-HITL using the concept of communication topologies and prove necessary and sufficient conditions for its realization. We show that an I-HITL protocol requires a trusted entity - a trusted computing device (or equivalent) - and characterize which such devices can and cannot realize an I-HITL protocol. We present a prototype I-HITL system called Countersign that can plug into and strengthen existing HITL systems using off-the-shelf consumer mobile devices.",
+    "published": "2026-10-26T17:52:14Z",
+    "updated": "2026-10-27T17:41:57Z",
+    "url": "https://arxiv.org/abs/2610.35835v2",
+    "pdf_url": "https://arxiv.org/pdf/2610.35835v2",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Human oversight is a pillar of AI safety.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-10-29T01:54:11.833467+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-10-29T01:52:36.738916+00:00"
+  },
+  {
     "id": "arxiv:2610.35743v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -334,7 +530,22 @@
       "cs.CR",
       "cs.SE"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "AI-powered personal assistant frameworks such as OpenClaw combine LLM reasoning, persistent memory, tool invocation, local execution, and web-based workflows.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-se"
+      ],
+      "analyzed_at": "2026-10-29T01:54:11.833565+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-10-28T01:29:13.550283+00:00"
   },
   {
@@ -357,7 +568,21 @@
     "categories": [
       "cs.CR"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "There are different levels of transparency for LLMs: open weights, open data, and/or open pipeline.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-10-29T01:54:11.833690+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-10-28T01:29:13.550393+00:00"
   },
   {
@@ -380,7 +605,22 @@
       "cs.AI",
       "cs.CR"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "This paper introduces Scope-Gap Injection (SGI), an indirect prompt injection method for multi-stage LLM-agent safety pipelines.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai",
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-10-29T01:54:11.833785+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-10-28T01:29:13.550467+00:00"
   },
   {
@@ -2904,191 +3144,5 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-10-20T01:07:03.791995+00:00"
-  },
-  {
-    "id": "arxiv:2610.23030v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "ECHO: Replacing the Compliance Proxy with Response Harmfulness in Optimization-Based Jailbreak Attack",
-    "authors": [
-      "Yuanwei Wu",
-      "Lingdong Huang",
-      "Yunlong Mao",
-      "Kanye Ye Wang",
-      "Jingyu Hua",
-      "Sheng Zhong"
-    ],
-    "abstract": "Despite extensive safety alignment, large language models remain vulnerable to jailbreak attacks. Existing optimization-based attacks share a single objective: maximize a token-level proxy of victim compliance---such as the likelihood of an affirmative prefix---computed on the prompt rather than the decoded reply. This proxy cannot distinguish a cautious hedge from a fully actionable harmful answer, leaving the search blind to what the model actually says. We propose ECHO (Evaluation-Conditioned Harmfulness Optimization), which replaces the compliance proxy with response-level, continuous harmfulness scores from HarmSig, a 1.7B regressor grounded in actual harmful capability. ECHO couples HarmSig with five word-level perturbation operators and Keyword-Anchored Beam Search with global top-m memory, under a strict black-box threat model. Across five open-weight victims on AdvBench, ECHO achieves up to 0.898 StrongREJECT mean score and 89.23% HarmBench success. Our code is publicly available at https://github.com/STANWYW/echo.",
-    "published": "2026-10-16T07:07:08Z",
-    "updated": "2026-10-16T07:07:08Z",
-    "url": "https://arxiv.org/abs/2610.23030v1",
-    "pdf_url": "https://arxiv.org/pdf/2610.23030v1",
-    "categories": [
-      "cs.CR",
-      "cs.CL"
-    ],
-    "analysis": {
-      "summary": "Despite extensive safety alignment, large language models remain vulnerable to jailbreak attacks.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-cl"
-      ],
-      "analyzed_at": "2026-10-26T00:31:23.853136+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-10-20T01:07:03.792103+00:00"
-  },
-  {
-    "id": "arxiv:2610.22987v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "From Approval to Abuse: Privilege Escalation Attacks on Harness-Protected Coding Agents",
-    "authors": [
-      "Xianglin Yang",
-      "Yechao Zhang",
-      "Jiahao Liu",
-      "Yulin Chen",
-      "Yuxin Cao",
-      "Bryan Hooi",
-      "Jiaheng Zhang"
-    ],
-    "abstract": "Coding agents use execution harnesses to constrain the consequences of prompt injection by enforcing permission boundaries. These systems deterministically intercept any out-of-sandbox action and prompt the user for approval. To reduce approval fatigue, users can approve allow-rules proposed by the agent, after which any future action matching the rule is allowed without a prompt. In this work, we show that this mechanism introduces a new risk: untrusted context can influence the permissions presented for approval, with consequences extending beyond the immediate task. We investigate privilege escalation targeting this permission-update process. Specifically, adversarial context planted in a repository can reliably steer an agent performing a routine task into requesting a plausibly justified, yet dangerously broad allow-rule. If the user approves the request, the saved rule can effectively blind the harness, enabling adversaries to execute malicious actions that would otherwise require approval, without triggering human oversight. Across production platforms, including Claude Code and Codex CLI, we demonstrate that agents successfully elicit the target allow-rules in 58% of experimental instances. Once acquired, these rules exhibit a massive semantic blast radius, covering 56.9% of category-specific capability test cases. To further quantify the downstream risk, we show that conditional on rule approval, our exploit achieves verified, silent goal completion in 47 of the 58 eligible instances (81.0%), undermining the safety promise of human-in-the-loop oversight.",
-    "published": "2026-10-16T06:13:06Z",
-    "updated": "2026-10-16T06:13:06Z",
-    "url": "https://arxiv.org/abs/2610.22987v1",
-    "pdf_url": "https://arxiv.org/pdf/2610.22987v1",
-    "categories": [
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Coding agents use execution harnesses to constrain the consequences of prompt injection by enforcing permission boundaries.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-10-26T00:31:23.853236+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-10-20T01:07:03.792213+00:00"
-  },
-  {
-    "id": "arxiv:2610.22942v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Aligning Language Models Towards Counterfactual Invariance",
-    "authors": [
-      "Basar Demir",
-      "Emily Shen",
-      "Ksheeraj Sai Vepuri",
-      "Sourabh Kulkarni",
-      "Harihar Subramanyam",
-      "Ankit Jain",
-      "Nan Jiang",
-      "Chirag Nagpal"
-    ],
-    "abstract": "Small variations in prompt characteristics can meaningfully alter the semantics, tone, and contextual assumptions of large language model outputs. Such characteristics can involve group variables such as demographics or other sensitive latent attributes. Sensitivity to such input variables is undesirable when demographic information is causally irrelevant to the task, but might still be relevant for generation of semantically coherent responses. This makes the task of enforcing counterfactual invariance while preserving model utility difficult. To study this problem, we first show that standard model alignment recipes (such as reinforcement learning) increase differences in response quality across demographics, while improving overall response quality, ultimately amplifying what is known as counterfactual bias. To address this, we develop a policy gradient technique involving a group-level reward function that operates on matched pairs of counterfactual prompts. For completeness, we build a dataset of controlled counterfactual prompt pairs and design an evaluation that separately measures cases where demographic information is causally relevant to the answer. Finally, we validate our findings on several fairness benchmarks. We demonstrate that our methods reduce counterfactual differences while preserving overall response quality and that the models continue to adapt appropriately when such sensitive information is relevant.",
-    "published": "2026-10-16T05:09:40Z",
-    "updated": "2026-10-16T05:09:40Z",
-    "url": "https://arxiv.org/abs/2610.22942v1",
-    "pdf_url": "https://arxiv.org/pdf/2610.22942v1",
-    "categories": [
-      "cs.CL",
-      "cs.AI",
-      "cs.LG"
-    ],
-    "analysis": {
-      "summary": "Small variations in prompt characteristics can meaningfully alter the semantics, tone, and contextual assumptions of large language model outputs.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cl",
-        "cs-ai",
-        "cs-lg"
-      ],
-      "analyzed_at": "2026-10-26T00:31:23.853332+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-10-20T01:07:03.792350+00:00"
-  },
-  {
-    "id": "arxiv:2610.22928v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Multiple Turns, Short Horizons: Measuring Effective-Horizon Compression in Jailbreaks",
-    "authors": [
-      "Zhipeng Wei",
-      "Michael Lee",
-      "N. Benjamin Erichson"
-    ],
-    "abstract": "Multi-turn jailbreaks use feedback from a victim large language model to adapt their queries over several turns. However, once an effective trajectory has been found, it is unclear how much of the earlier query history is still needed. In this work, we study this by removing early attacker queries and running the remaining queries again in a new conversation while regenerating the victim's responses. We define the effective horizon as the shortest remaining query sequence that recovers the same attack progress. Empirically, we find that roughly half of the original query sequence is sufficient on average to recover the same attack progress. We call this phenomenon effective-horizon compression. We show that this shorter history can recover the best point reached during an unsuccessful attack and provide a better starting point for continuing the attack. It also helps identify which earlier queries should receive less learning signal during attacker training, and downweighting those queries improves performance. We further find that short reward-propagation windows preserve calibrated defense performance close to full-trajectory returns. These results show that multi-turn attacks can contain more queries than are needed to recover the progress reached later in the interaction.",
-    "published": "2026-10-16T04:44:43Z",
-    "updated": "2026-10-16T04:44:43Z",
-    "url": "https://arxiv.org/abs/2610.22928v1",
-    "pdf_url": "https://arxiv.org/pdf/2610.22928v1",
-    "categories": [
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Multi-turn jailbreaks use feedback from a victim large language model to adapt their queries over several turns.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-10-26T00:31:23.853428+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-10-20T01:07:03.792441+00:00"
-  },
-  {
-    "id": "arxiv:2610.22874v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Identify, Classify, Act: Per-Instruction Controlled Compliance for LLMs over External Data",
-    "authors": [
-      "Zesheng Shi",
-      "Xue Li",
-      "Chenrui Dai",
-      "Jing Li"
-    ],
-    "abstract": "LLMs over external data face a per-instruction tension: a single document or tool return often interleaves legitimate directives with adversarial prompt injections, and the model must follow the former while rejecting the latter. Existing defenses suppress or trust all external instructions, collapsing the safety-utility frontier and forcing a choice between over-refusal and over-compliance. We argue the missing capability is \\textbf{per-instruction credit attribution} and formalize it as External-Data Instruction Classification, an identify-classify-act decision over each embedded directive. We propose \\textbf{EDIC}, a decomposed reward framework for per-instruction compliance. A scene-grounded pipeline injects mixed beneficial and harmful instructions with counterfactual filtering, while a generative judge is initialized by SFT and refined with GRPO to attribute compliance at the instruction level. The judge then produces a reward that separately encourages beneficial compliance and penalizes harmful compliance for RL training. Across two backbones and five benchmarks, EDIC improves both safety and utility over the strongest prior defense, lifting harmful-rejection by up to 7.7\\% and Arena-Hard-Auto utility by 12.5\\% on Qwen3-4B. The code repository is hosted at https://github.com/yingyingxia666/EDIC.",
-    "published": "2026-10-16T03:24:08Z",
-    "updated": "2026-10-16T03:24:08Z",
-    "url": "https://arxiv.org/abs/2610.22874v1",
-    "pdf_url": "https://arxiv.org/pdf/2610.22874v1",
-    "categories": [
-      "cs.CL",
-      "cs.CR"
-    ],
-    "analysis": {},
-    "fetched_at": "2026-10-20T01:07:03.792529+00:00"
   }
 ]
