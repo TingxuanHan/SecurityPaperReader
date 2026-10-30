@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-10-29 09:54 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-10-30 10:05 Asia/Shanghai
 
 ## 今日论文
 
@@ -314,13 +314,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-25 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.34535v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large language model (LLM) agents are increasingly wired to consequential tools that send public alerts, dispatch responders, and query citizen records, where one erroneous tool call carries real-world cost.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -330,13 +333,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-25 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.34358v1)
 
-**摘要总结**：暂无
+**摘要总结**：Task success is not a sufficient measure of safety for embodied artificial intelligence (AI), because robots may complete objectives while violating safety requirements.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-se` `cs-ro`
 
 ---
 
@@ -346,13 +352,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-25 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.34103v1)
 
-**摘要总结**：暂无
+**摘要总结**：Speculative decoding significantly accelerates autoregressive text generation in Large Language Models (LLMs), but its efficacy depends largely on two key factors: the distributional alignment between the draft and the target model, and the draft model's latency during inference.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl` `cs-ai` `cs-lg`
 
 ---
 
@@ -362,13 +371,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-25 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.34074v1)
 
-**摘要总结**：暂无
+**摘要总结**：Jailbreak benchmarks test one checkpoint and treat which jailbreaks break it as a property of its pretraining data and safety training.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl` `cs-ai`
 
 ---
 
