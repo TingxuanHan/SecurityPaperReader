@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-10-31 09:42 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-11-01 09:19 Asia/Shanghai
 
 ## 今日论文
 
@@ -162,13 +162,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.38867v1)
 
-**摘要总结**：暂无
+**摘要总结**：LLM agents are increasingly adopted in long-horizon tasks and interact with diverse external environments.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-cr` `cs-lg`
 
 ---
 
@@ -178,13 +181,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.38833v1)
 
-**摘要总结**：暂无
+**摘要总结**：Automated jailbreak discovery aims to find prompts that elicit prohibited behaviors from safety-trained language models, helping developers identify vulnerabilities before deployment.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-ai`
 
 ---
 
@@ -194,13 +200,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.38617v1)
 
-**摘要总结**：暂无
+**摘要总结**：We ask what AI coding agents and AI security harnesses find that deterministic static application security testing (SAST) does not, and what they miss that SAST catches.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-se`
 
 ---
 
@@ -210,13 +219,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.38595v1)
 
-**摘要总结**：暂无
+**摘要总结**：A binary success indicator is a natural representation for discriminative tasks such as image classification under adversarial perturbations, where each input is mapped to a single prediction.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-cl`
 
 ---
 
@@ -226,13 +238,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.38120v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large Language Models (LLMs) treat all context tokens uniformly, lacking explicit separation between executable instructions and passive data.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-lg`
 
 ---
 
@@ -242,13 +257,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-28 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.38091v1)
 
-**摘要总结**：暂无
+**摘要总结**：Multimodal large language models (MLLMs) are vulnerable to visual jailbreak attacks that bypass safety safeguards.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-ai` `cs-cr`
 
 ---
 
@@ -296,13 +314,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-27 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.37738v1)
 
-**摘要总结**：暂无
+**摘要总结**：Modern agent frameworks allow users to provide Markdown files containing system prompts, tool descriptions, and skill definitions (e.g., SKILL.md), which are incorporated into the agent's context during initialization.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
