@@ -1,14 +1,166 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-11-05 10:38 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-11-06 10:38 Asia/Shanghai
 
 ## 今日论文
+
+### [Goal Revelation as a Bridge Between Information-Theoretic Empowerment and Capability-Based Human Power](https://arxiv.org/abs/2611.07247v1)
+
+**作者**：Jaime Ruiz-Serra, Tomáš Gavenčiak, Jobst Heitzig
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-11-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.07247v1)
+
+**摘要总结**：Power matters for AI safety.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-it` `cs-lg`
+
+---
+
+### [SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection](https://arxiv.org/abs/2611.07222v1)
+
+**作者**：Woosang Lim, Yeseul Chang, Jaewoo Lee
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-11-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.07222v1)
+
+**摘要总结**：Tool-using agents act on email, files, and payments, so an instruction hidden in a web page or a shared document can make an agent send data or money to an attacker.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
+
+---
+
+### [Adapting the Process of Adaptation: Darwinian, Lamarckian, and Agent-Directed Evolution in AI](https://arxiv.org/abs/2611.07048v1)
+
+**作者**：Andrew W. Lo, Chaoyi Zhao
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-11-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.07048v1)
+
+**摘要总结**：Evolution has shaped intelligence for billions of years.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
+
+---
+
+### [SecureGARD: Dynamic Ontology-Guided Governance for Secure Tool-Using LLM Agents](https://arxiv.org/abs/2611.06682v1)
+
+**作者**：Guoqin Xiong, Shengtao Wen, Xiang Chen, Xinyi Zeng, Zhaoxin Fan, Wei Ye, Xiaofeng Cao, Sheng-Jun Huang
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-11-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.06682v1)
+
+**摘要总结**：Tool-using large language model (LLM) agents translate model outputs into consequential actions, turning indirect prompt injection into an execution-security problem.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg`
+
+---
+
+### [Addition by Subtraction: Toward Mitigating Fragile Safety Alignment in Large Language Models](https://arxiv.org/abs/2611.06553v1)
+
+**作者**：Hamid Dashtbani, Alexandra Dmitrienko
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-11-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.06553v1)
+
+**摘要总结**：Large language models (LLMs) undergo safety alignment to prevent harmful generations, yet they remain vulnerable to jailbreak attacks.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-cr`
+
+---
+
+### [SafeStart: Mitigating the Overlooked Safety Cost of Active Expert Reduction in MoE LLM Serving](https://arxiv.org/abs/2611.06147v1)
+
+**作者**：Erfan Baghaei Potraghloo, Saeid Shokoufa, Seyedarmin Azizi, Arya Fayyazi, Souvik Kundu, Mehdi Kamal, Massoud Pedram
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-11-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.06147v1)
+
+**摘要总结**：Mixture-of-Experts (MoE) language models send each token through a few of many expert subnetworks.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-lg`
+
+---
+
+### [Securing Web Agents with the Compile-Then-Execute Paradigm](https://arxiv.org/abs/2611.06039v1)
+
+**作者**：Annabella Chow, Jinhao Zhu, Sylvie Venuto, Abdulaziz Alharbi, Basel Alomair, Raluca Popa, David Wagner, Julien Piet
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-11-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.06039v1)
+
+**摘要总结**：Web agents commonly follow the ReAct paradigm, selecting each action from runtime observations that inherently mix trusted and untrusted content.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
+
+---
 
 ### [ScamWorld: An Interactive Environment for Evaluating Web Agents Against Online Fraud](https://arxiv.org/abs/2611.04879v1)
 
 **作者**：Yutao Wu, Xiao Liu, Ming Wen, Hanxun Huang, Jun Wang, Xingjun Ma
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-03 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.04879v1)
+
+**摘要总结**：Web agents increasingly browse, shop, and manage accounts on behalf of their users.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
+
+---
+
+### [ScamWorld: An Interactive Environment for Evaluating Web Agents Against Online Fraud](https://arxiv.org/abs/2611.04879v2)
+
+**作者**：Yutao Wu, Xiao Liu, Ming Wen, Hanxun Huang, Jun Wang, Xingjun Ma
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-11-03 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.04879v2)
 
 **摘要总结**：Web agents increasingly browse, shop, and manage accounts on behalf of their users.
 
@@ -1333,155 +1485,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-cl`
-
----
-
-### [On Task, Off Track: Benchmarking LLM and Agent Robustness to Near-Target Prompt Injection](https://arxiv.org/abs/2610.32531v1)
-
-**作者**：Yuyang Gong, Zihao Wang, Jiawei Liu, XiaoFeng Wang
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-10-23 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.32531v1)
-
-**摘要总结**：Prompt injection benchmarks assess whether large language models (LLMs) and agents resist malicious instructions embedded in external content.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr`
-
----
-
-### [Anti-coherence Regularized Absolute Scaling for Out-of-Distribution Detection](https://arxiv.org/abs/2610.32255v1)
-
-**作者**：Donghwan Kim, Youngwoong Jin, Hyunsoo Yoon
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-10-23 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.32255v1)
-
-**摘要总结**：Out-of-distribution (OOD) detection is recognized as a critical problem in AI safety.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-lg` `cs-ai`
-
----
-
-### [Agentic AI Defense: Decode-Time Provenance Binding for MCP](https://arxiv.org/abs/2610.31974v1)
-
-**作者**：Eric Yocam, Varghese Vaidyan, Paris Kalathas, Patrick Tague, Bruce DeBruhl, Yong Wang
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-10-22 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.31974v1)
-
-**摘要总结**：Agentic AI systems using the Model Context Protocol (MCP) are vulnerable to indirect prompt injection through untrusted tool outputs.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai` `cs-ma`
-
----
-
-### [$M^3$: A Multi-LLM System for Multi-Turn Jailbreaking as a Markov Decision Process](https://arxiv.org/abs/2610.31937v1)
-
-**作者**：Yuqing Huang, Jack Ji, Jithin Pradeep, Sagarika Suresh, Jekaterina Novikova
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-10-22 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.31937v1)
-
-**摘要总结**：Modern Large Language Models (LLMs) remain vulnerable to carefully orchestrated multi-turn interactions that progressively bypass safety mechanisms.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai`
-
----
-
-### [Not All Retained Clients Are Equal: Client Selection for Federated Unlearning](https://arxiv.org/abs/2610.31786v1)
-
-**作者**：Thanh Linh Nguyen, Quoc-Viet Pham
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-10-22 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.31786v1)
-
-**摘要总结**：Federated unlearning (FU) aims to remove a designated target client's influence from a trained model without the prohibitive cost of retraining from scratch.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-lg` `cs-dc` `cs-et`
-
----
-
-### [Certified Execution Harness for Agentic AI: Safe and Least-Intrusive Petri-Net Supervisory Control Between Reasoning and Action](https://arxiv.org/abs/2610.31376v1)
-
-**作者**：Chao Gu, Quanyan Zhu
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-10-22 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.31376v1)
-
-**摘要总结**：This paper studies the problem of safe tool execution for large language model (LLM) agents under prompt injection.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai` `eess-sy`
-
----
-
-### [Harmful Responses Are Jailbreak Templates: Transferring Autoregressive Jailbreaks to Diffusion Language Models](https://arxiv.org/abs/2610.31331v1)
-
-**作者**：Jinwei Gan, Zifeng Cheng, Zhiwei Jiang, Ran Sun, Shiping Ge, Qing Gu
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-10-22 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.31331v1)
-
-**摘要总结**：Diffusion large language models (dLLMs) enable flexible masked generation through bidirectional context modeling, but this capability also introduces a distinct jailbreak attack surface.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-lg`
-
----
-
-### [Harmful Responses Are Jailbreak Templates: Transferring Autoregressive Jailbreaks to Diffusion Language Models](https://arxiv.org/abs/2610.31331v2)
-
-**作者**：Jinwei Gan, Zifeng Cheng, Zhiwei Jiang, Ran Sun, Shiping Ge, Qing Gu
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-10-22 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.31331v2)
-
-**摘要总结**：Diffusion large language models (dLLMs) enable flexible masked generation through bidirectional context modeling, but this capability also introduces a distinct jailbreak attack surface.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-lg`
