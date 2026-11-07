@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-11-06 10:38 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-11-07 10:06 Asia/Shanghai
 
 ## 今日论文
 
@@ -466,13 +466,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-02 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.03739v1)
 
-**摘要总结**：暂无
+**摘要总结**：We formulate and investigate the hypothesis that reasoning text has simpler co-occurrence topology than non-reasoning text, and that higher-quality reasoning has simpler co-occurrence topology than lower-quality reasoning.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
 
 ---
 
@@ -482,13 +485,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-01 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.02139v1)
 
-**摘要总结**：暂无
+**摘要总结**：Retrieval-based fact-checking systems ground verification in large document collections, creating a critical vulnerability: adversarial evidence contamination.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ir` `cs-lg`
 
 ---
 
@@ -498,13 +504,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-01 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.02134v1)
 
-**摘要总结**：暂无
+**摘要总结**：An input guard decides whether a request reaches the model, but never sees what the model says.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl` `cs-cr`
 
 ---
 
@@ -514,13 +523,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-01 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.01976v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large language model based agents increasingly rely on external tools to invoke services and interact with web resources.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -530,13 +542,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-01 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.01813v1)
 
-**摘要总结**：暂无
+**摘要总结**：Email spam and phishing remain persistent threats, and purely algorithmic classifiers may struggle with unfamiliar senders, evolving message content, and cold-start domains.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
@@ -546,13 +561,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-01 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.01700v1)
 
-**摘要总结**：暂无
+**摘要总结**：AI agents often rely on persistent memory to retain user preferences and operational rules across sessions.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
 
 ---
 
@@ -562,13 +580,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-31 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.01342v1)
 
-**摘要总结**：暂无
+**摘要总结**：Prefill jailbreaks can cause safety-aligned language models to continue an unsafe assistant prefix even when they would refuse the same request under normal decoding.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -730,13 +751,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-30 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.41181v1)
 
-**摘要总结**：暂无
+**摘要总结**：LLM-powered browser agents are transforming web automation by autonomously interacting with websites and executing complex workflows.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
