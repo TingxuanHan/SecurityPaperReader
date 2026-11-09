@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-11-08 09:37 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-11-09 09:48 Asia/Shanghai
 
 ## 今日论文
 
@@ -922,13 +922,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.41072v1)
 
-**摘要总结**：暂无
+**摘要总结**：Security operations centers (SOCs) need to turn terabytes of alerts, logs and flows into trusted, affordable decisions to unveil hidden threats.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-cr`
 
 ---
 
@@ -938,13 +941,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.40926v1)
 
-**摘要总结**：暂无
+**摘要总结**：Automated red teaming trains an attacker large language model (LLM) to elicit harmful responses from a victim LLM, but reinforcement learning can collapse attackers onto a narrow set of prompts when attack success is the only reward.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl`
 
 ---
 
@@ -954,13 +960,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.40890v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large language models (LLMs) can generate detailed guidance, functional code, and persuasive text at scale.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
 
 ---
 
@@ -1008,13 +1017,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-29 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.40744v1)
 
-**摘要总结**：暂无
+**摘要总结**：With the progressive capabilities of large language models (LLMs), researchers are finding ways to integrate them into the control loops of Open Radio Access Network (O-RAN) to enable slicing and resource management through user intents.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-ni`
 
 ---
 
