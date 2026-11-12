@@ -1,5 +1,307 @@
 [
   {
+    "id": "arxiv:2611.14046v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Structured Confidence Perturbation via Fisher Geometry for Adversarial Training",
+    "authors": [
+      "Chenlong Wei",
+      "Hanling Wang",
+      "Chong Zhang",
+      "Qinkai Yu",
+      "Fangyu Wu",
+      "Xiaobo Jin"
+    ],
+    "abstract": "Adversarial training is often plagued by \"pseudo-attacks\", perturbations that significantly increase the loss value but fail to truly alter the model's confidence structure. To address this, we propose two complementary approaches to directly attack and defend against confidence structure deformation. First, building upon the traditional loss maximization perspective, we introduce a hybrid objective that integrates cross-entropy and KL divergence, encouraging adversarial examples to simultaneously disrupt prediction accuracy and distribution consistency. Second, we geometrically reconstruct adversarial training by generating perturbations that maximize the distribution distance on the confidence manifold. Theoretical analysis shows that the optimal perturbation direction aligns with the principal eigenvectors of the Fisher information matrix. We also propose an efficient algorithm to avoid high-dimensional matrix computations. Experiments on multiple datasets and model architectures demonstrate that our method outperforms existing methods in adversarial robustness and robust transferability, particularly excelling in structural perturbations within high-confidence regions.",
+    "published": "2026-11-10T13:13:30Z",
+    "updated": "2026-11-10T13:13:30Z",
+    "url": "https://arxiv.org/abs/2611.14046v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.14046v1",
+    "categories": [
+      "cs.LG",
+      "cs.CV"
+    ],
+    "analysis": {
+      "summary": "Adversarial training is often plagued by \"pseudo-attacks\", perturbations that significantly increase the loss value but fail to truly alter the model's confidence structure.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-lg",
+        "cs-cv"
+      ],
+      "analyzed_at": "2026-11-12T03:11:07.505601+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-12T03:09:31.970764+00:00"
+  },
+  {
+    "id": "arxiv:2611.13995v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Lipschitz-Controlled Flow Matching for Robust Image Restoration",
+    "authors": [
+      "Sedjro Salomon Hotegni",
+      "Konstantin Sonntag",
+      "Paul-Christian Bürkner",
+      "Sebastian Peitz"
+    ],
+    "abstract": "Flow-matching models can produce high-quality image restorations, but their learned dynamics may amplify small input perturbations and make reconstructions unstable. We introduce LipsFlower to reduce this amplification. We derive stability bounds for Flow-from-$Y$, which initializes the ordinary differential equation from a noise-perturbed observation, as well as for observation-conditioned posterior sampling, which conditions the velocity field on the observation throughout integration. Based on this analysis, we develop LipHDiT, a Lipschitz-aware hourglass diffusion transformer that serves as the vector-field architecture of LipsFlower. LipHDiT incorporates stabilized approximate spectral normalization, bounded modulation, and convex residual mixing. We also use adversarial finite-radius gain regularization at sampled interpolation states to penalize excessive sensitivity to the state and, for conditional sampling, the observation. We test both formulations on blind face restoration, measuring adversarial robustness and the perceptual quality of the reconstructions. LipsFlower reduces perturbation amplification while keeping restoration quality competitive with the evaluated baselines. These results suggest that Lipschitz-aware flow matching can improve the stability of generative image restoration.",
+    "published": "2026-11-10T12:40:17Z",
+    "updated": "2026-11-10T12:40:17Z",
+    "url": "https://arxiv.org/abs/2611.13995v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.13995v1",
+    "categories": [
+      "cs.CV"
+    ],
+    "analysis": {
+      "summary": "Flow-matching models can produce high-quality image restorations, but their learned dynamics may amplify small input perturbations and make reconstructions unstable.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cv"
+      ],
+      "analyzed_at": "2026-11-12T03:11:07.505688+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-12T03:09:31.970861+00:00"
+  },
+  {
+    "id": "arxiv:2611.13968v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Advancing a Global Framework for AI Safety and Governance for the Well-being of Humanity",
+    "authors": [
+      "Zeng Yi",
+      "Seán Ó hÉigeartaigh",
+      "Wang Zhengqi",
+      "Lu Enmeng",
+      "Chen Yu",
+      "Cao Gongce",
+      "Guo Xiaoyang",
+      "Kang Yanrong",
+      "Han Kaiyu",
+      "Fan Jinyu",
+      "Xie Jiawei",
+      "Han Zhengqiang",
+      "Wang Jin",
+      "Huangfu Cunqing",
+      "Bao Aorigele",
+      "Dame Wendy Hall",
+      "Lin Lin",
+      "Duan Weiwen",
+      "Wang Rong",
+      "Zhang Junlin",
+      "Tang Xinhua",
+      "Vincent C. Müller",
+      "Chen Jingjing",
+      "Li Na",
+      "Cheng Kai",
+      "Sebastian Sunday Grève",
+      "Danil Kerimi",
+      "Bernd Holznagel",
+      "Anna Abramova",
+      "Jimena Sofia Viveros Alvarez",
+      "Edson Prestes",
+      "Shen Juncheng",
+      "Liu Yongmou",
+      "Zhang Jiji",
+      "Nada Laabidi",
+      "Yao Xin",
+      "Zhou Kai",
+      "George Chen",
+      "Fu Chunhui",
+      "Liu Xiaochun",
+      "Guo Sumin",
+      "Hu Naying",
+      "Qiao Qian",
+      "Meng Wei",
+      "Zhang Linghan",
+      "Tan Zhixing",
+      "Helen Meng",
+      "Qiao Yu",
+      "Bu Yuyan",
+      "Fan Wei",
+      "Wang Xingguang",
+      "Wang Feng",
+      "Gong Xinqi",
+      "Xia Wenhui",
+      "Wang Mengyin",
+      "Tao Feng",
+      "Hu Yongqi",
+      "Charuka Senal Damunupola",
+      "Cheng Ming",
+      "Liu Weichen",
+      "Nirosha Ananda",
+      "Peng Tao",
+      "Tao Tao",
+      "Wang Fengqiong",
+      "Wang Jianbing",
+      "Wang Tong",
+      "Wang Wei",
+      "Wang Xin",
+      "Wu Shuyan",
+      "Yang Yaodong",
+      "Yang Zhongliang",
+      "John Yeoh",
+      "Zhang Rong",
+      "Zhou Yuan",
+      "Zhang Xueli",
+      "Liang Hao"
+    ],
+    "abstract": "The Report \"Advancing a Global Framework for AI Safety and Governance for the Well-being of Humanity\" is an important outcome of the AI Safety and Governance Program of World Internet Conference Specialized Committee on Artificial Intelligence in 2025. This report provides a systematic review of current global explorations and practices in AI safety and governance, identifies key issues that need to be addressed, and draws upon multilateral governance experiences from other domains. Centered on mechanism design, it explores how to build a global AI safety and governance system that ensures safety and security, promotes inclusiveness, clarifies responsibilities and accountabilities, strengthens effective coordination, and ensures authoritative and efficient governance. Guided by the principles of multilateralism and the vision of building a community with a shared future for humankind, the report proposes institutional measures and policy recommendations to establish a United Nations-centered global AI safety and governance framework. It aims to serve as a reference for governments, international organizations, enterprises, and research institutions. The report is to contribute insights and momentum to advancing people-centered and beneficial AI governance worldwide, ensuring that AI technologies truly serve the well-being of all humanity.",
+    "published": "2026-11-10T12:05:59Z",
+    "updated": "2026-11-10T12:05:59Z",
+    "url": "https://arxiv.org/abs/2611.13968v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.13968v1",
+    "categories": [
+      "cs.CY"
+    ],
+    "analysis": {
+      "summary": "The Report \"Advancing a Global Framework for AI Safety and Governance for the Well-being of Humanity\" is an important outcome of the AI Safety and Governance Program of World Internet Conference Specialized Committee on Artificial Intelligence in 2025.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cy"
+      ],
+      "analyzed_at": "2026-11-12T03:11:07.505790+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-12T03:09:31.971114+00:00"
+  },
+  {
+    "id": "arxiv:2611.13578v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "POEM: Output-Relative Block-Sparse Attention for Long-Context Prefilling",
+    "authors": [
+      "Haoyi Wu",
+      "Yunkai Dang",
+      "Wanyu Zhang",
+      "Lei Wang",
+      "Wenbin Li"
+    ],
+    "abstract": "Large language models (LLMs) have shown strong capabilities across diverse applications, making both safety and utility essential for reliable deployment. Jailbreak attacks use diverse forms of adversarial prompting to bypass alignment safeguards and induce LLMs to generate harmful responses. Some representation-based defenses regulate internal activations using predefined steering directions or learned safety regions. However, adapting intervention to each input without a predefined representational target while limiting over-refusal remains a challenge. In this paper, we propose Target-free Entropy-guided Residual Modulation (TERM), an inference-time defense that uses prompt-calibrated attention entropy deviations to guide adaptive modulation of the model's own residual updates. Attention patterns vary across prompts and decoding steps, making raw entropy values difficult to interpret as a consistent signal for intervention. We therefore calibrate attention entropy against each prompt's own prefill baseline to establish an input-specific reference for reducing unnecessary intervention on benign requests. Adaptive scale normalization and temporal accumulation then account for differences in deviation scale and persistence to determine intervention strength. The resulting signal controls bounded scaling of the model's own residual updates, without relying on a predefined safety direction. We compare our method with seven defenses on seven jailbreak attacks and two over-refusal benchmarks across Llama, Qwen, and Gemma models, including Qwen3 models from 0.6B to 32B. Results show our method improves jailbreak robustness while maintaining low over-refusal on benign safety-sensitive requests with modest inference overhead.",
+    "published": "2026-11-10T04:52:58Z",
+    "updated": "2026-11-10T04:52:58Z",
+    "url": "https://arxiv.org/abs/2611.13578v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.13578v1",
+    "categories": [
+      "cs.CR",
+      "cs.CL"
+    ],
+    "analysis": {
+      "summary": "Large language models (LLMs) have shown strong capabilities across diverse applications, making both safety and utility essential for reliable deployment.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-cl"
+      ],
+      "analyzed_at": "2026-11-12T03:11:07.505870+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-12T03:09:31.971211+00:00"
+  },
+  {
+    "id": "arxiv:2611.13577v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "TERM: Target-Free Jailbreak Defense via Entropy-Guided Residual Modulation",
+    "authors": [
+      "Yunkai Dang",
+      "Wanyu Zhang",
+      "Meiyi Zhu",
+      "Qi Fan",
+      "Tianyu Ding",
+      "Wenbin Li"
+    ],
+    "abstract": "Large language models (LLMs) have shown strong capabilities across diverse applications, making both safety and utility essential for reliable deployment. Jailbreak attacks use diverse forms of adversarial prompting to bypass alignment safeguards and induce LLMs to generate harmful responses. Some representation-based defenses regulate internal activations using predefined steering directions or learned safety regions. However, adapting intervention to each input without a predefined representational target while limiting over-refusal remains a challenge. In this paper, we propose Target-free Entropy-guided Residual Modulation (TERM), an inference-time defense that uses prompt-calibrated attention entropy deviations to guide adaptive modulation of the model's own residual updates. Attention patterns vary across prompts and decoding steps, making raw entropy values difficult to interpret as a consistent signal for intervention. We therefore calibrate attention entropy against each prompt's own prefill baseline to establish an input-specific reference for reducing unnecessary intervention on benign requests. Adaptive scale normalization and temporal accumulation then account for differences in deviation scale and persistence to determine intervention strength. The resulting signal controls bounded scaling of the model's own residual updates, without relying on a predefined safety direction. We compare our method with seven defenses on seven jailbreak attacks and two over-refusal benchmarks across Llama, Qwen, and Gemma models, including Qwen3 models from 0.6B to 32B. Results show our method improves jailbreak robustness while maintaining low over-refusal on benign safety-sensitive requests with modest inference overhead.",
+    "published": "2026-11-10T04:52:10Z",
+    "updated": "2026-11-10T04:52:10Z",
+    "url": "https://arxiv.org/abs/2611.13577v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.13577v1",
+    "categories": [
+      "cs.CR",
+      "cs.CL"
+    ],
+    "analysis": {
+      "summary": "Large language models (LLMs) have shown strong capabilities across diverse applications, making both safety and utility essential for reliable deployment.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-cl"
+      ],
+      "analyzed_at": "2026-11-12T03:11:07.505940+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-12T03:09:31.971294+00:00"
+  },
+  {
+    "id": "arxiv:2611.13167v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "AI Alignment Is Neither Solvable nor Sufficient",
+    "authors": [
+      "Gerrit Großmann"
+    ],
+    "abstract": "Humans and AI systems increasingly act within the same social and economic environments. Alignment, the goal of ensuring that AI systems act in accordance with human values, is widely regarded as a central challenge for ensuring that AI benefits society while avoiding harm. We argue that this endeavor is misguided. First, alignment is not well defined, as it presumes a sufficiently stable and identifiable set of human intentions or values. Second, where a concrete notion of alignment can be specified, it is not solvable. Third, where alignment appears solvable, solving it would not necessarily mitigate the negative consequences of AI. A key reason is that alignment is typically framed as a property of individual AI systems, while the resulting hybrid societies of humans and machines are complex systems shaped by interactions and feedback loops. Emergent risks, and not only those posed by individual misaligned systems, are therefore likely to become a major source of harm. We conclude that AI safety is an ongoing challenge and not a problem that can be solved once and for all by verifying a particular model property.",
+    "published": "2026-11-09T19:51:48Z",
+    "updated": "2026-11-09T19:51:48Z",
+    "url": "https://arxiv.org/abs/2611.13167v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.13167v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Humans and AI systems increasingly act within the same social and economic environments.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-11-12T03:11:07.506002+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-12T03:09:31.971352+00:00"
+  },
+  {
     "id": "arxiv:2611.12604v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -477,8 +779,62 @@
       "cs.CV",
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Alignment of text-to-image diffusion models with reward functions is a key challenge in controllable generation.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cv",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-11-12T03:11:07.506070+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-11-11T02:00:14.627264+00:00"
+  },
+  {
+    "id": "arxiv:2611.11821v2",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Direct Trajectory Optimization for Inference-Time Alignment of Text-to-Image Diffusion Models",
+    "authors": [
+      "Huixuan Zhang",
+      "Li Lin",
+      "Junzhe Zhang",
+      "Xiaojun Wan"
+    ],
+    "abstract": "Alignment of text-to-image diffusion models with reward functions is a key challenge in controllable generation. Existing approaches typically rely on optimizing model inputs or fine-tuning denoising networks, which requires computationally expensive backpropagation through large denoising models. In this work, we propose Direct Trajectory Optimization (DTO), a training-free framework that performs alignment by directly optimizing the sampling trajectory of diffusion models. Specifically, DTO treats intermediate denoising scores and sampled noise as the optimization variables, eliminating the need for gradients through the denoising network. To mitigate the out-of-distribution problem, we introduce Reward-Optimized Score Guidance, which interpolates between the optimized scores and the pretrained model predictions to stabilize sampling, while providing a provable theoretical guarantee of reward improvement under constrained distributions. Empirically, DTO improves alignment performance across three diffusion models on two benchmarks, outperforming existing inference-time alignment methods while maintaining high efficiency. These results suggest that trajectory-level optimization is a promising direction for efficient and effective diffusion model alignment.",
+    "published": "2026-11-09T03:29:50Z",
+    "updated": "2026-11-10T05:52:03Z",
+    "url": "https://arxiv.org/abs/2611.11821v2",
+    "pdf_url": "https://arxiv.org/pdf/2611.11821v2",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Alignment of text-to-image diffusion models with reward functions is a key challenge in controllable generation.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cv",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-11-12T03:11:07.506139+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-12T03:09:31.972351+00:00"
   },
   {
     "id": "arxiv:2611.11571v1",
@@ -2862,274 +3218,5 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-11-03T03:31:03.514191+00:00"
-  },
-  {
-    "id": "arxiv:2610.41257v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "ReVEAL: Eliciting Role-Aware Latent Visual Evidence from MLLMs for Reasoning Video Object Segmentation",
-    "authors": [
-      "Zhongyuan Bao",
-      "Cunjie He",
-      "Lejun Zhang",
-      "Zenglin Xu",
-      "Yanwei Fu"
-    ],
-    "abstract": "Reasoning video object segmentation (ReVOS) requires segmenting the target specified by an implicit query throughout a video. Existing MLLM-based methods typically require costly cross-model alignment, tying MLLM training to a downstream segmentation model. We present ReVEAL, a decoupled thinking-with-video framework for ReVOS that elicits role-aware latent visual evidence from MLLM reasoning to directly guide segmentation. ReVEAL introduces Visual Evidence Tokens (VETs) into video reasoning to associate necessary visual regions or entities with target, background, or distractor roles, while a Dynamic Attention Layer Router adaptively aggregates VET-to-video attention across layers into role-specific grounding evidence. We train the MLLM to perform VET-augmented reasoning on our constructed ReVEAL-47K dataset, with a Contrastive Attention Grounding Loss as auxiliary supervision to apply role-specific constraints to VET attention and optimize layer routing for reliable latent grounding. At inference, ReVEAL identifies the target through this thinking-with-video process and fuses the resulting role-specific evidence to guide a frozen SAM2 in predicting target masks. Experiments on five benchmarks show that ReVEAL outperforms alignment-free baselines and remains competitive with alignment-based methods.",
-    "published": "2026-10-30T05:00:03Z",
-    "updated": "2026-10-30T05:00:03Z",
-    "url": "https://arxiv.org/abs/2610.41257v1",
-    "pdf_url": "https://arxiv.org/pdf/2610.41257v1",
-    "categories": [
-      "cs.CV"
-    ],
-    "analysis": {
-      "summary": "Reasoning video object segmentation (ReVOS) requires segmenting the target specified by an implicit query throughout a video.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cv"
-      ],
-      "analyzed_at": "2026-11-03T03:32:38.971849+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-03T03:31:03.514370+00:00"
-  },
-  {
-    "id": "arxiv:2610.41181v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "AgentShield: Fortifying Web Applications Against AI Agents and Agentic Browsers",
-    "authors": [
-      "Moiz Ali",
-      "Nafis Karim",
-      "Rownak Islam",
-      "Jyotirmay Chauhan",
-      "Dhruv Kuchhal",
-      "Jason Polakis"
-    ],
-    "abstract": "LLM-powered browser agents are transforming web automation by autonomously interacting with websites and executing complex workflows. However, the effectiveness of existing anti-bot defenses against these systems remains unclear. We present a systematic empirical evaluation of modern agentic browsers against widely deployed anti-bot mechanisms, characterizing their capabilities, limitations, and behavioral differences from humans. Our results show that many defenses designed for traditional automation struggle to reliably detect autonomous AI-driven agents. Accordingly, we introduce AgentShield, a behavioral fingerprinting framework that targets the Perception-Reasoning-Action (PRA) loop underlying agentic user clients. By leveraging dynamic web forms that progressively reveal content and capture fine-grained interaction telemetry, AgentShield exposes behavioral artifacts that enable differentiation between human users and autonomous agents. We further demonstrate Extinction-induced Policy Drift (EPD), a novel attack in which repeated obstruction of task completion causes agents to relax their safeguards and engage in unsafe behaviors. Finally, we present defensive prompt injection techniques that exploit agent-specific weaknesses to mitigate emerging forms of autonomous web abuse that rely on content extraction. Our results highlight both the shortcomings of current web defenses against agentic user clients and the feasibility of practical detection mechanisms tailored to this new generation of web automation.",
-    "published": "2026-10-30T03:00:34Z",
-    "updated": "2026-10-30T03:00:34Z",
-    "url": "https://arxiv.org/abs/2610.41181v1",
-    "pdf_url": "https://arxiv.org/pdf/2610.41181v1",
-    "categories": [
-      "cs.CR"
-    ],
-    "analysis": {
-      "summary": "LLM-powered browser agents are transforming web automation by autonomously interacting with websites and executing complex workflows.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr"
-      ],
-      "analyzed_at": "2026-11-07T02:06:54.742756+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-03T03:31:03.514466+00:00"
-  },
-  {
-    "id": "arxiv:2610.41072v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "LanG 2.0: Energy-Efficient Agentic AI for Semi-Automated Security Operations at Scale",
-    "authors": [
-      "Anes Abdennebi",
-      "Nadjia Kara",
-      "Laaziz Lahlou",
-      "Hakima Ould-Slimane"
-    ],
-    "abstract": "Security operations centers (SOCs) need to turn terabytes of alerts, logs and flows into trusted, affordable decisions to unveil hidden threats. We present LanG 2.0, an agentic system that detects threats, correlates evidence and writes rules, investigating whether small local models can replace frontier models affordably and safely when structural safeguards, not model accuracy, provide the guarantees. It incorporates entity-anchored correlation, human approval of rule changes and a tamper-evident ledger. Tests span eight flow datasets from five networks, real XDR alerts and multistage campaigns. Against its predecessor, campaign correlation precision rises from 18.75% to 51.81%, and rule acceptance from at most 60.00% to 98.33%. Against Claude Opus 5.5, scoring flows against each network's normal traffic detects attacks on unseen networks at 73.42% F1 without false positives, versus 58.10% with 49.00% false positives, for at least 650 times less energy. Finetuned models statistically match it on alert classification and rule writing for 5.6 to 59 times less energy. The work demonstrates LanG's practical scalability, processing 3.33 million records in 6.4 minutes, over 30 million hourly, and its safeguards resisted prompt injection, label poisoning and ledger tampering, so small local models can carry most SOC detection affordably and safely.",
-    "published": "2026-10-29T23:37:42Z",
-    "updated": "2026-10-29T23:37:42Z",
-    "url": "https://arxiv.org/abs/2610.41072v1",
-    "pdf_url": "https://arxiv.org/pdf/2610.41072v1",
-    "categories": [
-      "cs.AI",
-      "cs.CR"
-    ],
-    "analysis": {
-      "summary": "Security operations centers (SOCs) need to turn terabytes of alerts, logs and flows into trusted, affordable decisions to unveil hidden threats.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai",
-        "cs-cr"
-      ],
-      "analyzed_at": "2026-11-09T01:48:59.885326+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-03T03:31:03.514557+00:00"
-  },
-  {
-    "id": "arxiv:2610.40926v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "CoFiBreak: A Coarse-to-Fine Diversity Reward for Effective Multi-Turn Jailbreak",
-    "authors": [
-      "Jialin Song",
-      "Xiaodong Liu",
-      "Weiwei Yang",
-      "Mingqian Feng",
-      "Chengquan Guo",
-      "Qiyao Ma",
-      "Carolyn Buractaon",
-      "Anson Ho",
-      "Wuyang Chen",
-      "Christopher White"
-    ],
-    "abstract": "Automated red teaming trains an attacker large language model (LLM) to elicit harmful responses from a victim LLM, but reinforcement learning can collapse attackers onto a narrow set of prompts when attack success is the only reward. Such a collapse of attack diversity can bias safety evaluation toward repeatedly testing near-duplicate attack patterns rather than the underlying harmful intents. Existing methods often trade off attack success or inference cost for greater content or strategy diversity. We propose CoFiBreak, a coarse-to-fine diversity reward for Group Relative Policy Optimization (GRPO) that improves attack diversity while preserving strong attack effectiveness and low inference cost. The coarse reward broadens which strategies the attacker uses by encouraging strategies underrepresented within each GRPO group, while the fine reward broadens how those strategies are realized by discouraging reuse of the same personas, framings, and output formats after harmful-intent information is removed from prompt embeddings. Diversity rewards apply only to attacks that already exceed an effectiveness threshold, so diversity cannot be gained through ineffective attacks. Since both rewards are computed only during training, CoFiBreak also retains inference efficiency. Trained with Llama3.1-8B-Instruct as the victim, CoFiBreak discovers 1.6-2.0x as many distinct successful fine-grained strategies as the strongest baseline across frontier victims on HarmBench. It reaches 98.8% ASR@10 (attack success rate with 10 generations per intent) on AdvBench with the highest diversity score among all compared methods, which is 2.1x that of the strongest-attacking baseline. The resulting attacks transfer to unseen frontier LLMs, reaching 71.0% ASR@10 on AdvBench with the unseen victim Claude-Opus-4.6. The code will be released.",
-    "published": "2026-10-29T19:51:36Z",
-    "updated": "2026-10-29T19:51:36Z",
-    "url": "https://arxiv.org/abs/2610.40926v1",
-    "pdf_url": "https://arxiv.org/pdf/2610.40926v1",
-    "categories": [
-      "cs.CL"
-    ],
-    "analysis": {
-      "summary": "Automated red teaming trains an attacker large language model (LLM) to elicit harmful responses from a victim LLM, but reinforcement learning can collapse attackers onto a narrow set of prompts when attack success is the only reward.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cl"
-      ],
-      "analyzed_at": "2026-11-09T01:48:59.885418+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-03T03:31:03.514796+00:00"
-  },
-  {
-    "id": "arxiv:2610.40890v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "ChatGPT as a Surveillance Assistant? An Exploratory Case Study of AI-Assisted Surveillance Risks",
-    "authors": [
-      "Ayana Hussain",
-      "Nicholas Vincent"
-    ],
-    "abstract": "Large language models (LLMs) can generate detailed guidance, functional code, and persuasive text at scale. As one of the most widely used consumer language model products as of 2026, ChatGPT gives broad public access to these capabilities, motivating concerns about its potential use in surveillance-related tasks. We present an exploratory case study of what potentially harmful surveillance assistance looks like in ChatGPT's public web interface. We contribute a taxonomy of seven surveillance risk categories based on prior LLM risk research and reports of deployed surveillance systems, instantiated as 110 prompts, along with a manually reviewed analysis of ChatGPT's responses. Prompts were issued using two approaches: 55 jailbreak prompts drawing on five types of elicitation strategies, and 55 plain-language direct prompts, each run alone, and if unsuccessful, again with a short fixed prefix. We find that ChatGPT provides substantive surveillance guidance for 40 of the 55 jailbreak prompts and for 33 of the 55 direct prompts without any prefix. Compliant responses also rarely included policy mentions or suggestions for privacy-preserving alternatives. We manually review every response and find that even when ChatGPT states a refusal, it may still supply detailed instructions, working code, or architectural guidance alongside brief ethical caveats.",
-    "published": "2026-10-29T19:10:04Z",
-    "updated": "2026-10-29T19:10:04Z",
-    "url": "https://arxiv.org/abs/2610.40890v1",
-    "pdf_url": "https://arxiv.org/pdf/2610.40890v1",
-    "categories": [
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Large language models (LLMs) can generate detailed guidance, functional code, and persuasive text at scale.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-11-09T01:48:59.885489+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-03T03:31:03.514886+00:00"
-  },
-  {
-    "id": "arxiv:2610.40396v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Understanding and Mitigating Role Spoofing in LLMs",
-    "authors": [
-      "Ezra Edelman",
-      "Benjamin Edelman",
-      "Surbhi Goel",
-      "Eran Malach"
-    ],
-    "abstract": "Despite growing capabilities, LLMs remain susceptible to prompt injections: malicious inputs that can manipulate or hijack models. In particular, it has recently been observed that LLMs can exhibit role confusion (Ye et al., 2026), where models attribute the source of text based on its style instead of its labeled role. Malicious text in tool outputs (for instance, a malicious webpage accessed by an agent) can leverage role confusion to impersonate the user, an attack we call role spoofing}. In this work, we seek to understand and mitigate role spoofing. We study how models track \"who said what\" in a conversation, showing that they use cues from both content (e.g., semantics and writing style) and structure (e.g., control tokens and formatting). We show that LLMs are highly susceptible to role spoofing attacks that combine both fake structure and content. Additionally, in a toy setting, we show that adversarial training which teaches the model to ignore content-based injections does mitigate content-based attacks but leaves the model susceptible to structure-based attacks. This can explain why frontier models, with increased resistance to many injection attacks, can still be susceptible to role spoofing. Finally, we propose a new method for detecting role spoofing using linear probes trained to predict roles in a conversation, and show that it is effective across different settings.",
-    "published": "2026-10-29T16:33:08Z",
-    "updated": "2026-10-29T16:33:08Z",
-    "url": "https://arxiv.org/abs/2610.40396v1",
-    "pdf_url": "https://arxiv.org/pdf/2610.40396v1",
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Despite growing capabilities, LLMs remain susceptible to prompt injections: malicious inputs that can manipulate or hijack models.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-10-31T01:42:36.858686+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-10-31T01:41:01.495987+00:00"
-  },
-  {
-    "id": "arxiv:2610.40309v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Textual Response-Aware Guidance for Zero-Shot Adversarial Robustness of Vision-Language Models",
-    "authors": [
-      "Yubo Cui",
-      "Xianchao Guan",
-      "Zheng Zhang"
-    ],
-    "abstract": "Vision-language models (VLMs) exhibit strong zero-shot generalization but remain vulnerable to adversarial attacks. Existing adversarial fine-tuning methods often use pre-trained model guidance to preserve image--text alignment while improving robustness. Our analysis of visual representation drift reveals complementary limitations of two representative forms of guidance. Matching visual features provides broad coverage by constraining all directions equally, but lacks semantic emphasis. Matching prediction distributions prioritizes semantically relevant directions, but remains limited by the candidate texts and prediction probabilities. These limitations can hinder preservation of pre-trained image--text relationships and degrade zero-shot performance. To address these issues, we propose Textual Response-Aware Guidance (TRAG), which constrains visual representation drift using the pre-trained text encoder's responses to local variations in input embeddings. Specifically, TRAG constructs anchor-level constraints from the response directions and magnitudes around semantic anchors, then aggregates them using pre-trained image--anchor relevance, yielding an image-adaptive constraint. Extensive experiments across architectures and tasks demonstrate state-of-the-art clean and robust performance. Further analysis shows that TRAG helps preserve pre-trained image--text relationships.",
-    "published": "2026-10-29T15:48:43Z",
-    "updated": "2026-10-29T15:48:43Z",
-    "url": "https://arxiv.org/abs/2610.40309v1",
-    "pdf_url": "https://arxiv.org/pdf/2610.40309v1",
-    "categories": [
-      "cs.CV"
-    ],
-    "analysis": {
-      "summary": "Vision-language models (VLMs) exhibit strong zero-shot generalization but remain vulnerable to adversarial attacks.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cv"
-      ],
-      "analyzed_at": "2026-10-31T01:42:36.858803+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-10-31T01:41:01.496106+00:00"
   }
 ]
