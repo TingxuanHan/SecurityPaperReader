@@ -1,8 +1,27 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-11-12 11:11 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-11-13 10:44 Asia/Shanghai
 
 ## 今日论文
+
+### [An Eyring-Kramers Formula for Singular Wells](https://arxiv.org/abs/2611.14603v1)
+
+**作者**：Yingli Wang, Lingjiong Zhu
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-11-10 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.14603v1)
+
+**摘要总结**：Understanding the persistence of learned behaviors in AI safety motivates an investigation of the dynamical counterpart to the equilibrium geometry studied in singular learning theory.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`stat-ml` `cs-lg` `math-pr`
+
+---
 
 ### [Structured Confidence Perturbation via Fisher Geometry for Adversarial Training](https://arxiv.org/abs/2611.14046v1)
 
@@ -314,13 +333,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-08 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.11571v1)
 
-**摘要总结**：暂无
+**摘要总结**：Tool-using LLM agents act on instructions embedded in the data they read, so prompt injection is a structural rather than a prompt-wording problem.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -330,13 +352,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-08 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.11506v1)
 
-**摘要总结**：暂无
+**摘要总结**：An LLM agent that reads untrusted content, such as an email or a web page, may follow instructions hidden in it.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -498,13 +523,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-06 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.10099v1)
 
-**摘要总结**：暂无
+**摘要总结**：We study a safety harness that improves itself without touching model weights.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-se`
 
 ---
 
@@ -514,13 +542,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-06 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.09734v1)
 
-**摘要总结**：暂无
+**摘要总结**：Despite undergoing safety training to align with human values, large language models (LLMs) remain vulnerable to jailbreak attacks that circumvent built-in safeguards and elicit malicious behaviors given by the adversary.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
@@ -530,13 +561,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-06 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.10089v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large Language Models (LLMs) remain vulnerable to jailbreak attacks and harmful-content prompts, particularly under adversarial distribution shifts where static alignment pipelines fail to generalize.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
 
 ---
 
@@ -546,13 +580,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-06 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.08834v1)
 
-**摘要总结**：暂无
+**摘要总结**：Specialized prompt injection guards are deployed in front of document analysis systems, but no false positive rate has been published for any of them on legal contracts.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
 
 ---
 
@@ -562,13 +599,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-06 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.08811v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large Reasoning Models (LRMs) are one of the key components of current agentic systems.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-cr`
 
 ---
 
@@ -1463,25 +1503,6 @@
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-30 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.41998v1)
 
 **摘要总结**：Recognized as a top threat to AI agents, prompt injection allows instructions from untrusted data (email, documents, websites) to manipulate the agent's operation.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai`
-
----
-
-### [Erase the Injected Region: Multimodal Prompt-Injection Defense with On-Policy Self-Distillation](https://arxiv.org/abs/2610.41307v1)
-
-**作者**：Shuo Hong, Jiaxin Ma, Xidi Cai, Qianli Ma
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-10-30 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.41307v1)
-
-**摘要总结**：Multimodal indirect prompt injection embeds malicious instructions in external media that also contains information needed for the user's task.
 
 **创新点**
 

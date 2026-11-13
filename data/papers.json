@@ -1,5 +1,44 @@
 [
   {
+    "id": "arxiv:2611.14603v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "An Eyring-Kramers Formula for Singular Wells",
+    "authors": [
+      "Yingli Wang",
+      "Lingjiong Zhu"
+    ],
+    "abstract": "Understanding the persistence of learned behaviors in AI safety motivates an investigation of the dynamical counterpart to the equilibrium geometry studied in singular learning theory. We analyze this persistence through transitions between singular wells. We establish an Eyring-Kramers formula for a low temperature Langevin diffusion between two compact connected zero components of a real-analytic potential. The wells may be singular and nonisolated, and the unique minimizing gate is a nondegenerate index-one saddle, with gates understood as inclusion-minimal sets meeting every minimizing path. A boundary-gate construction shows that uniqueness of this inclusion-minimal gate is equivalent to every minimizing path passing through the saddle and one such path meeting the communication level only there. Compact semianalytic topology provides a separating function away from a fixed saddle neighborhood; analytic Morse coordinates give matching capacity bounds by first sending the temperature to zero and then shrinking that neighborhood. An anchored energy estimate and a small-ball potential-theoretic identity give uniformity for deterministic starting points. The leading constant is expressed in terms of the sublevel-volume coefficient, a Gamma factor, and the saddle Hessian.",
+    "published": "2026-11-10T17:16:56Z",
+    "updated": "2026-11-10T17:16:56Z",
+    "url": "https://arxiv.org/abs/2611.14603v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.14603v1",
+    "categories": [
+      "stat.ML",
+      "cs.LG",
+      "math.PR"
+    ],
+    "analysis": {
+      "summary": "Understanding the persistence of learned behaviors in AI safety motivates an investigation of the dynamical counterpart to the equilibrium geometry studied in singular learning theory.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "stat-ml",
+        "cs-lg",
+        "math-pr"
+      ],
+      "analyzed_at": "2026-11-13T02:44:35.518443+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-13T02:42:59.880804+00:00"
+  },
+  {
     "id": "arxiv:2611.14046v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -856,7 +895,22 @@
       "cs.CR",
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Tool-using LLM agents act on instructions embedded in the data they read, so prompt injection is a structural rather than a prompt-wording problem.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-11-13T02:44:35.518567+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-11-11T02:00:14.627374+00:00"
   },
   {
@@ -877,7 +931,22 @@
       "cs.CR",
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "An LLM agent that reads untrusted content, such as an email or a web page, may follow instructions hidden in it.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-11-13T02:44:35.518659+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-11-11T02:00:14.627461+00:00"
   },
   {
@@ -1220,7 +1289,23 @@
       "cs.AI",
       "cs.SE"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "We study a safety harness that improves itself without touching model weights.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai",
+        "cs-se"
+      ],
+      "analyzed_at": "2026-11-13T02:44:35.518755+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-11-10T04:11:46.421181+00:00"
   },
   {
@@ -1244,7 +1329,21 @@
     "categories": [
       "cs.CR"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Despite undergoing safety training to align with human values, large language models (LLMs) remain vulnerable to jailbreak attacks that circumvent built-in safeguards and elicit malicious behaviors given by the adversary.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-11-13T02:44:35.518835+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-11-10T04:11:46.421225+00:00"
   },
   {
@@ -1268,7 +1367,21 @@
     "categories": [
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Large Language Models (LLMs) remain vulnerable to jailbreak attacks and harmful-content prompts, particularly under adversarial distribution shifts where static alignment pipelines fail to generalize.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-11-13T02:44:35.518919+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-11-10T04:11:46.421274+00:00"
   },
   {
@@ -1290,7 +1403,21 @@
     "categories": [
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Specialized prompt injection guards are deployed in front of document analysis systems, but no false positive rate has been published for any of them on legal contracts.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-11-13T02:44:35.518995+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-11-10T04:11:46.421316+00:00"
   },
   {
@@ -1315,7 +1442,22 @@
       "cs.AI",
       "cs.CR"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Large Reasoning Models (LRMs) are one of the key components of current agentic systems.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai",
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-11-13T02:44:35.519084+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-11-10T04:11:46.421369+00:00"
   },
   {
@@ -3179,44 +3321,5 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-11-03T03:31:03.514020+00:00"
-  },
-  {
-    "id": "arxiv:2610.41307v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Erase the Injected Region: Multimodal Prompt-Injection Defense with On-Policy Self-Distillation",
-    "authors": [
-      "Shuo Hong",
-      "Jiaxin Ma",
-      "Xidi Cai",
-      "Qianli Ma"
-    ],
-    "abstract": "Multimodal indirect prompt injection embeds malicious instructions in external media that also contains information needed for the user's task. Existing defenses can block the attack yet impair the model's use of that information, leaving a gap between attack defense and task preservation. We propose ERASE, an on-policy self-distillation method that constructs its reference by erasing the injected region in place. Modality-appropriate blank content replaces the injection while the surrounding media is preserved. A student reading attacked media learns from a frozen base model reading the erased view through full-distribution token-level feedback on its own rollouts. Across image, audio, and video on two model sizes, ERASE records near-zero observed attack success on the evaluated benchmark while retaining task utility close to the undefended clean-input level. On 3B audio, ERASE reaches 60.1% attacked-input accuracy compared with ARGUS's 33.1%, within 0.5 points of the undefended clean-input level. Experiments show that ERASE reduces injection dependence from 6.26 to 0.0095 on 3B audio while staying close to the base model on the erased input. Out-of-domain accuracy also stays near the base level. Our code will be made publicly available upon acceptance.",
-    "published": "2026-10-30T06:15:10Z",
-    "updated": "2026-10-30T06:15:10Z",
-    "url": "https://arxiv.org/abs/2610.41307v1",
-    "pdf_url": "https://arxiv.org/pdf/2610.41307v1",
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Multimodal indirect prompt injection embeds malicious instructions in external media that also contains information needed for the user's task.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-11-03T03:32:38.971729+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-03T03:31:03.514191+00:00"
   }
 ]
