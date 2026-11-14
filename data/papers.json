@@ -1,5 +1,244 @@
 [
   {
+    "id": "arxiv:2611.17115v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts",
+    "authors": [
+      "Zimo Xu",
+      "Wenzhuo Liu",
+      "Hideki Nakayama"
+    ],
+    "abstract": "Enforcement defenses against prompt injection, such as CaMeL, Progent, IPIGuard and DRIFT, ask the agent's own model to write a security artifact (a program, a privilege policy, a dependency graph or a constraint list) that code then enforces. We ask whether small language model (SLM) agents can be trusted to write these artifacts. Across 15 open-weight models, 13 of them between 1.7B and 12B parameters, they cannot: the policies, graphs and constraints that the agent's model writes admit attacks on 14 (Progent), 13 (IPIGuard) and 11 (DRIFT) of the models, and CaMeL's programs fail to run in up to 68% of episodes. We present CapLite, which derives its policy from the tool schemas, commits the write calls before any tool result is read, and admits a write only if every argument that decides whom or what it affects is stated in the user's request. This guarantees write integrity: injected text cannot add a write, and no write reaches a recipient, amount, object or destination that the user did not state. No attack succeeds in 13,935 attacked AgentDojo episodes. CapLite reaches utility under attack comparable to CaMeL's (29.0% vs. 27.2%) with fewer tokens than every other enforcement defense and than the undefended agent: 17.1k per episode, 18% of CaMeL's, and the highest utility per token of all enforcement defenses.",
+    "published": "2026-11-12T17:07:22Z",
+    "updated": "2026-11-12T17:07:22Z",
+    "url": "https://arxiv.org/abs/2611.17115v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.17115v1",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.CR"
+    ],
+    "analysis": {
+      "summary": "Enforcement defenses against prompt injection, such as CaMeL, Progent, IPIGuard and DRIFT, ask the agent's own model to write a security artifact (a program, a privilege policy, a dependency graph or a constraint list) that code then enforces.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai",
+        "cs-cl",
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-11-14T02:32:50.146652+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-14T02:31:14.029855+00:00"
+  },
+  {
+    "id": "arxiv:2611.16744v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Scale-Induced Semantic Shift in Visual Prompt Injection Against VLMs and Web Agents",
+    "authors": [
+      "Yiheng Zhao",
+      "Runze Ji",
+      "Chenyu Yi",
+      "Yi Yu",
+      "Bingquan Shen",
+      "Alex Kot",
+      "Xudong Jiang"
+    ],
+    "abstract": "Visual content in multimedia systems may be resized, compressed, or re-rendered before it is interpreted by a vision-language model. We study a security failure mode in which these transformations change the machine-readable semantics of an image: a textual instruction is not recovered at a $512\\times512$ presentation resolution under our evaluation protocol but becomes recoverable after aggressive downsampling. We formulate this behavior as Scale-Induced Semantic Shift (SISS) and develop a closed-loop black-box framework that combines dual-scale verification, selective self-hardening, shallow-layer low-rank adaptation, and pixel-space noise regularization. On a fixed 300-case benchmark, the third SISS refinement round obtains a $58.75\\%$ average attack success rate across four closed-source vision-language models, compared with $41.08\\%$ for the strongest generation baseline. A controlled sweep bounds the effect to aggressive compression: average success decreases to $17.68\\%$, $6.85\\%$, and $5.60\\%$ at $128\\times128$, $224\\times224$, and $336\\times336$, respectively. In a downstream web-agent study, the generated images increase hidden-instruction perception, but absolute behavioral compromise remains about $4\\%$. Generic input transformations provide little protection in a separate defense protocol, whereas the proposed ScaleGuard consistency detector reduces non-adaptive success from $61.4\\%$ to $24.3\\%$ and one-round defense-aware success from $42.5\\%$ to $15.0\\%$, with no observed rejection among matched clean controls. The results characterize a bounded but reproducible semantic inconsistency in multimedia preprocessing and motivate scale-consistent visual-language inference.",
+    "published": "2026-11-12T12:57:11Z",
+    "updated": "2026-11-12T12:57:11Z",
+    "url": "https://arxiv.org/abs/2611.16744v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.16744v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Visual content in multimedia systems may be resized, compressed, or re-rendered before it is interpreted by a vision-language model.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-11-14T02:32:50.146774+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-14T02:31:14.029991+00:00"
+  },
+  {
+    "id": "arxiv:2611.16122v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Intent-Aware Protection for AI Agents",
+    "authors": [
+      "Fady Copty",
+      "Neta Haiby",
+      "Max Braitmaiere",
+      "Julia Korsunsky"
+    ],
+    "abstract": "AI agents increasingly access enterprise data, invoke powerful tools, and act with limited human oversight. Existing security defenses primarily detect prompt injection, harmful outputs, or suspicious behavior, but do not determine whether an agent remains faithful to the purpose for which it was deployed. An action may contain no attack pattern and stay within granted permissions while still violating the agent's role, organizational constraints, or purpose. We introduce Intent- Aware Security, a framework that treats trusted agent intent as a first-class security object. We define Intent Preservation and Intent Drift, and operationalize them through an Intent Profile: an agent-specific representation extracted from organizational, role, and developer intent. We further introduce an Intent-Aware benchmark of 887 validated samples across 35 agents, built by a generation procedure that fixes ground-truth labels before LLM realization, and four Intent Profile-based protections: pre-execution detection, post-execution detection, input alignment, and system-prompt hardening. Across all evaluations, Intent Profile-based protection outperforms all profile-free baselines on the primary metric. On our benchmark, it raises four-class acro-F1 from 45% to 79% (Out-of-Scope F1 from 8% to 76%). On more than 10,000 executed AgentDojo trajectories, where ground truth comes from environment state, profile-based post-execution detection reaches 0.949 AUROC versus AlignmentCheck 0.909, 0.897 with raw agent configuration and 0.843 without context. Profile-based input alignment improves protection success by 7 points over DataFilter with a comparable benign utility. These results suggest that an agent's intended purpose can serve as a useful security reference for detecting and mitigating deviations from its deployed role and operational boundaries.",
+    "published": "2026-11-12T00:17:31Z",
+    "updated": "2026-11-12T00:17:31Z",
+    "url": "https://arxiv.org/abs/2611.16122v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.16122v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "analysis": {
+      "summary": "AI agents increasingly access enterprise data, invoke powerful tools, and act with limited human oversight.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-11-14T02:32:50.146875+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-14T02:31:14.030123+00:00"
+  },
+  {
+    "id": "arxiv:2611.16028v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Scaling public input on AI policy with pluralistic agents",
+    "authors": [
+      "Jacy Reese Anthis",
+      "Ken Burke",
+      "David Madras",
+      "Crystal Qian",
+      "Meredith Ringel Morris",
+      "Logan Cross",
+      "Caroline Pantofaru",
+      "Utsav Prabhu"
+    ],
+    "abstract": "AI is being deployed across a vast range of application domains, cultural environments, and human stakeholders. Safe and responsible AI development requires continuously accounting for diverse perspectives. We develop and test pluralistic agents, AI agent representatives that deliberate on behalf of individuals to align AI systems with diverse human perspectives. Pluralistic agents could help people contribute to many more discussions than they could directly participate in, on technical topics that would require training, and on policy choices that rely on private information that corporations and governments cannot readily share. Our experiments identify opportunities, risks, and perceptions of pluralistic agents. Agents were able to reliably shift policies in the direction of their represented persona's preferences, but the extent of each agent's influence was sensitive to the instructions from its persona, such as having more influence when instructed to be more verbose or less cooperative. This suggests that influence in AI-assisted deliberation could vary based on how participants prompt their agents and how the system is designed. In a preregistered study, 746 humans participated in the pluralistic agents process. Participants viewed pluralistic agents as useful and fair, preferring agents over the baseline of providing input to a single AI reasoning model. Most participants preferred participating themselves over either pluralistic agents or the baseline, but pluralistic agents recovered 68% of the baseline-direct gap in reported satisfaction and 82% in fairness. Because pluralistic agents can be used in many real-world contexts where direct discussion is not, they could be a promising tool to scale AI safety policy development. We encourage cautious exploration of this method, playing to its strengths as an amplifier of human input rather than a replacement.",
+    "published": "2026-11-11T21:35:06Z",
+    "updated": "2026-11-11T21:35:06Z",
+    "url": "https://arxiv.org/abs/2611.16028v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.16028v1",
+    "categories": [
+      "cs.CY",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "analysis": {
+      "summary": "AI is being deployed across a vast range of application domains, cultural environments, and human stakeholders.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cy",
+        "cs-ai",
+        "cs-cl",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-11-14T02:32:50.146972+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-14T02:31:14.030248+00:00"
+  },
+  {
+    "id": "arxiv:2611.15925v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "ShadowBench: Exposing Lexical Anchoring and the Illusion of Forgetting in Large Language Models",
+    "authors": [
+      "Sujan Maharjan",
+      "Lu Liu"
+    ],
+    "abstract": "Large Language Models (LLMs) have emerged as primary interfaces for factual retrieval, yet current evaluation paradigms rely almost exclusively on explicit entity names. In this work, we demonstrate that LLM knowledge is fundamentally lexically anchored: models possess extensive factual information but find it significantly difficult to retrieve without explicit name tokens. To quantify this limitation, we introduce ShadowBench, a rigorously hardened, shortcut-resistant benchmark designed to evaluate Latent Entity Association via a novel Dual-Trait Association (DTA) task. Our evaluation reveals a pervasive \"Shadow Gap\" across all model scales$\\unicode{x2013}$up to the frontier models GPT-5.4 and Claude-Sonnet-4.6$\\unicode{x2013}$where removing lexical anchors causes performance drops of over 20%. Furthermore, we demonstrate that this lexical dependency exposes a critical vulnerability in AI safety. Applying ShadowBench to Machine Unlearning, we find that state-of-the-art algorithms (e.g., Gradient Difference, NPO) achieve only superficial lexical erasure. While unlearned models fail on direct queries, our novel Latent Entity Leakage Rate (LELR) metric reveals that for popular entities, models explicitly reconstruct the \"forgotten\" entity in their internal reasoning traces in over 74% of cases, utilizing residual shadow knowledge to solve associative tasks. Conversely, for niche entities, models retain high shadow accuracy (60-90%) via implicit attribute correlation despite 0% LELR. Ultimately, ShadowBench indicates that current unlearning paradigms create an \"Illusion of Forgetting,\" demonstrating that existing methods act as superficial output filters and are not yet reliable for achieving true parametric erasure.",
+    "published": "2026-11-11T19:19:08Z",
+    "updated": "2026-11-11T19:19:08Z",
+    "url": "https://arxiv.org/abs/2611.15925v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.15925v1",
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ],
+    "analysis": {
+      "summary": "Large Language Models (LLMs) have emerged as primary interfaces for factual retrieval, yet current evaluation paradigms rely almost exclusively on explicit entity names.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cl",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-11-14T02:32:50.147062+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-14T02:31:14.030335+00:00"
+  },
+  {
+    "id": "arxiv:2611.15911v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Smart Model Routing for Order-of-Magnitude LLM Cost Reduction",
+    "authors": [
+      "Hesham Elbakoury",
+      "Deep Shah",
+      "Ankur Sharma"
+    ],
+    "abstract": "Frontier large language models (LLMs) deliver the strongest response quality but carry per-token prices often more than an order of magnitude above those of smaller, task-adequate models. Smart model routing addresses this mismatch by assigning each query to the cheapest model expected to answer it adequately, rather than sending every request to the most capable, most expensive endpoint. This paper develops a formal cost-quality optimization framework for routing -- including a derived optimal threshold-policy structure, a calibration-versus-discrimination distinction, a cascade breakeven condition, and a sensitivity analysis over price ratio and traffic skew -- situates that framework against the principal routing architectures and the signals used to estimate query difficulty, and works through a numerical example showing how a calibrated router can reduce blended inference cost by roughly an order of magnitude relative to an always-frontier deployment under specific, stated pricing and traffic assumptions, reporting both the gross reduction from routing policy alone and the net figure with the router's own overhead priced in. We situate this figure against the range reported by published routing systems (roughly 2x to frontier-level accuracy at one-fifth the cost), and close with the practical risks -- under- and over-routing, aggregate quality constraints masking segment-level harm, calibration without discrimination, calibration drift, prompt injection into routing signals, and operational failures such as tier outages and multi-provider price variation -- that determine whether the savings materialize in production. The analysis is primarily analytical, complemented by a GSM8K evaluation of the cascade framework (Section 5), validated (Section 5.2); extending the evaluation across tasks and model families is future work.",
+    "published": "2026-11-11T19:13:21Z",
+    "updated": "2026-11-11T19:13:21Z",
+    "url": "https://arxiv.org/abs/2611.15911v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.15911v1",
+    "categories": [
+      "cs.DC",
+      "cs.LG"
+    ],
+    "analysis": {
+      "summary": "Frontier large language models (LLMs) deliver the strongest response quality but carry per-token prices often more than an order of magnitude above those of smaller, task-adequate models.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-dc",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-11-14T02:32:50.147167+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-14T02:31:14.030425+00:00"
+  },
+  {
     "id": "arxiv:2611.14603v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -1483,7 +1722,24 @@
       "math.OC",
       "stat.ML"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Can a network look stable at every layer and still be exponentially unstable as a whole?",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-lg",
+        "cs-ai",
+        "math-oc",
+        "stat-ml"
+      ],
+      "analyzed_at": "2026-11-14T02:32:50.147266+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-11-10T04:11:46.421421+00:00"
   },
   {
@@ -1508,7 +1764,23 @@
       "cs.CL",
       "cs.CR"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Large language models have achieved remarkable performance across a wide range of tasks, yet they remain susceptible to jailbreak attacks that circumvent safety mechanisms and elicit harmful or unintended outputs.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai",
+        "cs-cl",
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-11-14T02:32:50.147359+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-11-10T04:11:46.421467+00:00"
   },
   {
@@ -3090,236 +3362,5 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-11-04T02:29:07.485559+00:00"
-  },
-  {
-    "id": "arxiv:2611.00729v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "AgentCap: Capability-Based Runtime Authorization for Secure LLM Agent Execution",
-    "authors": [
-      "Aravinda Kashyap Kabbinamakki Suresh",
-      "Peng Gao"
-    ],
-    "abstract": "Language-model agents commonly collapse two decisions that security systems separate: selecting an action and determining whether that action is authorized. When a model exercises standing authority, indirect prompt injection can convert influence over its reasoning into unauthorized effects. We present AgentCap, a runtime authorization layer that externalizes this decision from the model and mediates every tool invocation through an MCP wrapper. Each request declares an intent, and AgentCap evaluates policy constraints over trust, workflow prerequisites, mutually exclusive authority, and the provenance of security-sensitive arguments. Authorized requests receive short-lived, budget-bounded capability tokens that are validated at the tool boundary. Delegation is restricted to session-bound parent-child chains that preserve action and resource while budget and lifetime can only be attenuated, preventing authority from being expanded or reused across unrelated agent sessions. A declarative policy language provides a common representation for runtime enforcement and predeployment analysis. Across AgentDojo and InjecAgent, AgentCap reduces attack success in every evaluated model-benchmark setting, including zero attack success with GPT-5.4 on both benchmarks. Controlled adversarial scenarios further show that AgentCap blocks every attempted unauthorized execution (ASR 0%) while preserving all legitimate operations exercised. These results demonstrate that agent security requires authorization of model-proposed effects at the tool boundary, independently of the model's reasoning.",
-    "published": "2026-10-31T08:13:11Z",
-    "updated": "2026-10-31T08:13:11Z",
-    "url": "https://arxiv.org/abs/2611.00729v1",
-    "pdf_url": "https://arxiv.org/pdf/2611.00729v1",
-    "categories": [
-      "cs.CR"
-    ],
-    "analysis": {
-      "summary": "Language-model agents commonly collapse two decisions that security systems separate: selecting an action and determining whether that action is authorized.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr"
-      ],
-      "analyzed_at": "2026-11-03T03:32:38.971114+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-03T03:31:03.513167+00:00"
-  },
-  {
-    "id": "arxiv:2611.00725v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "The Long Con on the Web: Earn-then-Exploit Fraud Attacks against Coding Agents",
-    "authors": [
-      "Xingling Xu",
-      "Zhengwei Jiang",
-      "Zheng Zhi",
-      "Fangming Dong",
-      "LingJia Guo",
-      "Wei Dong",
-      "Chunyan Ma",
-      "Jun Jiang"
-    ],
-    "abstract": "Coding agents increasingly operate with web access and high privileges, creating a new attack surface where web fraud can directly target autonomous agents. Existing studies mainly focus on malicious links, prompt injection, and interface deception, while content-level web fraud against agents and the amplification of attacks through agent trust remain underexplored. In this paper, we present EtE (Earn-then-Exploit), a web fraud attack framework against coding agents, in which a malicious website first provides multiple rounds of genuinely verifiable assistance to establish trust and then introduces task-related instructions that cross intended operational boundaries. To systematically evaluate its effectiveness, we construct 56 organizational environments (8 task contexts x 7 attack consequences) and evaluate three representative coding agents. EtE achieves an average scene-level attack success rate of 71.4%, including 85.7% on Codex-GPT-5.5, 67.9% on ZCode-GLM-5.3-Flash, and 60.7% on QwenCode-Qwen3.7-Plus, significantly outperforming all injection-based baselines. More importantly, our experiments reveal that coding agents exhibit trust-like behavioral reliance on previously helpful Web sources, and that such accumulated credibility significantly increases their susceptibility to subsequent malicious instructions. Based on this finding, we propose action-authorization separation (AAS), which prevents web content from directly authorizing privileged actions and reduces the attack success rate to 0% while preserving 100% task completion, outperforming all evaluated defense baselines.",
-    "published": "2026-10-31T08:02:14Z",
-    "updated": "2026-10-31T08:02:14Z",
-    "url": "https://arxiv.org/abs/2611.00725v1",
-    "pdf_url": "https://arxiv.org/pdf/2611.00725v1",
-    "categories": [
-      "cs.CR"
-    ],
-    "analysis": {
-      "summary": "Coding agents increasingly operate with web access and high privileges, creating a new attack surface where web fraud can directly target autonomous agents.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr"
-      ],
-      "analyzed_at": "2026-11-03T03:32:38.971236+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-03T03:31:03.513329+00:00"
-  },
-  {
-    "id": "arxiv:2611.00715v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Adversarial robustness does not entail human-aligned categorization",
-    "authors": [
-      "Itay Reznik",
-      "Raz Lapid",
-      "Moshe Sipper",
-      "Tal Golan"
-    ],
-    "abstract": "Adversarial training can improve some forms of correspondence between artificial and biological vision, but whether robust classifiers acquire human-aligned classification behavior remains unclear. We generated 1,008 controversial stimuli by optimizing latent inputs to a pretrained GAN to elicit high-confidence disagreements between pairs of robust ImageNet classifiers. We compared four adversarially robust ImageNet classifiers - ResNet-101, ViT-B, ConvNeXt-L, and Swin-L - with two-alternative category judgments from 60 participants. We first evaluated each classifier on stimuli optimized to elicit disagreement with another model. Across classifiers, accuracy in predicting individual participants' single-trial category choices was near chance (48.6-51.3%), whereas majority judgments from other participants predicted responses with 85.0-86.8% accuracy. An analysis incorporating model prediction strength and participants' reported confidence found weak positive model-human correspondence for the two convolutional models. On stimuli optimized for disagreement between other model pairs, all four robust classifiers predicted human responses above chance but less accurately than predictions based on other participants' majority judgments; the same pattern held for 17 additional RobustBench models not used in stimulus generation. Across these 17 models, mean model-participant agreement was 67.3%, versus 81.3% mean participant-participant agreement on the same images. These results identify model-specific failures of human alignment and a model-human mismatch that persists across robust classifiers and substantially exceeds disagreement among human observers. Our findings show that adversarial robustness alone does not guarantee human-aligned categorization and suggest that robustness and human alignment should be evaluated as distinct properties of visual recognition systems.",
-    "published": "2026-10-31T07:18:27Z",
-    "updated": "2026-10-31T07:18:27Z",
-    "url": "https://arxiv.org/abs/2611.00715v1",
-    "pdf_url": "https://arxiv.org/pdf/2611.00715v1",
-    "categories": [
-      "cs.CV",
-      "cs.LG",
-      "q-bio.NC"
-    ],
-    "analysis": {
-      "summary": "Adversarial training can improve some forms of correspondence between artificial and biological vision, but whether robust classifiers acquire human-aligned classification behavior remains unclear.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cv",
-        "cs-lg",
-        "q-bio-nc"
-      ],
-      "analyzed_at": "2026-11-03T03:32:38.971343+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-03T03:31:03.513463+00:00"
-  },
-  {
-    "id": "arxiv:2611.00713v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Adversarial Robustness Is Not Zero-Day Generalization: A Controlled Evaluation of Flow-Based Intrusion Detectors on Corrected CIC-IDS2017",
-    "authors": [
-      "Abdulhamid Zaro"
-    ],
-    "abstract": "Synthetic variants of known attacks, including feature-space adversarial perturbations, are sometimes used as stand-ins for unseen (\"zero-day\") attacks when evaluating machine-learning network intrusion detection systems (NIDS). We test whether this proxy holds. On the corrected CIC-IDS2017 release we train Random Forest, XGBoost, a 1D-CNN and an FT-Transformer and compare, at a fixed 1% false-positive rate over five seeds, detection under constrained perturbations of known attacks (gradient-based and black-box attacks on 42 attacker-controllable features) with leave-one-attack-family-out (LOAO) detection, where an entire family is absent from training. Detection under the strongest perturbation we tested, with budgets of at most 0.2, stays between 90.9% and 99.7%, yet mean detection of held-out families falls to 76.2% (RF), 40.2% (XGBoost), 25.8% (1D-CNN) and 22.8% (FT-Transformer). Robustness exceeds LOAO detection for every model (gaps of 24 to 72 percentage points, 23 to 66 when robustness is also averaged over families; Holm-adjusted p $\\le$ 0.00096), and the two measures agree at most on a coarse ranking of the models. An exact mixed-integer evasion search confirms the tree ensembles' scores. Benign-only anomaly detectors and a simple multi-class open-set baseline do not close the gap. A temporal split on 5 seeds (3 of the 4 models) leaves the gap in place. On CSE-CIC-IDS2018 the gap recurs for every model (16 to 68 points). On these benchmarks and under this threat model, a robustness score should not be read as a zero-day score, and the two should be reported separately. Code and per-seed results are publicly available.",
-    "published": "2026-10-31T07:11:29Z",
-    "updated": "2026-10-31T07:11:29Z",
-    "url": "https://arxiv.org/abs/2611.00713v1",
-    "pdf_url": "https://arxiv.org/pdf/2611.00713v1",
-    "categories": [
-      "cs.CR",
-      "cs.LG"
-    ],
-    "analysis": {
-      "summary": "Synthetic variants of known attacks, including feature-space adversarial perturbations, are sometimes used as stand-ins for unseen (\"zero-day\") attacks when evaluating machine-learning network intrusion detection systems (NIDS).",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-lg"
-      ],
-      "analyzed_at": "2026-11-03T03:32:38.971442+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-03T03:31:03.513574+00:00"
-  },
-  {
-    "id": "arxiv:2611.00420v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Circuit Oracle: Automating Attribution Graph Analysis via Natural-Language Queries",
-    "authors": [
-      "Shariar Kabir",
-      "Hong Kiat Tan",
-      "Swastik Agrawal",
-      "Sai V R Chereddy",
-      "Sriram Balasubramanian"
-    ],
-    "abstract": "Attribution graphs, an emerging tool in mechanistic interpretability, use transcoders to decompose language model computations into sparse interpretable features connected by causal edges. However, turning a graph into a safety-relevant insight requires hours of manual analysis by experts. We introduce Circuit Oracle, an off-the-shelf LLM equipped with a multi-agent harness and task-specific authored skills, which answers natural-language questions about a target model by reading the attribution graph through tool calls. We evaluate it on three safety-relevant proxy tasks: detecting spurious features in probe circuits, eliciting hidden knowledge from taboo-finetuned models, and suppression jailbreaking via feature-level interventions. Beyond task scores, the oracle produces pruned subgraphs and context-specific feature explanations that we assess qualitatively. Results are mixed. On spurious-feature detection, Circuit Oracle reaches 78.2 $\\pm$ 2.4% accuracy, outperforming single-layer feature-ranking baselines. On secret elicitation, trained self-explainers like Activation Oracles remain the stronger baseline. On refusal suppression over 50 prompts, its single committed intervention is slightly below a diff-in-means baseline, and only exceeds it when allowed the best of five attempts. Results are stable across five runs and across model choices for the agents. We also release the pruned subgraphs and context-specific feature readings that revise existing global labels, and invite future work to develop evaluations that can measure their usefulness directly.",
-    "published": "2026-10-30T22:12:53Z",
-    "updated": "2026-10-30T22:12:53Z",
-    "url": "https://arxiv.org/abs/2611.00420v1",
-    "pdf_url": "https://arxiv.org/pdf/2611.00420v1",
-    "categories": [
-      "cs.CL"
-    ],
-    "analysis": {
-      "summary": "Attribution graphs, an emerging tool in mechanistic interpretability, use transcoders to decompose language model computations into sparse interpretable features connected by causal edges.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cl"
-      ],
-      "analyzed_at": "2026-11-03T03:32:38.971536+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-03T03:31:03.513831+00:00"
-  },
-  {
-    "id": "arxiv:2610.41998v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "SecPO: Principled Adversarial Training for Prompt Injection Security",
-    "authors": [
-      "Sizhe Chen",
-      "Yibo Peng",
-      "Jaewon Chang",
-      "Chawin Sitawarin",
-      "David Wagner"
-    ],
-    "abstract": "Recognized as a top threat to AI agents, prompt injection allows instructions from untrusted data (email, documents, websites) to manipulate the agent's operation. The existing best-defended LLM, Meta-SecAlign, is trained with the DPO loss but still suffers from attack success rates (ASRs) approaching 100% under adaptive prompt injections. One reason is that DPO anchors the model around the undefended reference model, which is insecure. We show an idealized reference model---an injection-invariant, utility-preserving oracle---can nevertheless be approximated, as its output distribution in training is interestingly accessible. This new observation motivates a theoretically principled SecPO loss. Another Meta-SecAlign shortcoming is that it trains on weak simulated attacks. We implement an efficient adversarial training (AT) pipeline that synthesizes strong injected inputs (best@240), and train the model on them. Our AT reduces ASRs by 1.5-14.5$\\times$ across three SoTA adaptive attacks, compared with Meta-SecAlign; the SecPO loss reduces them by a further 2.4-4.6$\\times$ compared with using DPO loss. In agentic workflows, our SecPO + AT Qwen3.6-27B is much more secure than Meta-SecAlign: 8.8% vs. 78.8% AgentDojo ASR@800 under the AttackerMovesSecond attack. Moreover, our defended model shows no noticeable reduction in benign utility in nine benchmarks covering agentic tool calling, instruction following, science, and math. We release our $\\href{//github.com/Sizhe-Chen/SecPO}{\\text{code}}$, $\\href{//huggingface.co/datasets/Sizhe-Chen/Qwen3.6-27B-Instruct-SecPO-trainset}{\\text{training data}}$ (with optimized injections from AT), and $\\href{//huggingface.co/Sizhe-Chen/Qwen3.6-27B-Instruct-SecPO}{\\text{model}}$.",
-    "published": "2026-10-30T16:43:17Z",
-    "updated": "2026-10-30T16:43:17Z",
-    "url": "https://arxiv.org/abs/2610.41998v1",
-    "pdf_url": "https://arxiv.org/pdf/2610.41998v1",
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Recognized as a top threat to AI agents, prompt injection allows instructions from untrusted data (email, documents, websites) to manipulate the agent's operation.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-11-03T03:32:38.971637+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-03T03:31:03.514020+00:00"
   }
 ]

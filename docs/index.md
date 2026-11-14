@@ -1,8 +1,122 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-11-13 10:44 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-11-14 10:32 Asia/Shanghai
 
 ## 今日论文
+
+### [CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts](https://arxiv.org/abs/2611.17115v1)
+
+**作者**：Zimo Xu, Wenzhuo Liu, Hideki Nakayama
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-11-12 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.17115v1)
+
+**摘要总结**：Enforcement defenses against prompt injection, such as CaMeL, Progent, IPIGuard and DRIFT, ask the agent's own model to write a security artifact (a program, a privilege policy, a dependency graph or a constraint list) that code then enforces.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-cl` `cs-cr`
+
+---
+
+### [Scale-Induced Semantic Shift in Visual Prompt Injection Against VLMs and Web Agents](https://arxiv.org/abs/2611.16744v1)
+
+**作者**：Yiheng Zhao, Runze Ji, Chenyu Yi, Yi Yu, Bingquan Shen, Alex Kot, Xudong Jiang
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-11-12 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.16744v1)
+
+**摘要总结**：Visual content in multimedia systems may be resized, compressed, or re-rendered before it is interpreted by a vision-language model.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
+
+---
+
+### [Intent-Aware Protection for AI Agents](https://arxiv.org/abs/2611.16122v1)
+
+**作者**：Fady Copty, Neta Haiby, Max Braitmaiere, Julia Korsunsky
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-11-12 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.16122v1)
+
+**摘要总结**：AI agents increasingly access enterprise data, invoke powerful tools, and act with limited human oversight.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
+
+---
+
+### [Scaling public input on AI policy with pluralistic agents](https://arxiv.org/abs/2611.16028v1)
+
+**作者**：Jacy Reese Anthis, Ken Burke, David Madras, Crystal Qian, Meredith Ringel Morris, Logan Cross, Caroline Pantofaru, Utsav Prabhu
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-11-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.16028v1)
+
+**摘要总结**：AI is being deployed across a vast range of application domains, cultural environments, and human stakeholders.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cy` `cs-ai` `cs-cl` `cs-lg`
+
+---
+
+### [ShadowBench: Exposing Lexical Anchoring and the Illusion of Forgetting in Large Language Models](https://arxiv.org/abs/2611.15925v1)
+
+**作者**：Sujan Maharjan, Lu Liu
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-11-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.15925v1)
+
+**摘要总结**：Large Language Models (LLMs) have emerged as primary interfaces for factual retrieval, yet current evaluation paradigms rely almost exclusively on explicit entity names.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl` `cs-lg`
+
+---
+
+### [Smart Model Routing for Order-of-Magnitude LLM Cost Reduction](https://arxiv.org/abs/2611.15911v1)
+
+**作者**：Hesham Elbakoury, Deep Shah, Ankur Sharma
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-11-11 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.15911v1)
+
+**摘要总结**：Frontier large language models (LLMs) deliver the strongest response quality but carry per-token prices often more than an order of magnitude above those of smaller, task-adequate models.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-dc` `cs-lg`
+
+---
 
 ### [An Eyring-Kramers Formula for Singular Wells](https://arxiv.org/abs/2611.14603v1)
 
@@ -618,13 +732,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.08775v1)
 
-**摘要总结**：暂无
+**摘要总结**：Can a network look stable at every layer and still be exponentially unstable as a whole?
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-ai` `math-oc` `stat-ml`
 
 ---
 
@@ -634,13 +751,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.08752v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large language models have achieved remarkable performance across a wide range of tasks, yet they remain susceptible to jailbreak attacks that circumvent safety mechanisms and elicit harmful or unintended outputs.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-cl` `cs-cr`
 
 ---
 
@@ -1389,120 +1509,6 @@
 **来源**：arxiv · AI安全 · **发布日期**：2026-10-31 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.01342v1)
 
 **摘要总结**：Prefill jailbreaks can cause safety-aligned language models to continue an unsafe assistant prefix even when they would refuse the same request under normal decoding.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai`
-
----
-
-### [AgentCap: Capability-Based Runtime Authorization for Secure LLM Agent Execution](https://arxiv.org/abs/2611.00729v1)
-
-**作者**：Aravinda Kashyap Kabbinamakki Suresh, Peng Gao
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-10-31 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.00729v1)
-
-**摘要总结**：Language-model agents commonly collapse two decisions that security systems separate: selecting an action and determining whether that action is authorized.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr`
-
----
-
-### [The Long Con on the Web: Earn-then-Exploit Fraud Attacks against Coding Agents](https://arxiv.org/abs/2611.00725v1)
-
-**作者**：Xingling Xu, Zhengwei Jiang, Zheng Zhi, Fangming Dong, LingJia Guo, Wei Dong, Chunyan Ma, Jun Jiang
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-10-31 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.00725v1)
-
-**摘要总结**：Coding agents increasingly operate with web access and high privileges, creating a new attack surface where web fraud can directly target autonomous agents.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr`
-
----
-
-### [Adversarial robustness does not entail human-aligned categorization](https://arxiv.org/abs/2611.00715v1)
-
-**作者**：Itay Reznik, Raz Lapid, Moshe Sipper, Tal Golan
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-10-31 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.00715v1)
-
-**摘要总结**：Adversarial training can improve some forms of correspondence between artificial and biological vision, but whether robust classifiers acquire human-aligned classification behavior remains unclear.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cv` `cs-lg` `q-bio-nc`
-
----
-
-### [Adversarial Robustness Is Not Zero-Day Generalization: A Controlled Evaluation of Flow-Based Intrusion Detectors on Corrected CIC-IDS2017](https://arxiv.org/abs/2611.00713v1)
-
-**作者**：Abdulhamid Zaro
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-10-31 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.00713v1)
-
-**摘要总结**：Synthetic variants of known attacks, including feature-space adversarial perturbations, are sometimes used as stand-ins for unseen ("zero-day") attacks when evaluating machine-learning network intrusion detection systems (NIDS).
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-lg`
-
----
-
-### [Circuit Oracle: Automating Attribution Graph Analysis via Natural-Language Queries](https://arxiv.org/abs/2611.00420v1)
-
-**作者**：Shariar Kabir, Hong Kiat Tan, Swastik Agrawal, Sai V R Chereddy, Sriram Balasubramanian
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-10-30 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.00420v1)
-
-**摘要总结**：Attribution graphs, an emerging tool in mechanistic interpretability, use transcoders to decompose language model computations into sparse interpretable features connected by causal edges.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cl`
-
----
-
-### [SecPO: Principled Adversarial Training for Prompt Injection Security](https://arxiv.org/abs/2610.41998v1)
-
-**作者**：Sizhe Chen, Yibo Peng, Jaewon Chang, Chawin Sitawarin, David Wagner
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-10-30 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2610.41998v1)
-
-**摘要总结**：Recognized as a top threat to AI agents, prompt injection allows instructions from untrusted data (email, documents, websites) to manipulate the agent's operation.
 
 **创新点**
 
