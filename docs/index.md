@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-11-14 10:32 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-11-15 10:01 Asia/Shanghai
 
 ## 今日论文
 
@@ -770,13 +770,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.08699v1)
 
-**摘要总结**：暂无
+**摘要总结**：Classical streaming algorithms and statistical mechanisms frequently fail when future inputs or queries depend adaptively on prior outputs.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ds`
 
 ---
 
