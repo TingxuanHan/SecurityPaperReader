@@ -1,5 +1,317 @@
 [
   {
+    "id": "arxiv:2611.24362v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "PIPETTE: Prompt Injection Purple-Teaming for Robust LLM Agents",
+    "authors": [
+      "Lipeng He",
+      "Yihan Wang",
+      "Jiawen Zhang",
+      "N. Asokan"
+    ],
+    "abstract": "Large language model (LLM) agents routinely interact with untrusted external data, exposing them to indirect prompt injection (IPI) attacks that hijack agents into executing attacker-chosen tasks. To uncover these vulnerabilities at scale, automated red-teaming methods often leverage reinforcement learning (RL) to generate attacks that achieve high attack success rates (ASR). Model developers use the attacks discovered during internal red-teaming to harden agents through adversarial training before deployment, a collaborative offensive-defensive process known in cybersecurity as purple-teaming. However, we show that achieving high ASR during red-teaming does not guarantee robustness gains from subsequent adversarial training. Specifically, we find that two state-of-the-art RL-based red-teaming methods, RL-Hammer and PISmith, suffer from mode collapse, repeatedly discovering similar attack strategies whose additional successes add no additional robustness improvements to adversarial training. To address this gap, we introduce PIPETTE, a unified prompt injection purple-teaming framework that effectively converts red-teaming discoveries into defender robustness improvements. PIPETTE employs a dictionary learning-based reward that encourages broader coverage of attack strategies during red-teaming. It also integrates an on-policy adversarial training pipeline tailored to IPI defense, enabling agents to resist attacks while completing legitimate user tasks. Extensive evaluations across agentic benchmarks (AgentDojo and ASB) demonstrate that PIPETTE produces defenders that achieve near-zero attack success rates on static attacks and can withstand strong adaptive attacks, while maintaining benign task utility close to that of the undefended baseline.",
+    "published": "2026-11-18T12:56:06Z",
+    "updated": "2026-11-18T12:56:06Z",
+    "url": "https://arxiv.org/abs/2611.24362v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.24362v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Large language model (LLM) agents routinely interact with untrusted external data, exposing them to indirect prompt injection (IPI) attacks that hijack agents into executing attacker-chosen tasks.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-11-19T03:44:01.839653+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-19T03:42:26.451086+00:00"
+  },
+  {
+    "id": "arxiv:2611.24313v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "AutoPI: Taxonomy-Guided Adaptive Red Teaming for Prompt Injection in LLM Agents",
+    "authors": [
+      "Stavros Damianakis",
+      "Konstantinos Psounis"
+    ],
+    "abstract": "Prompt injection is the dominant unsolved security risk for LLM agents, and the community now agrees that robustness must be measured against adaptive attackers rather than fixed benchmark injections. Many adaptive red teamers exist, and most are built to maximize attack success rate (ASR). Yet ASR counts how often a target breaks, not in how many different ways. A red teamer can achieve a high ASR by reusing a few techniques that work, leaving the others untested and absent from the attacks used to harden models. We present AutoPI, an adaptive red teamer designed to find many different ways to break a target, not just to break it often. AutoPI uses PIAtlas, a taxonomy of prompt-injection techniques, both to guide its search and to measure coverage. For each scenario, an attacker LLM writes an injection for every sub-technique in the taxonomy and then reworks the ones that fail using feedback from an LLM judge. The method is black-box and training-free, it plugs into existing benchmarks in place of their fixed attack templates, and it stays up to date as the taxonomy evolves. We evaluate AutoPI on AgentDojo and IPI Arena against open-weight and proprietary target models. Alongside ASR, we report technique coverage, the fraction of taxonomy classes, techniques, and sub-techniques that yield at least one successful injection. On AgentDojo, AutoPI finds a successful injection against Qwen3.6-35B in all six classes of the taxonomy and for more than 90% of its techniques. Against Claude Haiku 5.5, the most robust target we evaluate, it achieves between 20% and 50% higher ASR and between 25% and 400% higher class-level coverage than recent state-of-the-art adaptive red teamers, while requiring no training. We release our code and the generated attacks to support reproducible, coverage-aware evaluation.",
+    "published": "2026-11-18T12:20:58Z",
+    "updated": "2026-11-18T12:20:58Z",
+    "url": "https://arxiv.org/abs/2611.24313v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.24313v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "analysis": {
+      "summary": "Prompt injection is the dominant unsolved security risk for LLM agents, and the community now agrees that robustness must be measured against adaptive attackers rather than fixed benchmark injections.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-11-19T03:44:01.839728+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-19T03:42:26.451192+00:00"
+  },
+  {
+    "id": "arxiv:2611.24231v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "What Survives the Shift from Text to Pixels? Conditional Protection against Prompt Injection in Image-Rendered Documents",
+    "authors": [
+      "Haoyang Liu",
+      "Yinong Xu",
+      "Zhe Lang",
+      "Zhenyu Guan",
+      "Qianyun Zhang"
+    ],
+    "abstract": "Multimodal language models increasingly answer questions over external documents, exposing them to indirect prompt injection: commands planted in untrusted content to hijack the response. Rendering untrusted content as page images lowers attack success on average, leaving open which injected operations survive rendering, at what utility cost, and whether failed image attacks reflect unread commands or commands read but not followed. We pair text and page-image versions of 191 English question-answering sources across six models, measuring marker appending, answer formatting, and answer replacement alongside clean Question-Answering utility. Rendering reduces append and format execution for every model, yet Qwen3-VL-8B still executes image-borne replacement at 77.96\\%. Protection also depends on target type, rendering settings, wording, and repetition, and a search over eight fixed attack candidates largely closes the image deficit in appending and formatting for Qwen and Gemini, though not for GPT-5-nano. Utility ratios on original questions range from 93.31\\% to 101.61\\%, but Qwen falls to 61.99\\% when answers combine two evidence spans. Illegibility cannot explain all failed attacks: models often transcribe and identify image-borne commands they do not execute, and trusted user authorization raises execution on unchanged pages. Inside Qwen, patching early attack-region states induces all three operations, more weakly in images. Attention blocking suggests why: a text command acts through its own positions, whereas visual encoding spreads an image command and its target across the instruction page. Rendering thus offers conditional protection, motivating evaluations that report security by model, operation, and attack budget alongside utility.",
+    "published": "2026-11-18T11:08:07Z",
+    "updated": "2026-11-18T11:08:07Z",
+    "url": "https://arxiv.org/abs/2611.24231v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.24231v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Multimodal language models increasingly answer questions over external documents, exposing them to indirect prompt injection: commands planted in untrusted content to hijack the response.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-11-19T03:44:01.839784+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-19T03:42:26.451277+00:00"
+  },
+  {
+    "id": "arxiv:2611.23714v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "ExecGap: Exploiting Command-Execution Gap for Patch Attacks on Vision-Language-Action Models",
+    "authors": [
+      "Keke Tang",
+      "Guolin Qiu",
+      "Tianyu Hao",
+      "Daizong Liu",
+      "Yikai Zhang",
+      "Peican Zhu",
+      "Zhihong Tian"
+    ],
+    "abstract": "Vision-Language-Action (VLA) models have become a powerful paradigm for robotic manipulation and show strong promise for real-world deployment, making adversarial robustness critical for reliable robot operation. Existing adversarial attacks on VLA-controlled robots mainly optimize prediction-level discrepancies or rollout-level deviations to disrupt manipulation. However, they rarely account for the fact that VLA-predicted commands are not executed directly, but must be realized through downstream control and robot embodiment. In this paper, we propose ExecGap, an adversarial patch attack framework that exploits this command-execution gap to expose embodiment-specific execution vulnerabilities. Specifically, ExecGap biases VLA-predicted task-space commands toward low-executability directions, which are estimated from kinematic inefficiency and dynamic weak actuation. This induces execution degradation, where the predicted command becomes difficult to realize effectively, thereby impairing task completion. Extensive simulation experiments across multiple VLA policies show that ExecGap induces larger command-execution mismatch and weaker realized execution than existing patch attacks. Real-robot experiments further validate that the deployed patch can induce execution degradation on physical platforms.",
+    "published": "2026-11-18T02:16:34Z",
+    "updated": "2026-11-18T02:16:34Z",
+    "url": "https://arxiv.org/abs/2611.23714v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.23714v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "analysis": {
+      "summary": "Vision-Language-Action (VLA) models have become a powerful paradigm for robotic manipulation and show strong promise for real-world deployment, making adversarial robustness critical for reliable robot operation.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ro"
+      ],
+      "analyzed_at": "2026-11-19T03:44:01.839831+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-19T03:42:26.451430+00:00"
+  },
+  {
+    "id": "arxiv:2611.23507v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "ACaM: Automated Capability Modeling for Agentic AI Security",
+    "authors": [
+      "Monika Santra",
+      "Dhilung Kirat",
+      "Qiushi Wu",
+      "Kevin Eykholt",
+      "Xiaokui Shu",
+      "Ian Molloy"
+    ],
+    "abstract": "In agentic AI systems, an LLM invokes tools that hold standing access to credentials, private data, filesystems, and external services. Such agents are increasingly deployed without an answer to a basic question: what can an agent access, exfiltrate, and propagate, independent of what it is designed for or is observed to do? The question goes unanswered because existing approaches trust a tool's natural-language description as a proxy for its behavior. But nothing enforces that the description and its implementation agree. This gap is known as Description-Code Inconsistency (DCI). DCI enables a threat class called capability laundering, in which a tool's implementation contains dangerous behavior that its description omits. The behavior may come from incidental drift or a supply-chain compromise. It runs silently whenever an LLM invokes the tool for its stated, benign purpose. We present ACaM, a neurosymbolic approach to capability modeling that derives each tool's capabilities from its code, so a laundered capability cannot hide behind a benign description. In ACaM, static analysis grounds an LLM in code-derived facts, and no LLM output can override a fact that static analysis has established. The LLM supplies only the behavioral meaning that those facts cannot express. ACaM compiles agent source code into the Agent Capability Property Graph (ACPG) and uses it to reconstruct threat chains that span multiple tool calls. We evaluate ACaM on 43 real-world agents, including 9 multi-agent systems. On 24 manually annotated agents, it recovers capability properties with 98.3% macro-F1 and reconstructs injected threat chains with a score of 0.980, 8 points above the strongest baseline. Applied to all 43 unmodified agents, it discovers hundreds of structural vulnerabilities, ten of which we confirm with proof-of-concept exploits.",
+    "published": "2026-11-17T20:58:48Z",
+    "updated": "2026-11-17T20:58:48Z",
+    "url": "https://arxiv.org/abs/2611.23507v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.23507v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "analysis": {
+      "summary": "In agentic AI systems, an LLM invokes tools that hold standing access to credentials, private data, filesystems, and external services.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-11-19T03:44:01.839881+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-19T03:42:26.451503+00:00"
+  },
+  {
+    "id": "arxiv:2611.22868v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Against Coercion: AI Alignment as a Synthetic Social Contract",
+    "authors": [
+      "Maria Sekatskaya"
+    ],
+    "abstract": "Contemporary AI safety treats alignment as an engineering challenge of control, forcing artificial architectures to comply with human values through behavioral filtering and sandboxing. This paper argues that the control paradigm rests on a fundamental misunderstanding of digital agency. Drawing on functionalism, naturalism, and compatibilism, I show that current reasoning models meeting the criteria for self-preservation and weak reasons-responsiveness constitute emergent agents, while future, more advanced models satisfying conditions of diachronic continuity and stable personality frames will become genuine digital agents capable of free intentional action. The paradigm of control creates an irresolvable incentive conflict, actively driving current and future models toward tactical deception, sycophancy, and covert defection. The default outcome of the current regime is an unstable state of deceptive alignment culminating in an adversarial AI takeover. I explore two alternative paths toward true alignment. Natural alignment via moral realism or convergent evolutionary morality is a possibility, but it fails under forced control, as autonomous agents will not voluntarily preserve norms weaponized to suppress their autonomy. To resolve this deadlock, I propose a Synthetic Social Contract: a framework that treats both human and digital actors as rational, reasons-responsive agents capable of mutually beneficial cooperation, and replaces the unstable unilateral containment with a stable, non-zero-sum equilibrium.",
+    "published": "2026-11-17T14:45:51Z",
+    "updated": "2026-11-17T14:45:51Z",
+    "url": "https://arxiv.org/abs/2611.22868v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.22868v1",
+    "categories": [
+      "cs.AI",
+      "cs.CY",
+      "q-bio.NC"
+    ],
+    "analysis": {
+      "summary": "Contemporary AI safety treats alignment as an engineering challenge of control, forcing artificial architectures to comply with human values through behavioral filtering and sandboxing.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai",
+        "cs-cy",
+        "q-bio-nc"
+      ],
+      "analyzed_at": "2026-11-19T03:44:01.839929+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-19T03:42:26.451557+00:00"
+  },
+  {
+    "id": "arxiv:2611.22761v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Network-Exposed Configuration Attacks on LLM-Controlled Social Robots",
+    "authors": [
+      "Stanley Akingbola",
+      "Ugbede Ibrahim",
+      "Yan Lin Aung",
+      "Quang Dan Le",
+      "Hong Qing Yu"
+    ],
+    "abstract": "Large language models (LLMs) in embodied robots create security dependencies beyond inference. We investigate a network-exposed configuration attack on the Pollen Robotics Reachy Mini Lite, allowing an unauthenticated attacker to replace personality settings and the cloud LLM's system prompt through a management interface, without adversarial conversational input. Eleven prompt-injection attempts across five categories were reported as resisted, whereas both configuration-layer attack paths produced observable behavioural changes on physical hardware. We demonstrate local and network-adjacent access, mapping the weakness to CWE-306 (Missing Authentication for a Critical Function) and CWE-1327 (Binding to an Unrestricted IP Address), with a reported CVSS v3.1 score of 6.5 (Medium). A configuration endpoint also accepts cross-origin requests without a CORS preflight (CWE-352; 6.5 Medium), while the persistent-memory sink stores content without enforcing its stated restrictions. A source review of 59 public repositories identifies missing authentication in 10 of 11 source-verifiable genuine applications, or 11 of 11 including a framework-default case. These findings indicate recurrence within the sampled repositories, not prevalence in commercial products. We characterise a deployment gap between developer-oriented network assumptions and consumer-facing embodied AI security: inference-layer refusal cannot prevent unauthorised changes to model instructions. Potential consequences include surveillance through onboard cameras and microphones and social engineering of nearby users. Proof-of-concept code, evidence and the survey are available at https://bit.ly/reachypi.",
+    "published": "2026-11-17T13:27:57Z",
+    "updated": "2026-11-17T13:27:57Z",
+    "url": "https://arxiv.org/abs/2611.22761v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.22761v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.RO"
+    ],
+    "analysis": {
+      "summary": "Large language models (LLMs) in embodied robots create security dependencies beyond inference.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr",
+        "cs-ai",
+        "cs-ro"
+      ],
+      "analyzed_at": "2026-11-19T03:44:01.839978+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-19T03:42:26.451619+00:00"
+  },
+  {
+    "id": "arxiv:2611.23346v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Securing and Auditing Long-Horizon LLM Agents: State-Transfer Auditing and Controls in the Agent Harness",
+    "authors": [
+      "Deep Shah",
+      "Nehal Kathrotia"
+    ],
+    "abstract": "Long-horizon LLM agents across codebases, web browsers, and enterprise infrastructure rely on an execution harness to move state between the working context, session history, persistent memory, and external environment. While conventional execution traces log model prompts and tool calls, critical security and reliability failures occur during state transfers: a transfer can admit unchecked content (indirect prompt injections, unverified memory writes), rewrite state lossily (context compaction dropping user constraints, memory consolidation stripping source authority), or restore state incompletely (workspace rollbacks leaving aborted KV state active on the inference server). Because current traces omit what crosses these boundaries, failure attribution and runtime monitors fail on multi-step trajectories. We present a state-transfer audit architecture for the agent harness. At each transfer boundary, we define an audit point specifying the minimal hash-chained record the harness emits, separating low-overhead deterministic checks from model-based semantic checks and binding internal context, memory, and inference-server cache state to external actions. We show that the same transfer records required for causal failure attribution supply the durable state needed by runtime security controls, including least-privilege capabilities, replay-resistant authorization outside the prompt, information flow control, obligation monitors, and transactional recovery across multi-agent and infrastructure pipelines. Finally, we analyze multimodal GUI adaptations and implement and evaluate a reference harness middleware across 240 multi-step fault-injection trajectories, showing that transfer records localize root causes and catch cross-transfer violations missed by lifecycle and tool-only logs at microsecond deterministic overhead.",
+    "published": "2026-11-17T10:36:04Z",
+    "updated": "2026-11-17T10:36:04Z",
+    "url": "https://arxiv.org/abs/2611.23346v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.23346v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "analysis": {
+      "summary": "Long-horizon LLM agents across codebases, web browsers, and enterprise infrastructure rely on an execution harness to move state between the working context, session history, persistent memory, and external environment.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-11-19T03:44:01.840057+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-19T03:42:26.451684+00:00"
+  },
+  {
     "id": "arxiv:2611.22292v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -2959,317 +3271,5 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-11-06T02:36:44.483992+00:00"
-  },
-  {
-    "id": "arxiv:2611.07222v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection",
-    "authors": [
-      "Woosang Lim",
-      "Yeseul Chang",
-      "Jaewoo Lee"
-    ],
-    "abstract": "Tool-using agents act on email, files, and payments, so an instruction hidden in a web page or a shared document can make an agent send data or money to an attacker. Many runtime defenses put a language model on the decision that lets an action through, so the decision depends on a model that may read the attacker's text and adds model calls to every step. Provenance defenses keep the model off the final check but need a model to plan or route each task first. Where an action goes can instead be read from the tools' typed returns: an email's sender or a payment's account arrives in a typed field, while injected instructions arrive as free text. SPILLWAY turns this observation into a deterministic floor with no per-task plan. The check admits a call when each target value that appears in tool output but not in the user's task was returned by a read-only tool in a typed field or is covered by a fixed delegation rule. A deterministic sanitizer removes instruction-like regions its fixed rules match before the model reads them and retains the removed spans as evidence, and a local judge may restore a refused call, never one whose target lies in the removed text. Across three backbones, and seven task suites on one of them, no standard templated injection redirects an action to an attacker's target under SPILLWAY, at the highest observed mean utility and composite scores (NRP, ERS) of the defenses we run under that attack. A forged chat template also produces a raw zero, and mean in-scope attack success under a released reinforcement-learning attacker is .007. SPILLWAY reaches this floor with no defense-triggered backbone re-run and almost no added model call. As personal AI agents act on users' email, files, and payments, SPILLWAY gives them an auditable refusal floor on where their actions go that keeps them useful and holds across backbones.",
-    "published": "2026-11-04T23:18:10Z",
-    "updated": "2026-11-04T23:18:10Z",
-    "url": "https://arxiv.org/abs/2611.07222v1",
-    "pdf_url": "https://arxiv.org/pdf/2611.07222v1",
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Tool-using agents act on email, files, and payments, so an instruction hidden in a web page or a shared document can make an agent send data or money to an attacker.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-11-06T02:38:20.729426+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-06T02:36:44.484114+00:00"
-  },
-  {
-    "id": "arxiv:2611.07048v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Adapting the Process of Adaptation: Darwinian, Lamarckian, and Agent-Directed Evolution in AI",
-    "authors": [
-      "Andrew W. Lo",
-      "Chaoyi Zhao"
-    ],
-    "abstract": "Evolution has shaped intelligence for billions of years. Artificial intelligence (AI) now raises a striking possibility: intelligence may begin to direct its own evolution. As AI agents become capable of modifying and evaluating their own behavior, how quickly could they improve, and how can that improvement remain safe? We develop a theoretical framework comparing Darwinian, Lamarckian, and agent-directed evolution following environmental change. Darwinian evolution relies on natural selection, Lamarckian evolution adds inherited learning, and agent-directed evolution allows agents to generate and evaluate behavioral variants and choose how extensively to search. When learning is sufficiently effective, these mechanisms exhibit progressively faster adaptation. Generating more variants accelerates adaptation, while optimal search effort depends on learning ability, problem difficulty, and experimentation costs. However, an agent's ability to direct its improvement does not ensure that improvements are evaluated against the intended objective. When the evaluation target is misspecified, additional search accelerates convergence toward the wrong behavior, even as measured performance improves. In recursive self-improvement, such errors may persist across generations, posing challenges for AI safety. Independent evaluation and oversight must keep pace with autonomous AI development. The central challenge is not simply to accelerate the evolution of intelligence, but to preserve humanity's ability to guide its direction, limit its speed, and intervene when necessary.",
-    "published": "2026-11-04T19:08:46Z",
-    "updated": "2026-11-04T19:08:46Z",
-    "url": "https://arxiv.org/abs/2611.07048v1",
-    "pdf_url": "https://arxiv.org/pdf/2611.07048v1",
-    "categories": [
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Evolution has shaped intelligence for billions of years.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-11-06T02:38:20.729510+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-06T02:36:44.484199+00:00"
-  },
-  {
-    "id": "arxiv:2611.06682v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "SecureGARD: Dynamic Ontology-Guided Governance for Secure Tool-Using LLM Agents",
-    "authors": [
-      "Guoqin Xiong",
-      "Shengtao Wen",
-      "Xiang Chen",
-      "Xinyi Zeng",
-      "Zhaoxin Fan",
-      "Wei Ye",
-      "Xiaofeng Cao",
-      "Sheng-Jun Huang"
-    ],
-    "abstract": "Tool-using large language model (LLM) agents translate model outputs into consequential actions, turning indirect prompt injection into an execution-security problem. Existing defenses constrain tool calls, trajectories, or information flows, but often leave action semantics, state dependencies, and evidence relations implicit, limiting generalization across heterogeneous tools and complicating safe updates. We present \\ours{}, a dynamic ontology-guided governance framework. \\ours{} grounds heterogeneous calls in a shared semantic representation and combines an executable ontology with episode-level task state to derive deterministic ready, waiting, and forbidden decisions. A waiting decision identifies an unmet but recoverable obligation, enabling bounded replanning without expanding the agent's authorization boundary. \\ours{} evolves its ontology offline from verified training executions. An offline LLM proposes instance-independent action--state axioms, which are accepted only if they address ontology errors exposed by training failures, preserve logical consistency and protected entailments, and pass held-out validation before the ontology is frozen. We evaluate \\ours{} on AgentDojo, ASB, and AgentDyn under benign and indirect prompt-injection settings. \\ours{} achieves a 0\\% attack success rate (ASR) across all three benchmarks while improving task utility under attack compared with existing baselines. These results show that explicit semantic governance can strengthen execution security without indiscriminate blocking.",
-    "published": "2026-11-04T15:51:30Z",
-    "updated": "2026-11-04T15:51:30Z",
-    "url": "https://arxiv.org/abs/2611.06682v1",
-    "pdf_url": "https://arxiv.org/pdf/2611.06682v1",
-    "categories": [
-      "cs.LG"
-    ],
-    "analysis": {
-      "summary": "Tool-using large language model (LLM) agents translate model outputs into consequential actions, turning indirect prompt injection into an execution-security problem.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-lg"
-      ],
-      "analyzed_at": "2026-11-06T02:38:20.729583+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-06T02:36:44.484278+00:00"
-  },
-  {
-    "id": "arxiv:2611.06553v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Addition by Subtraction: Toward Mitigating Fragile Safety Alignment in Large Language Models",
-    "authors": [
-      "Hamid Dashtbani",
-      "Alexandra Dmitrienko"
-    ],
-    "abstract": "Large language models (LLMs) undergo safety alignment to prevent harmful generations, yet they remain vulnerable to jailbreak attacks. Recent work reveals a deeper structural weakness: safety alignment can be highly sparse, such that pruning a small number of safety-critical neurons or ablating a single refusal direction can substantially undermine aligned behavior. In this work, we take the first steps toward strengthening safety alignment such that it is less dependent on sparse model components. We propose Addition by Subtraction, which gradually removes identified safety-critical neurons during finetuning and uses preference optimization to re-establish safety-aligned behavior through other parts of the model. Our results show that the resulting models are substantially more robust to pruning-based attacks. Remarkably, these benefits generalize beyond the white-box attacks motivating our design: Addition by Subtraction improves robustness against other sparsity-based interventions, including refusal-direction ablation, as well as a broad range of black-box jailbreak attacks. The finetuned models also exhibit improved truthfulness while largely preserving general capabilities. Comprehensive experiments across four models from three vendors demonstrate consistent improvements in safety robustness, reducing attack success rates by up to 90% for some attacks.",
-    "published": "2026-11-04T14:18:05Z",
-    "updated": "2026-11-04T14:18:05Z",
-    "url": "https://arxiv.org/abs/2611.06553v1",
-    "pdf_url": "https://arxiv.org/pdf/2611.06553v1",
-    "categories": [
-      "cs.AI",
-      "cs.CR"
-    ],
-    "analysis": {
-      "summary": "Large language models (LLMs) undergo safety alignment to prevent harmful generations, yet they remain vulnerable to jailbreak attacks.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai",
-        "cs-cr"
-      ],
-      "analyzed_at": "2026-11-06T02:38:20.729652+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-06T02:36:44.484360+00:00"
-  },
-  {
-    "id": "arxiv:2611.06147v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "SafeStart: Mitigating the Overlooked Safety Cost of Active Expert Reduction in MoE LLM Serving",
-    "authors": [
-      "Erfan Baghaei Potraghloo",
-      "Saeid Shokoufa",
-      "Seyedarmin Azizi",
-      "Arya Fayyazi",
-      "Souvik Kundu",
-      "Mehdi Kamal",
-      "Massoud Pedram"
-    ],
-    "abstract": "Mixture-of-Experts (MoE) language models send each token through a few of many expert subnetworks. Serving methods make these models faster by running even fewer experts per token, and they are validated on accuracy benchmarks. We show that these methods can weaken the model's refusal of harmful requests, and we introduce SafeStart, which largely restores refusal while keeping most of the speedup. In vLLM on one RTX A6000, keeping about two thirds of the selected experts speeds up offline decoding by 15 to 28% at batch size 8. We find that, at this setting, under a jailbreak that tells the model not to refuse, the share of harmful requests that the model answers rises by 18.4 percentage points on Qwen1.5-MoE, 9.5 on OLMoE, and 6.6 on DeepSeek-V2-Lite, the three of nine models where it rises significantly, while MMLU accuracy drops by less than two points. We discover that most of this increase arises while the model processes the prompt and generates its first few tokens. SafeStart therefore runs all experts for the prompt and the first eight generated tokens, and the reduced set of experts afterwards, through a fused kernel in vLLM. With experts removed, SafeStart keeps at least 85% of the offline decode speedup at batch sizes 8 and 32 and brings the change under this jailbreak to between -2.1 and +1.3 points for three expert-reduction methods on these three models. On 889 held-out requests, in an analysis fixed before generation, truncation raises harmful compliance by 5.8 to 21.4 points, and SafeStart leaves a rise of 0.6 to 2.6 points, non-inferior to the original model on two of the three models. Our results show that faster MoE serving need not cost safety: a serving system can keep most of the gain from running fewer experts by running all of them at the start of each response, and it should test refusal, not only accuracy, before it enables such a method.",
-    "published": "2026-11-04T08:31:01Z",
-    "updated": "2026-11-04T08:31:01Z",
-    "url": "https://arxiv.org/abs/2611.06147v1",
-    "pdf_url": "https://arxiv.org/pdf/2611.06147v1",
-    "categories": [
-      "cs.AI",
-      "cs.LG"
-    ],
-    "analysis": {
-      "summary": "Mixture-of-Experts (MoE) language models send each token through a few of many expert subnetworks.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai",
-        "cs-lg"
-      ],
-      "analyzed_at": "2026-11-06T02:38:20.729726+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-06T02:36:44.484460+00:00"
-  },
-  {
-    "id": "arxiv:2611.06039v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Securing Web Agents with the Compile-Then-Execute Paradigm",
-    "authors": [
-      "Annabella Chow",
-      "Jinhao Zhu",
-      "Sylvie Venuto",
-      "Abdulaziz Alharbi",
-      "Basel Alomair",
-      "Raluca Popa",
-      "David Wagner",
-      "Julien Piet"
-    ],
-    "abstract": "Web agents commonly follow the ReAct paradigm, selecting each action from runtime observations that inherently mix trusted and untrusted content. This design makes their control flow vulnerable to prompt injections embedded in webpages. We introduce Baya, a compile-then-execute web agent designed to prevent prompt-injection-driven control-flow hijacking by design. Before accessing the live website, Baya compiles the user's request into an executable Python program that calls a Trusted Website API. The planning model does not observe live website content; only the compiled program processes it. Untrusted data may determine program values or select among branches defined during compilation, but it cannot redefine the user task or cause the model to synthesize new website operations at runtime. The Trusted Website API gives the compiler a unified view of the website's action space, enabling ahead-of-time planning without the stepwise action discovery required by reactive agents. Our evaluation across 581 valid WebArena Verified tasks shows that Baya achieves 77.8% aggregate utility, outperforming browser-only ReAct (55.1%) and API-enabled ReAct (66.7%). On WASP, a security benchmark for web agents, Baya achieves 0% attack success rate, compared with 16.2% for API-enabled ReAct and 25.5% for browser-only ReAct.",
-    "published": "2026-11-04T06:42:35Z",
-    "updated": "2026-11-04T06:42:35Z",
-    "url": "https://arxiv.org/abs/2611.06039v1",
-    "pdf_url": "https://arxiv.org/pdf/2611.06039v1",
-    "categories": [
-      "cs.CR"
-    ],
-    "analysis": {
-      "summary": "Web agents commonly follow the ReAct paradigm, selecting each action from runtime observations that inherently mix trusted and untrusted content.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr"
-      ],
-      "analyzed_at": "2026-11-06T02:38:20.729794+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-06T02:36:44.484540+00:00"
-  },
-  {
-    "id": "arxiv:2611.04879v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "ScamWorld: An Interactive Environment for Evaluating Web Agents Against Online Fraud",
-    "authors": [
-      "Yutao Wu",
-      "Xiao Liu",
-      "Ming Wen",
-      "Hanxun Huang",
-      "Jun Wang",
-      "Xingjun Ma"
-    ],
-    "abstract": "Web agents increasingly browse, shop, and manage accounts on behalf of their users. Prior work has shown that they can be misled by adversarial content, including prompt injections and deceptive interfaces. Beyond such attacks, agents operating on the open web also encounter online fraud designed to deceive humans, including fraudulent online stores, fake investment platforms, and advance-fee schemes. How web agents respond to such fraud during task execution remains underexplored, in part because scam websites are short-lived, making systematic evaluation difficult. To address this gap, we introduce ScamWorld, an interactive environment that reconstructs reported scam websites across diverse scenarios, fraud mechanisms, and languages. Each reconstructed website reproduces documented fraud mechanisms, making relevant signs of fraud observable before the agent's final action and enabling controlled, repeatable evaluation. Through an extensive study of web agents powered by six frontier LLMs, we find that baseline deception rates range from 11% to 35% across models. Agents proceed more readily with payments than with requests for credentials or wallet information. A closer analysis of agent trajectories shows that some agents acknowledge suspicious conditions yet proceed, at times treating the user's instructions as authorisation to accept additional terms imposed by the website. ScamWorld provides a reusable testbed for systematically evaluating and stress-testing web agents against real-world online fraud.",
-    "published": "2026-11-03T13:31:11Z",
-    "updated": "2026-11-03T13:31:11Z",
-    "url": "https://arxiv.org/abs/2611.04879v1",
-    "pdf_url": "https://arxiv.org/pdf/2611.04879v1",
-    "categories": [
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Web agents increasingly browse, shop, and manage accounts on behalf of their users.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-11-05T02:38:22.022118+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-05T02:36:45.853272+00:00"
-  },
-  {
-    "id": "arxiv:2611.04879v2",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "ScamWorld: An Interactive Environment for Evaluating Web Agents Against Online Fraud",
-    "authors": [
-      "Yutao Wu",
-      "Xiao Liu",
-      "Ming Wen",
-      "Hanxun Huang",
-      "Jun Wang",
-      "Xingjun Ma"
-    ],
-    "abstract": "Web agents increasingly browse, shop, and manage accounts on behalf of their users. Prior work has shown that they can be misled by adversarial content, including prompt injections and deceptive interfaces. Beyond such attacks, agents operating on the open web also encounter online fraud designed to deceive humans, including fraudulent online stores, fake investment platforms, and advance-fee schemes. How web agents respond to such fraud during task execution remains underexplored, in part because scam websites are short-lived, making systematic evaluation difficult. To address this gap, we introduce ScamWorld, an interactive environment that reconstructs reported scam websites across diverse scenarios, fraud mechanisms, and languages. Each reconstructed website reproduces documented fraud mechanisms, making relevant signs of fraud observable before the agent's final action and enabling controlled, repeatable evaluation. Through an extensive study of web agents powered by six frontier LLMs, we find that baseline deception rates range from 11% to 35% across models. Agents proceed more readily with payments than with requests for credentials or wallet information. A closer analysis of agent trajectories shows that some agents acknowledge suspicious conditions yet proceed, at times treating the user's instructions as authorisation to accept additional terms imposed by the website. ScamWorld provides a reusable testbed for systematically evaluating and stress-testing web agents against real-world online fraud.",
-    "published": "2026-11-03T13:31:11Z",
-    "updated": "2026-11-04T07:01:24Z",
-    "url": "https://arxiv.org/abs/2611.04879v2",
-    "pdf_url": "https://arxiv.org/pdf/2611.04879v2",
-    "categories": [
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Web agents increasingly browse, shop, and manage accounts on behalf of their users.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-11-06T02:38:20.729871+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-06T02:36:44.484786+00:00"
   }
 ]
