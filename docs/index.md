@@ -1,8 +1,122 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-11-19 11:44 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-11-20 11:36 Asia/Shanghai
 
 ## 今日论文
+
+### [SEOYUN: Refusal-Inducing Exam Documents for AI-Glasses Pipelines](https://arxiv.org/abs/2611.26033v1)
+
+**作者**：Dohyeon Kwon
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-11-19 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.26033v1)
+
+**摘要总结**：Camera-equipped glasses can convert an examination page into a query to a vision-language model (VLM).
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
+
+---
+
+### [Verifiable Logic in Medical LLMs: A Critical Review of Agentic Clinical Reasoning Optimization and Neuro-Symbolic Grounding](https://arxiv.org/abs/2611.25898v1)
+
+**作者**：Youssef ElNahas, Adel Ammar, Soumaya Chaffar, Wadii Boulila
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-11-19 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.25898v1)
+
+**摘要总结**：Clinical large language models are usually judged by whether the final answer is right.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl` `cs-ai` `cs-cy` `cs-lg`
+
+---
+
+### [VisualJevBench: A Benchmark and Black-Box Attacks for Visual Typed Decision Models](https://arxiv.org/abs/2611.25435v1)
+
+**作者**：Li Zeng, Yeqi Zeng, Hengkai Liang, Shiguo Wang, Meng Xie, Zeyu Ye, Jinheng Zhang, Xianlong Wang, et al.
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-11-19 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.25435v1)
+
+**摘要总结**：Typed decision models (TDMs) return structured decisions instead of generating free-text responses, enabling fast and cheap decisions in real-world applications.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
+
+---
+
+### [Whose Safety? Addressing Anti-Blackness in the Age of AI Safety](https://arxiv.org/abs/2611.25302v1)
+
+**作者**：Mírian Silva, Serena Oduro
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-11-18 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.25302v1)
+
+**摘要总结**："AI safety" has grown from a niche contingent of actors into the dominant framing for artificial intelligence (AI) assessment and evaluation, overshadowing AI ethics.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cy`
+
+---
+
+### [Jailbreak Detection on Large Language Models via Contrastive Prototype Structures](https://arxiv.org/abs/2611.24936v1)
+
+**作者**：Yan Qiu, Yuanyuan Li
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-11-18 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.24936v1)
+
+**摘要总结**：Jailbreak attempts and harmful prompts remain a challenge for the safe deployment of large language models.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl`
+
+---
+
+### [On the Impact of Feature Reduction Techniques on Adversarial Attacks](https://arxiv.org/abs/2611.25004v1)
+
+**作者**：Mohammad Meymani, Roozbeh Razavi-Far
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-11-18 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.25004v1)
+
+**摘要总结**：Adversarial attacks have posed significant threats to machine learning models by exploiting their inherent vulnerabilities.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-ai`
+
+---
 
 ### [PIPETTE: Prompt Injection Purple-Teaming for Robust LLM Agents](https://arxiv.org/abs/2611.24362v1)
 
@@ -314,13 +428,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-16 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.21766v1)
 
-**摘要总结**：暂无
+**摘要总结**：Practitioners choose among LLM alignment methods largely by trial and error.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-ai`
 
 ---
 
@@ -330,13 +447,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-16 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.21259v1)
 
-**摘要总结**：暂无
+**摘要总结**：Agentic AI systems extend large language models with tools, memory, and multi-agent collaboration, introducing security risks at orchestration boundaries.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ma`
 
 ---
 
@@ -1389,117 +1509,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-cy` `cs-cl` `cs-hc`
-
----
-
-### [Who Can Evaluate AI Independently? A Framework for Analysing Evaluation Infrastructure](https://arxiv.org/abs/2611.08134v1)
-
-**作者**：Sumaya Nur Adan, Joanna Wiaterek, Nourhan Abdelrhim, Sydney Reis, Robert F. Trager, Benjamin Rosman, Marina Jirotka
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-11-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.08134v1)
-
-**摘要总结**：AI evaluation is increasingly central to AI safety and governance, yet taking part in an evaluation does not by itself confer authority over its design, its execution or the resources it depends on.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cy` `cs-ai`
-
----
-
-### [Beyond Instruction Override: Benchmarking Indirect Prompt Injection with Task-Tampering Attacks](https://arxiv.org/abs/2611.07640v1)
-
-**作者**：Rongting Zhang, Martin Bertran, Sandeep Avula, Chia-Jung Lee, Vanessa Murdock
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-11-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.07640v1)
-
-**摘要总结**：Indirect prompt-injection (IPI) benchmarks predominantly test planted instructions that redirect a tool-using agent toward an attacker-chosen task.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr` `cs-ai`
-
----
-
-### [Provable Zeroth-Order Safe Exploration for Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2611.07561v1)
-
-**作者**：Weiqin Chen, Xinmeng Huang, Dongsheng Ding, Santiago Paternain
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-11-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.07561v1)
-
-**摘要总结**：Safe reinforcement learning from human feedback (Safe-RLHF) seeks to improve helpfulness while satisfying harmlessness constraints.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-lg`
-
----
-
-### [JailBound: FOL-Guided Jailbreak Evaluation for Exploring LLM Behavioral Boundaries](https://arxiv.org/abs/2611.07530v1)
-
-**作者**：Fazong Wu, Xin Wang, Ming Yang, Zhenyong Zhang, Xiaoming Wu
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-11-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.07530v1)
-
-**摘要总结**：As large language models (LLMs) are increasingly deployed as general-purpose conversational assistants, they must handle diverse user requests while reliably refusing harmful ones.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cr`
-
----
-
-### [Adversarial Robustness of Kernel Machines: A Comprehensive Analysis](https://arxiv.org/abs/2611.07474v1)
-
-**作者**：Rahul Kumar Yadav, Tunir Ghosh, Sudhendu Ahir, Parthe Pandit, Arjun Bhagoji
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-11-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.07474v1)
-
-**摘要总结**：Kernel machines are an important class of models in machine learning.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-lg` `cs-ai`
-
----
-
-### [Goal Revelation as a Bridge Between Information-Theoretic Empowerment and Capability-Based Human Power](https://arxiv.org/abs/2611.07247v1)
-
-**作者**：Jaime Ruiz-Serra, Tomáš Gavenčiak, Jobst Heitzig
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-11-04 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.07247v1)
-
-**摘要总结**：Power matters for AI safety.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai` `cs-it` `cs-lg`

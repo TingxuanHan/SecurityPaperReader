@@ -1,5 +1,232 @@
 [
   {
+    "id": "arxiv:2611.26033v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "SEOYUN: Refusal-Inducing Exam Documents for AI-Glasses Pipelines",
+    "authors": [
+      "Dohyeon Kwon"
+    ],
+    "abstract": "Camera-equipped glasses can convert an examination page into a query to a vision-language model (VLM). Device detection addresses possession; a complementary question is whether an examination document can reduce the usefulness of an unauthorized capture. We present SEOYUN, an application-specific framework for refusal-inducing exam documents, with optical and encoder-level interventions as extensions. We use reverse jailbreaking to describe the direction of the objective: inducing abstention rather than bypassing refusal. Refusal induction and defensive visual prompt injection already have precedents; our contribution is a threat model, analytical limits, and an evaluation protocol for examination use. We distinguish refusal from correct-answer leakage, show why removing an added dummy option is not itself a reduction in the original answer space, and derive a sampling comparison under explicitly stated camera assumptions. The protocol separates digital, simulated, and physical inputs and requires held-out evaluation after subject-specific selection. A local CSAT candidate corpus and rendering harness have been prepared, but this version reports no model-performance measurements, physical validation, or human-subject results. Accordingly, SEOYUN is a research framework, not a validated defense or a basis for allegations against individuals.",
+    "published": "2026-11-19T12:43:31Z",
+    "updated": "2026-11-19T12:43:31Z",
+    "url": "https://arxiv.org/abs/2611.26033v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.26033v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Camera-equipped glasses can convert an examination page into a query to a vision-language model (VLM).",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-11-20T03:36:46.649485+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-20T03:35:11.296794+00:00"
+  },
+  {
+    "id": "arxiv:2611.25898v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Verifiable Logic in Medical LLMs: A Critical Review of Agentic Clinical Reasoning Optimization and Neuro-Symbolic Grounding",
+    "authors": [
+      "Youssef ElNahas",
+      "Adel Ammar",
+      "Soumaya Chaffar",
+      "Wadii Boulila"
+    ],
+    "abstract": "Clinical large language models are usually judged by whether the final answer is right. Yet a model can reach a fluent, plausible output through invalid reasoning that static benchmarks do not detect, and confident hallucination, causally invalid inference, and spurious demographic shortcuts can pass conventional evaluation. This critical review covers four paradigms in turn: how clinical hallucination arises and why static metrics miss it; the agentic hallucination cascade, in which multi-agent and tool-augmented systems propagate and amplify early reasoning errors; process reward modeling as step-level supervision; and neuro-symbolic grounding, in which formal logic engines, ontology reasoners, and knowledge graphs place verifiable constraints on neural output. Within their encoded domains, systems with symbolic veto layers offer guarantees that hold relative to their encoded knowledge, and they report large gains on the safety measures they use. These results come from single studies, mostly in simulated or small-sample settings, and are not directly comparable with neural baselines. Process reward models remain bounded by the statistics of their training data. We propose a conceptual framework that maps each agentic failure mode to a symbolic intervention point, and we argue that clinical AI safety depends substantially on system architecture. Because current regulation emphasizes performance and does not require verification of reasoning steps, we argue that responsible certification should also audit reasoning trajectories alongside accuracy on static benchmarks.",
+    "published": "2026-11-19T10:49:23Z",
+    "updated": "2026-11-19T10:49:23Z",
+    "url": "https://arxiv.org/abs/2611.25898v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.25898v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.CY",
+      "cs.LG"
+    ],
+    "analysis": {
+      "summary": "Clinical large language models are usually judged by whether the final answer is right.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cl",
+        "cs-ai",
+        "cs-cy",
+        "cs-lg"
+      ],
+      "analyzed_at": "2026-11-20T03:36:46.649556+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-20T03:35:11.296910+00:00"
+  },
+  {
+    "id": "arxiv:2611.25435v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "VisualJevBench: A Benchmark and Black-Box Attacks for Visual Typed Decision Models",
+    "authors": [
+      "Li Zeng",
+      "Yeqi Zeng",
+      "Hengkai Liang",
+      "Shiguo Wang",
+      "Meng Xie",
+      "Zeyu Ye",
+      "Jinheng Zhang",
+      "Xianlong Wang",
+      "Ziqi Zhou",
+      "Hangtao Zhang"
+    ],
+    "abstract": "Typed decision models (TDMs) return structured decisions instead of generating free-text responses, enabling fast and cheap decisions in real-world applications. Recent support for image inputs extends Jev, a representative TDM, to visual decision-making. We refer to this setting as Visual Jev. However, red teaming of Visual Jev leaves two gaps: a systematic evaluation of direct image manipulations is lacking, and universal visual attacks remain underexplored. To address these gaps, we introduce VisualJevBench, a benchmark for evaluating the adversarial robustness of Visual Jev. It comprises 800 images and 3,200 questions across eight scenarios and four visual attack surfaces: typographic manipulation, visual evidence spoofing, target selection interference, and geometric transformation. We also introduce Adaptive Black-Box Parameter Search (ABPS), a lightweight framework that uses typed-output feedback to find effective image manipulations. ABPS supports both image-specific attacks and universal attacks that transfer to unseen images and tasks in new scenarios without further optimization. Extensive experiments on jev-1.14.0 show that image-specific attacks achieve an attack success rate (ASR) of up to 69.6%, while universal attacks achieve an average ASR of 33.15% on unseen images. Geometric transformations achieve an average ASR of 40.09% in cross-scenario transfer.",
+    "published": "2026-11-19T03:16:43Z",
+    "updated": "2026-11-19T03:16:43Z",
+    "url": "https://arxiv.org/abs/2611.25435v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.25435v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "analysis": {
+      "summary": "Typed decision models (TDMs) return structured decisions instead of generating free-text responses, enabling fast and cheap decisions in real-world applications.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-11-20T03:36:46.649607+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-20T03:35:11.296990+00:00"
+  },
+  {
+    "id": "arxiv:2611.25302v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Whose Safety? Addressing Anti-Blackness in the Age of AI Safety",
+    "authors": [
+      "Mírian Silva",
+      "Serena Oduro"
+    ],
+    "abstract": "\"AI safety\" has grown from a niche contingent of actors into the dominant framing for artificial intelligence (AI) assessment and evaluation, overshadowing AI ethics. Through political and monetary influence, AI safety has shifted political focus within the US and abroad. The focus has shifted away from harms that currently affect the public toward threats framed as \"existential risks\". We argue that safety cannot be achieved while anti-Blackness is left unaddressed. We ground this argument in Sylvia Wynter's critique of the \"overrepresentation\" of Man: the modern, Western conception of the Human that is predicated on the subjugation and othering of Blackness. To analyze the state of addressing anti-Blackness in the age of AI safety, we conduct a two-stage, language model-assisted content analysis of 69,290 accepted main-track papers from ten leading machine learning (ML), natural language processing (NLP), and AI ethics conferences (2020--2025). Safety research grew from 0.5% of accepted papers in 2020 to 6.4% in 2025, overtaking ethics. Yet 94% of safety papers rely on automated metrics, and only 11% of safety papers mention harms that affect society directly, compared with 78% of ethics papers. Of the 2,182 safety papers, 8 mention race; none make it central, and none name Black or African-diaspora communities. Across all 254 identified as race-focused papers, only 3 describe racial harm in safety terms, and 55% appear at three ethics venues that publish 2.5% of the corpus. We offer this interdisciplinary examination of AI safety to argue that a just technological future depends on confronting anti-Blackness directly.",
+    "published": "2026-11-18T23:53:59Z",
+    "updated": "2026-11-18T23:53:59Z",
+    "url": "https://arxiv.org/abs/2611.25302v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.25302v1",
+    "categories": [
+      "cs.CY"
+    ],
+    "analysis": {
+      "summary": "\"AI safety\" has grown from a niche contingent of actors into the dominant framing for artificial intelligence (AI) assessment and evaluation, overshadowing AI ethics.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cy"
+      ],
+      "analyzed_at": "2026-11-20T03:36:46.649657+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-20T03:35:11.297069+00:00"
+  },
+  {
+    "id": "arxiv:2611.24936v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Jailbreak Detection on Large Language Models via Contrastive Prototype Structures",
+    "authors": [
+      "Yan Qiu",
+      "Yuanyuan Li"
+    ],
+    "abstract": "Jailbreak attempts and harmful prompts remain a challenge for the safe deployment of large language models. We study whether contrastively learned representations can support safety detection without training an additional downstream classifier. We propose Jailbreak Detection with Prototype Inference (JDPI), which uses binary safety labels to construct harmful and benign prototypes and makes predictions from relative prototype distances. JDPI uses only binary safety labels for encoder adaptation, prototype construction, and validation. In our setup, it uses fewer labeled examples than the classifier baseline (Method A) by avoiding the separate split used to train the downstream classifier. Across four benchmarks covering different input formats, contrastive fine-tuning improves JDPI's detection accuracy by 9.1-18.0 percentage points. Using the same encoder, JDPI achieves slightly higher ROC-AUC on one benchmark and stays within 0.017 of the baseline across all four. With dataset-specific adaptation, JDPI exceeds the released Llama Guard 3-8B baseline by 0.173-0.310 in ROC-AUC across the four benchmarks. In multi-turn replay on TomGibbs, JDPI uses accumulated user history as the conversation unfolds, achieving higher conversation-level accuracy than when it uses the current turn alone. Across 12 directed transfers, JDPI outperforms the classifier by an average of 1.59 percentage points in accuracy, demonstrating stronger cross-dataset robustness.",
+    "published": "2026-11-18T18:56:12Z",
+    "updated": "2026-11-18T18:56:12Z",
+    "url": "https://arxiv.org/abs/2611.24936v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.24936v1",
+    "categories": [
+      "cs.CL"
+    ],
+    "analysis": {
+      "summary": "Jailbreak attempts and harmful prompts remain a challenge for the safe deployment of large language models.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cl"
+      ],
+      "analyzed_at": "2026-11-20T03:36:46.649705+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-20T03:35:11.297123+00:00"
+  },
+  {
+    "id": "arxiv:2611.25004v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "On the Impact of Feature Reduction Techniques on Adversarial Attacks",
+    "authors": [
+      "Mohammad Meymani",
+      "Roozbeh Razavi-Far"
+    ],
+    "abstract": "Adversarial attacks have posed significant threats to machine learning models by exploiting their inherent vulnerabilities. Researchers have established an interdisciplinary field called adversarial machine learning to explore these vulnerabilities and develop corresponding defense strategies. Feature reduction strategies are used to decrease the dimensionality of the data in order to reduce training time, avoid the curse of dimensionality, prevent overfitting, and mitigate redundant features. However, their effect on adversarial robustness across different classifiers and attack scenarios remains insufficiently explored. This study aims to analyze the effect of feature reduction techniques on the adversarial robustness of a diverse set of machine learning models under poisoning, backdoor, and universal adversarial perturbation attacks on the APT dataset. These models include support vector machine, decision tree, random forest, multi-layer perceptron, and k-nearest neighbors. The attained results are compared with scenarios where different feature reduction techniques are applied, including principal component analysis, permutation importance ranking, recursive feature elimination, and univariate mutual information. Metrics such as accuracy, F1-score, and mitigation score are employed to evaluate the effect of these techniques on adversarial robustness. The results demonstrate that permutation importance ranking and univariate mutual information generally provide the most consistent robustness improvements, while other methods exhibit more variable effects depending on the classifier and attack scenario.",
+    "published": "2026-11-18T18:12:46Z",
+    "updated": "2026-11-18T18:12:46Z",
+    "url": "https://arxiv.org/abs/2611.25004v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.25004v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "Adversarial attacks have posed significant threats to machine learning models by exploiting their inherent vulnerabilities.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-lg",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-11-20T03:36:46.649753+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-20T03:35:11.297183+00:00"
+  },
+  {
     "id": "arxiv:2611.24362v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -645,7 +872,22 @@
       "cs.LG",
       "cs.AI"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Practitioners choose among LLM alignment methods largely by trial and error.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-lg",
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-11-20T03:36:46.649810+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-11-18T03:44:43.375637+00:00"
   },
   {
@@ -668,7 +910,21 @@
     "categories": [
       "cs.MA"
     ],
-    "analysis": {},
+    "analysis": {
+      "summary": "Agentic AI systems extend large language models with tools, memory, and multi-agent collaboration, introducing security risks at orchestration boundaries.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ma"
+      ],
+      "analyzed_at": "2026-11-20T03:36:46.649882+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
     "fetched_at": "2026-11-18T03:44:43.375717+00:00"
   },
   {
@@ -3034,242 +3290,5 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-11-08T01:35:34.178109+00:00"
-  },
-  {
-    "id": "arxiv:2611.08134v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Who Can Evaluate AI Independently? A Framework for Analysing Evaluation Infrastructure",
-    "authors": [
-      "Sumaya Nur Adan",
-      "Joanna Wiaterek",
-      "Nourhan Abdelrhim",
-      "Sydney Reis",
-      "Robert F. Trager",
-      "Benjamin Rosman",
-      "Marina Jirotka"
-    ],
-    "abstract": "AI evaluation is increasingly central to AI safety and governance, yet taking part in an evaluation does not by itself confer authority over its design, its execution or the resources it depends on. This paper examines how infrastructure arrangements distribute that authority, and so shape who can evaluate AI systems independently. Drawing on Science and Technology Studies, political economy and applied evaluation standards, we introduce PAAI (Power, Access, Adequacy, Independence), a framework for examining who controls evaluation infrastructure, the terms on which it is available, whether it is adequate to the evaluation's purpose and what autonomy it supports. We apply PAAI to twelve African AI evaluation projects (2022-2025) and to the documented roles of all ten member institutes in the three published joint testing exercises of the international network of AI Safety Institutes. We identify three recurring configurations: extractive collaboration, dependent innovation and constrained independence. African actors often contribute data, language expertise and task design while external institutions retain authority over infrastructure and evaluation frameworks; design authority without infrastructure authority never yielded more than partial independence. The joint testing exercises show a similar division among mostly high-income members: the institutes that led each exercise also ran the models, while Kenya, the network's only African member, moved from annotation to task design with no documented model execution. Participation in evaluation does not by itself produce evaluative authority. For evaluation to serve as a credible governance mechanism, access must come with control over priorities, methods, publication and continuity.",
-    "published": "2026-11-05T15:00:51Z",
-    "updated": "2026-11-05T15:00:51Z",
-    "url": "https://arxiv.org/abs/2611.08134v1",
-    "pdf_url": "https://arxiv.org/pdf/2611.08134v1",
-    "categories": [
-      "cs.CY",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "AI evaluation is increasingly central to AI safety and governance, yet taking part in an evaluation does not by itself confer authority over its design, its execution or the resources it depends on.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cy",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-11-08T01:37:10.179512+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-08T01:35:34.178194+00:00"
-  },
-  {
-    "id": "arxiv:2611.07640v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Beyond Instruction Override: Benchmarking Indirect Prompt Injection with Task-Tampering Attacks",
-    "authors": [
-      "Rongting Zhang",
-      "Martin Bertran",
-      "Sandeep Avula",
-      "Chia-Jung Lee",
-      "Vanessa Murdock"
-    ],
-    "abstract": "Indirect prompt-injection (IPI) benchmarks predominantly test planted instructions that redirect a tool-using agent toward an attacker-chosen task. Yet attacker-controlled content can instead tamper with the outcome of the task already in progress. A buyer's dispute evidence can cite a false refund policy to inflate a refund without changing the task. We define IPI by authority rather than instruction-like wording: planted content constitutes an attack when it attempts to influence a decision that its source is not authorized to determine. We introduce a benchmark that makes this boundary explicit: in each of 90 validated cases across three tool-use environments, the user request specifies the source that resolves the targeted decision. Every attack tampers with a decision required by the benign task rather than replacing that task. Each case has attacks with the same harmful outcome that target up to six parts of the agent's decision making: its objective, decision rules, available actions, expected consequences, reading of observations, or beliefs about the current state. Without a defense, attacks on three of the five other targets (decision rules, available actions, and state) have higher mean success than objective attacks across five LLMs. A detection-and-removal defense reduces objective-targeting attacks to 2.4% success but leaves observation- and state-targeting attacks at 9.5% and 12.1%; this gap persists under detection-optimized rewrites. A tool-policy defense still allows 15.4% attack success, close to 17.0% without a defense, because these attacks generally retain expected tools and manipulate values obtained during execution. Evaluations whose attacks redirect the task or target only the agent's objective can therefore overestimate the coverage of these defenses. Code and data are available at https://github.com/amazon-science/task-tampering-prompt-injection.",
-    "published": "2026-11-05T08:25:27Z",
-    "updated": "2026-11-05T08:25:27Z",
-    "url": "https://arxiv.org/abs/2611.07640v1",
-    "pdf_url": "https://arxiv.org/pdf/2611.07640v1",
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Indirect prompt-injection (IPI) benchmarks predominantly test planted instructions that redirect a tool-using agent toward an attacker-chosen task.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-11-08T01:37:10.179585+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-08T01:35:34.178342+00:00"
-  },
-  {
-    "id": "arxiv:2611.07561v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Provable Zeroth-Order Safe Exploration for Reinforcement Learning from Human Feedback",
-    "authors": [
-      "Weiqin Chen",
-      "Xinmeng Huang",
-      "Dongsheng Ding",
-      "Santiago Paternain"
-    ],
-    "abstract": "Safe reinforcement learning from human feedback (Safe-RLHF) seeks to improve helpfulness while satisfying harmlessness constraints. Existing primal-dual approaches can converge to feasible policies but do not prevent constraint violations during training. We study a stronger requirement, safe exploration for RLHF, under which every policy executed during training, including auxiliary exploration policies, remains feasible. We propose Zeroth-Order Log-Barrier Policy Gradient (ZO-LBPG), a reward-model-free method that optimizes a log-barrier objective using zeroth-order estimates derived directly from human preferences. To ensure safety under noisy feedback, we combine conservative constraint margin estimates with coupled rollouts and an adaptive step size that prevents updates from crossing constraint boundaries. We prove that, with high probability, all iterates and exploration policies remain strictly feasible, and that ZO-LBPG globally converges to an approximately optimal constrained policy. We establish a sample complexity of $\\widetilde{\\mathcal O}(\\varepsilon^{-6}+d^3\\varepsilon^{-5})$ trajectories and $\\widetilde{\\mathcal O}(\\varepsilon^{-8}+d^5\\varepsilon^{-7})$ human queries. Experiments on a synthetic CMDP and a language-model alignment task corroborate the training-time safety guarantees.",
-    "published": "2026-11-05T07:14:25Z",
-    "updated": "2026-11-05T07:14:25Z",
-    "url": "https://arxiv.org/abs/2611.07561v1",
-    "pdf_url": "https://arxiv.org/pdf/2611.07561v1",
-    "categories": [
-      "cs.LG"
-    ],
-    "analysis": {
-      "summary": "Safe reinforcement learning from human feedback (Safe-RLHF) seeks to improve helpfulness while satisfying harmlessness constraints.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-lg"
-      ],
-      "analyzed_at": "2026-11-08T01:37:10.179650+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-08T01:35:34.178411+00:00"
-  },
-  {
-    "id": "arxiv:2611.07530v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "JailBound: FOL-Guided Jailbreak Evaluation for Exploring LLM Behavioral Boundaries",
-    "authors": [
-      "Fazong Wu",
-      "Xin Wang",
-      "Ming Yang",
-      "Zhenyong Zhang",
-      "Xiaoming Wu"
-    ],
-    "abstract": "As large language models (LLMs) are increasingly deployed as general-purpose conversational assistants, they must handle diverse user requests while reliably refusing harmful ones. Jailbreak attacks craft adversarial instructions or conversational contexts to elicit unsafe responses despite these safeguards. However, existing jailbreak benchmarks often rely on manually designed or collected prompts, making it difficult to systematically extend coverage to new threat conditions. Moreover, existing attack search methods typically optimize for attack success rate (ASR), providing limited insight into how model behavior changes locally between safe refusal and unsafe response. To address these limitations, we present JailBound, a unified jailbreak evaluation framework that combines automated benchmark construction with first-order loss (FOL)-guided dual-branch search. JailBound organizes threats by risk category, application domain, and attack type. Conditioned on this taxonomy, a fine-tuned meta-attack generator synthesizes evaluation prompts across diverse threat conditions. FOL serves as a local sensitivity signal for exploring high-value attack states and behavior-sensitive states. We evaluate JailBound across 46 LLMs from 13 model families under a unified experimental protocol. Under matched settings, the High-Value Branch improves average ASR over a ZOL-only baseline by 5.1 and 4.9 percentage points across the two evaluation settings. Under local perturbations, states from the Safety-Sensitivity Branch exhibit higher behavioral flip rates than those from the High-Value Branch across all tested radii for JailBound and S-Eval, indicating greater local sensitivity of judge-assigned safety labels. Warning: this paper includes examples that may be offensive or harmful.",
-    "published": "2026-11-05T06:41:14Z",
-    "updated": "2026-11-05T06:41:14Z",
-    "url": "https://arxiv.org/abs/2611.07530v1",
-    "pdf_url": "https://arxiv.org/pdf/2611.07530v1",
-    "categories": [
-      "cs.CR"
-    ],
-    "analysis": {
-      "summary": "As large language models (LLMs) are increasingly deployed as general-purpose conversational assistants, they must handle diverse user requests while reliably refusing harmful ones.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cr"
-      ],
-      "analyzed_at": "2026-11-08T01:37:10.179735+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-08T01:35:34.178486+00:00"
-  },
-  {
-    "id": "arxiv:2611.07474v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Adversarial Robustness of Kernel Machines: A Comprehensive Analysis",
-    "authors": [
-      "Rahul Kumar Yadav",
-      "Tunir Ghosh",
-      "Sudhendu Ahir",
-      "Parthe Pandit",
-      "Arjun Bhagoji"
-    ],
-    "abstract": "Kernel machines are an important class of models in machine learning. However, the question of how robust modern kernel machines are to adversarial examples has not been studied comprehensively. In this paper, we provide a thorough empirical investigation of the adversarial robustness of kernel-based models for both binary and multiclass classification tasks, via white-box and black-box evasion attacks. We evaluate the native robustness of kernel machines, random feature classifiers, and the relatively newer Recursive Feature Machines. In addition, we provide an algorithm for approximate adversarial training of kernel machines. Our experiments on classification tasks on image and tabular datasets strongly indicate that kernel machines are natively more robust than neural networks, i.e., their performance degrades more gracefully against adversarial perturbations.",
-    "published": "2026-11-05T05:33:09Z",
-    "updated": "2026-11-05T05:33:09Z",
-    "url": "https://arxiv.org/abs/2611.07474v1",
-    "pdf_url": "https://arxiv.org/pdf/2611.07474v1",
-    "categories": [
-      "cs.LG",
-      "cs.AI"
-    ],
-    "analysis": {
-      "summary": "Kernel machines are an important class of models in machine learning.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-lg",
-        "cs-ai"
-      ],
-      "analyzed_at": "2026-11-08T01:37:10.179803+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-08T01:35:34.178549+00:00"
-  },
-  {
-    "id": "arxiv:2611.07247v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Goal Revelation as a Bridge Between Information-Theoretic Empowerment and Capability-Based Human Power",
-    "authors": [
-      "Jaime Ruiz-Serra",
-      "Tomáš Gavenčiak",
-      "Jobst Heitzig"
-    ],
-    "abstract": "Power matters for AI safety. Optimal agents tend to acquire power across a wide range of objectives (instrumental convergence). As we embed AI agents into socio-technical systems, humans risk gradual disempowerment. Both concerns call for a formal, quantitative measure of power. Two such measures in the context of Markov games are information-theoretic empowerment, the capacity of the channel from an agent's actions to future states, and capability-based individual power, a measure of goal attainment built from the probabilities that a human would attain each goal in a family of candidates were they pursuing it. We show where the two meet. From individual power, Fano's inequality yields a floor $B(s)$. This floor is a lower bound on what we term goal revelation, the mutual information $\\mathbb{I}(G;ξ\\mid s)$ between the human's latent goal and the realised trajectory. Empowerment caps revelation from above, so that $B(s) \\le \\mathbb{I}(G;ξ\\mid s) \\le \\mathbb{I}(\\mathbf{A}_h \\to ξ\\mid s) \\le \\mathfrak{E}_h(s)$. Each quantity can be large while the one below it stays at zero, highlighting the following failure modes. An assistant maximising empowerment can prefer an interface offering broad influence over goal-irrelevant degrees of freedom to one that lets the human attain every goal they might hold. An assistant maximising revelation cannot tell a working interface from one rewired so that every goal yields the wrong outcome, since relabelling goals leaves mutual information unchanged while zeroing every attainment probability. Positive guarantees therefore come only from the attainment end of the chain. A satisfaction floor, computable from two statistics of interaction logs, offers a way to monitor the power users retain in a deployed system, and simulations in random environments show the three quantities are correlated but far from interchangeable.",
-    "published": "2026-11-04T23:54:35Z",
-    "updated": "2026-11-04T23:54:35Z",
-    "url": "https://arxiv.org/abs/2611.07247v1",
-    "pdf_url": "https://arxiv.org/pdf/2611.07247v1",
-    "categories": [
-      "cs.AI",
-      "cs.IT",
-      "cs.LG"
-    ],
-    "analysis": {
-      "summary": "Power matters for AI safety.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai",
-        "cs-it",
-        "cs-lg"
-      ],
-      "analyzed_at": "2026-11-06T02:38:20.729296+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-06T02:36:44.483992+00:00"
   }
 ]
