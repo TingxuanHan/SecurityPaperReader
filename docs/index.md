@@ -1,8 +1,46 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-11-20 11:36 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-11-21 11:19 Asia/Shanghai
 
 ## 今日论文
+
+### [SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research](https://arxiv.org/abs/2611.26601v1)
+
+**作者**：Amine Lbath, Manan Suri, Aurelien Delaitre, Vadim Okun, Massih-Reza Amini, Dinesh Manocha
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-11-19 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.26601v1)
+
+**摘要总结**：LLM-based agents are becoming increasingly capable at discovering, validating and patching vulnerabilities in real software, and vendors and researchers report that this is already changing how vulnerabilities are found and fixed.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-se`
+
+---
+
+### [Replication of Agentic Security Events: Audit and Investigation (ROGUE-AI)](https://arxiv.org/abs/2611.26553v1)
+
+**作者**：Mengxiao Wang, Mahbub Alam, Kalyan Nakka, Nitesh Saxena
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-11-19 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.26553v1)
+
+**摘要总结**：Agents based on large language models (LLMs) can now delete files and send payments on behalf of their users.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-ma`
+
+---
 
 ### [SEOYUN: Refusal-Inducing Exam Documents for AI-Glasses Pipelines](https://arxiv.org/abs/2611.26033v1)
 
@@ -618,13 +656,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-13 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.17684v1)
 
-**摘要总结**：暂无
+**摘要总结**：Adversarial training is a common technique for making neural networks more robust to small, intentionally crafted input perturbations, and robustness is commonly measured through accuracy under attack.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-cr`
 
 ---
 
@@ -634,13 +675,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-12 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.17520v1)
 
-**摘要总结**：暂无
+**摘要总结**：Major industry multi-agent systems like Codex and Claude Code can be broken by attacks that have long been unsuccessful against modern frontier models.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ma` `cs-ai`
 
 ---
 
@@ -650,13 +694,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-12 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.17481v1)
 
-**摘要总结**：暂无
+**摘要总结**：Activation steering influences a language model's behaviour by adding a steering vector to its residual stream during generation, but it requires white-box access to modify the hidden states at every generation step.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl` `cs-lg`
 
 ---
 
@@ -666,13 +713,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-12 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.17398v1)
 
-**摘要总结**：暂无
+**摘要总结**：The appropriate governing norms and principles for the alignment of Large Language Models (LLMs) often depend on cultural context and deployment application.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg`
 
 ---
 
@@ -1471,41 +1521,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-cl` `cs-ai` `cs-lg`
-
----
-
-### [The Power of Meta Access in the Software of the Future --- Demonstrated on LLM Chat UIs and Chat AI](https://arxiv.org/abs/2611.08428v1)
-
-**作者**：Julian Kunkel, Ali Doosthosseini
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-11-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.08428v1)
-
-**摘要总结**：Chat remains the default surface for many large language model (LLM) tasks, even as agentic tools such as OpenCode excel at coding and automation.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai`
-
----
-
-### ["Blind Compliance": Coercive Control in AI Jailbreaking](https://arxiv.org/abs/2611.08226v1)
-
-**作者**：Acacia L. Ackles, Elliott Whitson
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-11-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.08226v1)
-
-**摘要总结**：The explosion of generative AI systems and concerns surrounding their rapidly scaling capabilities has led to an adversarial cycle between increasingly narrow content restrictions ("guardrails") and increasingly sophisticated structured prompting techniques ("jailbreaks").
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cy` `cs-cl` `cs-hc`
