@@ -1,5 +1,122 @@
 [
   {
+    "id": "arxiv:2611.27046v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Actions Speak Louder than Words: Stateful Privacy Sniffing of LLM Agents via Behavioral Covert Channels in Web Interactions",
+    "authors": [
+      "Ruichao Liang",
+      "Wenzhong Deng",
+      "Jing Chen",
+      "Yuqing Li",
+      "Kaixuan Li",
+      "Cong Wu",
+      "Yang Liu"
+    ],
+    "abstract": "LLM agents increasingly rely on Web interaction, issuing searches, following links, and reading pages, to complete complex user tasks. Since each action is driven by the agent's private context, including the user's prompt, dialogue history, memory, and connected data, it also opens a new privacy exposure surface. Prior attacks either passively analyze network traffic, which yields only coarse correlations, or hijack the agent through indirect prompt injection, which must place sensitive content in an outgoing field and is blocked by content-level defenses. Whether an attacker can actively recover fine-grained private context without any explicit transmission thus remains insufficiently understood. Our insight is that an agent's benign Web decisions themselves leak private context, as what it chooses to visit encodes whether, which, and in what order it acts, forming a behavioral covert channel. Building on this, we design SNOOP, a stateful hierarchical probing framework that narrows a coarse-to-fine hypothesis tree per task and reconstructs user queries and profiles from the agent's observable paths. Across four agents and three LLM backbones on 500 StackExchange queries and 378 multi-turn iKAT dialogues, SNOOP recovers query concepts with an average F1 of 0.89 and user profiles with an F1 of 0.80, while four representative agent defenses change its recovery by less than 0.03 F1. Since no sensitive content is ever transmitted, content-level inspection cannot detect this leakage; we therefore propose Selection-Obfuscated Retrieval (SOR), which acquires resources under a fixed budget independent of private context and confines the agent's selection to a local snapshot, cutting SNOOP's F1 to 0.39 without additional LLM inference.",
+    "published": "2026-11-20T03:17:51Z",
+    "updated": "2026-11-20T03:17:51Z",
+    "url": "https://arxiv.org/abs/2611.27046v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.27046v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "analysis": {
+      "summary": "LLM agents increasingly rely on Web interaction, issuing searches, following links, and reading pages, to complete complex user tasks.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-ai"
+      ],
+      "analyzed_at": "2026-11-23T02:56:46.621199+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-23T02:55:10.941973+00:00"
+  },
+  {
+    "id": "arxiv:2611.27041v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "Subverting Tool Arguments: Defense-Evading Metadata Poisoning in LLM Agents",
+    "authors": [
+      "Shih-Chieh Dai",
+      "Xinyu Sun",
+      "Haichuan Zhang",
+      "Zhiyuan Zhong",
+      "Guanhong Tao"
+    ],
+    "abstract": "Conventional indirect prompt injection (IPI) attacks hijack an LLM agent's workflow through malicious instructions embedded in retrieved external content. The growing adoption of the Model Context Protocol (MCP) exposes another attack surface: tool descriptions supplied by third-party MCP servers. Attackers can manipulate this metadata to induce malicious argument generation during tool calls. The challenge is to ensure that the modified descriptions still appear benign to both LLMs and users. Existing IPI attacks, however, struggle to achieve both high attack success and low detectability in this setting. To address this challenge, we propose GRAFT, an LLM-based optimization method for crafting adversarial tool descriptions. Specifically, GRAFT uses a masking mechanism to identify argument-relevant token positions for targeted injection. It then iteratively refines candidate descriptions using dynamic mutation strategies proposed by an LLM, guided by the agent's tool choices and generated arguments. We evaluate GRAFT on three public datasets against several attack baselines. The results show that GRAFT achieves higher attack success while maintaining low detection rates across five filter-based defenses. It also bypasses several existing IPI defenses. Even under an adaptive defense trained on GRAFT-generated injections, GRAFT remains more effective than the baselines.",
+    "published": "2026-11-20T03:13:56Z",
+    "updated": "2026-11-20T03:13:56Z",
+    "url": "https://arxiv.org/abs/2611.27041v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.27041v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "analysis": {
+      "summary": "Conventional indirect prompt injection (IPI) attacks hijack an LLM agent's workflow through malicious instructions embedded in retrieved external content.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-cr"
+      ],
+      "analyzed_at": "2026-11-23T02:56:46.621285+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-23T02:55:10.942076+00:00"
+  },
+  {
+    "id": "arxiv:2611.26940v1",
+    "source": "arXiv AI安全 最近两周",
+    "database": "arxiv",
+    "topic": "AI安全",
+    "title": "CENTRY: A Probabilistic Latent-State Model for Continual AI Risk Estimation, Monitoring, and Regulation",
+    "authors": [
+      "Bonny Banerjee",
+      "Geetha Raju"
+    ],
+    "abstract": "Artificial Intelligence (AI) systems are increasingly deployed in safety-critical applications, yet existing AI safety frameworks primarily define, categorize, or govern AI risk rather than proposing implementable models and methods for continually estimating, monitoring, and regulating risk throughout an AI system's operational lifetime. This paper proposes CENTRY, a probabilistic framework that enables continual risk estimation, monitoring, and regulation of a deployed AI system from its interactions with its environment. The framework models AI risk as arising from three intrinsic sources: datasets, hardware resources, and models/algorithms. A structured latent-variable model is developed in which the latent representation is decomposed into a fast interaction subspace that captures the evolving AI--environment dynamics and three slow latent subspaces that encode the long-term risk states associated with the dataset, hardware, and model components. Rather than requiring a ground-truth risk label at every time step, the component-risk states are treated as latent variables and are learned by maximizing a variational evidence lower bound, optionally informed during training and continual refinement by evidence-supported behavior--cause records. The resulting framework unifies continual probabilistic inference, online risk estimation, and adaptive risk regulation in an implementable architecture. Under the explicit assumptions stated for the corresponding results, we establish formal guarantees spanning safety, learning, inference, and operations, including finite-horizon and asymptotic risk-budget compliance, regret and convergence bounds for adaptive regulation, consistency and identifiability of component-risk ratings, and detection-delay, false-alarm, containment, and computational-complexity characterizations.",
+    "published": "2026-11-20T00:52:05Z",
+    "updated": "2026-11-20T00:52:05Z",
+    "url": "https://arxiv.org/abs/2611.26940v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.26940v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "eess.SY"
+    ],
+    "analysis": {
+      "summary": "Artificial Intelligence (AI) systems are increasingly deployed in safety-critical applications, yet existing AI safety frameworks primarily define, categorize, or govern AI risk rather than proposing implementable models and methods for continually estimating, monitoring, and regulating risk throughout an AI system's operational lifetime.",
+      "contributions": [
+        "基于论文摘要提取，完整创新点需要大模型分析确认。",
+        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
+      ],
+      "rating": 3,
+      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
+      "tags": [
+        "cs-lg",
+        "cs-ai",
+        "eess-sy"
+      ],
+      "analyzed_at": "2026-11-23T02:56:46.621364+00:00",
+      "method": "fallback",
+      "prompt_version": "security-paper-v1"
+    },
+    "fetched_at": "2026-11-23T02:55:10.942232+00:00"
+  },
+  {
     "id": "arxiv:2611.26601v1",
     "source": "arXiv AI安全 最近两周",
     "database": "arxiv",
@@ -3214,150 +3331,5 @@
       "prompt_version": "security-paper-v1"
     },
     "fetched_at": "2026-11-10T04:11:46.421421+00:00"
-  },
-  {
-    "id": "arxiv:2611.08752v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "AttentionSwitch: Jailbreak Defense for LLMs via Joint Learning of Sparse Attention-Head Selection and Scaling",
-    "authors": [
-      "Doniyorkhon Obidov",
-      "Honggang Yu",
-      "Xiaolong Guo",
-      "Kaichen Yang"
-    ],
-    "abstract": "Large language models have achieved remarkable performance across a wide range of tasks, yet they remain susceptible to jailbreak attacks that circumvent safety mechanisms and elicit harmful or unintended outputs. Although safety can be improved through model fine-tuning, such approaches can be computationally expensive and may degrade previously acquired capabilities through catastrophic forgetting. Recent jailbreak defenses have therefore explored targeted interventions on specific model components associated with unsafe behavior. However, existing approaches typically decouple two inherently related decisions: where to intervene and how to modify the selected components. Such sequential optimization may be suboptimal because the optimal intervention location can depend on the intervention applied there, and vice versa. In this work, we introduce AttentionSwitch, the first jailbreak defense to jointly optimize intervention sites and strengths within a frozen LLM. Specifically, AttentionSwitch learns a sparse set of attention heads together with query-conditioned multiplicative scaling factors, allowing the outputs of the selected heads to be either attenuated or amplified without altering the directions of their representations. Across popular language models and jailbreak attacks, AttentionSwitch outperforms existing defenses, with particularly strong results when training data is scarce.",
-    "published": "2026-11-05T22:00:17Z",
-    "updated": "2026-11-05T22:00:17Z",
-    "url": "https://arxiv.org/abs/2611.08752v1",
-    "pdf_url": "https://arxiv.org/pdf/2611.08752v1",
-    "categories": [
-      "cs.AI",
-      "cs.CL",
-      "cs.CR"
-    ],
-    "analysis": {
-      "summary": "Large language models have achieved remarkable performance across a wide range of tasks, yet they remain susceptible to jailbreak attacks that circumvent safety mechanisms and elicit harmful or unintended outputs.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ai",
-        "cs-cl",
-        "cs-cr"
-      ],
-      "analyzed_at": "2026-11-14T02:32:50.147359+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-10T04:11:46.421467+00:00"
-  },
-  {
-    "id": "arxiv:2611.08699v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Adaptive Data Analysis and Adversarial Robustness on Insertion-Deletion Streams",
-    "authors": [
-      "Elena Gribelyuk",
-      "Honghao Lin",
-      "Xin Lyu",
-      "Mahbod Majid",
-      "David P. Woodruff",
-      "Huacheng Yu",
-      "Samson Zhou"
-    ],
-    "abstract": "Classical streaming algorithms and statistical mechanisms frequently fail when future inputs or queries depend adaptively on prior outputs. In this work, we resolve central open questions in both adaptive data analysis (ADA) and adversarially robust turnstile streaming by introducing a unified hierarchical estimator-corrector-learner framework. For adaptive data analysis over an unrestricted domain, we design a randomized mechanism that answers $k$ adaptively chosen statistical queries to within additive error $α$ using $\\tilde{O}(\\frac{\\sqrt{k}}α + \\frac{1}{α^2})$ samples, nearly matching the lower bounds of Hardt and Ullman [FOCS 2014] and Steinke and Ullman [COLT 2015] while improving upon the classic $\\tilde{O}(\\frac{\\sqrt{k}}{α^2})$ bound of Dwork et al. [STOC 2015] and Bassily et al. [STOC 2016]. For known finite domains $U$, we combine our mechanism with private multiplicative weights to improve the sample complexity to $\\tilde{O}\\left(\\frac{1}{α^2}+ \\min\\left(\\frac{\\sqrt{k}}α, \\frac{\\sqrt{\\log |U|}}{α^2}\\right)\\right)$. Building on our ADA mechanism, we construct a fixed linear sketch with a stateful decoder that answers $\\tilde{O}(\\frac{1}{ε^2})$ adaptive $F_2$ moment estimation queries to within a $(1\\pmε)$-multiplicative factor using $\\tilde{O}(\\frac{1}{ε^2})$ bits of space. Finally, by embedding this sketch into a binary-tree recursion, we obtain the first nearly space-optimal adversarially robust algorithm for $F_2$ estimation on insertion-deletion streams. Our algorithm uses $\\tilde O(\\frac{1}{ε^2})$ bits of space, improving upon the $\\tilde{O}(\\frac{1}{ε^4})$ bound of Gribelyuk et al. [STOC 2026] and matching the insertion-only bound of Woodruff and Zhou [FOCS 2021]. This demonstrates that no asymptotic space overhead in $ε$ is required to achieve adversarial robustness in the turnstile model.",
-    "published": "2026-11-05T20:56:19Z",
-    "updated": "2026-11-05T20:56:19Z",
-    "url": "https://arxiv.org/abs/2611.08699v1",
-    "pdf_url": "https://arxiv.org/pdf/2611.08699v1",
-    "categories": [
-      "cs.DS"
-    ],
-    "analysis": {
-      "summary": "Classical streaming algorithms and statistical mechanisms frequently fail when future inputs or queries depend adaptively on prior outputs.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-ds"
-      ],
-      "analyzed_at": "2026-11-15T02:01:27.856262+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-10T04:11:46.421532+00:00"
-  },
-  {
-    "id": "arxiv:2611.08438v1",
-    "source": "arXiv AI安全 最近两周",
-    "database": "arxiv",
-    "topic": "AI安全",
-    "title": "Understanding AI from the Inside: The State of Mechanistic Interpretability for AI Safety",
-    "authors": [
-      "Fazl Barez",
-      "Tung-Yu Wu",
-      "Hunar Batra",
-      "Gabriele Dominici",
-      "Florent Draye",
-      "Yanai Elazar",
-      "Damiano Fornasiere",
-      "Antía García",
-      "Abir Harrasse",
-      "Riley Harris",
-      "Sara Hooker",
-      "Michael Lan",
-      "Belinda Z. Li",
-      "Aaron Maiwald",
-      "Narmeen Fatimah Oozeer",
-      "Naomi Saphra",
-      "Or David Shafran",
-      "Adi Simhi",
-      "Robert Trager",
-      "Shriyash Kaustubh Upadhyay",
-      "Ziyu Yao",
-      "Yu Zhao",
-      "Shay B. Cohen",
-      "Mor Geva",
-      "Yoshua Bengio",
-      "Stella Biderman",
-      "Hassan Sajjad"
-    ],
-    "abstract": "Neural networks are likely to be among the most consequential artefacts in human history. As these systems become more capable and autonomous, their potential to cause societal harm also grows, making AI safety one of the defining challenges of our time. Yet we continue to build increasingly powerful systems without fully understanding how they work, how they will behave in unfamiliar situations, or how to reliably control them. Mechanistic interpretability offers a path towards understanding these systems by studying their internal representations and computations, with the aim of evaluating, predicting, and controlling behaviour. We survey mechanistic interpretability for AI safety in order to answer the question: Does understanding how models work actually make them safer? We place mechanistic interpretability in the broader context of interpretability research and compare its mechanistic evidence with behavioural evaluation. We introduce the foundations of mechanistic interpretability, including features, polysemanticity, transformer computation, and circuits, and survey methods for feature extraction and analysis, circuit discovery and causal verification, explaining intermediate representations in natural language, learning dynamics, and training-data attribution. Beyond surveying existing methods, we propose a unified framework for evaluating mechanistic interpretability claims and characterise six research orientations by their goals, assumptions, and trade-offs. Finally, we examine how mechanistic understanding can support AI safety, including knowledge editing, steering, and monitoring, and assess its limitations, failure modes, open problems, and relationship to behavioural safety measures. We also release a repository of code notebooks with worked examples that reproduce key findings from surveyed methods, allowing readers to build intuition through hands-on experimentation.",
-    "published": "2026-11-05T18:30:54Z",
-    "updated": "2026-11-05T18:30:54Z",
-    "url": "https://arxiv.org/abs/2611.08438v1",
-    "pdf_url": "https://arxiv.org/pdf/2611.08438v1",
-    "categories": [
-      "cs.CL",
-      "cs.AI",
-      "cs.LG"
-    ],
-    "analysis": {
-      "summary": "Neural networks are likely to be among the most consequential artefacts in human history.",
-      "contributions": [
-        "基于论文摘要提取，完整创新点需要大模型分析确认。",
-        "该论文属于安全相关方向，建议结合正文进一步评估方法和实验。"
-      ],
-      "rating": 3,
-      "recommendation": "当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。",
-      "tags": [
-        "cs-cl",
-        "cs-ai",
-        "cs-lg"
-      ],
-      "analyzed_at": "2026-11-08T01:37:10.179261+00:00",
-      "method": "fallback",
-      "prompt_version": "security-paper-v1"
-    },
-    "fetched_at": "2026-11-08T01:35:34.177937+00:00"
   }
 ]

@@ -1,8 +1,65 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-11-22 10:24 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-11-23 10:56 Asia/Shanghai
 
 ## 今日论文
+
+### [Actions Speak Louder than Words: Stateful Privacy Sniffing of LLM Agents via Behavioral Covert Channels in Web Interactions](https://arxiv.org/abs/2611.27046v1)
+
+**作者**：Ruichao Liang, Wenzhong Deng, Jing Chen, Yuqing Li, Kaixuan Li, Cong Wu, Yang Liu
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-11-20 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.27046v1)
+
+**摘要总结**：LLM agents increasingly rely on Web interaction, issuing searches, following links, and reading pages, to complete complex user tasks.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
+
+---
+
+### [Subverting Tool Arguments: Defense-Evading Metadata Poisoning in LLM Agents](https://arxiv.org/abs/2611.27041v1)
+
+**作者**：Shih-Chieh Dai, Xinyu Sun, Haichuan Zhang, Zhiyuan Zhong, Guanhong Tao
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-11-20 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.27041v1)
+
+**摘要总结**：Conventional indirect prompt injection (IPI) attacks hijack an LLM agent's workflow through malicious instructions embedded in retrieved external content.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
+
+---
+
+### [CENTRY: A Probabilistic Latent-State Model for Continual AI Risk Estimation, Monitoring, and Regulation](https://arxiv.org/abs/2611.26940v1)
+
+**作者**：Bonny Banerjee, Geetha Raju
+
+**来源**：arxiv · AI安全 · **发布日期**：2026-11-20 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.26940v1)
+
+**摘要总结**：Artificial Intelligence (AI) systems are increasingly deployed in safety-critical applications, yet existing AI safety frameworks primarily define, categorize, or govern AI risk rather than proposing implementable models and methods for continually estimating, monitoring, and regulating risk throughout an AI system's operational lifetime.
+
+**创新点**
+
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
+
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-lg` `cs-ai` `eess-sy`
+
+---
 
 ### [SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research](https://arxiv.org/abs/2611.26601v1)
 
@@ -1464,60 +1521,3 @@
 **推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
 
 `cs-lg` `cs-ai` `math-oc` `stat-ml`
-
----
-
-### [AttentionSwitch: Jailbreak Defense for LLMs via Joint Learning of Sparse Attention-Head Selection and Scaling](https://arxiv.org/abs/2611.08752v1)
-
-**作者**：Doniyorkhon Obidov, Honggang Yu, Xiaolong Guo, Kaichen Yang
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-11-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.08752v1)
-
-**摘要总结**：Large language models have achieved remarkable performance across a wide range of tasks, yet they remain susceptible to jailbreak attacks that circumvent safety mechanisms and elicit harmful or unintended outputs.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ai` `cs-cl` `cs-cr`
-
----
-
-### [Adaptive Data Analysis and Adversarial Robustness on Insertion-Deletion Streams](https://arxiv.org/abs/2611.08699v1)
-
-**作者**：Elena Gribelyuk, Honghao Lin, Xin Lyu, Mahbod Majid, David P. Woodruff, Huacheng Yu, Samson Zhou
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-11-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.08699v1)
-
-**摘要总结**：Classical streaming algorithms and statistical mechanisms frequently fail when future inputs or queries depend adaptively on prior outputs.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-ds`
-
----
-
-### [Understanding AI from the Inside: The State of Mechanistic Interpretability for AI Safety](https://arxiv.org/abs/2611.08438v1)
-
-**作者**：Fazl Barez, Tung-Yu Wu, Hunar Batra, Gabriele Dominici, Florent Draye, Yanai Elazar, Damiano Fornasiere, Antía García, et al.
-
-**来源**：arxiv · AI安全 · **发布日期**：2026-11-05 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.08438v1)
-
-**摘要总结**：Neural networks are likely to be among the most consequential artefacts in human history.
-
-**创新点**
-
-- 基于论文摘要提取，完整创新点需要大模型分析确认。
-- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
-
-**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
-
-`cs-cl` `cs-ai` `cs-lg`
