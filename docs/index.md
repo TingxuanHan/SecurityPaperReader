@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-11-26 12:15 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-11-27 12:22 Asia/Shanghai
 
 ## 今日论文
 
@@ -162,13 +162,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-24 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.33030v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large language models (LLMs) remain vulnerable to jailbreak attacks, where adversaries append optimized suffixes to otherwise benign looking prompts to bypass safety alignment.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl` `cs-cr`
 
 ---
 
@@ -235,13 +238,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-24 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.33243v1)
 
-**摘要总结**：暂无
+**摘要总结**：Machine Learning (ML) models are already being deployed at scale for malware detection.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai` `cs-lg`
 
 ---
 
@@ -346,13 +352,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-23 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.31606v1)
 
-**摘要总结**：暂无
+**摘要总结**：LLM-based security review agents can reason about vulnerabilities that deterministic tools miss, but deploying them responsibly requires knowing whether they actually work.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
@@ -362,13 +371,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-23 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.31589v1)
 
-**摘要总结**：暂无
+**摘要总结**：Vision Transformers (ViTs) have achieved strong performance across computer vision tasks, but the quality of their learned representations differs drastically depending on the training paradigm.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv`
 
 ---
 
@@ -378,13 +390,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-23 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.31424v1)
 
-**摘要总结**：暂无
+**摘要总结**：As LLMs become more capable, agents can perform more complex tasks with tools and maintain longer interactions with users.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai`
 
 ---
 
@@ -394,13 +409,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-23 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.31163v1)
 
-**摘要总结**：暂无
+**摘要总结**：Preference tuning of text-to-image diffusion models spends most of its compute generating candidate images, yet training prompts are typically sampled uniformly at random, wasting compute generating images that provide too little signal for model alignment.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cv` `cs-lg`
 
 ---
 
@@ -410,13 +428,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-23 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.31129v1)
 
-**摘要总结**：暂无
+**摘要总结**：Model alignment is the primary safety and security mechanism for enforcing refusal of malicious prompts in modern foundation models; yet, existing adversarial evaluations implicitly assume underlying hardware integrity.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ai`
 
 ---
 
@@ -426,13 +447,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-23 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.30932v1)
 
-**摘要总结**：暂无
+**摘要总结**：Agent skills are reusable packages that extend a large language model (LLM) agent with scripts, third-party dependencies, and natural-language instructions.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-se`
 
 ---
 
