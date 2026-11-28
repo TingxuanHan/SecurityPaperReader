@@ -1,6 +1,6 @@
 # Security Paper Reader
 
-自动抓取并总结安全相关论文。更新时间：2026-11-27 12:22 Asia/Shanghai
+自动抓取并总结安全相关论文。更新时间：2026-11-28 12:02 Asia/Shanghai
 
 ## 今日论文
 
@@ -485,13 +485,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-23 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.31331v1)
 
-**摘要总结**：暂无
+**摘要总结**：This chapter examines the principles and emerging research directions for building secure, privacy-preserving, and resilient Edge Artificial Intelligence (Edge AI) systems.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-ni`
 
 ---
 
@@ -634,13 +637,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-22 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.29268v1)
 
-**摘要总结**：暂无
+**摘要总结**：Multimodal web agents automate website interactions but remain vulnerable to visual prompt injection (VPI), where malicious webpage content manipulates their visual processing and induces unintended actions.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr` `cs-lg`
 
 ---
 
@@ -650,13 +656,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-22 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.29217v1)
 
-**摘要总结**：暂无
+**摘要总结**：Safety alignment is widely used to align large language models (LLMs) to produce helpful and harmless responses.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
@@ -666,13 +675,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-21 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.28763v1)
 
-**摘要总结**：暂无
+**摘要总结**：AI coding agents now triage issues, review pull requests and pick up tasks inside GitHub repositories, and to do so they read text that anyone with a GitHub account can write.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cr`
 
 ---
 
@@ -682,13 +694,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-21 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.28650v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large Language Models are trained on diverse corpora containing outputs from proprietary teacher models and provider-curated sources.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-ai` `cs-lg`
 
 ---
 
@@ -698,13 +713,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-21 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.28469v1)
 
-**摘要总结**：暂无
+**摘要总结**：LLM applications are increasingly built as agentic workflows: programs that combine model calls, external tools, and control logic to act autonomously on a user's behalf.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-se` `cs-ai`
 
 ---
 
@@ -714,13 +732,16 @@
 
 **来源**：arxiv · AI安全 · **发布日期**：2026-11-20 · **推荐**：★★★☆☆ · [PDF](https://arxiv.org/pdf/2611.27504v1)
 
-**摘要总结**：暂无
+**摘要总结**：Large language models behave differently across languages, and are noticeably less safe in lower-resource languages.
 
 **创新点**
 
-- 暂无
+- 基于论文摘要提取，完整创新点需要大模型分析确认。
+- 该论文属于安全相关方向，建议结合正文进一步评估方法和实验。
 
-**推荐理由**：暂无
+**推荐理由**：当前为规则降级结果；配置 Codex 后会生成更准确的推荐理由。
+
+`cs-cl` `cs-ai`
 
 ---
 
